@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_penguin.mdl"
+$modelname "v_penguin_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
@@ -25,7 +25,7 @@ $eyeposition 0.000000 0.000000 0.000000
 
 
 //reference mesh(es)
-$body "body" "v_hands_reference"
+$body "body" "v_hands_reference_soldier_ld"
 
 $body "body" "v_penguin_reference"
 
