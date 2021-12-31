@@ -39,5 +39,14 @@ for /r "%~dp0" %%f in (*_soldier_hd.mdl) do (
   xcopy /F /Y %%f %~dp0..\models_hd\op4\!filename!*
 )
 
+rem Copy HD guard MDLs to models_hd\bshift\
+
+for /r "%~dp0" %%f in (*_guard_hd.mdl) do (
+  set filename=%%~nxf
+  rem Remove end suffix.
+  set filename=!filename:~0,-13!.mdl
+  xcopy /F /Y %%f %~dp0..\models_hd\bshift\!filename!*
+)
+
 pause
 endlocal
