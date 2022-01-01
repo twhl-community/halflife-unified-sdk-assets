@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_m40a1.mdl"
+$modelname "v_m40a1_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
@@ -27,7 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "body" "m40a1_ref"
 
-$body "studio" "sniper_hands"
+$body "studio" "v_hands_reference_soldier_ld"
 
 
 // 1 attachment(s)
