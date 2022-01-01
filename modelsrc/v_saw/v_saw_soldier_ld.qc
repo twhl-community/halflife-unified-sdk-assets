@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_saw.mdl"
+$modelname "v_saw_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
@@ -27,7 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "body" "v_saw"
 
-$body "studio" "v_saw_hands_reference"
+$body "studio" "v_saw_hands_reference_soldier_ld"
 
 $bodygroup "rounds"
 {
