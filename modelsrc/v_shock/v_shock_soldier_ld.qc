@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_shock.mdl"
+$modelname "v_shock_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
@@ -27,7 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "body" "shock_ref"
 
-$body "studio" "v_shock_hands_reference"
+$body "studio" "v_shock_hands_reference_soldier_ld"
 
 
 // 4 attachment(s)
