@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_knife.mdl"
+$modelname "v_knife_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
