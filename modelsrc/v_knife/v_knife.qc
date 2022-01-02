@@ -27,6 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "studio" "v_knife_reference"
 
+$body "studio" "v_knife_hands_reference_soldier_ld"
 
 // 4 hit box(es)
 $hbox 0 "Bip01 R Forearm" -7.690000 -3.650000 -3.590000 11.368423 3.170000 3.810000
