@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_displacer.mdl"
+$modelname "v_displacer_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
@@ -27,7 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "body" "displacer_reference"
 
-$body "body" "displacer_hands"
+$body "body" "displacer_hands_reference_soldier_ld"
 
 
 // 4 attachment(s)
