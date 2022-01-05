@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_spore_launcher.mdl"
+$modelname "v_spore_launcher_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
@@ -27,7 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "studio" "spore_launcher_reference"
 
-$body "studio" "spore_launcher_hands"
+$body "studio" "spore_launcher_hands_reference_soldier_ld"
 
 $body "studio" "spore_reference"
 
