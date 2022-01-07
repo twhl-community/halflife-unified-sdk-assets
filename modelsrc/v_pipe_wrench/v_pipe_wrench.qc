@@ -27,6 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "studio" "v_pipe_wrench_reference"
 
+$body "studio" "v_pipe_wrench_hands_reference_soldier_ld"
 
 // 2 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.510000 -2.160000 -2.020000 11.368422 2.550000 1.120000
