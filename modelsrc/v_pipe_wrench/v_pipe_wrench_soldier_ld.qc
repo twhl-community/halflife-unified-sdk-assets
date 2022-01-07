@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "v_pipe_wrench.mdl"
+$modelname "v_pipe_wrench_soldier_ld.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
