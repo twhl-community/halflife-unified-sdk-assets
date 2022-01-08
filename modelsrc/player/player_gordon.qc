@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "player.mdl"
+$modelname "player_gordon.mdl"
 $cd ".\"
 $cdtexture ".\"
 $scale 1.0
