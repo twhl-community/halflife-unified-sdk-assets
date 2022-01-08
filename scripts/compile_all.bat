@@ -3,7 +3,7 @@ setlocal enableextensions enabledelayedexpansion
 prompt $
 cls
 
-for /r "%~dp0" %%f in (*.qc) do (
+for /r "%~dp0..\modelsrc" %%f in (*.qc) do (
   pushd "%%~dpf"
     echo ================================
     echo.
