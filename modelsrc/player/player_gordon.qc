@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "player_gordon.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\player\gordon"
 $scale 1.0
 $cliptotextures
 

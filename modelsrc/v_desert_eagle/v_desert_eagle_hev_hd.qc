@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_desert_eagle_hev_hd.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\hev"
+$cdtexture "..\..\texturesrc\viewmodel\v_desert_eagle"
 $scale 1.0
 $cliptotextures
 

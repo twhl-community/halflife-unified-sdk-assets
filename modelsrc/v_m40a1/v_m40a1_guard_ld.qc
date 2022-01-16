@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_m40a1_guard_ld.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\guard"
+$cdtexture "..\..\texturesrc\viewmodel\v_m40a1"
 $scale 1.0
 $cliptotextures
 

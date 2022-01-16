@@ -15,6 +15,8 @@ Original internal name:
 $modelname "v_saw_soldier_hd.mdl"
 $cd ".\"
 $cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
+$cdtexture "..\..\texturesrc\viewmodel\v_saw"
 $scale 1.0
 $cliptotextures
 

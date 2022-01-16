@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_spore_launcher_hev_ld.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\hev"
+$cdtexture "..\..\texturesrc\viewmodel\v_spore_launcher"
 $scale 1.0
 $cliptotextures
 

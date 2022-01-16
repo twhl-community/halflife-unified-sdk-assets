@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_displacer_guard_ld.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\guard"
+$cdtexture "..\..\texturesrc\viewmodel\v_displacer"
 $scale 1.0
 $cliptotextures
 

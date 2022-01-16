@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_penguin_hev_ld.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\hev"
+$cdtexture "..\..\texturesrc\viewmodel\v_penguin"
 $scale 1.0
 $cliptotextures
 

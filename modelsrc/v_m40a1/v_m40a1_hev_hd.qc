@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_m40a1_hev_hd.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\hev"
+$cdtexture "..\..\texturesrc\viewmodel\v_m40a1"
 $scale 1.0
 $cliptotextures
 

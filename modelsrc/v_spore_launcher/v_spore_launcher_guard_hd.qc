@@ -14,7 +14,8 @@ Original internal name:
 
 $modelname "v_spore_launcher_guard_hd.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\viewmodel\hands\guard"
+$cdtexture "..\..\texturesrc\viewmodel\v_spore_launcher"
 $scale 1.0
 $cliptotextures
 
