@@ -18,7 +18,6 @@ $cdtexture "..\..\texturesrc\headcrab"
 $scale 1.0
 $cliptotextures
 
-$externaltextures
 
 $bbox -12.000000 -12.000000 0.000000 12.000000 12.000000 24.000000
 $cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
