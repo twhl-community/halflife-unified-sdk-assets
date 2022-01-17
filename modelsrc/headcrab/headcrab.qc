@@ -69,5 +69,7 @@ $sequence "crashidle" "crashidle" fps 34 loop
 $sequence "crash" "crash" fps 20 { event 1000 1 } 
 $sequence "hstruggleidle" "hstruggleidle" fps 18 loop 
 $sequence "hstruggle" "hstruggle" fps 28 { event 1000 1 } 
+$sequence "jumploop" "jumploop" fps 30 loop 
+$sequence "eat_ground" "eat_ground" fps 15 loop 
 
 // End of QC script.
