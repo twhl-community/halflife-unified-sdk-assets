@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "zombie.mdl"
 $cd ".\"
-$cdtexture ".\"
+$cdtexture "..\..\texturesrc\zombie"
 $scale 1.0
 $cliptotextures
 
