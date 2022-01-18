@@ -104,5 +104,9 @@ $sequence "vent_zidle" "vent_zidle" fps 18
 $sequence "vent_c1a3" "vent_c1a3" AX AY AZR fps 18 { event 1000 1 } 
 $sequence "haulzombie" "haulzombie" AX AY AZR fps 18 
 $sequence "c2a3_snack_getup" "c2a3_snack_getup" AX AY AZR fps 12 
+$sequence "left_tug" "left_tug" fps 18 
+$sequence "left_tug_idle" "left_tug_idle" fps 18 
+$sequence "right_tug" "right_tug" fps 18 
+$sequence "right_tug_idle" "right_tug_idle" fps 18 
 
 // End of QC script.
