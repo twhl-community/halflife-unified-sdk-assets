@@ -50,7 +50,6 @@ $hbox 5 "Bip01 R Arm1" -3.880000 -4.380000 -3.370000 18.780001 2.620000 2.200000
 $hbox 5 "Bip01 R Arm2" 0.000000 -1.400000 -1.610000 15.650000 1.530000 2.760000
 $hbox 5 "Bip01 R Hand" -0.590000 -1.470000 -1.680000 5.320000 0.570000 2.810000
 
-$sequencegroupsize 64
 
 // 44 animation sequence(s)
 $sequence "idle1" "idle1" fps 15 loop ACT_IDLE 4 
