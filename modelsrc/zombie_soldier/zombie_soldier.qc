@@ -85,6 +85,32 @@ $sequence "dieheadshot2" "dieheadshot2" fps 22 ACT_DIE_GUTSHOT 1 { event 2001 18
 $sequence "diesimple" "diesimple" X fps 20 ACT_DIESIMPLE 1 { event 2001 13 } 
 $sequence "diebackward" "diebackward" fps 18 ACT_DIEBACKWARD 1 { event 2001 10 } 
 $sequence "dieforward" "dieforward" X fps 18 ACT_DIEFORWARD 1 { event 2001 21 } 
+$sequence "pause" "..\zombie\pause" fps 15 
+$sequence "busting_through_wall" "..\zombie\busting_through_wall" fps 20 
+$sequence "kick_punch_wall" "..\zombie\kick_punch_wall" fps 14 
+$sequence "bust_window" "..\zombie\bust_window" fps 26 
+$sequence "soda" "..\zombie\soda" fps 26 { event 1004 63 "*buttons/latchunlocked1.wav" } 
+$sequence "slideidle" "..\zombie\slideidle" fps 16 loop 
+$sequence "slidewall" "..\zombie\slidewall" fps 18 { event 1000 1 } 
+$sequence "ventclimbidle" "..\zombie\ventclimbidle" fps 15 loop 
+$sequence "ventclimb" "..\zombie\ventclimb" fps 20 
+$sequence "deadidle" "..\zombie\deadidle" fps 14 loop 
+$sequence "deadwall" "..\zombie\deadwall" fps 16 
+$sequence "freakdie" "..\zombie\freakdie" fps 12 { event 1000 0 } 
+$sequence "freak" "..\zombie\freak" fps 16 loop { event 1003 2 "freak" } 
+$sequence "eatbodytable" "..\zombie\eatbodytable" fps 20 loop 
+$sequence "eatbody" "..\zombie\eatbody" fps 15 loop 
+$sequence "eatbodystand" "..\zombie\eatbodystand" fps 30 
+$sequence "ripdoor" "..\zombie\ripdoor" fps 20 { event 1008 1 "*debris/bustcrate1.wav" } 
+$sequence "zombie_pull_scientist" "..\zombie\zombie_pull_scientist" fps 17 
+$sequence "zombie_eating" "..\zombie\zombie_eating" AX AY AZR fps 15 loop 
+$sequence "eat_to_stand" "..\zombie\eat_to_stand" AX AY AZR fps 15 
+$sequence "vent_zidle" "..\zombie\vent_zidle" fps 18 
+$sequence "vent_c1a3" "..\zombie\vent_c1a3" AX AY AZR fps 18 { event 1000 1 } 
+$sequence "haulzombie" "..\zombie\haulzombie" AX AY AZR fps 18 
+$sequence "c2a3_snack_getup" "..\zombie\c2a3_snack_getup" AX AY AZR fps 12 
+
+// Opposing Force sequences
 $sequence "dead_on_back" "dead_on_back" fps 30 
 $sequence "dead_on_stomach" "dead_on_stomach" fps 30 
 $sequence "throw_scientist" "throw_scientist" fps 25 {
