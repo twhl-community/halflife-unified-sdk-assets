@@ -121,4 +121,10 @@ $sequence "throw_scientist" "throw_scientist" fps 25 {
 $sequence "get_off_table" "get_off_table" fps 25 
 $sequence "table_breathe" "table_breathe" fps 30 loop 
 
+// Blue Shift sequences
+$sequence "left_tug" "..\zombie\left_tug" fps 18 
+$sequence "left_tug_idle" "..\zombie\left_tug_idle" fps 18 
+$sequence "right_tug" "..\zombie\right_tug" fps 18 
+$sequence "right_tug_idle" "..\zombie\right_tug_idle" fps 18 
+
 // End of QC script.
