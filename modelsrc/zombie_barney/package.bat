@@ -3,6 +3,8 @@ setlocal enableextensions enabledelayedexpansion
 prompt $
 cls
 
-if exist zombie_barney.mdl xcopy /F /Y zombie_barney.mdl %~dp0..\..\models\zombie_barney.mdl*
+set basename=zombie_barney
+
+if exist %basename%_ld.mdl xcopy /F /Y %basename%_ld.mdl %~dp0..\..\models\%basename%.mdl*
 
 endlocal
