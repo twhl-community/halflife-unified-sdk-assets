@@ -104,4 +104,10 @@ $sequence "vent_c1a3" "vent_c1a3" AX AY AZR fps 18 { event 1000 1 }
 $sequence "haulzombie" "haulzombie" AX AY AZR fps 18 
 $sequence "c2a3_snack_getup" "c2a3_snack_getup" AX AY AZR fps 12 
 
+// Blue Shift sequences
+$sequence "left_tug" "..\zombie\left_tug" fps 18 
+$sequence "left_tug_idle" "..\zombie\left_tug_idle" fps 18 
+$sequence "right_tug" "..\zombie\right_tug" fps 18 
+$sequence "right_tug_idle" "..\zombie\right_tug_idle" fps 18 
+
 // End of QC script.
