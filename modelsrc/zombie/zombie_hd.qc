@@ -104,6 +104,17 @@ $sequence "vent_c1a3" "animations/hd/vent_c1a3" AX AY AZR fps 18 { event 1000 1 
 $sequence "haulzombie" "animations/hd/haulzombie" AX AY AZR fps 18 
 $sequence "c2a3_snack_getup" "animations/hd/c2a3_snack_getup" AX AY AZR fps 12 
 
+// Opposing Force sequences
+$sequence "dead_on_back" "animations/hd/dead_on_back" fps 30 
+$sequence "dead_on_stomach" "animations/hd/dead_on_stomach" fps 30 
+$sequence "throw_scientist" "animations/hd/throw_scientist" fps 25 {
+  { event 1004 33 "zombie/claw_strike3.wav" } 
+  { event 1004 36 "zombie/claw_strike3.wav" } 
+  { event 1004 60 "zombie/zo_attack1.wav" } 
+ }
+$sequence "get_off_table" "animations/hd/get_off_table" fps 25 
+$sequence "table_breathe" "animations/hd/table_breathe" fps 30 loop 
+
 // Blue Shift sequences
 $sequence "left_tug" "animations/hd/left_tug" fps 9 
 $sequence "left_tug_idle" "animations/hd/left_tug_idle" fps 18 
