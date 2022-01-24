@@ -159,4 +159,18 @@ $sequence "pepsiswing" "animations/hd/pepsiswing" fps 25 { event 1003 1 "die" } 
 $sequence "pepsipush" "animations/hd/pepsipush" fps 18 { event 1003 51 "topple" } { event 1003 90 "horror" } 
 $sequence "buttonpush" "animations/hd/buttonpush" fps 20 { event 1003 7 "button" } 
 
+// Opposing Force sequences
+$sequence "turn_lever" "animations/hd/turn_lever" fps 31 
+$sequence "draw_shoot" "animations/hd/draw_shoot" fps 13 {
+  { event 2 8 } 
+  { event 5001 16 "21" } 
+  { event 3 16 } 
+  { event 5001 32 "21" } 
+  { event 3 32 } 
+  { event 5001 47 "21" } 
+  { event 3 47 } 
+  { event 5001 62 "21" } 
+  { event 3 62 } 
+ }
+
 // End of QC script.
