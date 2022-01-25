@@ -173,4 +173,59 @@ $sequence "draw_shoot" "animations/hd/draw_shoot" fps 13 {
   { event 3 62 } 
  }
 
+// Blue Shift sequences
+$sequence "range_fire" "animations/hd/range_fire" fps 15 {
+  { event 2 1 } 
+  { event 5001 9 "21" } 
+  { event 3 9 } 
+  { event 5001 31 "21" } 
+  { event 3 31 } 
+  { event 5001 53 "21" } 
+  { event 3 53 } 
+  { event 5001 75 "21" } 
+  { event 3 75 } 
+  { event 5001 97 "21" } 
+  { event 3 97 } 
+  { event 5001 119 "21" } 
+  { event 3 119 } 
+  { event 1003 150 "end_range_fire" } 
+ }
+$sequence "range_pushbutton" "animations/hd/range_pushbutton" fps 30 {
+  { event 2 1 } 
+  { event 1003 20 "rangebutton" } 
+  { event 1003 43 "end_range_pushbutton" } 
+ }
+$sequence "range_reload" "animations/hd/range_reload" fps 15 { event 2 1 } { event 1003 41 "end_range_reload" } 
+$sequence "adjust_armor" "animations/hd/adjust_armor" fps 15 
+$sequence "wash_hands" "animations/hd/wash_hands" fps 12 { event 1003 12 "faucet_on" } { event 1003 67 "faucet_off" } 
+$sequence "dry_hands" "animations/hd/dry_hands" fps 12 { event 1003 12 "blower_on" } 
+$sequence "eaten" "animations/hd/eaten" fps 21 { event 1000 1 } 
+$sequence "eaten_loop" "animations/hd/eaten_loop" fps 25 loop 
+$sequence "tugged" "animations/hd/tugged" fps 18 { event 1000 1 } 
+$sequence "tugged_idle" "animations/hd/tugged_idle" fps 18 { event 1000 0 } 
+$sequence "block_gate" "animations/hd/block_gate" fps 15 {
+  { event 1000 315 } 
+  { event 1003 315 "cage_door_master_relay" } 
+  { event 1003 292 "barney_dies_seq_relay_ct" } 
+  { event 1008 315 "common/bodydrop3.WAV" } 
+ }
+$sequence "block_gate_idle" "animations/hd/block_gate_idle" fps 15 loop 
+$sequence "gatedie" "animations/hd/gatedie" fps 34 ACT_DIESIMPLE 2 {
+  { event 2001 5 } 
+  { event 1000 0 } 
+  { event 1003 1 "cage_door_master_relay" } 
+ }
+$sequence "tram_dive" "animations/hd/tram_dive" fps 27 { event 1000 1 } 
+$sequence "tram_slouch" "animations/hd/tram_slouch" fps 30 loop 
+$sequence "tram_slouch_fly" "animations/hd/tram_slouch_fly" fps 30 { event 1000 1 } 
+$sequence "playgame1" "animations/hd/playgame1" fps 25 loop 
+$sequence "playgame2" "animations/hd/playgame2" fps 25 
+$sequence "raise_flag" "animations/hd/raise_flag" fps 20 loop 
+$sequence "eating" "animations/hd/eating" fps 13 loop 
+$sequence "console_sitting" "animations/hd/console_sitting" fps 25 loop 
+$sequence "console_stand" "animations/hd/console_stand" LX fps 27 
+$sequence "adjust_idle" "animations/hd/adjust_idle" fps 27 loop 
+$sequence "diecrump2" "animations/hd/diecrump2" X fps 18 ACT_DIESIMPLE 2 { event 2001 13 } { event 1000 0 } 
+$sequence "dieviolent2" "animations/hd/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 } 
+
 // End of QC script.
