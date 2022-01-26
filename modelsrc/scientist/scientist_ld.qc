@@ -74,7 +74,6 @@ $hbox 5 "Bip02 R Arm2" 0.000000 -2.950000 -1.970000 11.250000 2.220000 2.450000
 $hbox 5 "Bip02 R Hand" 0.000000 -1.850000 -1.770000 3.930000 1.590000 2.080000
 $hbox 1 "Bip02 Head" 0.000000 -3.960000 -4.860000 10.020000 6.230000 5.070000
 
-$sequencegroupsize 64
 
 // 128 animation sequence(s)
 $sequence "walk" "animations/ld/walk" LX fps 20 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
