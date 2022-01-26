@@ -32,6 +32,8 @@ studio "meshes/ld/SCI3_Template_Biped1(NerdHead)"
 studio "meshes/ld/SCI2_Template_Biped1(EinstienHead)"
 studio "meshes/ld/SCI3_Template_Biped1(LutherHead)"
 studio "meshes/ld/SCI3_Template_Biped1(SlickHead)"
+studio "meshes/ld/SCI_clipboard"
+studio "meshes/ld/SCI_stick"
 }
 
 $bodygroup "needle"
@@ -50,6 +52,7 @@ $texturegroup skinfamilies
 
 // 2 bone controller(s)
 $controller 0 "Bip02 Head" XR -60.000000 60.000000
+$controller 1 "Bip02 Head" ZR -50.000000 30.000000
 $controller 4 "Bone01" ZR 0.000000 20.000000
 
 // 19 hit box(es)
