@@ -263,4 +263,32 @@ $sequence "gluonshow" "animations/ld/gluonshow" fps 18
 $sequence "crouch" "animations/ld/crouch" fps 18 
 $sequence "kneel" "animations/ld/kneel" fps 22 
 
+// Opposing Force sequences
+$sequence "germandeath" "animations/ld/germandeath" X fps 15 
+$sequence "of1_a1_cpr1" "animations/ld/of1_a1_cpr1" fps 30 { event 1001 5 } 
+$sequence "of1_a1_cpr2" "animations/ld/of1_a1_cpr2" fps 15 
+$sequence "of1a1_sci1_stretcher" "animations/ld/of1a1_sci1_stretcher" fps 34 { event 1004 47 "scientist/needsleep.wav" } 
+$sequence "of1a1_sci2_stretcher" "animations/ld/of1a1_sci2_stretcher" fps 34 { event 1004 192 "scientist/survival.wav" } 
+$sequence "of4a1_hologram_clipboard1" "animations/ld/of4a1_hologram_clipboard1" fps 30 
+$sequence "of4a1_hologram_clipboard2" "animations/ld/of4a1_hologram_clipboard2" fps 30 
+$sequence "of1a1_prod_headcrab" "animations/ld/of1a1_prod_headcrab" fps 32 loop 
+$sequence "cage_float" "animations/ld/cage_float" fps 15 loop 
+$sequence "table_twitch" "animations/ld/table_twitch" fps 25 loop 
+$sequence "interogation_idle" "animations/ld/interogation_idle" fps 30 loop 
+$sequence "interogation" "animations/ld/interogation" fps 30 {
+  { event 1000 279 } 
+  { event 1001 279 } 
+  { event 1008 228 "scientist/bodydrop1.wav" } 
+  { event 1008 219 "scientist/sci_pain5.wav" } 
+} 
+$sequence "cell_idle" "animations/ld/cell_idle" fps 30 loop 
+$sequence "kneel_idle" "animations/ld/kneel_idle" fps 15 
+$sequence "cpr_gesture1" "animations/ld/cpr_gesture1" fps 30 
+$sequence "cpr_gesture2" "animations/ld/cpr_gesture2" fps 15 
+$sequence "thrown_out_window" "animations/ld/thrown_out_window" fps 30 {
+  { event 1000 29 } 
+  { event 1001 29 } 
+  { event 2001 29 } 
+} 
+
 // End of QC script.
