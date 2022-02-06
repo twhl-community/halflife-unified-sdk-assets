@@ -110,7 +110,6 @@ $sequence "pull_needle" "animations/ld/bshift/pull_needle" fps 15 ACT_ARM 1 { ev
 $sequence "return_needle" "animations/ld/bshift/return_needle" fps 15 ACT_DISARM 1 { event 3 15 } 
 $sequence "give_shot" "animations/ld/bshift/give_shot" fps 16 ACT_MELEE_ATTACK1 1 { event 1 22 } 
 $sequence "diesimple" "animations/ld/bshift/diesimple" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } 
-$sequence "diesimple_rose" "animations/ld/bshift/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
 $sequence "dieforward" "animations/ld/bshift/dieforward" X fps 15 ACT_DIE_HEADSHOT 1 { event 2001 26 } 
 $sequence "dieforward1" "animations/ld/bshift/dieforward1" X fps 13 ACT_DIEFORWARD 1 { event 2001 11 } 
 $sequence "diebackward" "animations/ld/bshift/diebackward" X fps 15 ACT_DIEBACKWARD 1 { event 2001 8 } 
@@ -191,6 +190,9 @@ $sequence "portal" "animations/ld/bshift/portal" fps 20 loop {
  }
 $sequence "gluonshow" "animations/ld/bshift/gluonshow" fps 18 
 $sequence "crouch" "animations/ld/bshift/crouch" fps 18 
+
+// Blue Shift sequences
+$sequence "diesimple_rose" "animations/ld/bshift/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
 $sequence "cower_chat_die" "animations/ld/bshift/cower_chat_die" fps 10 { event 1000 1 } { event 1003 69 "die" } 
 $sequence "dead_in_truck" "animations/ld/bshift/dead_in_truck" fps 30 loop { event 1000 1 } 
 $sequence "cower_chat" "animations/ld/bshift/cower_chat" fps 5 loop 
