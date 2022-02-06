@@ -33,7 +33,7 @@ $bodygroup "heads"
 studio "meshes/ld/bshift/sci3_template_biped1(NERDHEAD)"
 studio "meshes/ld/bshift/SCI2_Template_Biped1(EinstienHead)"
 studio "meshes/ld/bshift/sci3_template_biped1(LUTHERHEAD)"
-studio "meshes/ld/bshift/dc_sci_(head_ROSENBERG)"
+studio "meshes/ld/bshift/SCI3_Template_Biped1(SlickHead)"
 }
 
 $bodygroup "needle"
