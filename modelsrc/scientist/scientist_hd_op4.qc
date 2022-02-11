@@ -242,6 +242,8 @@ $sequence "helicack" "animations/hd/helicack" AX AY AZR fps 18 {
   { event 1008 25 "*scientist/sci_pain4.wav" } 
  }
 $sequence "windive" "animations/hd/windive" AX AY AZR fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "scicrashidle" "animations/hd/scicrashidle" fps 34 loop 
+$sequence "scicrash" "animations/hd/scicrash" fps 20 { event 1000 1 } 
 $sequence "onguard" "animations/hd/onguard" fps 6 loop 
 $sequence "seeya" "animations/hd/seeya" AX AY AZR fps 17 { event 1003 81 "putdown" } 
 $sequence "rocketcrawl" "animations/hd/rocketcrawl" fps 6 loop 
