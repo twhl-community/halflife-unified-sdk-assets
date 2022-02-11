@@ -288,4 +288,79 @@ $sequence "thrown_out_window" "animations/hd/thrown_out_window" fps 30 {
   { event 2001 29 } 
  }
 
+// Blue Shift sequences
+$sequence "diesimple_rose" "animations/hd/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
+$sequence "cower_chat_die" "animations/hd/cower_chat_die" fps 10 { event 1000 1 } { event 1003 69 "die" } 
+$sequence "dead_in_truck" "animations/hd/dead_in_truck" fps 30 loop { event 1000 1 } 
+$sequence "cower_chat" "animations/hd/cower_chat" fps 5 loop 
+$sequence "boost" "animations/hd/boost" fps 26 
+$sequence "boost_idle" "animations/hd/boost_idle" fps 20 loop 
+$sequence "rose_glance" "animations/hd/rose_glance" fps 15 
+$sequence "elev_dead1" "animations/hd/elev_dead1" fps 30 loop { event 1000 1 } 
+$sequence "elev_dead2" "animations/hd/elev_dead2" fps 30 loop { event 1000 1 } 
+$sequence "tap_idle" "animations/hd/tap_idle" fps 15 loop 
+$sequence "tap_down" "animations/hd/tap_down" fps 15 
+$sequence "railing_chat1" "animations/hd/railing_chat1" fps 10 loop 
+$sequence "railing_chat2" "animations/hd/railing_chat2" fps 10 loop 
+$sequence "telework1" "animations/hd/telework1" fps 14 loop 
+$sequence "telework1_stand" "animations/hd/telework1_stand" fps 13 
+$sequence "telework2" "animations/hd/telework2" fps 14 loop 
+$sequence "telework3" "animations/hd/telework3" fps 7 loop 
+$sequence "wallwork1" "animations/hd/wallwork1" fps 13 
+$sequence "wallwork2" "animations/hd/wallwork2" fps 13 
+$sequence "wallwork3" "animations/hd/wallwork3" fps 15 loop 
+$sequence "wallwork4" "animations/hd/wallwork4" fps 8 loop 
+$sequence "wallwork5" "animations/hd/wallwork5" fps 9 
+$sequence "rose_console1" "animations/hd/rose_console1" fps 10 loop {
+  { event 1003 10 "button1" } 
+  { event 1003 13 "button2" } 
+  { event 1003 16 "button3" } 
+  { event 1003 19 "button4" } 
+  { event 1003 21 "button5" } 
+  { event 1003 27 "button6" } 
+  { event 1003 47 "button7" } 
+  { event 1003 53 "button8" } 
+  { event 1003 58 "button9" } 
+  { event 1003 61 "button10" } 
+ }
+$sequence "rose_console2" "animations/hd/rose_console2" fps 12 {
+  { event 1003 10 "button1b" } 
+  { event 1003 13 "button2b" } 
+  { event 1003 16 "button3b" } 
+  { event 1003 19 "button4b" } 
+  { event 1003 21 "button5b" } 
+  { event 1003 27 "button6b" } 
+  { event 1003 89 "button7b" } 
+  { event 1003 92 "button8b" } 
+  { event 1003 95 "button9b" } 
+  { event 1003 98 "button10b" } 
+  { event 1003 101 "button11b" } 
+  { event 1003 103 "button12b" } 
+  { event 1003 107 "button13b" } 
+ }
+$sequence "rose_console3" "animations/hd/rose_console3" fps 28 
+$sequence "tele_jump1" "animations/hd/tele_jump1" fps 18 { event 1003 71 "jumped1" } 
+$sequence "tele_jump2" "animations/hd/tele_jump2" fps 19 { event 1003 116 "jumped2" } 
+$sequence "handscan" "animations/hd/handscan" fps 28 { event 1003 20 "handscan" } 
+$sequence "eating" "animations/hd/eating" fps 10 
+$sequence "working_console" "animations/hd/working_console" fps 17 
+$sequence "ponder_console" "animations/hd/ponder_console" fps 7 
+$sequence "cower_vents" "animations/hd/cower_vents" fps 7 loop 
+$sequence "ponder_teleporter" "animations/hd/ponder_teleporter" fps 10 loop 
+$sequence "power_pipes" "animations/hd/power_pipes" fps 11 
+$sequence "in_theory" "animations/hd/in_theory" fps 8 
+$sequence "you_go" "animations/hd/you_go" fps 10 
+$sequence "sim_ack" "animations/hd/sim_ack" fps 25 
+$sequence "sim_lever" "animations/hd/sim_lever" fps 30 { event 1003 20 "mgr_main_power" } 
+$sequence "hambone" "animations/hd/hambone" fps 8 
+$sequence "rose_signal" "animations/hd/rose_signal" fps 25 
+$sequence "chum_walk" "animations/hd/chum_walk" LX fps 15 loop 
+$sequence "chum_idle" "animations/hd/chum_idle" fps 15 loop 
+$sequence "crowbar_swing" "animations/hd/crowbar_swing" fps 30 loop { event 1003 22 "crowbar_hit" } { event 1003 33 "crowbar_hit2" } 
+$sequence "open_gate" "animations/hd/open_gate" LX fps 15 { event 1003 7 "booty_ack" } { event 1003 115 "booty_ack" } 
+$sequence "work_jeep" "animations/hd/work_jeep" fps 10 loop 
+$sequence "drive_jeep1" "animations/hd/drive_jeep1" fps 5 loop 
+$sequence "drive_jeep2" "animations/hd/drive_jeep2" fps 5 loop 
+$sequence "rose_outro" "animations/hd/rose_outro" fps 30 
+
 // End of QC script.
