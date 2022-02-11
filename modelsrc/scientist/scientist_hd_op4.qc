@@ -153,6 +153,115 @@ $sequence "fallingloop" "animations/hd/fallingloop" fps 35 loop
 $sequence "hanging_idle2" "animations/hd/hanging_idle2" fps 10 loop { event 1008 1 "*scientist/c1a2_sci_dangling.wav" } 
 $sequence "fall_elevator" "animations/hd/fall_elevator" fps 10 { event 1000 1 } { event 1008 35 "*scientist/scream3.wav" } 
 
+// HL1 sequences
+$sequence "beatdoor" "animations/hd/beatdoor" fps 16 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
+$sequence "buysoda" "animations/hd/buysoda" fps 8 {
+  { event 1004 25 "*buttons/blip1.wav" } 
+  { event 1004 40 "*buttons/latchunlocked2.wav" } 
+  { event 1004 44 "*buttons/latchunlocked1.wav" } 
+ }
+$sequence "c1a0_catwalkidle" "animations/hd/c1a0_catwalkidle" fps 12 loop 
+$sequence "c1a0_catwalk" "animations/hd/c1a0_catwalk" AX AY AZR fps 16 {
+  { event 1000 1 } 
+  { event 1008 1 "*scientist/c1a0_sci_stayback.wav" } 
+  { event 1008 21 "*scientist/c1a0_sci_catscream.wav" } 
+ }
+$sequence "c1a4_wounded_idle" "animations/hd/c1a4_wounded_idle" fps 6 loop 
+$sequence "c1a4_dying_speech" "animations/hd/c1a4_dying_speech" fps 7 {
+  { event 1000 1 } 
+  { event 1008 1 "*scientist/c1a4_sci_rocket.wav" } 
+  { event 1008 45 "*scientist/sci_pain3.wav" } 
+ }
+$sequence "ceiling_dangle" "animations/hd/ceiling_dangle" AX AY AZ fps 7 {
+  { event 1000 1 } 
+  { event 1001 1 } 
+  { event 1004 4 "*scientist/sci_dragoff.wav" } 
+ }
+$sequence "checktie" "animations/hd/checktie" fps 12 { event 1008 1 "scientist/weartie.wav" } 
+$sequence "crawlwindow" "animations/hd/crawlwindow" fps 20 
+$sequence "crouch" "animations/hd/crouch" fps 18 
+$sequence "deskidle" "animations/hd/deskidle" fps 5 loop { event 1003 8 "intro" } 
+$sequence "divewindow" "animations/hd/divewindow" fps 30 { event 1001 1 } 
+$sequence "fall" "animations/hd/fall" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" } 
+$sequence "gluonshow" "animations/hd/gluonshow" fps 18 
+$sequence "handrailidle" "animations/hd/handrailidle" fps 14 loop 
+$sequence "handrail" "animations/hd/handrail" fps 22 
+$sequence "haulscientist" "animations/hd/haulscientist" AX AY AZR fps 18 { event 1000 1 } { event 1001 1 } 
+$sequence "headcrabbed" "animations/hd/headcrabbed" AX AY AZR fps 10 { event 1000 82 } 
+$sequence "helicack" "animations/hd/helicack" AX AY AZR fps 18 {
+  { event 1003 30 "gunmedown" } 
+  { event 1000 30 } 
+  { event 1008 25 "*scientist/sci_pain4.wav" } 
+ }
+$sequence "ickyjump_sci" "animations/hd/ickyjump_sci" AX AY AZR fps 18 {
+  { event 1000 1 } 
+  { event 1001 1 } 
+  { event 1003 8 "scream" } 
+  { event 1003 28 "gib" } 
+ }
+$sequence "keypad" "animations/hd/keypad" fps 18 {
+  { event 1008 15 "*buttons/blip1.wav" } 
+  { event 1008 24 "*buttons/blip1.wav" } 
+  { event 1008 34 "*buttons/blip1.wav" } 
+  { event 1008 44 "*buttons/blip1.wav" } 
+ }
+$sequence "kneel" "animations/hd/kneel" fps 22 
+$sequence "locked_door" "animations/hd/locked_door" fps 16 {
+  { event 1004 11 "*buttons/latchlocked1.wav" } 
+  { event 1004 21 "*buttons/latchlocked2.wav" } 
+  { event 1004 31 "*buttons/latchlocked1.wav" } 
+ }
+$sequence "lookwindow" "animations/hd/lookwindow" fps 15 
+$sequence "onguard" "animations/hd/onguard" fps 6 loop 
+$sequence "panic1" "animations/hd/panic1" fps 18 
+$sequence "portal" "animations/hd/portal" fps 20 loop {
+  { event 1008 19 "*buttons/blip1.wav" } 
+  { event 1008 22 "*buttons/blip1.wav" } 
+  { event 1008 25 "*buttons/blip2.wav" } 
+  { event 1008 32 "*buttons/blip2.wav" } 
+  { event 1008 47 "*buttons/blip1.wav" } 
+  { event 1008 98 "*buttons/blip2.wav" } 
+  { event 1008 102 "*buttons/blip1.wav" } 
+  { event 1008 110 "*buttons/blip2.wav" } 
+  { event 1008 119 "*buttons/blip1.wav" } 
+ }
+$sequence "pulldoor" "animations/hd/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
+$sequence "push_button2" "animations/hd/push_button2" fps 16 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
+$sequence "quicklook" "animations/hd/quicklook" fps 16 
+$sequence "rocketcrawl" "animations/hd/rocketcrawl" fps 6 loop 
+$sequence "scientist_get_pulled" "animations/hd/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
+$sequence "scientist_idlewall" "animations/hd/scientist_idlewall" fps 14 loop 
+$sequence "seeya" "animations/hd/seeya" AX AY AZR fps 17 { event 1003 81 "putdown" } 
+$sequence "sitlookleft" "animations/hd/sitlookleft" fps 10 
+$sequence "sitlookright" "animations/hd/sitlookright" fps 10 
+$sequence "sitscared" "animations/hd/sitscared" fps 13 
+$sequence "sitting2" "animations/hd/sitting2" fps 10 
+$sequence "sitting3" "animations/hd/sitting3" fps 10 
+$sequence "sstruggleidle" "animations/hd/sstruggleidle" fps 18 loop 
+$sequence "sstruggle" "animations/hd/sstruggle" fps 28 { event 1000 1 } 
+$sequence "talkleft" "animations/hd/talkleft" fps 12 loop 
+$sequence "talkright" "animations/hd/talkright" fps 14 loop 
+$sequence "tentacle_grab" "animations/hd/tentacle_grab" fps 15 {
+  { event 1000 1 } 
+  { event 1004 4 "*scientist/scream02.WAV" } 
+  { event 1003 18 "smash" } 
+  { event 1004 65 "*scientist/c1a4_sci_tent.WAV" } 
+ }
+$sequence "unlock_door" "animations/hd/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
+$sequence "ventpull1" "animations/hd/ventpull1" AX AY AZ fps 15 {
+  { event 1000 1 } 
+  { event 1001 1 } 
+  { event 1004 8 "*player/pl_metal1.wav" } 
+  { event 1004 16 "*player/pl_metal2.wav" } 
+  { event 1004 28 "*player/pl_metal4.wav" } 
+  { event 1004 31 "*player/pl_metal1.wav" } 
+ }
+$sequence "ventpull2" "animations/hd/ventpull2" AX AY AZ fps 15 { event 1000 1 } { event 1001 1 } 
+$sequence "ventpullidle1" "animations/hd/ventpullidle1" fps 15 loop 
+$sequence "ventpullidle2" "animations/hd/ventpullidle2" fps 15 loop 
+$sequence "wave" "animations/hd/wave" fps 10 
+$sequence "windive" "animations/hd/windive" AX AY AZR fps 30 { event 1000 1 } { event 1001 1 } 
+
 // Opposing Force sequences
 $sequence "germandeath" "animations/hd/germandeath" X fps 15 
 $sequence "of1_a1_cpr1" "animations/hd/of1_a1_cpr1" fps 15 { event 1001 5 } 
