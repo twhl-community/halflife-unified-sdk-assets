@@ -114,7 +114,6 @@ $sequence "dieforward1" "animations/hd/dieforward1" X fps 13 ACT_DIEFORWARD 1 { 
 $sequence "diebackward" "animations/hd/diebackward" X fps 15 ACT_DIEBACKWARD 1 { event 2001 8 } 
 $sequence "headshot" "animations/hd/headshot" X fps 15 ACT_DIE_HEADSHOT 20 { event 2001 18 } 
 $sequence "gutshot" "animations/hd/gutshot" X fps 15 ACT_DIE_GUTSHOT 1 { event 2001 16 } 
-$sequence "germandeath" "animations/hd/germandeath" X fps 15 
 $sequence "lying_on_back" "animations/hd/lying_on_back" fps 30 
 $sequence "lying_on_stomach" "animations/hd/lying_on_stomach" fps 30 
 $sequence "dead_sitting" "animations/hd/dead_sitting" fps 30 
@@ -147,8 +146,16 @@ $sequence "retina" "animations/hd/retina" fps 18
 $sequence "coffee" "animations/hd/coffee" fps 14 loop 
 $sequence "franticbutton" "animations/hd/franticbutton" fps 14 
 $sequence "startle" "animations/hd/startle" fps 16 
-$sequence "of1_a1_cpr1" "animations/hd/of1_a1_cpr1" fps 15 { event 1001 5 } 
 $sequence "hanging_idle" "animations/hd/hanging_idle" fps 20 loop 
+$sequence "sitidle" "animations/hd/sitidle" fps 10 loop 
+$sequence "sitstand" "animations/hd/sitstand" fps 12 
+$sequence "fallingloop" "animations/hd/fallingloop" fps 35 loop 
+$sequence "hanging_idle2" "animations/hd/hanging_idle2" fps 10 loop { event 1008 1 "*scientist/c1a2_sci_dangling.wav" } 
+$sequence "fall_elevator" "animations/hd/fall_elevator" fps 10 { event 1000 1 } { event 1008 35 "*scientist/scream3.wav" } 
+
+// Opposing Force sequences
+$sequence "germandeath" "animations/hd/germandeath" X fps 15 
+$sequence "of1_a1_cpr1" "animations/hd/of1_a1_cpr1" fps 15 { event 1001 5 } 
 $sequence "of1_a1_cpr2" "animations/hd/of1_a1_cpr2" fps 15 
 $sequence "of1a1_sci1_stretcher" "animations/hd/of1a1_sci1_stretcher" fps 34 { event 1004 47 "scientist/needsleep.wav" } 
 $sequence "of1a1_sci2_stretcher" "animations/hd/of1a1_sci2_stretcher" fps 34 { event 1004 192 "scientist/survival.wav" } 
@@ -156,8 +163,6 @@ $sequence "of4a1_hologram_clipboard1" "animations/hd/of4a1_hologram_clipboard1" 
 $sequence "of4a1_hologram_clipboard2" "animations/hd/of4a1_hologram_clipboard2" fps 24 
 $sequence "of1a1_prod_headcrab" "animations/hd/of1a1_prod_headcrab" fps 16 loop 
 $sequence "cage_float" "animations/hd/cage_float" fps 7 loop 
-$sequence "sitidle" "animations/hd/sitidle" fps 10 loop 
-$sequence "sitstand" "animations/hd/sitstand" fps 12 
 $sequence "table_twitch" "animations/hd/table_twitch" fps 25 loop 
 $sequence "interogation_idle" "animations/hd/interogation_idle" fps 30 loop 
 $sequence "interogation" "animations/hd/interogation" fps 30 {
@@ -167,12 +172,9 @@ $sequence "interogation" "animations/hd/interogation" fps 30 {
   { event 1008 219 "scientist/sci_pain5.wav" } 
  }
 $sequence "cell_idle" "animations/hd/cell_idle" fps 30 loop 
-$sequence "fallingloop" "animations/hd/fallingloop" fps 35 loop 
 $sequence "kneel_idle" "animations/hd/kneel_idle" fps 15 
 $sequence "cpr_gesture1" "animations/hd/cpr_gesture1" fps 30 
 $sequence "cpr_gesture2" "animations/hd/cpr_gesture2" fps 15 
-$sequence "hanging_idle2" "animations/hd/hanging_idle2" fps 10 loop { event 1008 1 "*scientist/c1a2_sci_dangling.wav" } 
-$sequence "fall_elevator" "animations/hd/fall_elevator" fps 10 { event 1000 1 } { event 1008 35 "*scientist/scream3.wav" } 
 $sequence "thrown_out_window" "animations/hd/thrown_out_window" fps 30 {
   { event 1000 29 } 
   { event 1001 29 } 
