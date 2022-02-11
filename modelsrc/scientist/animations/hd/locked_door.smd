@@ -1,32 +1,32 @@
 version 1
 nodes
-  0 "Bip01" -1
-  1 "Bip01 Pelvis" 0
-  2 "Bip01 Spine" 1
-  3 "Bip01 Spine1" 2
-  4 "Bip01 Spine2" 3
-  5 "Bip01 Spine3" 4
-  6 "Bip01 Neck" 5
-  7 "Bip01 L Clavicle" 6
-  8 "Bip01 L UpperArm" 7
-  9 "Bip01 L Forearm" 8
- 10 "Bip01 L Hand" 9
- 11 "Bip01 L Finger0" 10
- 12 "Bip01 L Finger01" 11
- 13 "Bip01 L Finger02" 12
- 14 "Bip01 L Finger2" 10
- 15 "Bip01 L Finger21" 14
- 16 "Bip01 L Finger22" 15
- 17 "Bip01 R Clavicle" 6
- 18 "Bip01 R UpperArm" 17
- 19 "Bip01 R Forearm" 18
- 20 "Bip01 R Hand" 19
- 21 "Bip01 R Finger0" 20
- 22 "Bip01 R Finger01" 21
- 23 "Bip01 R Finger02" 22
- 24 "Bip01 R Finger2" 20
- 25 "Bip01 R Finger21" 24
- 26 "Bip01 R Finger22" 25
+  0 "Bip02" -1
+  1 "Bip02 Pelvis" 0
+  2 "Bip02 Spine" 1
+  3 "Bip02 Spine1" 2
+  4 "Bip02 Spine2" 3
+  5 "Bip02 Spine3" 4
+  6 "Bip02 Neck" 5
+  7 "Bip02 L Arm" 6
+  8 "Bip02 L Arm1" 7
+  9 "Bip02 L Arm2" 8
+ 10 "Bip02 L Hand" 9
+ 11 "Bip02 L Finger0" 10
+ 12 "Bip02 L Finger01" 11
+ 13 "Bip02 L Finger02" 12
+ 14 "Bip02 L Finger2" 10
+ 15 "Bip02 L Finger21" 14
+ 16 "Bip02 L Finger22" 15
+ 17 "Bip02 R Arm" 6
+ 18 "Bip02 R Arm1" 17
+ 19 "Bip02 R Arm2" 18
+ 20 "Bip02 R Hand" 19
+ 21 "Bip02 R Finger0" 20
+ 22 "Bip02 R Finger01" 21
+ 23 "Bip02 R Finger02" 22
+ 24 "Bip02 R Finger2" 20
+ 25 "Bip02 R Finger21" 24
+ 26 "Bip02 R Finger22" 25
  27 "tie1" 5
  28 "tie2" 27
  29 "tie3" 28
@@ -35,17 +35,17 @@ nodes
  32 "tie6" 31
  33 "tie7" 32
  34 "tie8" 33
- 35 "Bip01 L Thigh" 2
- 36 "Bip01 L Calf" 35
- 37 "Bip01 L Foot" 36
- 38 "Bip01 L Toe0" 37
- 39 "Bip01 R Thigh" 2
- 40 "Bip01 R Calf" 39
- 41 "Bip01 R Foot" 40
- 42 "Bip01 R Toe0" 41
- 43 "Bip01 Head" 6
+ 35 "Bip02 L Leg" 2
+ 36 "Bip02 L Leg1" 35
+ 37 "Bip02 L Foot" 36
+ 38 "Bip02 L Toe0" 37
+ 39 "Bip02 R Leg" 2
+ 40 "Bip02 R Leg1" 39
+ 41 "Bip02 R Foot" 40
+ 42 "Bip02 R Toe0" 41
+ 43 "Bip02 Head" 6
  44 "Dummy05" 43
- 45 "Mouth" 44
+ 45 "Bone01" 44
  46 "needle" 20
 end
 skeleton
