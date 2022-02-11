@@ -16,7 +16,6 @@ $modelname "scientist_hd_op4.mdl"
 $cd ".\"
 $cdtexture "..\..\texturesrc\scientist"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
