@@ -124,10 +124,8 @@ $sequence "barnacled1" "animations/hd/barnacled1" fps 18 ACT_BARNACLE_HIT 1
 $sequence "barnacled2" "animations/hd/barnacled2" fps 28 loop ACT_BARNACLE_PULL 1 
 $sequence "barnacled3" "animations/hd/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
 $sequence "barnacled4" "animations/hd/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
-$sequence "cowering_in_corner" "animations/hd/cowering_in_corner" fps 18 loop 
-$sequence "cprscientist" "animations/hd/cprscientist" fps 20 loop 
-$sequence "cprscientistrevive" "animations/hd/cprscientistrevive" fps 20 
 $sequence "console" "animations/hd/console" fps 18 loop 
+$sequence "checktie" "animations/hd/checktie" fps 12 { event 1008 1 "scientist/weartie.wav" } 
 $sequence "dryhands" "animations/hd/dryhands" fps 12 
 $sequence "tieshoe" "animations/hd/tieshoe" fps 12 
 $sequence "writeboard" "animations/hd/writeboard" fps 14 
@@ -136,6 +134,11 @@ $sequence "lean" "animations/hd/lean" fps 12
 $sequence "pondering" "animations/hd/pondering" fps 12 
 $sequence "pondering2" "animations/hd/pondering2" fps 15 
 $sequence "pondering3" "animations/hd/pondering3" fps 12 
+$sequence "buysoda" "animations/hd/buysoda" fps 8 {
+  { event 1004 25 "*buttons/blip1.wav" } 
+  { event 1004 40 "*buttons/latchunlocked2.wav" } 
+  { event 1004 44 "*buttons/latchunlocked1.wav" } 
+ }
 $sequence "pause" "animations/hd/pause" fps 18 
 $sequence "yes" "animations/hd/yes" fps 16 
 $sequence "no" "animations/hd/no" fps 16 
@@ -143,111 +146,34 @@ $sequence "push_button" "animations/hd/push_button" fps 16
 $sequence "converse1" "animations/hd/converse1" fps 13 
 $sequence "converse2" "animations/hd/converse2" fps 13 
 $sequence "retina" "animations/hd/retina" fps 18 
+$sequence "talkleft" "animations/hd/talkleft" fps 12 loop 
+$sequence "talkright" "animations/hd/talkright" fps 14 loop 
+$sequence "deskidle" "animations/hd/deskidle" fps 5 loop { event 1003 8 "intro" } 
 $sequence "coffee" "animations/hd/coffee" fps 14 loop 
 $sequence "franticbutton" "animations/hd/franticbutton" fps 14 
 $sequence "startle" "animations/hd/startle" fps 16 
-$sequence "hanging_idle" "animations/hd/hanging_idle" fps 20 loop 
-$sequence "sitidle" "animations/hd/sitidle" fps 10 loop 
-$sequence "sitstand" "animations/hd/sitstand" fps 12 
-$sequence "fallingloop" "animations/hd/fallingloop" fps 35 loop 
-$sequence "hanging_idle2" "animations/hd/hanging_idle2" fps 10 loop { event 1008 1 "*scientist/c1a2_sci_dangling.wav" } 
-$sequence "fall_elevator" "animations/hd/fall_elevator" fps 10 { event 1000 1 } { event 1008 35 "*scientist/scream3.wav" } 
-
-// HL1 sequences
-$sequence "beatdoor" "animations/hd/beatdoor" fps 16 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
-$sequence "buysoda" "animations/hd/buysoda" fps 8 {
-  { event 1004 25 "*buttons/blip1.wav" } 
-  { event 1004 40 "*buttons/latchunlocked2.wav" } 
-  { event 1004 44 "*buttons/latchunlocked1.wav" } 
- }
+$sequence "sitlookleft" "animations/hd/sitlookleft" fps 10 
+$sequence "sitlookright" "animations/hd/sitlookright" fps 10 
+$sequence "sitscared" "animations/hd/sitscared" fps 13 
+$sequence "sitting2" "animations/hd/sitting2" fps 10 
+$sequence "sitting3" "animations/hd/sitting3" fps 10 
+$sequence "cprscientist" "animations/hd/cprscientist" fps 20 loop 
+$sequence "cprscientistrevive" "animations/hd/cprscientistrevive" fps 20 
+$sequence "cowering_in_corner" "animations/hd/cowering_in_corner" fps 18 loop 
+$sequence "sstruggleidle" "animations/hd/sstruggleidle" fps 18 loop 
+$sequence "sstruggle" "animations/hd/sstruggle" fps 28 { event 1000 1 } 
+$sequence "headcrabbed" "animations/hd/headcrabbed" AX AY AZR fps 10 { event 1000 82 } 
 $sequence "c1a0_catwalkidle" "animations/hd/c1a0_catwalkidle" fps 12 loop 
 $sequence "c1a0_catwalk" "animations/hd/c1a0_catwalk" AX AY AZR fps 16 {
   { event 1000 1 } 
   { event 1008 1 "*scientist/c1a0_sci_stayback.wav" } 
   { event 1008 21 "*scientist/c1a0_sci_catscream.wav" } 
  }
-$sequence "c1a4_wounded_idle" "animations/hd/c1a4_wounded_idle" fps 6 loop 
-$sequence "c1a4_dying_speech" "animations/hd/c1a4_dying_speech" fps 7 {
-  { event 1000 1 } 
-  { event 1008 1 "*scientist/c1a4_sci_rocket.wav" } 
-  { event 1008 45 "*scientist/sci_pain3.wav" } 
- }
 $sequence "ceiling_dangle" "animations/hd/ceiling_dangle" AX AY AZ fps 7 {
   { event 1000 1 } 
   { event 1001 1 } 
   { event 1004 4 "*scientist/sci_dragoff.wav" } 
  }
-$sequence "checktie" "animations/hd/checktie" fps 12 { event 1008 1 "scientist/weartie.wav" } 
-$sequence "crawlwindow" "animations/hd/crawlwindow" fps 20 
-$sequence "crouch" "animations/hd/crouch" fps 18 
-$sequence "deskidle" "animations/hd/deskidle" fps 5 loop { event 1003 8 "intro" } 
-$sequence "divewindow" "animations/hd/divewindow" fps 30 { event 1001 1 } 
-$sequence "fall" "animations/hd/fall" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" } 
-$sequence "gluonshow" "animations/hd/gluonshow" fps 18 
-$sequence "handrailidle" "animations/hd/handrailidle" fps 14 loop 
-$sequence "handrail" "animations/hd/handrail" fps 22 
-$sequence "haulscientist" "animations/hd/haulscientist" AX AY AZR fps 18 { event 1000 1 } { event 1001 1 } 
-$sequence "headcrabbed" "animations/hd/headcrabbed" AX AY AZR fps 10 { event 1000 82 } 
-$sequence "helicack" "animations/hd/helicack" AX AY AZR fps 18 {
-  { event 1003 30 "gunmedown" } 
-  { event 1000 30 } 
-  { event 1008 25 "*scientist/sci_pain4.wav" } 
- }
-$sequence "ickyjump_sci" "animations/hd/ickyjump_sci" AX AY AZR fps 18 {
-  { event 1000 1 } 
-  { event 1001 1 } 
-  { event 1003 8 "scream" } 
-  { event 1003 28 "gib" } 
- }
-$sequence "keypad" "animations/hd/keypad" fps 18 {
-  { event 1008 15 "*buttons/blip1.wav" } 
-  { event 1008 24 "*buttons/blip1.wav" } 
-  { event 1008 34 "*buttons/blip1.wav" } 
-  { event 1008 44 "*buttons/blip1.wav" } 
- }
-$sequence "kneel" "animations/hd/kneel" fps 22 
-$sequence "locked_door" "animations/hd/locked_door" fps 16 {
-  { event 1004 11 "*buttons/latchlocked1.wav" } 
-  { event 1004 21 "*buttons/latchlocked2.wav" } 
-  { event 1004 31 "*buttons/latchlocked1.wav" } 
- }
-$sequence "lookwindow" "animations/hd/lookwindow" fps 15 
-$sequence "onguard" "animations/hd/onguard" fps 6 loop 
-$sequence "panic1" "animations/hd/panic1" fps 18 
-$sequence "portal" "animations/hd/portal" fps 20 loop {
-  { event 1008 19 "*buttons/blip1.wav" } 
-  { event 1008 22 "*buttons/blip1.wav" } 
-  { event 1008 25 "*buttons/blip2.wav" } 
-  { event 1008 32 "*buttons/blip2.wav" } 
-  { event 1008 47 "*buttons/blip1.wav" } 
-  { event 1008 98 "*buttons/blip2.wav" } 
-  { event 1008 102 "*buttons/blip1.wav" } 
-  { event 1008 110 "*buttons/blip2.wav" } 
-  { event 1008 119 "*buttons/blip1.wav" } 
- }
-$sequence "pulldoor" "animations/hd/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
-$sequence "push_button2" "animations/hd/push_button2" fps 16 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
-$sequence "quicklook" "animations/hd/quicklook" fps 16 
-$sequence "rocketcrawl" "animations/hd/rocketcrawl" fps 6 loop 
-$sequence "scientist_get_pulled" "animations/hd/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
-$sequence "scientist_idlewall" "animations/hd/scientist_idlewall" fps 14 loop 
-$sequence "seeya" "animations/hd/seeya" AX AY AZR fps 17 { event 1003 81 "putdown" } 
-$sequence "sitlookleft" "animations/hd/sitlookleft" fps 10 
-$sequence "sitlookright" "animations/hd/sitlookright" fps 10 
-$sequence "sitscared" "animations/hd/sitscared" fps 13 
-$sequence "sitting2" "animations/hd/sitting2" fps 10 
-$sequence "sitting3" "animations/hd/sitting3" fps 10 
-$sequence "sstruggleidle" "animations/hd/sstruggleidle" fps 18 loop 
-$sequence "sstruggle" "animations/hd/sstruggle" fps 28 { event 1000 1 } 
-$sequence "talkleft" "animations/hd/talkleft" fps 12 loop 
-$sequence "talkright" "animations/hd/talkright" fps 14 loop 
-$sequence "tentacle_grab" "animations/hd/tentacle_grab" fps 15 {
-  { event 1000 1 } 
-  { event 1004 4 "*scientist/scream02.WAV" } 
-  { event 1003 18 "smash" } 
-  { event 1004 65 "*scientist/c1a4_sci_tent.WAV" } 
- }
-$sequence "unlock_door" "animations/hd/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
 $sequence "ventpull1" "animations/hd/ventpull1" AX AY AZ fps 15 {
   { event 1000 1 } 
   { event 1001 1 } 
@@ -259,8 +185,80 @@ $sequence "ventpull1" "animations/hd/ventpull1" AX AY AZ fps 15 {
 $sequence "ventpull2" "animations/hd/ventpull2" AX AY AZ fps 15 { event 1000 1 } { event 1001 1 } 
 $sequence "ventpullidle1" "animations/hd/ventpullidle1" fps 15 loop 
 $sequence "ventpullidle2" "animations/hd/ventpullidle2" fps 15 loop 
+$sequence "sitidle" "animations/hd/sitidle" fps 10 loop 
+$sequence "sitstand" "animations/hd/sitstand" fps 12 
+$sequence "keypad" "animations/hd/keypad" fps 18 {
+  { event 1008 15 "*buttons/blip1.wav" } 
+  { event 1008 24 "*buttons/blip1.wav" } 
+  { event 1008 34 "*buttons/blip1.wav" } 
+  { event 1008 44 "*buttons/blip1.wav" } 
+ }
+$sequence "panic1" "animations/hd/panic1" fps 18 
+$sequence "lookwindow" "animations/hd/lookwindow" fps 15 
 $sequence "wave" "animations/hd/wave" fps 10 
+$sequence "pulldoor" "animations/hd/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
+$sequence "beatdoor" "animations/hd/beatdoor" fps 16 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
+$sequence "fallingloop" "animations/hd/fallingloop" fps 35 loop 
+$sequence "crawlwindow" "animations/hd/crawlwindow" fps 20 
+$sequence "divewindow" "animations/hd/divewindow" fps 30 { event 1001 1 } 
+$sequence "locked_door" "animations/hd/locked_door" fps 16 {
+  { event 1004 11 "*buttons/latchlocked1.wav" } 
+  { event 1004 21 "*buttons/latchlocked2.wav" } 
+  { event 1004 31 "*buttons/latchlocked1.wav" } 
+ }
+$sequence "push_button2" "animations/hd/push_button2" fps 16 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
+$sequence "unlock_door" "animations/hd/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
+$sequence "quicklook" "animations/hd/quicklook" fps 16 
+$sequence "handrailidle" "animations/hd/handrailidle" fps 14 loop 
+$sequence "handrail" "animations/hd/handrail" fps 22 
+$sequence "hanging_idle" "animations/hd/hanging_idle" fps 20 loop 
+$sequence "fall" "animations/hd/fall" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" } 
+$sequence "scientist_get_pulled" "animations/hd/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
+$sequence "hanging_idle2" "animations/hd/hanging_idle2" fps 10 loop { event 1008 1 "*scientist/c1a2_sci_dangling.wav" } 
+$sequence "fall_elevator" "animations/hd/fall_elevator" fps 10 { event 1000 1 } { event 1008 35 "*scientist/scream3.wav" } 
+$sequence "scientist_idlewall" "animations/hd/scientist_idlewall" fps 14 loop 
+$sequence "ickyjump_sci" "animations/hd/ickyjump_sci" AX AY AZR fps 18 {
+  { event 1000 1 } 
+  { event 1001 1 } 
+  { event 1003 8 "scream" } 
+  { event 1003 28 "gib" } 
+ }
+$sequence "haulscientist" "animations/hd/haulscientist" AX AY AZR fps 18 { event 1000 1 } { event 1001 1 } 
+$sequence "c1a4_wounded_idle" "animations/hd/c1a4_wounded_idle" fps 6 loop 
+$sequence "c1a4_dying_speech" "animations/hd/c1a4_dying_speech" fps 7 {
+  { event 1000 1 } 
+  { event 1008 1 "*scientist/c1a4_sci_rocket.wav" } 
+  { event 1008 45 "*scientist/sci_pain3.wav" } 
+ }
+$sequence "tentacle_grab" "animations/hd/tentacle_grab" fps 15 {
+  { event 1000 1 } 
+  { event 1004 4 "*scientist/scream02.WAV" } 
+  { event 1003 18 "smash" } 
+  { event 1004 65 "*scientist/c1a4_sci_tent.WAV" } 
+ }
+$sequence "helicack" "animations/hd/helicack" AX AY AZR fps 18 {
+  { event 1003 30 "gunmedown" } 
+  { event 1000 30 } 
+  { event 1008 25 "*scientist/sci_pain4.wav" } 
+ }
 $sequence "windive" "animations/hd/windive" AX AY AZR fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "onguard" "animations/hd/onguard" fps 6 loop 
+$sequence "seeya" "animations/hd/seeya" AX AY AZR fps 17 { event 1003 81 "putdown" } 
+$sequence "rocketcrawl" "animations/hd/rocketcrawl" fps 6 loop 
+$sequence "portal" "animations/hd/portal" fps 20 loop {
+  { event 1008 19 "*buttons/blip1.wav" } 
+  { event 1008 22 "*buttons/blip1.wav" } 
+  { event 1008 25 "*buttons/blip2.wav" } 
+  { event 1008 32 "*buttons/blip2.wav" } 
+  { event 1008 47 "*buttons/blip1.wav" } 
+  { event 1008 98 "*buttons/blip2.wav" } 
+  { event 1008 102 "*buttons/blip1.wav" } 
+  { event 1008 110 "*buttons/blip2.wav" } 
+  { event 1008 119 "*buttons/blip1.wav" } 
+ }
+$sequence "gluonshow" "animations/hd/gluonshow" fps 18 
+$sequence "crouch" "animations/hd/crouch" fps 18 
+$sequence "kneel" "animations/hd/kneel" fps 22 
 
 // Opposing Force sequences
 $sequence "germandeath" "animations/hd/germandeath" X fps 15 
