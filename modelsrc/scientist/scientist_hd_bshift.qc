@@ -33,6 +33,8 @@ studio "meshes/hd/dc_sci_(head_NERD)"
 studio "meshes/hd/dc_sci_(head_EINSTEIN)"
 studio "meshes/hd/dc_sci_(head_LUTHER)"
 studio "meshes/hd/dc_sci_(head_SLICK)"
+studio "meshes/hd/SCI_clipboard"
+studio "meshes/hd/SCI_stick"
 }
 
 $bodygroup "needle"
