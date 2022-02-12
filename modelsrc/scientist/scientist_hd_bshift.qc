@@ -32,7 +32,7 @@ $bodygroup "heads"
 studio "meshes/hd/dc_sci_(head_NERD)"
 studio "meshes/hd/dc_sci_(head_EINSTEIN)"
 studio "meshes/hd/dc_sci_(head_LUTHER)"
-studio "meshes/hd/dc_sci_(head_ROSENBERG)"
+studio "meshes/hd/dc_sci_(head_SLICK)"
 }
 
 $bodygroup "needle"
