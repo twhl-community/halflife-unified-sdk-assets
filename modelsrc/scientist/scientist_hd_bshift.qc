@@ -263,6 +263,34 @@ $sequence "gluonshow" "animations/hd/gluonshow" fps 18
 $sequence "crouch" "animations/hd/crouch" fps 18 
 $sequence "kneel" "animations/hd/kneel" fps 22 
 
+// Opposing Force sequences
+$sequence "germandeath" "animations/hd/germandeath" X fps 15 
+$sequence "of1_a1_cpr1" "animations/hd/of1_a1_cpr1" fps 15 { event 1001 5 } 
+$sequence "of1_a1_cpr2" "animations/hd/of1_a1_cpr2" fps 15 
+$sequence "of1a1_sci1_stretcher" "animations/hd/of1a1_sci1_stretcher" fps 34 { event 1004 47 "scientist/needsleep.wav" } 
+$sequence "of1a1_sci2_stretcher" "animations/hd/of1a1_sci2_stretcher" fps 34 { event 1004 192 "scientist/survival.wav" } 
+$sequence "of4a1_hologram_clipboard1" "animations/hd/of4a1_hologram_clipboard1" fps 23 
+$sequence "of4a1_hologram_clipboard2" "animations/hd/of4a1_hologram_clipboard2" fps 24 
+$sequence "of1a1_prod_headcrab" "animations/hd/of1a1_prod_headcrab" fps 16 loop 
+$sequence "cage_float" "animations/hd/cage_float" fps 7 loop 
+$sequence "table_twitch" "animations/hd/table_twitch" fps 25 loop 
+$sequence "interogation_idle" "animations/hd/interogation_idle" fps 30 loop 
+$sequence "interogation" "animations/hd/interogation" fps 30 {
+  { event 1000 279 } 
+  { event 1001 279 } 
+  { event 1008 228 "scientist/bodydrop1.wav" } 
+  { event 1008 219 "scientist/sci_pain5.wav" } 
+ }
+$sequence "cell_idle" "animations/hd/cell_idle" fps 30 loop 
+$sequence "kneel_idle" "animations/hd/kneel_idle" fps 15 
+$sequence "cpr_gesture1" "animations/hd/cpr_gesture1" fps 30 
+$sequence "cpr_gesture2" "animations/hd/cpr_gesture2" fps 15 
+$sequence "thrown_out_window" "animations/hd/thrown_out_window" fps 30 {
+  { event 1000 29 } 
+  { event 1001 29 } 
+  { event 2001 29 } 
+ }
+
 // Blue Shift sequences
 $sequence "diesimple_rose" "animations/hd/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
 $sequence "cower_chat_die" "animations/hd/cower_chat_die" fps 10 { event 1000 1 } { event 1003 69 "die" } 
