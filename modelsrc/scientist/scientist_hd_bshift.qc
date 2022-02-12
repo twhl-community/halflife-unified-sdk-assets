@@ -178,7 +178,7 @@ $sequence "c1a4_dying_speech" "animations/hd/c1a4_dying_speech" fps 7 {
   { event 1008 45 "*scientist/sci_pain3.wav" } 
  }
 $sequence "rocketcrawl" "animations/hd/rocketcrawl" fps 6 loop 
-$sequence "portal" "portal" fps 20 loop {
+$sequence "portal" "animations/hd/portal" fps 20 loop {
   { event 1008 19 "*buttons/blip1.wav" } 
   { event 1008 22 "*buttons/blip1.wav" } 
   { event 1008 25 "*buttons/blip2.wav" } 
