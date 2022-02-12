@@ -102,8 +102,8 @@ $sequence "idle7" "animations/ld/bshift/idle7" fps 13 ACT_IDLE 10
 $sequence "crouchstand" "animations/ld/bshift/crouchstand" fps 13 ACT_STAND 1 
 $sequence "crouch_idle" "animations/ld/bshift/crouch_idle" fps 14 loop ACT_CROUCHIDLE 1 
 $sequence "crouch_idle2" "animations/ld/bshift/crouch_idle2" fps 12 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3_1" "animations/ld/bshift/crouch_idle3_1" fps 13 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3_2" "animations/ld/bshift/crouch_idle3_2" fps 13 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "animations/ld/bshift/crouch_idle3_1" fps 13 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "animations/ld/bshift/crouch_idle3_2" fps 13 loop ACT_CROUCHIDLE 1 
 $sequence "panic" "animations/ld/bshift/panic" fps 15 ACT_EXCITED 1 
 $sequence "fear1" "animations/ld/bshift/fear1" fps 18 ACT_FEAR_DISPLAY 1 
 $sequence "fear2" "animations/ld/bshift/fear2" fps 18 ACT_FEAR_DISPLAY 1 

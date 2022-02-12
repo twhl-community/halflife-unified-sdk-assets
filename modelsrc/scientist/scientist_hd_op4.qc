@@ -99,8 +99,8 @@ $sequence "idle7" "animations/hd/idle7" fps 10 ACT_IDLE 10
 $sequence "crouchstand" "animations/hd/crouchstand" fps 13 ACT_STAND 1 
 $sequence "crouch_idle" "animations/hd/crouch_idle" fps 13 loop ACT_CROUCHIDLE 1 
 $sequence "crouch_idle2" "animations/hd/crouch_idle2" fps 13 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3_1" "animations/hd/crouch_idle3_1" fps 13 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3_2" "animations/hd/crouch_idle3_2" fps 13 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "animations/hd/crouch_idle3_1" fps 13 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "animations/hd/crouch_idle3_2" fps 13 loop ACT_CROUCHIDLE 1 
 $sequence "panic" "animations/hd/panic" fps 18 ACT_EXCITED 1 
 $sequence "fear1" "animations/hd/fear1" fps 18 ACT_FEAR_DISPLAY 1 
 $sequence "fear2" "animations/hd/fear2" fps 18 ACT_FEAR_DISPLAY 1 
