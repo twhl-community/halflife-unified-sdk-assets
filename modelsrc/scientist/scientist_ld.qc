@@ -291,6 +291,34 @@ $sequence "thrown_out_window" "animations/ld/thrown_out_window" fps 30 {
   { event 2001 29 } 
 } 
 
+// Cleansuit scientist sequences
+$sequence "scientist_throwna" "animations/ld/scientist_throwna" fps 25 {
+  { event 1008 13 "scientist/sci_pain8.wav" } 
+  { event 1008 39 "scientist/bodydrop1.wav" } 
+  { event 1008 174 "scientist/sci_fear9.wav" } 
+  { event 1008 97 "scientist/sci_pain5.wav" } 
+ }
+$sequence "scientist_thrownb" "animations/ld/scientist_thrownb" fps 25 {
+  { event 1008 12 "scientist/bodydrop4.wav" } 
+  { event 1000 12 } 
+  { event 1001 12 } 
+ }
+$sequence "scientist_beatwindow" "animations/ld/scientist_beatwindow" fps 30 {
+  { event 1008 9 "scientist/g_bounce1.wav" } 
+  { event 1008 17 "scientist/g_bounce1.wav" } 
+  { event 1008 24 "scientist/g_bounce1.wav" } 
+  { event 1008 80 "scientist/g_bounce1.wav" } 
+  { event 1008 43 "scientist/scream17.wav" } 
+  { event 1008 84 "scientist/g_bounce1.wav" } 
+  { event 1008 88 "scientist/g_bounce1.wav" } 
+  { event 1008 92 "scientist/g_bounce1.wav" } 
+  { event 1008 97 "scientist/g_bounce1.wav" } 
+ }
+$sequence "scientist_deadpose1" "animations/ld/scientist_deadpose1" fps 30 
+$sequence "scientist_zombiefear" "animations/ld/scientist_zombiefear" fps 30 { event 1008 8 "scientist/scream07.wav" } { event 1008 65 "scientist/sci_fear2.wav" } 
+$sequence "dead_against_wall" "animations/ld/dead_against_wall" fps 30 
+$sequence "teleport_fidget" "animations/ld/teleport_fidget" fps 8 loop 
+
 // Blue Shift sequences
 $sequence "diesimple_rose" "animations/ld/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
 $sequence "cower_chat_die" "animations/ld/cower_chat_die" fps 10 { event 1000 1 } { event 1003 69 "die" } 
