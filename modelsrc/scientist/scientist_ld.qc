@@ -394,4 +394,9 @@ $sequence "drive_jeep1" "animations/ld/drive_jeep1" fps 5 loop
 $sequence "drive_jeep2" "animations/ld/drive_jeep2" fps 5 loop 
 $sequence "rose_outro" "animations/ld/rose_outro" fps 30 
 
+// civ_scientist.mdl sequences
+$sequence "sit1" "animations/ld/sit1" fps 13 loop 
+$sequence "sit2" "animations/ld/sit2" fps 13 loop 
+$sequence "playgame1" "animations/ld/playgame1" fps 12 loop 
+
 // End of QC script.
