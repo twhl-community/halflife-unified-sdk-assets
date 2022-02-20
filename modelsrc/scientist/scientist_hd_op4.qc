@@ -398,4 +398,26 @@ $sequence "drive_jeep1" "animations/hd/drive_jeep1" fps 5 loop
 $sequence "drive_jeep2" "animations/hd/drive_jeep2" fps 5 loop 
 $sequence "rose_outro" "animations/hd/rose_outro" fps 30 
 
+// civ_scientist.mdl sequences
+$sequence "sit1" "animations/hd/sit1" fps 13 loop 
+$sequence "sit2" "animations/hd/sit2" fps 13 loop 
+$sequence "playgame1" "animations/hd/playgame1" fps 12 loop 
+
+// civ_paper_scientist.mdl sequences
+$sequence "paper_idle1" "animations/hd/paper_idle1" fps 12 loop
+$sequence "paper_idle2" "animations/hd/paper_idle2" fps 12 loop
+$sequence "paper_idle3" "animations/hd/paper_idle3" fps 8 loop
+
+// console_civ_scientist.mdl sequences
+$sequence "console_idle1" "animations/hd/console_idle1" fps 25 loop
+$sequence "console_work" "animations/hd/console_work" fps 25 loop 
+$sequence "console_shocked" "animations/hd/console_shocked" fps 19 
+$sequence "console_sneeze" "animations/hd/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
+
+// scientist_cower.mdl sequences
+$sequence "cower_die" "animations/hd/cower_die" fps 25 loop { event 1000 0 } 
+
+// gordon_scientist.mdl sequences
+$sequence "tram_glance" "animations/hd/tram_glance" fps 20 
+
 // End of QC script.
