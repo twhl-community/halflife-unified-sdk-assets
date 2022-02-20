@@ -415,6 +415,9 @@ $sequence "console_work" "animations/hd/console_work" fps 25 loop
 $sequence "console_shocked" "animations/hd/console_shocked" fps 19 
 $sequence "console_sneeze" "animations/hd/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
 
+// scientist_cower.mdl sequences
+$sequence "cower_die" "animations/hd/cower_die" fps 25 loop { event 1000 0 } 
+
 // gordon_scientist.mdl sequences
 $sequence "tram_glance" "animations/hd/tram_glance" fps 20 
 
