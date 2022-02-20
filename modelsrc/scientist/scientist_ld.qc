@@ -42,6 +42,11 @@ blank
 studio "meshes/ld/SCI2_Template_Biped(Needle_Hand)1"
 }
 
+$bodygroup "newspaper"
+{
+blank
+studio "meshes/ld/SCI_newspaper"
+}
 
 // 2 skin families
 $texturegroup skinfamilies 
