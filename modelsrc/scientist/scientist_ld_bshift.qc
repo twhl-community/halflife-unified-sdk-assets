@@ -400,4 +400,9 @@ $sequence "drive_jeep1" "animations/ld/bshift/drive_jeep1" fps 5 loop
 $sequence "drive_jeep2" "animations/ld/bshift/drive_jeep2" fps 5 loop 
 $sequence "rose_outro" "animations/ld/bshift/rose_outro" fps 30 
 
+// civ_paper_scientist.mdl sequences
+$sequence "paper_idle1" "animations/ld/bshift/paper_idle1" fps 12 loop
+$sequence "paper_idle2" "animations/ld/bshift/paper_idle2" fps 12 loop
+$sequence "paper_idle3" "animations/ld/bshift/paper_idle3" fps 8 loop 
+
 // End of QC script.
