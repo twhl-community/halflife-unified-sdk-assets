@@ -409,4 +409,10 @@ $sequence "paper_idle1" "animations/ld/paper_idle1" fps 12 loop
 $sequence "paper_idle2" "animations/ld/paper_idle2" fps 12 loop
 $sequence "paper_idle3" "animations/ld/paper_idle3" fps 8 loop 
 
+// console_civ_scientist.mdl sequences
+$sequence "console_idle1" "animations/ld/console_idle1" fps 25 loop
+$sequence "console_work" "animations/ld/console_work" fps 25 loop 
+$sequence "console_shocked" "animations/ld/console_shocked" fps 19 
+$sequence "console_sneeze" "animations/ld/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
+
 // End of QC script.
