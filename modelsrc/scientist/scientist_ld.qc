@@ -399,4 +399,9 @@ $sequence "sit1" "animations/ld/sit1" fps 13 loop
 $sequence "sit2" "animations/ld/sit2" fps 13 loop 
 $sequence "playgame1" "animations/ld/playgame1" fps 12 loop 
 
+// civ_paper_scientist.mdl sequences
+$sequence "paper_idle1" "animations/ld/paper_idle1" fps 12 loop
+$sequence "paper_idle2" "animations/ld/paper_idle2" fps 12 loop
+$sequence "paper_idle3" "animations/ld/paper_idle3" fps 8 loop 
+
 // End of QC script.
