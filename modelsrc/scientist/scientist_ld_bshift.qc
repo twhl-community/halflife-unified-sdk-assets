@@ -405,4 +405,7 @@ $sequence "paper_idle1" "animations/ld/bshift/paper_idle1" fps 12 loop
 $sequence "paper_idle2" "animations/ld/bshift/paper_idle2" fps 12 loop
 $sequence "paper_idle3" "animations/ld/bshift/paper_idle3" fps 8 loop 
 
+// gordon_scientist.mdl sequences
+$sequence "tram_glance" "animations/ld/bshift/tram_glance" fps 20 
+
 // End of QC script.
