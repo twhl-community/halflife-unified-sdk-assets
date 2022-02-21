@@ -171,7 +171,7 @@ $sequence "sstruggleidle" "animations/ld/bshift/sstruggleidle" fps 18 loop
 $sequence "sstruggle" "animations/ld/bshift/sstruggle" fps 28 { event 1000 1 } 
 $sequence "headcrabbed" "animations/ld/bshift/headcrabbed" AX AY AZR fps 20 { event 1000 165 } 
 $sequence "c1a0_catwalkidle" "animations/ld/bshift/c1a0_catwalkidle" fps 9 loop 
-$sequence "c1a0_catwalk" "animations/ld/bshift/c1a0_catwalk" AX AY AZR fps 9 {
+$sequence "c1a0_catwalk" "animations/ld/bshift/c1a0_catwalk" AX AY AZR fps 8 {
   { event 1000 1 } 
   { event 1008 1 "*scientist/c1a0_sci_stayback.wav" } 
   { event 1008 21 "*scientist/c1a0_sci_catscream.wav" } 
