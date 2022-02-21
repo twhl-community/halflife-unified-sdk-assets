@@ -169,8 +169,8 @@ $sequence "cowering_in_corner" "animations/hd/cowering_in_corner" fps 9 loop { e
 $sequence "sstruggleidle" "animations/hd/sstruggleidle" fps 18 loop 
 $sequence "sstruggle" "animations/hd/sstruggle" fps 28 { event 1000 1 } 
 $sequence "headcrabbed" "animations/hd/headcrabbed" AX AY AZR fps 10 { event 1000 82 } 
-$sequence "c1a0_catwalkidle" "animations/hd/c1a0_catwalkidle" fps 12 loop 
-$sequence "c1a0_catwalk" "animations/hd/c1a0_catwalk" AX AY AZR fps 16 {
+$sequence "c1a0_catwalkidle" "animations/hd/c1a0_catwalkidle" fps 6 loop 
+$sequence "c1a0_catwalk" "animations/hd/c1a0_catwalk" AX AY AZR fps 8 {
   { event 1000 1 } 
   { event 1008 1 "*scientist/c1a0_sci_stayback.wav" } 
   { event 1008 21 "*scientist/c1a0_sci_catscream.wav" } 
