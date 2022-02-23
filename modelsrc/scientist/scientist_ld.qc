@@ -165,7 +165,7 @@ $sequence "sitting2" "animations/ld/sitting2" fps 20
 $sequence "sitting3" "animations/ld/sitting3" fps 15 
 $sequence "cprscientist" "animations/ld/cprscientist" fps 20 loop 
 $sequence "cprscientistrevive" "animations/ld/cprscientistrevive" fps 20 
-$sequence "cowering_in_corner" "animations/ld/cowering_in_corner" fps 18 loop { event 1003 3 "gameover" } 
+$sequence "cowering_in_corner" "animations/ld/cowering_in_corner" fps 18 loop 
 $sequence "sstruggleidle" "animations/ld/sstruggleidle" fps 18 loop 
 $sequence "sstruggle" "animations/ld/sstruggle" fps 28 { event 1000 1 } 
 $sequence "headcrabbed" "animations/ld/headcrabbed" AX AY AZR fps 20 { event 1000 165 } 
