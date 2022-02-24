@@ -220,7 +220,7 @@ $sequence "hanging_idle" "animations/hd/hanging_idle" fps 20 loop
 $sequence "fall" "animations/hd/fall" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" } 
 $sequence "scientist_get_pulled" "animations/hd/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
 $sequence "hanging_idle2" "animations/hd/op4/hanging_idle2" fps 10 loop { event 1008 1 "*scientist/c1a2_sci_dangling.wav" }
-$sequence "fall_elevator" "animations/hd/fall" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" }  
+$sequence "fall_elevator" "animations/hd/fall_elevator" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" }  
 $sequence "scientist_idlewall" "animations/hd/scientist_idlewall" fps 14 loop 
 $sequence "ickyjump_sci" "animations/hd/ickyjump_sci" AX AY AZR fps 18 {
   { event 1000 1 } 
