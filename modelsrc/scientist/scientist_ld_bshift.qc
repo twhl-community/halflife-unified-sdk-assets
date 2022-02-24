@@ -296,6 +296,7 @@ $sequence "thrown_out_window" "animations/ld/bshift/thrown_out_window" fps 30 {
   { event 1001 29 } 
   { event 2001 29 } 
 } 
+$sequence "eye_wipe_op4" "animations/ld/bshift/eye_wipe_op4" fps 18 ACT_FEAR_DISPLAY 1 
 
 // Cleansuit scientist sequences
 $sequence "scientist_throwna" "animations/ld/bshift/scientist_throwna" fps 25 {

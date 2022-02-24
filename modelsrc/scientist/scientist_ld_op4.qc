@@ -109,7 +109,7 @@ $sequence "crouch_idle3" "animations/ld/crouch_idle3_2" fps 18 loop ACT_CROUCHID
 $sequence "panic" "animations/ld/panic" fps 18 ACT_EXCITED 1 
 $sequence "fear1" "animations/ld/fear1" fps 18 ACT_FEAR_DISPLAY 1 
 $sequence "fear2" "animations/ld/fear2" fps 18 ACT_FEAR_DISPLAY 1 
-$sequence "eye_wipe" "animations/ld/op4/eye_wipe" fps 18 ACT_FEAR_DISPLAY 1 
+$sequence "eye_wipe" "animations/ld/eye_wipe" fps 18 ACT_FEAR_DISPLAY 1 
 $sequence "pull_needle" "animations/ld/pull_needle" fps 15 ACT_ARM 1 { event 2 25 } 
 $sequence "return_needle" "animations/ld/return_needle" fps 15 ACT_DISARM 1 { event 3 11 } 
 $sequence "give_shot" "animations/ld/give_shot" fps 15 ACT_MELEE_ATTACK1 1 { event 1 17 } 
@@ -295,6 +295,7 @@ $sequence "thrown_out_window" "animations/ld/thrown_out_window" fps 30 {
   { event 1001 29 } 
   { event 2001 29 } 
 } 
+$sequence "eye_wipe_op4" "animations/ld/op4/eye_wipe" fps 18 ACT_FEAR_DISPLAY 1 
 
 // Cleansuit scientist sequences
 $sequence "scientist_throwna" "animations/ld/scientist_throwna" fps 25 {
