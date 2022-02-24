@@ -204,7 +204,7 @@ $sequence "lookwindow" "animations/hd/lookwindow" fps 15
 $sequence "wave" "animations/hd/wave" fps 10 
 $sequence "pulldoor" "animations/hd/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
 $sequence "beatdoor" "animations/hd/beatdoor" fps 16 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
-$sequence "fallingloop" "animations/hd/fallingloop" fps 35 
+$sequence "fallingloop" "animations/hd/fallingloop" fps 35 loop 
 $sequence "crawlwindow" "animations/hd/crawlwindow" fps 20 
 $sequence "divewindow" "animations/hd/divewindow" fps 30 { event 1001 1 } 
 $sequence "locked_door" "animations/hd/locked_door" fps 16 {
