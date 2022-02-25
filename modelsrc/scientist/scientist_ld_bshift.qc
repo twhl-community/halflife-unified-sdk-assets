@@ -205,7 +205,7 @@ $sequence "lookwindow" "animations/ld/bshift/lookwindow" fps 15
 $sequence "wave" "animations/ld/bshift/wave" fps 10 
 $sequence "pulldoor" "animations/ld/bshift/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
 $sequence "beatdoor" "animations/ld/bshift/beatdoor" fps 16 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
-$sequence "fallingloop" "animations/ld/bshift/fallingloop" fps 35 
+$sequence "fallingloop" "animations/ld/bshift/fallingloop" fps 35 loop 
 $sequence "crawlwindow" "animations/ld/bshift/crawlwindow" fps 20 
 $sequence "divewindow" "animations/ld/bshift/divewindow" fps 30 { event 1001 1 } 
 $sequence "locked_door" "animations/ld/bshift/locked_door" fps 16 {
