@@ -88,7 +88,7 @@ $sequence "walk_scared" "animations/ld/walk_scared" LX fps 20 loop ACT_WALK_SCAR
 $sequence "run" "animations/ld/run" LX fps 25 loop ACT_RUN 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
 $sequence "run1" "animations/ld/run1" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
 $sequence "run2" "animations/ld/run2" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "180_Left" "animations/ld/180_Left" LX fps 30 loop ACT_TURN_LEFT 1 
+$sequence "180_Left" "animations/ld/180_Left" LX fps 15 loop ACT_TURN_LEFT 1 
 $sequence "180_Right" "animations/ld/180_Right" LX fps 15 loop ACT_TURN_RIGHT 1 
 $sequence "flinch" "animations/ld/flinch" fps 30 ACT_BIG_FLINCH 1 
 $sequence "flinch1" "animations/ld/flinch1" fps 20 ACT_SMALL_FLINCH 1 
