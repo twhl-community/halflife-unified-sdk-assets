@@ -216,7 +216,7 @@ $sequence "push_button2" "animations/hd/push_button2" fps 16 { event 1008 1 "*sc
 $sequence "unlock_door" "animations/hd/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
 $sequence "quicklook" "animations/hd/quicklook" fps 16 
 $sequence "handrailidle" "animations/hd/handrailidle" fps 14 loop 
-$sequence "handrail" "animations/hd/handrail" fps 18 
+$sequence "handrail" "animations/hd/handrail" fps 22 
 $sequence "hanging_idle" "animations/hd/hanging_idle" fps 10 loop 
 $sequence "fall" "animations/hd/fall" fps 20 { event 1000 1 } { event 1008 10 "*scientist/scream3.wav" } 
 $sequence "scientist_get_pulled" "animations/hd/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
