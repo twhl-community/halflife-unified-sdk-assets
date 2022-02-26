@@ -149,7 +149,7 @@ $sequence "buysoda" "animations/ld/bshift/buysoda" fps 8 {
 $sequence "pause" "animations/ld/bshift/pause" fps 18 
 $sequence "yes" "animations/ld/bshift/yes" fps 8 
 $sequence "no" "animations/ld/bshift/no" fps 8 
-$sequence "push_button" "animations/ld/bshift/push_button" fps 17 
+$sequence "push_button" "animations/ld/bshift/push_button" fps 16 frame 0 25 
 $sequence "converse1" "animations/ld/bshift/converse1" fps 7 
 $sequence "converse2" "animations/ld/bshift/converse2" fps 7 
 $sequence "retina" "animations/ld/bshift/retina" fps 9 
@@ -213,7 +213,7 @@ $sequence "locked_door" "animations/ld/bshift/locked_door" fps 16 {
   { event 1004 21 "*buttons/latchlocked2.wav" } 
   { event 1004 31 "*buttons/latchlocked1.wav" } 
  }
-$sequence "push_button2" "animations/ld/bshift/push_button2" fps 17 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
+$sequence "push_button2" "animations/ld/bshift/push_button2" fps 16 frame 0 25 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
 $sequence "unlock_door" "animations/ld/bshift/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
 $sequence "quicklook" "animations/ld/bshift/quicklook" fps 16 
 $sequence "handrailidle" "animations/ld/bshift/handrailidle" fps 14 loop 
@@ -265,7 +265,7 @@ $sequence "portal" "animations/ld/bshift/portal" fps 20 loop {
   { event 1008 110 "*buttons/blip2.wav" } 
   { event 1008 119 "*buttons/blip1.wav" } 
  }
-$sequence "gluonshow" "animations/ld/bshift/gluonshow" fps 19 
+$sequence "gluonshow" "animations/ld/bshift/gluonshow" fps 18 frame 0 25
 $sequence "crouch" "animations/ld/bshift/crouch" fps 25 
 $sequence "kneel" "animations/ld/bshift/kneel" fps 22 
 
