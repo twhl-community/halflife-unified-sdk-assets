@@ -84,43 +84,43 @@ $hbox 1 "Bip02 Head" -1.000000 -3.960000 -3.860000 8.020000 5.230000 4.070000
 
 
 // 138 animation sequence(s)
-$sequence "walk" "animations/ld/bshift/walk" LX fps 17 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
-$sequence "walk_scared" "animations/ld/bshift/walk_scared" LX fps 14 loop ACT_WALK_SCARED 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
-$sequence "run" "animations/ld/bshift/run" LX fps 22 loop ACT_RUN 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "run1" "animations/ld/bshift/run1" LX fps 20 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "run2" "animations/ld/bshift/run2" LX fps 22 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "180_Left" "animations/ld/bshift/180_Left" LX fps 19 loop ACT_TURN_LEFT 1 
-$sequence "180_Right" "animations/ld/bshift/180_Right" LX fps 19 loop ACT_TURN_RIGHT 1 
-$sequence "flinch" "animations/ld/bshift/flinch" fps 15 ACT_BIG_FLINCH 1 
+$sequence "walk" "animations/ld/bshift/walk" LX fps 20 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
+$sequence "walk_scared" "animations/ld/bshift/walk_scared" LX fps 20 loop ACT_WALK_SCARED 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
+$sequence "run" "animations/ld/bshift/run" LX fps 25 loop ACT_RUN 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
+$sequence "run1" "animations/ld/bshift/run1" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
+$sequence "run2" "animations/ld/bshift/run2" LX fps 32 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
+$sequence "180_Left" "animations/ld/bshift/180_Left" LX fps 15 loop ACT_TURN_LEFT 1 
+$sequence "180_Right" "animations/ld/bshift/180_Right" LX fps 15 loop ACT_TURN_RIGHT 1 
+$sequence "flinch" "animations/ld/bshift/flinch" fps 30 ACT_BIG_FLINCH 1 
 $sequence "flinch1" "animations/ld/bshift/flinch1" fps 20 ACT_SMALL_FLINCH 1 
-$sequence "laflinch" "animations/ld/bshift/laflinch" fps 13 ACT_FLINCH_LEFTARM 1 
-$sequence "raflinch" "animations/ld/bshift/raflinch" fps 13 ACT_FLINCH_RIGHTARM 1 
-$sequence "llflinch" "animations/ld/bshift/llflinch" fps 13 ACT_FLINCH_LEFTLEG 1 
-$sequence "rlflinch" "animations/ld/bshift/rlflinch" fps 13 ACT_FLINCH_RIGHTLEG 1 
-$sequence "idle1" "animations/ld/bshift/idle1" fps 7 loop ACT_IDLE 50 
-$sequence "idle3" "animations/ld/bshift/idle3" fps 12 ACT_IDLE 1 
-$sequence "idle4" "animations/ld/bshift/idle4" fps 12 ACT_IDLE 2 
-$sequence "idle5" "animations/ld/bshift/idle5" fps 13 ACT_IDLE 1 
-$sequence "idle6" "animations/ld/bshift/idle6" fps 13 ACT_IDLE 1 
-$sequence "idle7" "animations/ld/bshift/idle7" fps 13 ACT_IDLE 10 
-$sequence "crouchstand" "animations/ld/bshift/crouchstand" fps 13 ACT_STAND 1 
-$sequence "crouch_idle" "animations/ld/bshift/crouch_idle" fps 14 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle2" "animations/ld/bshift/crouch_idle2" fps 12 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3" "animations/ld/bshift/crouch_idle3_1" fps 13 loop ACT_CROUCHIDLE 1 
+$sequence "laflinch" "animations/ld/bshift/laflinch" fps 15 ACT_FLINCH_LEFTARM 1 
+$sequence "raflinch" "animations/ld/bshift/raflinch" fps 15 ACT_FLINCH_RIGHTARM 1 
+$sequence "llflinch" "animations/ld/bshift/llflinch" fps 15 ACT_FLINCH_LEFTLEG 1 
+$sequence "rlflinch" "animations/ld/bshift/rlflinch" fps 15 ACT_FLINCH_RIGHTLEG 1 
+$sequence "idle1" "animations/ld/bshift/idle1" fps 9 loop ACT_IDLE 50 
+$sequence "idle3" "animations/ld/bshift/idle3" fps 15 ACT_IDLE 1 
+$sequence "idle4" "animations/ld/bshift/idle4" fps 15 ACT_IDLE 2 
+$sequence "idle5" "animations/ld/bshift/idle5" fps 15 ACT_IDLE 1 
+$sequence "idle6" "animations/ld/bshift/idle6" fps 15 ACT_IDLE 1 
+$sequence "idle7" "animations/ld/bshift/idle7" fps 10 ACT_IDLE 10 
+$sequence "crouchstand" "animations/ld/bshift/crouchstand" fps 18 ACT_STAND 1 
+$sequence "crouch_idle" "animations/ld/bshift/crouch_idle" fps 18 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle2" "animations/ld/bshift/crouch_idle2" fps 16 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "animations/ld/bshift/crouch_idle3_1" fps 27 loop ACT_CROUCHIDLE 1 
 $sequence "crouch_idle3" "animations/ld/bshift/crouch_idle3_2" fps 13 loop ACT_CROUCHIDLE 1 
-$sequence "panic" "animations/ld/bshift/panic" fps 15 ACT_EXCITED 1 
+$sequence "panic" "animations/ld/bshift/panic" fps 18 ACT_EXCITED 1 
 $sequence "fear1" "animations/ld/bshift/fear1" fps 18 ACT_FEAR_DISPLAY 1 
-$sequence "fear2" "animations/ld/bshift/fear2" fps 18 ACT_FEAR_DISPLAY 1 
-$sequence "eye_wipe" "animations/ld/bshift/eye_wipe" fps 19 ACT_FEAR_DISPLAY 1 
-$sequence "pull_needle" "animations/ld/bshift/pull_needle" fps 15 ACT_ARM 1 { event 2 15 } 
-$sequence "return_needle" "animations/ld/bshift/return_needle" fps 15 ACT_DISARM 1 { event 3 15 } 
-$sequence "give_shot" "animations/ld/bshift/give_shot" fps 16 ACT_MELEE_ATTACK1 1 { event 1 22 } 
+$sequence "fear2" "animations/ld/bshift/fear2" fps 25 ACT_FEAR_DISPLAY 1 
+$sequence "eye_wipe" "animations/ld/bshift/eye_wipe" fps 15 ACT_FEAR_DISPLAY 1 
+$sequence "pull_needle" "animations/ld/bshift/pull_needle" fps 13 ACT_ARM 1 { event 2 15 } 
+$sequence "return_needle" "animations/ld/bshift/return_needle" fps 22 ACT_DISARM 1 { event 3 15 } 
+$sequence "give_shot" "animations/ld/bshift/give_shot" fps 19 ACT_MELEE_ATTACK1 1 { event 1 22 } 
 $sequence "diesimple" "animations/ld/bshift/diesimple" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } 
-$sequence "dieforward" "animations/ld/bshift/dieforward" X fps 15 ACT_DIE_HEADSHOT 1 { event 2001 26 } 
-$sequence "dieforward1" "animations/ld/bshift/dieforward1" X fps 13 ACT_DIEFORWARD 1 { event 2001 11 } 
+$sequence "dieforward" "animations/ld/bshift/dieforward" X fps 21 ACT_DIE_HEADSHOT 1 { event 2001 26 } 
+$sequence "dieforward1" "animations/ld/bshift/dieforward1" X fps 12 ACT_DIEFORWARD 1 { event 2001 11 } 
 $sequence "diebackward" "animations/ld/bshift/diebackward" X fps 15 ACT_DIEBACKWARD 1 { event 2001 8 } 
 $sequence "headshot" "animations/ld/bshift/headshot" X fps 15 ACT_DIE_HEADSHOT 20 { event 2001 18 } 
-$sequence "gutshot" "animations/ld/bshift/gutshot" X fps 15 ACT_DIE_GUTSHOT 1 { event 2001 16 } 
+$sequence "gutshot" "animations/ld/bshift/gutshot" X fps 17 ACT_DIE_GUTSHOT 1 { event 2001 16 } 
 $sequence "lying_on_back" "animations/ld/bshift/lying_on_back" fps 30 
 $sequence "lying_on_stomach" "animations/ld/bshift/lying_on_stomach" fps 30 
 $sequence "dead_sitting" "animations/ld/bshift/dead_sitting" fps 30 
@@ -128,18 +128,18 @@ $sequence "dead_table1" "animations/ld/bshift/dead_table1" fps 30
 $sequence "dead_table2" "animations/ld/bshift/dead_table2" fps 30 
 $sequence "dead_table3" "animations/ld/bshift/dead_table3" fps 30 
 $sequence "barnacled1" "animations/ld/bshift/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
-$sequence "barnacled2" "animations/ld/bshift/barnacled2" fps 23 loop ACT_BARNACLE_PULL 1 
-$sequence "barnacled3" "animations/ld/bshift/barnacled3" fps 14 ACT_BARNACLE_CHOMP 1 
+$sequence "barnacled2" "animations/ld/bshift/barnacled2" fps 28 loop ACT_BARNACLE_PULL 1 
+$sequence "barnacled3" "animations/ld/bshift/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
 $sequence "barnacled4" "animations/ld/bshift/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
 $sequence "console" "animations/ld/bshift/console" fps 9 loop 
-$sequence "checktie" "animations/ld/bshift/checktie" fps 14 { event 1008 1 "scientist/weartie.wav" } 
+$sequence "checktie" "animations/ld/bshift/checktie" fps 12 { event 1008 1 "scientist/weartie.wav" } 
 $sequence "dryhands" "animations/ld/bshift/dryhands" fps 12 
 $sequence "tieshoe" "animations/ld/bshift/tieshoe" fps 12 
-$sequence "writeboard" "animations/ld/bshift/writeboard" fps 8 
+$sequence "writeboard" "animations/ld/bshift/writeboard" fps 7 
 $sequence "studycart" "animations/ld/bshift/studycart" fps 6 
 $sequence "lean" "animations/ld/bshift/lean" fps 12 
-$sequence "pondering" "animations/ld/bshift/pondering" fps 9 
-$sequence "pondering2" "animations/ld/bshift/pondering2" fps 15 
+$sequence "pondering" "animations/ld/bshift/pondering" fps 12 
+$sequence "pondering2" "animations/ld/bshift/pondering2" fps 8 
 $sequence "pondering3" "animations/ld/bshift/pondering3" fps 12 
 $sequence "buysoda" "animations/ld/bshift/buysoda" fps 8 {
   { event 1004 25 "*buttons/blip1.wav" } 
@@ -147,30 +147,30 @@ $sequence "buysoda" "animations/ld/bshift/buysoda" fps 8 {
   { event 1004 44 "*buttons/latchunlocked1.wav" } 
  }
 $sequence "pause" "animations/ld/bshift/pause" fps 18 
-$sequence "yes" "animations/ld/bshift/yes" fps 12 
-$sequence "no" "animations/ld/bshift/no" fps 12 
-$sequence "push_button" "animations/ld/bshift/push_button" fps 13 
+$sequence "yes" "animations/ld/bshift/yes" fps 8 
+$sequence "no" "animations/ld/bshift/no" fps 8 
+$sequence "push_button" "animations/ld/bshift/push_button" fps 17 
 $sequence "converse1" "animations/ld/bshift/converse1" fps 7 
 $sequence "converse2" "animations/ld/bshift/converse2" fps 7 
 $sequence "retina" "animations/ld/bshift/retina" fps 9 
 $sequence "talkleft" "animations/ld/bshift/talkleft" fps 12 loop 
 $sequence "talkright" "animations/ld/bshift/talkright" fps 14 loop 
-$sequence "deskidle" "animations/ld/bshift/deskidle" fps 5 loop { event 1003 8 "intro" } 
+$sequence "deskidle" "animations/ld/bshift/deskidle" fps 4 loop { event 1003 8 "intro" } 
 $sequence "coffee" "animations/ld/bshift/coffee" fps 7 loop 
 $sequence "franticbutton" "animations/ld/bshift/franticbutton" fps 14 
 $sequence "startle" "animations/ld/bshift/startle" fps 16 
 $sequence "sitlookleft" "animations/ld/bshift/sitlookleft" fps 10 
 $sequence "sitlookright" "animations/ld/bshift/sitlookright" fps 10 
-$sequence "sitscared" "animations/ld/bshift/sitscared" fps 13 
+$sequence "sitscared" "animations/ld/bshift/sitscared" fps 6 
 $sequence "sitting2" "animations/ld/bshift/sitting2" fps 10 
-$sequence "sitting3" "animations/ld/bshift/sitting3" fps 10 
+$sequence "sitting3" "animations/ld/bshift/sitting3" fps 8 
 $sequence "cprscientist" "animations/ld/bshift/cprscientist" fps 20 loop 
 $sequence "cprscientistrevive" "animations/ld/bshift/cprscientistrevive" fps 20 
-$sequence "cowering_in_corner" "animations/ld/bshift/cowering_in_corner" fps 9 loop 
+$sequence "cowering_in_corner" "animations/ld/bshift/cowering_in_corner" fps 8 loop 
 $sequence "sstruggleidle" "animations/ld/bshift/sstruggleidle" fps 18 loop 
 $sequence "sstruggle" "animations/ld/bshift/sstruggle" fps 28 { event 1000 1 } 
 $sequence "headcrabbed" "animations/ld/bshift/headcrabbed" AX AY AZR fps 20 { event 1000 165 } 
-$sequence "c1a0_catwalkidle" "animations/ld/bshift/c1a0_catwalkidle" fps 9 loop 
+$sequence "c1a0_catwalkidle" "animations/ld/bshift/c1a0_catwalkidle" fps 6 loop 
 $sequence "c1a0_catwalk" "animations/ld/bshift/c1a0_catwalk" AX AY AZR fps 8 {
   { event 1000 1 } 
   { event 1008 1 "*scientist/c1a0_sci_stayback.wav" } 
@@ -202,9 +202,9 @@ $sequence "keypad" "animations/ld/bshift/keypad" fps 18 {
  }
 $sequence "panic1" "animations/ld/bshift/panic1" fps 18 
 $sequence "lookwindow" "animations/ld/bshift/lookwindow" fps 15 
-$sequence "wave" "animations/ld/bshift/wave" fps 10 
+$sequence "wave" "animations/ld/bshift/wave" fps 11 
 $sequence "pulldoor" "animations/ld/bshift/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
-$sequence "beatdoor" "animations/ld/bshift/beatdoor" fps 16 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
+$sequence "beatdoor" "animations/ld/bshift/beatdoor" fps 16 frame 0 25 { event 1004 9 "*buttons/latchunlocked1.wav" } { event 1004 20 "*buttons/latchunlocked2.wav" } 
 $sequence "fallingloop" "animations/ld/bshift/fallingloop" fps 35 loop 
 $sequence "crawlwindow" "animations/ld/bshift/crawlwindow" fps 20 
 $sequence "divewindow" "animations/ld/bshift/divewindow" fps 30 { event 1001 1 } 
@@ -213,7 +213,7 @@ $sequence "locked_door" "animations/ld/bshift/locked_door" fps 16 {
   { event 1004 21 "*buttons/latchlocked2.wav" } 
   { event 1004 31 "*buttons/latchlocked1.wav" } 
  }
-$sequence "push_button2" "animations/ld/bshift/push_button2" fps 16 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
+$sequence "push_button2" "animations/ld/bshift/push_button2" fps 17 { event 1008 1 "*scientist/c1a2_sci_darkroom.wav" } 
 $sequence "unlock_door" "animations/ld/bshift/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
 $sequence "quicklook" "animations/ld/bshift/quicklook" fps 16 
 $sequence "handrailidle" "animations/ld/bshift/handrailidle" fps 14 loop 
@@ -231,8 +231,8 @@ $sequence "ickyjump_sci" "animations/ld/bshift/ickyjump_sci" AX AY AZR fps 18 {
   { event 1003 30 "gib" } 
  }
 $sequence "haulscientist" "animations/ld/bshift/haulscientist" AX AY AZR fps 17 { event 1000 1 } { event 1001 1 } 
-$sequence "c1a4_wounded_idle" "animations/ld/bshift/c1a4_wounded_idle" fps 6 loop 
-$sequence "c1a4_dying_speech" "animations/ld/bshift/c1a4_dying_speech" fps 7 {
+$sequence "c1a4_wounded_idle" "animations/ld/bshift/c1a4_wounded_idle" fps 15 loop 
+$sequence "c1a4_dying_speech" "animations/ld/bshift/c1a4_dying_speech" fps 8 {
   { event 1000 1 } 
   { event 1008 1 "*scientist/c1a4_sci_rocket.wav" } 
   { event 1008 45 "*scientist/sci_pain3.wav" } 
@@ -253,7 +253,7 @@ $sequence "scicrashidle" "animations/ld/bshift/scicrashidle" fps 34 loop
 $sequence "scicrash" "animations/ld/bshift/scicrash" fps 20 { event 1000 1 } 
 $sequence "onguard" "animations/ld/bshift/onguard" fps 12 loop 
 $sequence "seeya" "animations/ld/bshift/seeya" AX AY AZR fps 33 { event 1003 163 "putdown" } 
-$sequence "rocketcrawl" "animations/ld/bshift/rocketcrawl" fps 6 loop 
+$sequence "rocketcrawl" "animations/ld/bshift/rocketcrawl" fps 10 loop 
 $sequence "portal" "animations/ld/bshift/portal" fps 20 loop {
   { event 1008 19 "*buttons/blip1.wav" } 
   { event 1008 22 "*buttons/blip1.wav" } 
@@ -265,8 +265,8 @@ $sequence "portal" "animations/ld/bshift/portal" fps 20 loop {
   { event 1008 110 "*buttons/blip2.wav" } 
   { event 1008 119 "*buttons/blip1.wav" } 
  }
-$sequence "gluonshow" "animations/ld/bshift/gluonshow" fps 18 
-$sequence "crouch" "animations/ld/bshift/crouch" fps 18 
+$sequence "gluonshow" "animations/ld/bshift/gluonshow" fps 19 
+$sequence "crouch" "animations/ld/bshift/crouch" fps 25 
 $sequence "kneel" "animations/ld/bshift/kneel" fps 22 
 
 // Opposing Force sequences
