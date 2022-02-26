@@ -229,7 +229,7 @@ $sequence "ickyjump_sci" "animations/hd/ickyjump_sci" AX AY AZR fps 18 {
   { event 1003 8 "scream" } 
   { event 1003 28 "gib" } 
  }
-$sequence "haulscientist" "animations/hd/haulscientist" AX AY AZR fps 18 { event 1000 1 } { event 1001 1 } 
+$sequence "haulscientist" "animations/hd/haulscientist" AX AY AZR fps 17 { event 1000 1 } { event 1001 1 } 
 $sequence "c1a4_wounded_idle" "animations/hd/c1a4_wounded_idle" fps 6 loop 
 $sequence "c1a4_dying_speech" "animations/hd/c1a4_dying_speech" fps 7 {
   { event 1000 1 } 
