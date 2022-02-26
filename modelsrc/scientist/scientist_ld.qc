@@ -159,7 +159,7 @@ $sequence "coffee" "animations/ld/coffee" fps 14 loop
 $sequence "franticbutton" "animations/ld/franticbutton" fps 14 
 $sequence "startle" "animations/ld/startle" fps 16 
 $sequence "sitlookleft" "animations/ld/sitlookleft" fps 10 
-$sequence "sitlookright" "animations/ld/sitlookright" fps 10 
+$sequence "sitlookright" "animations/ld/sitlookright" fps 7 
 $sequence "sitscared" "animations/ld/sitscared" fps 25 
 $sequence "sitting2" "animations/ld/sitting2" fps 20 
 $sequence "sitting3" "animations/ld/sitting3" fps 15 
