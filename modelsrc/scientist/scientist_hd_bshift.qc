@@ -199,7 +199,7 @@ $sequence "keypad" "animations/hd/keypad" fps 18 {
   { event 1008 34 "*buttons/blip1.wav" } 
   { event 1008 44 "*buttons/blip1.wav" } 
  }
-$sequence "panic1" "animations/hd/panic1" fps 15 
+$sequence "panic1" "animations/hd/panic1" fps 18 
 $sequence "lookwindow" "animations/hd/lookwindow" fps 15 
 $sequence "wave" "animations/hd/wave" fps 10 
 $sequence "pulldoor" "animations/hd/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
