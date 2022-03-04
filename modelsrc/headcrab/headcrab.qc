@@ -16,7 +16,6 @@ $modelname "headcrab.mdl"
 $cd ".\"
 $cdtexture "..\..\texturesrc\headcrab"
 $scale 1.0
-$cliptotextures
 
 
 $bbox -12.000000 -12.000000 0.000000 12.000000 12.000000 24.000000
