@@ -32,14 +32,19 @@ studio "meshes/ld/SCI3_Template_Biped1(NerdHead)"
 studio "meshes/ld/SCI2_Template_Biped1(EinstienHead)"
 studio "meshes/ld/SCI3_Template_Biped1(LutherHead)"
 studio "meshes/ld/SCI3_Template_Biped1(SlickHead)"
-studio "meshes/ld/SCI_clipboard"
-studio "meshes/ld/SCI_stick"
 }
 
 $bodygroup "needle"
 {
 blank
 studio "meshes/ld/SCI2_Template_Biped(Needle_Hand)1"
+}
+
+$bodygroup "items"
+{
+blank
+studio "meshes/ld/SCI_clipboard"
+studio "meshes/ld/SCI_stick"
 }
 
 // 2 skin families

@@ -32,14 +32,19 @@ studio "meshes/hd/dc_sci_(head_NERD)"
 studio "meshes/hd/dc_sci_(head_EINSTEIN)"
 studio "meshes/hd/dc_sci_(head_LUTHER)"
 studio "meshes/hd/dc_sci_(head_SLICK)"
-studio "meshes/hd/SCI_clipboard"
-studio "meshes/hd/SCI_stick"
 }
 
 $bodygroup "needle"
 {
 blank
 studio "meshes/hd/scientist_needle"
+}
+
+$bodygroup "items"
+{
+blank
+studio "meshes/hd/SCI_clipboard"
+studio "meshes/hd/SCI_stick"
 }
 
 // 2 skin families
