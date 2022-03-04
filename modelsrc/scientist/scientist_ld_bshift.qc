@@ -43,12 +43,6 @@ blank
 studio "meshes/ld/bshift/scientist_needle"
 }
 
-$bodygroup "newspaper"
-{
-blank
-studio "meshes/ld/bshift/SCI_newspaper"
-}
-
 // 2 skin families
 $texturegroup skinfamilies 
 {

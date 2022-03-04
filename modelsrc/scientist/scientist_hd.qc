@@ -42,12 +42,6 @@ blank
 studio "meshes/hd/scientist_needle"
 }
 
-$bodygroup "newspaper"
-{
-blank
-studio "meshes/hd/SCI_newspaper"
-}
-
 // 2 skin families
 $texturegroup skinfamilies 
 {
