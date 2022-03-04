@@ -92,7 +92,7 @@ $sequence "beat_grunt" "animations/hd/beat_grunt" fps 14
 $sequence "beat_gruntidle" "animations/hd/beat_gruntidle" fps 14 loop 
 $sequence "flashlight" "animations/hd/flashlight" fps 14 loop { event 1004 5 "*buttons/latchunlocked2.wav" } 
 $sequence "diesimple" "animations/hd/diesimple" X fps 15 ACT_DIE_HEADSHOT 1 { event 2001 5 } 
-$sequence "dieviolent" "animations/hd/dieviolent" X fps 12 ACT_DIE_HEADSHOT 1 { event 2001 10 } 
+$sequence "dieviolent" "animations/hd/dieviolent" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } 
 $sequence "diegutshot" "animations/hd/diegutshot" fps 15 ACT_DIE_GUTSHOT 1 { event 2001 33 } 
 $sequence "dieforward" "animations/hd/dieforward" X fps 18 ACT_DIEFORWARD 1 { event 2001 8 } 
 $sequence "diebackward" "animations/hd/diebackward" X fps 15 ACT_DIEBACKWARD 1 { event 2001 19 } 
