@@ -56,7 +56,7 @@ $sequence "turnleft" "animations/hd/turnleft" fps 20 ACT_TURN_LEFT 1
 $sequence "turnright" "animations/hd/turnright" fps 20 ACT_TURN_RIGHT 1 
 $sequence "flinchsmall" "animations/hd/flinchsmall" fps 22 ACT_SMALL_FLINCH 5 
 $sequence "flinch" "animations/hd/flinch" fps 22 ACT_SMALL_FLINCH 1 
-$sequence "bigflinch" "animations/hd/bigflinch" fps 22 ACT_BIG_FLINCH 1 
+$sequence "bigflinch" "animations/hd/bigflinch" fps 14 ACT_BIG_FLINCH 1 
 $sequence "getup" "animations/hd/getup" fps 15 
 $sequence "falling" "animations/hd/falling" fps 26 loop ACT_FALL 1 
 $sequence "attack1" "animations/hd/attack1" fps 15 ACT_MELEE_ATTACK1 5 { event 1 10 } { event 2 19 } 
@@ -73,12 +73,12 @@ $sequence "laflinch" "animations/hd/laflinch" fps 15 ACT_FLINCH_LEFTARM 1
 $sequence "raflinch" "animations/hd/raflinch" fps 15 ACT_FLINCH_RIGHTARM 1 
 $sequence "llflinch" "animations/hd/llflinch" fps 15 ACT_FLINCH_LEFTLEG 1 
 $sequence "rlflinch" "animations/hd/rlflinch" fps 15 ACT_FLINCH_RIGHTLEG 1 
-$sequence "dieheadshot" "animations/hd/dieheadshot" X fps 18 ACT_DIE_HEADSHOT 1 { event 2001 19 } 
+$sequence "dieheadshot" "animations/hd/dieheadshot" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 19 } 
 $sequence "dieheadshot2" "animations/hd/dieheadshot2" fps 22 ACT_DIE_GUTSHOT 1 { event 2001 18 } 
 $sequence "diesimple" "animations/hd/diesimple" X fps 20 ACT_DIESIMPLE 1 { event 2001 13 } 
 $sequence "diebackward" "animations/hd/diebackward" fps 18 ACT_DIEBACKWARD 1 { event 2001 10 } 
 $sequence "dieforward" "animations/hd/dieforward" X fps 18 ACT_DIEFORWARD 1 { event 2001 21 } 
-$sequence "pause" "animations/hd/pause" fps 15 
+$sequence "pause" "animations/hd/pause" fps 2 
 $sequence "busting_through_wall" "animations/hd/busting_through_wall" fps 20 
 $sequence "kick_punch_wall" "animations/hd/kick_punch_wall" fps 14 
 $sequence "bust_window" "animations/hd/bust_window" fps 26 
@@ -89,7 +89,7 @@ $sequence "ventclimbidle" "animations/hd/ventclimbidle" fps 15 loop
 $sequence "ventclimb" "animations/hd/ventclimb" fps 20 
 $sequence "deadidle" "animations/hd/deadidle" fps 14 loop 
 $sequence "deadwall" "animations/hd/deadwall" fps 16 
-$sequence "freakdie" "animations/hd/freakdie" fps 12 { event 1000 4 } 
+$sequence "freakdie" "animations/hd/freakdie" fps 17 { event 1000 4 } 
 $sequence "freak" "animations/hd/freak" fps 16 loop { event 1003 2 "freak" } 
 $sequence "eatbodytable" "animations/hd/eatbodytable" fps 20 loop 
 $sequence "eatbody" "animations/hd/eatbody" fps 15 loop 
@@ -116,8 +116,8 @@ $sequence "table_breathe" "animations/hd/table_breathe" fps 30 loop
 
 // Blue Shift sequences
 $sequence "left_tug" "animations/hd/left_tug" fps 9 
-$sequence "left_tug_idle" "animations/hd/left_tug_idle" fps 18 
+$sequence "left_tug_idle" "animations/hd/left_tug_idle" fps 9 
 $sequence "right_tug" "animations/hd/right_tug" fps 9 
-$sequence "right_tug_idle" "animations/hd/right_tug_idle" fps 18 
+$sequence "right_tug_idle" "animations/hd/right_tug_idle" fps 9 
 
 // End of QC script.
