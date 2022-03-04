@@ -16,7 +16,6 @@ $modelname "player_gordon.mdl"
 $cd ".\"
 $cdtexture "..\..\texturesrc\player\gordon"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000

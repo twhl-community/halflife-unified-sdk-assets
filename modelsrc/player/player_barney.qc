@@ -17,7 +17,6 @@ $cd ".\"
 $cdtexture "..\..\texturesrc\barney"
 $cdtexture "..\..\texturesrc\player\barney"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000

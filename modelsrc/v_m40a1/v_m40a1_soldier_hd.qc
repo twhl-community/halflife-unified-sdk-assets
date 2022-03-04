@@ -18,7 +18,6 @@ $cdtexture ".\"
 $cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
 $cdtexture "..\..\texturesrc\viewmodel\v_m40a1"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
