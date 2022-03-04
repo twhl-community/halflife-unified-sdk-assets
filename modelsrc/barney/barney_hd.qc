@@ -85,7 +85,7 @@ $sequence "rlflinch" "animations/hd/rlflinch" fps 20 ACT_FLINCH_RIGHTLEG 1
 $sequence "smlflinch" "animations/hd/smlflinch" fps 30 ACT_SMALL_FLINCH 1 
 $sequence "cower_stand" "animations/hd/cower_stand" fps 14 
 $sequence "locked_door" "animations/hd/locked_door" fps 28 loop 
-$sequence "fall_loop" "animations/hd/fall_loop" fps 28 loop 
+$sequence "fall_loop" "animations/hd/fall_loop" fps 28 frame 0 29 loop 
 $sequence "barn_wave" "animations/hd/barn_wave" fps 22 
 $sequence "beat_grunt" "animations/hd/beat_grunt" fps 14 
 $sequence "beat_gruntidle" "animations/hd/beat_gruntidle" fps 14 loop 
@@ -106,7 +106,7 @@ $sequence "lying_on_stomach" "animations/hd/lying_on_stomach" fps 1
 $sequence "stuffed_in_vent" "animations/hd/stuffed_in_vent" fps 1 
 $sequence "standing_idle" "animations/hd/standing_idle" fps 15 loop 
 $sequence "cprbarney" "animations/hd/cprbarney" fps 20 loop 
-$sequence "cprbarneyrevive" "animations/hd/cprbarneyrevive" fps 20 
+$sequence "cprbarneyrevive" "animations/hd/cprbarneyrevive" fps 18 
 $sequence "barney_dragvent" "animations/hd/barney_dragvent" fps 15 { event 1000 1 } 
 $sequence "dying_barney" "animations/hd/dying_barney" fps 18 { event 1000 1 } 
 $sequence "dying_barneyidle" "animations/hd/dying_barneyidle" fps 12 loop 
@@ -123,7 +123,7 @@ $sequence "intropush" "animations/hd/intropush" fps 16 {
   { event 1004 34 "*buttons/blip1.wav" } 
   { event 1004 44 "*buttons/blip1.wav" } 
  }
-$sequence "fence" "animations/hd/fence" AX AY AZR fps 24 {
+$sequence "fence" "animations/hd/fence" AX AY AZR fps 22 {
   { event 1000 70 } 
   { event 1003 70 "lightning" } 
   { event 1001 70 } 
@@ -131,13 +131,13 @@ $sequence "fence" "animations/hd/fence" AX AY AZR fps 24 {
   { event 1008 100 "barney/ba_pain2.wav" } 
  }
 $sequence "sit1" "animations/hd/sit1" fps 20 loop { event 1003 50 "introchair" } { event 1003 102 "introchair" } 
-$sequence "almostidle" "animations/hd/almostidle" fps 16 loop 
+$sequence "almostidle" "animations/hd/almostidle" fps 17 loop 
 $sequence "almost" "animations/hd/almost" fps 26 { event 1000 1 } 
 $sequence "laseridle" "animations/hd/laseridle" fps 6 
 $sequence "laser_top" "animations/hd/laser_top" fps 6 { event 1000 0 } 
 $sequence "laser_bottom" "animations/hd/laser_bottom" fps 6 { event 1000 0 } 
 $sequence "barneyfallidle" "animations/hd/barneyfallidle" fps 33 loop 
-$sequence "barneyfall" "animations/hd/barneyfall" fps 32 {
+$sequence "barneyfall" "animations/hd/barneyfall" fps 52 {
   { event 1000 1 } 
   { event 1008 2 "barney/ba_pain1.wav" } 
   { event 1008 24 "barney/ba_pain2.wav" } 
@@ -146,7 +146,7 @@ $sequence "barneyfall" "animations/hd/barneyfall" fps 32 {
  }
 $sequence "c3a2_draw" "animations/hd/c3a2_draw" fps 16 { event 2 13 } 
 $sequence "unlatch" "animations/hd/unlatch" fps 12 { event 1003 7 "barney_door_lock" } 
-$sequence "retina" "animations/hd/retina" fps 20 
+$sequence "retina" "animations/hd/retina" fps 28 
 $sequence "relaxstand" "animations/hd/relaxstand" fps 10 loop 
 $sequence "assassinated" "animations/hd/assassinated" X fps 18 {
   { event 1000 1 } 
@@ -159,8 +159,8 @@ $sequence "pepsipush" "animations/hd/pepsipush" fps 18 { event 1003 51 "topple" 
 $sequence "buttonpush" "animations/hd/buttonpush" fps 20 { event 1003 7 "button" } 
 
 // Opposing Force sequences
-$sequence "turn_lever" "animations/hd/turn_lever" fps 31 
-$sequence "draw_shoot" "animations/hd/draw_shoot" fps 13 {
+$sequence "turn_lever" "animations/hd/turn_lever" fps 30 
+$sequence "draw_shoot" "animations/hd/draw_shoot" fps 15 {
   { event 2 8 } 
   { event 5001 16 "21" } 
   { event 3 16 } 
@@ -195,13 +195,13 @@ $sequence "range_pushbutton" "animations/hd/range_pushbutton" fps 30 {
   { event 1003 43 "end_range_pushbutton" } 
  }
 $sequence "range_reload" "animations/hd/range_reload" fps 15 { event 2 1 } { event 1003 41 "end_range_reload" } 
-$sequence "adjust_armor" "animations/hd/adjust_armor" fps 15 
-$sequence "wash_hands" "animations/hd/wash_hands" fps 12 { event 1003 12 "faucet_on" } { event 1003 67 "faucet_off" } 
+$sequence "adjust_armor" "animations/hd/adjust_armor" fps 14 
+$sequence "wash_hands" "animations/hd/wash_hands" fps 12 frame 0 67 { event 1003 12 "faucet_on" } { event 1003 67 "faucet_off" } 
 $sequence "dry_hands" "animations/hd/dry_hands" fps 12 { event 1003 12 "blower_on" } 
 $sequence "eaten" "animations/hd/eaten" fps 21 { event 1000 1 } 
 $sequence "eaten_loop" "animations/hd/eaten_loop" fps 25 loop 
 $sequence "tugged" "animations/hd/tugged" fps 18 { event 1000 1 } 
-$sequence "tugged_idle" "animations/hd/tugged_idle" fps 18 { event 1000 0 } 
+$sequence "tugged_idle" "animations/hd/tugged_idle" fps 9 { event 1000 0 } 
 $sequence "block_gate" "animations/hd/block_gate" fps 15 {
   { event 1000 315 } 
   { event 1003 315 "cage_door_master_relay" } 
