@@ -404,11 +404,6 @@ $sequence "sit1" "animations/hd/sit1" fps 13 loop
 $sequence "sit2" "animations/hd/sit2" fps 13 loop 
 $sequence "playgame1" "animations/hd/playgame1" fps 12 loop 
 
-// civ_paper_scientist.mdl sequences
-$sequence "paper_idle1" "animations/hd/paper_idle1" fps 12 loop
-$sequence "paper_idle2" "animations/hd/paper_idle2" fps 12 loop
-$sequence "paper_idle3" "animations/hd/paper_idle3" fps 8 loop
-
 // console_civ_scientist.mdl sequences
 $sequence "console_idle1" "animations/hd/console_idle1" fps 25 loop
 $sequence "console_work" "animations/hd/console_work" fps 25 loop 
