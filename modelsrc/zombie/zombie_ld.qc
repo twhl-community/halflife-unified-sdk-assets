@@ -16,7 +16,6 @@ $modelname "zombie_ld.mdl"
 $cd ".\"
 $cdtexture "..\..\texturesrc\zombie"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
