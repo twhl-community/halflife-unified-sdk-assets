@@ -24,7 +24,7 @@ $eyeposition 0.000000 0.000000 60.000000
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/SCI3_Template_Biped1(Headless_Body)"
+$body "studio" "../shared/meshes/scientists/ld/SCI3_Template_Biped1(Headless_Body)"
 
 $bodygroup "heads"
 {
@@ -37,14 +37,14 @@ studio "meshes/ld/SCI3_Template_Biped1(SlickHead)"
 $bodygroup "needle"
 {
 blank
-studio "meshes/ld/SCI2_Template_Biped(Needle_Hand)1"
+studio "../shared/meshes/scientists/ld/SCI2_Template_Biped(Needle_Hand)1"
 }
 
 $bodygroup "items"
 {
 blank
-studio "meshes/ld/SCI_clipboard"
-studio "meshes/ld/SCI_stick"
+studio "../shared/meshes/scientists/ld/SCI_clipboard"
+studio "../shared/meshes/scientists/ld/SCI_stick"
 }
 
 // 2 skin families
@@ -82,104 +82,104 @@ $hbox 1 "Bip02 Head" 0.000000 -3.960000 -3.860000 10.020000 6.230000 4.070000
 
 
 // 128 animation sequence(s)
-$sequence "walk" "animations/ld/walk" LX fps 20 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
-$sequence "walk_scared" "animations/ld/walk_scared" LX fps 20 loop ACT_WALK_SCARED 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
-$sequence "run" "animations/ld/run" LX fps 25 loop ACT_RUN 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "run1" "animations/ld/run1" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "run2" "animations/ld/run2" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
-$sequence "180_Left" "animations/ld/180_Left" LX fps 15 loop ACT_TURN_LEFT 1 
-$sequence "180_Right" "animations/ld/180_Right" LX fps 15 loop ACT_TURN_RIGHT 1 
-$sequence "flinch" "animations/ld/flinch" fps 30 ACT_BIG_FLINCH 1 
-$sequence "flinch1" "animations/ld/flinch1" fps 20 ACT_SMALL_FLINCH 1 
-$sequence "laflinch" "animations/ld/laflinch" fps 15 ACT_FLINCH_LEFTARM 1 
-$sequence "raflinch" "animations/ld/raflinch" fps 15 ACT_FLINCH_RIGHTARM 1 
-$sequence "llflinch" "animations/ld/llflinch" fps 15 ACT_FLINCH_LEFTLEG 1 
-$sequence "rlflinch" "animations/ld/rlflinch" fps 15 ACT_FLINCH_RIGHTLEG 1 
-$sequence "idle1" "animations/ld/idle1" fps 18 loop ACT_IDLE 50 
-$sequence "idle3" "animations/ld/idle3" fps 15 ACT_IDLE 1 
-$sequence "idle4" "animations/ld/idle4" fps 15 ACT_IDLE 2 
-$sequence "idle5" "animations/ld/idle5" fps 15 ACT_IDLE 1 
-$sequence "idle6" "animations/ld/idle6" fps 15 ACT_IDLE 1 
-$sequence "idle7" "animations/ld/idle7" fps 10 ACT_IDLE 10 
-$sequence "crouchstand" "animations/ld/crouchstand" fps 18 ACT_STAND 1 
-$sequence "crouch_idle" "animations/ld/crouch_idle" fps 18 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle2" "animations/ld/crouch_idle2" fps 18 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3" "animations/ld/crouch_idle3_1" fps 18 loop ACT_CROUCHIDLE 1 
-$sequence "crouch_idle3" "animations/ld/crouch_idle3_2" fps 18 loop ACT_CROUCHIDLE 1 
-$sequence "panic" "animations/ld/panic" fps 18 ACT_EXCITED 1 
-$sequence "fear1" "animations/ld/fear1" fps 18 ACT_FEAR_DISPLAY 1 
-$sequence "fear2" "animations/ld/fear2" fps 18 ACT_FEAR_DISPLAY 1 
-$sequence "eye_wipe" "animations/ld/eye_wipe" fps 18 ACT_FEAR_DISPLAY 1 
-$sequence "pull_needle" "animations/ld/pull_needle" fps 15 ACT_ARM 1 { event 2 25 } 
-$sequence "return_needle" "animations/ld/return_needle" fps 15 ACT_DISARM 1 { event 3 11 } 
-$sequence "give_shot" "animations/ld/give_shot" fps 15 ACT_MELEE_ATTACK1 1 { event 1 17 } 
-$sequence "diesimple" "animations/ld/diesimple" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } 
-$sequence "dieforward" "animations/ld/dieforward" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 26 } 
-$sequence "dieforward1" "animations/ld/dieforward1" X fps 16 ACT_DIEFORWARD 1 { event 2001 11 } 
-$sequence "diebackward" "animations/ld/diebackward" X fps 15 ACT_DIEBACKWARD 1 { event 2001 8 } 
-$sequence "headshot" "animations/ld/headshot" X fps 15 ACT_DIE_HEADSHOT 20 { event 2001 18 } 
-$sequence "gutshot" "animations/ld/gutshot" X fps 15 ACT_DIE_GUTSHOT 1 { event 2001 16 } 
-$sequence "lying_on_back" "animations/ld/lying_on_back" fps 30 
-$sequence "lying_on_stomach" "animations/ld/lying_on_stomach" fps 30 
-$sequence "dead_sitting" "animations/ld/dead_sitting" fps 30 
-$sequence "dead_table1" "animations/ld/dead_table1" fps 30 
-$sequence "dead_table2" "animations/ld/dead_table2" fps 30 
-$sequence "dead_table3" "animations/ld/dead_table3" fps 30 
-$sequence "barnacled1" "animations/ld/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
-$sequence "barnacled2" "animations/ld/barnacled2" fps 28 loop ACT_BARNACLE_PULL 1 
-$sequence "barnacled3" "animations/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
-$sequence "barnacled4" "animations/ld/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
-$sequence "console" "animations/ld/console" fps 18 loop 
-$sequence "checktie" "animations/ld/checktie" fps 12 { event 1008 1 "scientist/weartie.wav" } 
-$sequence "dryhands" "animations/ld/dryhands" fps 12 
-$sequence "tieshoe" "animations/ld/tieshoe" fps 12 
-$sequence "writeboard" "animations/ld/writeboard" fps 14 
-$sequence "studycart" "animations/ld/studycart" fps 12 
-$sequence "lean" "animations/ld/lean" fps 12 
-$sequence "pondering" "animations/ld/pondering" fps 12 
-$sequence "pondering2" "animations/ld/pondering2" fps 15 
-$sequence "pondering3" "animations/ld/pondering3" fps 12 
-$sequence "buysoda" "animations/ld/buysoda" fps 15 {
+$sequence "walk" "../shared/animations/scientists/ld/walk" LX fps 20 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
+$sequence "walk_scared" "../shared/animations/scientists/ld/walk_scared" LX fps 20 loop ACT_WALK_SCARED 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
+$sequence "run" "../shared/animations/scientists/ld/run" LX fps 25 loop ACT_RUN 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
+$sequence "run1" "../shared/animations/scientists/ld/run1" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
+$sequence "run2" "../shared/animations/scientists/ld/run2" LX fps 30 loop ACT_RUN_SCARED 1 { event 1004 0 "common/npc_step2.wav" } { event 1004 9 "common/npc_step4.wav" } 
+$sequence "180_Left" "../shared/animations/scientists/ld/180_Left" LX fps 15 loop ACT_TURN_LEFT 1 
+$sequence "180_Right" "../shared/animations/scientists/ld/180_Right" LX fps 15 loop ACT_TURN_RIGHT 1 
+$sequence "flinch" "../shared/animations/scientists/ld/flinch" fps 30 ACT_BIG_FLINCH 1 
+$sequence "flinch1" "../shared/animations/scientists/ld/flinch1" fps 20 ACT_SMALL_FLINCH 1 
+$sequence "laflinch" "../shared/animations/scientists/ld/laflinch" fps 15 ACT_FLINCH_LEFTARM 1 
+$sequence "raflinch" "../shared/animations/scientists/ld/raflinch" fps 15 ACT_FLINCH_RIGHTARM 1 
+$sequence "llflinch" "../shared/animations/scientists/ld/llflinch" fps 15 ACT_FLINCH_LEFTLEG 1 
+$sequence "rlflinch" "../shared/animations/scientists/ld/rlflinch" fps 15 ACT_FLINCH_RIGHTLEG 1 
+$sequence "idle1" "../shared/animations/scientists/ld/idle1" fps 18 loop ACT_IDLE 50 
+$sequence "idle3" "../shared/animations/scientists/ld/idle3" fps 15 ACT_IDLE 1 
+$sequence "idle4" "../shared/animations/scientists/ld/idle4" fps 15 ACT_IDLE 2 
+$sequence "idle5" "../shared/animations/scientists/ld/idle5" fps 15 ACT_IDLE 1 
+$sequence "idle6" "../shared/animations/scientists/ld/idle6" fps 15 ACT_IDLE 1 
+$sequence "idle7" "../shared/animations/scientists/ld/idle7" fps 10 ACT_IDLE 10 
+$sequence "crouchstand" "../shared/animations/scientists/ld/crouchstand" fps 18 ACT_STAND 1 
+$sequence "crouch_idle" "../shared/animations/scientists/ld/crouch_idle" fps 18 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle2" "../shared/animations/scientists/ld/crouch_idle2" fps 18 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "../shared/animations/scientists/ld/crouch_idle3_1" fps 18 loop ACT_CROUCHIDLE 1 
+$sequence "crouch_idle3" "../shared/animations/scientists/ld/crouch_idle3_2" fps 18 loop ACT_CROUCHIDLE 1 
+$sequence "panic" "../shared/animations/scientists/ld/panic" fps 18 ACT_EXCITED 1 
+$sequence "fear1" "../shared/animations/scientists/ld/fear1" fps 18 ACT_FEAR_DISPLAY 1 
+$sequence "fear2" "../shared/animations/scientists/ld/fear2" fps 18 ACT_FEAR_DISPLAY 1 
+$sequence "eye_wipe" "../shared/animations/scientists/ld/eye_wipe" fps 18 ACT_FEAR_DISPLAY 1 
+$sequence "pull_needle" "../shared/animations/scientists/ld/pull_needle" fps 15 ACT_ARM 1 { event 2 25 } 
+$sequence "return_needle" "../shared/animations/scientists/ld/return_needle" fps 15 ACT_DISARM 1 { event 3 11 } 
+$sequence "give_shot" "../shared/animations/scientists/ld/give_shot" fps 15 ACT_MELEE_ATTACK1 1 { event 1 17 } 
+$sequence "diesimple" "../shared/animations/scientists/ld/diesimple" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } 
+$sequence "dieforward" "../shared/animations/scientists/ld/dieforward" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 26 } 
+$sequence "dieforward1" "../shared/animations/scientists/ld/dieforward1" X fps 16 ACT_DIEFORWARD 1 { event 2001 11 } 
+$sequence "diebackward" "../shared/animations/scientists/ld/diebackward" X fps 15 ACT_DIEBACKWARD 1 { event 2001 8 } 
+$sequence "headshot" "../shared/animations/scientists/ld/headshot" X fps 15 ACT_DIE_HEADSHOT 20 { event 2001 18 } 
+$sequence "gutshot" "../shared/animations/scientists/ld/gutshot" X fps 15 ACT_DIE_GUTSHOT 1 { event 2001 16 } 
+$sequence "lying_on_back" "../shared/animations/scientists/ld/lying_on_back" fps 30 
+$sequence "lying_on_stomach" "../shared/animations/scientists/ld/lying_on_stomach" fps 30 
+$sequence "dead_sitting" "../shared/animations/scientists/ld/dead_sitting" fps 30 
+$sequence "dead_table1" "../shared/animations/scientists/ld/dead_table1" fps 30 
+$sequence "dead_table2" "../shared/animations/scientists/ld/dead_table2" fps 30 
+$sequence "dead_table3" "../shared/animations/scientists/ld/dead_table3" fps 30 
+$sequence "barnacled1" "../shared/animations/scientists/ld/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
+$sequence "barnacled2" "../shared/animations/scientists/ld/barnacled2" fps 28 loop ACT_BARNACLE_PULL 1 
+$sequence "barnacled3" "../shared/animations/scientists/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
+$sequence "barnacled4" "../shared/animations/scientists/ld/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
+$sequence "console" "../shared/animations/scientists/ld/console" fps 18 loop 
+$sequence "checktie" "../shared/animations/scientists/ld/checktie" fps 12 { event 1008 1 "scientist/weartie.wav" } 
+$sequence "dryhands" "../shared/animations/scientists/ld/dryhands" fps 12 
+$sequence "tieshoe" "../shared/animations/scientists/ld/tieshoe" fps 12 
+$sequence "writeboard" "../shared/animations/scientists/ld/writeboard" fps 14 
+$sequence "studycart" "../shared/animations/scientists/ld/studycart" fps 12 
+$sequence "lean" "../shared/animations/scientists/ld/lean" fps 12 
+$sequence "pondering" "../shared/animations/scientists/ld/pondering" fps 12 
+$sequence "pondering2" "../shared/animations/scientists/ld/pondering2" fps 15 
+$sequence "pondering3" "../shared/animations/scientists/ld/pondering3" fps 12 
+$sequence "buysoda" "../shared/animations/scientists/ld/buysoda" fps 15 {
   { event 1004 50 "*buttons/blip1.wav" } 
   { event 1004 81 "*buttons/latchunlocked2.wav" } 
   { event 1004 88 "*buttons/latchunlocked1.wav" } 
  }
-$sequence "pause" "animations/ld/pause" fps 18 
-$sequence "yes" "animations/ld/yes" fps 16 
-$sequence "no" "animations/ld/no" fps 16 
-$sequence "push_button" "animations/ld/push_button" fps 16 
-$sequence "converse1" "animations/ld/converse1" fps 13 
-$sequence "converse2" "animations/ld/converse2" fps 13 
-$sequence "retina" "animations/ld/retina" fps 18 
-$sequence "talkleft" "animations/ld/talkleft" fps 12 loop 
-$sequence "talkright" "animations/ld/talkright" fps 14 loop 
-$sequence "deskidle" "animations/ld/deskidle" fps 20 loop { event 1003 20 "intro" } 
-$sequence "coffee" "animations/ld/coffee" fps 14 loop 
-$sequence "franticbutton" "animations/ld/franticbutton" fps 14 
-$sequence "startle" "animations/ld/startle" fps 16 
-$sequence "sitlookleft" "animations/ld/sitlookleft" fps 10 
-$sequence "sitlookright" "animations/ld/sitlookright" fps 7 
-$sequence "sitscared" "animations/ld/sitscared" fps 25 
-$sequence "sitting2" "animations/ld/sitting2" fps 20 
-$sequence "sitting3" "animations/ld/sitting3" fps 15 
-$sequence "cprscientist" "animations/ld/cprscientist" fps 20 loop 
-$sequence "cprscientistrevive" "animations/ld/cprscientistrevive" fps 20 
-$sequence "cowering_in_corner" "animations/ld/cowering_in_corner" fps 18 loop 
-$sequence "sstruggleidle" "animations/ld/sstruggleidle" fps 18 loop 
-$sequence "sstruggle" "animations/ld/sstruggle" fps 28 { event 1000 1 } 
-$sequence "headcrabbed" "animations/ld/headcrabbed" AX AY AZR fps 20 { event 1000 165 } 
-$sequence "c1a0_catwalkidle" "animations/ld/c1a0_catwalkidle" fps 12 loop 
-$sequence "c1a0_catwalk" "animations/ld/c1a0_catwalk" AX AY AZR fps 16 {
+$sequence "pause" "../shared/animations/scientists/ld/pause" fps 18 
+$sequence "yes" "../shared/animations/scientists/ld/yes" fps 16 
+$sequence "no" "../shared/animations/scientists/ld/no" fps 16 
+$sequence "push_button" "../shared/animations/scientists/ld/push_button" fps 16 
+$sequence "converse1" "../shared/animations/scientists/ld/converse1" fps 13 
+$sequence "converse2" "../shared/animations/scientists/ld/converse2" fps 13 
+$sequence "retina" "../shared/animations/scientists/ld/retina" fps 18 
+$sequence "talkleft" "../shared/animations/scientists/ld/talkleft" fps 12 loop 
+$sequence "talkright" "../shared/animations/scientists/ld/talkright" fps 14 loop 
+$sequence "deskidle" "../shared/animations/scientists/ld/deskidle" fps 20 loop { event 1003 20 "intro" } 
+$sequence "coffee" "../shared/animations/scientists/ld/coffee" fps 14 loop 
+$sequence "franticbutton" "../shared/animations/scientists/ld/franticbutton" fps 14 
+$sequence "startle" "../shared/animations/scientists/ld/startle" fps 16 
+$sequence "sitlookleft" "../shared/animations/scientists/ld/sitlookleft" fps 10 
+$sequence "sitlookright" "../shared/animations/scientists/ld/sitlookright" fps 7 
+$sequence "sitscared" "../shared/animations/scientists/ld/sitscared" fps 25 
+$sequence "sitting2" "../shared/animations/scientists/ld/sitting2" fps 20 
+$sequence "sitting3" "../shared/animations/scientists/ld/sitting3" fps 15 
+$sequence "cprscientist" "../shared/animations/scientists/ld/cprscientist" fps 20 loop 
+$sequence "cprscientistrevive" "../shared/animations/scientists/ld/cprscientistrevive" fps 20 
+$sequence "cowering_in_corner" "../shared/animations/scientists/ld/cowering_in_corner" fps 18 loop 
+$sequence "sstruggleidle" "../shared/animations/scientists/ld/sstruggleidle" fps 18 loop 
+$sequence "sstruggle" "../shared/animations/scientists/ld/sstruggle" fps 28 { event 1000 1 } 
+$sequence "headcrabbed" "../shared/animations/scientists/ld/headcrabbed" AX AY AZR fps 20 { event 1000 165 } 
+$sequence "c1a0_catwalkidle" "../shared/animations/scientists/ld/c1a0_catwalkidle" fps 12 loop 
+$sequence "c1a0_catwalk" "../shared/animations/scientists/ld/c1a0_catwalk" AX AY AZR fps 16 {
   { event 1000 1 } 
   { event 1008 1 "*scientist/c1a0_sci_stayback.wav" } 
   { event 1008 43 "*scientist/c1a0_sci_catscream.wav" } 
  }
-$sequence "ceiling_dangle" "animations/ld/ceiling_dangle" AX AY AZ fps 15 {
+$sequence "ceiling_dangle" "../shared/animations/scientists/ld/ceiling_dangle" AX AY AZ fps 15 {
   { event 1000 1 } 
   { event 1001 1 } 
   { event 1004 5 "*scientist/sci_dragoff.wav" } 
  }
-$sequence "ventpull1" "animations/ld/ventpull1" AX AY AZ fps 15 {
+$sequence "ventpull1" "../shared/animations/scientists/ld/ventpull1" AX AY AZ fps 15 {
   { event 1000 1 } 
   { event 1001 1 } 
   { event 1004 8 "*player/pl_metal1.wav" } 
@@ -187,72 +187,72 @@ $sequence "ventpull1" "animations/ld/ventpull1" AX AY AZ fps 15 {
   { event 1004 28 "*player/pl_metal4.wav" } 
   { event 1004 31 "*player/pl_metal1.wav" } 
  }
-$sequence "ventpull2" "animations/ld/ventpull2" AX AY AZ fps 15 { event 1000 1 } { event 1001 1 } 
-$sequence "ventpullidle1" "animations/ld/ventpullidle1" fps 15 loop 
-$sequence "ventpullidle2" "animations/ld/ventpullidle2" fps 15 loop 
-$sequence "sitidle" "animations/ld/sitidle" fps 14 loop 
-$sequence "sitstand" "animations/ld/sitstand" fps 18 
-$sequence "keypad" "animations/ld/keypad" fps 18 {
+$sequence "ventpull2" "../shared/animations/scientists/ld/ventpull2" AX AY AZ fps 15 { event 1000 1 } { event 1001 1 } 
+$sequence "ventpullidle1" "../shared/animations/scientists/ld/ventpullidle1" fps 15 loop 
+$sequence "ventpullidle2" "../shared/animations/scientists/ld/ventpullidle2" fps 15 loop 
+$sequence "sitidle" "../shared/animations/scientists/ld/sitidle" fps 14 loop 
+$sequence "sitstand" "../shared/animations/scientists/ld/sitstand" fps 18 
+$sequence "keypad" "../shared/animations/scientists/ld/keypad" fps 18 {
   { event 1008 15 "*buttons/blip1.wav" } 
   { event 1008 24 "*buttons/blip1.wav" } 
   { event 1008 34 "*buttons/blip1.wav" } 
   { event 1008 44 "*buttons/blip1.wav" } 
  }
-$sequence "panic1" "animations/ld/panic1" fps 18 
-$sequence "lookwindow" "animations/ld/lookwindow" fps 15 
-$sequence "wave" "animations/ld/wave" fps 22 
-$sequence "pulldoor" "animations/ld/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
-$sequence "beatdoor" "animations/ld/beatdoor" fps 16 { event 1004 8 "*buttons/latchunlocked1.wav" } { event 1004 19 "*buttons/latchunlocked2.wav" } 
-$sequence "fallingloop" "animations/ld/fallingloop" fps 35 loop 
-$sequence "crawlwindow" "animations/ld/crawlwindow" fps 20 
-$sequence "divewindow" "animations/ld/divewindow" fps 30 { event 1001 1 } 
-$sequence "locked_door" "animations/ld/locked_door" fps 16 {
+$sequence "panic1" "../shared/animations/scientists/ld/panic1" fps 18 
+$sequence "lookwindow" "../shared/animations/scientists/ld/lookwindow" fps 15 
+$sequence "wave" "../shared/animations/scientists/ld/wave" fps 22 
+$sequence "pulldoor" "../shared/animations/scientists/ld/pulldoor" fps 18 { event 1004 11 "*buttons/latchlocked2.wav" } { event 1004 26 "*buttons/latchlocked1.wav" } 
+$sequence "beatdoor" "../shared/animations/scientists/ld/beatdoor" fps 16 { event 1004 8 "*buttons/latchunlocked1.wav" } { event 1004 19 "*buttons/latchunlocked2.wav" } 
+$sequence "fallingloop" "../shared/animations/scientists/ld/fallingloop" fps 35 loop 
+$sequence "crawlwindow" "../shared/animations/scientists/ld/crawlwindow" fps 20 
+$sequence "divewindow" "../shared/animations/scientists/ld/divewindow" fps 30 { event 1001 1 } 
+$sequence "locked_door" "../shared/animations/scientists/ld/locked_door" fps 16 {
   { event 1004 11 "*buttons/latchlocked1.wav" } 
   { event 1004 21 "*buttons/latchlocked2.wav" } 
   { event 1004 31 "*buttons/latchlocked1.wav" } 
  }
-$sequence "push_button2" "animations/ld/push_button2" fps 16 { event 1008 0 "*scientist/c1a2_sci_darkroom.wav" } 
-$sequence "unlock_door" "animations/ld/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
-$sequence "quicklook" "animations/ld/quicklook" fps 16 
-$sequence "handrailidle" "animations/ld/handrailidle" fps 14 loop 
-$sequence "handrail" "animations/ld/handrail" fps 22 
-$sequence "hanging_idle" "animations/ld/hanging_idle" fps 20 loop 
-$sequence "fall" "animations/ld/fall" fps 20 { event 1000 0 } { event 1008 19 "*scientist/scream3.wav" } 
-$sequence "scientist_get_pulled" "animations/ld/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
-$sequence "hanging_idle2" "animations/ld/hanging_idle2" fps 20 loop { event 1008 0 "*scientist/c1a2_sci_dangling.wav" } 
-$sequence "fall_elevator" "animations/ld/fall_elevator" fps 20 { event 1000 0 } { event 1008 34 "*scientist/scream3.wav" } 
-$sequence "scientist_idlewall" "animations/ld/scientist_idlewall" fps 14 loop 
-$sequence "ickyjump_sci" "animations/ld/ickyjump_sci" AX AY AZR fps 18 {
+$sequence "push_button2" "../shared/animations/scientists/ld/push_button2" fps 16 { event 1008 0 "*scientist/c1a2_sci_darkroom.wav" } 
+$sequence "unlock_door" "../shared/animations/scientists/ld/unlock_door" fps 15 { event 1004 56 "*buttons/latchlocked1.wav" } 
+$sequence "quicklook" "../shared/animations/scientists/ld/quicklook" fps 16 
+$sequence "handrailidle" "../shared/animations/scientists/ld/handrailidle" fps 14 loop 
+$sequence "handrail" "../shared/animations/scientists/ld/handrail" fps 22 
+$sequence "hanging_idle" "../shared/animations/scientists/ld/hanging_idle" fps 20 loop 
+$sequence "fall" "../shared/animations/scientists/ld/fall" fps 20 { event 1000 0 } { event 1008 19 "*scientist/scream3.wav" } 
+$sequence "scientist_get_pulled" "../shared/animations/scientists/ld/scientist_get_pulled" AX AY AZR fps 17 { event 1000 1 } 
+$sequence "hanging_idle2" "../shared/animations/scientists/ld/hanging_idle2" fps 20 loop { event 1008 0 "*scientist/c1a2_sci_dangling.wav" } 
+$sequence "fall_elevator" "../shared/animations/scientists/ld/fall_elevator" fps 20 { event 1000 0 } { event 1008 34 "*scientist/scream3.wav" } 
+$sequence "scientist_idlewall" "../shared/animations/scientists/ld/scientist_idlewall" fps 14 loop 
+$sequence "ickyjump_sci" "../shared/animations/scientists/ld/ickyjump_sci" AX AY AZR fps 18 {
   { event 1000 1 } 
   { event 1001 1 } 
   { event 1003 8 "scream" } 
   { event 1003 30 "gib" } 
  }
-$sequence "haulscientist" "animations/ld/haulscientist" AX AY AZR fps 18 { event 1000 1 } { event 1001 1 } 
-$sequence "c1a4_wounded_idle" "animations/ld/c1a4_wounded_idle" fps 12 loop 
-$sequence "c1a4_dying_speech" "animations/ld/c1a4_dying_speech" fps 15 {
+$sequence "haulscientist" "../shared/animations/scientists/ld/haulscientist" AX AY AZR fps 18 { event 1000 1 } { event 1001 1 } 
+$sequence "c1a4_wounded_idle" "../shared/animations/scientists/ld/c1a4_wounded_idle" fps 12 loop 
+$sequence "c1a4_dying_speech" "../shared/animations/scientists/ld/c1a4_dying_speech" fps 15 {
   { event 1000 1 } 
   { event 1008 10 "*scientist/c1a4_sci_rocket.wav" } 
   { event 1008 105 "*scientist/sci_pain3.wav" } 
  }
-$sequence "tentacle_grab" "animations/ld/tentacle_grab" fps 15 {
+$sequence "tentacle_grab" "../shared/animations/scientists/ld/tentacle_grab" fps 15 {
   { event 1000 1 } 
   { event 1004 2 "*scientist/scream02.WAV" } 
   { event 1003 18 "smash" } 
   { event 1004 65 "*scientist/c1a4_sci_tent.WAV" } 
  }
-$sequence "helicack" "animations/ld/helicack" AX AY AZR fps 18 {
+$sequence "helicack" "../shared/animations/scientists/ld/helicack" AX AY AZR fps 18 {
   { event 1003 9 "gunmedown" } 
   { event 1000 9 } 
   { event 1008 4 "*scientist/sci_pain4.wav" } 
  }
-$sequence "windive" "animations/ld/windive" AX AY AZR fps 30 { event 1000 1 } { event 1001 1 } 
-$sequence "scicrashidle" "animations/ld/scicrashidle" fps 34 loop 
-$sequence "scicrash" "animations/ld/scicrash" fps 20 { event 1000 1 } 
-$sequence "onguard" "animations/ld/onguard" fps 12 loop 
-$sequence "seeya" "animations/ld/seeya" AX AY AZR fps 33 { event 1003 163 "putdown" } 
-$sequence "rocketcrawl" "animations/ld/rocketcrawl" fps 20 loop 
-$sequence "portal" "animations/ld/portal" fps 20 loop {
+$sequence "windive" "../shared/animations/scientists/ld/windive" AX AY AZR fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "scicrashidle" "../shared/animations/scientists/ld/scicrashidle" fps 34 loop 
+$sequence "scicrash" "../shared/animations/scientists/ld/scicrash" fps 20 { event 1000 1 } 
+$sequence "onguard" "../shared/animations/scientists/ld/onguard" fps 12 loop 
+$sequence "seeya" "../shared/animations/scientists/ld/seeya" AX AY AZR fps 33 { event 1003 163 "putdown" } 
+$sequence "rocketcrawl" "../shared/animations/scientists/ld/rocketcrawl" fps 20 loop 
+$sequence "portal" "../shared/animations/scientists/ld/portal" fps 20 loop {
   { event 1008 19 "*buttons/blip1.wav" } 
   { event 1008 22 "*buttons/blip1.wav" } 
   { event 1008 25 "*buttons/blip2.wav" } 
@@ -263,51 +263,51 @@ $sequence "portal" "animations/ld/portal" fps 20 loop {
   { event 1008 110 "*buttons/blip2.wav" } 
   { event 1008 119 "*buttons/blip1.wav" } 
  }
-$sequence "gluonshow" "animations/ld/gluonshow" fps 18 
-$sequence "crouch" "animations/ld/crouch" fps 18 
-$sequence "kneel" "animations/ld/kneel" fps 22 
+$sequence "gluonshow" "../shared/animations/scientists/ld/gluonshow" fps 18 
+$sequence "crouch" "../shared/animations/scientists/ld/crouch" fps 18 
+$sequence "kneel" "../shared/animations/scientists/ld/kneel" fps 22 
 
 // Opposing Force sequences
-$sequence "germandeath" "animations/ld/germandeath" X fps 15 
-$sequence "of1_a1_cpr1" "animations/ld/of1_a1_cpr1" fps 30 { event 1001 5 } 
-$sequence "of1_a1_cpr2" "animations/ld/of1_a1_cpr2" fps 15 
-$sequence "of1a1_sci1_stretcher" "animations/ld/of1a1_sci1_stretcher" fps 34 { event 1004 47 "scientist/needsleep.wav" } 
-$sequence "of1a1_sci2_stretcher" "animations/ld/of1a1_sci2_stretcher" fps 34 { event 1004 192 "scientist/survival.wav" } 
-$sequence "of4a1_hologram_clipboard1" "animations/ld/of4a1_hologram_clipboard1" fps 30 
-$sequence "of4a1_hologram_clipboard2" "animations/ld/of4a1_hologram_clipboard2" fps 30 
-$sequence "of1a1_prod_headcrab" "animations/ld/of1a1_prod_headcrab" fps 32 loop 
-$sequence "cage_float" "animations/ld/cage_float" fps 15 loop 
-$sequence "table_twitch" "animations/ld/table_twitch" fps 25 loop 
-$sequence "interogation_idle" "animations/ld/interogation_idle" fps 30 loop 
-$sequence "interogation" "animations/ld/interogation" fps 30 {
+$sequence "germandeath" "../shared/animations/scientists/ld/germandeath" X fps 15 
+$sequence "of1_a1_cpr1" "../shared/animations/scientists/ld/of1_a1_cpr1" fps 30 { event 1001 5 } 
+$sequence "of1_a1_cpr2" "../shared/animations/scientists/ld/of1_a1_cpr2" fps 15 
+$sequence "of1a1_sci1_stretcher" "../shared/animations/scientists/ld/of1a1_sci1_stretcher" fps 34 { event 1004 47 "scientist/needsleep.wav" } 
+$sequence "of1a1_sci2_stretcher" "../shared/animations/scientists/ld/of1a1_sci2_stretcher" fps 34 { event 1004 192 "scientist/survival.wav" } 
+$sequence "of4a1_hologram_clipboard1" "../shared/animations/scientists/ld/of4a1_hologram_clipboard1" fps 30 
+$sequence "of4a1_hologram_clipboard2" "../shared/animations/scientists/ld/of4a1_hologram_clipboard2" fps 30 
+$sequence "of1a1_prod_headcrab" "../shared/animations/scientists/ld/of1a1_prod_headcrab" fps 32 loop 
+$sequence "cage_float" "../shared/animations/scientists/ld/cage_float" fps 15 loop 
+$sequence "table_twitch" "../shared/animations/scientists/ld/table_twitch" fps 25 loop 
+$sequence "interogation_idle" "../shared/animations/scientists/ld/interogation_idle" fps 30 loop 
+$sequence "interogation" "../shared/animations/scientists/ld/interogation" fps 30 {
   { event 1000 279 } 
   { event 1001 279 } 
   { event 1008 228 "scientist/bodydrop1.wav" } 
   { event 1008 219 "scientist/sci_pain5.wav" } 
 } 
-$sequence "cell_idle" "animations/ld/cell_idle" fps 30 loop 
-$sequence "kneel_idle" "animations/ld/kneel_idle" fps 15 
-$sequence "cpr_gesture1" "animations/ld/cpr_gesture1" fps 30 
-$sequence "cpr_gesture2" "animations/ld/cpr_gesture2" fps 15 
-$sequence "thrown_out_window" "animations/ld/thrown_out_window" fps 30 {
+$sequence "cell_idle" "../shared/animations/scientists/ld/cell_idle" fps 30 loop 
+$sequence "kneel_idle" "../shared/animations/scientists/ld/kneel_idle" fps 15 
+$sequence "cpr_gesture1" "../shared/animations/scientists/ld/cpr_gesture1" fps 30 
+$sequence "cpr_gesture2" "../shared/animations/scientists/ld/cpr_gesture2" fps 15 
+$sequence "thrown_out_window" "../shared/animations/scientists/ld/thrown_out_window" fps 30 {
   { event 1000 29 } 
   { event 1001 29 } 
   { event 2001 29 } 
 } 
 
 // Cleansuit scientist sequences
-$sequence "scientist_throwna" "animations/ld/scientist_throwna" fps 25 {
+$sequence "scientist_throwna" "../shared/animations/scientists/ld/scientist_throwna" fps 25 {
   { event 1008 13 "scientist/sci_pain8.wav" } 
   { event 1008 39 "scientist/bodydrop1.wav" } 
   { event 1008 174 "scientist/sci_fear9.wav" } 
   { event 1008 97 "scientist/sci_pain5.wav" } 
  }
-$sequence "scientist_thrownb" "animations/ld/scientist_thrownb" fps 25 {
+$sequence "scientist_thrownb" "../shared/animations/scientists/ld/scientist_thrownb" fps 25 {
   { event 1008 12 "scientist/bodydrop4.wav" } 
   { event 1000 12 } 
   { event 1001 12 } 
  }
-$sequence "scientist_beatwindow" "animations/ld/scientist_beatwindow" fps 30 {
+$sequence "scientist_beatwindow" "../shared/animations/scientists/ld/scientist_beatwindow" fps 30 {
   { event 1008 9 "scientist/g_bounce1.wav" } 
   { event 1008 17 "scientist/g_bounce1.wav" } 
   { event 1008 24 "scientist/g_bounce1.wav" } 
@@ -318,35 +318,35 @@ $sequence "scientist_beatwindow" "animations/ld/scientist_beatwindow" fps 30 {
   { event 1008 92 "scientist/g_bounce1.wav" } 
   { event 1008 97 "scientist/g_bounce1.wav" } 
  }
-$sequence "scientist_deadpose1" "animations/ld/scientist_deadpose1" fps 30 
-$sequence "scientist_zombiefear" "animations/ld/scientist_zombiefear" fps 30 { event 1008 8 "scientist/scream07.wav" } { event 1008 65 "scientist/sci_fear2.wav" } 
-$sequence "dead_against_wall" "animations/ld/dead_against_wall" fps 30 
-$sequence "teleport_fidget" "animations/ld/teleport_fidget" fps 8 loop 
+$sequence "scientist_deadpose1" "../shared/animations/scientists/ld/scientist_deadpose1" fps 30 
+$sequence "scientist_zombiefear" "../shared/animations/scientists/ld/scientist_zombiefear" fps 30 { event 1008 8 "scientist/scream07.wav" } { event 1008 65 "scientist/sci_fear2.wav" } 
+$sequence "dead_against_wall" "../shared/animations/scientists/ld/dead_against_wall" fps 30 
+$sequence "teleport_fidget" "../shared/animations/scientists/ld/teleport_fidget" fps 8 loop 
 
 // Blue Shift sequences
-$sequence "diesimple_rose" "animations/ld/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
-$sequence "cower_chat_die" "animations/ld/cower_chat_die" fps 10 { event 1000 1 } { event 1003 69 "die" } 
-$sequence "dead_in_truck" "animations/ld/dead_in_truck" fps 30 loop { event 1000 1 } 
-$sequence "cower_chat" "animations/ld/cower_chat" fps 5 loop 
-$sequence "boost" "animations/ld/boost" fps 26 
-$sequence "boost_idle" "animations/ld/boost_idle" fps 20 loop 
-$sequence "rose_glance" "animations/ld/rose_glance" fps 15 
-$sequence "elev_dead1" "animations/ld/elev_dead1" fps 30 loop { event 1000 1 } 
-$sequence "elev_dead2" "animations/ld/elev_dead2" fps 30 loop { event 1000 1 } 
-$sequence "tap_idle" "animations/ld/tap_idle" fps 15 loop 
-$sequence "tap_down" "animations/ld/tap_down" fps 15 
-$sequence "railing_chat1" "animations/ld/railing_chat1" fps 10 loop 
-$sequence "railing_chat2" "animations/ld/railing_chat2" fps 10 loop 
-$sequence "telework1" "animations/ld/telework1" fps 14 loop 
-$sequence "telework1_stand" "animations/ld/telework1_stand" fps 13 
-$sequence "telework2" "animations/ld/telework2" fps 14 loop 
-$sequence "telework3" "animations/ld/telework3" fps 7 loop 
-$sequence "wallwork1" "animations/ld/wallwork1" fps 13 
-$sequence "wallwork2" "animations/ld/wallwork2" fps 13 
-$sequence "wallwork3" "animations/ld/wallwork3" fps 15 loop 
-$sequence "wallwork4" "animations/ld/wallwork4" fps 8 loop 
-$sequence "wallwork5" "animations/ld/wallwork5" fps 9 
-$sequence "rose_console1" "animations/ld/rose_console1" fps 10 loop {
+$sequence "diesimple_rose" "../shared/animations/scientists/ld/diesimple_rose" fps 24 ACT_DIESIMPLE 1 { event 2001 8 } { event 1000 1 } 
+$sequence "cower_chat_die" "../shared/animations/scientists/ld/cower_chat_die" fps 10 { event 1000 1 } { event 1003 69 "die" } 
+$sequence "dead_in_truck" "../shared/animations/scientists/ld/dead_in_truck" fps 30 loop { event 1000 1 } 
+$sequence "cower_chat" "../shared/animations/scientists/ld/cower_chat" fps 5 loop 
+$sequence "boost" "../shared/animations/scientists/ld/boost" fps 26 
+$sequence "boost_idle" "../shared/animations/scientists/ld/boost_idle" fps 20 loop 
+$sequence "rose_glance" "../shared/animations/scientists/ld/rose_glance" fps 15 
+$sequence "elev_dead1" "../shared/animations/scientists/ld/elev_dead1" fps 30 loop { event 1000 1 } 
+$sequence "elev_dead2" "../shared/animations/scientists/ld/elev_dead2" fps 30 loop { event 1000 1 } 
+$sequence "tap_idle" "../shared/animations/scientists/ld/tap_idle" fps 15 loop 
+$sequence "tap_down" "../shared/animations/scientists/ld/tap_down" fps 15 
+$sequence "railing_chat1" "../shared/animations/scientists/ld/railing_chat1" fps 10 loop 
+$sequence "railing_chat2" "../shared/animations/scientists/ld/railing_chat2" fps 10 loop 
+$sequence "telework1" "../shared/animations/scientists/ld/telework1" fps 14 loop 
+$sequence "telework1_stand" "../shared/animations/scientists/ld/telework1_stand" fps 13 
+$sequence "telework2" "../shared/animations/scientists/ld/telework2" fps 14 loop 
+$sequence "telework3" "../shared/animations/scientists/ld/telework3" fps 7 loop 
+$sequence "wallwork1" "../shared/animations/scientists/ld/wallwork1" fps 13 
+$sequence "wallwork2" "../shared/animations/scientists/ld/wallwork2" fps 13 
+$sequence "wallwork3" "../shared/animations/scientists/ld/wallwork3" fps 15 loop 
+$sequence "wallwork4" "../shared/animations/scientists/ld/wallwork4" fps 8 loop 
+$sequence "wallwork5" "../shared/animations/scientists/ld/wallwork5" fps 9 
+$sequence "rose_console1" "../shared/animations/scientists/ld/rose_console1" fps 10 loop {
   { event 1003 10 "button1" } 
   { event 1003 13 "button2" } 
   { event 1003 16 "button3" } 
@@ -358,7 +358,7 @@ $sequence "rose_console1" "animations/ld/rose_console1" fps 10 loop {
   { event 1003 58 "button9" } 
   { event 1003 61 "button10" } 
  }
-$sequence "rose_console2" "animations/ld/rose_console2" fps 12 {
+$sequence "rose_console2" "../shared/animations/scientists/ld/rose_console2" fps 12 {
   { event 1003 10 "button1b" } 
   { event 1003 13 "button2b" } 
   { event 1003 16 "button3b" } 
@@ -373,46 +373,46 @@ $sequence "rose_console2" "animations/ld/rose_console2" fps 12 {
   { event 1003 103 "button12b" } 
   { event 1003 107 "button13b" } 
  }
-$sequence "rose_console3" "animations/ld/rose_console3" fps 28 
-$sequence "tele_jump1" "animations/ld/tele_jump1" fps 18 { event 1003 71 "jumped1" } 
-$sequence "tele_jump2" "animations/ld/tele_jump2" fps 19 { event 1003 116 "jumped2" } 
-$sequence "handscan" "animations/ld/handscan" fps 28 { event 1003 20 "handscan" } 
-$sequence "eating" "animations/ld/eating" fps 10 
-$sequence "working_console" "animations/ld/working_console" fps 17 
-$sequence "ponder_console" "animations/ld/ponder_console" fps 7 
-$sequence "cower_vents" "animations/ld/cower_vents" fps 7 loop 
-$sequence "ponder_teleporter" "animations/ld/ponder_teleporter" fps 10 loop 
-$sequence "power_pipes" "animations/ld/power_pipes" fps 11 
-$sequence "in_theory" "animations/ld/in_theory" fps 8 
-$sequence "you_go" "animations/ld/you_go" fps 10 
-$sequence "sim_ack" "animations/ld/sim_ack" fps 25 
-$sequence "sim_lever" "animations/ld/sim_lever" fps 30 { event 1003 20 "mgr_main_power" } 
-$sequence "hambone" "animations/ld/hambone" fps 8 
-$sequence "rose_signal" "animations/ld/rose_signal" fps 25 
-$sequence "chum_walk" "animations/ld/chum_walk" LX fps 15 loop 
-$sequence "chum_idle" "animations/ld/chum_idle" fps 15 loop 
-$sequence "crowbar_swing" "animations/ld/crowbar_swing" fps 30 loop { event 1003 22 "crowbar_hit" } { event 1003 33 "crowbar_hit2" } 
-$sequence "open_gate" "animations/ld/open_gate" LX fps 15 { event 1003 7 "booty_ack" } { event 1003 115 "booty_ack" } 
-$sequence "work_jeep" "animations/ld/work_jeep" fps 10 loop 
-$sequence "drive_jeep1" "animations/ld/drive_jeep1" fps 5 loop 
-$sequence "drive_jeep2" "animations/ld/drive_jeep2" fps 5 loop 
-$sequence "rose_outro" "animations/ld/rose_outro" fps 30 
+$sequence "rose_console3" "../shared/animations/scientists/ld/rose_console3" fps 28 
+$sequence "tele_jump1" "../shared/animations/scientists/ld/tele_jump1" fps 18 { event 1003 71 "jumped1" } 
+$sequence "tele_jump2" "../shared/animations/scientists/ld/tele_jump2" fps 19 { event 1003 116 "jumped2" } 
+$sequence "handscan" "../shared/animations/scientists/ld/handscan" fps 28 { event 1003 20 "handscan" } 
+$sequence "eating" "../shared/animations/scientists/ld/eating" fps 10 
+$sequence "working_console" "../shared/animations/scientists/ld/working_console" fps 17 
+$sequence "ponder_console" "../shared/animations/scientists/ld/ponder_console" fps 7 
+$sequence "cower_vents" "../shared/animations/scientists/ld/cower_vents" fps 7 loop 
+$sequence "ponder_teleporter" "../shared/animations/scientists/ld/ponder_teleporter" fps 10 loop 
+$sequence "power_pipes" "../shared/animations/scientists/ld/power_pipes" fps 11 
+$sequence "in_theory" "../shared/animations/scientists/ld/in_theory" fps 8 
+$sequence "you_go" "../shared/animations/scientists/ld/you_go" fps 10 
+$sequence "sim_ack" "../shared/animations/scientists/ld/sim_ack" fps 25 
+$sequence "sim_lever" "../shared/animations/scientists/ld/sim_lever" fps 30 { event 1003 20 "mgr_main_power" } 
+$sequence "hambone" "../shared/animations/scientists/ld/hambone" fps 8 
+$sequence "rose_signal" "../shared/animations/scientists/ld/rose_signal" fps 25 
+$sequence "chum_walk" "../shared/animations/scientists/ld/chum_walk" LX fps 15 loop 
+$sequence "chum_idle" "../shared/animations/scientists/ld/chum_idle" fps 15 loop 
+$sequence "crowbar_swing" "../shared/animations/scientists/ld/crowbar_swing" fps 30 loop { event 1003 22 "crowbar_hit" } { event 1003 33 "crowbar_hit2" } 
+$sequence "open_gate" "../shared/animations/scientists/ld/open_gate" LX fps 15 { event 1003 7 "booty_ack" } { event 1003 115 "booty_ack" } 
+$sequence "work_jeep" "../shared/animations/scientists/ld/work_jeep" fps 10 loop 
+$sequence "drive_jeep1" "../shared/animations/scientists/ld/drive_jeep1" fps 5 loop 
+$sequence "drive_jeep2" "../shared/animations/scientists/ld/drive_jeep2" fps 5 loop 
+$sequence "rose_outro" "../shared/animations/scientists/ld/rose_outro" fps 30 
 
 // civ_scientist.mdl sequences
-$sequence "sit1" "animations/ld/sit1" fps 13 loop 
-$sequence "sit2" "animations/ld/sit2" fps 13 loop 
-$sequence "playgame1" "animations/ld/playgame1" fps 12 loop 
+$sequence "sit1" "../shared/animations/scientists/ld/sit1" fps 13 loop 
+$sequence "sit2" "../shared/animations/scientists/ld/sit2" fps 13 loop 
+$sequence "playgame1" "../shared/animations/scientists/ld/playgame1" fps 12 loop 
 
 // console_civ_scientist.mdl sequences
-$sequence "console_idle1" "animations/ld/console_idle1" fps 25 loop
-$sequence "console_work" "animations/ld/console_work" fps 25 loop 
-$sequence "console_shocked" "animations/ld/console_shocked" fps 19 
-$sequence "console_sneeze" "animations/ld/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
+$sequence "console_idle1" "../shared/animations/scientists/ld/console_idle1" fps 25 loop
+$sequence "console_work" "../shared/animations/scientists/ld/console_work" fps 25 loop 
+$sequence "console_shocked" "../shared/animations/scientists/ld/console_shocked" fps 19 
+$sequence "console_sneeze" "../shared/animations/scientists/ld/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
 
 // scientist_cower.mdl sequences
-$sequence "cower_die" "animations/ld/cower_die" fps 25 loop { event 1000 0 } 
+$sequence "cower_die" "../shared/animations/scientists/ld/cower_die" fps 25 loop { event 1000 0 } 
 
 // gordon_scientist.mdl sequences
-$sequence "tram_glance" "animations/ld/tram_glance" fps 20 
+$sequence "tram_glance" "../shared/animations/scientists/ld/tram_glance" fps 20 
 
 // End of QC script.
