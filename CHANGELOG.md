@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Rosenberg LD/HD models
+- Civilian scientist LD/HD models
+- Coat civilian scientist LD/HD models
+- Newspaper civilian scientist LD/HD models
 
 ## [0.1.0] - 2022-03-04
 
