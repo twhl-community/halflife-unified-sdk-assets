@@ -28,10 +28,10 @@ $body "studio" "../shared/meshes/scientists/ld/SCI3_Template_Biped1(Headless_Bod
 
 $bodygroup "heads"
 {
-studio "meshes/ld/SCI3_Template_Biped1(NerdHead)"
-studio "meshes/ld/SCI2_Template_Biped1(EinstienHead)"
-studio "meshes/ld/SCI3_Template_Biped1(LutherHead)"
-studio "meshes/ld/SCI3_Template_Biped1(SlickHead)"
+studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(NerdHead)"
+studio "../shared/meshes/scientists/ld/SCI2_Template_Biped1(EinstienHead)"
+studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(LutherHead)"
+studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(SlickHead)"
 }
 
 $bodygroup "needle"
@@ -399,15 +399,15 @@ $sequence "drive_jeep2" "../shared/animations/scientists/ld/drive_jeep2" fps 5 l
 $sequence "rose_outro" "../shared/animations/scientists/ld/rose_outro" fps 30 
 
 // civ_scientist.mdl sequences
-$sequence "sit1" "../shared/animations/scientists/ld/sit1" fps 13 loop 
-$sequence "sit2" "../shared/animations/scientists/ld/sit2" fps 13 loop 
-$sequence "playgame1" "../shared/animations/scientists/ld/playgame1" fps 12 loop 
+$sequence "sit1" "../shared/animations/civ_scientists/ld/sit1" fps 13 loop 
+$sequence "sit2" "../shared/animations/civ_scientists/ld/sit2" fps 13 loop 
+$sequence "playgame1" "../shared/animations/civ_scientists/ld/playgame1" fps 12 loop 
 
 // console_civ_scientist.mdl sequences
-$sequence "console_idle1" "../shared/animations/scientists/ld/console_idle1" fps 25 loop
-$sequence "console_work" "../shared/animations/scientists/ld/console_work" fps 25 loop 
-$sequence "console_shocked" "../shared/animations/scientists/ld/console_shocked" fps 19 
-$sequence "console_sneeze" "../shared/animations/scientists/ld/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
+$sequence "console_idle1" "../shared/animations/civ_scientists/ld/console_idle1" fps 25 loop
+$sequence "console_work" "../shared/animations/civ_scientists/ld/console_work" fps 25 loop 
+$sequence "console_shocked" "../shared/animations/civ_scientists/ld/console_shocked" fps 19 
+$sequence "console_sneeze" "../shared/animations/civ_scientists/ld/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
 
 // scientist_cower.mdl sequences
 $sequence "cower_die" "../shared/animations/scientists/ld/cower_die" fps 25 loop { event 1000 0 } 

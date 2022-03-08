@@ -12,8 +12,9 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "scientist_hd.mdl"
+$modelname "civ_scientist_hd.mdl"
 $cd ".\"
+$cdtexture "..\..\texturesrc\civ_scientist"
 $cdtexture "..\..\texturesrc\scientist"
 $scale 1.0
 
@@ -24,7 +25,7 @@ $eyeposition 0.000000 0.000000 60.000000
 
 
 //reference mesh(es)
-$body "studio" "../shared/meshes/scientists/hd/dc_sci_(headless_body)"
+$body "studio" "../shared/meshes/civ_scientists/hd/dc_sci_(CIV_headless_body)"
 
 $bodygroup "heads"
 {
@@ -80,6 +81,8 @@ $hbox 5 "Bip02 R Arm2" 0.000000 -1.950000 -1.970000 11.250000 3.220000 2.450000
 $hbox 5 "Bip02 R Hand" 1.000000 -1.850000 -1.770000 4.930000 1.590000 2.080000
 $hbox 1 "Bip02 Head" -1.000000 -2.960000 -3.860000 9.020000 6.230000 4.070000
 
+
+// 126 animation sequence(s)
 
 // 126 animation sequence(s)
 $sequence "walk" "../shared/animations/scientists/hd/walk" LX fps 20 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
