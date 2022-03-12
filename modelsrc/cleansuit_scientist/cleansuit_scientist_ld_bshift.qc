@@ -15,7 +15,6 @@ Original internal name:
 $modelname "cleansuit_scientist_ld_bshift.mdl"
 $cd ".\"
 $cdtexture "..\..\texturesrc\cleansuit_scientist"
-$cdtexture "..\..\texturesrc\scientist\bshift"
 $cdtexture "..\..\texturesrc\scientist"
 $scale 1.0
 

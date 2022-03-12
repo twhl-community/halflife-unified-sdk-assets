@@ -14,7 +14,6 @@ Original internal name:
 
 $modelname "civ_coat_scientist_ld_bshift.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\scientist\bshift"
 $cdtexture "..\..\texturesrc\scientist"
 $scale 1.0
 
