@@ -390,15 +390,15 @@ $sequence "drive_jeep2" "../shared/animations/scientists/hd/drive_jeep2" fps 5 l
 $sequence "rose_outro" "../shared/animations/scientists/hd/rose_outro" fps 30 
 
 // civ_scientist.mdl sequences
-$sequence "sit1" "../shared/animations/scientists/hd/sit1" fps 13 loop 
-$sequence "sit2" "../shared/animations/scientists/hd/sit2" fps 13 loop 
-$sequence "playgame1" "../shared/animations/scientists/hd/playgame1" fps 12 loop 
+$sequence "sit1" "../shared/animations/civ_scientists/hd/sit1" fps 13 loop 
+$sequence "sit2" "../shared/animations/civ_scientists/hd/sit2" fps 13 loop 
+$sequence "playgame1" "../shared/animations/civ_scientists/hd/playgame1" fps 12 loop 
 
 // console_civ_scientist.mdl sequences
-$sequence "console_idle1" "../shared/animations/scientists/hd/console_idle1" fps 25 loop
-$sequence "console_work" "../shared/animations/scientists/hd/console_work" fps 25 loop 
-$sequence "console_shocked" "../shared/animations/scientists/hd/console_shocked" fps 19 
-$sequence "console_sneeze" "../shared/animations/scientists/hd/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
+$sequence "console_idle1" "../shared/animations/civ_scientists/hd/console_idle1" fps 25 loop
+$sequence "console_work" "../shared/animations/civ_scientists/hd/console_work" fps 25 loop 
+$sequence "console_shocked" "../shared/animations/civ_scientists/hd/console_shocked" fps 19 
+$sequence "console_sneeze" "../shared/animations/civ_scientists/hd/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
 
 // scientist_cower.mdl sequences
 $sequence "cower_die" "../shared/animations/scientists/hd/cower_die" fps 25 loop { event 1000 0 } 
