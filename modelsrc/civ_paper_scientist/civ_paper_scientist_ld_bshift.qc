@@ -14,6 +14,7 @@ Original internal name:
 
 $modelname "civ_paper_scientist_ld_bshift.mdl"
 $cd ".\"
+$cdtexture "..\..\texturesrc\civ_scientist"
 $cdtexture "..\..\texturesrc\scientist"
 $scale 1.0
 
