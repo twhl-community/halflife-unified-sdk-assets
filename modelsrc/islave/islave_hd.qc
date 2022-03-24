@@ -76,7 +76,6 @@ $hbox 0 "Bone07" -6.670000 -6.380000 -2.920000 0.000000 0.000000 2.630000
 $hbox 0 "Bone22" -1.560000 -2.910000 0.000000 0.000000 0.000000 3.550000
 $hbox 0 "Bone26" 0.000000 -2.930000 0.000000 1.760000 0.000000 3.580000
 
-$sequencegroupsize 64
 
 // 30 animation sequence(s)
 $sequence "idle1" "animations/hd/idle1" fps 15 loop ACT_IDLE 1 
