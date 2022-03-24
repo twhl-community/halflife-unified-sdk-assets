@@ -80,7 +80,7 @@ $hbox 0 "Bone26" 0.000000 -2.930000 0.000000 1.760000 0.000000 3.580000
 // 30 animation sequence(s)
 $sequence "idle1" "animations/hd/idle1" fps 15 loop ACT_IDLE 1 
 $sequence "idle2" "animations/hd/idle2" fps 15 loop ACT_IDLE 2 
-$sequence "idle3" "animations/hd/idle3" fps 15 loop ACT_IDLE 8 
+$sequence "idle3" "animations/hd/idle3" fps 23 loop ACT_IDLE 8 
 $sequence "crouch" "animations/hd/crouch" fps 15 ACT_CROUCH 1 
 $sequence "walk1" "animations/hd/walk1" LX fps 15 loop ACT_WALK 1 
 $sequence "walk2" "animations/hd/walk2" LX fps 15 loop ACT_WALK 1 
@@ -108,9 +108,9 @@ $sequence "raflinch" "animations/hd/raflinch" fps 15 ACT_FLINCH_RIGHTARM 1
 $sequence "llflinch" "animations/hd/llflinch" fps 15 ACT_FLINCH_LEFTLEG 1 
 $sequence "rlflinch" "animations/hd/rlflinch" fps 15 ACT_FLINCH_RIGHTLEG 1 
 $sequence "dieheadshot" "animations/hd/dieheadshot" X Y fps 20 ACT_DIE_HEADSHOT 1 
-$sequence "diesimple" "animations/hd/diesimple" X Y fps 20 ACT_DIESIMPLE 1 
+$sequence "diesimple" "animations/hd/diesimple" X Y fps 20 frame 0 19 ACT_DIESIMPLE 1 
 $sequence "diebackward" "animations/hd/diebackward" X Y fps 20 ACT_DIEBACKWARD 1 
-$sequence "dieforward" "animations/hd/dieforward" X Y fps 40 ACT_DIEFORWARD 1 
+$sequence "dieforward" "animations/hd/dieforward" X Y fps 40 frame 0 29 ACT_DIEFORWARD 1 
 $sequence "collar1" "animations/hd/collar1" fps 18 ACT_RELOAD 1 
 $sequence "collar2" "animations/hd/collar2" fps 18 ACT_RELOAD 1 
 $sequence "pushup" "animations/hd/pushup" fps 20 
@@ -121,8 +121,8 @@ $sequence "jibber" "animations/hd/jibber" fps 30 loop { event 1008 19 "aslave/sl
 $sequence "jabber" "animations/hd/jabber" fps 30 loop { event 1008 9 "aslave/slv_word3.wav" } { event 1008 39 "aslave/slv_word4.wav" } 
 
 // Opposing Force sequences
-$sequence "throw_podium" "animations/hd/throw_podium" fps 25 
-$sequence "long_jump" "animations/hd/long_jump" fps 25 
+$sequence "throw_podium" "animations/hd/throw_podium" fps 25 frame 0 19
+$sequence "long_jump" "animations/hd/long_jump" fps 25 frame 0 34
 $sequence "dead_on_stomach" "animations/hd/dead_on_stomach" fps 1 { event 1000 1 } { event 1001 1 } 
 
 // End of QC script.
