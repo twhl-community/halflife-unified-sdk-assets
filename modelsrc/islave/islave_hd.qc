@@ -16,7 +16,6 @@ $modelname "islave_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/islave"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
