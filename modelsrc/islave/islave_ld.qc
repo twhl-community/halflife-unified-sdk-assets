@@ -16,7 +16,6 @@ $modelname "islave_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/islave"
 $scale 1.0
-$cliptotextures
 
 $externaltextures
 
