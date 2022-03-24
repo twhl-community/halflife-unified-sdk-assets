@@ -100,4 +100,9 @@ $sequence "downup" "animations/ld/downup" fps 20
 $sequence "jibber" "animations/ld/jibber" fps 30 loop { event 1008 19 "aslave/slv_word5.wav" } { event 1008 52 "aslave/slv_word7.wav" } 
 $sequence "jabber" "animations/ld/jabber" fps 30 loop { event 1008 9 "aslave/slv_word3.wav" } { event 1008 39 "aslave/slv_word4.wav" } 
 
+// Opposing Force sequences
+$sequence "throw_podium" "animations/ld/throw_podium" fps 25 
+$sequence "long_jump" "animations/ld/long_jump" fps 25 
+$sequence "dead_on_stomach" "animations/ld/dead_on_stomach" fps 1 { event 1000 1 } { event 1001 1 } 
+
 // End of QC script.
