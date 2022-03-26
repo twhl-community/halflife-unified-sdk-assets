@@ -25,7 +25,6 @@ $eyeposition 0.000000 0.000000 43.000000
 
 //reference mesh(es)
 $body "studio" "meshes/hd/ps2_slave_reference"
-$body "studio" "meshes/hd/ps2_slave_collar_reference"
 
 
 // 2 attachment(s)
