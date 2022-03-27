@@ -90,4 +90,7 @@ $sequence "wakefast" "animations/hd/wakefast" fps 30 ACT_HOP 1
 $sequence "whimper" "animations/hd/whimper" fps 35 loop 
 $sequence "jumpwindow" "animations/hd/jumpwindow" fps 28 
 
+// Opposing Force sequences
+$sequence "dead" "animations/hd/dead" fps 30 
+
 // End of QC script.
