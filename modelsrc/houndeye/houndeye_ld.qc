@@ -55,9 +55,9 @@ $hbox 0 "Bip01 R Arm2" 0.000000 -1.660000 -2.810000 9.920000 2.790000 1.150000
 $sequence "idle1" "animations/ld/idle1" fps 30 ACT_IDLE 1 
 $sequence "idle2" "animations/ld/idle2" fps 30 loop ACT_IDLE 20 
 $sequence "idle3" "animations/ld/idle3" fps 30 ACT_IDLE 1 
-$sequence "run_1" "animations/ld/run_1" LX fps 30 loop ACT_RUN 4 
-$sequence "run_2" "animations/ld/run_2" LX fps 30 loop ACT_RUN 2 
-$sequence "run_3" "animations/ld/run_3" LX fps 30 loop ACT_RUN 1 
+$sequence "run" "animations/ld/run_1" LX fps 30 loop ACT_RUN 4 
+$sequence "run" "animations/ld/run_2" LX fps 30 loop ACT_RUN 2 
+$sequence "run" "animations/ld/run_3" LX fps 30 loop ACT_RUN 1 
 $sequence "die" "animations/ld/die" fps 20 ACT_DIESIMPLE 1 { event 2001 5 } 
 $sequence "die1" "animations/ld/die1" fps 20 ACT_DIEFORWARD 1 { event 2001 10 } 
 $sequence "die2" "animations/ld/die2" fps 20 ACT_DIEBACKWARD 2 { event 2001 8 } 
