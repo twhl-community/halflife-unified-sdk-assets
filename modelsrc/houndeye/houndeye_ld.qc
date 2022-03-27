@@ -94,4 +94,8 @@ $sequence "jumpwindow" "animations/ld/jumpwindow" fps 28
 // Opposing Force sequences
 $sequence "dead" "animations/ld/dead" fps 30 
 
+// Blue Shift sequences
+$sequence "eat_barney" "animations/ld/eat_barney" fps 17 { event 1000 1 } 
+$sequence "eat_barney_loop" "animations/ld/eat_barney_loop" fps 30 loop 
+
 // End of QC script.
