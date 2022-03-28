@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Alien slave LD/HD models
+- Houndeye LD/HD models
+- Dead Houndeye LD/HD models
 
 ## [0.2.0] - 2022-03-26
 
