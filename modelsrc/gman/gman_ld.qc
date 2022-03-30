@@ -27,7 +27,7 @@ $eyeposition 0.000000 0.000000 0.000000
 //reference mesh(es)
 $body "studio" "meshes/ld/gman_reference"
 
-$bodygroup "heads"
+$bodygroup "items"
 {
 blank
 studio "meshes/ld/gman_cell"
