@@ -35,6 +35,7 @@ studio "meshes/hd/gman_cell"
 
 // 2 bone controller(s)
 $controller 0 "Bip01 Head" XR -60.000000 60.000000
+$controller 3 "suitcase_bone03" ZR 0.000000 180.000000
 $controller 4 "Mouth" ZR 0.000000 14.000000
 
 // 32 hit box(es)
