@@ -82,12 +82,12 @@ $sequence "idle02" "animations/hd/idle02" fps 7 ACT_IDLE 35
 $sequence "open" "animations/hd/open" fps 11 ACT_IDLE 1 
 $sequence "stand" "animations/hd/stand" fps 10 ACT_IDLE 14 
 $sequence "walk" "animations/hd/walk" LX fps 22 loop ACT_WALK 1 { event 1004 3 "common/npc_step1.wav" } { event 1004 13 "common/npc_step3.wav" } 
-$sequence "yes" "animations/hd/yes" fps 16 
-$sequence "no" "animations/hd/no" fps 14 
+$sequence "yes" "animations/hd/yes" fps 16 frame 0 9 
+$sequence "no" "animations/hd/no" fps 14 frame 0 9 
 $sequence "bigno" "animations/hd/bigno" fps 18 
 $sequence "bigyes" "animations/hd/bigyes" fps 18 
 $sequence "listen" "animations/hd/listen" fps 7 
-$sequence "lookdown" "animations/hd/lookdown" fps 14 loop 
+$sequence "lookdown" "animations/hd/lookdown" fps 14 frame 0 26 loop 
 $sequence "lookdown2" "animations/hd/lookdown2" fps 14 loop 
 
 // Opposing Force sequences
