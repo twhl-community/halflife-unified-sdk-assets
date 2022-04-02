@@ -16,7 +16,6 @@ $modelname "osprey.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/osprey"
 $scale 1.0
-$cliptotextures
 
 $flags 768
 
