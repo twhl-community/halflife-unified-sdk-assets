@@ -3,15 +3,15 @@ nodes
   0 "Osprey" -1
   1 "R_gear_door" 0
   2 "L_gear_door" 0
-  3 "ElbowL" 0
-  4 "SpinnerL" 3
-  5 "PropL" 4
-  6 "EngineL" 3
-  7 "Elbow" 0
-  8 "spinner" 7
+  3 "ElbowR" 0
+  4 "SpinnerR" 3
+  5 "PropR" 4
+  6 "EngineR" 3
+  7 "ElbowL" 0
+  8 "SpinnerL" 7
   9 "tip" 8
- 10 "PropR" 9
- 11 "EngineR" 7
+ 10 "PropL" 9
+ 11 "EngineL" 7
  12 "R_gear" 0
  13 "L_gear" 0
  14 "ramp" 0
