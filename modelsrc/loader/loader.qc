@@ -30,6 +30,11 @@ $body "leg2" "meshes/leg2"
 $body "leg3" "meshes/leg3"
 $body "leg4" "meshes/leg4"
 
+$texturegroup skinfamilies 
+{
+{ "crate02.bmp"  "crate02b.bmp" }
+{ "crate03.bmp"  "crate03b.bmp" }
+}
 
 // 60 hit box(es)
 $hbox 0 "Master" -48.820000 -48.689999 -15.910000 48.590000 48.730000 27.209999
