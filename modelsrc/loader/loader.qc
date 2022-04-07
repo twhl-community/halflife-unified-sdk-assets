@@ -103,7 +103,6 @@ $sequence "boxwalk" "animations/boxwalk" LX fps 24 loop ACT_WALK 10 {
  }
 $sequence "run2" "animations/run2" LX fps 45 loop ACT_RUN 1 
 $sequence "heroidle" "animations/heroidle" fps 15 loop 
-$sequence "freeze" "animations/freeze" fps 15 loop 
 $sequence "herodie" "animations/herodie" fps 30 {
   { event 1001 1 } 
   { event 1000 75 } 
