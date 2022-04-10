@@ -33,12 +33,17 @@ studio "meshes/otis_reference_wgun"
 studio "meshes/otis_donut_reference"
 }
 
-$bodygroup "heads"
+$bodygroup "sleeves"
 {
-studio "meshes/otis_head_bald_wht2_reference"
-studio "meshes/otis_head_bald_wht_reference"
+studio "meshes/otis_sleeve_normal_reference"
+studio "meshes/otis_sleeve_rolled_reference"
 }
 
+$texturegroup skinfamilies 
+{
+{ "otis_head_wht_02.bmp" }
+{ "otis_head_wht.BMP" }
+}
 
 // 1 attachment(s)
 $attachment 0 "Bip01 R Hand" 15.000000 3.500000 1.000000
