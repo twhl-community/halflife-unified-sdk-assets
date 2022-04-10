@@ -43,6 +43,7 @@ $texturegroup skinfamilies
 {
 { "otis_head_wht_02.bmp" }
 { "otis_head_wht.BMP" }
+{ "otis_head_blk.BMP" }
 }
 
 // 1 attachment(s)
