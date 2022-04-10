@@ -30,13 +30,19 @@ $bodygroup "gun"
 {
 studio "meshes/otis_reference_wgunnholster"
 studio "meshes/otis_reference_wgun"
-studio "meshes/otis_donut_reference"
+blank
 }
 
 $bodygroup "sleeves"
 {
 studio "meshes/otis_sleeve_normal_reference"
 studio "meshes/otis_sleeve_rolled_reference"
+}
+
+$bodygroup "items"
+{
+blank
+studio "meshes/otis_donut_reference"
 }
 
 $texturegroup skinfamilies 
