@@ -42,6 +42,7 @@ studio "meshes/otis_sleeve_rolled_reference"
 $bodygroup "items"
 {
 blank
+studio "meshes/clipboard"
 studio "meshes/otis_donut_reference"
 }
 
