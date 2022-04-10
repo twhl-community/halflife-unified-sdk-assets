@@ -15,6 +15,7 @@ Original internal name:
 $modelname "otis.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/otis"
+$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
 
