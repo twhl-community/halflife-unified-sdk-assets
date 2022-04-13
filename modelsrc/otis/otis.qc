@@ -178,6 +178,21 @@ $sequence "trackswitch" "animations/trackswitch" fps 22 { event 1003 14 "trainar
 $sequence "pepsiswing" "animations/pepsiswing" fps 25 { event 1003 1 "die" } { event 1003 8 "swing" } 
 $sequence "pepsipush" "animations/pepsipush" fps 18 { event 1003 51 "topple" } { event 1003 90 "horror" } 
 $sequence "buttonpush" "animations/buttonpush" fps 20 { event 1003 7 "button" } 
+
+// Opposing Force Barney sequences
+$sequence "turn_lever" "../shared/animations/barney/turn_lever" fps 30 
+$sequence "draw_shoot" "../shared/animations/barney/draw_shoot" fps 30 {
+  { event 2 16 } 
+  { event 5001 33 "21" } 
+  { event 3 33 } 
+  { event 5001 63 "21" } 
+  { event 3 63 } 
+  { event 5001 93 "21" } 
+  { event 3 93 } 
+  { event 5001 123 "21" } 
+  { event 3 123 } 
+ }
+
 // Opposing Force Otis sequences
 $sequence "otis_fence" "animations/fence" AX AY AZR fps 24 {
   { event 1000 49 } 
