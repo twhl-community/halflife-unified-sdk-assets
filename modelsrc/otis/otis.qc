@@ -125,7 +125,6 @@ $sequence "lying_on_back" "animations/lying_on_back" fps 1
 $sequence "lying_on_side" "animations/lying_on_side" fps 1 
 $sequence "lying_on_stomach" "animations/lying_on_stomach" fps 1 
 $sequence "stuffed_in_vent" "animations/stuffed_in_vent" fps 1 
-$sequence "dead_sitting" "animations/dead_sitting" fps 1 
 $sequence "standing_idle" "animations/standing_idle" fps 15 loop 
 $sequence "cprbarney" "animations/cprbarney" fps 20 loop 
 $sequence "cprbarneyrevive" "animations/cprbarneyrevive" fps 20 
@@ -141,14 +140,14 @@ $sequence "intropush" "animations/intropush" fps 16 {
   { event 1004 34 "*buttons/blip1.wav" } 
   { event 1004 44 "*buttons/blip1.wav" } 
  }
-$sequence "fence" "animations/fence" AX AY AZR fps 24 {
-  { event 1000 49 } 
-  { event 1003 49 "lightning" } 
-  { event 1001 49 } 
-  { event 1004 51 "weapons/electro4.wav" } 
-  { event 1008 85 "barney/ba_pain2.wav" } 
+$sequence "fence" "../shared/animations/barney/fence" AX AY AZR fps 24 {
+  { event 1000 70 } 
+  { event 1003 70 "lightning" } 
+  { event 1001 70 } 
+  { event 1004 72 "weapons/electro4.wav" } 
+  { event 1008 100 "barney/ba_pain2.wav" } 
  }
-$sequence "wave" "animations/wave" fps 24 
+ }
 $sequence "unlatch" "animations/unlatch" fps 12 { event 1003 7 "barney_door_lock" } 
 $sequence "retina" "animations/retina" fps 20 
 $sequence "relaxstand" "animations/relaxstand" fps 10 loop 
@@ -156,6 +155,16 @@ $sequence "trackswitch" "animations/trackswitch" fps 22 { event 1003 14 "trainar
 $sequence "pepsiswing" "animations/pepsiswing" fps 25 { event 1003 1 "die" } { event 1003 8 "swing" } 
 $sequence "pepsipush" "animations/pepsipush" fps 18 { event 1003 51 "topple" } { event 1003 90 "horror" } 
 $sequence "buttonpush" "animations/buttonpush" fps 20 { event 1003 7 "button" } 
+// Opposing Force Otis sequences
+$sequence "otis_fence" "animations/fence" AX AY AZR fps 24 {
+  { event 1000 49 } 
+  { event 1003 49 "lightning" } 
+  { event 1001 49 } 
+  { event 1004 51 "weapons/electro4.wav" } 
+  { event 1008 85 "barney/ba_pain2.wav" } 
+ }
+$sequence "dead_sitting" "animations/dead_sitting" fps 1 
+$sequence "otis_wave" "animations/wave" fps 24 
 $sequence "cowering" "animations/cowering" fps 15 loop 
 $sequence "candygrab" "animations/candygrab" fps 30 {
   { event 1008 1 "otis/candy.wav" } 
