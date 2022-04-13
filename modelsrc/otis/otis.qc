@@ -178,4 +178,18 @@ $sequence "candygrab" "animations/candygrab" fps 30 {
   { event 1008 212 "misc/spark1.wav" } 
  }
 
+// Blue Shift Otis sequences
+$sequence "range_struggle" "animations/range_struggle" fps 18 loop 
+$sequence "otis_range_fire" "animations/range_fire" fps 28 loop {
+  { event 5001 47 "21" } 
+  { event 3 47 } 
+  { event 1008 47 "weapons/de_shot1.wav" } 
+  { event 5001 47 "otis_miss" } 
+ }
+$sequence "otis_dumped" "animations/otis_dumped" fps 28 { event 1000 1 } 
+$sequence "otis_dumped_idle" "animations/otis_dumped_idle" fps 28 loop 
+
+// Blue Shift intro_otis.mdl sequences
+$sequence "intro_glance" "animations/intro_glance" fps 25 
+
 // End of QC script.
