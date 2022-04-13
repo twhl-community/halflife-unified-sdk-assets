@@ -134,6 +134,10 @@ $sequence "dying_barneyidle" "animations/dying_barneyidle" fps 12 loop
 $sequence "dying_friend" "animations/dying_friend" fps 18 
 $sequence "dying_friendidle" "animations/dying_friendidle" fps 12 loop 
 $sequence "c1a3_bidle" "animations/c1a3_bidle" AX AY AZR fps 3 
+$sequence "c1a3_ventb" "../shared/animations/barney/c1a3_ventb" AX AY AZR fps 18 { event 1000 1 } 
+$sequence "c1a3_emergeidle" "../shared/animations/barney/c1a3_emergeidle" AX AY AZR fps 16 loop 
+$sequence "c1a3_emerge" "../shared/animations/barney/c1a3_emerge" AX AY AZR fps 16 { event 1000 1 } 
+$sequence "haulbarney" "../shared/animations/barney/haulbarney" AX AY AZR fps 18 { event 1000 1 } 
 $sequence "intropush" "animations/intropush" fps 16 {
   { event 1004 15 "*buttons/blip1.wav" } 
   { event 1004 24 "*buttons/blip1.wav" } 
@@ -147,10 +151,29 @@ $sequence "fence" "../shared/animations/barney/fence" AX AY AZR fps 24 {
   { event 1004 72 "weapons/electro4.wav" } 
   { event 1008 100 "barney/ba_pain2.wav" } 
  }
+$sequence "sit1" "../shared/animations/barney/sit1" fps 20 loop { event 1003 50 "introchair" } { event 1003 102 "introchair" } 
+$sequence "almostidle" "../shared/animations/barney/almostidle" fps 16 loop 
+$sequence "almost" "../shared/animations/barney/almost" fps 26 { event 1000 1 } 
+$sequence "laseridle" "../shared/animations/barney/laseridle" fps 6 
+$sequence "laser_top" "../shared/animations/barney/laser_top" fps 6 { event 1000 0 } 
+$sequence "laser_bottom" "../shared/animations/barney/laser_bottom" fps 6 { event 1000 0 } 
+$sequence "barneyfallidle" "../shared/animations/barney/barneyfallidle" fps 33 loop 
+$sequence "barneyfall" "../shared/animations/barney/barneyfall" fps 32 {
+  { event 1000 1 } 
+  { event 1008 2 "barney/ba_pain1.wav" } 
+  { event 1008 24 "barney/ba_pain2.wav" } 
+  { event 1003 55 "bsplat" } 
+  { event 1008 55 "debris/bustflesh1.wav" } 
  }
+$sequence "c3a2_draw" "../shared/animations/barney/c3a2_draw" fps 16 { event 2 13 } 
 $sequence "unlatch" "animations/unlatch" fps 12 { event 1003 7 "barney_door_lock" } 
 $sequence "retina" "animations/retina" fps 20 
 $sequence "relaxstand" "animations/relaxstand" fps 10 loop 
+$sequence "assassinated" "../shared/animations/barney/assassinated" X fps 18 {
+  { event 1000 1 } 
+  { event 1003 1 "blood1" } 
+  { event 1003 2 "blood2" } 
+ }
 $sequence "trackswitch" "animations/trackswitch" fps 22 { event 1003 14 "trainarmswitch" } 
 $sequence "pepsiswing" "animations/pepsiswing" fps 25 { event 1003 1 "die" } { event 1003 8 "swing" } 
 $sequence "pepsipush" "animations/pepsipush" fps 18 { event 1003 51 "topple" } { event 1003 90 "horror" } 
