@@ -276,7 +276,7 @@ $sequence "otis_range_fire" "../shared/animations/otis/ld/range_fire" fps 28 loo
   { event 5001 47 "21" } 
   { event 3 47 } 
   { event 1008 47 "weapons/de_shot1.wav" } 
-  { event 5001 47 "otis_miss" } 
+  { event 1003 47 "otis_miss" } 
  }
 $sequence "otis_dumped" "../shared/animations/otis/ld/otis_dumped" fps 28 { event 1000 1 } 
 $sequence "otis_dumped_idle" "../shared/animations/otis/ld/otis_dumped_idle" fps 28 loop 
