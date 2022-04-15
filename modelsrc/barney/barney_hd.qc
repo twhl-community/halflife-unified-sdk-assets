@@ -227,4 +227,16 @@ $sequence "adjust_idle" "animations/hd/adjust_idle" fps 27 loop
 $sequence "diecrump2" "animations/hd/diecrump2" X fps 18 ACT_DIESIMPLE 2 { event 2001 13 } { event 1000 0 } 
 $sequence "dieviolent2" "animations/hd/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 } 
 
+// Opposing Force Otis sequences
+$sequence "otis_fence" "../shared/animations/otis/hd/fence" AX AY AZR fps 24 {
+  { event 1000 49 } 
+  { event 1003 49 "lightning" } 
+  { event 1001 49 } 
+  { event 1004 51 "weapons/electro4.wav" } 
+  { event 1008 85 "barney/ba_pain2.wav" } 
+ }
+$sequence "dead_sitting" "../shared/animations/otis/hd/dead_sitting" fps 1 
+$sequence "otis_wave" "../shared/animations/otis/hd/wave" fps 24 
+$sequence "cowering" "../shared/animations/otis/hd/cowering" fps 15 loop 
+
 // End of QC script.
