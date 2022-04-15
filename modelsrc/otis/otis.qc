@@ -248,16 +248,16 @@ $sequence "diecrump2" "../shared/animations/barney/diecrump2" X fps 18 ACT_DIESI
 $sequence "dieviolent2" "../shared/animations/barney/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 } 
 
 // Opposing Force Otis sequences
-$sequence "otis_fence" "animations/fence" AX AY AZR fps 24 {
+$sequence "otis_fence" "../shared/animations/otis/ld/fence" AX AY AZR fps 24 {
   { event 1000 49 } 
   { event 1003 49 "lightning" } 
   { event 1001 49 } 
   { event 1004 51 "weapons/electro4.wav" } 
   { event 1008 85 "barney/ba_pain2.wav" } 
  }
-$sequence "dead_sitting" "animations/dead_sitting" fps 1 
-$sequence "otis_wave" "animations/wave" fps 24 
-$sequence "cowering" "animations/cowering" fps 15 loop 
+$sequence "dead_sitting" "../shared/animations/otis/ld/dead_sitting" fps 1 
+$sequence "otis_wave" "../shared/animations/otis/ld/wave" fps 24 
+$sequence "cowering" "../shared/animations/otis/ld/cowering" fps 15 loop 
 $sequence "candygrab" "animations/candygrab" fps 30 {
   { event 1008 1 "otis/candy.wav" } 
   { event 1004 12 "misc/spark3.wav" } 
@@ -272,14 +272,14 @@ $sequence "candygrab" "animations/candygrab" fps 30 {
 
 // Blue Shift Otis sequences
 $sequence "range_struggle" "animations/range_struggle" fps 18 loop 
-$sequence "otis_range_fire" "animations/range_fire" fps 28 loop {
+$sequence "otis_range_fire" "../shared/animations/otis/ld/range_fire" fps 28 loop {
   { event 5001 47 "21" } 
   { event 3 47 } 
   { event 1008 47 "weapons/de_shot1.wav" } 
   { event 5001 47 "otis_miss" } 
  }
-$sequence "otis_dumped" "animations/otis_dumped" fps 28 { event 1000 1 } 
-$sequence "otis_dumped_idle" "animations/otis_dumped_idle" fps 28 loop 
+$sequence "otis_dumped" "../shared/animations/otis/ld/otis_dumped" fps 28 { event 1000 1 } 
+$sequence "otis_dumped_idle" "../shared/animations/otis/ld/otis_dumped_idle" fps 28 loop 
 
 // Blue Shift intro_otis.mdl sequences
 $sequence "intro_glance" "animations/intro_glance" fps 25 
