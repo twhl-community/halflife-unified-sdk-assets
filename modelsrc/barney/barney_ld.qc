@@ -30,7 +30,7 @@ $bodygroup "gun"
 {
 studio "meshes/BARNEY-X_Template_Biped(Gun-Hlstr)1"
 studio "meshes/BARNEY-X_Template_Biped(Gun)1"
-blank
+studio "meshes/BARNEY-X_Template_Biped(Gun-None)1"
 }
 
 
