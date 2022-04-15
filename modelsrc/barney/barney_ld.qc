@@ -159,7 +159,7 @@ $sequence "pepsiswing" "animations/pepsiswing" fps 25 { event 1003 1 "die" } { e
 $sequence "pepsipush" "animations/pepsipush" fps 18 { event 1003 51 "topple" } { event 1003 90 "horror" } 
 $sequence "buttonpush" "animations/buttonpush" fps 20 { event 1003 7 "button" } 
 
-// Opposing Force sequences
+// Opposing Force Barney sequences
 $sequence "turn_lever" "../shared/animations/barney/turn_lever" fps 30 
 $sequence "draw_shoot" "../shared/animations/barney/draw_shoot" fps 30 {
   { event 2 16 } 
@@ -173,7 +173,7 @@ $sequence "draw_shoot" "../shared/animations/barney/draw_shoot" fps 30 {
   { event 3 123 } 
  }
 
-// Blue Shift sequences
+// Blue Shift Barney sequences
 $sequence "range_fire" "../shared/animations/barney/range_fire" fps 15 {
   { event 2 1 } 
   { event 5001 9 "21" } 
@@ -227,5 +227,17 @@ $sequence "console_stand" "../shared/animations/barney/console_stand" LX fps 27
 $sequence "adjust_idle" "../shared/animations/barney/adjust_idle" fps 27 loop 
 $sequence "diecrump2" "../shared/animations/barney/diecrump2" X fps 18 ACT_DIESIMPLE 2 { event 2001 13 } { event 1000 0 } 
 $sequence "dieviolent2" "../shared/animations/barney/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 } 
+
+// Opposing Force Otis sequences
+$sequence "otis_fence" "../shared/animations/otis/ld/fence" AX AY AZR fps 24 {
+  { event 1000 49 } 
+  { event 1003 49 "lightning" } 
+  { event 1001 49 } 
+  { event 1004 51 "weapons/electro4.wav" } 
+  { event 1008 85 "barney/ba_pain2.wav" } 
+ }
+$sequence "dead_sitting" "../shared/animations/otis/ld/dead_sitting" fps 1 
+$sequence "otis_wave" "../shared/animations/otis/ld/wave" fps 24 
+$sequence "cowering" "../shared/animations/otis/ld/cowering" fps 15 loop 
 
 // End of QC script.
