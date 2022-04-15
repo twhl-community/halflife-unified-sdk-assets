@@ -240,4 +240,14 @@ $sequence "dead_sitting" "../shared/animations/otis/ld/dead_sitting" fps 1
 $sequence "otis_wave" "../shared/animations/otis/ld/wave" fps 24 
 $sequence "cowering" "../shared/animations/otis/ld/cowering" fps 15 loop 
 
+// Blue Shift Otis sequences
+$sequence "otis_range_fire" "../shared/animations/otis/ld/range_fire" fps 28 loop {
+  { event 5001 47 "21" } 
+  { event 3 47 } 
+  { event 1008 47 "barney/ba_attack2.wav" } 
+  { event 1003 47 "barn_miss" } 
+ }
+$sequence "otis_dumped" "../shared/animations/otis/ld/otis_dumped" fps 28 { event 1000 1 } 
+$sequence "otis_dumped_idle" "../shared/animations/otis/ld/otis_dumped_idle" fps 28 loop 
+
 // End of QC script.
