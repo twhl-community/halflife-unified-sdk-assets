@@ -24,7 +24,7 @@ $eyeposition 0.000000 0.000000 63.000000
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/dc_barney_Reference"
+$body "studio" "meshes/hd/BARNEY-X_Template_Biped1"
 
 $bodygroup "gun"
 {
