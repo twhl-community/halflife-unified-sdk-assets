@@ -16,6 +16,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Osprey model
 - Loader model
 - Otis model
+- Otis animations to Barney LD/HD models
+
+### Changed
+
+- Barney HD model now uses original Op4 HD
+- Tweaked Barney LD/HD hitboxes
+- Use the same hand mesh across all Barney LD submodels
+
+### Fixed
+
+- Removed duplicate polygons in Barney LD meshes
+- Flipped Barney LD gun mesh normals
 
 ## [0.2.0] - 2022-03-26
 
