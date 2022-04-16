@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Barney HD model now uses original Op4 HD
 - Tweaked Barney LD/HD hitboxes
+- Tweaked Scientists LD/HD hitboxes
 - Use the same hand mesh across all Barney LD submodels
 
 ### Fixed
