@@ -16,7 +16,6 @@ $modelname "hgrunt_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt"
 $scale 1.0
-$cliptotextures
 
 $externaltextures
 
