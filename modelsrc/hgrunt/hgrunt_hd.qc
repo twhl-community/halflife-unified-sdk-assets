@@ -77,7 +77,6 @@ $hbox 11 "Bip01 Head" 9.000000 -5.220000 -4.590000 15.150000 7.560000 6.010000
 $hbox 11 "Bip01 Head" 1.700000 -5.220000 -4.590000 9.000000 1.000000 6.010000
 $hbox 1 "Bip01 Head" 1.700000 1.000000 -4.590000 9.000000 7.560000 6.010000
 
-$sequencegroupsize 64
 
 // 86 animation sequence(s)
 $sequence "walk1" "animations/hd/walk1" LX fps 35 loop ACT_WALK 1 
