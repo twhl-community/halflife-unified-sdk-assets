@@ -192,8 +192,8 @@ $sequence "kneeldive" "animations/hd/kneeldive" AX AY AZR fps 29 {
 $sequence "WM_button" "animations/hd/WM_button" AX AY AZR fps 25 
 $sequence "WM_moatjump" "animations/hd/WM_moatjump" AX AY AZR fps 35 
 $sequence "bustwindow" "animations/hd/bustwindow" fps 24 { event 1003 5 "break" } 
-$sequence "dragright" "animations/hd/dragright" LX fps 28 loop 
 $sequence "dragleft" "animations/hd/dragleft" LX fps 28 loop 
+$sequence "dragright" "animations/hd/dragright" LX fps 28 loop 
 $sequence "trackwave" "animations/hd/trackwave" fps 12 loop 
 $sequence "trackdive" "animations/hd/trackdive" fps 28 { event 1003 38 "switch" } 
 $sequence "flyback" "animations/hd/flyback" fps 25 { event 1003 29 "zap" } { event 1008 25 "weapons/electro4.wav" } 
