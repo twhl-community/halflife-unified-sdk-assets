@@ -84,8 +84,8 @@ $hbox 1 "Bip01 Neck" 0.000000 -4.100000 -3.800000 6.000000 5.000000 3.800000
 
 
 // 86 animation sequence(s)
-$sequence "walk1" "animations/hd/walk1" LX fps 35 loop ACT_WALK 1 
-$sequence "run" "animations/hd/run" LX fps 40 loop ACT_RUN 1 
+$sequence "walk1" "animations/hd/walk1" LX fps 30 loop ACT_WALK 1 
+$sequence "run" "animations/hd/run" LX fps 42 loop ACT_RUN 1 
 $sequence "victorydance" "animations/hd/victorydance" fps 21 ACT_VICTORY_DANCE 1 
 $sequence "cower" "animations/hd/cower" fps 14 ACT_COWER 1 
 $sequence "smflinch" "animations/hd/smflinch" fps 20 ACT_SMALL_FLINCH 5 
@@ -97,10 +97,10 @@ $sequence "launchgrenade" "animations/hd/launchgrenade" fps 30 ACT_RANGE_ATTACK2
 $sequence "throwgrenade" "animations/hd/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 34 } 
 $sequence "idle1" "animations/hd/idle1" fps 15 loop ACT_IDLE 1 
 $sequence "idle2" "animations/hd/idle2" fps 10 loop ACT_IDLE 1 
-$sequence "combatidle" "animations/hd/combatidle" fps 20 loop ACT_IDLE_ANGRY 1 
+$sequence "combatidle" "animations/hd/combatidle" fps 16 loop ACT_IDLE_ANGRY 1 
 $sequence "frontkick" "animations/hd/frontkick" fps 35 ACT_MELEE_ATTACK1 1 { event 3 13 } { event 2010 13 } 
 $sequence "crouching_idle" "animations/hd/crouching_idle" fps 15 loop 
-$sequence "crouching_wait" "animations/hd/crouching_wait" fps 15 ACT_CROUCH 0 
+$sequence "crouching_wait" "animations/hd/crouching_wait" fps 17 ACT_CROUCH 0 
 $sequence "crouching_mp5" "animations/hd/crouching_mp5_blend1" "animations/hd/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
   { event 4 1 } 
   { event 5 5 } 
@@ -121,7 +121,7 @@ $sequence "reload_mp5" "animations/hd/reload_mp5" fps 36 ACT_RELOAD 1 { event 2 
 $sequence "crouching_shotgun" "animations/hd/crouching_shotgun_blend1" "animations/hd/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 1 } { event 5001 1 "51" } 
 $sequence "standing_shotgun" "animations/hd/standing_shotgun_blend1" "animations/hd/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 1 } { event 5001 1 "51" } 
 $sequence "reload_shotgun" "animations/hd/reload_shotgun" fps 36 { event 2 41 } 
-$sequence "advance_signal" "animations/hd/advance_signal" fps 25 ACT_SIGNAL1 1 { event 10 7 } 
+$sequence "advance_signal" "animations/hd/advance_signal" fps 36 ACT_SIGNAL1 1 { event 10 7 } 
 $sequence "flank_signal" "animations/hd/flank_signal" fps 19 ACT_SIGNAL2 1 
 $sequence "retreat_signal" "animations/hd/retreat_signal" fps 25 ACT_SIGNAL3 1 
 $sequence "drop_grenade" "animations/hd/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 31 } 
@@ -135,8 +135,8 @@ $sequence "dieback1" "animations/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 { event
 $sequence "dieforward" "animations/hd/dieforward" X fps 30 ACT_DIEFORWARD 1 { event 11 12 } { event 2001 19 } 
 $sequence "diesimple" "animations/hd/diesimple" X fps 15 ACT_DIESIMPLE 1 { event 11 3 } { event 2001 10 } 
 $sequence "diebackwards" "animations/hd/diebackwards" X fps 30 ACT_DIEBACKWARD 1 { event 11 6 } { event 2001 12 } 
-$sequence "dieheadshot" "animations/hd/dieheadshot" X fps 30 ACT_DIE_HEADSHOT 1 { event 11 1 } { event 2001 20 } 
-$sequence "diegutshot" "animations/hd/diegutshot" X fps 30 ACT_DIE_GUTSHOT 1 { event 11 0 } { event 2001 29 } 
+$sequence "dieheadshot" "animations/hd/dieheadshot" X fps 32 ACT_DIE_HEADSHOT 1 { event 11 1 } { event 2001 20 } 
+$sequence "diegutshot" "animations/hd/diegutshot" X fps 31 ACT_DIE_GUTSHOT 1 { event 11 0 } { event 2001 29 } 
 $sequence "barnacled1" "animations/hd/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
 $sequence "barnacled2" "animations/hd/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
 $sequence "barnacled3" "animations/hd/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
@@ -146,7 +146,7 @@ $sequence "deadstomach" "animations/hd/deadstomach" fps 10
 $sequence "deadside" "animations/hd/deadside" fps 10 
 $sequence "deadsitting" "animations/hd/deadsitting" fps 10 
 $sequence "repel_jump" "animations/hd/repel_jump" fps 22 ACT_HOVER 1 
-$sequence "repel_repel" "animations/hd/repel_repel" fps 18 loop ACT_GLIDE 1 
+$sequence "repel_repel" "animations/hd/repel_repel" fps 16 loop ACT_GLIDE 1 
 $sequence "repel_shoot" "animations/hd/repel_shoot_blend1" "animations/hd/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
   { event 4 0 } 
   { event 5 2 } 
@@ -157,22 +157,22 @@ $sequence "repel_shoot" "animations/hd/repel_shoot_blend1" "animations/hd/repel_
  }
 $sequence "repel_land" "animations/hd/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "animations/hd/repel_die" fps 12 
-$sequence "dragholeidle" "animations/hd/dragholeidle" fps 10 loop 
+$sequence "dragholeidle" "animations/hd/dragholeidle" fps 3 loop 
 $sequence "draghole" "animations/hd/draghole" fps 5 { event 1000 1 } { event 1004 20 "debris/bustflesh1.wav" } 
 $sequence "bustwall" "animations/hd/bustwall" fps 20 { event 1000 1 } 
 $sequence "hoprail" "animations/hd/hoprail" fps 22 
-$sequence "converse1" "animations/hd/converse1" fps 14 loop 
-$sequence "converse2" "animations/hd/converse2" fps 14 loop 
+$sequence "converse1" "animations/hd/converse1" fps 6 loop 
+$sequence "converse2" "animations/hd/converse2" fps 6 loop 
 $sequence "startleleft" "animations/hd/startleleft" fps 12 
 $sequence "startleright" "animations/hd/startleright" fps 12 
 $sequence "divecover" "animations/hd/divecover" fps 22 
-$sequence "defuse" "animations/hd/defuse" fps 14 loop 
-$sequence "corner1" "animations/hd/corner1" fps 14 loop 
-$sequence "corner2" "animations/hd/corner2" fps 10 loop 
-$sequence "stone_toss" "animations/hd/stone_toss" fps 15 
+$sequence "defuse" "animations/hd/defuse" fps 5 loop 
+$sequence "corner1" "animations/hd/corner1" fps 4 loop 
+$sequence "corner2" "animations/hd/corner2" fps 4 loop 
+$sequence "stone_toss" "animations/hd/stone_toss" fps 14 
 $sequence "cliffdie" "animations/hd/cliffdie" AX AY AZR fps 36 { event 1001 0 } { event 1000 0 } 
-$sequence "diveaside_idle" "animations/hd/diveaside_idle" fps 30 loop 
-$sequence "diveaside" "animations/hd/diveaside" AX AY AZR fps 30 {
+$sequence "diveaside_idle" "animations/hd/diveaside_idle" fps 16 loop 
+$sequence "diveaside" "animations/hd/diveaside" AX AY AZR fps 31 {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -180,8 +180,8 @@ $sequence "diveaside" "animations/hd/diveaside" AX AY AZR fps 30 {
   { event 5 16 } 
   { event 6 18 } 
  }
-$sequence "kneeldive_idle" "animations/hd/kneeldive_idle" fps 30 loop 
-$sequence "kneeldive" "animations/hd/kneeldive" AX AY AZR fps 30 {
+$sequence "kneeldive_idle" "animations/hd/kneeldive_idle" fps 15 loop 
+$sequence "kneeldive" "animations/hd/kneeldive" AX AY AZR fps 29 {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -189,15 +189,15 @@ $sequence "kneeldive" "animations/hd/kneeldive" AX AY AZR fps 30 {
   { event 5 16 } 
   { event 6 18 } 
  }
-$sequence "WM_button" "animations/hd/WM_button" AX AY AZR fps 30 
-$sequence "WM_moatjump" "animations/hd/WM_moatjump" AX AY AZR fps 30 
+$sequence "WM_button" "animations/hd/WM_button" AX AY AZR fps 25 
+$sequence "WM_moatjump" "animations/hd/WM_moatjump" AX AY AZR fps 35 
 $sequence "bustwindow" "animations/hd/bustwindow" fps 24 { event 1003 5 "break" } 
 $sequence "dragright" "animations/hd/dragright" LX fps 28 loop 
 $sequence "dragleft" "animations/hd/dragleft" LX fps 28 loop 
-$sequence "trackwave" "animations/hd/trackwave" fps 24 loop 
+$sequence "trackwave" "animations/hd/trackwave" fps 12 loop 
 $sequence "trackdive" "animations/hd/trackdive" fps 28 { event 1003 38 "switch" } 
 $sequence "flyback" "animations/hd/flyback" fps 25 { event 1003 29 "zap" } { event 1008 25 "weapons/electro4.wav" } 
-$sequence "impaled" "animations/hd/impaled" fps 10 { event 1000 1 } 
+$sequence "impaled" "animations/hd/impaled" fps 3 { event 1000 1 } 
 $sequence "jumptracks" "animations/hd/jumptracks" fps 30 
 $sequence "pipetoss" "animations/hd/pipetoss" fps 30 
 $sequence "plunger" "animations/hd/plunger" fps 22 
