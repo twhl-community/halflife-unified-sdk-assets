@@ -87,4 +87,7 @@ $sequence "crate_exit" "animations/crate_exit" AX AY AZR fps 14 loop { event 100
 $sequence "bust_wall" "animations/bust_wall" AX AY AZR fps 16 loop { event 1008 1 "*holo/holostn9.wav" } 
 $sequence "ladder" "animations/ladder" AX AY AZR fps 16 loop { event 1008 1 "*holo/holostn8.wav" } 
 
+// Blue Shift sequences
+$sequence "pushcart" "animations/pushcart" LX fps 23 loop ACT_WALK 1 
+
 // End of QC script.
