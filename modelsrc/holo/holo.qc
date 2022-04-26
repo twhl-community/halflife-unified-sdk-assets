@@ -29,6 +29,7 @@ $body "studio" "meshes/hologram"
 
 
 // 1 bone controller(s)
+$controller 0 "Bip01 Head" XR -60.000000 60.000000
 $controller 4 "Bone02" ZR 0.000000 16.000000
 
 // 25 hit box(es)
