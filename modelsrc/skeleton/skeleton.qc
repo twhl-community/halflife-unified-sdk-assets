@@ -16,7 +16,6 @@ $modelname "skeleton.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/skeleton"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
