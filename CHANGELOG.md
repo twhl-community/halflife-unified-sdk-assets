@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Otis animations to Barney LD/HD models
 - Human grunt LD/HD models
 - Hologram model
+- Skeleton model
 
 ### Changed
 
