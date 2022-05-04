@@ -43,9 +43,9 @@ $hbox 0 "L_Arm_bone" -1.920000 -2.640000 -2.300000 2.760000 2.490000 7.980000
 // 11 animation sequence(s)
 $sequence "idle1" "animations/hd/idle1" fps 30 loop 
 $sequence "fidget1" "animations/hd/fidget1" fps 30 
-$sequence "altfireon" "animations/hd/altfireon" fps 30 loop 
+$sequence "altfireon" "animations/hd/altfireon" fps 30 
 $sequence "altfirecycle" "animations/hd/altfirecycle" fps 30 loop 
-$sequence "altfireoff" "animations/hd/altfireoff" fps 30 loop 
+$sequence "altfireoff" "animations/hd/altfireoff" fps 30 
 $sequence "fire1" "animations/hd/fire1" fps 30 loop 
 $sequence "fire2" "animations/hd/fire2" fps 30 loop 
 $sequence "fire3" "animations/hd/fire3" fps 30 loop 
