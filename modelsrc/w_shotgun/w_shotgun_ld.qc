@@ -28,7 +28,7 @@ $body "body" "meshes/ld/w_shotgun_Reference"
 
 
 // 1 hit box(es)
-$hbox 0 "Shotgun" -16.129999 -5.180000 -2.200000 16.120001 5.290000 2.100000
+$hbox 0 "Box01" -20.410000 -6.680000 -2.620000 20.410000 6.680000 2.620000
 
 // 1 animation sequence(s)
 $sequence "idle" "animations/ld/idle" fps 30 
