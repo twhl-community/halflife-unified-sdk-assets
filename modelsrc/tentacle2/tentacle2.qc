@@ -17,7 +17,6 @@ $cd ".\"
 $cdtexture "../../texturesrc/tentacle"
 $scale 1.0
 
-$externaltextures
 $flags 512
 
 $bbox -400.000000 -400.000000 0.000000 400.000000 400.000000 850.000000
