@@ -16,7 +16,6 @@ $modelname "w_pcv.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_pcv"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
