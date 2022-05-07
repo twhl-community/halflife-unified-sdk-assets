@@ -16,7 +16,6 @@ $modelname "tentacle2.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/tentacle"
 $scale 1.0
-$cliptotextures
 
 $externaltextures
 $flags 512
