@@ -14,6 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - World Shotgun LD model
 - Player Shotgun LD model
 
+### Changed
+
+- Use LD Op4 shotgun world mesh for LD human grunt shotgun
+- Use HD HL1 shotgun and M4 world meshes for HD human grunt weapons
+
 ## [0.3.0] - 2022-05-07
 
 ### Added
