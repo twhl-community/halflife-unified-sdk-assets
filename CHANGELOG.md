@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tentacle models
 - World Shotgun LD model
 - Player Shotgun LD model
+- Scientist shotgun LD/HD models
 
 ### Changed
 
