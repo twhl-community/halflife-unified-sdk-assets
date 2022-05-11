@@ -18,7 +18,6 @@ $cdtexture "meshes/ld"
 $cdtexture "../../texturesrc/viewmodel/hands/hev"
 $cdtexture "../../texturesrc/viewmodel/v_tripmine"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
