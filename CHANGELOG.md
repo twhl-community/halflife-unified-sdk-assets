@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Player Shotgun LD model
 - Scientist shotgun LD/HD models
 - Egon LD/HD view models
+- Tripmine LD/HD view models
 
 ### Changed
 
