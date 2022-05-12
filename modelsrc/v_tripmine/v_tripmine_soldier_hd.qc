@@ -55,7 +55,7 @@ $hbox 0 "tripmine" -11.140000 -3.790000 -8.170000 11.190000 7.180000 1.980000
 // 9 animation sequence(s)
 $sequence "idle1" "animations/hd/idle1" fps 15 loop 
 $sequence "idle2" "animations/hd/idle2" fps 15 loop 
-$sequence "arm1" "animations/hd/arm1" fps 15 loop 
+$sequence "arm1" "animations/hd/arm1" fps 15 
 $sequence "place" "animations/hd/place" fps 30 
 $sequence "fidget" "animations/hd/fidget" fps 30 loop 
 $sequence "holster" "animations/hd/holster" fps 30 
