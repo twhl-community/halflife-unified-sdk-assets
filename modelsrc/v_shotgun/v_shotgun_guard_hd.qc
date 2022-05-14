@@ -48,7 +48,7 @@ $hbox 0 "R_Arm_bone" -2.430000 -2.520000 -3.290000 1.980000 2.530000 9.200000
 
 // 10 animation sequence(s)
 $sequence "sm_idle" "animations/hd/sm_idle" fps 9 loop 
-$sequence "shoot" "animations/hd/shoot" fps 30 { event 5001 0 "41" } 
+$sequence "shoot" "animations/hd/shoot" fps 30 { event 5001 0 "31" } 
 $sequence "shoot_big" "animations/hd/shoot_big" fps 30 { event 5001 0 "41" } 
 $sequence "reload" "animations/hd/reload" fps 16 
 $sequence "pump" "animations/hd/pump" fps 30 
