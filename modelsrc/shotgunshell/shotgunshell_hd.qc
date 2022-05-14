@@ -28,7 +28,7 @@ $body "studio" "meshes/hd/w_shotgun_shell_reference"
 
 
 // 1 hit box(es)
-$hbox 0 "Cylinder01" -1.130000 -1.070000 0.000000 1.130000 1.070000 4.920000
+$hbox 0 "Cylinder01" -1.130000 -1.070000 -0.650000 1.130000 1.070000 4.300000
 
 // 1 animation sequence(s)
 $sequence "idle" "animations/hd/idle" fps 30 
