@@ -1,0 +1,10 @@
+# Redundant map files
+*.jmx
+*.max
+
+# Map compilation outputs
+*.err
+*.ext
+*.log
+*.prt
+*.wa_
