@@ -28,7 +28,7 @@ $body "studio" "meshes/hd/m4_grenade_reference"
 
 
 // 1 hit box(es)
-$hbox 0 "Cylinder01" -2.940000 -5.070000 0.000000 2.860000 7.240000 5.660000
+$hbox 0 "Cylinder01" -3.000000 -6.100000 -2.900000 2.900000 6.400000 2.800000
 
 // 1 animation sequence(s)
 $sequence "idle" "animations/hd/idle" fps 30 
