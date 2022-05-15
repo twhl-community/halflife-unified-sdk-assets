@@ -1,0 +1,8 @@
+//This file contains a list of filters to copy assets to the game directory.
+[
+	{
+		"Source": "scriptsrc",
+		"Destination": "scripts",
+		"Pattern": "*.csx",
+	}
+]
