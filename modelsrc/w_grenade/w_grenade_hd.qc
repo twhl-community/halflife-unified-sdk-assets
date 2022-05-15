@@ -16,7 +16,6 @@ $modelname "w_grenade_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_grenade"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
