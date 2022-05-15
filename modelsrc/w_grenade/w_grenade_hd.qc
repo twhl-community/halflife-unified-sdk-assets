@@ -31,12 +31,12 @@ $body "studio" "meshes/hd/w_grenade"
 $hbox 0 "Line02" -6.580000 -5.710000 -4.890000 1.770000 8.580000 2.260000
 
 // 7 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 30 
-$sequence "roll1" "animations/hd/roll1" fps 15 loop 
-$sequence "roll2" "animations/hd/roll2" fps 15 loop 
-$sequence "toss_1" "animations/hd/toss_1" fps 10 loop 
-$sequence "toss2" "animations/hd/toss2" fps 10 loop 
-$sequence "toss_2" "animations/hd/toss_2" fps 10 loop 
-$sequence "toss_3" "animations/hd/toss_3" fps 10 loop 
+$sequence "idle" "animations/ld/idle" fps 30 
+$sequence "roll1" "animations/ld/roll1" fps 15 loop 
+$sequence "roll2" "animations/ld/roll2" fps 15 loop 
+$sequence "toss_1" "animations/ld/toss_1" fps 10 loop 
+$sequence "toss2" "animations/ld/toss2" fps 10 loop 
+$sequence "toss_2" "animations/ld/toss_2" fps 10 loop 
+$sequence "toss_3" "animations/ld/toss_3" fps 10 loop 
 
 // End of QC script.
