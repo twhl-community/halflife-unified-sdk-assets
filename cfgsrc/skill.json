@@ -1,0 +1,545 @@
+// DON'T MESS WITH THIS.
+[
+	{
+		"Description": "Default skill values",
+		"Variables": {
+			// MONSTERS
+			
+			// Alien Grunt
+			"agrunt_health1": 60,
+			"agrunt_health2": 90,
+			"agrunt_health3": 120,
+
+			"agrunt_dmg_punch1": 10,
+			"agrunt_dmg_punch2": 20,
+			"agrunt_dmg_punch3": 20,
+
+			// Apache 
+			"apache_health1": 150,
+			"apache_health2": 250,
+			"apache_health3": 400,
+
+			// Barney
+			"barney_health": 35,
+
+			// Bullsquid
+			"bullsquid_health1": 40,
+			"bullsquid_health2": 40,
+			"bullsquid_health3": 120,
+
+			"bullsquid_dmg_bite1": 15,
+			"bullsquid_dmg_bite2": 25,
+			"bullsquid_dmg_bite3": 25,
+
+			"bullsquid_dmg_whip1": 25,
+			"bullsquid_dmg_whip2": 35,
+			"bullsquid_dmg_whip3": 35,
+
+			"bullsquid_dmg_spit1": 10,
+			"bullsquid_dmg_spit2": 10,
+			"bullsquid_dmg_spit3": 15,
+
+			// Big momma
+			"bigmomma_health_factor1": 1.0,
+			"bigmomma_health_factor2": 1.5,
+			"bigmomma_health_factor3": 2,
+
+			"bigmomma_dmg_slash1": 50,
+			"bigmomma_dmg_slash2": 60,
+			"bigmomma_dmg_slash3": 70,
+
+			"bigmomma_dmg_blast1": 100,
+			"bigmomma_dmg_blast2": 120,
+			"bigmomma_dmg_blast3": 160,
+
+			"bigmomma_radius_blast1": 250,
+			"bigmomma_radius_blast2": 250,
+			"bigmomma_radius_blast3": 275,
+
+			// Gargantua
+			"gargantua_health1": 800,
+			"gargantua_health2": 800,
+			"gargantua_health3": 1000,
+
+			"gargantua_dmg_slash1": 10,
+			"gargantua_dmg_slash2": 30,
+			"gargantua_dmg_slash3": 30,
+
+			"gargantua_dmg_fire1": 3,
+			"gargantua_dmg_fire2": 5,
+			"gargantua_dmg_fire3": 5,
+
+			"gargantua_dmg_stomp1": 50,
+			"gargantua_dmg_stomp2": 100,
+			"gargantua_dmg_stomp3": 100,
+
+			// Hassassin
+			"hassassin_health1": 30,
+			"hassassin_health2": 50,
+			"hassassin_health3": 50,
+
+
+			// Headcrab
+			"headcrab_health1": 10,
+			"headcrab_health2": 10,
+			"headcrab_health3": 20,
+
+			"headcrab_dmg_bite1": 5,
+			"headcrab_dmg_bite2": 10,
+			"headcrab_dmg_bite3": 10,
+
+			// Hgrunt 
+			"hgrunt_health1": 50,
+			"hgrunt_health2": 50,
+			"hgrunt_health3": 80,
+
+			"hgrunt_kick1": 5,
+			"hgrunt_kick2": 10,
+			"hgrunt_kick3": 10,
+
+			"hgrunt_pellets1": 3,
+			"hgrunt_pellets2": 5,
+			"hgrunt_pellets3": 6,
+
+			"hgrunt_gspeed1": 400,
+			"hgrunt_gspeed2": 600,
+			"hgrunt_gspeed3": 800,
+
+			// Houndeye
+			"houndeye_health1": 20,
+			"houndeye_health2": 20,
+			"houndeye_health3": 30,
+
+			"houndeye_dmg_blast1": 10,
+			"houndeye_dmg_blast2": 15,
+			"houndeye_dmg_blast3": 15,
+
+			// ISlave
+			"islave_health1": 30,
+			"islave_health2": 30,
+			"islave_health3": 60,
+
+			"islave_dmg_claw1": 8,
+			"islave_dmg_claw2": 10,
+			"islave_dmg_claw3": 10,
+
+			"islave_dmg_clawrake": 25,
+
+			"islave_dmg_zap1": 10,
+			"islave_dmg_zap2": 10,
+			"islave_dmg_zap3": 15,
+			
+			// Icthyosaur
+			"ichthyosaur_health1": 200,
+			"ichthyosaur_health2": 200,
+			"ichthyosaur_health3": 400,
+
+			"ichthyosaur_shake1": 20,
+			"ichthyosaur_shake2": 35,
+			"ichthyosaur_shake3": 50,
+
+			// Leech
+			"leech_health": 2,
+
+			"leech_dmg_bite": 2,
+
+			// Controller
+			"controller_health1": 60,
+			"controller_health2": 60,
+			"controller_health3": 100,
+
+			"controller_dmgzap1": 15,
+			"controller_dmgzap2": 25,
+			"controller_dmgzap3": 35,
+
+			"controller_speedball1": 650,
+			"controller_speedball2": 800,
+			"controller_speedball3": 1000,
+
+			"controller_dmgball1": 3,
+			"controller_dmgball2": 4,
+			"controller_dmgball3": 5,
+
+			// Nihilanth
+			"nihilanth_health1": 800,
+			"nihilanth_health2": 800,
+			"nihilanth_health3": 1000,
+
+			"nihilanth_zap1": 30,
+			"nihilanth_zap2": 30,
+			"nihilanth_zap3": 50,
+
+			// Scientist
+			"scientist_health": 20,
+
+			// Snark
+			"snark_health": 2,
+
+			"snark_dmg_bite": 10,
+
+			"snark_dmg_pop": 5,
+
+			// Zombie
+			"zombie_health1": 50,
+			"zombie_health2": 50,
+			"zombie_health3": 100,
+
+			"zombie_dmg_one_slash1": 10,
+			"zombie_dmg_one_slash2": 20,
+			"zombie_dmg_one_slash3": 20,
+
+			"zombie_dmg_both_slash1": 25,
+			"zombie_dmg_both_slash2": 40,
+			"zombie_dmg_both_slash3": 40,
+
+			//Turret
+			"turret_health1": 50,
+			"turret_health2": 50,
+			"turret_health3": 60,
+
+			// MiniTurret
+			"miniturret_health1": 40,
+			"miniturret_health2": 40,
+			"miniturret_health3": 50,
+
+			// Sentry Turret
+			"sentry_health1": 40,
+			"sentry_health2": 40,
+			"sentry_health3": 50,
+			
+			// Otis
+			"otis_health": 35,
+
+			// Pitdrone
+			"pitdrone_health1": 40,
+			"pitdrone_health2": 40,
+			"pitdrone_health3": 110,
+
+			"pitdrone_dmg_bite1": 15,
+			"pitdrone_dmg_bite2": 25,
+			"pitdrone_dmg_bite3": 25,
+
+			"pitdrone_dmg_whip1": 25,
+			"pitdrone_dmg_whip2": 35,
+			"pitdrone_dmg_whip3": 35,
+
+			"pitdrone_dmg_spit1": 10,
+			"pitdrone_dmg_spit2": 10,
+			"pitdrone_dmg_spit3": 15,
+
+			// Hgrunt Ally
+			"hgrunt_ally_health": 50,
+
+			"hgrunt_ally_kick1": 10,
+			"hgrunt_ally_kick2": 10,
+			"hgrunt_ally_kick3": 5,
+
+			"hgrunt_ally_pellets1": 5,
+			"hgrunt_ally_pellets2": 5,
+			"hgrunt_ally_pellets3": 3,
+
+			"hgrunt_ally_gspeed": 600,
+
+			// Medic Ally 
+			"medic_ally_health": 50,
+
+			"medic_ally_kick1": 10,
+			"medic_ally_kick2": 10,
+			"medic_ally_kick3": 5,
+
+			"medic_ally_gspeed": 600,
+
+			"medic_ally_heal1": 200,
+			"medic_ally_heal2": 120,
+			"medic_ally_heal3": 75,
+
+			// Torch Ally 
+			"torch_ally_health": 50,
+
+			"torch_ally_kick1": 10,
+			"torch_ally_kick2": 10,
+			"torch_ally_kick3": 5,
+
+			"torch_ally_gspeed": 600,
+
+			// Male Assassin 
+			"massassin_health1": 50,
+			"massassin_health2": 50,
+			"massassin_health3": 80,
+
+			"massassin_kick1": 15,
+			"massassin_kick2": 25,
+			"massassin_kick3": 25,
+
+			"massassin_gspeed1": 400,
+			"massassin_gspeed2": 600,
+			"massassin_gspeed3": 800,
+
+			// ShockTrooper 
+			"shocktrooper_health1": 50,
+			"shocktrooper_health2": 50,
+			"shocktrooper_health3": 80,
+
+			"shocktrooper_kick1": 5,
+			"shocktrooper_kick2": 10,
+			"shocktrooper_kick3": 10,
+
+			"shocktrooper_gspeed1": 400,
+			"shocktrooper_gspeed2": 600,
+			"shocktrooper_gspeed3": 800,
+
+			"shocktrooper_maxcharge": 8,
+
+			"shocktrooper_rchgspeed": 1,
+
+			// Scientist
+			"cleansuit_scientist_health": 20,
+
+			"cleansuit_scientist_heal": 25,
+
+			// Voltigore
+			"voltigore_health1": 320,
+			"voltigore_health2": 320,
+			"voltigore_health3": 450,
+
+			"voltigore_dmg_punch1": 30,
+			"voltigore_dmg_punch2": 40,
+			"voltigore_dmg_punch3": 50,
+
+			"voltigore_dmg_beam1": 40,
+			"voltigore_dmg_beam2": 50,
+			"voltigore_dmg_beam3": 60,
+
+			// Baby Voltigore
+			"babyvoltigore_health1": 60,
+			"babyvoltigore_health2": 60,
+			"babyvoltigore_health3": 120,
+
+			"babyvoltigore_dmg_punch1": 10,
+			"babyvoltigore_dmg_punch2": 15,
+			"babyvoltigore_dmg_punch3": 20,
+
+			// Pitworm
+			"pitworm_health1": 70,
+			"pitworm_health2": 90,
+			"pitworm_health3": 100,
+
+			"pitworm_dmg_swipe1": 30,
+			"pitworm_dmg_swipe2": 40,
+			"pitworm_dmg_swipe3": 50,
+
+			"pitworm_dmg_beam1": 10,
+			"pitworm_dmg_beam2": 15,
+			"pitworm_dmg_beam3": 20,
+
+			// Geneworm
+			"geneworm_health1": 70,
+			"geneworm_health2": 90,
+			"geneworm_health3": 100,
+
+			"geneworm_dmg_spit1": 10,
+			"geneworm_dmg_spit2": 20,
+			"geneworm_dmg_spit3": 30,
+
+			"geneworm_dmg_hit1": 20,
+			"geneworm_dmg_hit2": 30,
+			"geneworm_dmg_hit3": 40,
+
+			// Zombie Barney
+			"zombie_barney_health1": 50,
+			"zombie_barney_health2": 50,
+			"zombie_barney_health3": 100,
+
+			"zombie_barney_dmg_one_slash1": 10,
+			"zombie_barney_dmg_one_slash2": 20,
+			"zombie_barney_dmg_one_slash3": 20,
+
+			"zombie_barney_dmg_both_slash1": 25,
+			"zombie_barney_dmg_both_slash2": 40,
+			"zombie_barney_dmg_both_slash3": 40,
+
+			// Zombie Soldier
+			"zombie_soldier_health1": 60,
+			"zombie_soldier_health2": 60,
+			"zombie_soldier_health3": 120,
+
+			"zombie_soldier_dmg_one_slash1": 10,
+			"zombie_soldier_dmg_one_slash2": 20,
+			"zombie_soldier_dmg_one_slash3": 20,
+
+			"zombie_soldier_dmg_both_slash1": 25,
+			"zombie_soldier_dmg_both_slash2": 40,
+			"zombie_soldier_dmg_both_slash3": 40,
+
+			// Gonome
+			"gonome_health1": 85,
+			"gonome_health2": 85,
+			"gonome_health3": 160,
+
+			"gonome_dmg_one_slash1": 10,
+			"gonome_dmg_one_slash2": 20,
+			"gonome_dmg_one_slash3": 20,
+
+			"gonome_dmg_guts1": 10,
+			"gonome_dmg_guts2": 10,
+			"gonome_dmg_guts3": 15,
+
+			"gonome_dmg_one_bite1": 7,
+			"gonome_dmg_one_bite2": 14,
+			"gonome_dmg_one_bite3": 14,
+
+			// Shock Roach
+			"shockroach_health1": 10,
+			"shockroach_health2": 10,
+			"shockroach_health3": 20,
+
+			"shockroach_dmg_bite1": 5,
+			"shockroach_dmg_bite2": 10,
+			"shockroach_dmg_bite3": 10,
+
+			"shockroach_lifespan": 10,
+
+			// PLAYER WEAPONS
+
+			// Crowbar whack
+			"plr_crowbar": 10,
+
+			// 9mmhandgun Round
+			"plr_9mm_bullet": 8,
+
+			// 357 Round
+			"plr_357_bullet": 40,
+
+			// 9mmAR Round
+			"plr_9mmAR_bullet": 5,
+
+			// M203 grenade
+			"plr_9mmAR_grenade": 100,
+
+			// Shotgun buckshot
+			"plr_buckshot": 5,
+
+			// Crossbow
+			"plr_xbow_bolt_client": 10,
+
+			"plr_xbow_bolt_monster": 50,
+
+			// RPG
+			"plr_rpg": 100,
+
+			// Gauss Gun
+			"plr_gauss": 20,
+
+			// Egon Gun
+			"plr_egon_narrow": 6,
+
+			"plr_egon_wide": 14,
+
+			// Hand Grendade
+			"plr_hand_grenade": 100,
+
+			// Satchel Charge
+			"plr_satchel": 150,
+
+			// Tripmine
+			"plr_tripmine": 150,
+
+			// PLAYER HORNET
+			"plr_hornet_dmg": 7,
+			
+			"plr_pipewrench": 20,
+
+			"plr_knife": 10,
+
+			"plr_grapple": 25,
+
+			"plr_eagle": 34,
+
+			"plr_762_bullet": 100,
+
+			"plr_556_bullet": 15,
+
+			"plr_displacer_self": 5,
+			"plr_displacer_other": 250,
+			"plr_displacer_radius": 300,
+
+			"plr_shockroachs": 10,
+			"plr_shockroachm": 15,
+
+			"plr_spore": 50,
+
+			// MONSTER WEAPONS
+			"bullet_12mm1": 8,
+			"bullet_12mm2": 10,
+			"bullet_12mm3": 10,
+
+			"bullet_9mmAR1": 3,
+			"bullet_9mmAR2": 4,
+			"bullet_9mmAR3": 5,
+
+			"bullet_9mm1": 5,
+			"bullet_9mm2": 5,
+			"bullet_9mm3": 8,
+
+			// HORNET
+			"hornet_dmg1": 4,
+			"hornet_dmg2": 5,
+			"hornet_dmg3": 8,
+
+			// HEALTH/SUIT CHARGE DISTRIBUTION
+			"suitcharger1": 75,
+			"suitcharger2": 50,
+			"suitcharger3": 35,
+
+			"battery1": 15,
+			"battery2": 15,
+			"battery3": 10,
+
+			"healthcharger1": 50,
+			"healthcharger2": 40,
+			"healthcharger3": 25,
+
+			"healthkit1": 15,
+			"healthkit2": 15,
+			"healthkit3": 10,
+
+			"scientist_heal": 25,
+
+			// monster damage adjusters
+			"monster_head": 3,
+			"monster_chest": 1,
+			"monster_stomach": 1,
+			"monster_arm": 1,
+			"monster_leg": 1,
+
+			// player damage adjusters
+			"player_head": 3,
+			"player_chest": 1,
+			"player_stomach": 1,
+			"player_arm": 1,
+			"player_leg": 1
+		}
+	},
+	{
+		"Description": "Multiplayer-only skill values",
+		"Condition": "Multiplayer",
+		"Variables": {
+			"suitcharger": 30,
+			
+			"plr_crowbar": 25,
+			"plr_9mm_bullet": 12,
+			"plr_357_bullet": 40,
+			"plr_9mmAR_bullet": 12,
+			"plr_9mmAR_grenade": 100,
+			"plr_buckshot": 20, // fewer pellets in deathmatch
+			"plr_xbow_bolt_client": 20,
+			"plr_rpg": 120,
+			"plr_egon_wide": 20,
+			"plr_egon_narrow": 10,
+			"plr_hand_grenade": 100,
+			"plr_satchel": 120,
+			"plr_tripmine": 150,
+			"plr_hornet_dmg": 10
+		}
+	}
+]

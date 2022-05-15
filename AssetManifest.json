@@ -1,6 +1,11 @@
 //This file contains a list of filters to copy assets to the game directory.
 [
 	{
+		"Source": "cfgsrc",
+		"Destination": "cfg",
+		"Pattern": "*.json",
+	},
+	{
 		"Source": "installer",
 		"Destination": "installer",
 		"Pattern": "*.json",

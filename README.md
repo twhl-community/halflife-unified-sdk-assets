@@ -1,6 +1,7 @@
 # Half-Life Unified SDK Assets
 
 This repository contains source files for Half-Life Unified SDK assets. This covers the following asset types:
+* configuration files (.json)
 * FGDs (.fgd)
 * Maps (.rmf, .map, .rad, .jmf, .ent, .res)
 * Models (.qc, .smd, .bmp, .max)
@@ -9,6 +10,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 * WADs (.bmp)
 
 Directory structure:
+* cfgsrc
 * fgdsrc
 * mapsrc
 * modelsrc

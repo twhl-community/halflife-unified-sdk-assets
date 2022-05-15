@@ -2,10 +2,9 @@
 	"Include": [
 		"cl_dlls/client.dll",
 		"dlls/hl.dll",
+		"cfg/skill.json",
 		"delta.lst",
 		"liblist.gam",
-		"skill.cfg",
-		"skillopfor.cfg",
 		"settings.scr.install",
 		"user.scr.install",
 		"titles.txt",
