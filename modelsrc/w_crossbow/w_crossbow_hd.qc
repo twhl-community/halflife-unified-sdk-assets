@@ -16,7 +16,6 @@ $modelname "w_crossbow_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_crossbow"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
