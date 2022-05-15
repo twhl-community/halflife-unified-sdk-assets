@@ -15,6 +15,7 @@ Original internal name:
 $modelname "w_crossbow_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_crossbow"
+$cdtexture "../../texturesrc/w_crossbow_clip"
 $scale 1.0
 
 
