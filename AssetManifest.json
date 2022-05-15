@@ -1,18 +1,27 @@
 //This file contains a list of filters to copy assets to the game directory.
+// Do not enable purging for filters that target the game directory root (""). This will delete all directories not part of the source directory.
 [
 	{
 		"Source": "cfgsrc",
 		"Destination": "cfg",
 		"Pattern": "*.json",
+		"PurgeDeletedFiles": true
+	},
+	{
+		"Source": "cfgsrc",
+		"Destination": "",
+		"Pattern": "*.scr.install",
 	},
 	{
 		"Source": "installer",
 		"Destination": "installer",
 		"Pattern": "*.json",
+		"PurgeDeletedFiles": true
 	},
 	{
 		"Source": "scriptsrc",
 		"Destination": "scripts",
 		"Pattern": "*.csx",
+		"PurgeDeletedFiles": true
 	}
 ]
