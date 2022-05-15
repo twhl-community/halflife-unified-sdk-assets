@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - World Shotgun LD model
 - World Crossbow HD model
 - World Gauss HD model
+- World Grenade HD model
 - Player Shotgun LD model
 - Scientist shotgun LD/HD models
 - Egon LD/HD view models
