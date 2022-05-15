@@ -29,7 +29,7 @@ $body "body" "meshes/hd/w_crossbow_reference"
 
 
 // 1 hit box(es)
-$hbox 0 "Line01" -27.520000 -5.730000 -24.730000 36.980000 9.250000 24.740000
+$hbox 0 "Line01" -30.500000 -13.730000 -24.730000 34.800003 10.250000 24.740000
 
 // 2 animation sequence(s)
 $sequence "idle" "animations/hd/idle" fps 30 
