@@ -4,8 +4,7 @@
 	{
 		"Source": "cfgsrc",
 		"Destination": "cfg",
-		"Pattern": "*.json",
-		"PurgeDeletedFiles": true
+		"Pattern": "*.json"
 	},
 	{
 		"Source": "cfgsrc",
