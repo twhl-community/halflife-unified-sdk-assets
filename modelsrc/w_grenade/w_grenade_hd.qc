@@ -28,7 +28,7 @@ $body "studio" "meshes/hd/w_grenade"
 
 
 // 1 hit box(es)
-$hbox 0 "Line02" -6.580000 -5.710000 -4.890000 1.770000 8.580000 2.260000
+$hbox 0 "Line02" -6.580000 -8.000000 -2.400000 1.770000 6.300000 5.100000
 
 // 7 animation sequence(s)
 $sequence "idle" "animations/ld/idle" fps 30 
