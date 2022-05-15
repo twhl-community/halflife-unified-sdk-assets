@@ -31,7 +31,7 @@ $body "body" "meshes/hd/w_rpg_reference"
 $hbox 0 "rlauncher" -6.860000 -34.560001 -12.600000 6.860000 34.560001 12.600000
 
 // 1 animation sequence(s)
-$sequence "stayput" "animations/hd/idle1" fps 30 loop 
+$sequence "stayput" "animations/hd/idle1" fps 30 
 $sequence "onside" "animations/hd/onside" fps 30 
 
 // End of QC script.
