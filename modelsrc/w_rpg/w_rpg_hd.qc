@@ -16,7 +16,6 @@ $modelname "w_rpg_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_rpg"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
