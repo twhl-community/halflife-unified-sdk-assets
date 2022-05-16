@@ -8,7 +8,8 @@
 	{
 		"Source": "cfgsrc",
 		"Destination": "cfg",
-		"Pattern": "*.json"
+		"Pattern": "*.json",
+		"Recursive": true
 	},
 	{
 		"Source": "cfgsrc",
@@ -33,12 +34,14 @@
 	{
 		"Source": "resourcesrc",
 		"Destination": "resource",
-		"Pattern": "*.txt"
+		"Pattern": "*.txt",
+		"Recursive": true
 	},
 	{
 		"Source": "scriptsrc",
 		"Destination": "scripts",
-		"Pattern": "*.csx"
+		"Pattern": "*.csx",
+		"Recursive": true
 	},
 	{
 		"Source": "soundsrc",
