@@ -27,7 +27,7 @@
 		"Pattern": "*.sc",
 	},
 	{
-		"Source": "installer",
+		"Source": "installersrc",
 		"Destination": "installer",
 		"Pattern": "*.json"
 	},
