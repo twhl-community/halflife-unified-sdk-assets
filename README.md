@@ -21,9 +21,9 @@ Directory structure:
 * spritesrc
 * wadsrc
 	
-Directories are named &lt;asset type in plural form&gt;(s)rc. if an asset type name ends with s then a second s is not added.
+Directories are named &lt;asset type in singular form&gt;src.
 
 Assets should be stored in a subdirectory under the directory for their asset type.
-For example a map called `cs_office` should have all of its files stored under `gamesrc/mapsrc/cs_office`.
+For example a map called `cs_office` should have all of its files stored under `mapsrc/cs_office`.
 
 Scripts used in the assets repository itself are located in the `scripts` directory.
