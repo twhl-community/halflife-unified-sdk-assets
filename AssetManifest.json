@@ -12,6 +12,11 @@
 		"Pattern": "*.scr.install",
 	},
 	{
+		"Source": "cfgsrc",
+		"Destination": "",
+		"Pattern": "titles.txt"
+	},
+	{
 		"Source": "installer",
 		"Destination": "installer",
 		"Pattern": "*.json",
