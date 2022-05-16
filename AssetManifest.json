@@ -22,6 +22,11 @@
 		"Pattern": "titles.txt"
 	},
 	{
+		"Source": "eventsrc",
+		"Destination": "events",
+		"Pattern": "*.sc",
+	},
+	{
 		"Source": "installer",
 		"Destination": "installer",
 		"Pattern": "*.json",

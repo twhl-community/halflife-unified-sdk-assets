@@ -1,7 +1,8 @@
 # Half-Life Unified SDK Assets
 
 This repository contains source files for Half-Life Unified SDK assets. This covers the following asset types:
-* configuration files (.cfg, .json, .scr.install, .txt)
+* Configuration files (.cfg, .json, .scr.install, .txt)
+* Event files (.sc)
 * FGDs (.fgd)
 * Maps (.rmf, .map, .rad, .jmf, .ent, .res)
 * Models (.qc, .smd, .bmp, .max)
@@ -12,6 +13,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 
 Directory structure:
 * cfgsrc
+* eventsrc
 * fgdsrc
 * mapsrc
 * modelsrc
