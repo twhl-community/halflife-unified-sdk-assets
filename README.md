@@ -8,7 +8,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 * Models (.qc, .smd, .bmp, .max)
 * Resource files (.txt)
 * Scripts (.bat, .sh, .ps1, .csx, and related files)
-* Sprites (.qc, .bmp)
+* Sprites (.qc, .bmp, .txt)
 * WADs (.bmp)
 
 Directory structure:
