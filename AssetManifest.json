@@ -44,8 +44,13 @@
 		"PurgeDeletedFiles": true
 	},
 	{
+		"Source": "soundsrc",
+		"Destination": "sound",
+		"Pattern": "*.txt"
+	},
+	{
 		"Source": "spritesrc",
 		"Destination": "sprites",
 		"Pattern": "*.txt"
-	},
+	}
 ]
