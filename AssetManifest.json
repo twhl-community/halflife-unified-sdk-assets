@@ -28,6 +28,11 @@
 		"PurgeDeletedFiles": true
 	},
 	{
+		"Source": "resourcesrc",
+		"Destination": "resource",
+		"Pattern": "*.txt"
+	},
+	{
 		"Source": "scriptsrc",
 		"Destination": "scripts",
 		"Pattern": "*.csx",

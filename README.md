@@ -5,6 +5,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 * FGDs (.fgd)
 * Maps (.rmf, .map, .rad, .jmf, .ent, .res)
 * Models (.qc, .smd, .bmp, .max)
+* Resource files (.txt)
 * Scripts (.bat, .sh, .ps1, .csx, and related files)
 * Sprites (.qc, .bmp)
 * WADs (.bmp)
@@ -14,6 +15,7 @@ Directory structure:
 * fgdsrc
 * mapsrc
 * modelsrc
+* resourcesrc
 * scripts
 * scriptsrc
 * spritesrc
