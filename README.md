@@ -1,7 +1,7 @@
 # Half-Life Unified SDK Assets
 
 This repository contains source files for Half-Life Unified SDK assets. This covers the following asset types:
-* configuration files (.json, .scr.install)
+* configuration files (.cfg, .json, .scr.install, .txt)
 * FGDs (.fgd)
 * Maps (.rmf, .map, .rad, .jmf, .ent, .res)
 * Models (.qc, .smd, .bmp, .max)

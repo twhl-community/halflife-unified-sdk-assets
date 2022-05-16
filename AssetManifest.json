@@ -3,6 +3,11 @@
 [
 	{
 		"Source": "cfgsrc",
+		"Destination": "",
+		"Pattern": "server.cfg",
+	},
+	{
+		"Source": "cfgsrc",
 		"Destination": "cfg",
 		"Pattern": "*.json"
 	},
