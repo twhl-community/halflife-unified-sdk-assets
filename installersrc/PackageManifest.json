@@ -2,7 +2,7 @@
 // https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.filesystemglobbing.matcher
 {
 	// List of files and directories to package.
-    // Filenames ending with ".install" will be renamed to remove this extension after being added to the archive.
+	// Filenames ending with ".install" will be renamed to remove this extension after being added to the archive.
 	"IncludePatterns": [
 		"cl_dlls/client.dll",
 		"dlls/hl.dll",
