@@ -59,9 +59,9 @@ $hbox 10 "Bip01 Head" 6.000000 -4.250000 -5.240000 11.190000 7.970000 4.630000
 
 
 // 11 animation sequence(s)
-$sequence "idle1" "../barney/animations/idle1" fps 15 loop ACT_IDLE 50 
-$sequence "idle3" "../barney/animations/idle3" fps 15 ACT_IDLE 1 
-$sequence "idle4" "../barney/animations/idle4" fps 12 ACT_IDLE 10 
+$sequence "idle1" "../shared/animations/barney/ld/idle1" fps 15 loop ACT_IDLE 50 
+$sequence "idle3" "../shared/animations/barney/ld/idle3" fps 15 ACT_IDLE 1 
+$sequence "idle4" "../shared/animations/barney/ld/idle4" fps 12 ACT_IDLE 10 
 $sequence "wait" "animations/ld/wait" fps 17 
 $sequence "walk" "../barney/animations/walk" LX fps 30 loop ACT_WALK 1 { event 1004 3 "common/npc_step1.wav" } { event 1004 18 "common/npc_step3.wav" } 
 $sequence "jog" "animations/ld/jog" LX fps 23 loop ACT_RUN 1 { event 1004 5 "common/npc_step2.wav" } { event 1004 13 "common/npc_step4.wav" } 
