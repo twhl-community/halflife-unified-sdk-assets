@@ -17,7 +17,6 @@ $cd ".\"
 $cdtexture "../../texturesrc/dead_barney"
 $cdtexture "../../texturesrc/barney"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
