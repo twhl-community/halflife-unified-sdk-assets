@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Shotgun LD/HD view models
 - M203 grenade HD model
 - Shotgun shell HD model
+- Dead Barney LD/HD models
 
 ### Changed
 
