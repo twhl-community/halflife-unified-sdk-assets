@@ -2920,6 +2920,11 @@
 	sequencename(string) : "Sequence Name" : "idle"
 	skin(integer) : "Skin" : 0
 	body(integer) : "Body" : 0
+	
+	spawnflags(Flags) =
+	[
+		1 : "Drop to floor" : 0
+	]
 ]
 
 @PointClass base(Weapon, Targetx) size(-16 -16 0, 16 16 36) = item_nuclearbomb : "Nuclear Bomb"
@@ -3190,6 +3195,8 @@
   [
     1 : "Desert Eagle"
     2 : "Blow Torch"
+	5 : "Desert Eagle + HG"
+	6 : "Blow Torch + HG"
   ]
 ]
 
@@ -3407,6 +3414,7 @@ initammo(string) : "Initial Ammo" : "6"
 	spawnflags(flags) = 
 	[ 
 		4: "Random Spawn" : 1 
+		8: "Ignore Spawn Team Setting" : 0
 	]
 	team_no(Choices) : "Team" : 0 =
 	[
