@@ -28,8 +28,8 @@ $bodygroup "parts"
 {
 studio "meshes/hd/gib_alien_01"
 studio "meshes/hd/gib_alien_02"
-studio "meshes/hd/gib_alien_03"
-studio "meshes/hd/gib_alien_04"
+//studio "meshes/hd/gib_alien_03"
+//studio "meshes/hd/gib_alien_04"
 studio "meshes/hd/gib_alien_05"
 studio "meshes/hd/gib_alien_06"
 }
