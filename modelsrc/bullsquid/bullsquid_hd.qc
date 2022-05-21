@@ -82,7 +82,6 @@ $hbox 0 "Bone42" -6.580000 -0.040000 -3.610000 6.050000 8.902633 4.110000
 $hbox 0 "Bone43" -5.210000 0.000000 -2.400000 4.690000 6.403611 2.750000
 $hbox 0 "Bone44" -4.970000 0.000000 -5.120000 4.990000 13.290000 2.750000
 
-$sequencegroupsize 64
 
 // 24 animation sequence(s)
 $sequence "walk" "animations/hd/walk" LX fps 30 loop ACT_WALK 1 
