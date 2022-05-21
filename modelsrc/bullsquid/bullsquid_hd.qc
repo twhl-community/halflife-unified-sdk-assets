@@ -84,29 +84,29 @@ $hbox 0 "Bone44" -4.970000 0.000000 -5.120000 4.990000 13.290000 2.750000
 
 
 // 24 animation sequence(s)
-$sequence "walk" "animations/hd/walk" LX fps 30 loop ACT_WALK 1 
+$sequence "walk" "animations/hd/walk" LX fps 27 loop ACT_WALK 1 
 $sequence "run" "animations/hd/run" LX fps 30 loop ACT_RUN 1 
 $sequence "suprisedhop" "animations/hd/suprisedhop" fps 37 ACT_HOP 1 { event 5 11 } 
 $sequence "flinchs" "animations/hd/flinchs" fps 30 ACT_SMALL_FLINCH 1 
-$sequence "flinchb" "animations/hd/flinchb" fps 30 ACT_BIG_FLINCH 1 
-$sequence "turnleft" "animations/hd/turnleft" fps 30 ACT_TURN_LEFT 1 
-$sequence "turnright" "animations/hd/turnright" fps 30 ACT_TURN_RIGHT 1 
+$sequence "flinchb" "animations/hd/flinchb" fps 38 ACT_BIG_FLINCH 1 
+$sequence "turnleft" "animations/hd/turnleft" fps 23 ACT_TURN_LEFT 1 
+$sequence "turnright" "animations/hd/turnright" fps 23 ACT_TURN_RIGHT 1 
 $sequence "idle" "animations/hd/idle" fps 15 loop ACT_IDLE 1 
 $sequence "whip" "animations/hd/whip" fps 30 ACT_MELEE_ATTACK1 1 { event 4 23 } 
 $sequence "bite" "animations/hd/bite" fps 30 ACT_MELEE_ATTACK2 1 { event 2 7 "{" } { event 6 10 } 
 $sequence "range" "animations/hd/range" fps 30 ACT_RANGE_ATTACK1 1 { event 1 11 } 
-$sequence "look" "animations/hd/look" fps 14 ACT_INSPECT_WALL 1 { event 3 10 } { event 3 25 } 
-$sequence "seecrab" "animations/hd/seecrab" fps 17 ACT_EXCITED 1 
-$sequence "eat" "animations/hd/eat" fps 20 loop ACT_EAT 1 
+$sequence "look" "animations/hd/look" fps 10 ACT_INSPECT_WALL 1 { event 3 10 } { event 3 25 } 
+$sequence "seecrab" "animations/hd/seecrab" fps 15 ACT_EXCITED 1 
+$sequence "eat" "animations/hd/eat" fps 15 loop ACT_EAT 1 
 $sequence "inspectdown" "animations/hd/inspectdown" fps 15 ACT_INSPECT_FLOOR 1 
 $sequence "sniff" "animations/hd/sniff" fps 15 ACT_DETECT_SCENT 1 
-$sequence "die" "animations/hd/die" fps 18 ACT_DIEFORWARD 1 { event 2002 2 } 
+$sequence "die" "animations/hd/die" fps 15 ACT_DIEFORWARD 1 { event 2002 2 } 
 $sequence "die1" "animations/hd/die1" fps 25 ACT_DIESIMPLE 1 { event 2002 52 } 
 $sequence "bulljump" "animations/hd/bulljump" AX AY AZR fps 25 
 $sequence "draggruntidle" "animations/hd/draggruntidle" fps 14 
 $sequence "draggrunt" "animations/hd/draggrunt" fps 10 { event 1004 1 "bullchicken/bc_idle3.wav" } { event 1004 12 "bullchicken/bc_idle1.wav" } 
 $sequence "scare" "animations/hd/scare" fps 20 { event 1004 8 "bullchicken/bc_attackgrowl3.wav" } 
-$sequence "squidfallidle" "animations/hd/squidfallidle" fps 13 loop 
+$sequence "squidfallidle" "animations/hd/squidfallidle" fps 17 loop 
 $sequence "squidfall" "animations/hd/squidfall" fps 32 {
   { event 1000 1 } 
   { event 1008 3 "bullchicken/bc_attackgrowl2.wav" } 
