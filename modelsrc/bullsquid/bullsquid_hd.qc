@@ -110,9 +110,9 @@ $sequence "squidfallidle" "animations/hd/squidfallidle" fps 17 loop
 $sequence "squidfall" "animations/hd/squidfall" fps 32 {
   { event 1000 1 } 
   { event 1008 3 "bullchicken/bc_attackgrowl2.wav" } 
-  { event 1008 29 "bullchicken/bc_attackgrowl3.wav" } 
-  { event 1003 43 "bssplat" } 
-  { event 1008 43 "debris/bustflesh2.wav" } 
+  { event 1008 33 "bullchicken/bc_attackgrowl3.wav" } 
+  { event 1003 59 "bssplat" } 
+  { event 1008 59 "debris/bustflesh2.wav" } 
  }
 
 // End of QC script.
