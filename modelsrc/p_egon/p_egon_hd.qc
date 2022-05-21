@@ -33,6 +33,6 @@ $hbox 0 "Bip01 R UpperArm" 0.000000 -1.020000 -8.340000 11.860000 5.900000 0.000
 $hbox 0 "Bip01 R Forearm" 0.000000 -10.810000 -8.150000 29.219999 0.000000 7.800000
 
 // 1 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 30 
+$sequence "idle" "animations/ld/idle" fps 30 
 
 // End of QC script.
