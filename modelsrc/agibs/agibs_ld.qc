@@ -34,7 +34,7 @@ studio "meshes/ld/aliengeneric4"
 
 
 // 1 hit box(es)
-$hbox 0 "Sphere01" -20.129999 -14.670000 -4.310000 9.780000 14.670000 5.930000
+$hbox 0 "Sphere01" -13.129999 -9.670000 -5.310000 14.780000 18.670000 4.930000
 
 // 1 animation sequence(s)
 $sequence "idle1" "animations/ld/idle1" fps 30 
