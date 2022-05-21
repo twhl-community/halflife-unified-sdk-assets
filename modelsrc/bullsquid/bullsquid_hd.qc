@@ -16,7 +16,6 @@ $modelname "bullsquid_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/bullsquid"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
