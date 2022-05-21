@@ -16,7 +16,6 @@ $modelname "bullsquid_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/bullsquid"
 $scale 1.0
-$cliptotextures
 
 $externaltextures
 
