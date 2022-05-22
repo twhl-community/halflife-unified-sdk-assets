@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bullsquid LD/HD models
 - Alien gibs LD/HD models
 - Intro Barney LD/HD models
+- Ammo RPG LD/HD models
 
 ### Changed
 
