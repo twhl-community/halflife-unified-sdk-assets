@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dead Barney LD/HD models
 - Bullsquid LD/HD models
 - Alien gibs LD/HD models
+- Intro Barney LD/HD models
 
 ### Changed
 
