@@ -17,7 +17,6 @@ $cd ".\"
 $cdtexture "../../texturesrc/w_rpgammo"
 $scale 1.0
 
-$externaltextures
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 $cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
