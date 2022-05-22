@@ -28,7 +28,7 @@ $body "studio" "meshes/hd/w_satchel"
 
 
 // 1 hit box(es)
-$hbox 0 "w_satchel" -8.280000 -5.940000 -7.640000 6.690000 5.940000 12.630000
+$hbox 0 "Box05" -6.100000 -7.600000 -8.500000 6.200000 12.900000 6.700000
 
 // 2 animation sequence(s)
 $sequence "idle" "animations/ld/idle" fps 30 
