@@ -16,7 +16,6 @@ $modelname "w_rpgammo_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_rpgammo"
 $scale 1.0
-$cliptotextures
 
 $externaltextures
 
