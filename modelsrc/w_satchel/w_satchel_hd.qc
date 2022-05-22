@@ -31,7 +31,7 @@ $body "studio" "meshes/hd/w_satchel"
 $hbox 0 "w_satchel" -8.280000 -5.940000 -7.640000 6.690000 5.940000 12.630000
 
 // 2 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 30 
-$sequence "onback" "animations/hd/onback" fps 30 
+$sequence "idle" "animations/ld/idle" fps 30 
+$sequence "onback" "animations/ld/onback" fps 30 
 
 // End of QC script.
