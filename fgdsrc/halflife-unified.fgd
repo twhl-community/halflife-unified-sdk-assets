@@ -2236,6 +2236,10 @@
     1 : "Dirt"
     2 : "Water"
   ]
+  height0(integer) : "Height for floor level" : 0
+  height1(integer) : "Height for level 1" : 256
+  height2(integer) : "Height for level 1" : 448
+  height3(integer) : "Height for level 3" : 640
 ]
 @PointClass base(Monster, Sequence) studio("models/p_tripmine.mdl") = monster_tripmine : "Active Tripmine" 
 [
