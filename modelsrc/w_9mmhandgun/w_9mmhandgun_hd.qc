@@ -28,7 +28,7 @@ $body "studio" "meshes/hd/w_beretta"
 
 
 // 1 hit box(es)
-$hbox 0 "w_beretta" -4.890000 -6.370000 -0.840000 4.890000 6.370000 0.840000
+$hbox 0 "sides01" -6.000000 -0.500000 -4.800000 6.900000 1.300000 5.100000
 
 // 1 animation sequence(s)
 $sequence "idle" "animations/ld/idle" fps 30 
