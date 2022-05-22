@@ -24,7 +24,8 @@ $eyeposition 0.000000 0.000000 0.000000
 
 
 //reference mesh(es)
-$body "body" "meshes/rpgammo"
+$body "body" "meshes/ld/container"
+$body "rocket" "meshes/ld/rocket"
 
 
 // 2 hit box(es)
