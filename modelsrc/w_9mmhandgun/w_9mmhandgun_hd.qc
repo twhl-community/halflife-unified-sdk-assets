@@ -31,6 +31,6 @@ $body "studio" "meshes/hd/w_beretta"
 $hbox 0 "w_beretta" -4.890000 -6.370000 -0.840000 4.890000 6.370000 0.840000
 
 // 1 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 30 
+$sequence "idle" "animations/ld/idle" fps 30 
 
 // End of QC script.
