@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - World Satchel HD model
 - Player Egon HD model
 - Player Shotgun LD model
+- Player Snark HD model
 - Scientist shotgun LD/HD models
 - Egon LD/HD view models
 - Tripmine LD/HD view models
