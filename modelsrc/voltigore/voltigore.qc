@@ -93,10 +93,10 @@ $hbox 6 "Bone18" -1.770000 -3.600000 -32.619999 0.000000 0.000000 0.000000
 $sequence "idle1" "animations/idle1" fps 40 loop ACT_IDLE 2 
 $sequence "idle2" "animations/idle2" fps 40 ACT_IDLE 2 
 $sequence "walk" "animations/walk" LX fps 25 loop ACT_WALK 1 {
-  { event 1008 22 "voltigore/voltigore_footstep1.wav" } 
-  { event 1008 24 "voltigore/voltigore_footstep2.wav" } 
-  { event 1008 46 "voltigore/voltigore_footstep3.wav" } 
-  { event 1008 48 "voltigore/voltigore_footstep1.wav" } 
+  { event 1004 22 "voltigore/voltigore_footstep1.wav" } 
+  { event 1004 24 "voltigore/voltigore_footstep2.wav" } 
+  { event 1004 46 "voltigore/voltigore_footstep3.wav" } 
+  { event 1004 48 "voltigore/voltigore_footstep1.wav" } 
  }
 $sequence "run" "animations/run" LX fps 50 loop ACT_RUN 1 {
   { event 1008 7 "voltigore/voltigore_run_grunt1.wav" } 
