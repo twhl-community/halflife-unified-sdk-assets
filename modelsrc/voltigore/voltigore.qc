@@ -16,7 +16,6 @@ $modelname "voltigore.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/voltigore"
 $scale 1.0
-$cliptotextures
 
 
 $bbox -59.610001 -99.290001 -28.299999 59.610001 79.269997 61.299999
