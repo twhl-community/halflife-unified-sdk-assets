@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "p_squeak_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/w_squeak"
+$cdtexture "../../texturesrc/viewmodel/v_squeak"
 $scale 1.0
 
 
