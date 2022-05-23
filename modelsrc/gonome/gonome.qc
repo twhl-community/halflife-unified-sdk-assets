@@ -101,10 +101,10 @@ $sequence "jump1" "animations/jump1" fps 42 ACT_MELEE_ATTACK1 4 {
   { event 18 44 } 
  }
 $sequence "diebackward" "animations/diebackward" fps 30 ACT_DIEBACKWARD 1 {
+  { event 1011 1 "gonome/gonome_death2.wav" } 
   { event 2001 20 } 
   { event 1004 20 "common/npc_step1.wav" } 
   { event 1004 26 "common/npc_step3.wav" } 
-  { event 1011 1 "gonome/gonome_death2.wav" } 
  }
 $sequence "dieforward" "animations/dieforward" fps 25 ACT_DIEFORWARD 1 { event 2001 35 } { event 1011 1 "gonome/gonome_death3.wav" } 
 $sequence "dieheadshot_1" "animations/dieheadshot_1" fps 29 ACT_DIE_HEADSHOT 1 { event 2001 49 } { event 1011 1 "gonome/gonome_death4.wav" } 
