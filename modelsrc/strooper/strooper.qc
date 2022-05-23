@@ -99,11 +99,11 @@ $sequence "idle1" "animations/idle1" fps 30 loop ACT_IDLE 1
 $sequence "idle2" "animations/idle2" fps 30 loop ACT_IDLE 1 
 $sequence "combatidle" "animations/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
 $sequence "frontkick" "animations/frontkick" fps 30 ACT_MELEE_ATTACK1 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_attack" } 
   { event 3 14 } 
   { event 2010 14 } 
   { event 3 25 } 
   { event 2010 25 } 
-  { event 1011 1 "shocktrooper/shock_trooper_attack" } 
  }
 $sequence "crouching_idle" "animations/crouching_idle" fps 30 loop 
 $sequence "crouching_wait" "animations/crouching_wait" fps 30 ACT_CROUCH 0 
@@ -119,34 +119,34 @@ $sequence "limpingrun" "animations/limpingrun" LX fps 30 loop ACT_RUN_HURT 1
 $sequence "180L" "animations/180L" fps 30 ACT_TURN_LEFT 1 
 $sequence "180R" "animations/180R" fps 30 ACT_TURN_RIGHT 1 
 $sequence "dieback1" "animations/dieback1" fps 30 ACT_DIEBACKWARD 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_die1" } 
   { event 11 5 } 
   { event 2001 17 } 
-  { event 1011 1 "shocktrooper/shock_trooper_die1" } 
  }
 $sequence "dieforward" "animations/dieforward" fps 30 ACT_DIEFORWARD 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_die2" } 
   { event 11 13 } 
   { event 2001 20 } 
-  { event 1011 1 "shocktrooper/shock_trooper_die2" } 
  }
 $sequence "diesimple" "animations/diesimple" fps 30 ACT_DIESIMPLE 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_die3" } 
   { event 11 3 } 
   { event 2001 10 } 
-  { event 1011 1 "shocktrooper/shock_trooper_die3" } 
  }
 $sequence "diebackwards" "animations/diebackwards" fps 30 ACT_DIEBACKWARD 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_die4" } 
   { event 11 6 } 
   { event 2001 12 } 
-  { event 1011 1 "shocktrooper/shock_trooper_die4" } 
  }
 $sequence "dieheadshot" "animations/dieheadshot" fps 30 ACT_DIE_HEADSHOT 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_die3" } 
   { event 11 1 } 
   { event 2001 20 } 
-  { event 1011 1 "shocktrooper/shock_trooper_die3" } 
  }
 $sequence "diegutshot" "animations/diegutshot" fps 30 ACT_DIE_GUTSHOT 1 {
+  { event 1011 1 "shocktrooper/shock_trooper_die3" } 
   { event 11 10 } 
   { event 2001 39 } 
-  { event 1011 1 "shocktrooper/shock_trooper_die3" } 
  }
 $sequence "grab_scientist" "animations/grab_scientist" fps 35 
 
