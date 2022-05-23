@@ -108,7 +108,7 @@ $sequence "turnl" "animations/turnl" fps 20 ACT_TURN_LEFT 1
 $sequence "turnr" "animations/turnr" fps 20 ACT_TURN_RIGHT 1 
 $sequence "mattack2" "animations/mattack2" fps 45 ACT_MELEE_ATTACK1 1 { event 1008 1 "voltigore/voltigore_attack_melee1.wav" } { event 13 20 } 
 $sequence "mattack3" "animations/mattack3" fps 37 ACT_MELEE_ATTACK1 1 { event 1008 1 "voltigore/voltigore_attack_melee2.wav" } { event 12 30 } 
-$sequence "victoryeat" "animations/victoryeat" fps 30 loop ACT_VICTORY_DANCE 1 { event 1008 1 "voltigore/voltigore_eat.wav" } 
+$sequence "victoryeat" "animations/victoryeat" fps 30 loop ACT_VICTORY_DANCE 1 { event 1004 1 "voltigore/voltigore_eat.wav" } 
 $sequence "victorysniff" "animations/victorysniff" fps 30 ACT_STAND 1 { event 1008 1 "voltigore/voltigore_communicate3.wav" } 
 $sequence "distanceattack" "animations/distanceattack" fps 45 ACT_RANGE_ATTACK1 1 { event 1008 1 "voltigore/voltigore_attack_shock.wav" } { event 1 40 } 
 $sequence "flinch" "animations/flinch_1" fps 30 ACT_BIG_FLINCH 1 
