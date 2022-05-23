@@ -111,8 +111,8 @@ $sequence "mattack3" "animations/mattack3" fps 37 ACT_MELEE_ATTACK1 1 { event 10
 $sequence "victoryeat" "animations/victoryeat" fps 30 loop ACT_VICTORY_DANCE 1 { event 1008 1 "voltigore/voltigore_eat.wav" } 
 $sequence "victorysniff" "animations/victorysniff" fps 30 ACT_STAND 1 { event 1008 1 "voltigore/voltigore_communicate3.wav" } 
 $sequence "distanceattack" "animations/distanceattack" fps 45 ACT_RANGE_ATTACK1 1 { event 1008 1 "voltigore/voltigore_attack_shock.wav" } { event 1 40 } 
-$sequence "flinch" "animations/flinch_1" fps 30 ACT_BIG_FLINCH 1 { event 1008 0 "voltigore/voltigore_pain1.wav" } 
-$sequence "flinch" "animations/flinch_2" fps 30 ACT_SMALL_FLINCH 1 { event 1008 0 "voltigore/voltigore_pain2.wav" } 
+$sequence "flinch" "animations/flinch_1" fps 30 ACT_BIG_FLINCH 1 
+$sequence "flinch" "animations/flinch_2" fps 30 ACT_SMALL_FLINCH 1 
 $sequence "dieforward" "animations/dieforward" fps 25 ACT_DIEFORWARD 1 { event 1008 1 "voltigore/voltigore_die1.wav" } { event 2002 10 } 
 $sequence "diesimple" "animations/diesimple" fps 40 ACT_DIESIMPLE 1 { event 1008 1 "voltigore/voltigore_die2.wav" } { event 2002 6 } 
 $sequence "diesideways" "animations/diesideways" fps 45 ACT_DIEBACKWARD 1 { event 1008 1 "voltigore/voltigore_die3.wav" } { event 2002 25 } 
