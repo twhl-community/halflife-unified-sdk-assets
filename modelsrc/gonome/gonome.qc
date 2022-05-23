@@ -71,7 +71,7 @@ $hbox 2 "Bone07" 0.000000 -2.390000 -9.820000 7.740000 1.960000 5.410000
 $sequence "walk" "animations/walk" LX fps 30 loop ACT_WALK 1 { event 1004 4 "common/npc_step1.wav" } { event 1004 34 "common/npc_step3.wav" } 
 $sequence "runlong" "animations/runlong" LX fps 40 loop ACT_RUN 2 { event 1004 13 "common/npc_step1.wav" } { event 1004 28 "common/npc_step3.wav" } 
 $sequence "runshort" "animations/runshort" LX fps 40 loop ACT_RUN 1 { event 1004 13 "common/npc_step2.wav" } { event 1004 28 "common/npc_step4.wav" } 
-$sequence "idle1" "animations/idle1" fps 30 loop ACT_IDLE 1 { event 1008 1 "gonome/gonome_idle1.wav" } 
+$sequence "idle1" "animations/idle1" fps 30 loop ACT_IDLE 1 
 $sequence "idle2" "animations/idle2" fps 30 loop ACT_IDLE 1 
 $sequence "victoryeat1" "animations/victoryeat1" fps 20 loop ACT_VICTORY_DANCE 1 { event 1004 20 "gonome/gonome_eat.wav" } 
 $sequence "eat_loop" "animations/eat_loop" fps 25 loop { event 1004 0 "gonome/gonome_eat.wav" } 
