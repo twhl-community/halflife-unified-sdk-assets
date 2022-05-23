@@ -2715,7 +2715,14 @@
 ]
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_egon.mdl") = weapon_egon : "Egon Gun" []
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/p_tripmine.mdl") size(-16 -16 -5, 16 16 27) = weapon_tripmine : "Tripmine Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_satchel.mdl") = weapon_satchel : "Satchel Charge Ammo" []
+@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_satchel.mdl") = weapon_satchel : "Satchel Charge Ammo" 
+[
+  sequence(choices) : "Placement" : 0 =
+  [
+    0 : "Normal (flat)"
+    1 : "On back"
+  ]
+]
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_grenade.mdl") = weapon_handgrenade : "Handgrenade Ammo" []
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_squeak.mdl") = weapon_snark : "Squeak Grenade" []
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_hgun.mdl") = weapon_hornetgun : "Hornet Gun" []
