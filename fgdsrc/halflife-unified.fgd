@@ -817,7 +817,14 @@
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_argrenade.mdl") = ammo_ARgrenades : "Assault Grenades" []
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_shotbox.mdl") = ammo_buckshot : "Shotgun Ammo" []
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_357ammobox.mdl") = ammo_357 : "357 Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_rpgammo.mdl") = ammo_rpgclip : "RPG Ammo" []
+@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_rpgammo.mdl") = ammo_rpgclip : "RPG Ammo" 
+[
+  sequence(choices) : "Placement" : 0 =
+  [
+    0 : "Normal (flat)"
+    1 : "Capped"
+  ]
+]
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_gaussammo.mdl") = ammo_gaussclip : "Gauss Gun Ammo" []
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_crossbow_clip.mdl") = ammo_crossbow : "Crossbow Ammo" []
 
