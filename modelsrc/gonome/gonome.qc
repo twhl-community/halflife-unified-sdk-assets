@@ -76,9 +76,9 @@ $sequence "idle2" "animations/idle2" fps 30 loop ACT_IDLE 1
 $sequence "victoryeat1" "animations/victoryeat1" fps 20 loop ACT_VICTORY_DANCE 1 { event 1004 20 "gonome/gonome_eat.wav" } 
 $sequence "eat_loop" "animations/eat_loop" fps 25 loop { event 1004 0 "gonome/gonome_eat.wav" } 
 $sequence "attack1" "animations/attack1" fps 37 ACT_MELEE_ATTACK1 100 {
+  { event 1011 1 "gonome/gonome_melee1.wav" } 
   { event 1 19 } 
   { event 2 35 } 
-  { event 1011 1 "gonome/gonome_melee1.wav" } 
  }
 $sequence "attack2" "animations/attack2" fps 45 ACT_MELEE_ATTACK1 2 {
   { event 1011 1 "gonome/gonome_melee2.wav" } 
