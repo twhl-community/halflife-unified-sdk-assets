@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PCV model
 - Tentacle models
 - Gonome model
+- Shocktrooper model
 - World Shotgun LD model
 - World Crossbow HD model
 - World Gauss HD model
