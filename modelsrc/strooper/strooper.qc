@@ -97,7 +97,7 @@ $sequence "idle1" "animations/idle1" fps 30 loop ACT_IDLE 1
 $sequence "idle2" "animations/idle2" fps 30 loop ACT_IDLE 1 
 $sequence "combatidle" "animations/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
 $sequence "frontkick" "animations/frontkick" fps 30 ACT_MELEE_ATTACK1 1 {
-  { event 1011 1 "shocktrooper/shock_trooper_attack.wav" } 
+  { event 1012 1 "shocktrooper/shock_trooper_attack.wav" } 
   { event 3 14 } 
   { event 2010 14 } 
   { event 3 25 } 
