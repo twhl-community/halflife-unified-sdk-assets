@@ -16,7 +16,6 @@ $modelname "strooper.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/strooper"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
