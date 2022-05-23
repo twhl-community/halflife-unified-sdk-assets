@@ -81,7 +81,6 @@ $hbox 7 "Bip01 R HorseLink" 0.000000 -7.150000 -4.430000 23.629999 2.450000 3.62
 $hbox 7 "Bip01 R Foot" 0.000000 -5.980000 -5.400000 7.000000 13.180000 4.890000
 $hbox 3 "Bip01 Tail1" 0.000000 -3.470000 -2.270000 15.890000 3.440000 2.990000
 
-$sequencegroupsize 64
 
 // 34 animation sequence(s)
 $sequence "walk1" "animations/walk1" LX fps 30 loop ACT_WALK 1 
