@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Alien gibs LD/HD models
 - Intro Barney LD/HD models
 - Ammo RPG LD/HD models
+- Console civilian scientist LD/HD models
 
 ### Changed
 
