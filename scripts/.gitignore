@@ -1,0 +1,11 @@
+# Exclude development configuration files
+# See this page for information on setting this up for local development: https://github.com/SamVanheer/halflife-unified-sdk/wiki/Setting-up-and-using-dotnet-script
+
+# Local NuGet config (for referencing new versions of HalfLife.UnifiedSdk.Utilities during development)
+nuget.config
+
+# Omnisharp configuration file (depends on current plugin version)
+omnisharp.json
+
+# Visual Studio Code settings
+.vscode
