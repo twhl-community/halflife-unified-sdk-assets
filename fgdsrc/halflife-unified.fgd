@@ -3289,14 +3289,30 @@
 		-1 : "Random"
 		0 : "Gun Holstered"
 		1 : "Gun Drawn"
-		3 : "Donut"
 	]
-	head(Choices) : "head" : -1 =
+	
+	skin(Choices) : "head" : -1 =
 	[
 		-1 : "Random"
-		0 : "Bald Head"
-		1 : "Head with hair"
+		0 : "Head with hair"
+		1 : "Bald Head"
+		2 : "Black head with hair"
 	]
+	
+	sleeves(Choices) : "sleeves" : -1 =
+	[
+		-1 : "Random"
+		0 : "Long"
+		1 : "Short"
+	]
+	
+	item(Choices) : "item" : 0 =
+	[
+		0 : "None"
+		1 : "Clipboard"
+		2 : "Donut"
+	]
+	
 	suspicious(choices) : "Suspicious" : 0 =
 	[
 		0 : "No"
