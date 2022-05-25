@@ -1,0 +1,16 @@
+{
+	"Sections": [
+		{
+			"Name": "GlobalModelReplacement",
+			"FileName": "cfg/BlueShiftModelReplacement.json"
+		},
+		{
+			"Name": "HudColor",
+			"Color": "95 95 255"
+		},
+		{
+			"Name": "SuitLightType",
+			"Type": "flashlight"
+		}
+	]
+}

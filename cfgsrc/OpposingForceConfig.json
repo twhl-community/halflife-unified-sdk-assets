@@ -1,0 +1,16 @@
+{
+	"Sections": [
+		{
+			"Name": "GlobalModelReplacement",
+			"FileName": "cfg/Op4ModelReplacement.json"
+		},
+		{
+			"Name": "HudColor",
+			"Color": "0 160 0"
+		},
+		{
+			"Name": "SuitLightType",
+			"Type": "nightvision"
+		}
+	]
+}
