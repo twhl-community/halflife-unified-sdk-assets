@@ -21,6 +21,7 @@
 		"models/**",
 		"resource/**",
 		"scripts/**",
+		"sprites/**",
 		"tools/**"
 	],
 	// Files and directories to exclude from the archive.
