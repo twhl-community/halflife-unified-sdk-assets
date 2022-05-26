@@ -33,7 +33,7 @@ $holdtime 3.5
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
-valveCR27
+VALVE_CR27
 {
 Black Mesa Research Facility
 Black Mesa, New Mexico
@@ -53,152 +53,152 @@ $fadein 1.5
 $fadeout 0.5
 $holdtime 1.2
 
-valveCR1
+VALVE_CR1
 {
 Ted Backman
 }
 
-valveCR2
+VALVE_CR2
 {
 TK Backman
 }
 
-valveCR3
+VALVE_CR3
 {
 Kelly Bailey
 }
 
-valveCR4
+VALVE_CR4
 {
 Yahn Bernier
 }
 
-valveCR5
+VALVE_CR5
 {
 Ken Birdwell
 }
 
-valveCR6
+VALVE_CR6
 {
 Steve Bond
 }
 
-valveCR7
+VALVE_CR7
 {
 Dario Casali
 }
 
-valveCR8
+VALVE_CR8
 {
 John Cook
 }
 
-valveCR9
+VALVE_CR9
 {
 Greg Coomer
 }
 
-valveCR10
+VALVE_CR10
 {
 Wes Cumberland
 }
 
-valveCR11
+VALVE_CR11
 {
 John Guthrie
 }
 
-valveCR12
+VALVE_CR12
 {
 Mona Lisa Guthrie
 }
 
-valveCR13
+VALVE_CR13
 {
 Mike Harrington
 }
 
-valveCR14
+VALVE_CR14
 {
 Monica Harrington
 }
 
-valveCR15
+VALVE_CR15
 {
 Brett Johnson
 }
 
-valveCR16
+VALVE_CR16
 {
 Chuck Jones
 }
 
-valveCR17
+VALVE_CR17
 {
 Marc Laidlaw
 }
 
-valveCR18
+VALVE_CR18
 {
 Karen Laur
 }
 
-valveCR19
+VALVE_CR19
 {
 Randy Lundeen
 }
 
-valveCR20
+VALVE_CR20
 {
 Yatsze Mark
 }
 
-valveCR21
+VALVE_CR21
 {
 Lisa Mennet
 }
 
-valveCR22
+VALVE_CR22
 {
 Gabe Newell
 }
 
-valveCR23
+VALVE_CR23
 {
 Dave Riller
 }
 
-valveCR24
+VALVE_CR24
 {
 Aaron Stackpole
 }
 
-valveCR25
+VALVE_CR25
 {
 Jay Stelly
 }
 
-valveCR26
+VALVE_CR26
 {
 Harry Teasley 
 }
 
-valveCR35
+VALVE_CR35
 {
 Steve Theodore
 }
 
-valveCR36
+VALVE_CR36
 {
 Bill Van Buren
 }
 
-valveCR37
+VALVE_CR37
 {
 Robin Walker
 }
 
-valveCR38
+VALVE_CR38
 {
 Douglas R. Wood
 }
@@ -219,7 +219,7 @@ VALVEIS
 Valve is:
 }
 
-END1
+VALVE_END1
 {
 Ted Backman
 TK Backman
@@ -233,7 +233,7 @@ Greg Coomer
 Wes Cumberland
 }
 
-END2
+VALVE_END2
 {
 John Guthrie
 Mona Lisa Guthrie
@@ -247,7 +247,7 @@ Randy Lundeen
 Yatsze Mark
 }
 
-END3
+VALVE_END3
 {
 Lisa Mennet
 Gabe Newell
@@ -279,44 +279,44 @@ $holdtime 3.5
 $fadeout 1.5
 
 
-valveCR28
+VALVE_CR28
 {
 SUBJECT:
 Gordon Freeman
 Male, age 27
 }
 
-valveCR29
+VALVE_CR29
 {
 EDUCATION:
 Ph.D., MIT, Theoretical Physics
 }
 
-valveCR30
+VALVE_CR30
 {
 POSITION:
 Research Associate
 }
 
-valveCR31
+VALVE_CR31
 {
 ASSIGNMENT:
 Anomalous Materials Laboratory
 }
 
-valveCR32
+VALVE_CR32
 {
 CLEARANCE:
 Level 3
 }
 
-valveCR33
+VALVE_CR33
 {
 ADMINISTRATIVE SPONSOR:
 Classified
 }
 
-valveCR34
+VALVE_CR34
 {
 DISASTER RESPONSE PRIORITY:
 Discretionary
@@ -325,7 +325,7 @@ Discretionary
 $fadein 0.03
 $holdtime 9
 
-GAMEOVER
+VALVE_GAMEOVER
 {
 SUBJECT:  FREEMAN
 
@@ -338,7 +338,7 @@ human assets in achievement of goal.
 
 $fadein 0.03
 $holdtime 9
-TRAITOR
+VALVE_TRAITOR
 {
 SUBJECT:  FREEMAN
 
@@ -350,7 +350,7 @@ AWAITING ASSIGNMENT
 
 $fadein 0.03
 $holdtime 9
-LOSER
+VALVE_LOSER
 {
 SUBJECT:  FREEMAN
 
@@ -365,7 +365,7 @@ Subject declined offer of employment.
 $fadein 0.01
 $position -1 0.4
 $holdtime 3.5
-T0A0TITLE
+VALVE_T0A0TITLE
 {
 HAZARD COURSE
 }
@@ -534,7 +534,7 @@ $holdtime 3.0
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
-GAMETITLE
+VALVE_GAMETITLE
 {
 Half-Life
 }
@@ -559,7 +559,7 @@ $holdtime 3.5
 $fadeout 1.5
 
 $position -1 0.3
-HZBUTTON1
+VALVE_HZBUTTON1
 {
 PRESS YOUR USE KEY TO PUSH A BUTTON
 }
@@ -719,7 +719,7 @@ APPROACH SCIENTIST
 PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
 }
 
-HZBARNEY
+VALVE_HZBARNEY
 {
 APPROACH SECURITY GUARD
 PRESS YOUR USE KEY TO GET HIS HELP
@@ -1039,7 +1039,7 @@ $fxtime 0.25
 $holdtime 3.5
 $fadeout 1.5
 
-gearboxCR27
+GEARBOX_CR27
 {
 Black Mesa Research Facility
 Black Mesa, New Mexico
@@ -1055,62 +1055,62 @@ $fadein 1
 $fadeout 1.5
 $holdtime 1
 
-gearboxCR1
+GEARBOX_CR1
 {
 Stephen Bahl
 }
 
-gearboxCR2
+GEARBOX_CR2
 {
 Patrick Deupree
 }
 
-gearboxCR3
+GEARBOX_CR3
 {
 John Faulkenbury
 }
 
-gearboxCR4
+GEARBOX_CR4
 {
 Rob Heironimus
 }
 
-gearboxCR5
+GEARBOX_CR5
 {
 Steve Jones
 }
 
-gearboxCR6
+GEARBOX_CR6
 {
 Brian Martel
 }
 
-gearboxCR7
+GEARBOX_CR7
 {
 David Mertz
 }
 
-gearboxCR8
+GEARBOX_CR8
 {
 Landon Montgomery
 }
 
-gearboxCR9
+GEARBOX_CR9
 {
 Tollbooth Willy
 }
 
-gearboxCR10
+GEARBOX_CR10
 {
 Randy Pitchford
 }
 
-gearboxCR11
+GEARBOX_CR11
 {
 Sean Reardon
 }
 
-gearboxCR12
+GEARBOX_CR12
 {
 Mike Wardwell
 }
@@ -1138,7 +1138,7 @@ Special thanks to:
 
 $holdtime 10
 
-END1
+GEARBOX_END1
 {
 Stephen Bahl
 Patrick Deupree
@@ -1153,7 +1153,7 @@ Sean Reardon
 Mike Wardwell
 }
 
-END2
+GEARBOX_END2
 {
 Matt Armstrong
 Kristy Junio
@@ -1167,7 +1167,7 @@ Stephen Palmer
 Jeff Pobst
 }
 
-END3
+GEARBOX_END3
 {
 Dustin Porter
 Danny Richardson
@@ -1191,40 +1191,40 @@ $holdtime 4
 $fadeout 1.5
 
 
-gearboxCR28
+GEARBOX_CR28
 {
 SUBJECT:
 Adrian Shephard
 Male, age 22
 }
 
-gearboxCR29
+GEARBOX_CR29
 {
 TRAINING:
 United States Marine Corps,
 Special Forces
 }
 
-gearboxCR30
+GEARBOX_CR30
 {
 RANK:
 Corporal
 }
 
-gearboxCR31
+GEARBOX_CR31
 {
 Commanding Officer:
 Sergeant Dwight T. Barnes
 }
 
-gearboxCR32
+GEARBOX_CR32
 {
 CURRENT ASSIGNMENT:
 Hazardous Environment Combat Unit
 Santego Military Base, Arizona
 }
 
-gearboxCR33
+GEARBOX_CR33
 {
 MISSION:
 Classified
@@ -1248,7 +1248,7 @@ temporal paradox.
 
 $fadein 0.03
 $holdtime 9
-GAMEOVER
+GEARBOX_GAMEOVER
 {
 SUBJECT:  SHEPHARD
 
@@ -1271,14 +1271,14 @@ STATUS:  AWAITING COURT MARTIAL
 
 $fadein 0.03 
 $holdtime 9
-TRAITOR
+GEARBOX_TRAITOR
 {
 x
 }
 
 $fadein 0.03
 $holdtime 9
-LOSER
+GEARBOX_LOSER
 {
 x
 }
@@ -1400,11 +1400,6 @@ $fxtime 0.25
 $holdtime 2.0
 $fadeout 0.5
 
-GAMESAVED
-{
-Saved...
-}
-
 // Game title
 $position -1 -1
 $effect 0
@@ -1414,7 +1409,7 @@ $fadein 1.0
 $holdtime 3.0
 $fadeout 1.5
 
-GAMETITLE
+GEARBOX_GAMETITLE
 {
 Half-Life: Opposing Force
 }
@@ -2102,7 +2097,7 @@ $holdtime 3.5
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
-bshiftCR27
+BSHIFT_CR27
 {
 Black Mesa Research Facility
 Black Mesa, New Mexico
@@ -2123,72 +2118,72 @@ $fadeout 0.5
 $holdtime 1.2
 
 
-bshiftCR1
+BSHIFT_CR1
 {
 Matt Armstrong
 }
 
-bshiftCR2
+BSHIFT_CR2
 {
 Stephen Bahl
 }
 
-bshiftCR3
+BSHIFT_CR3
 {
 Sean Cavanaugh
 }
 
-bshiftCR4
+BSHIFT_CR4
 {
 Patrick Deupree
 }
 
-bshiftCR5
+BSHIFT_CR5
 {
 Rob Heironimus
 }
 
-bshiftCR6
+BSHIFT_CR6
 {
 Steve Jones
 }
 
-bshiftCR7
+BSHIFT_CR7
 {
 Brian Martel
 }
 
-bshiftCR8
+BSHIFT_CR8
 {
 David Mertz
 }
 
-bshiftCR9
+BSHIFT_CR9
 {
 Landon Montgomery
 }
 
-bshiftCR10
+BSHIFT_CR10
 {
 Stephen Palmer
 }
 
-bshiftCR11
+BSHIFT_CR11
 {
 Randy Pitchford
 }
 
-bshiftCR12
+BSHIFT_CR12
 {
 Sean Reardon
 }
 
-bshiftCR13
+BSHIFT_CR13
 {
 Matthew VanDolen
 }
 
-bshiftCR14
+BSHIFT_CR14
 {
 Mike Wardwell
 }
@@ -2205,7 +2200,7 @@ $fadein 1
 $fadeout 1
 $holdtime 8
 
-END1
+BSHIFT_END1
 {
 Matt Armstrong
 Stephen Bahl
@@ -2214,7 +2209,7 @@ Patrick Deupree
 Rob Heironimus
 }
 
-END2
+BSHIFT_END2
 {
 Steve Jones
 Brian Martel
@@ -2223,7 +2218,7 @@ David Mertz
 Landon Montgomery
 }
 
-END3
+BSHIFT_END3
 {
 Stephen Palmer
 Randy Pitchford
@@ -2269,11 +2264,6 @@ BSTITLE
 Half-Life: Blue Shift
 }
 
-GEARBOXIS
-{
-Gearbox is:
-}
-
 $holdtime 20
 ENDCHEAT
 {
@@ -2303,51 +2293,51 @@ SUBJECT:
 B. Calhoun
 }
 
-bshiftCR29
+BSHIFT_CR29
 {
 EDUCATION:
 2 years Martinson College
 Undecided Major
 }
 
-bshiftCR30
+BSHIFT_CR30
 {
 EMPLOYER:
 Black Mesa Research Facility
 }
 
-bshiftCR31
+BSHIFT_CR31
 {
 POSITION:
 Security Officer
 }
 
-bshiftCR32
+BSHIFT_CR32
 {
 ASSIGNMENT:
 Area 3 Security
 }
 
-bshiftCR33
+BSHIFT_CR33
 {
 CLEARANCE:
 Level 3
 }
 
-bshiftCR34
+BSHIFT_CR34
 {
 DISASTER RESPONSE PRIORITY:
 Preservation of facility 
 equipment and materials.
 }
 
-bshiftCR35
+BSHIFT_CR35
 {
 SECONDARY PRIORITY:
 Welfare of research personnel.
 }
 
-bshiftCR36
+BSHIFT_CR36
 {
 LOW PRIORITY:
 Personal safety.
@@ -2356,7 +2346,7 @@ Personal safety.
 $fadein 0.03
 $holdtime 9
 
-GAMEOVER
+bshiftGAMEOVER
 {
 SUBJECT:  CALHOUN
 
@@ -2391,7 +2381,7 @@ NO FURTHER COMMENT
 
 $fadein 0.03
 $holdtime 9
-TRAITOR
+BSHIFT_TRAITOR
 {
 SUBJECT:  FREEMAN
 
@@ -2403,7 +2393,7 @@ AWAITING ASSIGNMENT
 
 $fadein 0.03
 $holdtime 9
-LOSER
+BSHIFT_LOSER
 {
 SUBJECT:  FREEMAN
 
@@ -2433,7 +2423,7 @@ remaining personnel during Lambda incident.
 $fadein 0.01
 $position -1 0.4
 $holdtime 4
-T0A0TITLE
+BSHIFT_T0A0TITLE
 {
 HAZARD COURSE
 }
@@ -2498,11 +2488,6 @@ $holdtime 2.0
 // How long it takes to fade out the message after holding
 $fadeout 0.5
 
-GAMESAVED
-{
-Saved...
-}
-
 // Game title
 // This is a placeholder to hold the effects controls for the "Half-Life" title
 $position -1 -1
@@ -2519,7 +2504,7 @@ $holdtime 3.0
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
-GAMETITLE
+BSHIFT_GAMETITLE
 {
 Half-Life
 }
@@ -2544,187 +2529,17 @@ $holdtime 3.5
 $fadeout 1.5
 
 $position -1 0.65
-HZBUTTON1
+BSHIFT_HZBUTTON1
 {
 PRESS YOUR USE KEY TO PUSH A BUTTON
 }
 
-HZBUTTON2
-{
-PRESS YOUR USE KEY TO PUSH A BUTTON
-}
-
-HZMOVE
-{
-MOVE FORWARD BY PRESSING FORWARD KEY
-MOVE BACKWARD BY PRESSING BACKWARD KEY
-MOVE LEFT BY PRESSING MOVELEFT
-MOVE RIGHT BY PRESSING MOVERIGHT
-}
-
-HZJUMP
-{
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS JUMP KEY TO JUMP
-}
-
-HZDUCK
-{
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS DUCK KEY TO DUCK
-PRESS FORWARD + DUCK KEYS TOGETHER 
-TO MOVE IN STEALTH MODE
-}
-
-HZCOMBO
-{
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS JUMP KEY TO JUMP
-PRESS DUCK KEY TO DUCK
-PRESS JUMP KEY TO JUMP
-}
-
-HZDUCKJUMP
-{
-PRESS FORWARD + JUMP TOGETHER,
-THEN THE DUCK KEY
-}
-
-HZLADDER
-{
-PRESS FORWARD KEY TO MOVE UP LADDERS
-PRESS BACKWARD KEY TO MOVE DOWN LADDERS
-}
-
-HZLJUMP
-{
-WHILE MOVING FORWARD,
-HOLD DOWN DUCK KEY--
-THEN PRESS JUMP
-}
-
-$position -1 0.3
-HZLMOD
-{
-BE SURE YOU PICKED UP THE LONG-JUMP MODULE
-AT THE BEGINNING OF THE OBSTACLE
-}
-
-$position -1 0.65
-HZMEDKIT
-{
-USE MED-KITS BY HOLDING DOWN THE USE KEY
-HOLD DOWN USE KEY UNTIL HEALTH IS
-AT 100 OR KIT IS DEPLETED
-}
-
-HZMOMENT
-{
-ACTIVATE WHEELS AND DIALS 
-BY HOLDING DOWN THE USE KEY
-HOLD USE KEY UNTIL BRIDGE IS IN POSITION
-}
-
-HZPUSH
-{
-PRESS FORWARD KEY TO MOVE AGAINST BOX
-KEEP PRESSING FORWARD TO PUSH BOX
-}
-
-HZPULL
-{
-PRESS USE + BACKWARD KEYS TOGETHER
-TO PULL BOX BACKWARD
-}
-
-HZCROWBAR
-{
-MOVE UP TO CROWBAR
-PRESS ATTACK1 KEY TO BREAK OBJECTS
-}
- 
-HZLITEON
-{
-PRESS FLASHLIGHT KEY 
-TO TURN FLASHLIGHT ON
-}
-
-HZLITEOFF
-{
-PRESS FLASHLIGHT KEY AGAIN 
-TO TURN FLASHLIGHT OFF
-}
-
-HZWEAPON
-{
-MOVE UP TO WEAPON TO PICK IT UP
-}
-
-HZFIREWEAP
-{
-PRESS ATTACK1 KEY FOR PRIMARY ATTACK
-PRESS ATTACK2 KEY FOR ALTERNATE ATTACK
-PRESS RELOAD KEY TO RELOAD AT WILL
-}
-
-HZARMOR
-{
-PRESS AND HOLD YOUR USE KEY
-HOLD DOWN UNTIL SUIT ARMOR IS CHARGED
-OR CHARGER IS DEPLETED
-}
-
-HZSWIM
-{
-PRESS YOUR FORWARD KEY
-AIM WITH THE MOUSE AS YOU SWIM
-FIND AIR IF YOU BEGIN TO LOSE HEALTH
-WAIT IN THE AIR UNTIL HEALTH 
-RETURNS TO FORMER LEVEL
-}
-
-HZDAMAGE
-{
-CERTAIN TYPES OF DAMAGE WILL REGISTER 
-ON YOUR HEADS-UP DISPLAY.
-DIRECTION OF DAMAGE IS INDICATED BY RED 
-FLASHES IN THE CENTER OF YOUR SCREEN
-}
-
-HZHAZARD
-{
-RADIATION HAZARDS 
-ACTIVATE A GEIGER COUNTER
-}
-
-HZSCIENTIST
-{
-APPROACH SCIENTIST
-PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
-}
-
-HZBARNEY
+BSHIFT_HZBARNEY
 {
 APPROACH SCIENTIST
 PRESS YOUR USE KEY TO GET HIS HELP
 WALK TOWARD DOOR AND SCIENTIST
 WILL ACTIVATE THE RETINAL SCANNER
-}
-
-HZTRAIN
-{
-PRESS USE KEY TO ENGAGE TRAIN
-PRESS FORWARD KEY TO ACCELERATE
-PRESS BACKWARD KEY TO DECELERATE
-PRESS USE KEY AGAIN TO DISENGAGE
-}
-
-HZDONE
-{
-CONGRATULATIONS!
-YOU HAVE COMPLETED 
-THE BLACK MESA HAZARD COURSE.
-COME BACK ANY TIME.
 }
 
 HZWEAPONSTRIP
