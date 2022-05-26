@@ -2174,9 +2174,15 @@
 		1 : "Einstein"
 		2 : "Luther"
 		3 : "Slick"
-		4 : "Einstein w/ Clipboard"
-		5 : "Slick w/ Stick"
 	]
+	
+	item(choices) : "Item" : 0 =
+	[
+		0 : "None"
+		1 : "Clipboard"
+		2 : "Stick"
+	]
+	
 	suspicious(choices) : "Suspicious" : 0 =
 	[
 		0 : "No"
