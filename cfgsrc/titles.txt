@@ -12,6 +12,10 @@
 // $fadeout (message fade out time)
 // $holdtime (stay on the screen for this long)
 
+//
+// Half-Life
+//
+
 //INTRO TITLES
 // All centered for now
 $position -1 -1
@@ -1019,5 +1023,1713 @@ Auto Director
 Valve_Show_Score
 {
 Show Scores
+}
+
+//
+// Opposing Force
+//
+
+//INTRO TITLES
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 3.5
+$fadeout 1.5
+
+gearboxCR27
+{
+Black Mesa Research Facility
+Black Mesa, New Mexico
+}
+
+
+//INTRO CREDITS
+$position 0.8 0.8
+$effect 1
+$color 128 128 128
+$color2 0 0 0
+$fadein 1
+$fadeout 1.5
+$holdtime 1
+
+gearboxCR1
+{
+Stephen Bahl
+}
+
+gearboxCR2
+{
+Patrick Deupree
+}
+
+gearboxCR3
+{
+John Faulkenbury
+}
+
+gearboxCR4
+{
+Rob Heironimus
+}
+
+gearboxCR5
+{
+Steve Jones
+}
+
+gearboxCR6
+{
+Brian Martel
+}
+
+gearboxCR7
+{
+David Mertz
+}
+
+gearboxCR8
+{
+Landon Montgomery
+}
+
+gearboxCR9
+{
+Tollbooth Willy
+}
+
+gearboxCR10
+{
+Randy Pitchford
+}
+
+gearboxCR11
+{
+Sean Reardon
+}
+
+gearboxCR12
+{
+Mike Wardwell
+}
+
+
+
+//END CREDITS
+$position -1 -1
+$effect 0
+$color 128 128 128
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 4
+
+GEARBOXIS
+{
+Gearbox is:
+}
+
+THANKSTO
+{
+Special thanks to:
+}
+
+$holdtime 10
+
+END1
+{
+Stephen Bahl
+Patrick Deupree
+John Faulkenbury
+Rob Heironimus
+Steve Jones
+Brian Martel
+David Mertz
+Landon Montgomery
+Randy Pitchford
+Sean Reardon
+Mike Wardwell
+}
+
+END2
+{
+Matt Armstrong
+Kristy Junio
+Joe Kennebec
+Doug Lombardi
+Eli Luna
+Gabe Newell
+Frank Nuccio
+Genevieve Ostergard
+Stephen Palmer
+Jeff Pobst
+}
+
+END3
+{
+Dustin Porter
+Danny Richardson
+Harry S. Robins
+David Sawyer
+John Shaffstall
+Mike Shapiro
+Jon St. John
+Valve Software
+Sierra Studios
+}
+
+//INTRO TITLES
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 0 250 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 4
+$fadeout 1.5
+
+
+gearboxCR28
+{
+SUBJECT:
+Adrian Shephard
+Male, age 22
+}
+
+gearboxCR29
+{
+TRAINING:
+United States Marine Corps,
+Special Forces
+}
+
+gearboxCR30
+{
+RANK:
+Corporal
+}
+
+gearboxCR31
+{
+Commanding Officer:
+Sergeant Dwight T. Barnes
+}
+
+gearboxCR32
+{
+CURRENT ASSIGNMENT:
+Hazardous Environment Combat Unit
+Santego Military Base, Arizona
+}
+
+gearboxCR33
+{
+MISSION:
+Classified
+}
+
+
+$fadein 0.03
+$holdtime 9
+GFOLLOW_LOSER
+{
+SUBJECT:  SHEPHARD
+
+STATUS:  EVALUATION TERMINATED
+
+POSTMORTEM:
+Subject attempted to create
+temporal paradox.
+}
+
+
+
+$fadein 0.03
+$holdtime 9
+GAMEOVER
+{
+SUBJECT:  SHEPHARD
+
+STATUS:  DETAINED
+
+FURTHER EVALUATION PENDING
+}
+
+
+$fadein 0.03
+$holdtime 9
+BC_FAILURE
+{
+SUBJECT:  SHEPHARD
+
+STATUS:  AWAITING COURT MARTIAL
+}
+
+
+
+$fadein 0.03 
+$holdtime 9
+TRAITOR
+{
+x
+}
+
+$fadein 0.03
+$holdtime 9
+LOSER
+{
+x
+}
+
+$fadein 0.03
+$holdtime 9
+OFGAMEOVER
+{
+SUBJECT:  CPL. SHEPHARD
+
+STATUS:  EVALUATION DECLINED
+
+POSTMORTEM:
+Subject failed to effectively utilize
+human assets in achievement of goal.
+}
+
+$fadein 0.03
+$holdtime 9
+DISP_LOSER
+{
+SUBJECT:  SHEPHARD
+
+STATUS:  ACCIDENTAL DEATH
+
+POSTMORTEM:
+DISPLACER SELF-TELEPORT MISHAP
+}
+
+//CHAPTER TITLES
+$fadein 0.01
+$position -1 0.8
+$holdtime 3.5
+
+OF_BOOT0TITLE
+{
+Boot Camp
+}
+
+OF0A0
+{
+OPPOSING FORCE
+}
+
+OF1A1TITLE
+{
+INCOMING
+}
+
+OF1A3TITLE
+{
+WELCOME TO BLACK MESA
+}
+
+OF1A5TITLE
+{
+"WE ARE PULLING OUT"
+}
+
+OF2A1TITLE
+{
+MISSING IN ACTION
+}
+
+OF2A4TITLE
+{
+FRIENDLY FIRE
+}
+
+OF3A1TITLE
+{
+WE ARE NOT ALONE
+}
+
+OF3A3TITLE
+{
+CRUSH DEPTH
+}
+
+OF4A1TITLE
+{
+VICARIOUS REALITY
+}
+
+OF4A4TITLE
+{
+PIT WORM'S NEST
+}
+
+OF5A1TITLE
+{
+FOXTROT UNIFORM
+}
+
+OF6A1TITLE
+{
+"THE PACKAGE"
+}
+
+OF6A4TITLE
+{
+WORLDS COLLIDE
+}
+
+OF7A0TITLE
+{
+CONCLUSION
+}
+
+
+
+// In-Game messages
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 2.0
+$fadeout 0.5
+
+GAMESAVED
+{
+Saved...
+}
+
+// Game title
+$position -1 -1
+$effect 0
+$color 180 180 180
+$color2 0 0 0
+$fadein 1.0
+$holdtime 3.0
+$fadeout 1.5
+
+GAMETITLE
+{
+Half-Life: Opposing Force
+}
+
+
+
+
+
+//BOOT CAMP TRAINING TEXT
+
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 0 200 50
+$fadein 0.005
+$fxtime 0.5
+$holdtime 7.0
+$fadeout 1.5
+$position -1 0.65
+
+
+BCROPES01
+{
+TOUCH ROPES TO ATTACH TO THEM
+CLIMB UP AND DOWN ROPES BY LOOKING IN 
+THE DIRECTION YOU WISH TO TRAVEL AND 
+PRESSING THE FORWARD KEY
+PRESS THE JUMP KEY OR CLIMB OFF THE
+BOTTOM TO DETACH FROM THE ROPE
+}
+
+BCROPES02
+{
+ONCE ATTACHED TO ROPES
+PRESS THE MOVEMENT KEYS TO AFFECT
+DIRECTION OF SWINGING MOVEMENT
+PRESS THE JUMP KEY TO DETACH AT ANY TIME
+}
+
+BCROPES03
+{
+WHEN SWINGING ON ROPES PRESS THE JUMP
+KEY TO LET GO AND TRAVEL IN THE DIRECTION
+OF SWINGING MOVEMENT
+}
+
+BCROPES04
+{
+
+}
+
+BCPISTOL01
+{
+TO INCREASE THE ACCURACY OF THE DESERT
+EAGLE PRESS THE ATTACK2 KEY TO ACTIVATE
+AND DEACTIVATE THE LASER SIGHT
+}
+
+BCRIFLE01
+{
+PRESS ATTACK2 KEY TO ACTIVATE THE ZOOM
+FUNCTION OF THE SNIPER RIFLE
+}
+
+//BOOT CAMP TRAINING TEXT
+
+BCNVISION
+{
+PRESS THE NIGHT VISION GOGGLE KEY
+TO ACTIVATE NIGHT VISION GOGGLES
+}
+
+
+
+// ALLSTAR DEATMATCH CREDITS
+$position -1 0.8
+$effect 2
+$color 150 150 150
+$color2 0 250 0
+$fadein .05
+$fadeout 1.5
+$holdtime 5
+
+ALLSTAR1
+{
+Allstar Deathmatch: Untimely Demise
+
+By: Eric Reuter
+}
+
+ALLSTAR2
+{
+Allstar Deathmatch: Waste Disposal
+
+By: David "Kevlar" Kelvin
+}
+
+ALLSTAR3
+{
+Allstar Deathmatch: Lost Outpost
+
+By: Stephen "Reichert" Palmer
+}
+
+ALLSTAR4
+{
+Allstar Deathmatch: Rubble
+
+By: Tom "Paradox" Mustaine
+}
+
+ALLSTAR5
+{
+Allstar Deathmatch: Xen Dance
+
+By: David "Kevlar" Kelvin
+}
+
+ALLSTAR6
+{
+Allstar Deathmatch: Paradox Park
+
+By: Tom "Paradox" Mustaine
+}
+
+ALLSTAR7
+{
+Allstar Deathmatch: Kandy Base
+
+By: Marin "Kandyman" Gazzari
+}
+
+ALLSTAR8
+{
+Allstar Deathmatch: Kandy One
+
+By: Marin "Kandyman" Gazzari
+}
+
+ALLSTAR9
+{
+Allstar Deathmatch: Repent
+
+By: Levelord
+}
+
+ALLSTAR10
+{
+Allstar Deathmatch: Blue Meanie
+
+By: Richard "Zdim" Carlson
+}
+
+// Added for CTF
+CTFChooseTeamA
+{
+=== Opposing Force CTF ===
+
+Attack the enemy base and capture their flag!
+Use powerup items to help you deal more
+damage, survive longer or gain other abilities.
+View the OpFor CTF Manual for rules and hints.
+
+=== Choose Your Team ===
+
+1. Black Mesa
+2. Opposing Force
+3. Spectator
+
+7. Smallest Team
+}
+
+CTFChooseTeamB
+{
+=== Choose Your Team ===
+
+1. Black Mesa
+2. Opposing Force
+3. Spectator
+
+6. Exit
+7. Smallest Team
+}
+
+CTFChooseCharBM
+{
+=== Choose Your Character ===
+
+1. Barney
+2. Cleansuit Scientist
+3. Gina
+4. Gordon Freeman
+5. Otis
+6. Walter
+
+7. Random Character
+}
+
+CTFChooseCharOF
+{
+=== Choose Your Character ===
+
+1. Squad Leader
+2. Drill Sgt. Sharp
+3. Grunt Soldier
+4. Recruit
+5. Adrian Shephard
+6. Pvt. Tower
+
+7. Random Character
+}
+
+CTFPickUpFlagP
+{
+You've got the enemy flag!
+
+Return to base!
+}
+
+CTFPickUpFlagG
+{
+Your flag is missing!
+
+Hide until it is returned!
+}
+
+CTFPickUpFlagT
+{
+Your team GOT the ENEMY flag!!
+}
+
+CTFLoseFlag
+{
+Your flag has been TAKEN!!
+}
+
+CTFCaptureFlagP
+{
+You CAPTURED the FLAG!!
+}
+
+CTFCaptureFlagT
+{
+Your team CAPTURED the FLAG!!
+}
+
+CTFFlagCaptured
+{
+Your flag was CAPTURED!!
+}
+
+CTFFlagScorerBM
+{
+ captured the Black Mesa flag!
+}
+
+CTFFlagScorerOF
+{
+ captured the Opposing Force flag!
+}
+
+CTFFlagGetBM
+{
+ got the Black Mesa flag!
+}
+
+CTFFlagGetOF
+{
+ got the Opposing Force flag!
+}
+
+CTFFlagReturnBM
+{
+ returned the Black Mesa flag!
+}
+
+CTFFlagReturnOF
+{
+ returned the Opposing Force flag!
+}
+
+CTFFlagReturnedT
+{
+Your flag was returned!
+}
+
+CTFFlagReturnedE
+{
+The enemy flag was returned!
+}
+
+CTFFlagKilledBM
+{
+ killed the Black Mesa flag carrier!
+}
+
+CTFFlagKilledOF
+{
+ killed the Opposing Force flag carrier!
+}
+
+CTFFlagDefendedBM
+{
+ defended the Black Mesa base!
+}
+
+CTFFlagDefendedOF
+{
+ defended the Opposing Force base!
+}
+
+CTFTeamBM
+{
+Black Mesa
+}
+
+CTFTeamOF
+{
+Opposing Force
+}
+
+CTFScorePoint
+{
++1 point
+}
+
+CTFScorePoints
+{
++10 points
+}
+
+CTFInfoFlagAtBaseBM
+{
+The Black Mesa flag is at the base.
+}
+
+CTFInfoFlagAtBaseOF
+{
+The Opposing Force flag is at the base.
+}
+
+CTFInfoFlagCarriedBM
+{
+ is carrying the Black Mesa flag.
+}
+
+CTFInfoFlagCarriedOF
+{
+ is carrying the Opposing Force flag.
+}
+
+CTFInfoFlagCarryBM
+{
+The Black Mesa flag is being carried.
+}
+
+CTFInfoFlagCarryOF
+{
+The Opposing Force flag is being carried.
+}
+
+CTFInfoFlagDroppedBM
+{
+The Black Mesa flag is currently loose.
+}
+
+CTFInfoFlagDroppedOF
+{
+The Opposing Force flag is currently loose.
+}
+
+CTFCarrierDefendedBM
+{
+ defended the Black Mesa team flag carrier.
+}
+
+CTFCarrierDefendedOF
+{
+ defended the Opposing Force team flag carrier.
+}
+
+CTFFlagAssistBM
+{
+ assisted in the capture for the Black Mesa team.
+}
+
+CTFFlagAssistOF
+{
+ assisted in the capture for the Opposing Force team.
+}
+
+CTFTimeRemain
+{
+ Time Remaining:
+}
+
+CTFGameReset
+{
+Another player joined the game.
+Resetting flags and powerups.
+}
+
+CTFTitle_SelectYourTeam
+{
+Select Your Side
+}
+
+CTFTitle_SelectYourCharacter
+{
+Select Your Character
+}
+
+// Team Menu
+CTFTeam_BM
+{
+Black Mesa
+}
+
+CTFTeam_OF
+{
+Opposing Force
+}
+
+CTFTeam_AutoAssign
+{
+Auto Assign
+}
+
+// Character Menu
+CTFTitle_Barney
+{
+Barney
+}
+
+CTFTitle_Cleansuit
+{
+Cleansuit Scientist
+}
+
+CTFTitle_Gina
+{
+Gina
+}
+
+CTFTitle_Gordon
+{
+Dr. Freeman
+}
+
+CTFTitle_Otis
+{
+Otis
+}
+
+CTFTitle_Scientist
+{
+Walter
+}
+
+CTFTitle_Civ_Random
+{
+Random
+}
+
+CTFTitle_SquadLeader
+{
+Squad Leader
+}
+
+CTFTitle_DrillSgt
+{
+Drill Sgt. Sharp
+}
+
+CTFTitle_Grunt
+{
+Grunt Soldier
+}
+
+CTFTitle_Recruit
+{
+Recruit
+}
+
+CTFTitle_Adrian
+{
+Cpl. Shephard
+}
+
+CTFTitle_Tower
+{
+Pvt. Tower
+}
+
+CTFTitle_Op4_Random
+{
+Random
+}
+
+Barney
+{
+Barney
+}
+
+Cleansuit
+{
+Cleansuit Sci.
+}
+
+Gina
+{
+Gina
+}
+
+Gordon
+{
+Dr. Freeman
+}
+
+Otis
+{
+Otis
+}
+
+Scientist
+{
+Walter
+}
+
+Civ_Random
+{
+Random
+}
+
+SquadLeader
+{
+Squad Leader
+}
+
+DrillSgt
+{
+Drill Sgt. Sharp
+}
+
+Grunt
+{
+Grunt
+}
+
+Recruit
+{
+Recruit
+}
+
+Adrian
+{
+Cpl. Shephard
+}
+
+Tower
+{
+Pvt. Tower
+}
+
+Op4_Random
+{
+Random
+}
+
+// other menu text
+CTFMenu_OK
+{
+Ok
+}
+
+CTFMenu_Cancel
+{
+Cancel
+}
+
+CTFMenu_Spectate
+{
+Spectator
+}
+
+Unassigned
+{
+Unassigned
+}
+
+Spectators
+{
+Spectators
+}
+
+PLAYERS
+{
+Players
+}
+
+TEAMS
+{
+Teams
+}
+
+SCORE
+{
+Kills
+}
+
+DEATHS
+{
+Deaths
+}
+
+CTFSCORE
+{
+Scores
+}
+
+LATENCY
+{
+Latency
+}
+
+CTFTitle_EndGameStats
+{
+Final Stats
+}
+
+CTFTitleStats_BlackMesa
+{
+Black Mesa
+}
+
+CTFTitleStats_OpposingForce
+{
+Opposing Force
+}
+
+CTFTitleStats_Both
+{
+Overall
+}
+
+CTFTitleStats_Individual
+{
+Individual
+}
+
+CTFMenu_ScoreBoard
+{
+Scoreboard
+}
+
+CTFMenu_Stats
+{
+End Stats
+}
+
+CTFMenu_SaveStats
+{
+Save Stats
+}
+
+
+//
+// Blue Shift
+//
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+bshiftCR27
+{
+Black Mesa Research Facility
+Black Mesa, New Mexico
+}
+
+
+//INTRO CREDITS
+// Test values -- JAY
+// Lower left
+$position 0.1 0.8
+$effect 1
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 1.5
+$fadeout 0.5
+$holdtime 1.2
+
+
+bshiftCR1
+{
+Matt Armstrong
+}
+
+bshiftCR2
+{
+Stephen Bahl
+}
+
+bshiftCR3
+{
+Sean Cavanaugh
+}
+
+bshiftCR4
+{
+Patrick Deupree
+}
+
+bshiftCR5
+{
+Rob Heironimus
+}
+
+bshiftCR6
+{
+Steve Jones
+}
+
+bshiftCR7
+{
+Brian Martel
+}
+
+bshiftCR8
+{
+David Mertz
+}
+
+bshiftCR9
+{
+Landon Montgomery
+}
+
+bshiftCR10
+{
+Stephen Palmer
+}
+
+bshiftCR11
+{
+Randy Pitchford
+}
+
+bshiftCR12
+{
+Sean Reardon
+}
+
+bshiftCR13
+{
+Matthew VanDolen
+}
+
+bshiftCR14
+{
+Mike Wardwell
+}
+
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 1
+$fadeout 1
+$holdtime 8
+
+END1
+{
+Matt Armstrong
+Stephen Bahl
+Sean Cavanaugh
+Patrick Deupree
+Rob Heironimus
+}
+
+END2
+{
+Steve Jones
+Brian Martel
+Chris McArthur
+David Mertz
+Landon Montgomery
+}
+
+END3
+{
+Stephen Palmer
+Randy Pitchford
+Sean Reardon
+Matthew VanDolen
+Mike Wardwell
+}
+
+SPTHANKS
+{
+Special thanks to:
+}
+
+THANKS1
+{
+Brian Hess
+Jon St. John
+Kristy Junio
+Joe Kennebec
+Kathy Levin
+}
+
+THANKS2
+{
+Eli Luna
+Harry S. Robins
+Rob Selitto
+Mike Shapiro
+}
+
+THANKS3
+{
+Blue Spark Studios
+Captivation Digital Laboratories
+Valve Software
+Sierra Studios
+Sega of America
+}
+
+holdtime 6.5
+BSTITLE
+{
+Half-Life: Blue Shift
+}
+
+GEARBOXIS
+{
+Gearbox is:
+}
+
+$holdtime 20
+ENDCHEAT
+{
+THE END
+}
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.3
+
+INTRO1
+{
+SUBJECT:
+B. Calhoun
+}
+
+bshiftCR29
+{
+EDUCATION:
+2 years Martinson College
+Undecided Major
+}
+
+bshiftCR30
+{
+EMPLOYER:
+Black Mesa Research Facility
+}
+
+bshiftCR31
+{
+POSITION:
+Security Officer
+}
+
+bshiftCR32
+{
+ASSIGNMENT:
+Area 3 Security
+}
+
+bshiftCR33
+{
+CLEARANCE:
+Level 3
+}
+
+bshiftCR34
+{
+DISASTER RESPONSE PRIORITY:
+Preservation of facility 
+equipment and materials.
+}
+
+bshiftCR35
+{
+SECONDARY PRIORITY:
+Welfare of research personnel.
+}
+
+bshiftCR36
+{
+LOW PRIORITY:
+Personal safety.
+}
+
+$fadein 0.03
+$holdtime 9
+
+GAMEOVER
+{
+SUBJECT:  CALHOUN
+
+STATUS:  EMPLOYMENT TERMINATED
+
+REASON FOR TERMINATION:
+Improper handling of a firearm
+in the facility.
+}
+
+XEN1FAILURE
+{
+SUBJECT:  CALHOUN
+
+STATUS:  UNKNOWN
+
+Employee is assumed to have perished with
+remaining personnel during Lambda incident.
+
+}
+
+
+BSGAMEEND
+{
+SUBJECT:  CALHOUN
+
+STATUS:  OUT OF RANGE
+
+NO FURTHER COMMENT
+}
+
+
+$fadein 0.03
+$holdtime 9
+TRAITOR
+{
+SUBJECT:  FREEMAN
+
+STATUS:  HIRED
+
+AWAITING ASSIGNMENT
+}
+
+
+$fadein 0.03
+$holdtime 9
+LOSER
+{
+SUBJECT:  FREEMAN
+
+STATUS:  OBSERVATION TERMINATED
+
+POSTMORTEM:
+Subject declined offer of employment.
+}
+
+
+$fadein 0.02
+$holdtime 9
+
+ROSENDEAD
+{
+SUBJECT:  CALHOUN
+
+STATUS:  UNKNOWN
+
+Employee is assumed to have perished with
+remaining personnel during Lambda incident.
+
+}
+
+//CHAPTER TITLES
+
+$fadein 0.01
+$position -1 0.4
+$holdtime 4
+T0A0TITLE
+{
+HAZARD COURSE
+}
+
+$position -1 0.65
+BA_TRAMTITLE
+{
+LIVING QUARTERS OUTBOUND
+}
+
+BA_SECURITYTITLE
+{
+INSECURITY
+}
+
+BA_CANALSTITLE
+{
+DUTY CALLS
+}
+
+BA_YARDTITLE
+{
+CAPTIVE FREIGHT
+}
+
+BA_XENTITLE
+{
+FOCAL POINT
+}
+
+BA_POWERTITLE
+{
+POWER STRUGGLE
+}
+
+BA_TELEPORTTITLE
+{
+A LEAP OF FAITH
+}
+
+$fadein 0.04
+$holdtime 2
+
+CHUMTOAD
+{
+CHUMTOAD'S LAIR
+}
+
+// In-Game messages
+$position -1 0.65
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.0
+// How long it takes to fade out the message after holding
+$fadeout 0.5
+
+GAMESAVED
+{
+Saved...
+}
+
+// Game title
+// This is a placeholder to hold the effects controls for the "Half-Life" title
+$position -1 -1
+// Only effect 0 is supported for game title
+$effect 0
+// This is the final color
+$color 180 180 180
+// Not used color2
+$color2 0 0 0
+// This is the time it takes to fade in the title
+$fadein 1.0
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.0
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+GAMETITLE
+{
+Half-Life
+}
+
+//HAZARD COURSE TEXT
+
+// Test values -- JAY
+$position -1 0.65
+// Scan-out text effect
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 0 200 50
+// This is the time it takes to fade each character
+$fadein 0.005
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.5
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$position -1 0.65
+HZBUTTON1
+{
+PRESS YOUR USE KEY TO PUSH A BUTTON
+}
+
+HZBUTTON2
+{
+PRESS YOUR USE KEY TO PUSH A BUTTON
+}
+
+HZMOVE
+{
+MOVE FORWARD BY PRESSING FORWARD KEY
+MOVE BACKWARD BY PRESSING BACKWARD KEY
+MOVE LEFT BY PRESSING MOVELEFT
+MOVE RIGHT BY PRESSING MOVERIGHT
+}
+
+HZJUMP
+{
+PRESS FORWARD KEY TO RUN FORWARD
+PRESS JUMP KEY TO JUMP
+}
+
+HZDUCK
+{
+PRESS FORWARD KEY TO RUN FORWARD
+PRESS DUCK KEY TO DUCK
+PRESS FORWARD + DUCK KEYS TOGETHER 
+TO MOVE IN STEALTH MODE
+}
+
+HZCOMBO
+{
+PRESS FORWARD KEY TO RUN FORWARD
+PRESS JUMP KEY TO JUMP
+PRESS DUCK KEY TO DUCK
+PRESS JUMP KEY TO JUMP
+}
+
+HZDUCKJUMP
+{
+PRESS FORWARD + JUMP TOGETHER,
+THEN THE DUCK KEY
+}
+
+HZLADDER
+{
+PRESS FORWARD KEY TO MOVE UP LADDERS
+PRESS BACKWARD KEY TO MOVE DOWN LADDERS
+}
+
+HZLJUMP
+{
+WHILE MOVING FORWARD,
+HOLD DOWN DUCK KEY--
+THEN PRESS JUMP
+}
+
+$position -1 0.3
+HZLMOD
+{
+BE SURE YOU PICKED UP THE LONG-JUMP MODULE
+AT THE BEGINNING OF THE OBSTACLE
+}
+
+$position -1 0.65
+HZMEDKIT
+{
+USE MED-KITS BY HOLDING DOWN THE USE KEY
+HOLD DOWN USE KEY UNTIL HEALTH IS
+AT 100 OR KIT IS DEPLETED
+}
+
+HZMOMENT
+{
+ACTIVATE WHEELS AND DIALS 
+BY HOLDING DOWN THE USE KEY
+HOLD USE KEY UNTIL BRIDGE IS IN POSITION
+}
+
+HZPUSH
+{
+PRESS FORWARD KEY TO MOVE AGAINST BOX
+KEEP PRESSING FORWARD TO PUSH BOX
+}
+
+HZPULL
+{
+PRESS USE + BACKWARD KEYS TOGETHER
+TO PULL BOX BACKWARD
+}
+
+HZCROWBAR
+{
+MOVE UP TO CROWBAR
+PRESS ATTACK1 KEY TO BREAK OBJECTS
+}
+ 
+HZLITEON
+{
+PRESS FLASHLIGHT KEY 
+TO TURN FLASHLIGHT ON
+}
+
+HZLITEOFF
+{
+PRESS FLASHLIGHT KEY AGAIN 
+TO TURN FLASHLIGHT OFF
+}
+
+HZWEAPON
+{
+MOVE UP TO WEAPON TO PICK IT UP
+}
+
+HZFIREWEAP
+{
+PRESS ATTACK1 KEY FOR PRIMARY ATTACK
+PRESS ATTACK2 KEY FOR ALTERNATE ATTACK
+PRESS RELOAD KEY TO RELOAD AT WILL
+}
+
+HZARMOR
+{
+PRESS AND HOLD YOUR USE KEY
+HOLD DOWN UNTIL SUIT ARMOR IS CHARGED
+OR CHARGER IS DEPLETED
+}
+
+HZSWIM
+{
+PRESS YOUR FORWARD KEY
+AIM WITH THE MOUSE AS YOU SWIM
+FIND AIR IF YOU BEGIN TO LOSE HEALTH
+WAIT IN THE AIR UNTIL HEALTH 
+RETURNS TO FORMER LEVEL
+}
+
+HZDAMAGE
+{
+CERTAIN TYPES OF DAMAGE WILL REGISTER 
+ON YOUR HEADS-UP DISPLAY.
+DIRECTION OF DAMAGE IS INDICATED BY RED 
+FLASHES IN THE CENTER OF YOUR SCREEN
+}
+
+HZHAZARD
+{
+RADIATION HAZARDS 
+ACTIVATE A GEIGER COUNTER
+}
+
+HZSCIENTIST
+{
+APPROACH SCIENTIST
+PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
+}
+
+HZBARNEY
+{
+APPROACH SCIENTIST
+PRESS YOUR USE KEY TO GET HIS HELP
+WALK TOWARD DOOR AND SCIENTIST
+WILL ACTIVATE THE RETINAL SCANNER
+}
+
+HZTRAIN
+{
+PRESS USE KEY TO ENGAGE TRAIN
+PRESS FORWARD KEY TO ACCELERATE
+PRESS BACKWARD KEY TO DECELERATE
+PRESS USE KEY AGAIN TO DISENGAGE
+}
+
+HZDONE
+{
+CONGRATULATIONS!
+YOU HAVE COMPLETED 
+THE BLACK MESA HAZARD COURSE.
+COME BACK ANY TIME.
+}
+
+HZWEAPONSTRIP
+{
+ENTERING CIVILIAN AREA
+REMOVING WEAPONS NOW
 }
 
