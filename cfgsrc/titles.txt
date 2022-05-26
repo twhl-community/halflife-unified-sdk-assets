@@ -29,7 +29,7 @@ $holdtime 3.5
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
-CR27
+valveCR27
 {
 Black Mesa Research Facility
 Black Mesa, New Mexico
@@ -49,152 +49,152 @@ $fadein 1.5
 $fadeout 0.5
 $holdtime 1.2
 
-CR1
+valveCR1
 {
 Ted Backman
 }
 
-CR2
+valveCR2
 {
 TK Backman
 }
 
-CR3
+valveCR3
 {
 Kelly Bailey
 }
 
-CR4
+valveCR4
 {
 Yahn Bernier
 }
 
-CR5
+valveCR5
 {
 Ken Birdwell
 }
 
-CR6
+valveCR6
 {
 Steve Bond
 }
 
-CR7
+valveCR7
 {
 Dario Casali
 }
 
-CR8
+valveCR8
 {
 John Cook
 }
 
-CR9
+valveCR9
 {
 Greg Coomer
 }
 
-CR10
+valveCR10
 {
 Wes Cumberland
 }
 
-CR11
+valveCR11
 {
 John Guthrie
 }
 
-CR12
+valveCR12
 {
 Mona Lisa Guthrie
 }
 
-CR13
+valveCR13
 {
 Mike Harrington
 }
 
-CR14
+valveCR14
 {
 Monica Harrington
 }
 
-CR15
+valveCR15
 {
 Brett Johnson
 }
 
-CR16
+valveCR16
 {
 Chuck Jones
 }
 
-CR17
+valveCR17
 {
 Marc Laidlaw
 }
 
-CR18
+valveCR18
 {
 Karen Laur
 }
 
-CR19
+valveCR19
 {
 Randy Lundeen
 }
 
-CR20
+valveCR20
 {
 Yatsze Mark
 }
 
-CR21
+valveCR21
 {
 Lisa Mennet
 }
 
-CR22
+valveCR22
 {
 Gabe Newell
 }
 
-CR23
+valveCR23
 {
 Dave Riller
 }
 
-CR24
+valveCR24
 {
 Aaron Stackpole
 }
 
-CR25
+valveCR25
 {
 Jay Stelly
 }
 
-CR26
+valveCR26
 {
 Harry Teasley 
 }
 
-CR35
+valveCR35
 {
 Steve Theodore
 }
 
-CR36
+valveCR36
 {
 Bill Van Buren
 }
 
-CR37
+valveCR37
 {
 Robin Walker
 }
 
-CR38
+valveCR38
 {
 Douglas R. Wood
 }
@@ -275,44 +275,44 @@ $holdtime 3.5
 $fadeout 1.5
 
 
-CR28
+valveCR28
 {
 SUBJECT:
 Gordon Freeman
 Male, age 27
 }
 
-CR29
+valveCR29
 {
 EDUCATION:
 Ph.D., MIT, Theoretical Physics
 }
 
-CR30
+valveCR30
 {
 POSITION:
 Research Associate
 }
 
-CR31
+valveCR31
 {
 ASSIGNMENT:
 Anomalous Materials Laboratory
 }
 
-CR32
+valveCR32
 {
 CLEARANCE:
 Level 3
 }
 
-CR33
+valveCR33
 {
 ADMINISTRATIVE SPONSOR:
 Classified
 }
 
-CR34
+valveCR34
 {
 DISASTER RESPONSE PRIORITY:
 Discretionary
