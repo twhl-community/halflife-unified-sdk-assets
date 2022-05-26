@@ -21,6 +21,7 @@
 		"models/**",
 		"resource/**",
 		"scripts/**",
+		"sound/**",
 		"sprites/**",
 		"tools/**"
 	],
