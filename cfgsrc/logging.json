@@ -1,0 +1,21 @@
+//Configuration file for Half-Life Unified SDK logging system.
+{
+	//Default logger configuration. Used for every logger unless overridden.
+	"Defaults": {
+		"LogLevel": "info"
+	},
+	//Logger-specific configuration.
+	"LoggerConfigurations": [
+		//Sample configuration. Use the sv_log_list_loggers command to get a list of logger names.
+		//{
+		//	"Name": "logging",
+		//	"LogLevel": "trace"
+		//}
+	],
+	//Configuration for logging to a file.
+	"LogFile": {
+		"Enabled": false,
+		"BaseFileName": "Unified",
+		"MaxFiles": 8
+	}
+}
