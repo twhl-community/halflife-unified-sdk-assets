@@ -28,8 +28,7 @@ $body "studio" "meshes/ld/Massn_reference"
 
 $bodygroup "heads"
 {
-studio "meshes/ld/Massn_Head_wht_reference"
-studio "meshes/ld/Massn_Head_reference"
+blank
 studio "meshes/ld/Massn_NVHead_reference"
 }
 
@@ -40,6 +39,12 @@ studio "meshes/ld/Massn_M40A1_reference"
 blank
 }
 
+// 2 skin families
+$texturegroup skinfamilies 
+{
+{ "Massn_head_wht.BMP" }
+{ "Massn_head.BMP" }
+}
 
 // 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 25.000000 0.000000 5.000000
