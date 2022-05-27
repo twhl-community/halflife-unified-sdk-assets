@@ -16,7 +16,6 @@ $modelname "massn_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/massn"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
