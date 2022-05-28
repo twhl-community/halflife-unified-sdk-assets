@@ -78,6 +78,10 @@ $sequence "run" "animations/ld/run" LX fps 55 loop ACT_RUN 1
 $sequence "victorydance" "animations/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
 $sequence "cower" "animations/ld/cower" fps 28 ACT_COWER 1 
 $sequence "smflinch" "animations/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
+$sequence "leftlegsmflinch" "animations/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LEFTLEG 1 
+$sequence "rightlegsmflinch" "animations/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
+$sequence "rightarmflinch" "animations/ld/rightarmflinch" fps 22 ACT_FLINCH_RIGHTARM 1 
+$sequence "leftarmflinch" "animations/ld/leftarmflinch" fps 22 ACT_FLINCH_LEFTARM 1 
 $sequence "launchgrenade" "animations/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
 $sequence "throwgrenade" "animations/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
 $sequence "idle1" "animations/ld/idle1" fps 30 loop ACT_IDLE 1 
@@ -112,6 +116,8 @@ $sequence "retreat_signal" "animations/ld/retreat_signal" fps 30 ACT_SIGNAL3 1
 $sequence "drop_grenade" "animations/ld/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 22 } 
 $sequence "limpingwalk" "animations/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT 1 
 $sequence "limpingrun" "animations/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
+$sequence "180L" "animations/ld/180L" fps 12 ACT_TURN_LEFT 1 
+$sequence "180R" "animations/ld/180R" fps 12 ACT_TURN_RIGHT 1 
 $sequence "strafeleft" "animations/ld/strafeleft" fps 40 ACT_STRAFE_LEFT 1 
 $sequence "straferight" "animations/ld/straferight" fps 40 ACT_STRAFE_RIGHT 1 
 $sequence "dieback1" "animations/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 { event 11 5 } { event 2001 17 } 
@@ -140,6 +146,63 @@ $sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_
  }
 $sequence "repel_land" "animations/ld/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "animations/ld/repel_die" fps 12 
+$sequence "dragholeidle" "animations/ld/dragholeidle" fps 10 loop 
+$sequence "draghole" "animations/ld/draghole" fps 10 { event 1000 1 } { event 1004 21 "debris/bustflesh1.wav" } 
+$sequence "bustwall" "animations/ld/bustwall" fps 20 { event 1000 1 } 
+$sequence "hoprail" "animations/ld/hoprail" fps 22 
+$sequence "converse1" "animations/ld/converse1" fps 14 loop 
+$sequence "converse2" "animations/ld/converse2" fps 14 loop 
+$sequence "startleleft" "animations/ld/startleleft" fps 12 
+$sequence "startleright" "animations/ld/startleright" fps 12 
+$sequence "divecover" "animations/ld/divecover" fps 22 
+$sequence "defuse" "animations/ld/defuse" fps 14 loop 
+$sequence "corner1" "animations/ld/corner1" fps 14 loop 
+$sequence "corner2" "animations/ld/corner2" fps 10 loop 
+$sequence "stone_toss" "animations/ld/stone_toss" fps 15 
+$sequence "cliffdie" "animations/ld/cliffdie" AX AY AZR fps 36 { event 1001 0 } { event 1000 0 } 
+$sequence "diveaside_idle" "animations/ld/diveaside_idle" fps 30 loop 
+$sequence "diveaside" "animations/ld/diveaside" AX AY AZR fps 30 {
+  { event 4 0 } 
+  { event 5 2 } 
+  { event 6 4 } 
+  { event 4 14 } 
+  { event 5 16 } 
+  { event 6 18 } 
+ }
+$sequence "kneeldive_idle" "animations/ld/kneeldive_idle" fps 30 loop 
+$sequence "kneeldive" "animations/ld/kneeldive" AX AY AZR fps 30 {
+  { event 4 0 } 
+  { event 5 2 } 
+  { event 6 4 } 
+  { event 4 14 } 
+  { event 5 16 } 
+  { event 6 18 } 
+ }
+$sequence "WM_button" "animations/ld/WM_button" AX AY AZR fps 30 
+$sequence "WM_moatjump" "animations/ld/WM_moatjump" AX AY AZR fps 30 
+$sequence "bustwindow" "animations/ld/bustwindow" fps 24 { event 1003 5 "break" } 
+$sequence "dragleft" "animations/ld/dragleft" LX fps 28 loop 
+$sequence "dragright" "animations/ld/dragright" LX fps 28 loop 
+$sequence "trackwave" "animations/ld/trackwave" fps 24 loop 
+$sequence "trackdive" "animations/ld/trackdive" fps 28 { event 1003 38 "switch" } 
+$sequence "flyback" "animations/ld/flyback" fps 25 { event 1003 29 "zap" } { event 1008 24 "weapons/electro4.wav" } 
+$sequence "impaled" "animations/ld/impaled" fps 10 { event 1000 1 } 
+$sequence "jumptracks" "animations/ld/jumptracks" fps 30 
+$sequence "pipetoss" "animations/ld/pipetoss" fps 30 
+$sequence "plunger" "animations/ld/plunger" fps 22 
+
+// Blue Shift sequences
+$sequence "soldier_dump" "animations/ld/soldier_dump" fps 28 
+$sequence "soldier_dump_idle" "animations/ld/soldier_dump_idle" fps 28 loop 
+$sequence "soldier_shoot_ahead" "animations/ld/soldier_shoot_ahead" fps 32 loop {
+  { event 4 1 } 
+  { event 5 6 } 
+  { event 6 12 } 
+  { event 5001 1 "50" } 
+  { event 5001 6 "50" } 
+  { event 5001 12 "50" } 
+ }
+$sequence "soldier_kick" "animations/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
 
 // Male assassin sequences
 $sequence "frontkick" "animations/ld/frontkick_2" fps 25 ACT_MELEE_ATTACK1 1 {
