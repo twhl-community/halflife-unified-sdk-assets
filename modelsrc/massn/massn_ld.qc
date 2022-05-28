@@ -48,7 +48,7 @@ $texturegroup skinfamilies
 }
 
 // 3 attachment(s)
-$attachment 0 "Bip01 R Hand" 25.000000 0.000000 5.000000
+$attachment 0 "Bip01 R Hand" 21.500000 -0.700000 10.800000
 $attachment 1 "Bip01 R Hand" 0.000000 0.000000 0.000000
 $attachment 2 "Bip01 Head" 0.000000 0.000000 0.000000
 
