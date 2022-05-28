@@ -84,22 +84,6 @@ $sequence "idle1" "animations/ld/idle1" fps 30 loop ACT_IDLE 1
 $sequence "idle2" "animations/ld/idle2" fps 30 loop ACT_IDLE 1 
 $sequence "combatidle" "animations/ld/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
 $sequence "frontkick" "animations/ld/frontkick_1" fps 35 ACT_MELEE_ATTACK1 1 { event 3 14 } { event 2010 14 } 
-$sequence "frontkick" "animations/ld/frontkick_2" fps 25 ACT_MELEE_ATTACK1 1 {
-  { event 2010 5 } 
-  { event 3 5 } 
-  { event 2010 16 } 
-  { event 3 16 } 
- }
-$sequence "frontkick" "animations/ld/frontkick_3" LX LY fps 40 ACT_MELEE_ATTACK1 1 {
-  { event 2010 12 } 
-  { event 3 12 } 
-  { event 2010 30 } 
-  { event 3 30 } 
-  { event 2010 43 } 
-  { event 3 43 } 
-  { event 2010 56 } 
-  { event 3 56 } 
- }
 $sequence "crouching_idle" "animations/ld/crouching_idle" fps 30 loop 
 $sequence "crouching_wait" "animations/ld/crouching_wait" fps 30 ACT_CROUCH 0 
 $sequence "crouching_mp5" "animations/ld/crouching_mp5_blend1" "animations/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
@@ -122,9 +106,6 @@ $sequence "reload_mp5" "animations/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 
 $sequence "crouching_shotgun" "animations/ld/crouching_shotgun_blend1" "animations/ld/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
 $sequence "standing_shotgun" "animations/ld/standing_shotgun_blend1" "animations/ld/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
 $sequence "reload_shotgun" "animations/ld/reload_shotgun" fps 40 { event 2 47 } 
-$sequence "crouching_m40a1" "animations/ld/crouching_m40a1_blend1" "animations/ld/crouching_m40a1_blend2" blend XR -45 45 fps 15 ACT_RANGE_ATTACK1 1 { event 4 1 } { event 5001 1 "51" } 
-$sequence "standing_m40a1" "animations/ld/standing_m40a1_blend1" "animations/ld/standing_m40a1_blend2" blend XR -45 45 fps 15 { event 4 1 } { event 5001 1 "51" } 
-$sequence "reload_m40a1" "animations/ld/reload_m40a1" fps 40 { event 2 55 } 
 $sequence "advance_signal" "animations/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
 $sequence "flank_signal" "animations/ld/flank_signal" fps 40 ACT_SIGNAL2 1 
 $sequence "retreat_signal" "animations/ld/retreat_signal" fps 30 ACT_SIGNAL3 1 
@@ -159,6 +140,27 @@ $sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_
  }
 $sequence "repel_land" "animations/ld/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "animations/ld/repel_die" fps 12 
+
+// Male assassin sequences
+$sequence "frontkick" "animations/ld/frontkick_2" fps 25 ACT_MELEE_ATTACK1 1 {
+  { event 2010 5 } 
+  { event 3 5 } 
+  { event 2010 16 } 
+  { event 3 16 } 
+ }
+$sequence "frontkick" "animations/ld/frontkick_3" LX LY fps 40 ACT_MELEE_ATTACK1 1 {
+  { event 2010 12 } 
+  { event 3 12 } 
+  { event 2010 30 } 
+  { event 3 30 } 
+  { event 2010 43 } 
+  { event 3 43 } 
+  { event 2010 56 } 
+  { event 3 56 } 
+ }
+$sequence "crouching_m40a1" "animations/ld/crouching_m40a1_blend1" "animations/ld/crouching_m40a1_blend2" blend XR -45 45 fps 15 ACT_RANGE_ATTACK1 1 { event 4 1 } { event 5001 1 "51" } 
+$sequence "standing_m40a1" "animations/ld/standing_m40a1_blend1" "animations/ld/standing_m40a1_blend2" blend XR -45 45 fps 15 { event 4 1 } { event 5001 1 "51" } 
+$sequence "reload_m40a1" "animations/ld/reload_m40a1" fps 40 { event 2 55 } 
 $sequence "working" "animations/ld/working" fps 30 loop 
 $sequence "standing" "animations/ld/standing" fps 20 loop 
 
