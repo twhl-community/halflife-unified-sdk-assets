@@ -118,8 +118,8 @@ $sequence "limpingwalk" "animations/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT
 $sequence "limpingrun" "animations/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
 $sequence "180L" "animations/ld/180L" fps 12 ACT_TURN_LEFT 1 
 $sequence "180R" "animations/ld/180R" fps 12 ACT_TURN_RIGHT 1 
-$sequence "strafeleft" "animations/ld/strafeleft" fps 40 ACT_STRAFE_LEFT 1 
-$sequence "straferight" "animations/ld/straferight" fps 40 ACT_STRAFE_RIGHT 1 
+$sequence "strafeleft" "animations/ld/strafeleft" LX LY fps 40 ACT_STRAFE_LEFT 1 
+$sequence "straferight" "animations/ld/straferight" LX LY fps 40 ACT_STRAFE_RIGHT 1 
 $sequence "dieback1" "animations/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 { event 11 5 } { event 2001 17 } 
 $sequence "dieforward" "animations/ld/dieforward" X fps 26 ACT_DIEFORWARD 1 { event 11 3 } { event 2001 10 } 
 $sequence "diesimple" "animations/ld/diesimple" X fps 15 ACT_DIESIMPLE 1 { event 11 3 } { event 2001 10 } 
@@ -224,6 +224,8 @@ $sequence "frontkick" "animations/ld/frontkick_3" LX LY fps 40 ACT_MELEE_ATTACK1
 $sequence "crouching_m40a1" "animations/ld/crouching_m40a1_blend1" "animations/ld/crouching_m40a1_blend2" blend XR -45 45 fps 15 ACT_RANGE_ATTACK1 1 { event 4 1 } { event 5001 1 "51" } 
 $sequence "standing_m40a1" "animations/ld/standing_m40a1_blend1" "animations/ld/standing_m40a1_blend2" blend XR -45 45 fps 15 { event 4 1 } { event 5001 1 "51" } 
 $sequence "reload_m40a1" "animations/ld/reload_m40a1" fps 40 { event 2 55 } 
+$sequence "strafeleft_cine" "animations/ld/strafeleft" fps 40 
+$sequence "straferight_cine" "animations/ld/straferight" fps 40 
 $sequence "working" "animations/ld/working" fps 30 loop 
 $sequence "standing" "animations/ld/standing" fps 20 loop 
 
