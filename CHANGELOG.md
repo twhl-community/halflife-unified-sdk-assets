@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Intro Barney LD/HD models
 - Ammo RPG LD/HD models
 - Console civilian scientist LD/HD models
+- Male BlackOps LD/HD models
 
 ### Changed
 
