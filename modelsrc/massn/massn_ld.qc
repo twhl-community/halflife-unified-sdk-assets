@@ -15,6 +15,7 @@ Original internal name:
 $modelname "massn_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/massn"
+$cdtexture "../../texturesrc/w_9mmar"
 $scale 1.0
 
 
