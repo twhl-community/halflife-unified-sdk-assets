@@ -39,7 +39,7 @@ $bodygroup "weapons"
 studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 studio "meshes/ld/glock_reference"
 studio "meshes/ld/hypodermic_reference"
-studio "meshes/ld/engineer_gunholster_reference"
+studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 }
 
 
