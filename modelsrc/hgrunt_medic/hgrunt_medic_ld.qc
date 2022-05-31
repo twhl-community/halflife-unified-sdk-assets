@@ -28,11 +28,7 @@ $body "body" "../shared/meshes/hgrunt_opfor/ld/grunt_fatigues_reference"
 
 $body "body" "meshes/ld/grunt_medic_torso_reference"
 
-$bodygroup "heads"
-{
-studio "meshes/ld/grunt_medic_head_wht_reference"
-studio "meshes/ld/grunt_medic_head_blk_reference"
-}
+$body "heads" "meshes/ld/grunt_medic_head_reference"
 
 $bodygroup "weapons"
 {
@@ -42,6 +38,12 @@ studio "meshes/ld/hypodermic_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 }
 
+// 2 skin families
+$texturegroup skinfamilies 
+{
+{ "medic_head.BMP" }
+{ "medic_head_blk.bmp" }
+}
 
 // 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 13.000000 0.000000 5.000000
