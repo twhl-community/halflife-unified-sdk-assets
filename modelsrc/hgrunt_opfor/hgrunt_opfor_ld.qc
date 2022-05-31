@@ -16,7 +16,6 @@ $modelname "hgrunt_opfor_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_opfor"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
