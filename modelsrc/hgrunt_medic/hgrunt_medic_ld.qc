@@ -70,7 +70,6 @@ $hbox 5 "Bip01 R UpperArm" -2.830000 -1.990000 -3.460000 12.030000 4.780000 4.78
 $hbox 5 "Bip01 R Forearm" 0.000000 -1.430000 -2.940000 10.190000 4.000000 2.180000
 $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 
-$sequencegroupsize 64
 
 // 47 animation sequence(s)
 $sequence "walk1" "animations/ld/walk1" LX fps 30 loop ACT_WALK 1 
