@@ -24,7 +24,7 @@ $eyeposition 0.000000 0.000000 73.000000
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/grunt_fatigues_reference"
+$body "body" "../shared/meshes/hgrunt_opfor/ld/grunt_fatigues_reference"
 
 $body "body" "meshes/ld/grunt_medic_torso_reference"
 
