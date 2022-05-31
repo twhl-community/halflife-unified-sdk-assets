@@ -33,7 +33,7 @@ blank
 
 $bodygroup "weapons"
 {
-studio "meshes/ld/Desert_Eagle_reference"
+studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 studio "meshes/ld/engineer_torch_reference"
 studio "meshes/ld/engineer_gunholster_reference"
 }
