@@ -95,9 +95,6 @@ $sequence "limpingwalk" "animations/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT
 $sequence "limpingrun" "animations/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
 $sequence "180L" "animations/ld/180L" fps 12 ACT_TURN_LEFT 1 
 $sequence "180R" "animations/ld/180R" fps 12 ACT_TURN_RIGHT 1 
-$sequence "pull_needle" "animations/ld/pull_needle" fps 30 ACT_ARM 1 { event 15 20 } { event 16 50 } 
-$sequence "store_needle" "animations/ld/store_needle" fps 30 ACT_DISARM 1 { event 17 15 } { event 18 36 } 
-$sequence "give_shot" "animations/ld/give_shot" fps 30 loop ACT_MELEE_ATTACK2 1 
 $sequence "dieback1" "animations/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
   { event 11 5 } 
   { event 2001 17 } 
@@ -154,7 +151,14 @@ $sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_
  }
 $sequence "repel_land" "animations/ld/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "animations/ld/repel_die" fps 12 
+
+// Friendly grunts sequences
 $sequence "open_floor_grate" "animations/ld/open_floor_grate" fps 25 
+
+// Friendly grunt medic sequences
+$sequence "pull_needle" "animations/ld/pull_needle" fps 30 ACT_ARM 1 { event 15 20 } { event 16 50 } 
+$sequence "store_needle" "animations/ld/store_needle" fps 30 ACT_DISARM 1 { event 17 15 } { event 18 36 } 
+$sequence "give_shot" "animations/ld/give_shot" fps 30 loop ACT_MELEE_ATTACK2 1 
 $sequence "heal_crouch" "animations/ld/heal_crouch" fps 15 {
   { event 15 10 } 
   { event 16 27 } 

@@ -117,39 +117,6 @@ $sequence "reload_mp5" "animations/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 
 $sequence "crouching_shotgun" "animations/ld/crouching_shotgun_blend1" "animations/ld/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
 $sequence "standing_shotgun" "animations/ld/standing_shotgun_blend1" "animations/ld/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
 $sequence "reload_shotgun" "animations/ld/reload_shotgun" fps 40 { event 2 47 } 
-$sequence "crouching_saw" "animations/ld/crouching_saw_blend1" "animations/ld/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
-  { event 4 3 } 
-  { event 5001 3 "50" } 
-  { event 5 6 } 
-  { event 5001 6 "50" } 
-  { event 5 9 } 
-  { event 5001 9 "50" } 
-  { event 5 12 } 
-  { event 5001 12 "50" } 
-  { event 5 13 } 
-  { event 5001 13 "50" } 
-  { event 5 16 } 
-  { event 5001 16 "50" } 
-  { event 6 19 } 
-  { event 5001 19 "50" } 
- }
-$sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/standing_saw_blend2" blend XR -45 45 fps 20 loop {
-  { event 4 3 } 
-  { event 5001 3 "50" } 
-  { event 5 6 } 
-  { event 5001 6 "50" } 
-  { event 5 9 } 
-  { event 5001 9 "50" } 
-  { event 5 12 } 
-  { event 5001 12 "50" } 
-  { event 5 13 } 
-  { event 5001 13 "50" } 
-  { event 5 16 } 
-  { event 5001 16 "50" } 
-  { event 6 19 } 
-  { event 5001 19 "50" } 
- }
-$sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
 $sequence "advance_signal" "animations/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
 $sequence "flank_signal" "animations/ld/flank_signal" fps 40 ACT_SIGNAL2 1 
 $sequence "retreat_signal" "animations/ld/retreat_signal" fps 30 ACT_SIGNAL3 1 
@@ -202,10 +169,6 @@ $sequence "dead_on_stomach" "animations/ld/dead_on_stomach" fps 1
 $sequence "deadstomach" "animations/ld/deadstomach" fps 1 
 $sequence "deadside" "animations/ld/deadside" fps 1 
 $sequence "deadsitting" "animations/ld/deadsitting" fps 1 
-$sequence "dead_on_back" "animations/ld/dead_on_back" fps 1 
-$sequence "dead_headcrabed" "animations/ld/dead_headcrabed" fps 1 
-$sequence "hgrunt_dead_stomach" "animations/ld/hgrunt_dead_stomach" fps 1 
-$sequence "dead_canyon" "animations/ld/dead_canyon" fps 1 
 $sequence "repel_jump" "animations/ld/repel_jump" fps 22 ACT_HOVER 1 
 $sequence "repel_repel" "animations/ld/repel_repel" fps 18 loop ACT_GLIDE 1 
 $sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
@@ -218,6 +181,45 @@ $sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_
  }
 $sequence "repel_land" "animations/ld/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "animations/ld/repel_die" fps 12 
+
+// Friendly grunts sequences
+$sequence "crouching_saw" "animations/ld/crouching_saw_blend1" "animations/ld/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
+  { event 4 3 } 
+  { event 5001 3 "50" } 
+  { event 5 6 } 
+  { event 5001 6 "50" } 
+  { event 5 9 } 
+  { event 5001 9 "50" } 
+  { event 5 12 } 
+  { event 5001 12 "50" } 
+  { event 5 13 } 
+  { event 5001 13 "50" } 
+  { event 5 16 } 
+  { event 5001 16 "50" } 
+  { event 6 19 } 
+  { event 5001 19 "50" } 
+ }
+$sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/standing_saw_blend2" blend XR -45 45 fps 20 loop {
+  { event 4 3 } 
+  { event 5001 3 "50" } 
+  { event 5 6 } 
+  { event 5001 6 "50" } 
+  { event 5 9 } 
+  { event 5001 9 "50" } 
+  { event 5 12 } 
+  { event 5001 12 "50" } 
+  { event 5 13 } 
+  { event 5001 13 "50" } 
+  { event 5 16 } 
+  { event 5001 16 "50" } 
+  { event 6 19 } 
+  { event 5001 19 "50" } 
+ }
+$sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
+$sequence "dead_on_back" "animations/ld/dead_on_back" fps 1 
+$sequence "dead_headcrabed" "animations/ld/dead_headcrabed" fps 1 
+$sequence "hgrunt_dead_stomach" "animations/ld/hgrunt_dead_stomach" fps 1 
+$sequence "dead_canyon" "animations/ld/dead_canyon" fps 1 
 $sequence "sitting" "animations/ld/sitting" fps 10 loop 
 $sequence "sitting2" "animations/ld/sitting2" fps 8 loop 
 $sequence "sitting3" "animations/ld/sitting3" fps 6 loop 
