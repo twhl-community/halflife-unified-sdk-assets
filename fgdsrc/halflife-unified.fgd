@@ -2183,6 +2183,12 @@
 		2 : "Stick"
 	]
 	
+	allow_follow(choices) : "Allow scientists to follow players" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
 	suspicious(choices) : "Suspicious" : 0 =
 	[
 		0 : "No"
