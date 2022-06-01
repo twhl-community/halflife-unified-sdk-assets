@@ -19,6 +19,7 @@
 		"maps/*.bsp",
 		"maps/graphs/*",
 		"models/**",
+		"redist/VC_redist.x86.exe",
 		"resource/**",
 		"scripts/**",
 		"sound/**",
