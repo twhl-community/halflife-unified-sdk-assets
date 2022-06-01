@@ -33,10 +33,14 @@ $body "torso" "meshes/ld/engineer_torso_reference"
 $bodygroup "weapons"
 {
 studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
-studio "meshes/ld/engineer_torch_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 }
 
+$bodygroup "torch"
+{
+blank
+studio "meshes/ld/engineer_torch_reference"
+}
 
 // 4 attachment(s)
 $attachment 0 "Bip01 R Hand" 13.000000 0.000000 5.000000
