@@ -3574,3 +3574,41 @@ initammo(string) : "Initial Ammo" : "6"
 		2: "Toggle"
 	]
 ]
+
+//Half-Life: Blue Shift Special Entities
+
+@PointClass iconsprite("sprites/env_warpball.spr") base(Targetname, Target) size(-32 -32 -32, 32 32 32) color(0 255 0) = env_warpball : "Warp In Ball"
+[
+	spawnflags(flags) =
+	[
+		1: "Remove On fire" : 0
+		2: "Kill Center" : 0
+	]
+	radius(string) : "Beam Radius" : "256"
+	warp_target(string) : "Warp Target" : ""
+]
+
+@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) = item_helmet : "Barney Helmet"
+[
+	sequence(choices) : "Orientation" : 0 = 
+	[
+		0 : "Vertical"
+		1 : "Horizontal"
+		2 : "Horizontal (Upside Down)"
+    ]
+]
+
+@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) = item_armorvest : "Barney Vest"
+[
+	sequence(choices) : "Orientation" : 0 = 
+	[
+		0 : "Upright"
+		1 : "Laying On Back"
+		2 : "Laying On Front"
+		3:  "Upright Leaning"
+	]
+]
+
+@PointClass base(Monster, TalkMonster) size(-16 -16 0, 16 16 72) = monster_rosenberg : "Dr. Rosenberg" 
+[
+]
