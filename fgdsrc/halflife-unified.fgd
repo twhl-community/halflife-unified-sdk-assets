@@ -3586,6 +3586,7 @@ initammo(string) : "Initial Ammo" : "6"
 	]
 	radius(string) : "Beam Radius" : "256"
 	warp_target(string) : "Warp Target" : ""
+	damage_delay(string) : "Damage delay" : "0"
 ]
 
 @PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) = item_helmet : "Barney Helmet"
