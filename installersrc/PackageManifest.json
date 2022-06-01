@@ -5,7 +5,7 @@
 	// Filenames ending with ".install" will be renamed to remove this extension after being added to the archive.
 	"IncludePatterns": [
 		"cl_dlls/client.dll",
-		"dlls/hl.dll",
+		"dlls/server.dll",
 		"delta.lst",
 		"liblist.gam",
 		"server.cfg",
