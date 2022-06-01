@@ -24,12 +24,11 @@ $eyeposition 0.000000 0.000000 73.000000
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/engineer_reference"
+$body "body" "meshes/ld/engineer_fatigues_reference"
 
-$bodygroup "heads"
-{
-blank
-}
+$body "heads" "meshes/ld/engineer_reference"
+
+$body "torso" "meshes/ld/engineer_torso_reference"
 
 $bodygroup "weapons"
 {
