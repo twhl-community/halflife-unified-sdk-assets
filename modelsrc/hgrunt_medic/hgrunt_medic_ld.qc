@@ -15,6 +15,7 @@ Original internal name:
 $modelname "hgrunt_medic_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_medic"
+$cdtexture "../../texturesrc/barney"
 $scale 1.0
 
 
