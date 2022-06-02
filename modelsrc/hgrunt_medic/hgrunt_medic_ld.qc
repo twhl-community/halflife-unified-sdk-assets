@@ -31,11 +31,15 @@ $body "heads" "meshes/ld/grunt_medic_head_reference"
 
 $body "torso" "meshes/ld/grunt_medic_torso_reference"
 
-$bodygroup "weapons"
+$bodygroup "deagle"
 {
 studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
-studio "meshes/ld/glock_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
+}
+
+$bodygroup "glock"
+{
+studio "meshes/ld/glock_reference"
 }
 
 $bodygroup "needle"
