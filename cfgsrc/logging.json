@@ -1,5 +1,9 @@
 //Configuration file for Half-Life Unified SDK logging system.
 {
+	//If set to true, all previous logging settings will be reset before this configuration is applied.
+	//This will reset command line settings.
+	"Reset": false,
+	
 	//Default logger configuration. Used for every logger unless overridden.
 	"Defaults": {
 		"LogLevel": "info"
