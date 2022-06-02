@@ -15,6 +15,7 @@ Original internal name:
 $modelname "hgrunt_torch_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_torch"
+$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
 

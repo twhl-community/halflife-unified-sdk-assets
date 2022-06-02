@@ -16,6 +16,7 @@ $modelname "hgrunt_medic_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_medic"
 $cdtexture "../../texturesrc/barney"
+$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
 
