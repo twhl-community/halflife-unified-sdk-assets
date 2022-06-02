@@ -39,7 +39,9 @@ studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 
 $bodygroup "glock"
 {
+studio "meshes/ld/glock_gunholster_reference"
 studio "meshes/ld/glock_reference"
+blank
 }
 
 $bodygroup "needle"
