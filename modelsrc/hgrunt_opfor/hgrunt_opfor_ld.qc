@@ -15,6 +15,8 @@ Original internal name:
 $modelname "hgrunt_opfor_ld.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_opfor"
+$cdtexture "../../texturesrc/hgrunt_opfor/fatigues"
+$cdtexture "../../texturesrc/hgrunt_opfor/sleeve"
 $scale 1.0
 
 
