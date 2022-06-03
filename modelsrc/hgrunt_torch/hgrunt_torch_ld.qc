@@ -17,6 +17,7 @@ $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_torch"
 $cdtexture "../../texturesrc/hgrunt_torch/fatigues"
 $cdtexture "../../texturesrc/hgrunt_torch/sleeve"
+$cdtexture "../../texturesrc/hgrunt_opfor"
 $cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
