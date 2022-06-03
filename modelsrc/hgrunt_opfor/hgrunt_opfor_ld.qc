@@ -17,6 +17,7 @@ $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_opfor"
 $cdtexture "../../texturesrc/hgrunt_opfor/fatigues"
 $cdtexture "../../texturesrc/hgrunt_opfor/sleeve"
+$cdtexture "../../texturesrc/hgrunt_medic/head"
 $scale 1.0
 
 
