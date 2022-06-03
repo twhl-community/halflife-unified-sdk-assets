@@ -18,6 +18,7 @@ $cdtexture "../../texturesrc/hgrunt_opfor"
 $cdtexture "../../texturesrc/hgrunt_opfor/fatigues"
 $cdtexture "../../texturesrc/hgrunt_opfor/sleeve"
 $cdtexture "../../texturesrc/hgrunt_medic/head"
+$cdtexture "../../texturesrc/hgrunt/head/shotgun"
 $scale 1.0
 
 
