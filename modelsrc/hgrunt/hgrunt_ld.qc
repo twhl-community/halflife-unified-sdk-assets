@@ -150,10 +150,10 @@ $sequence "barnacled1" "../shared/animations/hgrunt/ld/barnacled1" fps 18 ACT_BA
 $sequence "barnacled2" "../shared/animations/hgrunt/ld/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
 $sequence "barnacled3" "../shared/animations/hgrunt/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
 $sequence "barnacled4" "../shared/animations/hgrunt/ld/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
-$sequence "dead_on_stomach" "animations/ld/dead_on_stomach" fps 10 
-$sequence "deadstomach" "animations/ld/deadstomach" fps 10 
-$sequence "deadside" "animations/ld/deadside" fps 10 
-$sequence "deadsitting" "animations/ld/deadsitting" fps 10 
+$sequence "dead_on_stomach" "../shared/animations/hgrunt/ld/dead_on_stomach" fps 10 
+$sequence "deadstomach" "../shared/animations/hgrunt/ld/deadstomach" fps 10 
+$sequence "deadside" "../shared/animations/hgrunt/ld/deadside" fps 10 
+$sequence "deadsitting" "../shared/animations/hgrunt/ld/deadsitting" fps 10 
 $sequence "repel_jump" "../shared/animations/hgrunt/ld/repel_jump" fps 22 ACT_HOVER 1 
 $sequence "repel_repel" "../shared/animations/hgrunt/ld/repel_repel" fps 18 loop ACT_GLIDE 1 
 $sequence "repel_shoot" "../shared/animations/hgrunt/ld/repel_shoot_blend1" "../shared/animations/hgrunt/ld/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
