@@ -151,10 +151,10 @@ $sequence "diegutshot" "../shared/animations/hgrunt_opfor/ld/diegutshot" X fps 3
   { event 1000 68 } 
   { event 1001 68 } 
  }
-$sequence "barnacled1" "animations/ld/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
-$sequence "barnacled2" "animations/ld/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
-$sequence "barnacled3" "animations/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
-$sequence "barnacled4" "animations/ld/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
+$sequence "barnacled1" "../shared/animations/hgrunt/ld/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
+$sequence "barnacled2" "../shared/animations/hgrunt/ld/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
+$sequence "barnacled3" "../shared/animations/hgrunt/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
+$sequence "barnacled4" "../shared/animations/hgrunt/ld/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
 $sequence "dead_on_stomach" "animations/ld/dead_on_stomach" fps 10 
 $sequence "deadstomach" "animations/ld/deadstomach" fps 10 
 $sequence "deadside" "animations/ld/deadside" fps 10 
