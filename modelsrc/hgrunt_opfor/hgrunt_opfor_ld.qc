@@ -93,7 +93,7 @@ $sequence "walk1" "animations/ld/walk1" LX fps 30 loop ACT_WALK 1
 $sequence "run" "animations/ld/run" LX fps 30 loop ACT_RUN 1 
 $sequence "victorydance" "animations/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
 $sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
-$sequence "smflinch" "animations/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
+$sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
 $sequence "launchgrenade" "animations/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
 $sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
 $sequence "idle1" "animations/ld/idle1" fps 30 loop ACT_IDLE 1 

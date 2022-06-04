@@ -96,7 +96,7 @@ $sequence "walk1" "animations/ld/walk1" LX fps 30 loop ACT_WALK 1
 $sequence "run" "../shared/animations/hgrunt_medic/ld/run" LX fps 30 loop ACT_RUN 1 
 $sequence "victorydance" "../shared/animations/hgrunt_medic/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
 $sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
-$sequence "smflinch" "animations/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
+$sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
 $sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
 $sequence "idle1" "../shared/animations/hgrunt_medic/ld/idle1" fps 30 loop ACT_IDLE 1 
 $sequence "idle2" "../shared/animations/hgrunt_medic/ld/idle2" fps 20 loop ACT_IDLE 1 
