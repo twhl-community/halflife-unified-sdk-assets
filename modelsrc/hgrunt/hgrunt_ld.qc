@@ -110,7 +110,7 @@ $sequence "combatidle" "animations/ld/combatidle" fps 30 loop ACT_IDLE_ANGRY 1
 $sequence "frontkick" "../shared/animations/hgrunt/ld/frontkick" fps 35 ACT_MELEE_ATTACK1 1 { event 3 14 } { event 2010 14 } 
 $sequence "crouching_idle" "animations/ld/crouching_idle" fps 30 loop 
 $sequence "crouching_wait" "animations/ld/crouching_wait" fps 30 ACT_CROUCH 0 
-$sequence "crouching_mp5" "animations/ld/crouching_mp5_blend1" "animations/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
+$sequence "crouching_mp5" "../shared/animations/hgrunt/ld/crouching_mp5_blend1" "../shared/animations/hgrunt/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -118,7 +118,7 @@ $sequence "crouching_mp5" "animations/ld/crouching_mp5_blend1" "animations/ld/cr
   { event 5001 2 "50" } 
   { event 5001 4 "50" } 
  }
-$sequence "standing_mp5" "animations/ld/standing_mp5_blend1" "animations/ld/standing_mp5_blend2" blend XR -45 45 fps 20 loop {
+$sequence "standing_mp5" "../shared/animations/hgrunt/ld/standing_mp5_blend1" "../shared/animations/hgrunt/ld/standing_mp5_blend2" blend XR -45 45 fps 20 loop {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -126,7 +126,7 @@ $sequence "standing_mp5" "animations/ld/standing_mp5_blend1" "animations/ld/stan
   { event 5001 2 "50" } 
   { event 5001 4 "50" } 
  }
-$sequence "reload_mp5" "animations/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 47 } 
+$sequence "reload_mp5" "../shared/animations/hgrunt/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 47 } 
 $sequence "crouching_shotgun" "animations/ld/crouching_shotgun_blend1" "animations/ld/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
 $sequence "standing_shotgun" "animations/ld/standing_shotgun_blend1" "animations/ld/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
 $sequence "reload_shotgun" "animations/ld/reload_shotgun" fps 40 { event 2 47 } 
