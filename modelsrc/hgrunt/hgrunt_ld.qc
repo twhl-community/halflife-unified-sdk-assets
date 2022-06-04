@@ -154,9 +154,9 @@ $sequence "dead_on_stomach" "animations/ld/dead_on_stomach" fps 10
 $sequence "deadstomach" "animations/ld/deadstomach" fps 10 
 $sequence "deadside" "animations/ld/deadside" fps 10 
 $sequence "deadsitting" "animations/ld/deadsitting" fps 10 
-$sequence "repel_jump" "animations/ld/repel_jump" fps 22 ACT_HOVER 1 
-$sequence "repel_repel" "animations/ld/repel_repel" fps 18 loop ACT_GLIDE 1 
-$sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
+$sequence "repel_jump" "../shared/animations/hgrunt/ld/repel_jump" fps 22 ACT_HOVER 1 
+$sequence "repel_repel" "../shared/animations/hgrunt/ld/repel_repel" fps 18 loop ACT_GLIDE 1 
+$sequence "repel_shoot" "../shared/animations/hgrunt/ld/repel_shoot_blend1" "../shared/animations/hgrunt/ld/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
   { event 4 1 } 
   { event 5 3 } 
   { event 6 5 } 
@@ -164,8 +164,8 @@ $sequence "repel_shoot" "animations/ld/repel_shoot_blend1" "animations/ld/repel_
   { event 5001 3 } 
   { event 5001 5 } 
  }
-$sequence "repel_land" "animations/ld/repel_land" fps 20 ACT_LAND 1 
-$sequence "repel_die" "animations/ld/repel_die" fps 12 
+$sequence "repel_land" "../shared/animations/hgrunt/ld/repel_land" fps 20 ACT_LAND 1 
+$sequence "repel_die" "../shared/animations/hgrunt/ld/repel_die" fps 12 
 $sequence "dragholeidle" "animations/ld/dragholeidle" fps 10 loop 
 $sequence "draghole" "animations/ld/draghole" fps 10 { event 1000 1 } { event 1004 21 "debris/bustflesh1.wav" } 
 $sequence "bustwall" "animations/ld/bustwall" fps 20 { event 1000 1 } 
