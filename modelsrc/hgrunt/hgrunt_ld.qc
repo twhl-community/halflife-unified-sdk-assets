@@ -166,22 +166,22 @@ $sequence "repel_shoot" "../shared/animations/hgrunt/ld/repel_shoot_blend1" "../
  }
 $sequence "repel_land" "../shared/animations/hgrunt/ld/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "../shared/animations/hgrunt/ld/repel_die" fps 12 
-$sequence "dragholeidle" "animations/ld/dragholeidle" fps 10 loop 
-$sequence "draghole" "animations/ld/draghole" fps 10 { event 1000 1 } { event 1004 21 "debris/bustflesh1.wav" } 
-$sequence "bustwall" "animations/ld/bustwall" fps 20 { event 1000 1 } 
-$sequence "hoprail" "animations/ld/hoprail" fps 22 
-$sequence "converse1" "animations/ld/converse1" fps 14 loop 
-$sequence "converse2" "animations/ld/converse2" fps 14 loop 
-$sequence "startleleft" "animations/ld/startleleft" fps 12 
-$sequence "startleright" "animations/ld/startleright" fps 12 
-$sequence "divecover" "animations/ld/divecover" fps 22 
-$sequence "defuse" "animations/ld/defuse" fps 14 loop 
-$sequence "corner1" "animations/ld/corner1" fps 14 loop 
-$sequence "corner2" "animations/ld/corner2" fps 10 loop 
-$sequence "stone_toss" "animations/ld/stone_toss" fps 15 
-$sequence "cliffdie" "animations/ld/cliffdie" AX AY AZR fps 36 { event 1001 0 } { event 1000 0 } 
-$sequence "diveaside_idle" "animations/ld/diveaside_idle" fps 30 loop 
-$sequence "diveaside" "animations/ld/diveaside" AX AY AZR fps 30 {
+$sequence "dragholeidle" "../shared/animations/hgrunt/ld/dragholeidle" fps 10 loop 
+$sequence "draghole" "../shared/animations/hgrunt/ld/draghole" fps 10 { event 1000 1 } { event 1004 21 "debris/bustflesh1.wav" } 
+$sequence "bustwall" "../shared/animations/hgrunt/ld/bustwall" fps 20 { event 1000 1 } 
+$sequence "hoprail" "../shared/animations/hgrunt/ld/hoprail" fps 22 
+$sequence "converse1" "../shared/animations/hgrunt/ld/converse1" fps 14 loop 
+$sequence "converse2" "../shared/animations/hgrunt/ld/converse2" fps 14 loop 
+$sequence "startleleft" "../shared/animations/hgrunt/ld/startleleft" fps 12 
+$sequence "startleright" "../shared/animations/hgrunt/ld/startleright" fps 12 
+$sequence "divecover" "../shared/animations/hgrunt/ld/divecover" fps 22 
+$sequence "defuse" "../shared/animations/hgrunt/ld/defuse" fps 14 loop 
+$sequence "corner1" "../shared/animations/hgrunt/ld/corner1" fps 14 loop 
+$sequence "corner2" "../shared/animations/hgrunt/ld/corner2" fps 10 loop 
+$sequence "stone_toss" "../shared/animations/hgrunt/ld/stone_toss" fps 15 
+$sequence "cliffdie" "../shared/animations/hgrunt/ld/cliffdie" AX AY AZR fps 36 { event 1001 0 } { event 1000 0 } 
+$sequence "diveaside_idle" "../shared/animations/hgrunt/ld/diveaside_idle" fps 30 loop 
+$sequence "diveaside" "../shared/animations/hgrunt/ld/diveaside" AX AY AZR fps 30 {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -189,8 +189,8 @@ $sequence "diveaside" "animations/ld/diveaside" AX AY AZR fps 30 {
   { event 5 16 } 
   { event 6 18 } 
  }
-$sequence "kneeldive_idle" "animations/ld/kneeldive_idle" fps 30 loop 
-$sequence "kneeldive" "animations/ld/kneeldive" AX AY AZR fps 30 {
+$sequence "kneeldive_idle" "../shared/animations/hgrunt/ld/kneeldive_idle" fps 30 loop 
+$sequence "kneeldive" "../shared/animations/hgrunt/ld/kneeldive" AX AY AZR fps 30 {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -198,23 +198,23 @@ $sequence "kneeldive" "animations/ld/kneeldive" AX AY AZR fps 30 {
   { event 5 16 } 
   { event 6 18 } 
  }
-$sequence "WM_button" "animations/ld/WM_button" AX AY AZR fps 30 
-$sequence "WM_moatjump" "animations/ld/WM_moatjump" AX AY AZR fps 30 
-$sequence "bustwindow" "animations/ld/bustwindow" fps 24 { event 1003 5 "break" } 
-$sequence "dragleft" "animations/ld/dragleft" LX fps 28 loop 
-$sequence "dragright" "animations/ld/dragright" LX fps 28 loop 
-$sequence "trackwave" "animations/ld/trackwave" fps 24 loop 
-$sequence "trackdive" "animations/ld/trackdive" fps 28 { event 1003 38 "switch" } 
-$sequence "flyback" "animations/ld/flyback" fps 25 { event 1003 29 "zap" } { event 1008 24 "weapons/electro4.wav" } 
-$sequence "impaled" "animations/ld/impaled" fps 10 { event 1000 1 } 
-$sequence "jumptracks" "animations/ld/jumptracks" fps 30 
-$sequence "pipetoss" "animations/ld/pipetoss" fps 30 
-$sequence "plunger" "animations/ld/plunger" fps 22 
+$sequence "WM_button" "../shared/animations/hgrunt/ld/WM_button" AX AY AZR fps 30 
+$sequence "WM_moatjump" "../shared/animations/hgrunt/ld/WM_moatjump" AX AY AZR fps 30 
+$sequence "bustwindow" "../shared/animations/hgrunt/ld/bustwindow" fps 24 { event 1003 5 "break" } 
+$sequence "dragleft" "../shared/animations/hgrunt/ld/dragleft" LX fps 28 loop 
+$sequence "dragright" "../shared/animations/hgrunt/ld/dragright" LX fps 28 loop 
+$sequence "trackwave" "../shared/animations/hgrunt/ld/trackwave" fps 24 loop 
+$sequence "trackdive" "../shared/animations/hgrunt/ld/trackdive" fps 28 { event 1003 38 "switch" } 
+$sequence "flyback" "../shared/animations/hgrunt/ld/flyback" fps 25 { event 1003 29 "zap" } { event 1008 24 "weapons/electro4.wav" } 
+$sequence "impaled" "../shared/animations/hgrunt/ld/impaled" fps 10 { event 1000 1 } 
+$sequence "jumptracks" "../shared/animations/hgrunt/ld/jumptracks" fps 30 
+$sequence "pipetoss" "../shared/animations/hgrunt/ld/pipetoss" fps 30 
+$sequence "plunger" "../shared/animations/hgrunt/ld/plunger" fps 22 
 
 // Blue Shift sequences
-$sequence "soldier_dump" "animations/ld/soldier_dump" fps 28 
-$sequence "soldier_dump_idle" "animations/ld/soldier_dump_idle" fps 28 loop 
-$sequence "soldier_shoot_ahead" "animations/ld/soldier_shoot_ahead" fps 32 loop {
+$sequence "soldier_dump" "../shared/animations/hgrunt/ld/soldier_dump" fps 28 
+$sequence "soldier_dump_idle" "../shared/animations/hgrunt/ld/soldier_dump_idle" fps 28 loop 
+$sequence "soldier_shoot_ahead" "../shared/animations/hgrunt/ld/soldier_shoot_ahead" fps 32 loop {
   { event 4 1 } 
   { event 5 6 } 
   { event 6 12 } 
@@ -222,6 +222,6 @@ $sequence "soldier_shoot_ahead" "animations/ld/soldier_shoot_ahead" fps 32 loop 
   { event 5001 6 "50" } 
   { event 5001 12 "50" } 
  }
-$sequence "soldier_kick" "animations/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
+$sequence "soldier_kick" "../shared/animations/hgrunt/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
 
 // End of QC script.
