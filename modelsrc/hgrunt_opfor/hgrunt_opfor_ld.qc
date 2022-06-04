@@ -95,7 +95,7 @@ $sequence "victorydance" "animations/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1
 $sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
 $sequence "smflinch" "animations/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
 $sequence "launchgrenade" "animations/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
-$sequence "throwgrenade" "animations/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
+$sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
 $sequence "idle1" "animations/ld/idle1" fps 30 loop ACT_IDLE 1 
 $sequence "idle2" "animations/ld/idle2" fps 10 loop ACT_IDLE 1 
 $sequence "combatidle" "animations/ld/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
