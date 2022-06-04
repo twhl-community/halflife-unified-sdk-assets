@@ -138,8 +138,8 @@ $sequence "limpingwalk" "../shared/animations/hgrunt/ld/limpingwalk" LX fps 30 l
 $sequence "limpingrun" "../shared/animations/hgrunt/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
 $sequence "180L" "../shared/animations/hgrunt/ld/180L" fps 12 ACT_TURN_LEFT 1 
 $sequence "180R" "../shared/animations/hgrunt/ld/180R" fps 12 ACT_TURN_RIGHT 1 
-$sequence "strafeleft" "animations/ld/strafeleft" LX LY fps 30 loop ACT_STRAFE_LEFT 1 
-$sequence "straferight" "animations/ld/straferight" LX LY fps 30 loop ACT_STRAFE_RIGHT 1 
+$sequence "strafeleft" "../shared/animations/hgrunt/ld/strafeleft" LX LY fps 30 loop ACT_STRAFE_LEFT 1 
+$sequence "straferight" "../shared/animations/hgrunt/ld/straferight" LX LY fps 30 loop ACT_STRAFE_RIGHT 1 
 $sequence "dieback1" "animations/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 { event 11 5 } { event 2001 17 } 
 $sequence "dieforward" "animations/ld/dieforward" X fps 26 ACT_DIEFORWARD 1 { event 11 3 } { event 2001 10 } 
 $sequence "diesimple" "animations/ld/diesimple" X fps 15 ACT_DIESIMPLE 1 { event 11 3 } { event 2001 10 } 
