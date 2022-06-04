@@ -122,9 +122,9 @@ $sequence "reload_mp5" "animations/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 
 $sequence "crouching_shotgun" "animations/ld/crouching_shotgun_blend1" "animations/ld/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
 $sequence "standing_shotgun" "animations/ld/standing_shotgun_blend1" "animations/ld/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
 $sequence "reload_shotgun" "animations/ld/reload_shotgun" fps 40 { event 2 47 } 
-$sequence "advance_signal" "animations/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
-$sequence "flank_signal" "animations/ld/flank_signal" fps 40 ACT_SIGNAL2 1 
-$sequence "retreat_signal" "animations/ld/retreat_signal" fps 30 ACT_SIGNAL3 1 
+$sequence "advance_signal" "../shared/animations/hgrunt/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
+$sequence "flank_signal" "../shared/animations/hgrunt/ld/flank_signal" fps 40 ACT_SIGNAL2 1 
+$sequence "retreat_signal" "../shared/animations/hgrunt/ld/retreat_signal" fps 30 ACT_SIGNAL3 1 
 $sequence "drop_grenade" "../shared/animations/hgrunt/ld/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 22 } 
 $sequence "limpingwalk" "../shared/animations/hgrunt/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT 1 
 $sequence "limpingrun" "../shared/animations/hgrunt/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
