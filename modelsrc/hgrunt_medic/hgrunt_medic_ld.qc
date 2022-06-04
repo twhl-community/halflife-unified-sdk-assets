@@ -173,7 +173,7 @@ $sequence "repel_land" "animations/ld/repel_land" fps 20 ACT_LAND 1
 $sequence "repel_die" "animations/ld/repel_die" fps 12 
 
 // Friendly grunts sequences
-$sequence "open_floor_grate" "animations/ld/open_floor_grate" fps 25 
+$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
 
 // Friendly grunt medic sequences
 $sequence "pull_needle" "animations/ld/pull_needle" fps 30 ACT_ARM 1 { event 15 20 } { event 16 50 } 

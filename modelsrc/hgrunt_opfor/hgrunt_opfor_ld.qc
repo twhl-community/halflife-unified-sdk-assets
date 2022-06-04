@@ -230,7 +230,7 @@ $sequence "sitting2" "animations/ld/sitting2" fps 8 loop
 $sequence "sitting3" "animations/ld/sitting3" fps 6 loop 
 $sequence "react" "animations/ld/react" fps 30 { event 1000 1 } { event 1001 1 } 
 $sequence "holding_on" "animations/ld/holding_on" fps 10 loop 
-$sequence "open_floor_grate" "animations/ld/open_floor_grate" fps 25 
+$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
 $sequence "hgrunt_on_stretcher" "animations/ld/hgrunt_on_stretcher" fps 34 
 $sequence "crawling" "animations/ld/crawling" fps 17 { event 1001 120 } 
 $sequence "of2a2_speech_idle" "animations/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
