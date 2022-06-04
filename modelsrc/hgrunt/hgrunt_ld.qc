@@ -96,7 +96,7 @@ $hbox 1 "Bip01 Neck" -1.000000 -4.100000 -3.500000 2.000000 3.500000 3.800000
 $sequence "walk1" "animations/ld/walk1" LX fps 30 loop ACT_WALK 1 
 $sequence "run" "animations/ld/run" LX fps 30 loop ACT_RUN 1 
 $sequence "victorydance" "animations/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
-$sequence "cower" "animations/ld/cower" fps 28 ACT_COWER 1 
+$sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
 $sequence "smflinch" "animations/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
 $sequence "leftlegsmflinch" "animations/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LEFTLEG 1 
 $sequence "rightlegsmflinch" "animations/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
