@@ -102,37 +102,37 @@ $sequence "limpingwalk" "animations/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT
 $sequence "limpingrun" "animations/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
 $sequence "180L" "../shared/animations/hgrunt_medic/ld/180L" fps 12 ACT_TURN_LEFT 1 
 $sequence "180R" "../shared/animations/hgrunt_medic/ld/180R" fps 12 ACT_TURN_RIGHT 1 
-$sequence "dieback1" "animations/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
+$sequence "dieback1" "../shared/animations/hgrunt_opfor/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
   { event 11 5 } 
   { event 2001 17 } 
   { event 1000 26 } 
   { event 1001 26 } 
  }
-$sequence "dieforward" "animations/ld/dieforward" X fps 26 ACT_DIEFORWARD 1 {
+$sequence "dieforward" "../shared/animations/hgrunt_opfor/ld/dieforward" X fps 26 ACT_DIEFORWARD 1 {
   { event 11 3 } 
   { event 2001 10 } 
   { event 1000 40 } 
   { event 1001 40 } 
  }
-$sequence "diesimple" "animations/ld/diesimple" X fps 15 ACT_DIESIMPLE 1 {
+$sequence "diesimple" "../shared/animations/hgrunt_opfor/ld/diesimple" X fps 15 ACT_DIESIMPLE 1 {
   { event 11 3 } 
   { event 2001 10 } 
   { event 1000 14 } 
   { event 1001 14 } 
  }
-$sequence "diebackwards" "animations/ld/diebackwards" X fps 30 ACT_DIEBACKWARD 1 {
+$sequence "diebackwards" "../shared/animations/hgrunt_opfor/ld/diebackwards" X fps 30 ACT_DIEBACKWARD 1 {
   { event 11 6 } 
   { event 2001 12 } 
   { event 1000 53 } 
   { event 1001 53 } 
  }
-$sequence "dieheadshot" "animations/ld/dieheadshot" X fps 30 ACT_DIE_HEADSHOT 1 {
+$sequence "dieheadshot" "../shared/animations/hgrunt_opfor/ld/dieheadshot" X fps 30 ACT_DIE_HEADSHOT 1 {
   { event 11 1 } 
   { event 2001 20 } 
   { event 1000 32 } 
   { event 1001 32 } 
  }
-$sequence "diegutshot" "animations/ld/diegutshot" X fps 30 ACT_DIE_GUTSHOT 1 {
+$sequence "diegutshot" "../shared/animations/hgrunt_opfor/ld/diegutshot" X fps 30 ACT_DIE_GUTSHOT 1 {
   { event 11 0 } 
   { event 2001 29 } 
   { event 1000 68 } 
