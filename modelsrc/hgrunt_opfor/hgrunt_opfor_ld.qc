@@ -89,7 +89,7 @@ $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 
 
 // 73 animation sequence(s)
-$sequence "walk1" "animations/ld/walk1" LX fps 30 loop ACT_WALK 1 
+$sequence "walk1" "../shared/animations/hgrunt/ld/walk1" LX fps 30 loop ACT_WALK 1 
 $sequence "run" "../shared/animations/hgrunt/ld/run" LX fps 30 loop ACT_RUN 1 
 $sequence "victorydance" "../shared/animations/hgrunt/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
 $sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
