@@ -102,7 +102,7 @@ $sequence "leftlegsmflinch" "animations/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LE
 $sequence "rightlegsmflinch" "animations/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
 $sequence "rightarmflinch" "animations/ld/rightarmflinch" fps 22 ACT_FLINCH_RIGHTARM 1 
 $sequence "leftarmflinch" "animations/ld/leftarmflinch" fps 22 ACT_FLINCH_LEFTARM 1 
-$sequence "launchgrenade" "animations/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
+$sequence "launchgrenade" "../shared/animations/hgrunt/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
 $sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
 $sequence "idle1" "animations/ld/idle1" fps 30 loop ACT_IDLE 1 
 $sequence "idle2" "animations/ld/idle2" fps 10 loop ACT_IDLE 1 
