@@ -252,6 +252,29 @@ $sequence "soldier_shoot_ahead" "../shared/animations/hgrunt/ld/soldier_shoot_ah
 $sequence "soldier_kick" "../shared/animations/hgrunt/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
 
 // Friendly grunts sequences
+$sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps 1 
+$sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1 
+$sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1 
+$sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1 
+$sequence "sitting" "../shared/animations/hgrunt_opfor/ld/sitting" fps 10 loop 
+$sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
+$sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
+$sequence "react" "../shared/animations/hgrunt_opfor/ld/react" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "holding_on" "../shared/animations/hgrunt_opfor/ld/holding_on" fps 10 loop 
+$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
+$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
+$sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
+$sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
+$sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
+$sequence "of1a6_get_on" "../shared/animations/hgrunt_opfor/ld/of1a6_get_on" fps 10 loop 
+$sequence "cpr" "../shared/animations/hgrunt_opfor/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
+$sequence "mic_idle1" "../shared/animations/hgrunt_opfor/ld/mic_idle1" fps 30 
+$sequence "mic_idle2" "../shared/animations/hgrunt_opfor/ld/mic_idle2" fps 30 
+$sequence "mic_idle3" "../shared/animations/hgrunt_opfor/ld/mic_idle3" fps 30 
+$sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30 
+$sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30 
+$sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30 
+$sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
 $sequence "crouching_saw" "animations/ld/crouching_saw_blend1" "animations/ld/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
   { event 4 3 } 
   { event 5001 3 "50" } 
@@ -285,29 +308,6 @@ $sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/stan
   { event 5001 19 "50" } 
  }
 $sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
-$sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps 1 
-$sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1 
-$sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1 
-$sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1 
-$sequence "sitting" "../shared/animations/hgrunt_opfor/ld/sitting" fps 10 loop 
-$sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
-$sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
-$sequence "react" "../shared/animations/hgrunt_opfor/ld/react" fps 30 { event 1000 1 } { event 1001 1 } 
-$sequence "holding_on" "../shared/animations/hgrunt_opfor/ld/holding_on" fps 10 loop 
-$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
-$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
-$sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
-$sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
-$sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
-$sequence "of1a6_get_on" "../shared/animations/hgrunt_opfor/ld/of1a6_get_on" fps 10 loop 
-$sequence "cpr" "../shared/animations/hgrunt_opfor/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
-$sequence "mic_idle1" "../shared/animations/hgrunt_opfor/ld/mic_idle1" fps 30 
-$sequence "mic_idle2" "../shared/animations/hgrunt_opfor/ld/mic_idle2" fps 30 
-$sequence "mic_idle3" "../shared/animations/hgrunt_opfor/ld/mic_idle3" fps 30 
-$sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30 
-$sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30 
-$sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30 
-$sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
 $sequence "shoot_shotgun" "animations/ld/shoot_shotgun" fps 25 {
   { event 4 12 } 
   { event 5001 12 "51" } 
