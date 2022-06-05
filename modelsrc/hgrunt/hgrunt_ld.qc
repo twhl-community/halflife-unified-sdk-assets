@@ -39,8 +39,8 @@ studio "meshes/ld/m203_head"
 
 $bodygroup "weapons"
 {
-studio "meshes/ld/gunreference"
 studio "meshes/ld/gunreference(shotgun)"
+studio "../shared/meshes/hgrunt/ld/gunreference"
 blank
 }
 

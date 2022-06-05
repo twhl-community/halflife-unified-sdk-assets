@@ -19,6 +19,7 @@ $cdtexture "../../texturesrc/hgrunt_opfor/fatigues"
 $cdtexture "../../texturesrc/hgrunt_opfor/sleeve"
 $cdtexture "../../texturesrc/hgrunt_medic/head"
 $cdtexture "../../texturesrc/hgrunt/head/shotgun"
+$cdtexture "../../texturesrc/w_9mmar"
 $cdtexture "../../texturesrc/w_shotgun"
 $scale 1.0
 
@@ -53,8 +54,8 @@ studio "meshes/ld/grunt_shotgun_torso_reference"
 
 $bodygroup "weapons"
 {
-studio "meshes/ld/MP5_reference"
 studio "meshes/ld/shotgun_reference"
+studio "../shared/meshes/hgrunt/ld/gunreference"
 studio "meshes/ld/SAW_reference"
 blank
 }
