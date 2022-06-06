@@ -1,0 +1,773 @@
+{
+"classname" "worldspawn"
+"defaultctf" "0"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"gametitle" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"sounds" "1"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 0 -512 160 ) ( 0 -512 0 ) ( 0 512 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 512 160 ) ( 32 512 0 ) ( 32 -512 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 160 ) ( 0 512 0 ) ( 32 512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 32 -512 160 ) ( 32 -512 0 ) ( 0 -512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 0 ) ( 0 -512 0 ) ( 32 512 0 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 32 -512 160 ) ( 0 -512 160 ) ( 32 512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -416 -512 160 ) ( -416 -512 0 ) ( -416 512 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 512 160 ) ( -384 512 0 ) ( -384 -512 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -416 512 160 ) ( -416 512 0 ) ( -384 512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -512 160 ) ( -384 -512 0 ) ( -416 -512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -416 512 0 ) ( -416 -512 0 ) ( -384 512 0 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 -512 160 ) ( -416 -512 160 ) ( -384 512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 0 544 160 ) ( 0 544 0 ) ( 0 512 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 512 160 ) ( -384 512 0 ) ( -384 544 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 160 ) ( 0 512 0 ) ( -384 512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 544 160 ) ( -384 544 0 ) ( 0 544 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 160 ) ( -384 512 160 ) ( 0 544 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 544 0 ) ( -384 512 0 ) ( 0 544 0 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -384 -544 160 ) ( -384 -544 0 ) ( -384 -512 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 160 ) ( 0 -512 0 ) ( 0 -544 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -512 160 ) ( -384 -512 0 ) ( 0 -512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -544 160 ) ( 0 -544 0 ) ( -384 -544 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -512 0 ) ( -384 -544 0 ) ( 0 -512 0 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 -544 160 ) ( -384 -544 160 ) ( 0 -512 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 0 512 192 ) ( 0 512 160 ) ( 0 -512 192 ) C2A4E_W1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -512 192 ) ( -384 -512 160 ) ( -384 512 192 ) C2A4E_W1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 512 192 ) ( -384 512 160 ) ( 0 512 192 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 192 ) ( 0 -512 160 ) ( -384 -512 192 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 192 ) ( -384 -512 192 ) ( 0 512 192 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 512 160 ) ( -384 -512 160 ) ( 0 512 160 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -128 -512 0 ) ( -128 -512 -32 ) ( -128 512 0 ) C1A0_LABFLRC [ -0 -1 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 0 ) ( 0 512 -32 ) ( 0 -512 0 ) C1A0_LABFLRC [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 0 ) ( -128 512 0 ) ( 0 512 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 -32 ) ( -128 -512 -32 ) ( 0 -512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 0 ) ( -128 -512 0 ) ( 0 512 0 ) STRIPES5 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 512 -32 ) ( -128 512 -32 ) ( 0 -512 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 -512 0 ) ( -256 -512 -32 ) ( -256 512 0 ) C1A0_LABFLRC [ -0 -1 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 512 0 ) ( -128 512 -32 ) ( -128 -512 0 ) C1A0_LABFLRC [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 512 0 ) ( -256 512 0 ) ( -128 512 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -512 -32 ) ( -256 -512 -32 ) ( -128 -512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -512 0 ) ( -256 -512 0 ) ( -128 512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -128 512 -32 ) ( -256 512 -32 ) ( -128 -512 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -384 -512 -32 ) ( -384 -64 -32 ) ( -384 -512 0 ) C1A0_LABFLRC [ -0 -1 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 0 ) ( -256 -64 0 ) ( -256 -512 -32 ) C1A0_LABFLRC [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 0 ) ( -256 -512 -32 ) ( -384 -512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -64 0 ) ( -384 -64 -32 ) ( -256 -64 0 ) C1A0_LABFLRC [ -1 -0 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -64 -32 ) ( -384 -512 -32 ) ( -256 -64 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 -512 0 ) ( -384 -64 0 ) ( -256 -512 0 ) STRIPES5 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 -64 0 ) ( -256 64 0 ) ( -256 -64 -32 ) C1A0_LABFLRC [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -64 -32 ) ( -384 64 -32 ) ( -384 -64 0 ) C1A0_LABFLRC [ -0 -1 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -64 0 ) ( -256 -64 -32 ) ( -384 -64 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 64 0 ) ( -384 64 -32 ) ( -256 64 0 ) C1A0_LABFLRC [ -1 -0 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -64 0 ) ( -384 64 0 ) ( -256 -64 0 ) STRIPES2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 64 -32 ) ( -384 -64 -32 ) ( -256 64 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 512 -32 ) ( -256 64 -32 ) ( -256 512 0 ) C1A0_LABFLRC [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 512 0 ) ( -384 64 0 ) ( -384 512 -32 ) C1A0_LABFLRC [ -0 -1 -0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 512 0 ) ( -384 512 -32 ) ( -256 512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 0 ) ( -256 64 -32 ) ( -384 64 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 64 0 ) ( -384 512 0 ) ( -256 64 0 ) STRIPES5 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 512 -32 ) ( -384 64 -32 ) ( -256 512 -32 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 200"
+"light" "255 255 128 200"
+"origin" "-192 0 128"
+}
+{
+"classname" "ambient_music"
+"targetname" "resume"
+"command" "3"
+"origin" "-32 64 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "play"
+"filename" "media/Half-Life01.mp3"
+"origin" "-32 448 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "looping"
+"filename" "media/Half-Life02.mp3"
+"command" "1"
+"origin" "-32 320 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "pause"
+"command" "2"
+"origin" "-32 192 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "fadeout"
+"command" "4"
+"origin" "-32 -64 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "stop"
+"filename" "media/Half-Life01.mp3"
+"command" "5"
+"origin" "-32 -192 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "activator"
+"filename" "media/Half-Life03.mp3"
+"target_selector" "1"
+"origin" "-32 -320 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "localplayer"
+"filename" "media/Half-Life04.mp3"
+"target_selector" "2"
+"origin" "-32 -448 64"
+}
+{
+"classname" "ambient_music"
+"targetname" "radius"
+"filename" "media/Half-Life05.mp3"
+"radius" "64"
+"target_selector" "3"
+"origin" "-320 0 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "radius_msg"
+{
+( -384 -512 128 ) ( -384 -512 0 ) ( -384 64 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 128 ) ( -256 64 0 ) ( -256 -512 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 64 128 ) ( -384 64 0 ) ( -256 64 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 128 ) ( -256 -512 0 ) ( -384 -512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 128 ) ( -384 -512 128 ) ( -256 64 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -384 64 0 ) ( -384 -512 0 ) ( -256 64 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "radius_msg"
+"message" "Radius (stand inside yellow zone for music to play)"
+"origin" "-224 0 64"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "play_msg"
+"message" "Play"
+"origin" "-160 448 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "play_msg"
+{
+( 0 512 128 ) ( 0 512 0 ) ( 0 384 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 384 128 ) ( -128 384 0 ) ( -128 512 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 384 128 ) ( 0 384 0 ) ( -128 384 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 512 128 ) ( -128 512 0 ) ( 0 512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 512 0 ) ( -128 384 0 ) ( 0 512 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 384 128 ) ( -128 384 128 ) ( 0 512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "looping_msg"
+"message" "Play looping"
+"origin" "-160 320 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "looping_msg"
+{
+( 0 384 128 ) ( 0 384 0 ) ( 0 256 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 256 128 ) ( -128 256 0 ) ( -128 384 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 256 128 ) ( 0 256 0 ) ( -128 256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 384 128 ) ( -128 384 0 ) ( 0 384 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 384 0 ) ( -128 256 0 ) ( 0 384 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( 0 256 128 ) ( -128 256 128 ) ( 0 384 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "pause_msg"
+"message" "Pause"
+"origin" "-160 192 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "pause_msg"
+{
+( 0 256 128 ) ( 0 256 0 ) ( 0 128 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 128 128 ) ( -128 128 0 ) ( -128 256 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 128 128 ) ( 0 128 0 ) ( -128 128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 256 128 ) ( -128 256 0 ) ( 0 256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 256 0 ) ( -128 128 0 ) ( 0 256 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( 0 128 128 ) ( -128 128 128 ) ( 0 256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "resume_msg"
+"message" "Resume"
+"origin" "-160 64 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "resume_msg"
+{
+( 0 128 128 ) ( 0 128 0 ) ( 0 0 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 0 128 ) ( -128 0 0 ) ( -128 128 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 128 ) ( 0 0 0 ) ( -128 0 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 128 128 ) ( -128 128 0 ) ( 0 128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 128 0 ) ( -128 0 0 ) ( 0 128 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 0 128 ) ( -128 0 128 ) ( 0 128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "fadeout_msg"
+"message" "Fade out"
+"origin" "-160 -64 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "fadeout_msg"
+{
+( 0 0 128 ) ( 0 0 0 ) ( 0 -128 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -128 128 ) ( -128 -128 0 ) ( -128 0 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -128 128 ) ( 0 -128 0 ) ( -128 -128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 0 128 ) ( -128 0 0 ) ( 0 0 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 0 0 ) ( -128 -128 0 ) ( 0 0 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 -128 128 ) ( -128 -128 128 ) ( 0 0 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "stop_msg"
+"message" "Stop"
+"origin" "-160 -192 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "stop_msg"
+{
+( 0 -128 128 ) ( 0 -128 0 ) ( 0 -256 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -256 128 ) ( -128 -256 0 ) ( -128 -128 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -256 128 ) ( 0 -256 0 ) ( -128 -256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -128 128 ) ( -128 -128 0 ) ( 0 -128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -128 0 ) ( -128 -256 0 ) ( 0 -128 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 -256 128 ) ( -128 -256 128 ) ( 0 -128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "activator_msg"
+"message" "Activator"
+"origin" "-160 -320 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "activator_msg"
+{
+( 0 -256 128 ) ( 0 -256 0 ) ( 0 -384 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -384 128 ) ( -128 -384 0 ) ( -128 -256 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -384 128 ) ( 0 -384 0 ) ( -128 -384 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -256 128 ) ( -128 -256 0 ) ( 0 -256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -256 0 ) ( -128 -384 0 ) ( 0 -256 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 -384 128 ) ( -128 -384 128 ) ( 0 -256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "localplayer_msg"
+"message" "Local Player"
+"origin" "-160 -448 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "localplayer_msg"
+{
+( 0 -384 128 ) ( 0 -384 0 ) ( 0 -512 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -512 128 ) ( -128 -512 0 ) ( -128 -384 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -512 128 ) ( 0 -512 0 ) ( -128 -512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -384 128 ) ( -128 -384 0 ) ( 0 -384 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -128 -384 0 ) ( -128 -512 0 ) ( 0 -384 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( 0 -512 128 ) ( -128 -512 128 ) ( 0 -384 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "play"
+{
+( -8 440 72 ) ( -8 440 56 ) ( -8 456 72 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 456 72 ) ( 0 456 56 ) ( 0 440 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 456 72 ) ( -8 456 56 ) ( 0 456 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 440 72 ) ( 0 440 56 ) ( -8 440 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 440 72 ) ( -8 440 72 ) ( 0 456 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -8 456 56 ) ( -8 440 56 ) ( 0 456 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "looping"
+{
+( -8 312 72 ) ( -8 312 56 ) ( -8 328 72 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 328 72 ) ( 0 328 56 ) ( 0 312 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 328 72 ) ( -8 328 56 ) ( 0 328 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 312 72 ) ( 0 312 56 ) ( -8 312 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 312 72 ) ( -8 312 72 ) ( 0 328 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -8 328 56 ) ( -8 312 56 ) ( 0 328 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "pause"
+{
+( -8 184 72 ) ( -8 184 56 ) ( -8 200 72 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 200 72 ) ( 0 200 56 ) ( 0 184 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 200 72 ) ( -8 200 56 ) ( 0 200 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 184 72 ) ( 0 184 56 ) ( -8 184 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 184 72 ) ( -8 184 72 ) ( 0 200 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -8 200 56 ) ( -8 184 56 ) ( 0 200 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "resume"
+{
+( -8 56 72 ) ( -8 56 56 ) ( -8 72 72 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 72 72 ) ( 0 72 56 ) ( 0 56 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 72 72 ) ( -8 72 56 ) ( 0 72 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 56 72 ) ( 0 56 56 ) ( -8 56 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 56 72 ) ( -8 56 72 ) ( 0 72 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -8 72 56 ) ( -8 56 56 ) ( 0 72 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "fadeout"
+{
+( 0 -56 72 ) ( 0 -56 56 ) ( 0 -72 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 -72 72 ) ( -8 -72 56 ) ( -8 -56 72 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 -72 72 ) ( 0 -72 56 ) ( -8 -72 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 -56 72 ) ( -8 -56 56 ) ( 0 -56 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 -56 56 ) ( -8 -72 56 ) ( 0 -56 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 -72 72 ) ( -8 -72 72 ) ( 0 -56 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "stop"
+{
+( -8 -200 72 ) ( -8 -200 56 ) ( -8 -184 72 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 -184 72 ) ( 0 -184 56 ) ( 0 -200 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 -184 72 ) ( -8 -184 56 ) ( 0 -184 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -200 72 ) ( 0 -200 56 ) ( -8 -200 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -200 72 ) ( -8 -200 72 ) ( 0 -184 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -8 -184 56 ) ( -8 -200 56 ) ( 0 -184 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "activator"
+{
+( -8 -328 72 ) ( -8 -328 56 ) ( -8 -312 72 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 -312 72 ) ( 0 -312 56 ) ( 0 -328 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 -312 72 ) ( -8 -312 56 ) ( 0 -312 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -328 72 ) ( 0 -328 56 ) ( -8 -328 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -328 72 ) ( -8 -328 72 ) ( 0 -312 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -8 -312 56 ) ( -8 -328 56 ) ( 0 -312 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "localplayer"
+{
+( -8 -456 72 ) ( -8 -456 56 ) ( -8 -440 72 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( 0 -440 72 ) ( 0 -440 56 ) ( 0 -456 72 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 -440 72 ) ( -8 -440 56 ) ( 0 -440 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -456 72 ) ( 0 -456 56 ) ( -8 -456 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -456 72 ) ( -8 -456 72 ) ( 0 -440 72 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -8 -440 56 ) ( -8 -456 56 ) ( 0 -440 56 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "radius"
+{
+( -384 -8 72 ) ( -384 -8 56 ) ( -384 8 72 ) +0BUTTON1 [ 0 -1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+( -376 8 72 ) ( -376 8 56 ) ( -376 -8 72 ) +0BUTTON1 [ 0 -1 0 -16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( -384 8 72 ) ( -384 8 56 ) ( -376 8 72 ) +0BUTTON1 [ -1 -0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -376 -8 72 ) ( -376 -8 56 ) ( -384 -8 72 ) +0BUTTON1 [ -1 -0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -376 -8 56 ) ( -376 8 56 ) ( -384 -8 56 ) +0BUTTON1 [ -1 -0 0 -0 ] [ -0 1 0 32 ] 0 1 1
+( -384 8 72 ) ( -376 8 72 ) ( -384 -8 72 ) +0BUTTON1 [ -1 -0 0 -0 ] [ -0 1 0 32 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "radius"
+{
+( -384 -136 72 ) ( -384 -136 56 ) ( -384 -120 72 ) +0BUTTON1 [ 0 -1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+( -376 -120 72 ) ( -376 -120 56 ) ( -376 -136 72 ) +0BUTTON1 [ 0 -1 0 -16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( -384 -120 72 ) ( -384 -120 56 ) ( -376 -120 72 ) +0BUTTON1 [ -1 -0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -376 -136 72 ) ( -376 -136 56 ) ( -384 -136 72 ) +0BUTTON1 [ -1 -0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -376 -136 56 ) ( -376 -120 56 ) ( -384 -136 56 ) +0BUTTON1 [ -1 -0 0 -0 ] [ -0 1 0 32 ] 0 1 1
+( -384 -120 72 ) ( -376 -120 72 ) ( -384 -136 72 ) +0BUTTON1 [ -1 -0 0 -0 ] [ -0 1 0 32 ] 0 1 1
+}
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"delay" "0"
+"sounds" "0"
+"target" "fireonce_msg"
+{
+( -384 64 128 ) ( -384 64 0 ) ( -384 512 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 512 128 ) ( -256 512 0 ) ( -256 64 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 512 128 ) ( -384 512 0 ) ( -256 512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 128 ) ( -256 64 0 ) ( -384 64 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 128 ) ( -384 64 128 ) ( -256 512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -384 512 0 ) ( -384 64 0 ) ( -256 512 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "fireonce_msg"
+"message" "Plays music once, then removes itself"
+"origin" "-224 448 64"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"unlocked_sentence" "0"
+"locked_sentence" "0"
+"unlocked_sound" "0"
+"locked_sound" "0"
+"delay" "0"
+"wait" "1"
+"sounds" "9"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "fireonce"
+{
+( -384 120 72 ) ( -384 120 56 ) ( -384 136 72 ) +0BUTTON1 [ 0 -1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+( -376 136 72 ) ( -376 136 56 ) ( -376 120 72 ) +0BUTTON1 [ 0 -1 0 -16 ] [ 0 0 -1 16 ] 0 0.5 0.5
+( -384 136 72 ) ( -384 136 56 ) ( -376 136 72 ) +0BUTTON1 [ -1 -0 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+( -376 120 72 ) ( -376 120 56 ) ( -384 120 72 ) +0BUTTON1 [ -1 -0 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+( -376 120 56 ) ( -376 136 56 ) ( -384 120 56 ) +0BUTTON1 [ -1 -0 0 -32 ] [ -0 1 0 32 ] 0 1 1
+( -384 136 72 ) ( -376 136 72 ) ( -384 120 72 ) +0BUTTON1 [ -1 -0 0 -32 ] [ -0 1 0 32 ] 0 1 1
+}
+}
+{
+"classname" "ambient_music"
+"targetname" "fireonce"
+"filename" "media/Half-Life17.mp3"
+"radius" "64"
+"target_selector" "3"
+"remove_on_fire" "1"
+"origin" "-320 128 64"
+}
