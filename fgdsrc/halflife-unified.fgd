@@ -230,7 +230,6 @@
 [
   message(string) : "Map Description / Title"
   skyname(string) : "environment map (cl_skyname)"
-  sounds(integer) : "CD track to play" : 1
   light(integer) : "Default light level"
   WaveHeight(string) : "Default Wave Height"
   MaxRange(string) : "Max viewable distance" : "4096"
