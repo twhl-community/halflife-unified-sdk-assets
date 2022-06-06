@@ -806,6 +806,37 @@
   ]
 ]
 
+@PointClass iconsprite("sprites/speaker.spr") base(Targetname) = ambient_music : "Plays music"
+[
+  filename(string) : "Filename of music file"
+  
+  command(choices) : "Command" : 0 =
+  [
+    0 : "Play"
+    1 : "Play looping"
+	2 : "Pause"
+	3 : "Resume"
+	4 : "Fadeout"
+	5 : "Stop"
+  ]
+  
+  target_selector(choices) : "Target selector" : 0 =
+  [
+    0 : "All Players"
+    1 : "Activator"
+	2 : "LocalPlayer"
+	3 : "Radius"
+  ]
+  
+  radius(string) : "Player radius (for Radius target selector)"
+  
+  remove_on_fire(choices) : "Remove on fire" : 0 =
+  [
+    0 : "No"
+	1 : "Yes"
+  ]
+]
+
 //
 // ammo
 //
