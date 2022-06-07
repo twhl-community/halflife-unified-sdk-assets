@@ -1,7 +1,7 @@
 // See the MSDN documentation on the Matcher class for more information on what kind of patterns are supported:
 // https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.filesystemglobbing.matcher
 {
-	"Directories": [
+	"PatternGroups": [
 		{
 			//The OpenAL library has to be in the game directory in order for the OS to find it when it's loaded.
 			"Paths": [
