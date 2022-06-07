@@ -16,7 +16,6 @@ $modelname "hgrunt_medic_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_medic/hd"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
