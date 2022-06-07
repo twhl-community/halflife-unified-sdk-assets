@@ -20,11 +20,11 @@
 				},
 				{
 					"Path": "%ModDirectory%_hd",
-					"Optional": true
+					"Required": false
 				},
 				{
 					"Path": "%ModDirectory%_lv",
-					"Optional": true
+					"Required": false
 				}
 			],
 			
