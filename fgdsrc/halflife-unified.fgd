@@ -813,10 +813,8 @@
   [
     0 : "Play"
     1 : "Play looping"
-	2 : "Pause"
-	3 : "Resume"
-	4 : "Fadeout"
-	5 : "Stop"
+	2 : "Fadeout"
+	3 : "Stop"
   ]
   
   target_selector(choices) : "Target selector" : 0 =
