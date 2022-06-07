@@ -14,11 +14,11 @@ Original internal name:
 
 $modelname "hgrunt_opfor_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/hgrunt_opfor"
-$cdtexture "../../texturesrc/hgrunt_opfor/fatigues"
-$cdtexture "../../texturesrc/hgrunt_opfor/sleeve"
-$cdtexture "../../texturesrc/hgrunt_medic/head"
-$cdtexture "../../texturesrc/hgrunt/head/shotgun"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld/fatigues"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld/sleeve"
+$cdtexture "../../texturesrc/hgrunt_medic/ld/head"
+$cdtexture "../../texturesrc/hgrunt/ld/head/shotgun"
 $cdtexture "../../texturesrc/w_9mmar"
 $cdtexture "../../texturesrc/w_shotgun"
 $scale 1.0

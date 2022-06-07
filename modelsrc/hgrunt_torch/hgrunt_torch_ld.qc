@@ -14,10 +14,10 @@ Original internal name:
 
 $modelname "hgrunt_torch_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/hgrunt_torch"
-$cdtexture "../../texturesrc/hgrunt_torch/fatigues"
-$cdtexture "../../texturesrc/hgrunt_torch/sleeve"
-$cdtexture "../../texturesrc/hgrunt_opfor"
+$cdtexture "../../texturesrc/hgrunt_torch/ld"
+$cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
+$cdtexture "../../texturesrc/hgrunt_torch/ld/sleeve"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld"
 $cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
