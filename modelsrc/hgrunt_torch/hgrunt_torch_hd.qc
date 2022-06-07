@@ -24,7 +24,7 @@ $eyeposition 0.000000 0.000000 73.000000
 
 
 //reference mesh(es)
-$body "heads" "meshes/hd/engineer_reference"
+$body "heads" "meshes/hd/engineer_head_reference"
 
 $body "body" "meshes/hd/fatigues_torch_reference"
 
