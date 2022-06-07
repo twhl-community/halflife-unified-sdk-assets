@@ -15,6 +15,7 @@ Original internal name:
 $modelname "hgrunt_opfor_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_opfor/hd"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld/fatigues"
 $cdtexture "../../texturesrc/hgrunt/hd"
 $scale 1.0
 
@@ -25,7 +26,7 @@ $eyeposition 0.000000 0.000000 73.000000
 
 
 //reference mesh(es)
-$body "body" "meshes/hd/fatigues_reference"
+$body "body" "../shared/meshes/hgrunt_opfor/hd/grunt_fatigues_reference"
 
 $bodygroup "heads"
 {

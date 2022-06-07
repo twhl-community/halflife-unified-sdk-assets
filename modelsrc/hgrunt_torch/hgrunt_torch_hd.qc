@@ -15,7 +15,9 @@ Original internal name:
 $modelname "hgrunt_torch_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_torch/hd"
+$cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/sleeve"
+$cdtexture "../../texturesrc/hgrunt/hd"
 $scale 1.0
 
 
@@ -27,7 +29,7 @@ $eyeposition 0.000000 0.000000 73.000000
 //reference mesh(es)
 $body "heads" "meshes/hd/engineer_head_reference"
 
-$body "body" "meshes/hd/fatigues_torch_reference"
+$body "body" "../shared/meshes/hgrunt_opfor/hd/grunt_fatigues_reference"
 
 $body "torso" "meshes/hd/engineer_torso_reference"
 
