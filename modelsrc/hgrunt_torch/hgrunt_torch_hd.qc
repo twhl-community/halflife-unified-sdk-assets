@@ -15,6 +15,7 @@ Original internal name:
 $modelname "hgrunt_torch_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_torch/hd"
+$cdtexture "../../texturesrc/hgrunt_torch/ld/sleeve"
 $scale 1.0
 
 
