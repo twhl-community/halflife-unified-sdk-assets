@@ -15,6 +15,7 @@ Original internal name:
 $modelname "hgrunt_medic_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_medic/hd"
+$cdtexture "../../texturesrc/hgrunt_medic/hd/head"
 $cdtexture "../../texturesrc/hgrunt_medic/ld"
 $cdtexture "../../texturesrc/hgrunt_medic/ld/head"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
@@ -45,7 +46,7 @@ studio "meshes/hd/engineer_gunholster_reference"
 // 2 skin families
 $texturegroup skinfamilies 
 {
-{ "medic_head_wt.BMP" }
+{ "medic_head.BMP" }
 { "medic_head_blk.BMP" }
 }
 
