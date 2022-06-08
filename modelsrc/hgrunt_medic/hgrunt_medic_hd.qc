@@ -16,6 +16,7 @@ $modelname "hgrunt_medic_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_medic/hd"
 $cdtexture "../../texturesrc/hgrunt_medic/ld"
+$cdtexture "../../texturesrc/hgrunt_medic/ld/head"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
 $cdtexture "../../texturesrc/hgrunt/hd"
 $scale 1.0
