@@ -18,7 +18,7 @@ $cdtexture "../../texturesrc/hgrunt_medic/ld"
 $cdtexture "../../texturesrc/hgrunt_medic/ld/head"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
 $cdtexture "../../texturesrc/hgrunt_opfor/ld"
-$cdtexture "../../texturesrc/hgrunt/hd/sleeve"
+$cdtexture "../../texturesrc/hgrunt/hd"
 $cdtexture "../../texturesrc/barney"
 $cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
