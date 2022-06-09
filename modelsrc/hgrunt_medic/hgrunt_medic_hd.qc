@@ -40,7 +40,6 @@ $body "torso" "meshes/hd/torso_medic_reference"
 $bodygroup "weapons"
 {
 studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
-studio "meshes/ld/hypodermic_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 }
 
@@ -49,6 +48,12 @@ $bodygroup "glock"
 studio "meshes/hd/beretta_gunholster_reference"
 studio "meshes/hd/beretta_reference"
 blank
+}
+
+$bodygroup "needle"
+{
+blank
+studio "meshes/ld/hypodermic_reference"
 }
 
 // 2 skin families
