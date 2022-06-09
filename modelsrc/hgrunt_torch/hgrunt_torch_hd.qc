@@ -19,6 +19,7 @@ $cdtexture "../../texturesrc/hgrunt_torch/ld"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/sleeve"
 $cdtexture "../../texturesrc/hgrunt/hd"
+$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
 
@@ -36,9 +37,9 @@ $body "torso" "meshes/hd/engineer_torso_reference"
 
 $bodygroup "weapons"
 {
-studio "meshes/hd/Desert_Eagle_reference"
 studio "meshes/hd/engineer_torch_reference"
 studio "meshes/hd/engineer_gunholster_reference"
+studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 }
 
 

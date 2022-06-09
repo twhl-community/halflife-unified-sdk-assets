@@ -20,6 +20,7 @@ $cdtexture "../../texturesrc/hgrunt_medic/ld"
 $cdtexture "../../texturesrc/hgrunt_medic/ld/head"
 $cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
 $cdtexture "../../texturesrc/hgrunt/hd"
+$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
 $scale 1.0
 
 
@@ -37,7 +38,7 @@ $body "torso" "meshes/hd/torso_medic_reference"
 
 $bodygroup "weapons"
 {
-studio "meshes/hd/Desert_Eagle_reference"
+studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 studio "meshes/hd/beretta_reference"
 studio "meshes/hd/hypodermic_reference"
 studio "meshes/hd/engineer_gunholster_reference"
