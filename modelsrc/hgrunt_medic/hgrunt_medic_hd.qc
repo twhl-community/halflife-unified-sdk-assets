@@ -37,10 +37,11 @@ $body "heads" "meshes/hd/grunt_medic_head_reference"
 
 $body "torso" "meshes/hd/torso_medic_reference"
 
-$bodygroup "weapons"
+$bodygroup "deagle"
 {
-studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
+studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
+blank
 }
 
 $bodygroup "glock"
