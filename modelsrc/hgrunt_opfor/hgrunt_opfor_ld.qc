@@ -17,7 +17,7 @@ $cd ".\"
 $cdtexture "../../texturesrc/hgrunt_opfor/ld"
 $cdtexture "../../texturesrc/hgrunt_medic/ld"
 $cdtexture "../../texturesrc/hgrunt/hd"
-$cdtexture "../../texturesrc/hgrunt/ld/head/shotgun"
+$cdtexture "../../texturesrc/hgrunt/ld"
 $cdtexture "../../texturesrc/w_9mmar"
 $cdtexture "../../texturesrc/w_shotgun"
 $scale 1.0
