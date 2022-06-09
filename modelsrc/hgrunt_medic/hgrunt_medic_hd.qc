@@ -40,8 +40,8 @@ $bodygroup "weapons"
 {
 studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 studio "meshes/hd/beretta_reference"
-studio "meshes/hd/hypodermic_reference"
 studio "meshes/hd/engineer_gunholster_reference"
+studio "meshes/ld/hypodermic_reference"
 }
 
 // 2 skin families
