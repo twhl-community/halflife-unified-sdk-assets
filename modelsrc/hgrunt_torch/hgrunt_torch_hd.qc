@@ -37,8 +37,9 @@ $body "torso" "meshes/hd/engineer_torso_reference"
 
 $bodygroup "weapons"
 {
-studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
+studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
+blank
 }
 
 $bodygroup "torch"
