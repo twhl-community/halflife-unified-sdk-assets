@@ -34,7 +34,7 @@ $body "body" "../shared/meshes/hgrunt_opfor/hd/grunt_fatigues_reference"
 $bodygroup "heads"
 {
 studio "meshes/hd/grunt_head_mask_reference"
-studio "meshes/hd/grunt_head_commander_reference"
+studio "meshes/ld/grunt_head_commander_reference"
 studio "meshes/hd/grunt_head_shotgun_reference"
 studio "meshes/hd/grunt_head_saw_wht_reference"
 studio "meshes/hd/grunt_head_saw_blk_reference"
