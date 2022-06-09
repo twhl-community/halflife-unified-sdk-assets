@@ -38,7 +38,7 @@ studio "meshes/ld/grunt_head_commander_reference"
 studio "meshes/hd/grunt_head_shotgun_reference"
 studio "meshes/hd/grunt_head_saw_wht_reference"
 studio "meshes/hd/grunt_head_saw_blk_reference"
-studio "meshes/hd/grunt_head_MP_reference"
+studio "meshes/ld/grunt_head_MP_reference"
 studio "meshes/ld/grunt_head_major_reference"
 studio "meshes/ld/grunt_head_commander_blk_reference"
 }
