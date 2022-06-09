@@ -56,7 +56,7 @@ $bodygroup "weapons"
 {
 studio "../shared/meshes/hgrunt/hd/DC_soldier_M4_reference"
 studio "../shared/meshes/hgrunt/hd/DC_soldier_shotgun_reference"
-studio "meshes/hd/SAW_reference"
+studio "meshes/ld/SAW_reference"
 blank
 }
 
