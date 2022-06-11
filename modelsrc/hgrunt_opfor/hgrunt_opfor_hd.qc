@@ -89,20 +89,20 @@ $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 
 
 // 73 animation sequence(s)
-$sequence "walk1" "animations/hd/walk1" LX fps 30 loop ACT_WALK 1 
-$sequence "run" "animations/hd/run" LX fps 30 loop ACT_RUN 1 
-$sequence "victorydance" "animations/hd/victorydance" fps 21 ACT_VICTORY_DANCE 1 
-$sequence "cower" "animations/hd/cower" fps 28 ACT_COWER 1 
-$sequence "smflinch" "animations/hd/smflinch" fps 20 ACT_SMALL_FLINCH 5 
-$sequence "launchgrenade" "animations/hd/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
-$sequence "throwgrenade" "animations/hd/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
-$sequence "idle1" "animations/hd/idle1" fps 30 loop ACT_IDLE 1 
-$sequence "idle2" "animations/hd/idle2" fps 10 loop ACT_IDLE 1 
-$sequence "combatidle" "animations/hd/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
-$sequence "frontkick" "animations/hd/frontkick" fps 35 ACT_MELEE_ATTACK1 1 { event 3 14 } { event 2010 14 } 
-$sequence "crouching_idle" "animations/hd/crouching_idle" fps 30 loop 
-$sequence "crouching_wait" "animations/hd/crouching_wait" fps 30 ACT_CROUCH 0 
-$sequence "crouching_mp5" "animations/hd/crouching_mp5_blend1" "animations/hd/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
+$sequence "walk1" "../shared/animations/hgrunt/ld/walk1" LX fps 30 loop ACT_WALK 1 
+$sequence "run" "../shared/animations/hgrunt/ld/run" LX fps 30 loop ACT_RUN 1 
+$sequence "victorydance" "../shared/animations/hgrunt/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
+$sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
+$sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
+$sequence "launchgrenade" "../shared/animations/hgrunt/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
+$sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
+$sequence "idle1" "../shared/animations/hgrunt/ld/idle1" fps 30 loop ACT_IDLE 1 
+$sequence "idle2" "animations/ld/idle2" fps 10 loop ACT_IDLE 1 
+$sequence "combatidle" "animations/ld/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
+$sequence "frontkick" "../shared/animations/hgrunt/ld/frontkick" fps 35 ACT_MELEE_ATTACK1 1 { event 3 14 } { event 2010 14 } 
+$sequence "crouching_idle" "animations/ld/crouching_idle" fps 30 loop 
+$sequence "crouching_wait" "animations/ld/crouching_wait" fps 30 ACT_CROUCH 0 
+$sequence "crouching_mp5" "../shared/animations/hgrunt/ld/crouching_mp5_blend1" "../shared/animations/hgrunt/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -110,7 +110,7 @@ $sequence "crouching_mp5" "animations/hd/crouching_mp5_blend1" "animations/hd/cr
   { event 5001 2 "50" } 
   { event 5001 4 "50" } 
  }
-$sequence "standing_mp5" "animations/hd/standing_mp5_blend1" "animations/hd/standing_mp5_blend2" blend XR -45 45 fps 20 loop {
+$sequence "standing_mp5" "../shared/animations/hgrunt/ld/standing_mp5_blend1" "../shared/animations/hgrunt/ld/standing_mp5_blend2" blend XR -45 45 fps 20 loop {
   { event 4 0 } 
   { event 5 2 } 
   { event 6 4 } 
@@ -118,18 +118,18 @@ $sequence "standing_mp5" "animations/hd/standing_mp5_blend1" "animations/hd/stan
   { event 5001 2 "50" } 
   { event 5001 4 "50" } 
  }
-$sequence "reload_mp5" "animations/hd/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 47 } 
-$sequence "crouching_shotgun" "animations/hd/crouching_shotgun_blend1" "animations/hd/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
-$sequence "standing_shotgun" "animations/hd/standing_shotgun_blend1" "animations/hd/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
-$sequence "reload_shotgun" "animations/hd/reload_shotgun" fps 40 { event 2 47 } 
-$sequence "advance_signal" "animations/hd/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
-$sequence "flank_signal" "animations/hd/flank_signal" fps 40 ACT_SIGNAL2 1 
-$sequence "retreat_signal" "animations/hd/retreat_signal" fps 30 ACT_SIGNAL3 1 
-$sequence "drop_grenade" "animations/hd/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 22 } 
-$sequence "limpingwalk" "animations/hd/limpingwalk" LX fps 30 loop ACT_WALK_HURT 1 
-$sequence "limpingrun" "animations/hd/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
-$sequence "180L" "animations/hd/180L" fps 12 ACT_TURN_LEFT 1 
-$sequence "180R" "animations/hd/180R" fps 12 ACT_TURN_RIGHT 1 
+$sequence "reload_mp5" "../shared/animations/hgrunt/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 47 } 
+$sequence "crouching_shotgun" "../shared/animations/hgrunt/ld/crouching_shotgun_blend1" "../shared/animations/hgrunt/ld/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
+$sequence "standing_shotgun" "../shared/animations/hgrunt/ld/standing_shotgun_blend1" "../shared/animations/hgrunt/ld/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
+$sequence "reload_shotgun" "../shared/animations/hgrunt/ld/reload_shotgun" fps 40 { event 2 47 } 
+$sequence "advance_signal" "../shared/animations/hgrunt/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
+$sequence "flank_signal" "../shared/animations/hgrunt/ld/flank_signal" fps 40 ACT_SIGNAL2 1 
+$sequence "retreat_signal" "../shared/animations/hgrunt/ld/retreat_signal" fps 30 ACT_SIGNAL3 1 
+$sequence "drop_grenade" "../shared/animations/hgrunt/ld/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 22 } 
+$sequence "limpingwalk" "../shared/animations/hgrunt/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT 1 
+$sequence "limpingrun" "../shared/animations/hgrunt/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
+$sequence "180L" "../shared/animations/hgrunt/ld/180L" fps 12 ACT_TURN_LEFT 1 
+$sequence "180R" "../shared/animations/hgrunt/ld/180R" fps 12 ACT_TURN_RIGHT 1 
 $sequence "dieback1" "../shared/animations/hgrunt/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
   { event 11 5 } 
   { event 2001 17 } 
@@ -166,17 +166,17 @@ $sequence "diegutshot" "../shared/animations/hgrunt/hd/diegutshot" X fps 31 ACT_
   { event 1000 68 } 
   { event 1001 68 } 
  }
-$sequence "barnacled1" "animations/hd/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
-$sequence "barnacled2" "animations/hd/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
-$sequence "barnacled3" "animations/hd/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
-$sequence "barnacled4" "animations/hd/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
-$sequence "dead_on_stomach" "animations/hd/dead_on_stomach" fps 1 
-$sequence "deadstomach" "animations/hd/deadstomach" fps 1 
-$sequence "deadside" "animations/hd/deadside" fps 1 
-$sequence "deadsitting" "animations/hd/deadsitting" fps 1 
-$sequence "repel_jump" "animations/hd/repel_jump" fps 22 ACT_HOVER 1 
-$sequence "repel_repel" "animations/hd/repel_repel" fps 18 loop ACT_GLIDE 1 
-$sequence "repel_shoot" "animations/hd/repel_shoot_blend1" "animations/hd/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
+$sequence "barnacled1" "../shared/animations/hgrunt/ld/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
+$sequence "barnacled2" "../shared/animations/hgrunt/ld/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
+$sequence "barnacled3" "../shared/animations/hgrunt/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
+$sequence "barnacled4" "../shared/animations/hgrunt/ld/barnacled4" fps 15 loop ACT_BARNACLE_CHEW 1 
+$sequence "dead_on_stomach" "../shared/animations/hgrunt/ld/dead_on_stomach" fps 1 
+$sequence "deadstomach" "../shared/animations/hgrunt/ld/deadstomach" fps 1 
+$sequence "deadside" "../shared/animations/hgrunt/ld/deadside" fps 1 
+$sequence "deadsitting" "../shared/animations/hgrunt/ld/deadsitting" fps 1 
+$sequence "repel_jump" "../shared/animations/hgrunt/ld/repel_jump" fps 22 ACT_HOVER 1 
+$sequence "repel_repel" "../shared/animations/hgrunt/ld/repel_repel" fps 18 loop ACT_GLIDE 1 
+$sequence "repel_shoot" "../shared/animations/hgrunt/ld/repel_shoot_blend1" "../shared/animations/hgrunt/ld/repel_shoot_blend2" blend XR -90 45 fps 18 loop ACT_FLY 1 {
   { event 4 1 } 
   { event 5 3 } 
   { event 6 5 } 
@@ -184,39 +184,39 @@ $sequence "repel_shoot" "animations/hd/repel_shoot_blend1" "animations/hd/repel_
   { event 5001 3 } 
   { event 5001 5 } 
  }
-$sequence "repel_land" "animations/hd/repel_land" fps 20 ACT_LAND 1 
-$sequence "repel_die" "animations/hd/repel_die" fps 12 
+$sequence "repel_land" "../shared/animations/hgrunt/ld/repel_land" fps 20 ACT_LAND 1 
+$sequence "repel_die" "../shared/animations/hgrunt/ld/repel_die" fps 12 
 
 // Friendly grunts sequences
-$sequence "dead_on_back" "animations/hd/dead_on_back" fps 1 
-$sequence "dead_headcrabed" "animations/hd/dead_headcrabed" fps 1 
-$sequence "hgrunt_dead_stomach" "animations/hd/hgrunt_dead_stomach" fps 1 
-$sequence "dead_canyon" "animations/hd/dead_canyon" fps 1 
-$sequence "sitting" "animations/hd/sitting" fps 10 loop 
-$sequence "sitting2" "animations/hd/sitting2" fps 8 loop 
-$sequence "sitting3" "animations/hd/sitting3" fps 6 loop 
-$sequence "react" "animations/hd/react" fps 30 { event 1000 1 } { event 1001 1 } 
-$sequence "holding_on" "animations/hd/holding_on" fps 10 loop 
-$sequence "open_floor_grate" "animations/hd/open_floor_grate" fps 25 
-$sequence "hgrunt_on_stretcher" "animations/hd/hgrunt_on_stretcher" fps 34 
-$sequence "crawling" "animations/hd/crawling" fps 17 { event 1001 120 } 
-$sequence "of2a2_speech_idle" "animations/hd/of2a2_speech_idle" fps 30 loop 
-$sequence "of2a2_death_speech" "animations/hd/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
-$sequence "of1a6_get_on" "animations/hd/of1a6_get_on" fps 10 loop 
-$sequence "cpr" "animations/hd/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
-$sequence "mic_idle1" "animations/hd/mic_idle1" fps 30 
-$sequence "mic_idle2" "animations/hd/mic_idle2" fps 30 
-$sequence "mic_idle3" "animations/hd/mic_idle3" fps 30 
-$sequence "mic_idle4" "animations/hd/mic_idle4" fps 30 
-$sequence "mic_stand" "animations/hd/mic_stand" fps 30 
-$sequence "interogation" "animations/hd/interogation" fps 30 
-$sequence "interogation_idle" "animations/hd/interogation_idle" fps 30 loop 
-$sequence "shoot_shotgun" "animations/hd/shoot_shotgun" fps 25 {
+$sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps 1 
+$sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1 
+$sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1 
+$sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1 
+$sequence "sitting" "../shared/animations/hgrunt_opfor/ld/sitting" fps 10 loop 
+$sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
+$sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
+$sequence "react" "../shared/animations/hgrunt_opfor/ld/react" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "holding_on" "../shared/animations/hgrunt_opfor/ld/holding_on" fps 10 loop 
+$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
+$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
+$sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
+$sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
+$sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
+$sequence "of1a6_get_on" "../shared/animations/hgrunt_opfor/ld/of1a6_get_on" fps 10 loop 
+$sequence "cpr" "../shared/animations/hgrunt_opfor/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
+$sequence "mic_idle1" "../shared/animations/hgrunt_opfor/ld/mic_idle1" fps 30 
+$sequence "mic_idle2" "../shared/animations/hgrunt_opfor/ld/mic_idle2" fps 30 
+$sequence "mic_idle3" "../shared/animations/hgrunt_opfor/ld/mic_idle3" fps 30 
+$sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30 
+$sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30 
+$sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30 
+$sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
+$sequence "shoot_shotgun" "animations/ld/shoot_shotgun" fps 25 {
   { event 4 12 } 
   { event 5001 12 "51" } 
   { event 2 28 } 
  }
-$sequence "crouching_saw" "animations/hd/crouching_saw_blend1" "animations/hd/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
+$sequence "crouching_saw" "animations/ld/crouching_saw_blend1" "animations/ld/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
   { event 4 3 } 
   { event 5001 3 "50" } 
   { event 5 6 } 
@@ -232,7 +232,7 @@ $sequence "crouching_saw" "animations/hd/crouching_saw_blend1" "animations/hd/cr
   { event 6 19 } 
   { event 5001 19 "50" } 
  }
-$sequence "standing_saw" "animations/hd/standing_saw_blend1" "animations/hd/standing_saw_blend2" blend XR -45 45 fps 20 loop {
+$sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/standing_saw_blend2" blend XR -45 45 fps 20 loop {
   { event 4 3 } 
   { event 5001 3 "50" } 
   { event 5 6 } 
@@ -248,6 +248,6 @@ $sequence "standing_saw" "animations/hd/standing_saw_blend1" "animations/hd/stan
   { event 6 19 } 
   { event 5001 19 "50" } 
  }
-$sequence "reload_saw" "animations/hd/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
+$sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
 
 // End of QC script.
