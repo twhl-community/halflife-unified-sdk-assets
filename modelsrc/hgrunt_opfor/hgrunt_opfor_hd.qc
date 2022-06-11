@@ -211,11 +211,6 @@ $sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30
 $sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30 
 $sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30 
 $sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
-$sequence "shoot_shotgun" "animations/ld/shoot_shotgun" fps 25 {
-  { event 4 12 } 
-  { event 5001 12 "51" } 
-  { event 2 28 } 
- }
 $sequence "crouching_saw" "animations/ld/crouching_saw_blend1" "animations/ld/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
   { event 4 3 } 
   { event 5001 3 "50" } 
@@ -249,5 +244,10 @@ $sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/stan
   { event 5001 19 "50" } 
  }
 $sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
+$sequence "shoot_shotgun" "animations/ld/shoot_shotgun" fps 25 {
+  { event 4 12 } 
+  { event 5001 12 "51" } 
+  { event 2 28 } 
+ }
 
 // End of QC script.
