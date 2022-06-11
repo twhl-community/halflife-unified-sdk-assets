@@ -38,8 +38,8 @@ $body "torso" "meshes/ld/grunt_reg_torso_reference"
 $attachment 0 "Bip01 Head" 0.000000 0.000000 0.000000
 
 // 2 bone controller(s)
-$controller 0 "Bip01 Head" XR -70.000000 70.000000
 $controller 4 "Bone05" ZR 0.000000 45.000000
+$controller 0 "Bip01 Head" XR -70.000000 70.000000
 
 // 21 hit box(es)
 $hbox 3 "Bip01 Pelvis" -3.640000 -6.050000 -8.070000 6.340000 8.410000 8.300000
