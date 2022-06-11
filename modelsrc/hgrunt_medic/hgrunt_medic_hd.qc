@@ -96,6 +96,10 @@ $sequence "run" "../shared/animations/hgrunt_medic/ld/run" LX fps 30 loop ACT_RU
 $sequence "victorydance" "../shared/animations/hgrunt_medic/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
 $sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
 $sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
+$sequence "leftlegsmflinch" "../shared/animations/hgrunt/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LEFTLEG 1 
+$sequence "rightlegsmflinch" "../shared/animations/hgrunt/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
+$sequence "rightarmflinch" "../shared/animations/hgrunt/ld/rightarmflinch" fps 22 ACT_FLINCH_RIGHTARM 1 
+$sequence "leftarmflinch" "../shared/animations/hgrunt/ld/leftarmflinch" fps 22 ACT_FLINCH_LEFTARM 1 
 $sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
 $sequence "idle1" "../shared/animations/hgrunt_medic/ld/idle1" fps 30 loop ACT_IDLE 1 
 $sequence "idle2" "../shared/animations/hgrunt_medic/ld/idle2" fps 20 loop ACT_IDLE 1 
@@ -114,6 +118,8 @@ $sequence "limpingwalk" "../shared/animations/hgrunt/ld/limpingwalk" LX fps 30 l
 $sequence "limpingrun" "../shared/animations/hgrunt/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
 $sequence "180L" "../shared/animations/hgrunt_medic/ld/180L" fps 12 ACT_TURN_LEFT 1 
 $sequence "180R" "../shared/animations/hgrunt_medic/ld/180R" fps 12 ACT_TURN_RIGHT 1 
+$sequence "strafeleft" "../shared/animations/hgrunt/ld/strafeleft" LX LY fps 30 loop ACT_STRAFE_LEFT 1 
+$sequence "straferight" "../shared/animations/hgrunt/ld/straferight" LX LY fps 30 loop ACT_STRAFE_RIGHT 1 
 $sequence "dieback1" "../shared/animations/hgrunt/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
   { event 11 5 } 
   { event 2001 17 } 
@@ -170,9 +176,88 @@ $sequence "repel_shoot" "../shared/animations/hgrunt/ld/repel_shoot_blend1" "../
  }
 $sequence "repel_land" "../shared/animations/hgrunt/ld/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "../shared/animations/hgrunt/ld/repel_die" fps 12 
+$sequence "dragholeidle" "../shared/animations/hgrunt/ld/dragholeidle" fps 10 loop 
+$sequence "draghole" "../shared/animations/hgrunt/ld/draghole" fps 10 { event 1000 1 } { event 1004 21 "debris/bustflesh1.wav" } 
+$sequence "bustwall" "../shared/animations/hgrunt/ld/bustwall" fps 20 { event 1000 1 } 
+$sequence "hoprail" "../shared/animations/hgrunt/ld/hoprail" fps 22 
+$sequence "converse1" "../shared/animations/hgrunt/ld/converse1" fps 14 loop 
+$sequence "converse2" "../shared/animations/hgrunt/ld/converse2" fps 14 loop 
+$sequence "startleleft" "../shared/animations/hgrunt/ld/startleleft" fps 12 
+$sequence "startleright" "../shared/animations/hgrunt/ld/startleright" fps 12 
+$sequence "divecover" "../shared/animations/hgrunt/ld/divecover" fps 22 
+$sequence "defuse" "../shared/animations/hgrunt/ld/defuse" fps 14 loop 
+$sequence "corner1" "../shared/animations/hgrunt/ld/corner1" fps 14 loop 
+$sequence "corner2" "../shared/animations/hgrunt/ld/corner2" fps 10 loop 
+$sequence "stone_toss" "../shared/animations/hgrunt/ld/stone_toss" fps 15 
+$sequence "cliffdie" "../shared/animations/hgrunt/ld/cliffdie" AX AY AZR fps 36 { event 1001 0 } { event 1000 0 } 
+$sequence "diveaside_idle" "../shared/animations/hgrunt/ld/diveaside_idle" fps 30 loop 
+$sequence "diveaside" "../shared/animations/hgrunt/ld/diveaside" AX AY AZR fps 30 {
+  { event 4 0 } 
+  { event 5 2 } 
+  { event 6 4 } 
+  { event 4 14 } 
+  { event 5 16 } 
+  { event 6 18 } 
+ }
+$sequence "kneeldive_idle" "../shared/animations/hgrunt/ld/kneeldive_idle" fps 30 loop 
+$sequence "kneeldive" "../shared/animations/hgrunt/ld/kneeldive" AX AY AZR fps 30 {
+  { event 4 0 } 
+  { event 5 2 } 
+  { event 6 4 } 
+  { event 4 14 } 
+  { event 5 16 } 
+  { event 6 18 } 
+ }
+$sequence "WM_button" "../shared/animations/hgrunt/ld/WM_button" AX AY AZR fps 30 
+$sequence "WM_moatjump" "../shared/animations/hgrunt/ld/WM_moatjump" AX AY AZR fps 30 
+$sequence "bustwindow" "../shared/animations/hgrunt/ld/bustwindow" fps 24 { event 1003 5 "break" } 
+$sequence "dragleft" "../shared/animations/hgrunt/ld/dragleft" LX fps 28 loop 
+$sequence "dragright" "../shared/animations/hgrunt/ld/dragright" LX fps 28 loop 
+$sequence "trackwave" "../shared/animations/hgrunt/ld/trackwave" fps 24 loop 
+$sequence "trackdive" "../shared/animations/hgrunt/ld/trackdive" fps 28 { event 1003 38 "switch" } 
+$sequence "flyback" "../shared/animations/hgrunt/ld/flyback" fps 25 { event 1003 29 "zap" } { event 1008 24 "weapons/electro4.wav" } 
+$sequence "impaled" "../shared/animations/hgrunt/ld/impaled" fps 10 { event 1000 1 } 
+$sequence "jumptracks" "../shared/animations/hgrunt/ld/jumptracks" fps 30 
+$sequence "pipetoss" "../shared/animations/hgrunt/ld/pipetoss" fps 30 
+$sequence "plunger" "../shared/animations/hgrunt/ld/plunger" fps 22 
+
+// Blue Shift sequences
+$sequence "soldier_dump" "../shared/animations/hgrunt/ld/soldier_dump" fps 28 
+$sequence "soldier_dump_idle" "../shared/animations/hgrunt/ld/soldier_dump_idle" fps 28 loop 
+$sequence "soldier_shoot_ahead" "../shared/animations/hgrunt/ld/soldier_shoot_ahead" fps 32 loop {
+  { event 4 1 } 
+  { event 5 6 } 
+  { event 6 12 } 
+  { event 5001 1 "50" } 
+  { event 5001 6 "50" } 
+  { event 5001 12 "50" } 
+ }
+$sequence "soldier_kick" "../shared/animations/hgrunt/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
 
 // Friendly grunts sequences
+$sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps 1 
+$sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1 
+$sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1 
+$sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1 
+$sequence "sitting" "../shared/animations/hgrunt_opfor/ld/sitting" fps 10 loop 
+$sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
+$sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
+$sequence "react" "../shared/animations/hgrunt_opfor/ld/react" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "holding_on" "../shared/animations/hgrunt_opfor/ld/holding_on" fps 10 loop 
 $sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
+$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
+$sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
+$sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
+$sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
+$sequence "of1a6_get_on" "../shared/animations/hgrunt_opfor/ld/of1a6_get_on" fps 10 loop 
+$sequence "cpr" "../shared/animations/hgrunt_opfor/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
+$sequence "mic_idle1" "../shared/animations/hgrunt_opfor/ld/mic_idle1" fps 30 
+$sequence "mic_idle2" "../shared/animations/hgrunt_opfor/ld/mic_idle2" fps 30 
+$sequence "mic_idle3" "../shared/animations/hgrunt_opfor/ld/mic_idle3" fps 30 
+$sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30 
+$sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30 
+$sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30 
+$sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
 
 // Friendly grunt medic sequences
 $sequence "pull_needle" "animations/ld/pull_needle" fps 30 ACT_ARM 1 { event 15 20 } { event 16 50 } 
