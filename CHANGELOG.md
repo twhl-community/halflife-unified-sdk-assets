@@ -37,6 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ammo RPG LD/HD models
 - Console civilian scientist LD/HD models
 - Male BlackOps LD/HD models
+- Op4 medic grunt LD/HD models
+- Op4 regular grunt LD/HD models
+- Op4 engineer grunt LD/HD models
 
 ### Changed
 
