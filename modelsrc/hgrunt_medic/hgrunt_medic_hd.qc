@@ -129,7 +129,7 @@ $sequence "dieforward" "../shared/animations/hgrunt/hd/dieforward" X fps 30 ACT_
   { event 1000 39 } 
   { event 1001 39 } 
  }
-$sequence "diesimple" "animations/hd/diesimple" X fps 15 ACT_DIESIMPLE 1 {
+$sequence "diesimple" "../shared/animations/hgrunt/hd/diesimple" X fps 15 ACT_DIESIMPLE 1 {
   { event 11 3 } 
   { event 2001 10 } 
   { event 1000 14 } 
