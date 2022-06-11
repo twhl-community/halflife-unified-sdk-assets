@@ -193,7 +193,7 @@ $sequence "dieheadshot" "../shared/animations/hgrunt/hd/dieheadshot" X fps 32 AC
   { event 1000 32 } 
   { event 1001 32 } 
  }
-$sequence "diegutshot" "animations/hd/diegutshot" X fps 30 ACT_DIE_GUTSHOT 1 {
+$sequence "diegutshot" "../shared/animations/hgrunt/hd/diegutshot" X fps 31 ACT_DIE_GUTSHOT 1 {
   { event 11 0 } 
   { event 2001 29 } 
   { event 1000 68 } 
