@@ -133,12 +133,12 @@ $sequence "180L" "animations/hd/180L" fps 12 ACT_TURN_LEFT 1
 $sequence "180R" "animations/hd/180R" fps 12 ACT_TURN_RIGHT 1 
 $sequence "strafeleft" "animations/hd/strafeleft" LX LY fps 30 loop ACT_STRAFE_LEFT 1 
 $sequence "straferight" "animations/hd/straferight" LX LY fps 30 loop ACT_STRAFE_RIGHT 1 
-$sequence "dieforward" "animations/hd/dieforward" X fps 30 ACT_DIEFORWARD 1 { event 11 12 } { event 2001 19 } 
 $sequence "diesimple" "animations/hd/diesimple" X fps 15 ACT_DIESIMPLE 1 { event 11 3 } { event 2001 10 } 
 $sequence "diebackwards" "animations/hd/diebackwards" X fps 30 ACT_DIEBACKWARD 1 { event 11 6 } { event 2001 12 } 
 $sequence "dieheadshot" "animations/hd/dieheadshot" X fps 32 ACT_DIE_HEADSHOT 1 { event 11 1 } { event 2001 20 } 
 $sequence "diegutshot" "animations/hd/diegutshot" X fps 31 ACT_DIE_GUTSHOT 1 { event 11 0 } { event 2001 29 } 
 $sequence "dieback1" "../shared/animations/hgrunt/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 { event 11 5 } { event 2001 17 } 
+$sequence "dieforward" "../shared/animations/hgrunt/hd/dieforward" X fps 30 ACT_DIEFORWARD 1 { event 11 12 } { event 2001 19 } 
 $sequence "barnacled1" "animations/hd/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
 $sequence "barnacled2" "animations/hd/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
 $sequence "barnacled3" "animations/hd/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
