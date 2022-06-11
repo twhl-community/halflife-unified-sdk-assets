@@ -158,7 +158,11 @@ $sequence "repel_shoot" "animations/hd/repel_shoot_blend1" "animations/hd/repel_
  }
 $sequence "repel_land" "animations/hd/repel_land" fps 20 ACT_LAND 1 
 $sequence "repel_die" "animations/hd/repel_die" fps 12 
+
+// Friendly grunts sequences
 $sequence "open_floor_grate" "animations/hd/open_floor_grate" fps 25 
+
+// Friendly grunt torch sequences
 $sequence "cut_floor_grate" "animations/hd/cut_floor_grate" fps 25 {
   { event 18 15 } 
   { event 1004 15 "fgrunt/torch_light.wav" } 
