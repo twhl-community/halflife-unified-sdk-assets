@@ -117,7 +117,7 @@ $sequence "180R" "animations/hd/180R" fps 12 ACT_TURN_RIGHT 1
 $sequence "pull_needle" "animations/hd/pull_needle" fps 30 ACT_ARM 1 { event 15 20 } { event 16 50 } 
 $sequence "store_needle" "animations/hd/store_needle" fps 30 ACT_DISARM 1 { event 17 15 } { event 18 36 } 
 $sequence "give_shot" "animations/hd/give_shot" fps 30 loop ACT_MELEE_ATTACK2 1 
-$sequence "dieback1" "animations/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
+$sequence "dieback1" "../shared/animations/hgrunt/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
   { event 11 5 } 
   { event 2001 17 } 
   { event 1000 25 } 
