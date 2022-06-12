@@ -36,6 +36,12 @@ $body "torso" "meshes/hd/torso_medic_reference"
 
 $body "deagle" "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 
+// 2 skin families
+$texturegroup skinfamilies 
+{
+{ "medic_head.BMP" }
+{ "medic_head_blk.bmp" }
+}
 
 // 2 attachment(s)
 $attachment 0 "Bip01 R Hand" 0.000000 0.000000 0.000000
