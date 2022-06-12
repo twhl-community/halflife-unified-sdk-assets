@@ -239,11 +239,8 @@ $sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps
 $sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1 
 $sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1 
 $sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1 
-$sequence "sitting" "../shared/animations/hgrunt_opfor/ld/sitting" fps 10 loop 
 $sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
 $sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
-$sequence "react" "../shared/animations/hgrunt_opfor/ld/react" fps 30 { event 1000 1 } { event 1001 1 } 
-$sequence "holding_on" "../shared/animations/hgrunt_opfor/ld/holding_on" fps 10 loop 
 $sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
 $sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
 $sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
@@ -269,5 +266,28 @@ $sequence "heal_crouch" "animations/ld/heal_crouch" fps 15 {
   { event 17 100 } 
   { event 18 110 } 
  }
+
+// intro_commander sequences
+$sequence "intro_stand_idle1" "../shared/animations/intro_commander/ld/intro_stand_idle1" fps 15 loop 
+$sequence "intro_stand_idle2" "../shared/animations/intro_commander/ld/intro_stand_idle2" fps 17 loop 
+$sequence "intro_stand_idle3" "../shared/animations/intro_commander/ld/intro_stand_idle3" fps 17 loop 
+$sequence "intro_stand_fallout" "../shared/animations/intro_commander/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "intro_stand_react" "../shared/animations/intro_commander/ld/stand_react" fps 30 
+$sequence "intro_stand_bark" "../shared/animations/intro_commander/ld/bark" fps 30 
+
+// intro_medic sequences
+$sequence "intro_sitting_holster1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop 
+$sequence "intro_sitting_holster2" "../shared/animations/intro_medic/ld/sitting2" fps 16 loop 
+$sequence "intro_sitting_holster3" "../shared/animations/intro_medic/ld/sitting3" fps 15 loop 
+$sequence "intro_sitting_holster4" "../shared/animations/intro_medic/ld/sitting4" fps 18 loop 
+$sequence "intro_sitting_holster5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop 
+$sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop 
+$sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop 
+
+// intro_saw sequences
+$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/hd/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+
+// intro_torch sequences
+$sequence "intro_sitting_cower2" "../shared/animations/intro_torch/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
 
 // End of QC script.
