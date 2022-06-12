@@ -16,8 +16,8 @@ $modelname "intro_regular_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/intro_regular"
 $cdtexture "../../texturesrc/hgrunt_opfor/hd"
-$cdtexture "../../texturesrc/hgrunt_opfor/ld"
 $cdtexture "../../texturesrc/hgrunt/hd"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld"
 $cdtexture "../../texturesrc/w_9mmar"
 $scale 1.0
 

@@ -16,8 +16,8 @@ $modelname "intro_commander_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/intro_commander/hd"
 $cdtexture "../../texturesrc/hgrunt_opfor/hd"
-$cdtexture "../../texturesrc/hgrunt_opfor/ld"
 $cdtexture "../../texturesrc/hgrunt/hd"
+$cdtexture "../../texturesrc/hgrunt_opfor/ld"
 $cdtexture "../../texturesrc/w_9mmar"
 $scale 1.0
 
