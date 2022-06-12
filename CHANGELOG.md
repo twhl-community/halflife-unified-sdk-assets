@@ -40,6 +40,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Op4 medic grunt LD/HD models
 - Op4 regular grunt LD/HD models
 - Op4 engineer grunt LD/HD models
+- Intro medic LD/HD models
+- Intro commander LD/HD models
+- Intro regular LD/HD models
+- Intro SAW LD/HD models
+- Intro engineer LD/HD models
 
 ### Changed
 
