@@ -64,10 +64,10 @@ $hbox 5 "Bip01 R Arm2" 0.000000 -1.430000 -2.940000 10.190000 4.000000 2.180000
 $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 
 // 5 animation sequence(s)
-$sequence "sitting1" "../shared/animations/intro_regular/ld/sitting1" fps 10 loop ACT_IDLE 1 
-$sequence "sitting2" "../shared/animations/intro_regular/ld/sitting2" fps 10 loop ACT_IDLE 1 
-$sequence "sitting3" "../shared/animations/intro_regular/ld/sitting3" fps 10 loop ACT_IDLE 1 
-$sequence "sitting4" "../shared/animations/intro_regular/ld/sitting4" fps 10 loop ACT_IDLE 1 
-$sequence "sitting5" "../shared/animations/intro_regular/ld/sitting5" fps 10 loop ACT_IDLE 1 
+$sequence "sitting1" "../shared/animations/intro_regular/hd/sitting1" fps 10 loop ACT_IDLE 1 
+$sequence "sitting2" "../shared/animations/intro_regular/hd/sitting2" fps 10 loop ACT_IDLE 1 
+$sequence "sitting3" "../shared/animations/intro_regular/hd/sitting3" fps 10 loop ACT_IDLE 1 
+$sequence "sitting4" "../shared/animations/intro_regular/hd/sitting4" fps 10 loop ACT_IDLE 1 
+$sequence "sitting5" "../shared/animations/intro_regular/hd/sitting5" fps 10 loop ACT_IDLE 1 
 
 // End of QC script.
