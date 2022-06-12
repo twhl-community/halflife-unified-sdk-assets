@@ -34,11 +34,7 @@ $body "heads" "meshes/ld/grunt_head_saw_wht_reference"
 
 $body "torso" "meshes/hd/torso_regular_reference"
 
-$bodygroup "weapons"
-{
-studio "../shared/meshes/hgrunt/hd/DC_soldier_M4_reference"
-blank
-}
+$body "weapons" "../shared/meshes/hgrunt/hd/DC_soldier_M4_reference"
 
 
 // 2 attachment(s)
