@@ -304,7 +304,7 @@ $sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/stan
   { event 5001 19 "50" } 
  }
 $sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 } 
-$sequence "shoot_shotgun" "animations/ld/shoot_shotgun" fps 25 {
+$sequence "shoot_shotgun" "../shared/animations/hgrunt_opfor/ld/shoot_shotgun" fps 25 {
   { event 4 12 } 
   { event 5001 12 "51" } 
   { event 2 28 } 

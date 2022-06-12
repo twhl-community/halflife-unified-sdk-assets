@@ -223,4 +223,63 @@ $sequence "soldier_shoot_ahead" "../shared/animations/hgrunt/ld/soldier_shoot_ah
  }
 $sequence "soldier_kick" "../shared/animations/hgrunt/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
 
+// Friendly grunts sequences
+$sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps 1 
+$sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1 
+$sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1 
+$sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1 
+$sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
+$sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
+$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
+$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
+$sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
+$sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
+$sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
+$sequence "of1a6_get_on" "../shared/animations/hgrunt_opfor/ld/of1a6_get_on" fps 10 loop 
+$sequence "cpr" "../shared/animations/hgrunt_opfor/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
+$sequence "mic_idle1" "../shared/animations/hgrunt_opfor/ld/mic_idle1" fps 30 
+$sequence "mic_idle2" "../shared/animations/hgrunt_opfor/ld/mic_idle2" fps 30 
+$sequence "mic_idle3" "../shared/animations/hgrunt_opfor/ld/mic_idle3" fps 30 
+$sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30 
+$sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30 
+$sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30 
+$sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
+$sequence "shoot_shotgun" "../shared/animations/hgrunt_opfor/ld/shoot_shotgun" fps 25 {
+  { event 4 12 } 
+  { event 5001 12 "51" } 
+  { event 2 28 } 
+ }
+
+// intro_commander sequences
+$sequence "intro_stand_idle1" "../shared/animations/intro_commander/ld/intro_stand_idle1" fps 15 loop
+$sequence "intro_stand_idle2" "../shared/animations/intro_commander/ld/intro_stand_idle2" fps 17 loop
+$sequence "intro_stand_idle3" "../shared/animations/intro_commander/ld/intro_stand_idle3" fps 17 loop
+$sequence "intro_stand_fallout" "../shared/animations/intro_commander/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "intro_stand_react" "../shared/animations/intro_commander/ld/stand_react" fps 30 
+$sequence "intro_stand_bark" "../shared/animations/intro_commander/ld/bark" fps 30 
+
+// intro_medic sequences
+$sequence "intro_sitting_holster1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop 
+$sequence "intro_sitting_holster2" "../shared/animations/intro_medic/ld/sitting2" fps 16 loop 
+$sequence "intro_sitting_holster3" "../shared/animations/intro_medic/ld/sitting3" fps 15 loop 
+$sequence "intro_sitting_holster4" "../shared/animations/intro_medic/ld/sitting4" fps 18 loop 
+$sequence "intro_sitting_holster5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop 
+$sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop 
+$sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop 
+
+// intro_regular sequences
+$sequence "intro_sitting_mp5_1" "../shared/animations/intro_regular/ld/sitting1" fps 10 loop 
+$sequence "intro_sitting_mp5_2" "../shared/animations/intro_regular/ld/sitting2" fps 10 loop 
+$sequence "intro_sitting_mp5_3" "../shared/animations/intro_regular/ld/sitting3" fps 10 loop 
+$sequence "intro_sitting_mp5_4" "../shared/animations/intro_regular/ld/sitting4" fps 10 loop 
+$sequence "intro_sitting_mp5_5" "../shared/animations/intro_regular/ld/sitting5" fps 10 loop 
+
+// intro_saw sequences
+$sequence "intro_sitting_stiff" "../shared/animations/intro_saw/ld/stiff" fps 30 
+$sequence "intro_sitting_react" "../shared/animations/intro_saw/ld/sit_React" fps 30 
+$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+
+// intro_torch sequences
+$sequence "intro_sitting_cower2" "../shared/animations/intro_torch/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+
 // End of QC script.
