@@ -45,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Intro regular LD/HD models
 - Intro SAW LD/HD models
 - Intro engineer LD/HD models
+- Op4 ally grunts animations to HL1 LD/HD grunts
 
 ### Changed
 
