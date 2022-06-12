@@ -35,7 +35,8 @@ $body "torso" "meshes/ld/grunt_reg_torso_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "Bip01 Head" 0.000000 0.000000 0.000000
+$attachment 0 "Bip01 R Hand" 0.000000 0.000000 0.000000
+$attachment 1 "Bip01 Head" 0.000000 0.000000 0.000000
 
 // 2 bone controller(s)
 $controller 4 "Bone05" ZR 0.000000 45.000000
