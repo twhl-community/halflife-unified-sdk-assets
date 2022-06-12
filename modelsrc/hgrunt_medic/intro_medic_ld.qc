@@ -70,12 +70,12 @@ $hbox 5 "Bip01 R Arm2" 0.000000 -1.430000 -2.940000 10.190000 4.000000 2.180000
 $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 
 // 7 animation sequence(s)
-$sequence "sitting1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop ACT_IDLE 1 
-$sequence "sitting2" "../shared/animations/intro_medic/ld/sitting2" fps 16 loop ACT_IDLE 1 
-$sequence "sitting3" "../shared/animations/intro_medic/ld/sitting3" fps 15 loop ACT_IDLE 1 
-$sequence "sitting4" "../shared/animations/intro_medic/ld/sitting4" fps 18 loop ACT_IDLE 1 
-$sequence "sitting5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop ACT_IDLE 1 
-$sequence "sitting6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop ACT_IDLE 1 
-$sequence "sitting7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster2" "../shared/animations/intro_medic/ld/sitting2" fps 16 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster3" "../shared/animations/intro_medic/ld/sitting3" fps 15 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster4" "../shared/animations/intro_medic/ld/sitting4" fps 18 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop ACT_IDLE 1 
+$sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop ACT_IDLE 1 
 
 // End of QC script.

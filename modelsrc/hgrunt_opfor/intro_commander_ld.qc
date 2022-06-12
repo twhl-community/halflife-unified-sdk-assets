@@ -64,8 +64,8 @@ $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 $sequence "intro_stand_idle1" "../shared/animations/intro_commander/ld/intro_stand_idle1" fps 15 loop ACT_IDLE 4 
 $sequence "intro_stand_idle2" "../shared/animations/intro_commander/ld/intro_stand_idle2" fps 17 loop ACT_IDLE 4 
 $sequence "intro_stand_idle3" "../shared/animations/intro_commander/ld/intro_stand_idle3" fps 17 loop ACT_IDLE 4 
-$sequence "fall_out" "../shared/animations/intro_commander/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 } 
-$sequence "stand_react" "../shared/animations/intro_commander/ld/stand_react" fps 30 
-$sequence "bark" "../shared/animations/intro_commander/ld/bark" fps 30 
+$sequence "intro_stand_fallout" "../shared/animations/intro_commander/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "intro_stand_react" "../shared/animations/intro_commander/ld/stand_react" fps 30 
+$sequence "intro_stand_bark" "../shared/animations/intro_commander/ld/bark" fps 30 
 
 // End of QC script.

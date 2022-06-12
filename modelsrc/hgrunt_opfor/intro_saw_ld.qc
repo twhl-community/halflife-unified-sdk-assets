@@ -64,13 +64,13 @@ $hbox 5 "Bip01 R Arm2" 0.000000 -1.430000 -2.940000 10.190000 4.000000 2.180000
 $hbox 5 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
 
 // 8 animation sequence(s)
-$sequence "sitting1" "../shared/animations/intro_regular/ld/sitting1" fps 10 loop ACT_IDLE 1 
-$sequence "sitting2" "../shared/animations/intro_regular/ld/sitting2" fps 10 loop ACT_IDLE 1 
-$sequence "sitting3" "../shared/animations/intro_regular/ld/sitting3" fps 10 loop ACT_IDLE 1 
-$sequence "sitting4" "../shared/animations/intro_regular/ld/sitting4" fps 10 loop ACT_IDLE 1 
-$sequence "sitting5" "../shared/animations/intro_regular/ld/sitting5" fps 10 loop ACT_IDLE 1 
-$sequence "stiff" "../shared/animations/intro_saw/ld/stiff" fps 30 
-$sequence "sit_React" "../shared/animations/intro_saw/ld/sit_React" fps 30 
-$sequence "cower" "../shared/animations/intro_saw/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "intro_sitting_mp5_1" "../shared/animations/intro_regular/ld/sitting1" fps 10 loop ACT_IDLE 1 
+$sequence "intro_sitting_mp5_2" "../shared/animations/intro_regular/ld/sitting2" fps 10 loop ACT_IDLE 1 
+$sequence "intro_sitting_mp5_3" "../shared/animations/intro_regular/ld/sitting3" fps 10 loop ACT_IDLE 1 
+$sequence "intro_sitting_mp5_4" "../shared/animations/intro_regular/ld/sitting4" fps 10 loop ACT_IDLE 1 
+$sequence "intro_sitting_mp5_5" "../shared/animations/intro_regular/ld/sitting5" fps 10 loop ACT_IDLE 1 
+$sequence "intro_sitting_stiff" "../shared/animations/intro_saw/ld/stiff" fps 30 
+$sequence "intro_sitting_react" "../shared/animations/intro_saw/ld/sit_React" fps 30 
+$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
 
 // End of QC script.
