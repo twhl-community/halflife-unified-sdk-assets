@@ -236,4 +236,26 @@ $sequence "straferight_cine" "animations/ld/straferight" fps 40
 $sequence "working" "animations/ld/working" fps 30 loop 
 $sequence "standing" "animations/ld/standing" fps 20 loop 
 
+// Friendly grunts sequences
+$sequence "dead_on_back" "animations/ld/dead_on_back" fps 1 
+$sequence "dead_headcrabed" "animations/ld/dead_headcrabed" fps 1 
+$sequence "hgrunt_dead_stomach" "animations/ld/hgrunt_dead_stomach" fps 1 
+$sequence "dead_canyon" "animations/ld/dead_canyon" fps 1 
+$sequence "sitting2" "animations/ld/sitting2" fps 8 loop 
+$sequence "sitting3" "animations/ld/sitting3" fps 6 loop 
+$sequence "open_floor_grate" "animations/ld/open_floor_grate" fps 25 
+$sequence "hgrunt_on_stretcher" "animations/ld/hgrunt_on_stretcher" fps 34 
+$sequence "crawling" "animations/ld/crawling" fps 17 { event 1001 120 } 
+$sequence "of2a2_speech_idle" "animations/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
+$sequence "of2a2_death_speech" "animations/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
+$sequence "of1a6_get_on" "animations/ld/of1a6_get_on" fps 10 loop 
+$sequence "cpr" "animations/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 } 
+$sequence "mic_idle1" "animations/ld/mic_idle1" fps 30 
+$sequence "mic_idle2" "animations/ld/mic_idle2" fps 30 
+$sequence "mic_idle3" "animations/ld/mic_idle3" fps 30 
+$sequence "mic_idle4" "animations/ld/mic_idle4" fps 30 
+$sequence "mic_stand" "animations/ld/mic_stand" fps 30 
+$sequence "interogation" "animations/ld/interogation" fps 30 
+$sequence "interogation_idle" "animations/ld/interogation_idle" fps 30 loop 
+
 // End of QC script.
