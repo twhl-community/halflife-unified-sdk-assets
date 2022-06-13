@@ -258,4 +258,36 @@ $sequence "mic_stand" "animations/ld/mic_stand" fps 30
 $sequence "interogation" "animations/ld/interogation" fps 30 
 $sequence "interogation_idle" "animations/ld/interogation_idle" fps 30 loop 
 
+// intro_commander sequences
+$sequence "intro_stand_idle1" "animations/ld/intro_stand_idle1" fps 15 loop
+$sequence "intro_stand_idle2" "animations/ld/intro_stand_idle2" fps 17 loop
+$sequence "intro_stand_idle3" "animations/ld/intro_stand_idle3" fps 17 loop
+$sequence "intro_stand_fallout" "animations/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 } 
+$sequence "intro_stand_react" "animations/ld/stand_react" fps 30 
+$sequence "intro_stand_bark" "animations/ld/bark" fps 30 
+
+// intro_medic sequences
+$sequence "intro_sitting_holster1" "animations/ld/intro_sitting_holster1" fps 15 loop 
+$sequence "intro_sitting_holster2" "animations/ld/intro_sitting_holster2" fps 16 loop 
+$sequence "intro_sitting_holster3" "animations/ld/intro_sitting_holster3" fps 15 loop 
+$sequence "intro_sitting_holster4" "animations/ld/intro_sitting_holster4" fps 18 loop 
+$sequence "intro_sitting_holster5" "animations/ld/intro_sitting_holster5" fps 16 loop 
+$sequence "intro_sitting_holster6" "animations/ld/intro_sitting_holster6" fps 16 loop 
+$sequence "intro_sitting_holster7" "animations/ld/intro_sitting_holster7" fps 16 loop 
+
+// intro_regular sequences
+$sequence "intro_sitting_mp5_1" "animations/ld/intro_sitting_mp5_1" fps 10 loop 
+$sequence "intro_sitting_mp5_2" "animations/ld/intro_sitting_mp5_2" fps 10 loop 
+$sequence "intro_sitting_mp5_3" "animations/ld/intro_sitting_mp5_3" fps 10 loop 
+$sequence "intro_sitting_mp5_4" "animations/ld/intro_sitting_mp5_4" fps 10 loop 
+$sequence "intro_sitting_mp5_5" "animations/ld/intro_sitting_mp5_5" fps 10 loop 
+
+// intro_saw sequences
+$sequence "intro_sitting_stiff" "animations/ld/stiff" fps 30 
+$sequence "intro_sitting_react" "animations/ld/sit_React" fps 30 
+$sequence "intro_sitting_cower1" "animations/ld/intro_sitting_cower1" fps 30 { event 1000 1 } { event 1001 1 } 
+
+// intro_torch sequences
+$sequence "intro_sitting_cower2" "animations/ld/intro_sitting_cower2" fps 30 { event 1000 1 } { event 1001 1 } 
+
 // End of QC script.
