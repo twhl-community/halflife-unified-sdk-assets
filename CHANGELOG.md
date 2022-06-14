@@ -46,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Intro SAW LD/HD models
 - Intro engineer LD/HD models
 - Op4 ally grunts animations to HL1 LD/HD grunts
+- Male BlackOps animations to HL1 and Op4 LD/HD grunts
 
 ### Changed
 
