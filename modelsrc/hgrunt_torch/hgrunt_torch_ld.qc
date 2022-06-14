@@ -316,4 +316,8 @@ $sequence "intro_sitting_cower1" "../shared/animations/intro_saw/ld/cower" fps 3
 // intro_torch sequences
 $sequence "intro_sitting_cower2" "../shared/animations/intro_torch/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
 
+// Male assassin sequences
+$sequence "working" "../shared/animations/hgrunt/ld/working" fps 30 loop 
+$sequence "standing" "../shared/animations/hgrunt/ld/standing" fps 20 loop 
+
 // End of QC script.
