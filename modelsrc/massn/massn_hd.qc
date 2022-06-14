@@ -211,31 +211,6 @@ $sequence "soldier_shoot_ahead" "animations/ld/soldier_shoot_ahead" fps 32 loop 
  }
 $sequence "soldier_kick" "animations/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
 
-// Male assassin sequences
-$sequence "frontkick" "animations/ld/frontkick_2" fps 25 ACT_MELEE_ATTACK1 1 {
-  { event 2010 5 } 
-  { event 3 5 } 
-  { event 2010 16 } 
-  { event 3 16 } 
- }
-$sequence "frontkick" "animations/ld/frontkick_3" LX LY fps 40 ACT_MELEE_ATTACK1 1 {
-  { event 2010 12 } 
-  { event 3 12 } 
-  { event 2010 30 } 
-  { event 3 30 } 
-  { event 2010 43 } 
-  { event 3 43 } 
-  { event 2010 56 } 
-  { event 3 56 } 
- }
-$sequence "crouching_m40a1" "animations/ld/crouching_m40a1_blend1" "animations/ld/crouching_m40a1_blend2" blend XR -45 45 fps 15 ACT_RANGE_ATTACK1 1 { event 4 1 } { event 5001 1 "51" } 
-$sequence "standing_m40a1" "animations/ld/standing_m40a1_blend1" "animations/ld/standing_m40a1_blend2" blend XR -45 45 fps 15 { event 4 1 } { event 5001 1 "51" } 
-$sequence "reload_m40a1" "animations/ld/reload_m40a1" fps 40 { event 2 55 } 
-$sequence "strafeleft_cine" "animations/ld/strafeleft" fps 40 
-$sequence "straferight_cine" "animations/ld/straferight" fps 40 
-$sequence "working" "animations/ld/working" fps 30 loop 
-$sequence "standing" "animations/ld/standing" fps 20 loop 
-
 // Friendly grunts sequences
 $sequence "dead_on_back" "animations/ld/dead_on_back" fps 1 
 $sequence "dead_headcrabed" "animations/ld/dead_headcrabed" fps 1 
@@ -289,5 +264,30 @@ $sequence "intro_sitting_cower1" "animations/hd/intro_sitting_cower1" fps 30 { e
 
 // intro_torch sequences
 $sequence "intro_sitting_cower2" "animations/hd/intro_sitting_cower2" fps 30 { event 1000 1 } { event 1001 1 } 
+
+// Male assassin sequences
+$sequence "frontkick" "animations/ld/frontkick_2" fps 25 ACT_MELEE_ATTACK1 1 {
+  { event 2010 5 } 
+  { event 3 5 } 
+  { event 2010 16 } 
+  { event 3 16 } 
+ }
+$sequence "frontkick" "animations/ld/frontkick_3" LX LY fps 40 ACT_MELEE_ATTACK1 1 {
+  { event 2010 12 } 
+  { event 3 12 } 
+  { event 2010 30 } 
+  { event 3 30 } 
+  { event 2010 43 } 
+  { event 3 43 } 
+  { event 2010 56 } 
+  { event 3 56 } 
+ }
+$sequence "crouching_m40a1" "animations/ld/crouching_m40a1_blend1" "animations/ld/crouching_m40a1_blend2" blend XR -45 45 fps 15 ACT_RANGE_ATTACK1 1 { event 4 1 } { event 5001 1 "51" } 
+$sequence "standing_m40a1" "animations/ld/standing_m40a1_blend1" "animations/ld/standing_m40a1_blend2" blend XR -45 45 fps 15 { event 4 1 } { event 5001 1 "51" } 
+$sequence "reload_m40a1" "animations/ld/reload_m40a1" fps 40 { event 2 55 } 
+$sequence "strafeleft_cine" "animations/ld/strafeleft" fps 40 
+$sequence "straferight_cine" "animations/ld/straferight" fps 40 
+$sequence "working" "animations/ld/working" fps 30 loop 
+$sequence "standing" "animations/ld/standing" fps 20 loop 
 
 // End of QC script.
