@@ -38,7 +38,7 @@ studio "meshes/hd/v_python_laser_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "python" 0.000000 -14.000000 6.000000
+$attachment 0 "python" 0.000000 -10.900000 1.300000
 
 // 14 hit box(es)
 $hbox 0 "Bip01 R Forearm" -0.390000 -2.080000 -2.020000 11.368421 2.630000 1.120000

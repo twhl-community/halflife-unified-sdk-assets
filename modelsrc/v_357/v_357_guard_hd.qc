@@ -37,7 +37,7 @@ studio "meshes/hd/v_python_laser_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "python" 0.000000 -14.000000 6.000000
+$attachment 0 "python" 0.000000 -10.900000 1.300000
 
 // 10 hit box(es)
 $hbox 0 "Bip01 R Hand" 0.000000 -1.060000 -1.720000 5.941133 1.084807 3.855314
