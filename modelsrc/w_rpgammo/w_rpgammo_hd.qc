@@ -15,7 +15,7 @@ Original internal name:
 $modelname "w_rpgammo_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/w_rpgammo"
-$cdtexture "../../texturesrc/viewmodel/v_rpg"
+$cdtexture "../../texturesrc/viewmodel/v_rpg/hd"
 $scale 1.0
 
 
