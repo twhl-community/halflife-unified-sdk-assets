@@ -56,5 +56,6 @@ $sequence "draw1" "animations/hd/draw1" fps 30
 $sequence "holster2" "animations/hd/holster2" fps 30 
 $sequence "draw2" "animations/hd/draw2" fps 30 
 $sequence "idle2" "animations/hd/idle2" fps 15 loop 
+$sequence "fidget2" "animations/hd/fidget2" fps 15 loop 
 
 // End of QC script.
