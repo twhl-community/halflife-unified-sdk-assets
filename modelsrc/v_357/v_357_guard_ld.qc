@@ -59,7 +59,7 @@ $hbox 0 "sight_master" -1.050000 -1.570000 -0.760000 1.140000 1.910000 4.720000
 $sequence "idle1" "animations/ld/idle1" fps 30 loop 
 $sequence "fidget1" "animations/ld/fidget1" fps 30 
 $sequence "fire1" "animations/ld/fire1" fps 30 { event 5001 0 "31" } 
-$sequence "reload" "animations/ld/reload" fps 36 
+$sequence "reload" "animations/ld/reload" fps 36 { event 5004 70 "weapons/357_reload1.wav" } 
 $sequence "holster" "animations/ld/holster" fps 30 
 $sequence "draw" "animations/ld/draw" fps 30 
 $sequence "idle2" "animations/ld/idle2" fps 30 loop 

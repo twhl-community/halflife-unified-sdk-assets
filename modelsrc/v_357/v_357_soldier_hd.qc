@@ -60,7 +60,7 @@ $hbox 0 "lasersight_mesh" -1.360000 -11.650000 -2.660000 0.790000 0.000000 1.840
 $sequence "idle1" "animations/hd/idle1" fps 30 loop 
 $sequence "fidget1" "animations/hd/fidget1" fps 30 
 $sequence "fire1" "animations/hd/fire1" fps 30 { event 5001 0 "31" } 
-$sequence "reload" "animations/hd/reload" fps 37 
+$sequence "reload" "animations/hd/reload" fps 37 { event 5004 70 "weapons/357_reload1.wav" } 
 $sequence "holster" "animations/hd/holster" fps 30 
 $sequence "draw" "animations/hd/draw" fps 30 
 $sequence "idle2" "animations/hd/idle2" fps 30 loop 
