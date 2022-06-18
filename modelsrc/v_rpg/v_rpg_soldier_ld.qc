@@ -48,7 +48,9 @@ $sequence "reload" "animations/ld/reload" fps 30
 $sequence "fire" "animations/ld/fire" fps 30 
 $sequence "holster1" "animations/ld/holster1" fps 30 
 $sequence "draw1" "animations/ld/draw1" fps 30 
+$sequence "holster2" "animations/ld/holster2" fps 30 
 $sequence "draw2" "animations/ld/draw2" fps 30 
 $sequence "idle2" "animations/ld/idle2" fps 15 loop 
+$sequence "fidget2" "animations/ld/fidget2" fps 15 loop 
 
 // End of QC script.
