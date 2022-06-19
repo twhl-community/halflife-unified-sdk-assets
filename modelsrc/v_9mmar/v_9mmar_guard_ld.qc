@@ -31,7 +31,7 @@ $body "studio" "meshes/ld/v_barney_hands_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 10.000000 -1.750000 8.000000
+$attachment 0 "Bip01 R Hand" 17.800000 -0.900000 6.300000
 
 // 8 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.710000 -2.170000 -2.450000 11.368418 2.790000 1.960000

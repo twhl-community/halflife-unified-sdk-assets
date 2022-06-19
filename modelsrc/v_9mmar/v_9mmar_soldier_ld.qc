@@ -31,7 +31,7 @@ $body "studio" "meshes/ld/v_soldier_hands_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 10.000000 -1.750000 8.000000
+$attachment 0 "Bip01 R Hand" 17.800000 -0.900000 6.300000
 
 // 10 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.440000 -2.130000 -1.990000 11.390000 2.580000 1.140000
