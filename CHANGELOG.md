@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Player Shotgun LD model
 - Player Snark HD model
 - Scientist shotgun LD/HD models
+- 9mmAR LD/HD view models
 - Egon LD/HD view models
 - Python LD/HD view models
 - RPG LD/HD view models
