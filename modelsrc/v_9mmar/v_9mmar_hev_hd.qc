@@ -49,8 +49,8 @@ $sequence "idle1" "animations/hd/idle1" fps 35
 $sequence "grenade" "animations/hd/grenade" fps 30 
 $sequence "reload" "animations/hd/reload" fps 30 { event 5004 5 "items/cliprelease1.wav" } { event 5004 24 "items/clipinsert1.wav" } 
 $sequence "deploy" "animations/hd/deploy" fps 30 
-$sequence "shoot_1" "animations/hd/shoot_1" fps 10 { event 5001 0 "40" } 
-$sequence "shoot_2" "animations/hd/shoot_2" fps 10 { event 5001 0 "40" } 
-$sequence "shoot_3" "animations/hd/shoot_3" fps 10 { event 5001 0 "40" } 
+$sequence "shoot" "animations/hd/shoot_1" fps 10 { event 5001 0 "40" } 
+$sequence "shoot" "animations/hd/shoot_2" fps 10 { event 5001 0 "40" } 
+$sequence "shoot" "animations/hd/shoot_3" fps 10 { event 5001 0 "40" } 
 
 // End of QC script.
