@@ -17,7 +17,6 @@ $cd ".\"
 $cdtexture "../../texturesrc/viewmodel/hands/hev"
 $cdtexture "../../texturesrc/viewmodel/v_crossbow/ld"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
