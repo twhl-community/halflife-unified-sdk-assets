@@ -16,6 +16,7 @@ $modelname "v_crossbow_guard_hd.mdl"
 $cd ".\"
 $cdtexture "../../texturesrc/viewmodel/hands/guard"
 $cdtexture "../../texturesrc/viewmodel/v_crossbow/hd"
+$cdtexture "../../texturesrc/w_crossbow"
 $scale 1.0
 
 

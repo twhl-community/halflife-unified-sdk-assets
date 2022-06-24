@@ -17,6 +17,7 @@ $cd ".\"
 $cdtexture "meshes/hd"
 $cdtexture "../../texturesrc/viewmodel/hands/soldier"
 $cdtexture "../../texturesrc/viewmodel/v_crossbow/hd"
+$cdtexture "../../texturesrc/w_crossbow"
 $scale 1.0
 
 
