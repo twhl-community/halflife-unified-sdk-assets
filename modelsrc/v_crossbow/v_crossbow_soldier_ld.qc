@@ -41,8 +41,6 @@ $hbox 0 "Xbow biped L Arm2" -0.400000 -2.110000 -1.220000 11.420000 2.590000 1.9
 $hbox 0 "Xbow biped L Hand" 0.000000 -1.050000 -2.120000 3.790000 0.880000 1.870000
 $hbox 0 "Xbow biped L Finger0" 0.000000 -0.840000 -0.530000 2.530000 0.350000 0.950000
 $hbox 0 "Xbow biped L Finger31" 0.000000 -0.700000 -0.460000 1.136840 0.450000 0.550000
-$hbox 0 "Xbow biped R Finger0" 0.000000 -0.810000 -1.110000 2.530000 0.490000 0.460000
-$hbox 0 "Xbow biped R Finger31" 0.000000 -0.800000 -0.560000 1.230000 0.360000 0.580000
 
 // 12 animation sequence(s)
 $sequence "idle1" "animations/ld/idle1" fps 30 loop 
