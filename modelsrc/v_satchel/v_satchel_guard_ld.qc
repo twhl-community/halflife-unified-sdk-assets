@@ -18,7 +18,6 @@ $cdtexture "../../texturesrc/viewmodel/hands/guard"
 $cdtexture "../../texturesrc/viewmodel/v_satchel/ld"
 $cdtexture "../../texturesrc/viewmodel/hands/hev"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
