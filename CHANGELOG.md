@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tripmine LD/HD view models
 - Shotgun LD/HD view models
 - Satchel LD/HD view models
+- Satchel radio LD/HD view models
 - Snark LD/HD view models
 - M203 grenade HD model
 - Shotgun shell HD model
