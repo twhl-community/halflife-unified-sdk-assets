@@ -26,9 +26,9 @@ $eyeposition 0.000000 0.000000 0.000000
 
 
 //reference mesh(es)
-$body "body" "meshes/hd/satchel_charge"
-
 $body "body" "meshes/hd/v_soldier_hands_reference"
+
+$body "body" "meshes/hd/satchel_charge"
 
 
 // 12 hit box(es)
