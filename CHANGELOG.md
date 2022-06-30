@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Scientist shotgun LD/HD models
 - 9mmAR LD/HD view models
 - Crossbow LD/HD view models
+- Crowbar LD/HD view models
 - Egon LD/HD view models
 - Gauss LD/HD view models
 - Hand grenade LD/HD view models
