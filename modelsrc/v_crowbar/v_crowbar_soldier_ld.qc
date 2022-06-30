@@ -33,7 +33,6 @@ $body "studio" "meshes/ld/v_soldier_hands_reference"
 // 3 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.510000 -2.160000 -2.020000 11.368422 2.550000 1.120000
 $hbox 0 "Bip01 R Hand" 0.000000 -1.160000 -6.850000 8.070000 2.860000 19.049999
-$hbox 0 "Bip01 R Finger0" 0.000000 -16.530001 -3.110000 3.670000 0.000000 0.000000
 
 // 11 animation sequence(s)
 $sequence "idle1" "animations/ld/idle1" fps 13 

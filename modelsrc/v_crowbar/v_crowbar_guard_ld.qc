@@ -33,9 +33,6 @@ $body "studio" "meshes/ld/v_barney_hands_reference"
 // 5 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.670000 -2.150000 -2.460000 11.368422 2.810000 1.950000
 $hbox 0 "Bip01 R Hand" -0.530000 -1.560000 -2.470000 3.930000 1.210000 1.850000
-$hbox 0 "Bip01 R Finger4" 0.000000 -0.610000 -9.004872 1.808678 20.866716 0.360000
-$hbox 0 "BOX01" -17.280001 -17.150000 0.000000 0.000000 0.000000 29.100000
-$hbox 0 "Bip01 R Finger0" 0.000000 -0.860000 -0.920000 2.490000 0.360000 0.460000
 
 // 11 animation sequence(s)
 $sequence "idle1" "animations/ld/idle1" fps 13 

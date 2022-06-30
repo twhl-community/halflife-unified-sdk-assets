@@ -32,7 +32,6 @@ $body "studio" "meshes/hd/v_gordon_hands_reference"
 
 // 6 hit box(es)
 $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -6.110000 8.290000 2.880000 20.160000
-$hbox 0 "Bip01 R Finger0" 0.000000 -0.940000 -1.000000 2.450000 0.390000 0.540000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
 // 11 animation sequence(s)
