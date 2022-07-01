@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Crowbar LD/HD view models
 - Egon LD/HD view models
 - Gauss LD/HD view models
+- Glock LD/HD view models
 - Hand grenade LD/HD view models
 - Python LD/HD view models
 - RPG LD/HD view models
