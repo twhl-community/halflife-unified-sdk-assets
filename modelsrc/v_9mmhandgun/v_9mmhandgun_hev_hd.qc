@@ -34,7 +34,7 @@ $body "studio" "meshes/hd/clip_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 12.000000 2.250000 4.250000
+$attachment 0 "Bip01 R Hand" 12.000000 2.000000 5.000000
 
 // 8 hit box(es)
 $hbox 0 "Hands mesh" -0.880000 -6.500000 -6.790000 1.240000 3.550000 2.760000
