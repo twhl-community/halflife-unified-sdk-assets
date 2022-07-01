@@ -17,6 +17,7 @@ $cd ".\"
 $cdtexture ".\"
 $cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
 $cdtexture "..\..\texturesrc\viewmodel\v_desert_eagle"
+$cdtexture "../../texturesrc/viewmodel/v_9mmhandgun/ld"
 $scale 1.0
 
 

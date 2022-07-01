@@ -16,6 +16,7 @@ $modelname "v_desert_eagle_guard_hd.mdl"
 $cd ".\"
 $cdtexture "..\..\texturesrc\viewmodel\hands\guard"
 $cdtexture "..\..\texturesrc\viewmodel\v_desert_eagle"
+$cdtexture "../../texturesrc/viewmodel/v_9mmhandgun/ld"
 $scale 1.0
 
 
