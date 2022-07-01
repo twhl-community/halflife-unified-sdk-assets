@@ -39,7 +39,7 @@ studio "meshes/ld/glock_reference(silencer)"
 
 
 // 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 10.000000 2.250000 4.250000
+$attachment 0 "Bip01 R Hand" 11.500000 2.000000 3.650000
 
 // 7 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.720000 -2.190000 -2.460000 11.368418 2.780000 1.950000
