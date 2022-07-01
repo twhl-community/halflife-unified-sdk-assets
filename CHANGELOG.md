@@ -63,6 +63,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Use LD Op4 shotgun world mesh for LD human grunt shotgun
 - Use HD HL1 shotgun and M4 world meshes for HD human grunt weapons
+- Tweaked Desert eagle LD/HD muzzle attachment
 
 ## [0.3.0] - 2022-05-07
 
