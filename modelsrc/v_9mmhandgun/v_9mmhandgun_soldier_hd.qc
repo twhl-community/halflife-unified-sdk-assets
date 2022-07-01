@@ -18,7 +18,6 @@ $cdtexture "../../texturesrc/viewmodel/hands/soldier"
 $cdtexture "../../texturesrc/viewmodel/v_9mmhandgun/hd"
 $cdtexture "../../texturesrc/viewmodel/v_9mmhandgun/ld"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
