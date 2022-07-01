@@ -1,50 +1,50 @@
 version 1
 nodes
 0 "Hands biped" -1
-1 "Hands biped Pelvis" 0
-2 "Hands biped Spine" 1
-3 "Hands biped Spine1" 2
-4 "Hands biped Spine2" 3
-5 "Hands biped Spine3" 4
-6 "Hands biped Neck" 5
-7 "Hands biped R Clavicle" 6
-8 "Hands biped R UpperArm" 7
-9 "Hands biped R Forearm" 8
-10 "Hands biped R Hand" 9
+1 "Bip01 Pelvis" 0
+2 "Bip01 Spine" 1
+3 "Bip01 Spine1" 2
+4 "Bip01 Spine2" 3
+5 "Bip01 Spine3" 4
+6 "Bip01 Neck" 5
+7 "Bip01 R Arm" 6
+8 "Bip01 R Arm1" 7
+9 "Bip01 R Arm2" 8
+10 "Bip01 R Hand" 9
 11 "Bone01" 10
 12 "Bone02" 11
-13 "Hands biped R Finger0" 10
-14 "Hands biped R Finger01" 13
-15 "Hands biped R Finger1" 10
-16 "Hands biped R Finger11" 15
-17 "Hands biped R Finger12" 16
-18 "Hands biped R Finger2" 10
-19 "Hands biped R Finger21" 18
-20 "Hands biped R Finger22" 19
-21 "Hands biped R Finger3" 10
-22 "Hands biped R Finger31" 21
-23 "Hands biped R Finger32" 22
-24 "Hands biped R Finger4" 10
-25 "Hands biped R Finger41" 24
-26 "Hands biped R Finger42" 25
-27 "Hands biped L Clavicle" 6
-28 "Hands biped L UpperArm" 27
-29 "Hands biped L Forearm" 28
-30 "Hands biped L Hand" 29
-31 "Hands biped L Finger0" 30
-32 "Hands biped L Finger01" 31
-33 "Hands biped L Finger1" 30
-34 "Hands biped L Finger11" 33
-35 "Hands biped L Finger12" 34
-36 "Hands biped L Finger2" 30
-37 "Hands biped L Finger21" 36
-38 "Hands biped L Finger22" 37
-39 "Hands biped L Finger3" 30
-40 "Hands biped L Finger31" 39
-41 "Hands biped L Finger32" 40
-42 "Hands biped L Finger4" 30
-43 "Hands biped L Finger41" 42
-44 "Hands biped L Finger42" 43
+13 "Bip01 R Finger0" 10
+14 "Bip01 R Finger01" 13
+15 "Bip01 R Finger1" 10
+16 "Bip01 R Finger11" 15
+17 "Bip01 R Finger12" 16
+18 "Bip01 R Finger2" 10
+19 "Bip01 R Finger21" 18
+20 "Bip01 R Finger22" 19
+21 "Bip01 R Finger3" 10
+22 "Bip01 R Finger31" 21
+23 "Bip01 R Finger32" 22
+24 "Bip01 R Finger4" 10
+25 "Bip01 R Finger41" 24
+26 "Bip01 R Finger42" 25
+27 "Bip01 L Arm" 6
+28 "Bip01 L Arm1" 27
+29 "Bip01 L Arm2" 28
+30 "Bip01 L Hand" 29
+31 "Bip01 L Finger0" 30
+32 "Bip01 L Finger01" 31
+33 "Bip01 L Finger1" 30
+34 "Bip01 L Finger11" 33
+35 "Bip01 L Finger12" 34
+36 "Bip01 L Finger2" 30
+37 "Bip01 L Finger21" 36
+38 "Bip01 L Finger22" 37
+39 "Bip01 L Finger3" 30
+40 "Bip01 L Finger31" 39
+41 "Bip01 L Finger32" 40
+42 "Bip01 L Finger4" 30
+43 "Bip01 L Finger41" 42
+44 "Bip01 L Finger42" 43
 45 "Box02" -1
 end
 skeleton
