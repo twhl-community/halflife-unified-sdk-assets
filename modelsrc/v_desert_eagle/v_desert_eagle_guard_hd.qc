@@ -34,7 +34,7 @@ $body "studio" "../v_9mmhandgun/meshes/ld/clip_reference"
 
 
 // 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 14.000000 2.250000 8.250000
+$attachment 0 "Bip01 R Hand" 13.000000 1.600000 6.000000
 
 // 12 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.390000 -2.110000 -2.020000 11.430000 2.590000 1.120000
