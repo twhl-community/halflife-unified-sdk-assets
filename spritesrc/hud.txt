@@ -1,4 +1,4 @@
-96
+98
 
 selection   640 640hud3 0 180 170 45
 
@@ -55,10 +55,12 @@ train_forward3  640 640hud6 170 72  72  72
 
 autoaim_c   640 crosshairs  96  0 24  24
 
-title_half    640 640hud4 0 226 256 30
-title_life    640 640hud5 0 226 220 30
-title_opposing  640 640hudof05 0   0 256 32
-title_force     640 640hudof06 0   0 256 32
+title_half    	640 gametitles 0 0 256 30
+title_life    	640 gametitles 0 96 220 30
+title_opposing  640 gametitles 0 0 256 64
+title_force     640 gametitles 0 96 256 64
+title_blue		640 gametitles 0 64 256 30
+title_shift		640 gametitles 0 160 220 30
 
 d_crowbar      640 640hud1 192 0 48  16
 d_9mmhandgun   640 640hud1 192 16  32  16

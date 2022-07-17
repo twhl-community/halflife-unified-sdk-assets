@@ -239,11 +239,7 @@
     0 : "No"
     1 : "Yes"
   ]
-  gametitle(choices) : "Display game title" : 0 = 
-  [ 
-    0 : "No"
-    1 : "Yes"
-  ]
+  gametitle(string) : "Game whose title to display"
   newunit(choices) : "New Level Unit" : 0 = 
   [
     0 : "No, keep current"
