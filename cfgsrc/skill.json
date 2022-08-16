@@ -276,9 +276,9 @@
 			"massassin_gspeed3": 800,
 
 			// ShockTrooper 
-			"shocktrooper_health1": 50,
-			"shocktrooper_health2": 50,
-			"shocktrooper_health3": 80,
+			"shocktrooper_health1": 125,
+			"shocktrooper_health2": 125,
+			"shocktrooper_health3": 200,
 
 			"shocktrooper_kick1": 5,
 			"shocktrooper_kick2": 10,
