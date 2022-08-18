@@ -1616,8 +1616,6 @@ SC_GETALONG scientist/getalong
 
 SC_SCREAM15 scientist/scream07
 
-SC_RESCUED scientist/c1a3_sci_rescued
-
 SC_GOFREEMAN scientist/c3a2_sci_portopen
 SC_HURRY scientist/c3a2_sci_forever
 
@@ -1664,8 +1662,6 @@ SC_YARD_BOX4 scientist/sc_yard_box4
 
 SC_YARD_BOX1A scientist/sc_yard_box1a
 SC_YARD_BOX1B scientist/sc_yard_box1b
-
-SC_RESCUED scientist/c1a3_sci_rescued
 
 SC_TELE_WORK1 scientist/sc_tele_work1
 SC_TELE_WORK2 scientist/sc_tele_work2
