@@ -5,6 +5,10 @@
 			"FileName": "cfg/Op4ModelReplacement.json"
 		},
 		{
+			"Name": "GlobalSentenceReplacement",
+			"FileName": "cfg/Op4SentenceReplacement.json"
+		},
+		{
 			"Name": "HudColor",
 			"Color": "0 160 0"
 		},
