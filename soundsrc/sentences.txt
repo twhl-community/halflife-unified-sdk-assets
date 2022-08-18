@@ -1,5 +1,9 @@
 // HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 65535 sentences.
 
+// Sentence and sentence group that play no sound, for sentence replacement.
+NULLSENT common/null
+NULLGR0 common/null
+
 // HUMAN GRUNTS
 // Grenade Warning
 HG_GREN0 hgrunt/clik(p120) grenade! clik
@@ -26,6 +30,14 @@ HG_ALERT6 hgrunt/(t30) clik clik move!(e75) in! clik(p120)
 // Opposing Force version
 OFHG_ALERT0 hgrunt/clik(p110) target! clik
 OFHG_ALERT1 hgrunt/clik movement! clik
+
+// Blue Shift version
+BSHG_ALERT0 hgrunt/(t30) squad!, we!(e80) got!(e80) hostiles!(t20 p105), clik(p110)
+BSHG_ALERT1 hgrunt/clik(p110) target! clik
+BSHG_ALERT2 hgrunt/clik movement! clik
+BSHG_ALERT3 hgrunt/(t40) shit!(t20), (t50) we! got! hostiles!(p120 t0) clik
+BSHG_ALERT4 hgrunt/(t20) clik squad!, neutralize!(e90) hostiles! clik
+BSHG_ALERT5 hgrunt/(t30) clik clik move!(e75) in! clik(p120)
 
 // Monster Alert
 HG_MONST0 hgrunt/clik(p110) (t50) bogies!(t0), my! sector!(t0) clik
@@ -109,6 +121,20 @@ HG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four freeman, over clik
 OFHG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)
 OFHG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120) 
 
+// Blue Shift version
+BSHG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)
+BSHG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120) 
+BSHG_QUEST2 hgrunt/clik (t20) maintain lookout clik(p120)
+BSHG_QUEST3 hgrunt/clik(p110) (t30) squad, quiet(e75) down clik(p120)
+BSHG_QUEST4 hgrunt/clik(p120) (t30) hold position, clik
+BSHG_QUEST5 hgrunt/clik(p120) (t30) sweep(e80) that sector, clik(p120) clik(p120)
+BSHG_QUEST6 hgrunt/clik(p120) (t30) uhh, go tango sweep formation clik(p120) clik(p120)
+BSHG_QUEST7 hgrunt/clik(p120) (t30) echo(e75) mission is go clik(p120) clik(p120)
+BSHG_QUEST8 hgrunt/clik(p110) (t30) fire(e75) team, weapons(e75) check ok clik(p120) clik
+BSHG_QUEST9 hgrunt/clik(p110) (t30) fire(e75) team, objective foxtrot niner clik(p120)
+BSHG_QUEST10 hgrunt/clik (t30) ok(e75) mission, zero(e75) niner clik
+BSHG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four hostiles, over clik
+
 HG_ANSWER0 hgrunt/clik(p110) (t20) uhh roger(e75) that, clik(p120) clik
 HG_ANSWER1 hgrunt/clik(p120) (t10) yessir clik
 HG_ANSWER2 hgrunt/clik(p120) (t30) affirmative, sir clik
@@ -169,6 +195,13 @@ HG_DRAG6A hgrunt/c2a3_hg_laugh
 
 HG_SUCKS hgrunt/hg_sucks
 HG_CIVVIES hgrunt/hg_civvies
+
+// scripts for 'barney'
+HG_CANAL1 hgrunt/hg_canal1
+HG_CANAL2 hgrunt/hg_canal2
+HG_CANAL3 hgrunt/hg_canal3
+
+HG_GOT_BARNEY hgrunt/hg_got_barney
 
 // BASE COMPUTER
 // C1A0 intercom\
@@ -388,6 +421,11 @@ NA15 (p103) entry is not an option
 NA16 (p104) will we do this all day
 NA17 (p104) move on immediately
 NA18 (p105) no, no, and no(p80)
+
+// Blue Shift version
+BSNA0 access denied
+BSNA1 access granted
+
 EA0 access granted
 EA1 access permitted
 EA2 entry granted
@@ -490,6 +528,9 @@ DB3 danger, biohazard detected in immediate area
 TR_A three, two, one, deeoo(p110)
 TR_B deeoo(p110) (p102 t20) target system deactivated
 
+// VOX sounds for Barney
+VOX_ELEV1 deeoo, warning, main power failure on levels three, five and eight, deeoo
+VOX_ELEV2 deeoo, warning, extreme electromagnetic field hazard in sector c, deeoo
 
 
 // HEV Suit
@@ -799,6 +840,15 @@ OFBA_HELLO3 barney/armedforces
 OFBA_HELLO4 barney/soldier
 OFBA_HELLO4 barney/sir
 
+// Blue Shift version
+BSBA_HELLO0 barney/hellonicesuit
+BSBA_HELLO1 barney/ba_hello1
+BSBA_HELLO2 barney/ba_hello2
+BSBA_HELLO3 barney/ba_hello3
+BSBA_HELLO4 barney/ba_hello4
+BSBA_HELLO5 barney/ba_hello5
+BSBA_HELLO6 barney/heyfella
+
 BA_QUESTION0 barney/beertopside
 BA_QUESTION1 barney/wayout
 BA_QUESTION2 barney/getanyworse
@@ -881,6 +931,14 @@ OFBA_ATTACK1 barney/whatisthat
 OFBA_ATTACK2 barney/diebloodsucker
 OFBA_ATTACK3 barney/aimforhead
 
+// Blue Shift version
+BSBA_ATTACK0 barney/ba_openfire(e50)
+BSBA_ATTACK1 barney/ba_openfire(s50)
+BSBA_ATTACK2 barney/standback
+BSBA_ATTACK3 barney/whatisthat
+BSBA_ATTACK4 barney/diebloodsucker
+BSBA_ATTACK5 barney/aimforhead
+
 BA_HEAR0 barney/hearsomething
 BA_HEAR1 barney/icanhear
 BA_HEAR2 barney/soundsbad
@@ -914,6 +972,14 @@ OFBA_SHOT1 barney/ba_dotoyou
 OFBA_SHOT2 barney/ba_watchit
 OFBA_SHOT3 barney/ba_whatyou
 OFBA_SHOT4 barney/ba_friends
+
+// Blue Shift version
+BSBA_SHOT0 barney/ba_shot1
+BSBA_SHOT1 barney/ba_shot2
+BSBA_SHOT2 barney/ba_shot3
+BSBA_SHOT3 barney/ba_shot4
+BSBA_SHOT4 barney/ba_shot5
+BSBA_SHOT5 barney/ba_whatyou
 
 //When Barney’s really pissed at you:
 BA_MAD0 barney/ba_stepoff
@@ -958,6 +1024,13 @@ BA_POK0 barney/ba_post
 BA_POK1 barney/ba_duty
 BA_POK2 barney/ba_raincheck
 BA_POK3 barney/ba_later
+
+// Blue Shift version
+BSBA_POK0 barney/ba_pok0
+BSBA_POK0 barney/ba_pok1
+BSBA_POK1 barney/ba_pok2
+BSBA_POK2 barney/ba_pok3
+BSBA_POK3 barney/ba_later
 
 // if barney can't follow you
 BA_STOP0 barney/stop1
@@ -1044,6 +1117,36 @@ BA_NASTYTHING barney/of6a4_ba04
 OF1A5_BARN1 barney/OF1A5_BA01
 OF1A5_BARN2 barney/OF1A5_BA02
 
+// ba_security scripts
+BA_SEC1_D1 barney/ba_security1_door1
+BA_SEC1_D2 barney/ba_security1_door2
+BA_SEC1_D3 barney/ba_security1_door3
+BA_SEC2_NOPASS barney/ba_security2_nopass
+BA_SEC2_PASS barney/ba_security2_pass
+BA_SEC2_DESK1 barney/ba_security2_desk1
+BA_SEC2_DESK2 barney/ba_security2_desk2
+BA_SEC2_ADMIN barney/ba_security2_admin
+BA_SEC2_RANGE1 barney/ba_security2_range1
+BA_SEC2_RANGE2 barney/ba_security2_range2
+
+// ba_elevator
+BA_HEY barney/ba_heeey
+
+// ba_canal scripts
+BA_CANAL_WOUND2 barney/ba_canal_wound1
+BA_CANAL_DEATH1 barney/ba_canal_death1
+
+// ba_power scripts
+BA_POWER1 barney/ba_power1
+BA_POWER2 barney/ba_power2
+BA_POWER3 barney/ba_power3
+BA_POWER4 barney/ba_power4
+BA_POWER_WOUND1 barney/ba_power_wound1
+BA_POWER_WOUND2 barney/ba_power_wound2
+BA_DIE1 barney/ba_die1
+
+BA_AREYOUCRAZY barney/ba_crazy
+
 // SCIENTIST
 
 SC_OK0 scientist/excellentteam
@@ -1066,6 +1169,18 @@ OFSC_OK5 scientist/letsgo
 OFSC_OK6 scientist/yesletsgo
 OFSC_OK7 scientist/yes3
 
+// Blue Shift version
+BSSC_OK0 scientist/sc_ok0
+BSSC_OK1 scientist/sc_ok1
+BSSC_OK2 scientist/sc_ok2
+BSSC_OK3 scientist/sc_ok3
+BSSC_OK4 scientist/excellentteam
+BSSC_OK5 scientist/fine
+BSSC_OK6 scientist/hopeyouknow
+BSSC_OK7 scientist/leadtheway
+BSSC_OK8 scientist/letsgo
+BSSC_OK9 scientist/yesletsgo
+
 SC_WAIT0 scientist/beenaburden
 SC_WAIT1 scientist/slowingyou
 SC_WAIT2 scientist/reconsider
@@ -1084,6 +1199,12 @@ SC_STOP3 scientist/stop4
 OFSC_STOP0 scientist/stop1
 OFSC_STOP1 scientist/stop2
 OFSC_STOP2 scientist/stop4
+
+// Blue Shift version
+BSSC_STOP0 scientist/stop1
+BSSC_STOP1 scientist/stop2
+BSSC_STOP2 scientist/stop4
+BSSC_STOP3 scientist/sc_stop3
 
 // player is staring at scientist
 SC_STARE0 scientist/yees
@@ -1105,6 +1226,14 @@ OFSC_HELLO0 scientist/hellothere
 OFSC_HELLO1 scientist/greetings2
 OFSC_HELLO2 scientist/hello
 OFSC_HELLO3 scientist/goodtoseeyou
+
+// Blue Shift version
+BSSC_HELLO0 scientist/sc_hello0
+BSSC_HELLO1 scientist/sc_hello1
+BSSC_HELLO2 scientist/sc_hello2
+BSSC_HELLO3 scientist/sc_hello3
+BSSC_HELLO4 scientist/sc_hello4
+BSSC_HELLO5 scientist/sc_hello5
 
 SC_ANSWER0 scientist/notsure
 SC_ANSWER1 scientist/notcertain
@@ -1264,6 +1393,11 @@ SC_PHELLO4 scientist/hello
 SC_PHELLO5 scientist/hellothere
 SC_PHELLO6 scientist/freeman
 
+// Blue Shift version
+BSSC_PHELLO0 scientist/greetings2
+BSSC_PHELLO1 scientist/hello
+BSSC_PHELLO2 scientist/hellothere
+
 SC_PQUEST0 scientist/beverage
 SC_PQUEST1 scientist/statusreport
 SC_PQUEST2 scientist/tunnelcalc
@@ -1303,6 +1437,7 @@ SC_HAZ_WAIT0 holo/tr_sci_unuse
 
 //Scientists in Hazard Course
 SC_GOODWORK holo/tr_sci_goodwork
+BSSC_GOODWORK ba_holo/tr_sci_gwbarney
 SC_HARDLYNOTICE holo/tr_sci_hardlynoticed
 SC_NEXTSTATION holo/tr_sci_nextstation
 
@@ -1313,6 +1448,16 @@ SC_POK1 scientist/sci_bother
 SC_POK2 scientist/sci_busy
 SC_POK3 scientist/sci_aftertest
 SC_POK4 scientist/sci_somewhere
+
+// Blue Shift version
+BSSC_POK0 scientist/sc_pok0
+BSSC_POK1 scientist/sc_pok1
+BSSC_POK2 scientist/sc_pok2
+BSSC_POK3 scientist/sc_pok3
+BSSC_POK4 scientist/sc_pok4
+BSSC_POK5 scientist/sc_pok5
+BSSC_POK6 scientist/sc_pok6
+BSSC_POK7 scientist/sci_bother
 
 //narrative audio
 
@@ -1476,6 +1621,380 @@ SC_RESCUED scientist/c1a3_sci_rescued
 SC_GOFREEMAN scientist/c3a2_sci_portopen
 SC_HURRY scientist/c3a2_sci_forever
 
+// scripts for 'barney'
+
+SC_COUGH scientist/cough
+
+SC_GMORNING scientist/c1a0_sci_gm
+
+SC_SEC2_ADMIN1 scientist/sc_sec2_admin1
+SC_SEC2_ADMIN2 scientist/sc_sec2_admin2
+
+SC_MAINT scientist/sc_maint
+
+SC_M1 scientist/alright
+SC_M2 scientist/thiswillhelp
+SC_M3 scientist/letmehelp
+SC_M4 scientist/okihope
+SC_M5 scientist/letstrythis
+
+SC_ACCIDENT1 scientist/sc_accident1
+SC_ACCIDENT2 scientist/sc_accident2
+SC_ACCIDENT3 scientist/sc_accident3
+
+SC_RUNAWAY scientist/scream07
+SC_RUNAWAY2 scientist/scream01
+SC_ACC_DIE scientist/sci_pain1
+SC_ACC_SCREAM1 scientist/scream22
+SC_ACC_SCREAM2 scientist/scream13
+
+SC_CANALS1 scientist/sc_canals1
+SC_CANALS2 scientist/sc_canals2
+SC_CANALS3 scientist/sc_canals3
+SC_CANALS4 scientist/sc_canals4
+
+SC_YARD_WOUND1 scientist/sc_yard_wound1
+SC_YARD_WOUND2 scientist/sc_yard_wound2
+HA_SCREAM1 scientist/sci_fear10
+
+SC_YARD_BOX1 scientist/sc_yard_box1
+SC_YARD_BOX2 scientist/sc_yard_box2
+SC_YARD_BOX3 scientist/sc_yard_box3
+SC_YARD_BOX4 scientist/sc_yard_box4
+
+SC_YARD_BOX1A scientist/sc_yard_box1a
+SC_YARD_BOX1B scientist/sc_yard_box1b
+
+SC_RESCUED scientist/c1a3_sci_rescued
+
+SC_TELE_WORK1 scientist/sc_tele_work1
+SC_TELE_WORK2 scientist/sc_tele_work2
+SC_TELE_XEN1 scientist/sc_tele_xen1
+
+SC_POWER1 scientist/sc_power1
+SC_POWER2 scientist/sc_power2
+SC_POWER_ALT1 scientist/sc_power_alt1
+SC_POWER_ALT2 scientist/sc_power_alt2
+SC_POWER_WOUND1 scientist/sc_power_wound1
+SC_POWER_WOUND2 scientist/sc_power_wound2
+
+// Dr. Rosenburg
+
+RO_OK0 rosenberg/ro_ok0
+RO_OK1 rosenberg/ro_ok1
+RO_OK2 rosenberg/ro_ok2
+RO_OK3 rosenberg/ro_ok3
+RO_OK4 rosenberg/ro_ok4
+RO_OK5 rosenberg/ro_ok5
+RO_OK6 rosenberg/ro_ok6
+RO_OK7 rosenberg/ro_ok7
+RO_OK8 rosenberg/ro_ok8
+RO_OK9 rosenberg/ro_ok9
+
+RO_WAIT0 rosenberg/ro_wait0
+RO_WAIT1 rosenberg/ro_wait1
+RO_WAIT2 rosenberg/ro_wait2
+RO_WAIT3 rosenberg/ro_wait3
+RO_WAIT4 rosenberg/ro_wait4
+RO_WAIT5 rosenberg/ro_wait5
+RO_WAIT6 rosenberg/ro_wait6
+RO_WAIT7 rosenberg/ro_wait7
+
+// fail to follow player any more
+RO_STOP0 rosenberg/ro_stop0
+RO_STOP1 rosenberg/ro_stop1
+RO_STOP2 rosenberg/ro_stop2
+RO_STOP3 rosenberg/ro_stop3
+RO_STOP4 rosenberg/ro_stop4
+
+
+// player is staring at scientist
+RO_STARE0 scientist/yees
+RO_STARE1 scientist/areyouthink
+RO_STARE2 scientist/noidea
+
+RO_HELLO0 common/null
+
+RO_ANSWER0 scientist/notsure
+RO_ANSWER1 scientist/notcertain
+RO_ANSWER2 scientist/perhaps
+RO_ANSWER3 scientist/whocansay
+RO_ANSWER4 scientist/inconclusive
+RO_ANSWER5 scientist/theoretically
+RO_ANSWER6 scientist/whyaskme
+RO_ANSWER7 scientist/lowervoice
+RO_ANSWER8 scientist/ofcourse
+RO_ANSWER9 scientist/absolutely
+RO_ANSWER10 scientist/yes
+RO_ANSWER11 scientist/ibelieveso
+RO_ANSWER12 scientist/right
+RO_ANSWER13 scientist/imsure
+RO_ANSWER14 scientist/positively
+RO_ANSWER15 scientist/nodoubt
+RO_ANSWER16 scientist/yees
+RO_ANSWER17 scientist/ofcoursenot
+RO_ANSWER18 scientist/absolutelynot
+RO_ANSWER19 scientist/noo
+RO_ANSWER20 scientist/idontthinkso
+RO_ANSWER21 scientist/completelywrong
+RO_ANSWER22 scientist/cantbeserious
+RO_ANSWER23 scientist/dontknow
+RO_ANSWER24 scientist/ridiculous
+RO_ANSWER25 scientist/shutup
+RO_ANSWER26 scientist/noguess
+RO_ANSWER27 scientist/stopasking
+RO_ANSWER28 scientist/justasked
+RO_ANSWER29 scientist/repeat
+
+RO_QUESTION0 scientist/everseen
+RO_QUESTION1 scientist/needsleep
+RO_QUESTION2 scientist/areyouthink
+RO_QUESTION3 scientist/evergetout
+RO_QUESTION4 scientist/rightwayout
+RO_QUESTION5 scientist/cantbeworse
+RO_QUESTION6 scientist/rescueus
+RO_QUESTION7 scientist/fascinating
+RO_QUESTION8 scientist/stimulating
+RO_QUESTION9 scientist/luckwillchange
+RO_QUESTION10 scientist/hearsomething
+RO_QUESTION11 scientist/doyousmell
+RO_QUESTION12 scientist/uselessphd
+RO_QUESTION13 scientist/waithere
+RO_QUESTION14 scientist/survival
+RO_QUESTION15 scientist/headcrab
+RO_QUESTION16 scientist/goodpaper
+RO_QUESTION17 scientist/catchone
+RO_QUESTION18 scientist/dinner
+RO_QUESTION19 scientist/alientrick
+RO_QUESTION20 scientist/alienappeal
+RO_QUESTION21 scientist/rumorclean
+RO_QUESTION22 scientist/nothostile
+RO_QUESTION23 scientist/announcer
+RO_QUESTION24 scientist/smellburn
+RO_QUESTION25 scientist/noidea
+RO_QUESTION26 scientist/whatnext
+
+RO_IDLE0 scientist/ipredictedthis
+RO_IDLE1 scientist/containfail
+RO_IDLE2 scientist/chaostheory
+RO_IDLE3 scientist/howinteresting
+RO_IDLE4 scientist/neverseen
+RO_IDLE5 scientist/peculiarmarks
+RO_IDLE6 scientist/whoresponsible
+RO_IDLE7 scientist/nogrant
+RO_IDLE8 scientist/bloodsample
+RO_IDLE9 scientist/administrator
+RO_IDLE10 scientist/improbable
+RO_IDLE11 scientist/organicmatter
+RO_IDLE12 scientist/lambdalab
+RO_IDLE13 scientist/ihearsomething
+
+RO_NOGO scientist/dontgothere
+
+RO_MONST0 scientist/seeheadcrab
+RO_MONST1 scientist/importantspecies
+
+RO_HEAR0 scientist/ihearsomething
+RO_HEAR1 scientist/didyouhear
+RO_HEAR2 scientist/whatissound
+
+RO_SMELL0 scientist/somethingfoul
+RO_SMELL1 scientist/odorfromyou
+RO_SMELL2 scientist/peculiarodor
+RO_SMELL3 scientist/stench
+
+RO_WOUND0 rosenberg/ro_wound0
+RO_WOUND1 rosenberg/ro_wound1
+
+RO_MORTAL0 rosenberg/ro_mortal0
+RO_MORTAL1 rosenberg/ro_mortal1
+
+RO_CUREA rosenberg/ro_cure0
+RO_CUREB rosenberg/ro_cure1
+RO_CUREC rosenberg/ro_cure2
+
+RO_HEAL0 rosenberg/ro_heal0
+RO_HEAL1 rosenberg/ro_heal1
+RO_HEAL2 rosenberg/ro_heal2
+RO_HEAL3 rosenberg/ro_heal3
+RO_HEAL4 rosenberg/ro_heal4
+
+RO_PLFEAR0 rosenberg/ro_plfear0
+RO_PLFEAR1 rosenberg/ro_plfear1
+RO_PLFEAR2 rosenberg/ro_plfear2
+RO_PLFEAR3 rosenberg/ro_plfear3
+RO_PLFEAR4 rosenberg/ro_plfear4
+
+RO_FEAR0 rosenberg/ro_fear0
+RO_FEAR1 rosenberg/ro_fear1
+RO_FEAR2 rosenberg/ro_fear2
+RO_FEAR3 rosenberg/ro_fear3
+RO_FEAR4 rosenberg/ro_fear4
+RO_FEAR5 rosenberg/ro_fear5
+
+RO_SCREAM0 rosenberg/ro_fear0
+RO_SCREAM1 rosenberg/ro_fear1
+RO_SCREAM2 rosenberg/ro_fear2
+RO_SCREAM3 rosenberg/ro_fear3
+RO_SCREAM4 rosenberg/ro_fear4
+RO_SCREAM5 rosenberg/ro_fear5
+
+RO_SCARED0 rosenberg/ro_scared0
+RO_SCARED1 rosenberg/ro_scared1
+RO_SCARED2 rosenberg/ro_scared2
+
+// predisaster scientist
+
+RO_PHELLO0 scientist/greetings2
+RO_PHELLO1 scientist/hello
+RO_PHELLO2 scientist/hellothere
+
+RO_PQUEST0 scientist/beverage
+RO_PQUEST1 scientist/statusreport
+RO_PQUEST2 scientist/tunnelcalc
+RO_PQUEST3 scientist/shakeunification
+RO_PQUEST4 scientist/correcttheory
+RO_PQUEST5 scientist/analysis
+RO_PQUEST6 scientist/purereadings
+RO_PQUEST7 scientist/newsample
+RO_PQUEST8 scientist/perfectday
+RO_PQUEST9 scientist/cascade
+RO_PQUEST10 scientist/delayagain
+RO_PQUEST11 scientist/softethics
+RO_PQUEST12 scientist/tunedtoday
+RO_PQUEST13 scientist/donuteater
+RO_PQUEST14 scientist/seencup
+RO_PQUEST15 scientist/hungryyet
+RO_PQUEST16 scientist/recalculate
+RO_PQUEST17 scientist/checkatten
+
+RO_PIDLE0 scientist/hideglasses
+RO_PIDLE1 scientist/weartie
+RO_PIDLE2 scientist/runtest
+RO_PIDLE3 scientist/limitsok
+RO_PIDLE4 scientist/asexpected
+RO_PIDLE5 scientist/thatsodd
+RO_PIDLE6 scientist/allnominal
+RO_PIDLE7 scientist/shutdownchart
+RO_PIDLE8 scientist/reportflux
+RO_PIDLE9 scientist/simulation
+RO_PIDLE10 scientist/hopenominal
+
+//If you use Scientists in Hazard Course
+RO_HAZ_OK0 holo/tr_sci_use
+
+//If you unuse Scientists in Hazard Course
+RO_HAZ_WAIT0 holo/tr_sci_unuse
+
+//Scientists in Hazard Course
+RO_GOODWORK holo/tr_sci_goodwork
+RO_HARDLYNOTICE holo/tr_sci_hardlynoticed
+RO_NEXTSTATION holo/tr_sci_nextstation
+
+//If you use Scientists before the disaster
+
+RO_POK0 scientist/sc_pok0
+RO_POK1 scientist/sc_pok1
+RO_POK2 scientist/sc_pok2
+RO_POK3 scientist/sc_pok3
+RO_POK4 scientist/sc_pok4
+RO_POK5 scientist/sc_pok5
+RO_POK6 scientist/sc_pok6
+RO_POK7 scientist/sci_bother
+
+// Barney specific scripts
+
+RO_INSIDE_CAR rosenberg/ro_inside_car
+
+RO_YARD_ROSE1 rosenberg/ro_yard_rose1
+RO_YARD_ROSE2 rosenberg/ro_yard_rose2
+RO_YARD_ROSE3 rosenberg/ro_yard_rose3
+RO_YARD_ROSE4 rosenberg/ro_yard_rose4
+
+RO_LETSTRYTHIS rosenberg/ro_letstrythis
+
+RO_NULL common/null
+
+RO_YARD_ALMOST2 rosenberg/ro_yard_almost2
+RO_YARD_ALMOST3 rosenberg/ro_yard_almost3
+RO_YARD_FOLLOW1 rosenberg/ro_yard_follow1
+RO_YARD_FOLLOW2 rosenberg/ro_yard_follow2
+RO_YARD_HURRY02 rosenberg/ro_yard_hurry02
+RO_YARD_NOTIME1 rosenberg/ro_yard_notime1
+
+RO_YARD_ACCESS1 rosenberg/ro_yard_access1
+RO_YARD_ACCESS2 rosenberg/ro_yard_access2
+
+RO_TELE_ALMOST1 rosenberg/ro_tele_almost1
+RO_TELE_ALMOST2 rosenberg/ro_tele_almost2
+
+RO_KILLED rosenberg/ro_pain1
+
+RO_TELE_FINAL01 rosenberg/ro_tele_final01
+RO_TELE_FINAL02 rosenberg/ro_tele_final02
+RO_TELE_FINAL03 rosenberg/ro_tele_final03
+RO_TELE_FINAL04 rosenberg/ro_tele_final04
+RO_TELE_FINAL05 rosenberg/ro_tele_final05
+RO_TELE_FINAL06 rosenberg/ro_tele_final06
+RO_TELE_FINAL07 rosenberg/ro_tele_final07
+RO_TELE_FINAL08 rosenberg/ro_tele_final08
+RO_TELE_FINAL09 rosenberg/ro_tele_final09
+RO_TELE_FINAL10 rosenberg/ro_tele_final10
+RO_TELE_FINAL11 rosenberg/ro_tele_final11
+RO_TELE_FINAL12 rosenberg/ro_tele_final12
+RO_TELE_FINAL13 rosenberg/ro_tele_final13
+RO_TELE_FINAL14 rosenberg/ro_tele_final14
+RO_TELE_FINAL15 rosenberg/ro_tele_final15
+RO_TELE_FINAL16 rosenberg/ro_tele_final16
+RO_TELE_FINAL17 rosenberg/ro_tele_final17
+RO_TELE_FINAL18 rosenberg/ro_tele_final18
+RO_TELE_FINAL19 rosenberg/ro_tele_final19
+RO_TELE_FINAL20 rosenberg/ro_tele_final20
+RO_TELE_FINAL21 rosenberg/ro_tele_final21
+RO_TELE_FINAL22 rosenberg/ro_tele_final22
+RO_TELE_FINAL23 rosenberg/ro_tele_final23
+RO_TELE_FINAL24 rosenberg/ro_tele_final24
+RO_TELE_FINAL25 rosenberg/ro_tele_final25
+RO_TELE_FINAL26 rosenberg/ro_tele_final26
+RO_TELE_FINAL27 rosenberg/ro_tele_final27
+RO_TELE_FINAL28 rosenberg/ro_tele_final28
+
+RO_TELE_NOCELL rosenberg/ro_tele_nocell
+
+RO_TELE_XEN01 rosenberg/ro_tele_xen01
+RO_TELE_XEN02 rosenberg/ro_tele_xen02
+RO_TELE_XEN03a rosenberg/ro_tele_xen03a
+RO_TELE_XEN03b rosenberg/ro_tele_xen03b
+RO_TELE_XEN04 rosenberg/ro_tele_xen04
+RO_TELE_XEN05 rosenberg/ro_tele_xen05
+RO_TELE_XEN06 rosenberg/ro_tele_xen06
+RO_TELE_XEN07 rosenberg/ro_tele_xen07
+RO_TELE_XEN08 rosenberg/ro_tele_xen08
+RO_TELE_XEN09 rosenberg/ro_tele_xen09
+RO_TELE_XEN10 rosenberg/ro_tele_xen10
+RO_TELE_XEN11 rosenberg/ro_tele_xen11
+
+RO_TELE_XEN12 rosenberg/ro_tele_xen12
+
+RO_TOO_SLOW rosenberg/ro_too_slow
+
+RO_XEN_CALL1 rosenberg/ro_xen_call1
+RO_XEN_CALL2 rosenberg/ro_xen_call2
+RO_XEN_CALL3 rosenberg/ro_xen_call3
+
+RO_TO_TELEPORT rosenberg/ro_to_teleport
+
+RO_YARD_SCANNER rosenberg/ro_yard_scanner
+
+RO_TELE_POWER1 rosenberg/ro_tele_power1
+RO_TELE_POWER2 rosenberg/ro_tele_power2
+RO_TELE_POWER3 rosenberg/ro_tele_power3
+RO_TELE_POWER4 rosenberg/ro_tele_power4
+RO_TELE_POWER5 rosenberg/ro_tele_power5
+
+RO_OUTRO1 rosenberg/ro_outro1
+RO_OUTRO2 rosenberg/ro_outro2
+
 // outdoor
 WILD0 ambience/(v30) quail1(p103), quail1(t10), quail1(p101)
 WILD1 ambience/bee1(v75)
@@ -1604,6 +2123,52 @@ HOLO_TARGET holo/tr_holo_target
 HOLO_TRYAGAIN holo/tr_holo_tryagain
 HOLO_USETRAIN holo/tr_holo_usetrain
 
+// BARNEY HOLOGRAM
+
+HOLO_4JUMPS ba_holo/tr_holo_4jumps
+HOLO_ARMOR ba_holo/tr_holo_armor
+BSHOLO_BREAKBOX ba_holo/tr_holo_breakbox
+BSHOLO_BREATH ba_holo/tr_holo_breath
+BSHOLO_BUTTON ba_holo/tr_holo_button
+BSHOLO_CHARGER ba_holo/tr_holo_charger
+BSHOLO_COMMENCING ba_holo/tr_holo_commencing
+BSHOLO_CONGRATS ba_holo/tr_holo_congrats
+BSHOLO_DONE ba_holo/tr_holo_done
+BSHOLO_DROWN ba_holo/tr_holo_drown
+BSHOLO_DUCK ba_holo/tr_holo_duck
+BSHOLO_FALLSHORT ba_holo/tr_holo_fallshort
+BSHOLO_FANTASTIC ba_holo/tr_holo_fantastic
+BSHOLO_FLASHLIGHT ba_holo/tr_holo_flashlight
+BSHOLO_GREATWORK ba_holo/tr_holo_greatwork
+BSHOLO_GRENADE ba_holo/tr_holo_grenade
+HOLO_HEVNOUSE ba_holo/tr_holo_hevnouse
+BSHOLO_HITALL ba_holo/tr_holo_hitall
+BSHOLO_INJURY ba_holo/tr_holo_injury
+BSHOLO_INTRO ba_holo/tr_holo_intro
+BSHOLO_JDUCK ba_holo/tr_holo_jduck
+BSHOLO_JUMP ba_holo/tr_holo_jump
+BSHOLO_JUMPDOWN ba_holo/tr_holo_jumpdown
+BSHOLO_JUMPGAP ba_holo/tr_holo_jumpgap
+BSHOLO_KEEPTRYING ba_holo/tr_holo_keeptrying
+BSHOLO_LADDER ba_holo/tr_holo_ladder
+BSHOLO_LEADGUARD ba_holo/tr_holo_leadguard
+BSHOLO_LIGHTOFF ba_holo/tr_holo_lightoff
+BSHOLO_LONGJUMP ba_holo/tr_holo_longjump
+BSHOLO_MEDKIT ba_holo/tr_holo_medkit
+BSHOLO_MOVE ba_holo/tr_holo_move
+BSHOLO_NICEJOB ba_holo/tr_holo_nicejob
+BSHOLO_PIPEDUCK ba_holo/tr_holo_pipeduck
+BSHOLO_PULLBOX ba_holo/tr_holo_pullbox
+BSHOLO_PUSHBOX ba_holo/tr_holo_pushbox
+BSHOLO_RADIATION ba_holo/tr_holo_radiation
+BSHOLO_RETRY ba_holo/tr_holo_retry
+BSHOLO_RUNSTART ba_holo/tr_holo_runstart
+BSHOLO_SPINBRIDGE ba_holo/tr_holo_spinbridge
+BSHOLO_STARTLIFT ba_holo/tr_holo_startlift
+BSHOLO_STEAM ba_holo/tr_holo_steam
+BSHOLO_TARGET ba_holo/tr_holo_target
+BSHOLO_TRYAGAIN ba_holo/tr_holo_tryagain
+BSHOLO_USETRAIN ba_holo/tr_holo_usetrain
 
 //GMAN
 
@@ -1749,6 +2314,15 @@ OT_TRUSTYA otis/of2a6_ot01
 OT_TRANSPORTER otis/of3a2_ot01
 OT_TELLSECRET otis/of6a3_ot01
 
+// OTIS (for 'barney')
+
+OT_CHAT1 otis/hell
+BA_CHAT1 barney/ba_friends
+OT_1 otis/ot_intro_hello1
+OT_2 otis/ot_intro_hello2
+OT_3 otis/ot_intro_seeya
+OT_MMMM otis/mmmm
+OT_LEFTOVERS otis/leftovers
 
 //FRIENDLY GRUNT
 FG_QUESTION0 fgrunt/seensquad

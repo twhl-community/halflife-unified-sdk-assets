@@ -5,6 +5,10 @@
 			"FileName": "cfg/BlueShiftModelReplacement.json"
 		},
 		{
+			"Name": "GlobalSentenceReplacement",
+			"FileName": "cfg/BlueShiftSentenceReplacement.json"
+		},
+		{
 			"Name": "HudColor",
 			"Color": "95 95 255"
 		},
