@@ -19,6 +19,9 @@
 	// HEV suit. Replaced with PCV sounds. Most of these use the same replacement so they could be merged to cut down on the number of sentences and groups.
 	"HEV_AAx": "PCV_AAx",
 	"HEV_A": "PCV_A",
+	// Replace these separately because they are played directly.
+	"HEV_A0": "PCV_A0",
+	"HEV_A1": "PCV_A1",
 	
 	"HEV_DEAD": "PCV_DEAD",
 	"HEV_MED": "PCV_MED",
