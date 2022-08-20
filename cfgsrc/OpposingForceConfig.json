@@ -9,6 +9,10 @@
 			"FileName": "cfg/Op4SentenceReplacement.json"
 		},
 		{
+			"Name": "GlobalSoundReplacement",
+			"FileName": "cfg/Op4SoundReplacement.json"
+		},
+		{
 			"Name": "HudColor",
 			"Color": "0 160 0"
 		},
