@@ -3,9 +3,6 @@
 	"HG_ALERT": "HG_ALERT",
 	"HG_QUEST": "OFHG_QUEST",
 	
-	// Base computer dialogue. Many of these don't exist in the Blue Shift sentences.txt, but since they are never used there is no reason to do any replacement for them.
-	"NA": "BSNA",
-	
 	// For Barney, HEV_* have been replaced with the 'common/null' sound
 	// to eliminate suit sounds (since you don't have one) and avoid error messages
 	"HEV_AAx": "NULLSENT",

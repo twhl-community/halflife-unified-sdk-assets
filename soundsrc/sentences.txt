@@ -422,10 +422,6 @@ NA16 (p104) will we do this all day
 NA17 (p104) move on immediately
 NA18 (p105) no, no, and no(p80)
 
-// Blue Shift version
-BSNA0 access denied
-BSNA1 access granted
-
 EA0 access granted
 EA1 access permitted
 EA2 entry granted
