@@ -3,17 +3,6 @@
 {
 	"PatternGroups": [
 		{
-			//The OpenAL library has to be in the game directory in order for the OS to find it when it's loaded.
-			"Paths": [
-				{
-					"Path": "."
-				}
-			],
-			"IncludePatterns": [
-				"openal-%ModDirectory%.dll"
-			]
-		},
-		{
 			"Paths": [
 				{
 					"Path": "%ModDirectory%",
@@ -32,6 +21,7 @@
 			// Filenames ending with ".install" will be renamed to remove this extension after being added to the archive.
 			"IncludePatterns": [
 				"cl_dlls/client.dll",
+				"cl_dlls/OpenAL32.dll",
 				"dlls/server.dll",
 				"delta.lst",
 				"halflife-unified.fgd",
