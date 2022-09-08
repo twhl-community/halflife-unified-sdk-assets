@@ -1,4 +1,5 @@
 {
+	"models/player.mdl": "models/bshift/player.mdl",
 	"models/v_9mmAR.mdl": "models/bshift/v_9mmAR.mdl",
 	"models/v_9mmhandgun.mdl": "models/bshift/v_9mmhandgun.mdl",
 	"models/v_357.mdl": "models/bshift/v_357.mdl",

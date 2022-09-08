@@ -1,4 +1,5 @@
 {
+	"models/player.mdl": "models/op4/player.mdl",
 	"models/v_9mmAR.mdl": "models/op4/v_9mmAR.mdl",
 	"models/v_9mmhandgun.mdl": "models/op4/v_9mmhandgun.mdl",
 	"models/v_357.mdl": "models/op4/v_357.mdl",
