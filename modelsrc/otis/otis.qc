@@ -29,9 +29,9 @@ $body "studio" "meshes/otis_body_reference"
 
 $bodygroup "gun"
 {
+blank
 studio "meshes/otis_reference_wgunnholster"
 studio "meshes/otis_reference_wgun"
-blank
 }
 
 $bodygroup "sleeves"

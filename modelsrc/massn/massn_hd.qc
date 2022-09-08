@@ -35,9 +35,9 @@ studio "meshes/ld/Massn_NVHead_reference"
 
 $bodygroup "weapons"
 {
+blank
 studio "meshes/hd/DC_soldier_M4_reference"
 studio "meshes/ld/Massn_M40A1_reference"
-blank
 }
 
 // 2 skin families

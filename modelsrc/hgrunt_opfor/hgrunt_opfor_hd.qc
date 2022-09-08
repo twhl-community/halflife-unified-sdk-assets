@@ -53,10 +53,10 @@ studio "meshes/hd/torso_regular_reference"
 
 $bodygroup "weapons"
 {
+blank
 studio "../shared/meshes/hgrunt/hd/DC_soldier_M4_reference"
 studio "../shared/meshes/hgrunt/hd/DC_soldier_shotgun_reference"
 studio "meshes/ld/SAW_reference"
-blank
 }
 
 

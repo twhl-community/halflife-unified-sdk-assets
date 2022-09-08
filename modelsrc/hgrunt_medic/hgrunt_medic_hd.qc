@@ -37,16 +37,16 @@ $body "torso" "meshes/hd/torso_medic_reference"
 
 $bodygroup "deagle"
 {
+blank
 studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
 studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
-blank
 }
 
 $bodygroup "glock"
 {
+blank
 studio "meshes/hd/beretta_gunholster_reference"
 studio "meshes/hd/beretta_reference"
-blank
 }
 
 $bodygroup "needle"

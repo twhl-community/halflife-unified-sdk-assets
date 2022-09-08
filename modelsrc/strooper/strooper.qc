@@ -28,8 +28,8 @@ $body "body" "meshes/strooper_reference"
 
 $bodygroup "weapons"
 {
-studio "meshes/strooper_rifle_reference"
 blank
+studio "meshes/strooper_rifle_reference"
 }
 
 

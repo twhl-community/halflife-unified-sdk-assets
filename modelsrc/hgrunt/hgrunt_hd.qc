@@ -38,9 +38,9 @@ studio "meshes/hd/DC_soldier_head_cmdr_blk_reference"
 
 $bodygroup "weapons"
 {
+blank
 studio "../shared/meshes/hgrunt/hd/DC_soldier_M4_reference"
 studio "../shared/meshes/hgrunt/hd/DC_soldier_shotgun_reference"
-blank
 }
 
 

@@ -28,9 +28,9 @@ $body "studio" "meshes/BARNEY-X_Template_Biped1"
 
 $bodygroup "gun"
 {
+blank
 studio "meshes/BARNEY-X_Template_Biped(Gun-Hlstr)1"
 studio "meshes/BARNEY-X_Template_Biped(Gun)1"
-blank
 }
 
 

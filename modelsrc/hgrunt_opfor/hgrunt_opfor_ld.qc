@@ -53,10 +53,10 @@ studio "meshes/ld/grunt_shotgun_torso_reference"
 
 $bodygroup "weapons"
 {
+blank
 studio "../shared/meshes/hgrunt/ld/gunreference"
 studio "../shared/meshes/hgrunt/ld/gunreference(shotgun)"
 studio "meshes/ld/SAW_reference"
-blank
 }
 
 
