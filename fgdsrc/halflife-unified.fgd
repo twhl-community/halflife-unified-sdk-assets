@@ -3249,9 +3249,8 @@
 
 @PointClass base(Monster,TalkMonster, Sequence) studio("models/otis.mdl") = monster_otis : "Otis"
 [
-	bodystate(Choices) : "bodystate" : -1 =
+	bodystate(Choices) : "bodystate" : 0 =
 	[
-		-1 : "Random"
 		0 : "Gun Holstered"
 		1 : "Gun Drawn"
 	]
