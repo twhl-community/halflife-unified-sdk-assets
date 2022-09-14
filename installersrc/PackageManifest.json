@@ -33,6 +33,7 @@
 				"*.wad",
 				"cfg/**",
 				"events/*.sc",
+				"gfx/**",
 				"installer/**",
 				"maps/*.bsp",
 				"maps/graphs/*",
