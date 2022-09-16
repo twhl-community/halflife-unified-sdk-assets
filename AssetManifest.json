@@ -3,7 +3,7 @@
 	{
 		"Source": "cfgsrc",
 		"Destination": "",
-		"Pattern": "server.cfg",
+		"Pattern": "server.cfg"
 	},
 	{
 		"Source": "cfgsrc",
@@ -14,7 +14,7 @@
 	{
 		"Source": "cfgsrc",
 		"Destination": "",
-		"Pattern": "*.scr.install",
+		"Pattern": "*.scr.install"
 	},
 	{
 		"Source": "cfgsrc",
@@ -24,12 +24,22 @@
 	{
 		"Source": "eventsrc",
 		"Destination": "events",
-		"Pattern": "*.sc",
+		"Pattern": "*.sc"
 	},
 	{
 		"Source": "fgdsrc",
 		"Destination": "",
-		"Pattern": "halflife-unified.fgd",
+		"Pattern": "halflife-unified.fgd"
+	},
+	{
+		"Source": "iconsrc",
+		"Destination": "",
+		"Pattern": "game.ico"
+	},
+	{
+		"Source": "iconsrc",
+		"Destination": "",
+		"Pattern": "*.tga"
 	},
 	{
 		"Source": "installersrc",
