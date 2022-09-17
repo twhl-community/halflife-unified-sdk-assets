@@ -2346,7 +2346,7 @@ Personal safety.
 $fadein 0.03
 $holdtime 9
 
-bshiftGAMEOVER
+BSHIFT_GAMEOVER
 {
 SUBJECT:  CALHOUN
 
