@@ -22,6 +22,11 @@
 		"Pattern": "titles.txt"
 	},
 	{
+		"Source": "cfgsrc/stats",
+		"Destination": "stats",
+		"Pattern": "*.ost"
+	},
+	{
 		"Source": "eventsrc",
 		"Destination": "events",
 		"Pattern": "*.sc"

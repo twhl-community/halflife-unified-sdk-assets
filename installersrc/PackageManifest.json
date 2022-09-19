@@ -46,6 +46,7 @@
 				"scripts/**",
 				"sound/**",
 				"sprites/**",
+				"stats/**",
 				"tools/**"
 			],
 			
