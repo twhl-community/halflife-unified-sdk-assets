@@ -4,6 +4,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 * Configuration files (.cfg, .json, .scr.install, .txt)
 * Event files (.sc)
 * FGDs (.fgd)
+* Graphics resources (.tga)
 * Icons (.ico, .tga)
 * Installer files (.json)
 * Maps (.rmf, .map, .rad, .jmf, .ent, .res)
@@ -17,6 +18,7 @@ Directory structure:
 * cfgsrc
 * eventsrc
 * fgdsrc
+* gfxsrc
 * iconsrc
 * installersrc
 * mapsrc

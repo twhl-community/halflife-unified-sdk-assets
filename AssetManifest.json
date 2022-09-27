@@ -37,6 +37,11 @@
 		"Pattern": "halflife-unified.fgd"
 	},
 	{
+		"Source": "gfxsrc/vgui",
+		"Destination": "gfx/vgui",
+		"Pattern": "*.tga"
+	},
+	{
 		"Source": "iconsrc",
 		"Destination": "",
 		"Pattern": "game.ico"
