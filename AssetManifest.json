@@ -27,6 +27,11 @@
 		"Pattern": "*.ost"
 	},
 	{
+		"Source": "textsrc/classes",
+		"Destination": "classes",
+		"Pattern": "*.txt"
+	},
+	{
 		"Source": "eventsrc",
 		"Destination": "events",
 		"Pattern": "*.sc"

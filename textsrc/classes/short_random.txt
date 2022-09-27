@@ -1,0 +1,2 @@
+Randomly pick a player character model
+from the available choices.

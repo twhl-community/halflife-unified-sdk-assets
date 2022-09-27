@@ -12,6 +12,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 * Resource files (.txt)
 * Scripts (.bat, .sh, .ps1, .csx, and related files)
 * Sprites (.qc, .bmp, .txt)
+* Text files (.txt)
 * WADs (.bmp)
 
 Directory structure:
@@ -27,6 +28,7 @@ Directory structure:
 * scripts
 * scriptsrc
 * spritesrc
+* textsrc
 * wadsrc
 	
 Directories are named &lt;asset type in singular form&gt;src.

@@ -35,6 +35,7 @@
 				"titles.txt",
 				"*.wad",
 				"cfg/**",
+				"classes/**",
 				"events/*.sc",
 				"gfx/**",
 				"installer/**",
