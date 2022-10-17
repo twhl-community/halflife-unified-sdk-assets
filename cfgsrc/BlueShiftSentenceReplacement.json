@@ -1,7 +1,7 @@
 {
 	// Human Grunt dialogue.
-	"HG_ALERT": "HG_ALERT",
-	"HG_QUEST": "OFHG_QUEST",
+	"HG_ALERT": "BSHG_ALERT",
+	"HG_QUEST": "BSHG_QUEST",
 	
 	// For Barney, HEV_* have been replaced with the 'common/null' sound
 	// to eliminate suit sounds (since you don't have one) and avoid error messages
