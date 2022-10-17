@@ -2117,8 +2117,8 @@ HOLO_USETRAIN holo/tr_holo_usetrain
 
 // BARNEY HOLOGRAM
 
-HOLO_4JUMPS ba_holo/tr_holo_4jumps
-HOLO_ARMOR ba_holo/tr_holo_armor
+BSHOLO_4JUMPS ba_holo/tr_holo_4jumps
+BSHOLO_ARMOR ba_holo/tr_holo_armor
 BSHOLO_BREAKBOX ba_holo/tr_holo_breakbox
 BSHOLO_BREATH ba_holo/tr_holo_breath
 BSHOLO_BUTTON ba_holo/tr_holo_button
