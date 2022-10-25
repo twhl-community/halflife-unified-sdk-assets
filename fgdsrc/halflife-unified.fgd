@@ -374,6 +374,8 @@
 
 @BaseClass base(Target, Targetname, RenderFields, Angles, CustomModel) flags(Angle) color(0 200 200) = Monster 
 [
+  health(integer) : "Custom health (leave undefined to use default)"
+
   TriggerTarget(String) : "TriggerTarget"
   TriggerCondition(Choices) : "Trigger Condition" : 0 =
   [
