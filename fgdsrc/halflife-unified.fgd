@@ -830,8 +830,7 @@
   [
     0 : "All Players"
     1 : "Activator"
-	2 : "LocalPlayer"
-	3 : "Radius"
+	2 : "Radius"
   ]
   
   radius(string) : "Player radius (for Radius target selector)"
