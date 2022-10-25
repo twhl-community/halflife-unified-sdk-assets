@@ -304,8 +304,12 @@
 	angles(string) : "Pitch Yaw Roll (Y Z X)" : "0 0 0"
 ]
 
+@BaseClass = CustomModel
+[
+	model(studio) : "Model"
+]
 
-@BaseClass size(0 0 0, 32 32 32) color(80 0 200) base(Appearflags, Angles) = Ammo []
+@BaseClass size(0 0 0, 32 32 32) color(80 0 200) base(Appearflags, Angles, CustomModel) = Ammo []
 
 @BaseClass = Targetname 
 [ 
@@ -315,7 +319,7 @@
 [ 
   target(target_destination) : "Target" 
 ]
-@BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles) = Weapon []
+@BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = Weapon []
 @BaseClass = Global 
 [ 
   globalname(string) : "Global Entity Name" 
@@ -368,7 +372,7 @@
 
 @BaseClass base(Appearflags, Angles) flags(Angle) size(-16 -16 -36, 16 16 36) color(0 255 0) offset(0 0 36) = PlayerClass []
 
-@BaseClass base(Target, Targetname, RenderFields, Angles) flags(Angle) color(0 200 200) = Monster 
+@BaseClass base(Target, Targetname, RenderFields, Angles, CustomModel) flags(Angle) color(0 200 200) = Monster 
 [
   TriggerTarget(String) : "TriggerTarget"
   TriggerCondition(Choices) : "Trigger Condition" : 0 =
@@ -985,7 +989,6 @@
 
 @PointClass base(Monster) size(-16 -16 -16, 16 16 16) flags(Angle) = cycler_weapon : "Weapon Cycler" 
 [
-  model(studio) : "model"
 ]
 
 //
@@ -2107,8 +2110,6 @@
 ]
 @PointClass base(Monster, Sequence) size(-16 -16 0, 16 16 72) = monster_furniture : "Monster Furniture" 
 [
-  model(studio) : "model"
-
 ]
 @PointClass base(Monster, Sequence) size(-32 -32 0, 32 32 128) studio("models/garg.mdl") = monster_gargantua : "Gargantua" []
 @PointClass base(Monster, RenderFields, Sequence) size(-16 -16 -36, 16 16 36) = monster_generic : "Generic Script Monster" 
@@ -2118,7 +2119,6 @@
     4 : "Not solid" : 0
     8 : "Head Controller" : 0
   ]
-  model(studio) : "model"
   body(Integer) : "Body" : 0
 ]
 @PointClass base(Monster, Sequence) size(-16 -16 0, 16 16 72) studio("models/gman.mdl") = monster_gman : "G-Man" []
