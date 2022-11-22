@@ -514,32 +514,8 @@
   killtarget(target_destination) : "KillTarget"
   speed(integer) : "Speed" : 100
   master(string) : "Master" 
-  movesnd(choices) : "Move Sound" : 0 = 
-  [
-    0: "No Sound"
-    1: "Servo (Sliding)"
-    2: "Pneumatic (Sliding)"
-    3: "Pneumatic (Rolling)"
-    4: "Vacuum"
-    5: "Power Hydraulic"
-    6: "Large Rollers"
-    7: "Track Door"
-    8: "Snappy Metal Door"
-    9: "Squeaky 1"
-    10: "Squeaky 2"
-  ]
-  stopsnd(choices) : "Stop Sound" : 0 = 
-  [
-    0: "No Sound"
-    1: "Clang with brake"
-    2: "Clang reverb"
-    3: "Ratchet Stop"
-    4: "Chunk"
-    5: "Light airbrake"
-    6: "Metal Slide Stop"
-    7: "Metal Lock Stop"
-    8: "Snappy Metal Stop"
-  ]
+  movesnd(sound) : "Move Sound"
+  stopsnd(sound) : "Stop Sound"
   wait(choices) : "Delay before close" : 4 = 
   [
     -1 : "Stays open"
@@ -561,54 +537,10 @@
     512: "Monsters Can't" : 0
   ]
   // NOTE: must be duplicated in BUTTON
-  locked_sound(choices) : "Locked Sound" : 0 = 
-  [
-    0: "None"
-    2: "Access Denied"
-    8: "Small zap"
-    10: "Buzz"
-    11: "Buzz Off"
-    12: "Latch Locked"
-  ]
-  unlocked_sound(choices) : "Unlocked Sound" : 0 = 
-  [
-    0: "None"
-    1: "Big zap & Warmup"
-    3: "Access Granted"
-    4: "Quick Combolock"
-    5: "Power Deadbolt 1"
-    6: "Power Deadbolt 2"
-    7: "Plunger"
-    8: "Small zap"
-    9: "Keycard Sound"
-    10: "Buzz"
-    13: "Latch Unlocked"
-  ]
-  locked_sentence(choices) : "Locked Sentence" : 0 = 
-  [
-    0: "None"
-    1: "Gen. Access Denied"
-    2: "Security Lockout"
-    3: "Blast Door"
-    4: "Fire Door"
-    5: "Chemical Door"
-    6: "Radiation Door"
-    7: "Gen. Containment"
-    8: "Maintenance Door"
-    9: "Broken Shut Door"
-  ]
-  unlocked_sentence(choices) : "Unlocked Sentence" : 0 = 
-  [
-    0: "None"
-    1: "Gen. Access Granted"
-    2: "Security Disengaged"
-    3: "Blast Door"
-    4: "Fire Door"
-    5: "Chemical Door"
-    6: "Radiation Door"
-    7: "Gen. Containment"
-    8: "Maintenance area"
-  ] 
+  locked_sound(sound) : "Locked Sound"
+  unlocked_sound(sound) : "Unlocked Sound"
+  locked_sentence(string) : "Locked Sentence"
+  unlocked_sentence(string) : "Unlocked Sentence"
   _minlight(string) : "Minimum light level"
 ]
 
@@ -662,35 +594,8 @@
 
 @BaseClass = PlatSounds 
 [
-  movesnd(choices) : "Move Sound" : 0 = 
-  [
-    0: "No Sound"
-    1: "big elev 1"
-    2: "big elev 2"
-    3: "tech elev 1"
-    4: "tech elev 2"
-    5: "tech elev 3"
-    6: "freight elev 1"
-    7: "freight elev 2"
-    8: "heavy elev"
-    9: "rack elev"
-    10: "rail elev"
-    11: "squeek elev"
-    12: "odd elev 1"
-    13: "odd elev 2"
-  ]
-  stopsnd(choices) : "Stop Sound" : 0 = 
-  [
-    0: "No Sound"
-    1: "big elev stop1"
-    2: "big elev stop2"
-    3: "freight elev stop"
-    4: "heavy elev stop"
-    5: "rack stop"
-    6: "rail stop"
-    7: "squeek stop"
-    8: "quick stop"
-  ]
+  movesnd(sound) : "Move Sound"
+  stopsnd(sound) : "Stop Sound"
   volume(string) : "Sound Volume 0.0 - 1.0" : "0.85"
 ]
 
@@ -1305,22 +1210,8 @@
   health(integer) : "Health (shootable if > 0)"
   lip(integer) : "Lip"
   master(string) : "Master" 
-  sounds(choices) : "Sounds" : 0 = 
-  [
-    0: "None"
-    1: "Big zap & Warmup"
-    2: "Access Denied"
-    3: "Access Granted"
-    4: "Quick Combolock"
-    5: "Power Deadbolt 1"
-    6: "Power Deadbolt 2"
-    7: "Plunger"
-    8: "Small zap"
-    9: "Keycard Sound"
-    10: "Buzz"
-    11: "Buzz Off"
-    14: "Lightswitch"
-  ]
+  sounds(sound) : "Sounds"
+  
   wait(choices) : "Delay before reset" : 3 =
   [
     -1: "Stays pressed"
@@ -1333,55 +1224,14 @@
     64: "Sparks" : 0
     256:"Touch Activates": 0
   ]
-  locked_sound(choices) : "Locked Sound" : 0 = 
-  [
-    0: "None"
-    2: "Access Denied"
-    8: "Small zap"
-    10: "Buzz"
-    11: "Buzz Off"
-    12: "Latch Locked"
-  ]
-  unlocked_sound(choices) : "Unlocked Sound" : 0 = 
-  [
-    0: "None"
-    1: "Big zap & Warmup"
-    3: "Access Granted"
-    4: "Quick Combolock"
-    5: "Power Deadbolt 1"
-    6: "Power Deadbolt 2"
-    7: "Plunger"
-    8: "Small zap"
-    9: "Keycard Sound"
-    10: "Buzz"
-    13: "Latch Unlocked"
-    14: "Lightswitch"
-  ]
-  locked_sentence(choices) : "Locked Sentence" : 0 = 
-  [
-    0: "None"
-    1: "Gen. Access Denied"
-    2: "Security Lockout"
-    3: "Blast Door"
-    4: "Fire Door"
-    5: "Chemical Door"
-    6: "Radiation Door"
-    7: "Gen. Containment"
-    8: "Maintenance Door"
-    9: "Broken Shut Door"
-  ]
-  unlocked_sentence(choices) : "Unlocked Sentence" : 0 = 
-  [
-    0: "None"
-    1: "Gen. Access Granted"
-    2: "Security Disengaged"
-    3: "Blast Door"
-    4: "Fire Door"
-    5: "Chemical Door"
-    6: "Radiation Door"
-    7: "Gen. Containment"
-    8: "Maintenance area"
-  ]
+  locked_sound(sound) : "Locked Sound"
+  
+  unlocked_sound(sound) : "Unlocked Sound"
+  
+  locked_sentence(string) : "Locked Sentence"
+  
+  unlocked_sentence(string) : "Unlocked Sentence"
+
   _minlight(string) : "Minimum light level"
 ]
 
@@ -1540,14 +1390,8 @@
   master(string) : "Master" 
   speed(integer) : "Speed" : 50
   health(integer) : "Health (shootable if > 0)"
-  sounds(choices) : "Sounds" : 21 = 
-  [
-    21: "Squeaky"
-    22: "Squeaky Pneumatic"
-    23: "Ratchet Groan"
-    24: "Clean Ratchet"
-    25: "Gas Clunk"
-  ]
+  sounds(sound) : "Sounds" : "buttons/level1.wav"
+
   wait(choices) : "Delay before reset" : 3 =
   [
     -1: "Stays pressed"
@@ -1571,16 +1415,7 @@
   speed(integer)  : "Rotation Speed" : 0
   volume(integer) : "Volume (10 = loudest)" : 10
   fanfriction(integer) : "Friction (0 - 100%)" : 20
-  sounds(choices) : "Fan Sounds" : 0 =
-  [
-    0 : "No Sound" 
-    1 : "Fast Whine"
-    2 : "Slow Rush"
-    3 : "Medium Rickety"
-    4 : "Fast Beating"
-    5 : "Slow Smooth"
-  ]
-  message(sound) : "Path/filename.wav of WAV"
+  sounds(sound) : "Fan Sound"
   spawnflags(flags) =
   [
     1 : "Start ON"    : 0
@@ -1651,16 +1486,7 @@
     8 : "Passable" : 0
   ]
   target(target_destination) : "First stop target"
-  sounds(choices) : "Sound" : 0 =
-  [
-    0: "None"
-    1: "Rail 1"
-    2: "Rail 2"
-    3: "Rail 3"
-    4: "Rail 4"
-    5: "Rail 6"
-    6: "Rail 7"
-  ]
+  sounds(sound) : "Sound"
   wheels(integer) : "Distance between the wheels" : 50
   height(integer) : "Height above track" : 4
   startspeed(integer) : "Initial speed" : 0
@@ -2018,24 +1844,7 @@
   target(target_destination) : "Targetted object"
   speed(integer) : "Speed" : 50
   master(string) : "Master" 
-  sounds(choices) : "Sounds" : 0 = 
-  [
-    0: "None"
-    1: "Big zap & Warmup"
-    2: "Access Denied"
-    3: "Access Granted"
-    4: "Quick Combolock"
-    5: "Power Deadbolt 1"
-    6: "Power Deadbolt 2"
-    7: "Plunger"
-    8: "Small zap"
-    9: "Keycard Sound"
-    21: "Squeaky"
-    22: "Squeaky Pneumatic"
-    23: "Ratchet Groan"
-    24: "Clean Ratchet"
-    25: "Gas Clunk"
-  ]
+  sounds(sound) : "Sounds"
   distance(integer) : "Distance (deg)" : 90
   returnspeed(integer) : "Auto-return speed" : 0
   spawnflags(flags) =
