@@ -7,14 +7,11 @@ using HalfLife.UnifiedSdk.Utilities.Games;
 using System.CommandLine;
 using System.Text.RegularExpressions;
 
-var destinationDirectoryOption = new Option<DirectoryInfo>("--destination-directory", description: "Where to put the generated files")
-{
-	IsRequired = true
-};
+var destinationDirectoryArgument = new Argument<DirectoryInfo>("destination-directory", description: "Where to put the generated files");
 
 var rootCommand = new RootCommand("Half-Life Unified SDK map cfg generator")
 {
-	destinationDirectoryOption
+	destinationDirectoryArgument
 };
 
 rootCommand.SetHandler((DirectoryInfo destinationDirectory) =>
@@ -49,6 +46,6 @@ rootCommand.SetHandler((DirectoryInfo destinationDirectory) =>
 			File.WriteAllText(path, contents);
 		}
 	}
-}, destinationDirectoryOption);
+}, destinationDirectoryArgument);
 
 return rootCommand.Invoke(Args.ToArray());
