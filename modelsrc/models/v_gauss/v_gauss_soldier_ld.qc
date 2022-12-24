@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_gauss_soldier_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/soldier"
 $cdtexture "../../textures/viewmodel/v_gauss/ld"
 $scale 1.0

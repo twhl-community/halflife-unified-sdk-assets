@@ -13,8 +13,8 @@ Original internal name:
 */
 
 $modelname "headcrab.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\headcrab"
+$cd "./"
+$cdtexture "../../textures/headcrab"
 $scale 1.0
 
 

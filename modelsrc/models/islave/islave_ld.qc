@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "islave_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/islave"
 $scale 1.0
 

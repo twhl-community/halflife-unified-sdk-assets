@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_crossbow_hev_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_crossbow/hd"
 $cdtexture "../../textures/w_crossbow"

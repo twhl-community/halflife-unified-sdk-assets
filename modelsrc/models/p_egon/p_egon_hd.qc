@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "p_egon_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/w_egon"
 $scale 1.0
 

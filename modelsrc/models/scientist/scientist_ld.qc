@@ -13,8 +13,8 @@ Original internal name:
 */
 
 $modelname "scientist_ld.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\scientist"
+$cd "./"
+$cdtexture "../../textures/scientist"
 $scale 1.0
 
 

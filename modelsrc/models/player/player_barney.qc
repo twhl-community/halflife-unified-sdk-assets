@@ -13,9 +13,9 @@ Original internal name:
 */
 
 $modelname "player_barney.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\barney"
-$cdtexture "..\..\textures\player\barney"
+$cd "./"
+$cdtexture "../../textures/barney"
+$cdtexture "../../textures/player/barney"
 $scale 1.0
 
 

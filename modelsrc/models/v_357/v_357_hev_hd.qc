@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_357_hev_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_357/hd"
 $scale 1.0

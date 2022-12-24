@@ -13,9 +13,9 @@ Original internal name:
 */
 
 $modelname "v_desert_eagle_guard_ld.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\viewmodel\hands\guard"
-$cdtexture "..\..\textures\viewmodel\v_desert_eagle"
+$cd "./"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_desert_eagle"
 $cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
 $scale 1.0
 

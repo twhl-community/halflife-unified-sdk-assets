@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "loader.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/loader"
 $scale 1.0
 

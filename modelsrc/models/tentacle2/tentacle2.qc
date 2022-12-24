@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "tentacle2.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/tentacle"
 $scale 1.0
 

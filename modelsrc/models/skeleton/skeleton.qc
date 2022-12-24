@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "skeleton.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/skeleton"
 $scale 1.0
 

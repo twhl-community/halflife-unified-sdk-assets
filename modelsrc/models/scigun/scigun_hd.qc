@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "scigun_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/w_shotgun"
 $scale 1.0
 

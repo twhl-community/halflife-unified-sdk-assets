@@ -13,10 +13,10 @@ Original internal name:
 */
 
 $modelname "v_shock_soldier_hd.mdl"
-$cd ".\"
-$cdtexture ".\"
-$cdtexture "..\..\textures\viewmodel\hands\soldier"
-$cdtexture "..\..\textures\viewmodel\v_shock"
+$cd "./"
+$cdtexture "./"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_shock"
 $scale 1.0
 
 

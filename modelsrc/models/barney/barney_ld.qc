@@ -13,8 +13,8 @@ Original internal name:
 */
 
 $modelname "barney_ld.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\barney"
+$cd "./"
+$cdtexture "../../textures/barney"
 $scale 1.0
 
 

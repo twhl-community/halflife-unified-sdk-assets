@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_gauss_guard_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/v_gauss/hd"
 $cdtexture "../../textures/viewmodel/v_gauss/ld"
 $scale 1.0

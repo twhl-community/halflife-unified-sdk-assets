@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_crowbar_soldier_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/soldier"
 $cdtexture "../../textures/viewmodel/v_crowbar/hd"
 $scale 1.0

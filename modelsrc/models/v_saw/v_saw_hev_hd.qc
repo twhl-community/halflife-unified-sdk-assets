@@ -13,9 +13,9 @@ Original internal name:
 */
 
 $modelname "v_saw_hev_hd.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\viewmodel\hands\hev"
-$cdtexture "..\..\textures\viewmodel\v_saw"
+$cd "./"
+$cdtexture "../../textures/viewmodel/hands/hev"
+$cdtexture "../../textures/viewmodel/v_saw"
 $scale 1.0
 
 

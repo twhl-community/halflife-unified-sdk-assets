@@ -13,10 +13,10 @@ Original internal name:
 */
 
 $modelname "gordon_scientist_hd.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\player\gordon"
-$cdtexture "..\..\textures\gordon_scientist"
-$cdtexture "..\..\textures\scientist"
+$cd "./"
+$cdtexture "../../textures/player/gordon"
+$cdtexture "../../textures/gordon_scientist"
+$cdtexture "../../textures/scientist"
 $scale 1.0
 
 

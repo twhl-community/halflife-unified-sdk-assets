@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_crowbar_guard_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/guard"
 $cdtexture "../../textures/viewmodel/v_crowbar/hd"
 $scale 1.0

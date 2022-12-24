@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "houndeye_dead_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/houndeye"
 $scale 1.0
 

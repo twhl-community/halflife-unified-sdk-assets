@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "hgrunt_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/hgrunt/ld"
 $cdtexture "../../textures/w_9mmar"
 $cdtexture "../../textures/w_shotgun"

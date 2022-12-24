@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_satchel_hev_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_satchel/hd"
 $scale 1.0

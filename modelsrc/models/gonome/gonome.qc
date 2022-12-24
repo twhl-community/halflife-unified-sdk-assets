@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "gonome.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/gonome"
 $scale 1.0
 

@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_squeak_hev_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_squeak/ld"
 $scale 1.0

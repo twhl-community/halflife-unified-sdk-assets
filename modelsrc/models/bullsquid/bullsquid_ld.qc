@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "bullsquid_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/bullsquid"
 $scale 1.0
 

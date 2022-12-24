@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_tripmine_hev_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "meshes/ld"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_tripmine"

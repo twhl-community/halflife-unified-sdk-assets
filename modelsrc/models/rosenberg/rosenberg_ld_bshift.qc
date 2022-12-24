@@ -13,9 +13,9 @@ Original internal name:
 */
 
 $modelname "rosenberg_ld_bshift.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\rosenberg"
-$cdtexture "..\..\textures\scientist"
+$cd "./"
+$cdtexture "../../textures/rosenberg"
+$cdtexture "../../textures/scientist"
 $scale 1.0
 
 

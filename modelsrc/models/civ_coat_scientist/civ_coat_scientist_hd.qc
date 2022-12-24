@@ -13,9 +13,9 @@ Original internal name:
 */
 
 $modelname "civ_coat_scientist_hd.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\civ_scientist"
-$cdtexture "..\..\textures\scientist"
+$cd "./"
+$cdtexture "../../textures/civ_scientist"
+$cdtexture "../../textures/scientist"
 $scale 1.0
 
 

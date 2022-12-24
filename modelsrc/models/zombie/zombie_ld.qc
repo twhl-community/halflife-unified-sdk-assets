@@ -13,8 +13,8 @@ Original internal name:
 */
 
 $modelname "zombie_ld.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\zombie"
+$cd "./"
+$cdtexture "../../textures/zombie"
 $scale 1.0
 
 

@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "w_crossbow_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/w_crossbow"
 $cdtexture "../../textures/w_crossbow_clip"
 $scale 1.0

@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_9mmhandgun_hev_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_9mmhandgun/hd"
 $cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"

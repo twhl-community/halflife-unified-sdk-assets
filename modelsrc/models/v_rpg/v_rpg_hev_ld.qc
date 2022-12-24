@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "v_rpg_hev_ld.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_rpg/ld"
 $scale 1.0

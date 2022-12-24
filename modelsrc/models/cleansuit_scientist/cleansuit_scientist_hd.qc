@@ -13,9 +13,9 @@ Original internal name:
 */
 
 $modelname "cleansuit_scientist_hd.mdl"
-$cd ".\"
-$cdtexture "..\..\textures\cleansuit_scientist"
-$cdtexture "..\..\textures\scientist"
+$cd "./"
+$cdtexture "../../textures/cleansuit_scientist"
+$cdtexture "../../textures/scientist"
 $scale 1.0
 
 

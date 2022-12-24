@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "gman_hd.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/gman"
 $scale 1.0
 

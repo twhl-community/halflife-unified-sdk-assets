@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "holo.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/holo"
 $cdtexture "../../textures/player/gordon"
 $scale 1.0

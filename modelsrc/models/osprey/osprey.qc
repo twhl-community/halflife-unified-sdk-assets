@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "osprey.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/osprey"
 $scale 1.0
 

@@ -13,10 +13,10 @@ Original internal name:
 */
 
 $modelname "v_saw_soldier_hd.mdl"
-$cd ".\"
-$cdtexture ".\"
-$cdtexture "..\..\textures\viewmodel\hands\soldier"
-$cdtexture "..\..\textures\viewmodel\v_saw"
+$cd "./"
+$cdtexture "./"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_saw"
 $scale 1.0
 
 

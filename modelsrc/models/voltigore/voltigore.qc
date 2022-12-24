@@ -13,7 +13,7 @@ Original internal name:
 */
 
 $modelname "voltigore.mdl"
-$cd ".\"
+$cd "./"
 $cdtexture "../../textures/voltigore"
 $scale 1.0
 
