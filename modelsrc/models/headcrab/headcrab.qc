@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "headcrab.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\headcrab"
+$cdtexture "..\..\textures\headcrab"
 $scale 1.0
 
 

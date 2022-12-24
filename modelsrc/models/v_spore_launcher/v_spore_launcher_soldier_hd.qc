@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_spore_launcher_soldier_hd.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
-$cdtexture "..\..\texturesrc\viewmodel\v_spore_launcher"
+$cdtexture "..\..\textures\viewmodel\hands\soldier"
+$cdtexture "..\..\textures\viewmodel\v_spore_launcher"
 $scale 1.0
 
 

@@ -14,9 +14,9 @@ Original internal name:
 
 $modelname "hgrunt_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/hgrunt/hd"
-$cdtexture "../../texturesrc/w_9mmar"
-$cdtexture "../../texturesrc/w_shotgun"
+$cdtexture "../../textures/hgrunt/hd"
+$cdtexture "../../textures/w_9mmar"
+$cdtexture "../../textures/w_shotgun"
 $scale 1.0
 
 

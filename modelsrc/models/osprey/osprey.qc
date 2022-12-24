@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "osprey.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/osprey"
+$cdtexture "../../textures/osprey"
 $scale 1.0
 
 $flags 768

@@ -14,11 +14,11 @@ Original internal name:
 
 $modelname "intro_medic_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/hgrunt_medic/ld"
-$cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
-$cdtexture "../../texturesrc/hgrunt_opfor/ld"
-$cdtexture "../../texturesrc/hgrunt/hd"
-$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
+$cdtexture "../../textures/hgrunt_medic/ld"
+$cdtexture "../../textures/hgrunt_torch/ld/fatigues"
+$cdtexture "../../textures/hgrunt_opfor/ld"
+$cdtexture "../../textures/hgrunt/hd"
+$cdtexture "../../textures/viewmodel/v_desert_eagle"
 $scale 1.0
 
 

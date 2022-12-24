@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "civ_paper_scientist_hd.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\civ_scientist"
-$cdtexture "..\..\texturesrc\scientist"
+$cdtexture "..\..\textures\civ_scientist"
+$cdtexture "..\..\textures\scientist"
 $scale 1.0
 
 

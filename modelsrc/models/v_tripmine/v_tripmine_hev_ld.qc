@@ -15,8 +15,8 @@ Original internal name:
 $modelname "v_tripmine_hev_ld.mdl"
 $cd ".\"
 $cdtexture "meshes/ld"
-$cdtexture "../../texturesrc/viewmodel/hands/hev"
-$cdtexture "../../texturesrc/viewmodel/v_tripmine"
+$cdtexture "../../textures/viewmodel/hands/hev"
+$cdtexture "../../textures/viewmodel/v_tripmine"
 $scale 1.0
 
 

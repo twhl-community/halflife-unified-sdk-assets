@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_penguin_soldier_ld.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
-$cdtexture "..\..\texturesrc\viewmodel\v_penguin"
+$cdtexture "..\..\textures\viewmodel\hands\soldier"
+$cdtexture "..\..\textures\viewmodel\v_penguin"
 $scale 1.0
 
 

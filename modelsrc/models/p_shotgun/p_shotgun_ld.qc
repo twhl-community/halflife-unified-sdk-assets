@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "p_shotgun_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/w_shotgun"
+$cdtexture "../../textures/w_shotgun"
 $scale 1.0
 
 

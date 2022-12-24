@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "tentacle2.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/tentacle"
+$cdtexture "../../textures/tentacle"
 $scale 1.0
 
 $flags 512

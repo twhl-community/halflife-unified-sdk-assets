@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_shock_guard_hd.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\guard"
-$cdtexture "..\..\texturesrc\viewmodel\v_shock"
+$cdtexture "..\..\textures\viewmodel\hands\guard"
+$cdtexture "..\..\textures\viewmodel\v_shock"
 $scale 1.0
 
 

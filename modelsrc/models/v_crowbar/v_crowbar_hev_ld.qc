@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_crowbar_hev_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/hev"
-$cdtexture "../../texturesrc/viewmodel/v_crowbar/ld"
+$cdtexture "../../textures/viewmodel/hands/hev"
+$cdtexture "../../textures/viewmodel/v_crowbar/ld"
 $scale 1.0
 
 

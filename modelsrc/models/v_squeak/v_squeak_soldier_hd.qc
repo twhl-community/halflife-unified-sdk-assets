@@ -15,8 +15,8 @@ Original internal name:
 $modelname "v_squeak_soldier_hd.mdl"
 $cd ".\"
 $cdtexture "meshes/hd"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_squeak/hd"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_squeak/hd"
 $scale 1.0
 
 

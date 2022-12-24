@@ -14,9 +14,9 @@ Original internal name:
 
 $modelname "v_satchel_radio_guard_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/guard"
-$cdtexture "../../texturesrc/viewmodel/v_satchel_radio/ld"
-$cdtexture "../../texturesrc/viewmodel/hands/hev"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_satchel_radio/ld"
+$cdtexture "../../textures/viewmodel/hands/hev"
 $scale 1.0
 
 

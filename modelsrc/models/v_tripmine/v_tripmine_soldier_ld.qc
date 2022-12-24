@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_tripmine_soldier_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_tripmine"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_tripmine"
 $scale 1.0
 
 

@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "zombie_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/zombie"
+$cdtexture "../../textures/zombie"
 $scale 1.0
 
 

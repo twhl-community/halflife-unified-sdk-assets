@@ -14,9 +14,9 @@ Original internal name:
 
 $modelname "gordon_scientist_ld_bshift.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\player\gordon"
-$cdtexture "..\..\texturesrc\gordon_scientist"
-$cdtexture "..\..\texturesrc\scientist"
+$cdtexture "..\..\textures\player\gordon"
+$cdtexture "..\..\textures\gordon_scientist"
+$cdtexture "..\..\textures\scientist"
 $scale 1.0
 
 

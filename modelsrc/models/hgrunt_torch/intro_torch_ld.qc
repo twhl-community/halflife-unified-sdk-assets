@@ -14,10 +14,10 @@ Original internal name:
 
 $modelname "intro_torch_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/hgrunt_torch/ld"
-$cdtexture "../../texturesrc/hgrunt_torch/ld/fatigues"
-$cdtexture "../../texturesrc/hgrunt_opfor/ld"
-$cdtexture "../../texturesrc/viewmodel/v_desert_eagle"
+$cdtexture "../../textures/hgrunt_torch/ld"
+$cdtexture "../../textures/hgrunt_torch/ld/fatigues"
+$cdtexture "../../textures/hgrunt_opfor/ld"
+$cdtexture "../../textures/viewmodel/v_desert_eagle"
 $scale 1.0
 
 

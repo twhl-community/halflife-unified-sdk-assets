@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "strooper.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/strooper"
+$cdtexture "../../textures/strooper"
 $scale 1.0
 
 

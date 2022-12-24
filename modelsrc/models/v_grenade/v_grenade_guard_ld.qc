@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_grenade_guard_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/guard"
-$cdtexture "../../texturesrc/viewmodel/v_grenade/ld"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_grenade/ld"
 $scale 1.0
 
 

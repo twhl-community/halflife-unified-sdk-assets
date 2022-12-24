@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_357_soldier_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_357/ld"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_357/ld"
 $scale 1.0
 
 

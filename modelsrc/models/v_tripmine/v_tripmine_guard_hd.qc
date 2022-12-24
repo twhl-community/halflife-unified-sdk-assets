@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_tripmine_guard_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/guard"
-$cdtexture "../../texturesrc/viewmodel/v_tripmine"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_tripmine"
 $scale 1.0
 
 

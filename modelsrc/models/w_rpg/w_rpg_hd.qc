@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_rpg_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/w_rpg"
+$cdtexture "../../textures/w_rpg"
 $scale 1.0
 
 

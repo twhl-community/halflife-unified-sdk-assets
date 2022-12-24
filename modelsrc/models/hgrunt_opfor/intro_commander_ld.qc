@@ -14,10 +14,10 @@ Original internal name:
 
 $modelname "intro_commander_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/intro_commander/ld"
-$cdtexture "../../texturesrc/hgrunt_opfor/ld"
-$cdtexture "../../texturesrc/hgrunt/hd"
-$cdtexture "../../texturesrc/hgrunt/ld"
+$cdtexture "../../textures/intro_commander/ld"
+$cdtexture "../../textures/hgrunt_opfor/ld"
+$cdtexture "../../textures/hgrunt/hd"
+$cdtexture "../../textures/hgrunt/ld"
 $scale 1.0
 
 

@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "grenade_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/grenade"
+$cdtexture "../../textures/grenade"
 $scale 1.0
 
 

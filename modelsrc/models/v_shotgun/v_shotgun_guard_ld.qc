@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_shotgun_guard_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/guard"
-$cdtexture "../../texturesrc/viewmodel/v_shotgun"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_shotgun"
 $scale 1.0
 
 

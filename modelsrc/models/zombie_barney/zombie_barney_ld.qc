@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "zombie_barney_ld.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\zombie_barney"
+$cdtexture "..\..\textures\zombie_barney"
 $scale 1.0
 
 

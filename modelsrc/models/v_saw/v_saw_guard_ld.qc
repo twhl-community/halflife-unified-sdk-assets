@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_saw_guard_ld.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\guard"
-$cdtexture "..\..\texturesrc\viewmodel\v_saw"
+$cdtexture "..\..\textures\viewmodel\hands\guard"
+$cdtexture "..\..\textures\viewmodel\v_saw"
 $scale 1.0
 
 

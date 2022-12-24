@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "dead_barney_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/dead_barney"
-$cdtexture "../../texturesrc/barney"
+$cdtexture "../../textures/dead_barney"
+$cdtexture "../../textures/barney"
 $scale 1.0
 
 

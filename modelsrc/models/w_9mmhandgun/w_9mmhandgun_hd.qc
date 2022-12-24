@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_9mmhandgun_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/w_9mmhandgun"
+$cdtexture "../../textures/w_9mmhandgun"
 $scale 1.0
 
 

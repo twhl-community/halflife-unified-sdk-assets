@@ -15,8 +15,8 @@ Original internal name:
 $modelname "v_egon_soldier_hd.mdl"
 $cd ".\"
 $cdtexture "meshes/hd"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_egon"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_egon"
 $scale 1.0
 
 

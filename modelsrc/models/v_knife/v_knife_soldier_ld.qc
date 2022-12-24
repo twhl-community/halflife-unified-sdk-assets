@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_knife_soldier_ld.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
-$cdtexture "..\..\texturesrc\viewmodel\v_knife"
+$cdtexture "..\..\textures\viewmodel\hands\soldier"
+$cdtexture "..\..\textures\viewmodel\v_knife"
 $scale 1.0
 
 

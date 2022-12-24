@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "houndeye_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/houndeye"
+$cdtexture "../../textures/houndeye"
 $scale 1.0
 
 

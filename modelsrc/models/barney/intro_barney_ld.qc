@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "intro_barney_ld.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\barney"
+$cdtexture "..\..\textures\barney"
 $scale 1.0
 
 

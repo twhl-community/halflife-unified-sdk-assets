@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_rpg_soldier_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_rpg/ld"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_rpg/ld"
 $scale 1.0
 
 

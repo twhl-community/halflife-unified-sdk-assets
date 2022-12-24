@@ -15,9 +15,9 @@ Original internal name:
 $modelname "v_crossbow_soldier_hd.mdl"
 $cd ".\"
 $cdtexture "meshes/hd"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_crossbow/hd"
-$cdtexture "../../texturesrc/w_crossbow"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_crossbow/hd"
+$cdtexture "../../textures/w_crossbow"
 $scale 1.0
 
 

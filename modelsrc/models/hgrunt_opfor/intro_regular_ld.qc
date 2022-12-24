@@ -14,11 +14,11 @@ Original internal name:
 
 $modelname "intro_regular_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/intro_regular"
-$cdtexture "../../texturesrc/hgrunt_opfor/ld"
-$cdtexture "../../texturesrc/hgrunt/hd"
-$cdtexture "../../texturesrc/hgrunt/ld"
-$cdtexture "../../texturesrc/w_9mmar"
+$cdtexture "../../textures/intro_regular"
+$cdtexture "../../textures/hgrunt_opfor/ld"
+$cdtexture "../../textures/hgrunt/hd"
+$cdtexture "../../textures/hgrunt/ld"
+$cdtexture "../../textures/w_9mmar"
 $scale 1.0
 
 

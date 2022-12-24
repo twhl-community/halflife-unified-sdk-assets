@@ -14,9 +14,9 @@ Original internal name:
 
 $modelname "v_9mmhandgun_soldier_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_9mmhandgun/hd"
-$cdtexture "../../texturesrc/viewmodel/v_9mmhandgun/ld"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_9mmhandgun/hd"
+$cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
 $scale 1.0
 
 

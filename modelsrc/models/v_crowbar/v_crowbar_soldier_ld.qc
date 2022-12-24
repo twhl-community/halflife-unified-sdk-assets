@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_crowbar_soldier_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/soldier"
-$cdtexture "../../texturesrc/viewmodel/v_crowbar/ld"
+$cdtexture "../../textures/viewmodel/hands/soldier"
+$cdtexture "../../textures/viewmodel/v_crowbar/ld"
 $scale 1.0
 
 

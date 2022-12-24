@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_rpg_guard_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/guard"
-$cdtexture "../../texturesrc/viewmodel/v_rpg/ld"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_rpg/ld"
 $scale 1.0
 
 

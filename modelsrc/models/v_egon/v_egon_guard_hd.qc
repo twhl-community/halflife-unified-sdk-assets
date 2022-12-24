@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_egon_guard_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/guard"
-$cdtexture "../../texturesrc/viewmodel/v_egon"
+$cdtexture "../../textures/viewmodel/hands/guard"
+$cdtexture "../../textures/viewmodel/v_egon"
 $scale 1.0
 
 

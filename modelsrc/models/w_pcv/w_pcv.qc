@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_pcv.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/w_pcv"
+$cdtexture "../../textures/w_pcv"
 $scale 1.0
 
 

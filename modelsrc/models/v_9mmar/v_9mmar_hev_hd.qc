@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_9mmar_hev_hd.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/hev"
-$cdtexture "../../texturesrc/viewmodel/v_9mmar/hd"
+$cdtexture "../../textures/viewmodel/hands/hev"
+$cdtexture "../../textures/viewmodel/v_9mmar/hd"
 $scale 1.0
 
 

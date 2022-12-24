@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_pipe_wrench_soldier_hd.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\soldier"
-$cdtexture "..\..\texturesrc\viewmodel\v_pipe_wrench"
+$cdtexture "..\..\textures\viewmodel\hands\soldier"
+$cdtexture "..\..\textures\viewmodel\v_pipe_wrench"
 $scale 1.0
 
 

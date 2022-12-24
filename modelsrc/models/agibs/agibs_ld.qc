@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "agibs_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/agibs"
+$cdtexture "../../textures/agibs"
 $scale 1.0
 
 

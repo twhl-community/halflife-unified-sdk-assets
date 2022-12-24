@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_displacer_hev_ld.mdl"
 $cd ".\"
-$cdtexture "..\..\texturesrc\viewmodel\hands\hev"
-$cdtexture "..\..\texturesrc\viewmodel\v_displacer"
+$cdtexture "..\..\textures\viewmodel\hands\hev"
+$cdtexture "..\..\textures\viewmodel\v_displacer"
 $scale 1.0
 
 

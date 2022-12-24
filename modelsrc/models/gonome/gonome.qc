@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "gonome.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/gonome"
+$cdtexture "../../textures/gonome"
 $scale 1.0
 
 

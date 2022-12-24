@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_egon_hev_ld.mdl"
 $cd ".\"
-$cdtexture "../../texturesrc/viewmodel/hands/hev"
-$cdtexture "../../texturesrc/viewmodel/v_egon"
+$cdtexture "../../textures/viewmodel/hands/hev"
+$cdtexture "../../textures/viewmodel/v_egon"
 $scale 1.0
 
 
