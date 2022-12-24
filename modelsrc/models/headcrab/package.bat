@@ -3,6 +3,6 @@ setlocal enableextensions enabledelayedexpansion
 prompt $
 cls
 
-if exist headcrab.mdl xcopy /F /Y headcrab.mdl %~dp0..\..\models\headcrab.mdl*
+if exist headcrab.mdl xcopy /F /Y headcrab.mdl %~dp0..\..\mdl\ld\headcrab.mdl*
 
 endlocal

@@ -5,6 +5,6 @@ cls
 
 set basename=voltigore
 
-if exist %basename%.mdl xcopy /F /Y %basename%.mdl %~dp0..\..\models\%basename%.mdl*
+if exist %basename%.mdl xcopy /F /Y %basename%.mdl %~dp0..\..\mdl\ld\%basename%.mdl*
 
 endlocal
