@@ -1,86 +1,110 @@
 //This file contains a list of filters to copy assets to the game directory.
-[
-	{
-		"Source": "cfgsrc",
-		"Destination": "",
-		"Pattern": "server.cfg"
-	},
-	{
-		"Source": "cfgsrc",
-		"Destination": "cfg",
-		"Pattern": "*.json",
-		"Recursive": true
-	},
-	{
-		"Source": "cfgsrc",
-		"Destination": "",
-		"Pattern": "*.scr.install"
-	},
-	{
-		"Source": "cfgsrc",
-		"Destination": "",
-		"Pattern": "titles.txt"
-	},
-	{
-		"Source": "cfgsrc/stats",
-		"Destination": "stats",
-		"Pattern": "*.ost"
-	},
-	{
-		"Source": "textsrc/classes",
-		"Destination": "classes",
-		"Pattern": "*.txt"
-	},
-	{
-		"Source": "eventsrc",
-		"Destination": "events",
-		"Pattern": "*.sc"
-	},
-	{
-		"Source": "fgdsrc",
-		"Destination": "",
-		"Pattern": "halflife-unified.fgd"
-	},
-	{
-		"Source": "gfxsrc/vgui",
-		"Destination": "gfx/vgui",
-		"Pattern": "*.tga"
-	},
-	{
-		"Source": "iconsrc",
-		"Destination": "",
-		"Pattern": "game.ico"
-	},
-	{
-		"Source": "iconsrc",
-		"Destination": "",
-		"Pattern": "*.tga"
-	},
-	{
-		"Source": "installersrc",
-		"Destination": "installer",
-		"Pattern": "*.json"
-	},
-	{
-		"Source": "resourcesrc",
-		"Destination": "resource",
-		"Pattern": "*.txt",
-		"Recursive": true
-	},
-	{
-		"Source": "scriptsrc",
-		"Destination": "scripts",
-		"Pattern": "*.csx",
-		"Recursive": true
-	},
-	{
-		"Source": "soundsrc",
-		"Destination": "sound",
-		"Pattern": "*.txt"
-	},
-	{
-		"Source": "spritesrc",
-		"Destination": "sprites",
-		"Pattern": "*.txt"
-	}
-]
+{
+	"PatternGroups": [
+		{
+			// Filters for copying content that is always used by the game.
+			"Path": "%ModDirectory%",
+			"Filters": [
+				{
+					"Source": "cfgsrc",
+					"Destination": "",
+					"Pattern": "server.cfg"
+				},
+				{
+					"Source": "cfgsrc",
+					"Destination": "cfg",
+					"Pattern": "*.json",
+					"Recursive": true
+				},
+				{
+					"Source": "cfgsrc",
+					"Destination": "",
+					"Pattern": "*.scr.install"
+				},
+				{
+					"Source": "cfgsrc",
+					"Destination": "",
+					"Pattern": "titles.txt"
+				},
+				{
+					"Source": "cfgsrc/stats",
+					"Destination": "stats",
+					"Pattern": "*.ost"
+				},
+				{
+					"Source": "textsrc/classes",
+					"Destination": "classes",
+					"Pattern": "*.txt"
+				},
+				{
+					"Source": "eventsrc",
+					"Destination": "events",
+					"Pattern": "*.sc"
+				},
+				{
+					"Source": "fgdsrc",
+					"Destination": "",
+					"Pattern": "halflife-unified.fgd"
+				},
+				{
+					"Source": "gfxsrc/vgui",
+					"Destination": "gfx/vgui",
+					"Pattern": "*.tga"
+				},
+				{
+					"Source": "iconsrc",
+					"Destination": "",
+					"Pattern": "game.ico"
+				},
+				{
+					"Source": "iconsrc",
+					"Destination": "",
+					"Pattern": "*.tga"
+				},
+				{
+					"Source": "installersrc",
+					"Destination": "installer",
+					"Pattern": "*.json"
+				},
+				{
+					"Source": "resourcesrc",
+					"Destination": "resource",
+					"Pattern": "*.txt",
+					"Recursive": true
+				},
+				{
+					"Source": "scriptsrc",
+					"Destination": "scripts",
+					"Pattern": "*.csx",
+					"Recursive": true
+				},
+				{
+					"Source": "soundsrc",
+					"Destination": "sound",
+					"Pattern": "*.txt"
+				},
+				{
+					"Source": "spritesrc",
+					"Destination": "sprites",
+					"Pattern": "*.txt"
+				}
+			]
+		},
+		{
+			// Filters for copying high definition content.
+			"Path": "%ModDirectory%_hd",
+			"Filters": [
+				{
+					"Source": "modelsrc/hd",
+					"Destination": "models",
+					"Pattern": "*.mdl"
+				}
+				]
+		},
+		{
+			// Filters for copying low violence content.
+			"Path": "%ModDirectory%_lv",
+			"Filters": []
+		}
+	]
+}
