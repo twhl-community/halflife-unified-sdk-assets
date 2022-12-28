@@ -67,6 +67,12 @@
 					"Pattern": "*.json"
 				},
 				{
+					"Source": "modelsrc/mdl/ld",
+					"Destination": "models",
+					"Pattern": "*.mdl",
+					"Recursive": true
+				},
+				{
 					"Source": "resourcesrc",
 					"Destination": "resource",
 					"Pattern": "*.txt",
@@ -95,9 +101,10 @@
 			"Path": "%ModDirectory%_hd",
 			"Filters": [
 				{
-					"Source": "modelsrc/hd",
+					"Source": "modelsrc/mdl/hd",
 					"Destination": "models",
-					"Pattern": "*.mdl"
+					"Pattern": "*.mdl",
+					"Recursive": true
 				}
 				]
 		},
