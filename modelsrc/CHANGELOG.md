@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Hologram pushcart model
+
+### Removed
+
+- Sequence pushcart in default Hologram model
+
 ## [0.4.0] - 2022-09-10
 
 ### Added
