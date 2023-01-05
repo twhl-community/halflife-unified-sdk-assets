@@ -12,7 +12,7 @@ Original internal name:
 ==============================================================================
 */
 
-$modelname "holo.mdl"
+$modelname "holo_cart.mdl"
 $cd "./"
 $cdtexture "../../textures/holo"
 $cdtexture "../../textures/player/gordon"
@@ -67,32 +67,10 @@ $hbox 5 "Bip01 R Finger1" -0.200000 -0.500000 -1.170000 1.400000 0.580000 1.3000
 $hbox 5 "Bip01 R Finger11" -0.300000 -0.300000 -0.900000 2.400000 0.750000 1.200000
 
 // 27 animation sequence(s)
-$sequence "walk" "animations/walk" LX fps 26 loop ACT_WALK 1 
-$sequence "longjump" "animations/longjump" fps 30 
 $sequence "troom_talkidle_1" "animations/troom_talkidle_1" fps 14 loop ACT_IDLE 1 
-$sequence "troom_quadjump" "animations/troom_quadjump" AX AY AZR fps 42 { event 1001 1 } 
-$sequence "troom_intro" "animations/troom_intro" AX AY AZR fps 20 { event 1008 1 "*holo/holointro.wav" } 
-$sequence "quadtalk" "animations/quadtalk" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn2.wav" } 
 $sequence "troom_talkidle_2" "animations/troom_talkidle_2" fps 14 loop ACT_IDLE 1 
-$sequence "cjump_hole" "animations/cjump_hole" AX AY AZR fps 18 { event 1001 1 } 
-$sequence "scharge" "animations/scharge" AX AY AZR fps 14 { event 1008 1 "*holo/holostn1.wav" } 
-$sequence "crouch_hole" "animations/crouch_hole" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn3.wav" } 
-$sequence "jump_module" "animations/jump_module" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn4.wav" } 
-$sequence "longjumptalk" "animations/longjumptalk" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn5.wav" } 
-$sequence "healthkit" "animations/healthkit" AX AY AZR fps 14 { event 1008 1 "*holo/holostn6.wav" } 
-$sequence "completed" "animations/completed" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn7.wav" } 
-$sequence "target" "animations/target" AX AY AZR fps 14 { event 1008 1 "*holo/holostn16.wav" } 
-$sequence "kickup" "animations/kickup" AX AY AZR fps 24 
-$sequence "treadwater" "animations/treadwater" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn14.wav" } 
-$sequence "dive" "animations/dive" AX AY AZR fps 30 
-$sequence "divetalk_1" "animations/divetalk_1" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn13.wav" } 
-$sequence "aqua_exit" "animations/aqua_exit" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn15.wav" } 
-$sequence "divetalk_2" "animations/divetalk_2" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn13.wav" } 
-$sequence "train" "animations/train" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn12.wav" } 
-$sequence "crate" "animations/crate" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn10.wav" } 
-$sequence "pull_box" "animations/pull_box" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn10a.wav" } 
-$sequence "crate_exit" "animations/crate_exit" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn11.wav" } 
-$sequence "bust_wall" "animations/bust_wall" AX AY AZR fps 16 loop { event 1008 1 "*holo/holostn9.wav" } 
-$sequence "ladder" "animations/ladder" AX AY AZR fps 16 loop { event 1008 1 "*holo/holostn8.wav" } 
+
+// Blue Shift sequences
+$sequence "pushcart" "animations/pushcart" LX fps 23 loop ACT_WALK 1 
 
 // End of QC script.
