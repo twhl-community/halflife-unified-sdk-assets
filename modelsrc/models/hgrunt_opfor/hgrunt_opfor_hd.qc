@@ -258,7 +258,7 @@ $sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1
 $sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop 
 $sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop 
 $sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25 
-$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/ld/hgrunt_on_stretcher" fps 34 
+$sequence "hgrunt_on_stretcher" "../shared/animations/hgrunt_opfor/hd/hgrunt_on_stretcher" fps 34 
 $sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 } 
 $sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
 $sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
