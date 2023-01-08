@@ -219,7 +219,7 @@ $sequence "dead_canyon" "animations/ld/dead_canyon" fps 1
 $sequence "sitting2" "animations/ld/sitting2" fps 8 loop 
 $sequence "sitting3" "animations/ld/sitting3" fps 6 loop 
 $sequence "open_floor_grate" "animations/ld/open_floor_grate" fps 25 
-$sequence "hgrunt_on_stretcher" "animations/ld/hgrunt_on_stretcher" fps 34 
+$sequence "hgrunt_on_stretcher" "animations/hd/hgrunt_on_stretcher" fps 34 
 $sequence "crawling" "animations/ld/crawling" fps 17 { event 1001 120 } 
 $sequence "of2a2_speech_idle" "animations/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 } 
 $sequence "of2a2_death_speech" "animations/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 } 
