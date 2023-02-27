@@ -307,6 +307,8 @@
 @BaseClass = CustomModel
 [
 	model(studio) : "Model"
+	custom_hull_min(string) : "Custom Hull Minimum"
+	custom_hull_max(string) : "Custom Hull Maximum"
 ]
 
 @BaseClass size(0 0 0, 32 32 32) color(80 0 200) base(Appearflags, Angles, CustomModel) = Ammo []
