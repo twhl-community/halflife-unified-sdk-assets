@@ -2343,6 +2343,11 @@
   deceleration(string) : "Stop Deceleration units/sec^2" : "500"
 ]
 
+@PointClass base(Targetname, Target) size(-8 -8 -8, 8 8 8) color(255 0 255) = trigger_changekeyvalue : "Trigger Change Key Value"
+[
+  changetarget(target_destination) : "Change target"
+]
+
 @SolidClass = trigger_changelevel : "Trigger: Change level"
 [
   targetname(string) : "Name"
