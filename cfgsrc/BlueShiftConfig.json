@@ -1,20 +1,16 @@
 {
-	"Sections": [
+    "SectionGroups": [
 		{
-			"Name": "GlobalModelReplacement",
-			"FileName": "cfg/BlueShiftModelReplacement.json"
-		},
-		{
-			"Name": "GlobalSentenceReplacement",
-			"FileName": "cfg/BlueShiftSentenceReplacement.json"
-		},
-		{
-			"Name": "HudColor",
-			"Color": "95 95 255"
-		},
-		{
-			"Name": "SuitLightType",
-			"Type": "flashlight"
-		}
-	]
+            "Sections": {
+                "GlobalModelReplacement": {
+                    "FileName": "cfg/BlueShiftModelReplacement.json"
+                },
+                "GlobalSentenceReplacement": {
+                    "FileName": "cfg/BlueShiftSentenceReplacement.json"
+                },
+                "HudColor": "95 95 255",
+                "SuitLightType": "flashlight"
+            }
+        }
+    ]
 }

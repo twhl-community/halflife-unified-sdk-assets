@@ -1,24 +1,19 @@
 {
-	"Sections": [
+    "SectionGroups": [
 		{
-			"Name": "GlobalModelReplacement",
-			"FileName": "cfg/Op4ModelReplacement.json"
-		},
-		{
-			"Name": "GlobalSentenceReplacement",
-			"FileName": "cfg/Op4SentenceReplacement.json"
-		},
-		{
-			"Name": "GlobalSoundReplacement",
-			"FileName": "cfg/Op4SoundReplacement.json"
-		},
-		{
-			"Name": "HudColor",
-			"Color": "0 160 0"
-		},
-		{
-			"Name": "SuitLightType",
-			"Type": "nightvision"
-		}
-	]
+            "Sections": {
+                "GlobalModelReplacement": {
+                    "FileName": "cfg/Op4ModelReplacement.json"
+                },
+                "GlobalSentenceReplacement": {
+                    "FileName": "cfg/Op4SentenceReplacement.json"
+                },
+                "GlobalSoundReplacement": {
+                    "FileName": "cfg/Op4SoundReplacement.json"
+                },
+                "HudColor": "0 160 0",
+                "SuitLightType": "nightvision"
+            }
+        }
+    ]
 }

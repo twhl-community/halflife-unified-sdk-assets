@@ -22,20 +22,21 @@
 // teamplay
 
 {
-	"Sections": [
-		{
-			"Name": "Commands",
-			"Condition": "Singleplayer",
-			"Commands": [
+	"SectionGroups": [
+	{
+		"Condition": "Singleplayer",
+		"Sections": {
+			"Commands":  [
 				"pausable 1",
 
 				// maximum client movement speed 
 				"sv_maxspeed 320"
 			]
-		},
-		{
-			"Name": "Commands",
-			"Condition": "Multiplayer",
+		}
+	},
+	{
+		"Condition": "Multiplayer",
+		"Sections": {
 			"Commands": [
 				// disable autoaim
 				"sv_aim 0",
@@ -57,5 +58,6 @@
 				"exec banned.cfg"
 			]
 		}
+	}
 	]
 }

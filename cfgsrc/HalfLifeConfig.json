@@ -1,16 +1,13 @@
 {
-	"Sections": [
+    "SectionGroups": [
 		{
-			"Name": "GlobalModelReplacement",
-			"FileName": "cfg/HalfLifeModelReplacement.json"
-		},
-		{
-			"Name": "HudColor",
-			"Color": "255 160 0"
-		},
-		{
-			"Name": "SuitLightType",
-			"Type": "flashlight"
-		}
-	]
+            "Sections": {
+                "GlobalModelReplacement": {
+                    "FileName": "cfg/HalfLifeModelReplacement.json"
+                },
+                "HudColor": "255 160 0",
+                "SuitLightType": "flashlight"
+            }
+        }
+    ]
 }
