@@ -3,10 +3,10 @@
 		{
             "Sections": {
                 "GlobalModelReplacement": {
-                    "FileName": "cfg/BlueShiftModelReplacement.json"
+                    "FileNames": ["cfg/BlueShiftModelReplacement.json"]
                 },
                 "GlobalSentenceReplacement": {
-                    "FileName": "cfg/BlueShiftSentenceReplacement.json"
+                    "FileNames": ["cfg/BlueShiftSentenceReplacement.json"]
                 },
                 "HudColor": "95 95 255",
                 "SuitLightType": "flashlight"

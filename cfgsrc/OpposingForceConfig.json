@@ -3,13 +3,13 @@
 		{
             "Sections": {
                 "GlobalModelReplacement": {
-                    "FileName": "cfg/Op4ModelReplacement.json"
+                    "FileNames": ["cfg/Op4ModelReplacement.json"]
                 },
                 "GlobalSentenceReplacement": {
-                    "FileName": "cfg/Op4SentenceReplacement.json"
+                    "FileNames": ["cfg/Op4SentenceReplacement.json"]
                 },
                 "GlobalSoundReplacement": {
-                    "FileName": "cfg/Op4SoundReplacement.json"
+                    "FileNames": ["cfg/Op4SoundReplacement.json"]
                 },
                 "HudColor": "0 160 0",
                 "SuitLightType": "nightvision"
