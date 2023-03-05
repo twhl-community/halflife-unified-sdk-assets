@@ -1,0 +1,19 @@
+// This file adds sections that add the default game data files used by Half-Life.
+// Server and map configuration files can add additional files or override them completely by setting "ResetList": true in a local section.
+{
+	"SectionGroups": [
+	{
+		"Sections": {
+			"Sentences": {
+				"FileNames": ["sound/sentences.txt"]
+			},
+			"Materials": {
+				"FileNames": ["sound/materials.txt"]
+			},
+			"Skill": {
+				"FileNames": ["cfg/skill.json"]
+			}
+		}
+	}
+	]
+}
