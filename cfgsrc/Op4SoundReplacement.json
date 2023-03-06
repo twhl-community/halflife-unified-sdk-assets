@@ -4,11 +4,6 @@
 	"player/pl_organic3.wav": "player/op4/pl_organic3.wav",
 	"player/pl_organic4.wav": "player/op4/pl_organic4.wav",
 	
-	"player/pl_snow1.wav": "player/op4/pl_snow1.wav",
-	"player/pl_snow2.wav": "player/op4/pl_snow2.wav",
-	"player/pl_snow3.wav": "player/op4/pl_snow3.wav",
-	"player/pl_snow4.wav": "player/op4/pl_snow4.wav",
-	
 	"player/pl_step1.wav": "player/op4/pl_step1.wav",
 	"player/pl_step2.wav": "player/op4/pl_step2.wav",
 	"player/pl_step3.wav": "player/op4/pl_step3.wav",
