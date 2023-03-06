@@ -8,7 +8,7 @@
 				"FileNames": ["sound/sentences.txt"]
 			},
 			"Materials": {
-				"FileNames": ["sound/materials.txt"]
+				"FileNames": ["sound/materials.json"]
 			},
 			"Skill": {
 				"FileNames": ["cfg/skill.json"]

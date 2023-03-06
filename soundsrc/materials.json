@@ -1,0 +1,1433 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+//  'M' metal, 'V' ventillation, 'D' dirt, 'S' slosh liquid
+//  'T' tile, 'G' grate (Concrete is the default), 'W' wood, 'P' computer, 'Y' glass
+//  'O' snow
+// NOTE: the complete texture name is used, not the first 12 like vanilla Half-Life
+// NOTE: there is no limit to the number of materials
+// NOTE: "+<digit>", "-<digit>", '{', '!', and '~' are ignored when checking for texture names so do not include those prefixes in these names
+{
+	"DUCT_FLR01": {
+		"Type": "V"
+	},
+	"DUCT_FLR01A": {
+		"Type": "V"
+	},
+	"DUCT_FLR02A": {
+		"Type": "V"
+	},
+	"DUCT_VNT": {
+		"Type": "V"
+	},
+	"DUCT_VNT2": {
+		"Type": "V"
+	},
+	"DUCT_WALL01": {
+		"Type": "V"
+	},
+	"DUCT_WALL02": {
+		"Type": "V"
+	},
+	"DUCT_WALL03": {
+		"Type": "V"
+	},
+	"DUCT_WALL04": {
+		"Type": "V"
+	},
+	"SILO2_COR": {
+		"Type": "V"
+	},
+	"OUT_GRND1": {
+		"Type": "D"
+	},
+	"OUT_GRND2": {
+		"Type": "D"
+	},
+	"OUT_GRVL1": {
+		"Type": "D"
+	},
+	"OUT_GRVL2": {
+		"Type": "D"
+	},
+	"OUT_GRVL2B": {
+		"Type": "D"
+	},
+	"OUT_GRVL3": {
+		"Type": "D"
+	},
+	"OUT_MUD1": {
+		"Type": "D"
+	},
+	//"OUT_RK1": {
+	//	"Type": "D"
+	//},
+	//"OUT_RK2": {
+	//	"Type": "D"
+	//},
+	//"OUT_RK2": {
+	//	"Type": "D"
+	//},
+	//"OUT_RK4": {
+	//	"Type": "D"
+	//},
+	"OUT_SND1": {
+		"Type": "D"
+	},
+	"OUT_SND2": {
+		"Type": "D"
+	},
+	"OUT_SND2B": {
+		"Type": "D"
+	},
+	"OUT_SND2C": {
+		"Type": "D"
+	},
+	"OUT_WLK": {
+		"Type": "D"
+	},
+	"OUT_GRSS1": {
+		"Type": "D"
+	},
+	"OUT_DIRT1": {
+		"Type": "D"
+	},
+	"OUT_DIRT2": {
+		"Type": "D"
+	},
+	"GENERIC48": {
+		"Type": "D"
+	},
+	"GENERIC49": {
+		"Type": "D"
+	},
+	"GENERIC51": {
+		"Type": "D"
+	},
+	"GENERIC52": {
+		"Type": "D"
+	},
+	"GENERIC93": {
+		"Type": "D"
+	},
+	"OUT_PAVE2": {
+		"Type": "D"
+	},
+	"OUT_SNBAG": {
+		"Type": "D"
+	},
+	"OUT_SNBAG2": {
+		"Type": "D"
+	},
+	"OUT_SNBAGB": {
+		"Type": "D"
+	},
+	"OUT_SNBAGC": {
+		"Type": "D"
+	},
+	"OUT_TNT2": {
+		"Type": "D"
+	},
+	"OUT_TNT1": {
+		"Type": "D"
+	},
+	"OUT_TNT1B": {
+		"Type": "D"
+	},
+	"OUT_TNT1C": {
+		"Type": "D"
+	},
+	"OUT_TNT3": {
+		"Type": "D"
+	},
+	"OUT_TNT3B": {
+		"Type": "D"
+	},
+	"OUT_NET1": {
+		"Type": "D"
+	},
+	"OUT_NET1B": {
+		"Type": "D"
+	},
+	"FROSTSEWFLR": {
+		"Type": "D"
+	},
+	"GENERIC109": {
+		"Type": "G"
+	},
+	"GENERIC015C": {
+		"Type": "G"
+	},
+	"GENERIC015D": {
+		"Type": "G"
+	},
+	"GENERIC015E": {
+		"Type": "G"
+	},
+	"GENERIC015F": {
+		"Type": "G"
+	},
+	"GENERIC015G": {
+		"Type": "G"
+	},
+	"GENERIC015H": {
+		"Type": "G"
+	},
+	"GENERIC015I": {
+		"Type": "G"
+	},
+	"GENERIC015": {
+		"Type": "G"
+	},
+	"GENERIC015A": {
+		"Type": "G"
+	},
+	"GENERIC015B": {
+		"Type": "G"
+	},
+	"BABTECH_FLR02": {
+		"Type": "G"
+	},
+	"CRETE2_FLR03": {
+		"Type": "G"
+	},
+	"CRETE2_FLR03A": {
+		"Type": "G"
+	},
+	"CRETE2_FLR03B": {
+		"Type": "G"
+	},
+	"CRETE2_FLR03C": {
+		"Type": "G"
+	},
+	"ELEV1_FLR": {
+		"Type": "G"
+	},
+	"ELEV2_FLR": {
+		"Type": "G"
+	},
+	"ELEV_FLR": {
+		"Type": "G"
+	},
+	"GRATE1": {
+		"Type": "G"
+	},
+	"GRATE2": {
+		"Type": "G"
+	},
+	"GRATE2A": {
+		"Type": "G"
+	},
+	"GRATE3A": {
+		"Type": "G"
+	},
+	"GRID1": {
+		"Type": "G"
+	},
+	"GRID2": {
+		"Type": "G"
+	},
+	"TNNL_FLR12": {
+		"Type": "G"
+	},
+	"TNNL_FLR12A": {
+		"Type": "G"
+	},
+	"TNNL_FLR1A": {
+		"Type": "G"
+	},
+	"LAB1_STAIR2A": {
+		"Type": "G"
+	},
+	"FROSTFLOOR": {
+		"Type": "G"
+	},
+	"GRATE4A": {
+		"Type": "G"
+	},
+	"GRATE3B": {
+		"Type": "G"
+	},
+	"GRATESTEP1": {
+		"Type": "G"
+	},
+	"GRATESTEP2": {
+		"Type": "G"
+	},
+	"GRATESTEP3": {
+		"Type": "G"
+	},
+	//"TNNL_FLR6": {
+	//	"Type": "M"
+	//},
+	//"TNNL_FLR6B": {
+	//	"Type": "M"
+	//},
+	"C1A1_FLR1": {
+		"Type": "M"
+	},
+	"BABFL": {
+		"Type": "M"
+	},
+	"C2A3TURBINE1": {
+		"Type": "M"
+	},
+	"C2A3TURBINE2": {
+		"Type": "M"
+	},
+	"C2A3TURBINE3": {
+		"Type": "M"
+	},
+	"C2A3TURBINE4": {
+		"Type": "M"
+	},
+	"SILO2_P2": {
+		"Type": "M"
+	},
+	"SILO2_P2B": {
+		"Type": "M"
+	},
+	"SILO2_P3": {
+		"Type": "M"
+	},
+	"SILO2_P4": {
+		"Type": "M"
+	},
+	"SILO2_PAN2": {
+		"Type": "M"
+	},
+	"SILO2_W1": {
+		"Type": "M"
+	},
+	"SILO2_W1A": {
+		"Type": "M"
+	},
+	"SILO2_WALL1": {
+		"Type": "M"
+	},
+	"SILO2_W2": {
+		"Type": "M"
+	},
+	"BABTECH_C5": {
+		"Type": "M"
+	},
+	"LAB3_FLR2A": {
+		"Type": "M"
+	},
+	"LAB3_FLR2B": {
+		"Type": "M"
+	},
+	"FIFTIES_CMP3": {
+		"Type": "M"
+	},
+	"LAB1_STAIR2B": {
+		"Type": "M"
+	},
+	"OUT_QUNST11": {
+		"Type": "M"
+	},
+	"FREEZER_FLR1": {
+		"Type": "M"
+	},
+	"GENERIC015N": {
+		"Type": "M"
+	},
+	"GENERIC015P": {
+		"Type": "M"
+	},
+	"GENERIC015R": {
+		"Type": "M"
+	},
+	"GENERIC0150": {
+		"Type": "M"
+	},
+	"GENERIC015S": {
+		"Type": "M"
+	},
+	"GENERIC015T": {
+		"Type": "M"
+	},
+	"GENERIC015U": {
+		"Type": "M"
+	},
+	"GENERIC015V": {
+		"Type": "M"
+	},
+	"GENERIC015V2": {
+		"Type": "M"
+	},
+	"C1A4_DOME3": {
+		"Type": "M"
+	},
+	"GENERIC_114": {
+		"Type": "S"
+	},
+	"WATERBLUE": {
+		"Type": "S"
+	},
+	"WATERGREEN": {
+		"Type": "S"
+	},
+	"TOXICGRN": {
+		"Type": "S"
+	},
+	"FLUID1A": {
+		"Type": "S"
+	},
+	"FLUID1B": {
+		"Type": "S"
+	},
+	"FLUID2": {
+		"Type": "S"
+	},
+	"FLUID3": {
+		"Type": "S"
+	},
+	"FLUID4": {
+		"Type": "S"
+	},
+	"WATERSILO": {
+		"Type": "S"
+	},
+	"WATERSILO2": {
+		"Type": "S"
+	},
+	"WATERF": {
+		"Type": "S"
+	},
+	"FIFT_BLOODFLR": {
+		"Type": "T"
+	},
+	"FIFT_BLOODFLRA": {
+		"Type": "T"
+	},
+	"FIFTIES_F01": {
+		"Type": "T"
+	},
+	"FIFTIES_F02": {
+		"Type": "T"
+	},
+	"FIFTIES_F03": {
+		"Type": "T"
+	},
+	"FIFTIES_F03B": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR01": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR02": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR02B": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR02C": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR03": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR03B": {
+		"Type": "T"
+	},
+	"FIFTIES_FLR5": {
+		"Type": "T"
+	},
+	"LAB1_BLUXFLR1": {
+		"Type": "T"
+	},
+	"LAB1_BLUXFLR1B": {
+		"Type": "T"
+	},
+	"LAB1_BLUX1": {
+		"Type": "T"
+	},
+	"LAB1_BLUX1B": {
+		"Type": "T"
+	},
+	"LAB1_C4003": {
+		"Type": "T"
+	},
+	"LAB1_C4A001": {
+		"Type": "T"
+	},
+	"LAB1_C4B002": {
+		"Type": "T"
+	},
+	"LAB1_C4D2": {
+		"Type": "T"
+	},
+	"LAB1_CAB2": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR2A": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR2B": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR3": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR4": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR5": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR6": {
+		"Type": "T"
+	},
+	"LAB1_FLOOR10": {
+		"Type": "T"
+	},
+	"LAB1_FLR3": {
+		"Type": "T"
+	},
+	"LAB1_FLR4": {
+		"Type": "T"
+	},
+	"LAB1_FLR4B": {
+		"Type": "T"
+	},
+	"LAB1_FLR4C": {
+		"Type": "T"
+	},
+	"LAB1_FLR4D": {
+		"Type": "T"
+	},
+	"LAB1_FLR5B": {
+		"Type": "T"
+	},
+	"LAB1_FLR5C": {
+		"Type": "T"
+	},
+	"LAB1_FLR5D": {
+		"Type": "T"
+	},
+	"LAB1_FLR6B": {
+		"Type": "T"
+	},
+	"LAB1_FLR6C": {
+		"Type": "T"
+	},
+	"LAB1_FLR6D": {
+		"Type": "T"
+	},
+	"LAB1_W8FLR1": {
+		"Type": "T"
+	},
+	"LAB1_W8FLR1B": {
+		"Type": "T"
+	},
+	"LAB1_W8FLR1C": {
+		"Type": "T"
+	},
+	"LAB1_W8FLR1D": {
+		"Type": "T"
+	},
+	"C2A4_FLR6": {
+		"Type": "T"
+	},
+	"C1A2_FLR1": {
+		"Type": "T"
+	},
+	"C1A2_FLR2": {
+		"Type": "T"
+	},
+	"C1A0_LABFLRB": {
+		"Type": "T"
+	},
+	"C1A0_LABFLRC": {
+		"Type": "T"
+	},
+	"C1A0_LABFLRD": {
+		"Type": "T"
+	},
+	"C1A0_LABFLRE": {
+		"Type": "T"
+	},
+	"C1A0_LABFLR": {
+		"Type": "T"
+	},
+	// UNBREAKABLE CRATES
+	"CRATE01": {
+		"Type": "W"
+	},
+	"CRATE02": {
+		"Type": "W"
+	},
+	"CRATE02B": {
+		"Type": "W"
+	},
+	"CRATE03": {
+		"Type": "W"
+	},
+	"CRATE04": {
+		"Type": "W"
+	},
+	"CRATE05": {
+		"Type": "W"
+	},
+	"CRATE06": {
+		"Type": "W"
+	},
+	"CRATE07": {
+		"Type": "W"
+	},
+	"CRATE08": {
+		"Type": "W"
+	},
+	"CRATE08B": {
+		"Type": "W"
+	},
+	"CRATE09": {
+		"Type": "W"
+	},
+	"CRATE09B": {
+		"Type": "W"
+	},
+	"CRATE09C": {
+		"Type": "W"
+	},
+	"CRATE19": {
+		"Type": "W"
+	},
+	"CRATE20": {
+		"Type": "W"
+	},
+	"CRATE21": {
+		"Type": "W"
+	},
+	"CRATE22": {
+		"Type": "W"
+	},
+	"CRATE23": {
+		"Type": "W"
+	},
+	"CRATE25": {
+		"Type": "W"
+	},
+	"FIFTIES_DR6": {
+		"Type": "W"
+	},
+	"FIFTIES_DR6A": {
+		"Type": "W"
+	},
+	"FIFTIES_CCH1": {
+		"Type": "W"
+	},
+	"FIFTIES_CCH2": {
+		"Type": "W"
+	},
+	"FIFTIES_CCH3": {
+		"Type": "W"
+	},
+	"FIFTIES_CCH4": {
+		"Type": "W"
+	},
+	"FIFTIES_DR1K": {
+		"Type": "W"
+	},
+	"FIFTIES_DR2": {
+		"Type": "W"
+	},
+	"FIFTIES_DR7": {
+		"Type": "W"
+	},
+	"FIFTIES_DR8": {
+		"Type": "W"
+	},
+	"FIFTIES_DR9": {
+		"Type": "W"
+	},
+	"FIFTIES_DSK1": {
+		"Type": "W"
+	},
+	"OUT_SLAT01": {
+		"Type": "W"
+	},
+	"OUT_WD": {
+		"Type": "W"
+	},
+	"OUT_CAC1": {
+		"Type": "W"
+	},
+	"OUT_CAC2": {
+		"Type": "W"
+	},
+	"BCRATE02": {
+		"Type": "W"
+	},
+	"BCRATE03": {
+		"Type": "W"
+	},
+	"BCRATE04": {
+		"Type": "W"
+	},
+	"BCRATE05": {
+		"Type": "W"
+	},
+	"BCRATE06": {
+		"Type": "W"
+	},
+	"BCRATE07": {
+		"Type": "W"
+	},
+	"BCRATE08": {
+		"Type": "W"
+	},
+	"BCRATE12": {
+		"Type": "W"
+	},
+	"BCRATE14": {
+		"Type": "W"
+	},
+	"BCRATE15": {
+		"Type": "W"
+	},
+	"BCRATE16": {
+		"Type": "W"
+	},
+	"BCRATE17": {
+		"Type": "W"
+	},
+	"BCRATE18": {
+		"Type": "W"
+	},
+	"BCRATE25": {
+		"Type": "W"
+	},
+	"BCRATE26": {
+		"Type": "W"
+	},
+	"CRATE10": {
+		"Type": "W"
+	},
+	"CRATE11": {
+		"Type": "W"
+	},
+	"CRATE12": {
+		"Type": "W"
+	},
+	"CRATE13": {
+		"Type": "W"
+	},
+	"CRATE24": {
+		"Type": "W"
+	},
+	"CRATE27": {
+		"Type": "W"
+	},
+	"C3A1_NRC2": {
+		"Type": "P"
+	},
+	"C1A1_GAD1": {
+		"Type": "P"
+	},
+	"C1A1_GAD2": {
+		"Type": "P"
+	},
+	"C1A1_GAD3": {
+		"Type": "P"
+	},
+	"C1A1_GAD4": {
+		"Type": "P"
+	},
+	"C1A1_GAD4A": {
+		"Type": "P"
+	},
+	"C1A1_GGT8": {
+		"Type": "P"
+	},
+	"C1A4_PAN1A": {
+		"Type": "P"
+	},
+	"C1A4_PAN1B": {
+		"Type": "P"
+	},
+	"C1A4_SWTCH1": {
+		"Type": "P"
+	},
+	"C2A2_SATORB": {
+		"Type": "P"
+	},
+	"C2A4_CMP1": {
+		"Type": "P"
+	},
+	"C2A4_GAD2": {
+		"Type": "P"
+	},
+	"C3A2A_W1D": {
+		"Type": "P"
+	},
+	"C3A2A_W1E": {
+		"Type": "P"
+	},
+	"C3A2A_W2D": {
+		"Type": "P"
+	},
+	"C3A2A_W2E": {
+		"Type": "P"
+	},
+	"DRKMTL_SCRN2": {
+		"Type": "P"
+	},
+	"DRKMTL_SCRN3": {
+		"Type": "P"
+	},
+	"DRKMTL_SCRN4": {
+		"Type": "P"
+	},
+	"DRKMTLT_WALL": {
+		"Type": "P"
+	},
+	"FIFTIES_GGT8": {
+		"Type": "P"
+	},
+	"FIFTIES_MON1": {
+		"Type": "P"
+	},
+	"FIFTIES_MON1B": {
+		"Type": "P"
+	},
+	"FIFTIES_MON2": {
+		"Type": "P"
+	},
+	"FIFTIES_MON2B": {
+		"Type": "P"
+	},
+	"FIFTIES_MON3": {
+		"Type": "P"
+	},
+	"FIFTIES_MON3B": {
+		"Type": "P"
+	},
+	"FIFTIES_MON4": {
+		"Type": "P"
+	},
+	"FIFTIES_PAN2": {
+		"Type": "P"
+	},
+	"GENERIC105": {
+		"Type": "P"
+	},
+	"GENERIC106": {
+		"Type": "P"
+	},
+	"GENERIC107": {
+		"Type": "P"
+	},
+	"GENERIC114": {
+		"Type": "P"
+	},
+	"GENERIC87A": {
+		"Type": "P"
+	},
+	"GENERIC88A": {
+		"Type": "P"
+	},
+	"GENERIC89A": {
+		"Type": "P"
+	},
+	"GENERIC113": {
+		"Type": "P"
+	},
+	"LAB1_CMPM1": {
+		"Type": "P"
+	},
+	"LAB1_CMPM2": {
+		"Type": "P"
+	},
+	"LAB1_CMPM3": {
+		"Type": "P"
+	},
+	"LAB1_CMPM4": {
+		"Type": "P"
+	},
+	"LAB1_CMPM5": {
+		"Type": "P"
+	},
+	"LAB1_CMPM6": {
+		"Type": "P"
+	},
+	"LAB1_CMPM7": {
+		"Type": "P"
+	},
+	"LAB1_CMPM8": {
+		"Type": "P"
+	},
+	"LAB1_COMP1": {
+		"Type": "P"
+	},
+	"LAB1_COMP2": {
+		"Type": "P"
+	},
+	"LAB1_COMP3": {
+		"Type": "P"
+	},
+	"LAB1_COMP2A": {
+		"Type": "P"
+	},
+	"LAB1_COMP10A": {
+		"Type": "P"
+	},
+	"LAB1_COMP10B": {
+		"Type": "P"
+	},
+	"LAB1_COMP10C": {
+		"Type": "P"
+	},
+	"LAB1_COMP10D": {
+		"Type": "P"
+	},
+	"LAB1_COMP10E": {
+		"Type": "P"
+	},
+	"LAB1_COMP7": {
+		"Type": "P"
+	},
+	"LAB1_COMP8": {
+		"Type": "P"
+	},
+	"LAB1_COMP9A": {
+		"Type": "P"
+	},
+	"LAB1_COMP9A2": {
+		"Type": "P"
+	},
+	"LAB1_COMP9B": {
+		"Type": "P"
+	},
+	"LAB1_COMP9C": {
+		"Type": "P"
+	},
+	"LAB1_COMP9D": {
+		"Type": "P"
+	},
+	"LAB1_GAD2": {
+		"Type": "P"
+	},
+	"LAB1_GAD3": {
+		"Type": "P"
+	},
+	"LAB1_GAD4": {
+		"Type": "P"
+	},
+	"LAB1_RADSCRN2": {
+		"Type": "P"
+	},
+	"LAB4_GAD3": {
+		"Type": "P"
+	},
+	"LAB4_GAD4": {
+		"Type": "P"
+	},
+	"LAB4_SWTCH": {
+		"Type": "P"
+	},
+	"LAB_COMPM4": {
+		"Type": "P"
+	},
+	"RECHARGEA": {
+		"Type": "P"
+	},
+	"TNNL_GAD1": {
+		"Type": "P"
+	},
+	"TNNL_GAD2": {
+		"Type": "P"
+	},
+	"TNNL_GAD4": {
+		"Type": "P"
+	},
+	"C2A4C2C": {
+		"Type": "P"
+	},
+	"C2A4W1B": {
+		"Type": "P"
+	},
+	"LAB1_CMP": {
+		"Type": "P"
+	},
+	"LAB1_CMP1": {
+		"Type": "P"
+	},
+	"LAB1_CMP2": {
+		"Type": "P"
+	},
+	"LAB1_COMP3A": {
+		"Type": "P"
+	},
+	"LAB1_COMP3B": {
+		"Type": "P"
+	},
+	"LAB1_COMP3C": {
+		"Type": "P"
+	},
+	"LAB1_COMP3D": {
+		"Type": "P"
+	},
+	"LAB1_COMP4": {
+		"Type": "P"
+	},
+	"LAB1_COMP5": {
+		"Type": "P"
+	},
+	"LAB1_SW1": {
+		"Type": "P"
+	},
+	"LAB_CRT1": {
+		"Type": "P"
+	},
+	"LAB_CRT10A": {
+		"Type": "P"
+	},
+	"LAB_CRT10B": {
+		"Type": "P"
+	},
+	"LAB_CRT10C": {
+		"Type": "P"
+	},
+	"LAB_CRT10D": {
+		"Type": "P"
+	},
+	"LAB_CRT2": {
+		"Type": "P"
+	},
+	"LAB_CRT3": {
+		"Type": "P"
+	},
+	"LAB_CRT4": {
+		"Type": "P"
+	},
+	"LAB_CRT5": {
+		"Type": "P"
+	},
+	"LAB_CRT6": {
+		"Type": "P"
+	},
+	"LAB_CRT7": {
+		"Type": "P"
+	},
+	"LAB_CRT8": {
+		"Type": "P"
+	},
+	"LAB_CRT9C": {
+		"Type": "P"
+	},
+	"CRETESTCH01A": {
+		"Type": "P"
+	},
+	"DRKMTLLGT1": {
+		"Type": "P"
+	},
+	"FIFTS_LGHT01": {
+		"Type": "P"
+	},
+	"FIFTS_LGHT3": {
+		"Type": "P"
+	},
+	"FIFTS_LGHT4": {
+		"Type": "P"
+	},
+	"FIFTIES_LGT2": {
+		"Type": "P"
+	},
+	"FIFTS_LGHT5": {
+		"Type": "P"
+	},
+	"GYMLIGHT": {
+		"Type": "P"
+	},
+	"LIGHT1": {
+		"Type": "P"
+	},
+	"LIGHT2A": {
+		"Type": "P"
+	},
+	"LIGHT3A": {
+		"Type": "P"
+	},
+	"LIGHT3B": {
+		"Type": "P"
+	},
+	"LIGHT3C": {
+		"Type": "P"
+	},
+	"LIGHT3D": {
+		"Type": "P"
+	},
+	"LIGHT3E": {
+		"Type": "P"
+	},
+	"LIGHT3F": {
+		"Type": "P"
+	},
+	"LIGHT4A": {
+		"Type": "P"
+	},
+	"LIGHT5A": {
+		"Type": "P"
+	},
+	"LIGHT5B": {
+		"Type": "P"
+	},
+	"LIGHT5C": {
+		"Type": "P"
+	},
+	"LIGHT5D": {
+		"Type": "P"
+	},
+	"LIGHT5E": {
+		"Type": "P"
+	},
+	"LIGHT5F": {
+		"Type": "P"
+	},
+	"LIGHT6A": {
+		"Type": "P"
+	},
+	"METALSTCH2": {
+		"Type": "P"
+	},
+	"TNNL_LGT1": {
+		"Type": "P"
+	},
+	"TNNL_LGT2": {
+		"Type": "P"
+	},
+	"TNNL_LGT3": {
+		"Type": "P"
+	},
+	"TNNL_LGT4": {
+		"Type": "P"
+	},
+	"ELEV1_DWN": {
+		"Type": "P"
+	},
+	"SPOTBLUE": {
+		"Type": "P"
+	},
+	"SPOTGREEN": {
+		"Type": "P"
+	},
+	"SPOTRED": {
+		"Type": "P"
+	},
+	"SPOTYELLOW": {
+		"Type": "P"
+	},
+	"LAB1_GAD3B": {
+		"Type": "P"
+	},
+	"ELEV2_PAN": {
+		"Type": "P"
+	},
+	"ELEV1_PAN": {
+		"Type": "P"
+	},
+	"C2A4X_C3": {
+		"Type": "P"
+	},
+	"C2A4X_C1": {
+		"Type": "P"
+	},
+	"MEDKIT": {
+		"Type": "P"
+	},
+	"GLASS_BRIGHT": {
+		"Type": "Y"
+	},
+	"GLASS_DARK": {
+		"Type": "Y"
+	},
+	"GLASS_MED": {
+		"Type": "Y"
+	},
+	"GLASSBLUE1": {
+		"Type": "Y"
+	},
+	"GLASSBLUE2": {
+		"Type": "Y"
+	},
+	"GLASSGREEEN": {
+		"Type": "Y"
+	},
+	// OPFOR TEXTURES
+	"SNOW_01": {
+		"Type": "O"
+	},
+	"SNOW_02": {
+		"Type": "O"
+	},
+	"SNOW_03": {
+		"Type": "O"
+	},
+	"BOOT_DIRT_01": {
+		"Type": "D"
+	},
+	"BOOT_GRASS_01": {
+		"Type": "D"
+	},
+	"BOOT_GRASS_02": {
+		"Type": "D"
+	},
+	"BOOT_GRASS_03": {
+		"Type": "D"
+	},
+	"BOOT_GRASS_04": {
+		"Type": "D"
+	},
+	"BOOT_GRASS_05": {
+		"Type": "D"
+	},
+	"BOOT_GRASS_06": {
+		"Type": "D"
+	},
+	"DIRT_01": {
+		"Type": "D"
+	},
+	"GRND_01": {
+		"Type": "D"
+	},
+	"GRND_02": {
+		"Type": "D"
+	},
+	"GRATE_01": {
+		"Type": "G"
+	},
+	"GRATE_02": {
+		"Type": "G"
+	},
+	"GRATE_03": {
+		"Type": "G"
+	},
+	"GRATE_04": {
+		"Type": "G"
+	},
+	"CRATE_01": {
+		"Type": "M"
+	},
+	"CRATE_02": {
+		"Type": "M"
+	},
+	"CRATE_04": {
+		"Type": "M"
+	},
+	"CRATE_05": {
+		"Type": "M"
+	},
+	"CRATE_06": {
+		"Type": "M"
+	},
+	"CRATE_07": {
+		"Type": "M"
+	},
+	"CRATE_08": {
+		"Type": "M"
+	},
+	"CRATE_09": {
+		"Type": "M"
+	},
+	"CRATE_UNBRK_01": {
+		"Type": "M"
+	},
+	"CRATE_UNBRK_02": {
+		"Type": "M"
+	},
+	"CRATE_UNBRK_03": {
+		"Type": "M"
+	},
+	"CRATE_UNBRK_04": {
+		"Type": "M"
+	},
+	"CRATE_UNBRK_05": {
+		"Type": "M"
+	},
+	"DOOR_BIG_01": {
+		"Type": "M"
+	},
+	"DOOR_BIG_02": {
+		"Type": "M"
+	},
+	"DOOR_GARAGE": {
+		"Type": "M"
+	},
+	"DOOR_GARAGE_02": {
+		"Type": "M"
+	},
+	"DOOR_MTL_01": {
+		"Type": "M"
+	},
+	"DOOR_SPLIT_01": {
+		"Type": "M"
+	},
+	"DOOR_SUB_01": {
+		"Type": "M"
+	},
+	"DOOR_SUB_02": {
+		"Type": "M"
+	},
+	"DOOR_SUB_03": {
+		"Type": "M"
+	},
+	"DOOR_TUNL": {
+		"Type": "M"
+	},
+	"DOOR_WINDOW_01": {
+		"Type": "M"
+	},
+	"DRAWER_METAL": {
+		"Type": "M"
+	},
+	"H2OTANK_FRONT": {
+		"Type": "M"
+	},
+	"H2OTANK_SIDE": {
+		"Type": "M"
+	},
+	"H2OTANK_TOP": {
+		"Type": "M"
+	},
+	"MANHOLE_COVER": {
+		"Type": "M"
+	},
+	"METALWALL_01": {
+		"Type": "M"
+	},
+	"METAL_A_01": {
+		"Type": "M"
+	},
+	"METAL_A_02": {
+		"Type": "M"
+	},
+	"METAL_A_03": {
+		"Type": "M"
+	},
+	"METAL_A_04": {
+		"Type": "M"
+	},
+	"METAL_STRIPE": {
+		"Type": "M"
+	},
+	"MORTAR_CNTRL": {
+		"Type": "M"
+	},
+	"DOOR_RUSTY": {
+		"Type": "M"
+	},
+	"PANEL_01": {
+		"Type": "M"
+	},
+	"PCV_XCRATE": {
+		"Type": "M"
+	},
+	"SILO2_WALL3": {
+		"Type": "M"
+	},
+	"TABLE_01": {
+		"Type": "M"
+	},
+	"TABLE_02": {
+		"Type": "M"
+	},
+	"TUBE_01": {
+		"Type": "M"
+	},
+	"WALL_GRN02_BRK": {
+		"Type": "M"
+	},
+	"WALL_GRN03_BRK": {
+		"Type": "M"
+	},
+	"WALL_GRN06": {
+		"Type": "M"
+	},
+	"XCRATE_EXP_01": {
+		"Type": "M"
+	},
+	"XCRATE_EXP_02": {
+		"Type": "M"
+	},
+	"XCRATE_EXP_03": {
+		"Type": "M"
+	},
+	"CAT_FRONT": {
+		"Type": "P"
+	},
+	"WALL_GRN_CMP": {
+		"Type": "P"
+	},
+	"SGN_MESSAGE": {
+		"Type": "P"
+	},
+	"CAT_INSIDE": {
+		"Type": "P"
+	},
+	"CAT_SIDE": {
+		"Type": "P"
+	},
+	"CAT_SIDE_02": {
+		"Type": "P"
+	},
+	"SIGN_ADV_T": {
+		"Type": "P"
+	},
+	"SIGN_MIRRO": {
+		"Type": "P"
+	},
+	"SIGN_TAC_O": {
+		"Type": "P"
+	},
+	"WALL_GRN02": {
+		"Type": "P"
+	},
+	"WALL_GRN03": {
+		"Type": "P"
+	},
+	"BEDDING": {
+		"Type": "T"
+	},
+	"BOARD_WINDOW": {
+		"Type": "W"
+	},
+	"CRATE_WD_01": {
+		"Type": "W"
+	},
+	"CRATE_WD_02": {
+		"Type": "W"
+	},
+	"CRATE_WD_03": {
+		"Type": "W"
+	},
+	"CRATE_WD_04": {
+		"Type": "W"
+	},
+	"PALLET_02": {
+		"Type": "W"
+	},
+	"PALLET_01": {
+		"Type": "W"
+	},
+	"GORDON_01": {
+		"Type": "Y"
+	},
+	"SCREEN_01": {
+		"Type": "Y"
+	},
+	"JUNGLE_EROSION_": {
+		"Type": "D"
+	},
+	"JUNGLE_FLOOR_01": {
+		"Type": "D"
+	},
+	"JUNGLE_FLOOR_02": {
+		"Type": "D"
+	},
+	"JUNGLE_FLOOR_03": {
+		"Type": "D"
+	},
+	"SAND_01": {
+		"Type": "D"
+	}
+}

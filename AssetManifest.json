@@ -90,6 +90,11 @@
 					"Pattern": "*.txt"
 				},
 				{
+					"Source": "soundsrc",
+					"Destination": "sound",
+					"Pattern": "*.json"
+				},
+				{
 					"Source": "spritesrc",
 					"Destination": "sprites",
 					"Pattern": "*.txt"
