@@ -1,0 +1,30 @@
+{
+	"weapon": {
+		"SpriteName": "640hud2",
+		"Left": 0,
+		"Top": 135,
+		"Width": 170,
+		"Height": 45
+	},
+	"weapon_s": {
+		"SpriteName": "640hud5",
+		"Left": 0,
+		"Top": 135,
+		"Width": 170,
+		"Height": 45
+	},
+	"ammo": {
+		"SpriteName": "640hud7",
+		"Left": 0,
+		"Top": 96,
+		"Width": 24,
+		"Height": 24
+	},
+	"crosshair": {
+		"SpriteName": "crosshairs",
+		"Left": 72,
+		"Top": 48,
+		"Width": 24,
+		"Height": 24
+	}
+}

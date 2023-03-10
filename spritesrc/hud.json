@@ -1,0 +1,688 @@
+{
+	"selection": {
+		"SpriteName": "640hud3",
+		"Left": 0,
+		"Top": 180,
+		"Width": 170,
+		"Height": 45
+	},
+	"bucket1": {
+		"SpriteName": "640hud7",
+		"Left": 168,
+		"Top": 72,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket2": {
+		"SpriteName": "640hud7",
+		"Left": 188,
+		"Top": 72,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket3": {
+		"SpriteName": "640hud7",
+		"Left": 208,
+		"Top": 72,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket4": {
+		"SpriteName": "640hud7",
+		"Left": 168,
+		"Top": 92,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket5": {
+		"SpriteName": "640hud7",
+		"Left": 188,
+		"Top": 92,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket6": {
+		"SpriteName": "640hud7",
+		"Left": 228,
+		"Top": 72,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket7": {
+		"SpriteName": "640hud7",
+		"Left": 228,
+		"Top": 92,
+		"Width": 20,
+		"Height": 20
+	},
+	"bucket0": {
+		"SpriteName": "640hud7",
+		"Left": 208,
+		"Top": 92,
+		"Width": 20,
+		"Height": 20
+	},
+	"dmg_bio": {
+		"SpriteName": "640hud8",
+		"Left": 128,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_poison": {
+		"SpriteName": "640hud8",
+		"Left": 128,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_chem": {
+		"SpriteName": "640hud8",
+		"Left": 0,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_cold": {
+		"SpriteName": "640hud9",
+		"Left": 64,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_drown": {
+		"SpriteName": "640hud8",
+		"Left": 64,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_heat": {
+		"SpriteName": "640hud9",
+		"Left": 128,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_gas": {
+		"SpriteName": "640hud9",
+		"Left": 0,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_rad": {
+		"SpriteName": "640hud9",
+		"Left": 192,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"dmg_shock": {
+		"SpriteName": "640hud8",
+		"Left": 192,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"number_0": {
+		"SpriteName": "640hud7",
+		"Left": 0,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_1": {
+		"SpriteName": "640hud7",
+		"Left": 24,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_2": {
+		"SpriteName": "640hud7",
+		"Left": 48,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_3": {
+		"SpriteName": "640hud7",
+		"Left": 72,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_4": {
+		"SpriteName": "640hud7",
+		"Left": 96,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_5": {
+		"SpriteName": "640hud7",
+		"Left": 120,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_6": {
+		"SpriteName": "640hud7",
+		"Left": 144,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_7": {
+		"SpriteName": "640hud7",
+		"Left": 168,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_8": {
+		"SpriteName": "640hud7",
+		"Left": 192,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"number_9": {
+		"SpriteName": "640hud7",
+		"Left": 216,
+		"Top": 0,
+		"Width": 20,
+		"Height": 24
+	},
+	"divider": {
+		"SpriteName": "640hud7",
+		"Left": 240,
+		"Top": 0,
+		"Width": 2,
+		"Height": 40
+	},
+	"cross": {
+		"SpriteName": "640hud7",
+		"Left": 80,
+		"Top": 24,
+		"Width": 32,
+		"Height": 32
+	},
+	"suit_full": {
+		"SpriteName": "640hud7",
+		"Left": 0,
+		"Top": 24,
+		"Width": 40,
+		"Height": 40
+	},
+	"suit_empty": {
+		"SpriteName": "640hud7",
+		"Left": 40,
+		"Top": 24,
+		"Width": 40,
+		"Height": 40
+	},
+	"flash_full": {
+		"SpriteName": "640hud7_flash",
+		"Left": 160,
+		"Top": 24,
+		"Width": 32,
+		"Height": 32
+	},
+	"flash_empty": {
+		"SpriteName": "640hud7_flash",
+		"Left": 112,
+		"Top": 24,
+		"Width": 32,
+		"Height": 32
+	},
+	"flash_beam": {
+		"SpriteName": "640hud7_flash",
+		"Left": 144,
+		"Top": 24,
+		"Width": 16,
+		"Height": 32
+	},
+	"nvg_full": {
+		"SpriteName": "640hud7",
+		"Left": 160,
+		"Top": 24,
+		"Width": 32,
+		"Height": 32
+	},
+	"nvg_empty": {
+		"SpriteName": "640hud7",
+		"Left": 112,
+		"Top": 24,
+		"Width": 32,
+		"Height": 32
+	},
+	"nvg_beam": {
+		"SpriteName": "640hud7",
+		"Left": 144,
+		"Top": 24,
+		"Width": 16,
+		"Height": 32
+	},
+	"train_back": {
+		"SpriteName": "640hud5",
+		"Left": 170,
+		"Top": 0,
+		"Width": 72,
+		"Height": 72
+	},
+	"train_stop": {
+		"SpriteName": "640hud5",
+		"Left": 170,
+		"Top": 72,
+		"Width": 72,
+		"Height": 72
+	},
+	"train_forward1": {
+		"SpriteName": "640hud5",
+		"Left": 170,
+		"Top": 144,
+		"Width": 72,
+		"Height": 72
+	},
+	"train_forward2": {
+		"SpriteName": "640hud6",
+		"Left": 170,
+		"Top": 0,
+		"Width": 72,
+		"Height": 72
+	},
+	"train_forward3": {
+		"SpriteName": "640hud6",
+		"Left": 170,
+		"Top": 72,
+		"Width": 72,
+		"Height": 72
+	},
+	"autoaim_c": {
+		"SpriteName": "crosshairs",
+		"Left": 96,
+		"Top": 0,
+		"Width": 24,
+		"Height": 24
+	},
+	"title_half": {
+		"SpriteName": "gametitles",
+		"Left": 0,
+		"Top": 0,
+		"Width": 256,
+		"Height": 30
+	},
+	"title_life": {
+		"SpriteName": "gametitles",
+		"Left": 0,
+		"Top": 96,
+		"Width": 220,
+		"Height": 30
+	},
+	"title_opposing": {
+		"SpriteName": "gametitles",
+		"Left": 0,
+		"Top": 0,
+		"Width": 256,
+		"Height": 64
+	},
+	"title_force": {
+		"SpriteName": "gametitles",
+		"Left": 0,
+		"Top": 96,
+		"Width": 256,
+		"Height": 64
+	},
+	"title_blue": {
+		"SpriteName": "gametitles",
+		"Left": 0,
+		"Top": 64,
+		"Width": 256,
+		"Height": 30
+	},
+	"title_shift": {
+		"SpriteName": "gametitles",
+		"Left": 0,
+		"Top": 160,
+		"Width": 220,
+		"Height": 30
+	},
+	"d_crowbar": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 0,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_9mmhandgun": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 16,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_357": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 32,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_9mmAR": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 48,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_shotgun": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 64,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_bolt": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 80,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_crossbow": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 80,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_rpg_rocket": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 96,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_gauss": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 112,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_egon": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 128,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_hornet": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 144,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_grenade": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 160,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_satchel": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 176,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_tripmine": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 192,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_snark": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 208,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_skull": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 224,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_tracktrain": {
+		"SpriteName": "640hud1",
+		"Left": 192,
+		"Top": 240,
+		"Width": 32,
+		"Height": 16
+	},
+	"d_pipewrench": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 0,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_grapple": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 16,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_eagle": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 32,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_displacer_ball": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 48,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_spore": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 64,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_shock_beam": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 80,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_m249": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 96,
+		"Width": 52,
+		"Height": 16
+	},
+	"d_knife": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 112,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_sniperrifle": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 128,
+		"Width": 48,
+		"Height": 16
+	},
+	"d_penguin": {
+		"SpriteName": "640hudof01",
+		"Left": 192,
+		"Top": 144,
+		"Width": 48,
+		"Height": 16
+	},
+	"item_battery": {
+		"SpriteName": "640hud2",
+		"Left": 176,
+		"Top": 0,
+		"Width": 44,
+		"Height": 44
+	},
+	"item_healthkit": {
+		"SpriteName": "640hud2",
+		"Left": 176,
+		"Top": 48,
+		"Width": 44,
+		"Height": 44
+	},
+	"item_longjump": {
+		"SpriteName": "640hud2",
+		"Left": 176,
+		"Top": 96,
+		"Width": 44,
+		"Height": 44
+	},
+	"item_ctfljump": {
+		"SpriteName": "ctf_hud1",
+		"Left": 128,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"item_ctfphev": {
+		"SpriteName": "ctf_hud1",
+		"Left": 192,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"item_ctfregen": {
+		"SpriteName": "ctf_hud1",
+		"Left": 0,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"item_ctfaccel": {
+		"SpriteName": "ctf_hud1",
+		"Left": 64,
+		"Top": 0,
+		"Width": 64,
+		"Height": 64
+	},
+	"item_ctfbpack": {
+		"SpriteName": "ctf_hud1",
+		"Left": 0,
+		"Top": 64,
+		"Width": 64,
+		"Height": 64
+	},
+	"item_ctfflagh": {
+		"SpriteName": "ctf_hud1",
+		"Left": 67,
+		"Top": 75,
+		"Width": 38,
+		"Height": 42
+	},
+	"item_ctfflagc": {
+		"SpriteName": "ctf_hud1",
+		"Left": 105,
+		"Top": 75,
+		"Width": 38,
+		"Height": 42
+	},
+	"item_ctfflagd": {
+		"SpriteName": "ctf_hud1",
+		"Left": 143,
+		"Top": 75,
+		"Width": 38,
+		"Height": 42
+	},
+	"item_ctfflagg": {
+		"SpriteName": "ctf_hud1",
+		"Left": 181,
+		"Top": 75,
+		"Width": 38,
+		"Height": 42
+	},
+	"score_ctfljump": {
+		"SpriteName": "ctf_hud1",
+		"Left": 32,
+		"Top": 160,
+		"Width": 16,
+		"Height": 16
+	},
+	"score_ctfphev": {
+		"SpriteName": "ctf_hud1",
+		"Left": 48,
+		"Top": 160,
+		"Width": 16,
+		"Height": 16
+	},
+	"score_ctfregen": {
+		"SpriteName": "ctf_hud1",
+		"Left": 0,
+		"Top": 160,
+		"Width": 16,
+		"Height": 16
+	},
+	"score_ctfaccel": {
+		"SpriteName": "ctf_hud1",
+		"Left": 16,
+		"Top": 160,
+		"Width": 16,
+		"Height": 16
+	},
+	"score_ctfbpack": {
+		"SpriteName": "ctf_hud1",
+		"Left": 64,
+		"Top": 160,
+		"Width": 16,
+		"Height": 16
+	},
+	"score_flag": {
+		"SpriteName": "ctf_hud1",
+		"Left": 80,
+		"Top": 160,
+		"Width": 16,
+		"Height": 16
+	},
+	"item_ctfscorebm": {
+		"SpriteName": "ctf_hud2",
+		"Left": 48,
+		"Top": 0,
+		"Width": 48,
+		"Height": 48
+	},
+	"item_ctfscoreof": {
+		"SpriteName": "ctf_hud2",
+		"Left": 0,
+		"Top": 0,
+		"Width": 48,
+		"Height": 48
+	},
+	"grenade": {
+		"SpriteName": "640hud7",
+		"Left": 48,
+		"Top": 96,
+		"Width": 24,
+		"Height": 24
+	}
+}

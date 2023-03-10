@@ -1,0 +1,37 @@
+{
+	"ammo": {
+		"SpriteName": "640hud7",
+		"Left": 0,
+		"Top": 96,
+		"Width": 24,
+		"Height": 24
+	},
+	"crosshair": {
+		"SpriteName": "ofch1",
+		"Left": 48,
+		"Top": 0,
+		"Width": 24,
+		"Height": 24
+	},
+	"autoaim": {
+		"SpriteName": "crosshairs",
+		"Left": 24,
+		"Top": 72,
+		"Width": 24,
+		"Height": 24
+	},
+	"weapon": {
+		"SpriteName": "640hudof01",
+		"Left": 0,
+		"Top": 180,
+		"Width": 170,
+		"Height": 45
+	},
+	"weapon_s": {
+		"SpriteName": "640hudof02",
+		"Left": 0,
+		"Top": 180,
+		"Width": 170,
+		"Height": 45
+	}
+}

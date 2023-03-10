@@ -97,7 +97,7 @@
 				{
 					"Source": "spritesrc",
 					"Destination": "sprites",
-					"Pattern": "*.txt"
+					"Pattern": "*.json"
 				}
 			]
 		},
