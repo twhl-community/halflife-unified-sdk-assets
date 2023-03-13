@@ -82,4 +82,18 @@ DESCRIPTION INFO_OPTIONS
 		{ NUMBER 1.000000 -1.000000 }
 		{ "4.000000" }
 	}
+	
+	"cl_snd_hrtf_enabled"
+	{
+		"#Valve_HRTF_Enabled"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_snd_hrtf_implementation"
+	{
+		"#Valve_HRTF_Implementation"
+		{ STRING }
+		{ "" }
+	}
 }
