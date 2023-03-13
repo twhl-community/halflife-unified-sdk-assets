@@ -1275,6 +1275,11 @@
   message(target_source) : "Fire on damage"
   health(integer) : "Damage to Take" : 0
   _minlight(string) : "Minimum light level"
+  
+  spawnflags(flags) =
+  [
+    1 : "Start On" : 0
+  ]
 ]
 
 @SolidClass base(Global, RenderFields, ZHLT) = func_healthcharger: "Wall health recharger" 
