@@ -304,7 +304,14 @@
 	angles(string) : "Pitch Yaw Roll (Y Z X)" : "0 0 0"
 ]
 
-@BaseClass = CustomModel
+@BaseClass = ReplacementFiles
+[
+	model_replacement_filename(string) : "Model replacement file"
+	sound_replacement_filename(string) : "Sound replacement file"
+	sentence_replacement_filename(string) : "Sentence replacement file"
+]
+
+@BaseClass base(ReplacementFiles) = CustomModel
 [
 	model(studio) : "Model"
 	custom_hull_min(string) : "Custom Hull Minimum"

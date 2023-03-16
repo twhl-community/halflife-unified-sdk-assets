@@ -1,0 +1,7 @@
+// Per-entity sentence replacement file for test_replacements.bsp
+{
+	"SC_WAIT": "HEV_E",
+	"SC_OK": "NA",
+	"SC_FEAR": "ROCKET",
+	"SC_SCREAM": "SLV_IDLE"
+}

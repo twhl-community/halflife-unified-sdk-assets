@@ -1,0 +1,19 @@
+// Per-entity sound replacement file for test_replacements.bsp
+{
+	"zombie/zo_alert10.wav": "scientist/c1a0_sci_bigday.wav",
+	"zombie/zo_alert20.wav": "scientist/c1a0_sci_stayback.wav",
+	"zombie/zo_alert30.wav": "scientist/c1a1_sci_5scan.wav",
+	"zombie/claw_miss1.wav": "scientist/heal2.wav",
+	"zombie/claw_miss2.wav": "scientist/softethics.wav",
+	"zombie/zo_attack1.wav": "scientist/sorryimleaving.wav",
+	"zombie/zo_attack2.wav": "scientist/startle1.wav",
+	"zombie/zo_pain1.wav": "scientist/scream2.wav",
+	"zombie/zo_pain2.wav": "scientist/sci_dragoff.wav",
+	"zombie/claw_strike1.wav": "scientist/sci_pain8.wav",
+	"zombie/claw_strike2.wav": "scientist/sci_pain9.wav",
+	"zombie/claw_strike3.wav": "scientist/sci_pain10.wav",
+	"zombie/zo_idle1.wav": "scientist/shutup.wav",
+	"zombie/zo_idle2.wav": "scientist/shutup2.wav",
+	"zombie/zo_idle3.wav": "scientist/sneeze.wav",
+	"zombie/zo_idle4.wav": "scientist/whatissound.wav"
+}
