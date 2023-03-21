@@ -2536,17 +2536,6 @@
 @PointClass base(Weapon, Targetx, RenderFields) studio("models/w_hgun.mdl") = weapon_hornetgun : "Hornet Gun" []
 @PointClass size(-16 -16 0, 16 16 64) color(0 128 0) studio("models/w_chainammo.mdl") =  weaponbox : "Weapon/Ammo Container" []
 
-@PointClass base(Weapon, Targetx) = world_items : "World Items" 
-[
-  type(choices) :"types" : 1 =
-  [
-    44: "Battery"
-    42: "Antidote"
-    43: "Security Card"
-    45: "Suit"
-  ]
-]
-
 //
 // Xen
 //
