@@ -2523,8 +2523,8 @@ FG_GROUPYES fgrunt/yessir
 
 // BOOT CAMP MP
 
-FG_POK0 fgrunt/restricted.wav
-FG_POK1 fgrunt/restricted2.wav
+FG_POK0 fgrunt/restricted
+FG_POK1 fgrunt/restricted2
 
 
 
