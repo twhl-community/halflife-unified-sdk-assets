@@ -1,0 +1,1262 @@
+{
+"classname" "worldspawn"
+"defaultctf" "0"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 512 512 416 ) ( 512 512 384 ) ( 512 -512 416 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 416 ) ( -512 -512 384 ) ( -512 512 416 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 416 ) ( 512 -512 384 ) ( -512 -512 416 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 416 ) ( -512 512 384 ) ( 512 512 416 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 416 ) ( -512 -512 416 ) ( 512 512 416 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 384 ) ( -512 -512 384 ) ( 512 512 384 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 512 0 ) ( 512 512 -32 ) ( 512 -512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -512 -32 ) ( -512 512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( 512 -512 -32 ) ( -512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 0 ) ( -512 512 -32 ) ( 512 512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( -512 -512 0 ) ( 512 512 0 ) OUT_PAV3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 -32 ) ( -512 -512 -32 ) ( 512 512 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -544 256 ) ( -512 -544 0 ) ( -512 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 256 ) ( 512 -512 0 ) ( 512 -544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 0 ) ( 512 -512 256 ) OUT_WALL7F [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 256 ) ( 512 -544 0 ) ( -512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -544 256 ) ( -512 -512 256 ) ( 512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -544 0 ) ( 512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -544 384 ) ( -512 -544 256 ) ( -512 -512 384 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 384 ) ( 512 -512 256 ) ( 512 -544 384 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 384 ) ( -512 -512 256 ) ( 512 -512 384 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 384 ) ( 512 -544 256 ) ( -512 -544 384 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -544 256 ) ( 512 -512 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -544 384 ) ( -512 -512 384 ) ( 512 -544 384 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 256 ) ( -512 512 -0 ) ( -512 544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 544 256 ) ( 512 544 -0 ) ( 512 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 256 ) ( -512 544 -0 ) ( 512 544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 -0 ) ( -512 512 256 ) OUT_WALL7F [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 256 ) ( -512 544 256 ) ( 512 512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 544 0 ) ( -512 512 0 ) ( 512 544 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 384 ) ( -512 512 256 ) ( -512 544 384 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 544 384 ) ( 512 544 256 ) ( 512 512 384 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 384 ) ( -512 544 256 ) ( 512 544 384 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 384 ) ( 512 512 256 ) ( -512 512 384 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 256 ) ( -512 512 256 ) ( 512 544 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 384 ) ( -512 544 384 ) ( 512 512 384 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -544 -512 256 ) ( -544 -512 -0 ) ( -544 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 256 ) ( -512 512 -0 ) ( -512 -512 256 ) OUT_WALL7F [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 256 ) ( -544 512 -0 ) ( -512 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 -0 ) ( -544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 -512 256 ) ( -544 512 256 ) ( -512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 512 0 ) ( -544 -512 0 ) ( -512 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 384 ) ( -512 512 256 ) ( -512 -512 384 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 -512 384 ) ( -544 -512 256 ) ( -544 512 384 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 384 ) ( -512 -512 256 ) ( -544 -512 384 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 384 ) ( -544 512 256 ) ( -512 512 384 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 -512 384 ) ( -544 512 384 ) ( -512 -512 384 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 512 256 ) ( -544 -512 256 ) ( -512 512 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 544 512 256 ) ( 544 512 -0 ) ( 544 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 256 ) ( 512 -512 -0 ) ( 512 512 256 ) OUT_WALL7F [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -512 256 ) ( 544 -512 -0 ) ( 512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 -0 ) ( 544 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 0 ) ( 512 -512 0 ) ( 544 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 256 ) ( 512 512 256 ) ( 544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 544 512 384 ) ( 544 512 256 ) ( 544 -512 384 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 384 ) ( 512 -512 256 ) ( 512 512 384 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -512 384 ) ( 544 -512 256 ) ( 512 -512 384 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 384 ) ( 512 512 256 ) ( 544 512 384 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 384 ) ( 512 512 384 ) ( 544 -512 384 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 512 256 ) ( 512 -512 256 ) ( 544 512 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 192 44 ) ( 512 192 40 ) ( 512 150 44 ) NULL [ -0 1 0 -5 ] [ 0 0 -1 0 ] 180 1 1
+( 485 150 44 ) ( 485 150 40 ) ( 485 192 44 ) FIFTIES_DR1 [ 0 -1 0 14 ] [ 0 0 -1 -12 ] 0 1 1
+( 512 150 44 ) ( 512 150 40 ) ( 485 150 44 ) FIFTIES_DR1 [ 1 0 0 -6 ] [ 0 0 -1 -12 ] 0 1 1
+( 485 192 44 ) ( 485 192 40 ) ( 512 192 44 ) FIFTIES_DR1 [ 1 0 0 -6 ] [ 0 0 -1 -12 ] 0 1 1
+( 485 192 44 ) ( 512 192 44 ) ( 485 150 44 ) FIFTIES_DR1 [ 0 -1 0 5 ] [ -1 -0 0 29 ] 0 1 1
+( 512 192 40 ) ( 485 192 40 ) ( 512 150 40 ) FIFTIES_DR1 [ 0 -1 0 5 ] [ -1 -0 0 29 ] 0 1 1
+}
+{
+( 504 192 65 ) ( 504 192 64 ) ( 504 150 65 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ 0 0 -1 -37 ] 0 1 1
+( 496 150 65 ) ( 496 150 64 ) ( 496 192 65 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ 0 0 -1 -37 ] 0 1 1
+( 504 150 65 ) ( 504 150 64 ) ( 496 150 65 ) FIFTIES_DR1 [ 1 0 0 -0 ] [ 0 0 -1 -74 ] 0 1 1
+( 496 192 65 ) ( 496 192 64 ) ( 504 192 65 ) FIFTIES_DR1 [ 1 0 0 -62 ] [ 0 0 -1 -37 ] 0 1 1
+( 496 192 65 ) ( 504 192 65 ) ( 496 150 65 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ -1 -0 0 76 ] 0 1 1
+( 504 192 64 ) ( 496 192 64 ) ( 504 150 64 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ -1 -0 0 76 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light_environment"
+"_light" "255 255 128 600"
+"pitch" "-60"
+"_falloff" "0"
+"_fade" "1.0"
+"angles" "0 60 0"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "item_suit"
+"body" "0"
+"delay" "0"
+"angles" "0 0 0"
+"spawnflags" "0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-478 -105 32"
+}
+{
+"classname" "item_longjump"
+"play_pickup_sound" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-489 -25 32"
+}
+{
+"classname" "item_armorvest"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-483 56 32"
+}
+{
+"classname" "item_helmet"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-481 123 32"
+}
+{
+"classname" "item_battery"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-480 192 32"
+}
+{
+"classname" "weapon_crowbar"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-480 400.999 32"
+}
+{
+"classname" "weapon_9mmhandgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-440 408.999 32.1612"
+}
+{
+"classname" "weapon_357"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-400 408.999 32.2888"
+}
+{
+"classname" "weapon_eagle"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-368 408.999 32.4894"
+}
+{
+"classname" "weapon_9mmAR"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-336 400.999 32.4"
+}
+{
+"classname" "weapon_shotgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"origin" "-312 400.999 32.3264"
+}
+{
+"classname" "weapon_crossbow"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"origin" "-256 376.999 35.3848"
+}
+{
+"classname" "weapon_rpg"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"origin" "-216 384.999 32"
+}
+{
+"classname" "weapon_gauss"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"origin" "-176 368.999 28.4303"
+}
+{
+"classname" "weapon_egon"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"origin" "-120 416.999 32.0073"
+}
+{
+"classname" "weapon_hornetgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"origin" "-88 392.999 32"
+}
+{
+"classname" "weapon_handgrenade"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-56 408.999 32.7989"
+}
+{
+"classname" "weapon_satchel"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-40 408.999 32.206"
+}
+{
+"classname" "weapon_tripmine"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-24 416.999 32"
+}
+{
+"classname" "weapon_snark"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "0 408.999 32.0993"
+}
+{
+"classname" "weapon_penguin"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "40 384.999 34.3323"
+}
+{
+"classname" "weapon_m249"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"origin" "80 392.999 32.1827"
+}
+{
+"classname" "weapon_displacer"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"origin" "152 392.999 32.0672"
+}
+{
+"classname" "weapon_sniperrifle"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"origin" "112 376.999 32.2939"
+}
+{
+"classname" "weapon_sporelauncher"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"origin" "192 392.999 32.1624"
+}
+{
+"classname" "weapon_shockrifle"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"origin" "232 392.999 32.0406"
+}
+{
+"classname" "ammo_9mmclip"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "264 400.999 32"
+}
+{
+"classname" "ammo_9mmAR"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "288 400.999 32"
+}
+{
+"classname" "ammo_9mmbox"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "320 400.999 32.0952"
+}
+{
+"classname" "ammo_ARgrenades"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "344 400.999 32"
+}
+{
+"classname" "ammo_357"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "368 400.999 32.0086"
+}
+{
+"classname" "ammo_buckshot"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "392 400.999 32"
+}
+{
+"classname" "ammo_crossbow"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "416 400.999 32.0529"
+}
+{
+"classname" "ammo_rpgclip"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "432 400.999 32"
+}
+{
+"classname" "ammo_gaussclip"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "496 400.999 32"
+}
+{
+"classname" "ammo_556"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "456 400.999 32.014"
+}
+{
+"classname" "ammo_762"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "480 400.999 32.02"
+}
+{
+"classname" "ammo_spore"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "504 384 30.8216"
+}
+{
+"classname" "item_healthkit"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-480 256 32"
+}
+{
+"classname" "weapon_crowbar"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-480 488.999 32"
+}
+{
+"classname" "weapon_9mmhandgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-440 496.999 32.1612"
+}
+{
+"classname" "weapon_357"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-400 496.999 32.2888"
+}
+{
+"classname" "weapon_eagle"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-368 496.999 32.4894"
+}
+{
+"classname" "weapon_9mmAR"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-336 488.999 32.4"
+}
+{
+"classname" "weapon_shotgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-312 488.999 32.3264"
+}
+{
+"classname" "weapon_crossbow"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-256 464.999 35.3848"
+}
+{
+"classname" "weapon_rpg"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-216 472.999 32"
+}
+{
+"classname" "weapon_gauss"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-176 456.999 28.4303"
+}
+{
+"classname" "weapon_egon"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-120 504.999 32.0073"
+}
+{
+"classname" "weapon_hornetgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-88 480.999 32"
+}
+{
+"classname" "weapon_handgrenade"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-56 496.999 32.7989"
+}
+{
+"classname" "weapon_satchel"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-40 496.999 32.206"
+}
+{
+"classname" "weapon_tripmine"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "-24 504.999 32"
+}
+{
+"classname" "weapon_snark"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "0 496.999 32.0993"
+}
+{
+"classname" "weapon_penguin"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "40 472.999 34.3323"
+}
+{
+"classname" "weapon_m249"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "80 480.999 32.1827"
+}
+{
+"classname" "weapon_displacer"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "152 480.999 32.0672"
+}
+{
+"classname" "weapon_sniperrifle"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 270 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "112 464.999 32.2939"
+}
+{
+"classname" "weapon_sporelauncher"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "192 480.999 32.1624"
+}
+{
+"classname" "weapon_shockrifle"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 90 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "232 480.999 32.0406"
+}
+{
+"classname" "ammo_9mmclip"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "264 488.999 32"
+}
+{
+"classname" "ammo_9mmAR"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "288 488.999 32"
+}
+{
+"classname" "ammo_9mmbox"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "320 488.999 32.0952"
+}
+{
+"classname" "ammo_ARgrenades"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "344 488.999 32"
+}
+{
+"classname" "ammo_357"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "368 488.999 32.0086"
+}
+{
+"classname" "ammo_buckshot"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "392 488.999 32"
+}
+{
+"classname" "ammo_crossbow"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "416 488.999 32.0529"
+}
+{
+"classname" "ammo_rpgclip"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "432 488.999 32"
+}
+{
+"classname" "ammo_gaussclip"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "496 488.999 32"
+}
+{
+"classname" "ammo_556"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "456 488.999 32.014"
+}
+{
+"classname" "ammo_762"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"fall_mode" "1"
+"stay_visible_during_respawn" "1"
+"respawn_mode" "1"
+"respawn_delay" "5"
+"origin" "480 488.999 32.02"
+}
+{
+"classname" "cycler_weapon"
+"model" "models/op4/v_shotgun.mdl"
+"allow_item_dropping" "1"
+"TriggerCondition" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "448 320 32"
+}
+{
+"classname" "weapon_shotgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "0 0 270"
+"trigger_on_spawn" "hover_sprite1"
+"avelocity" "0 90 0"
+"trigger_on_despawn" "hover_sprite1"
+"play_pickup_sound" "0"
+"default_ammo" "-1"
+"origin" "0 0 37.3712"
+}
+{
+"classname" "env_sprite"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 255 0"
+"rendermode" "3"
+"renderfx" "0"
+"targetname" "hover_sprite1"
+"renderamt" "255"
+"origin" "0 0 32"
+}
+{
+"classname" "ammo_buckshot"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"avelocity" "0 90 0"
+"trigger_on_spawn" "hover_sprite2"
+"trigger_on_despawn" "hover_sprite2"
+"ammo_amount" "-1"
+"origin" "128 0 24"
+}
+{
+"classname" "env_sprite"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"angles" "0 0 0"
+"rendercolor" "0 255 0"
+"rendermode" "3"
+"renderfx" "0"
+"targetname" "hover_sprite2"
+"renderamt" "255"
+"origin" "128 0 32"
+}
+{
+"classname" "item_suit"
+"body" "0"
+"delay" "0"
+"angles" "0 0 0"
+"spawnflags" "0"
+"origin" "-415.609 -105.709 32"
+}
+{
+"classname" "item_longjump"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-426.609 -25.7089 32"
+}
+{
+"classname" "item_armorvest"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-420.609 55.2911 32"
+}
+{
+"classname" "item_helmet"
+"sequence" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-418.609 122.291 32"
+}
+{
+"classname" "item_battery"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-417.609 191.291 32"
+}
+{
+"classname" "item_healthkit"
+"delay" "0"
+"angles" "0 0 0"
+"origin" "-417.609 255.291 32"
+}
+{
+"classname" "weapon_egon"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"trigger_on_spawn" "egon_show"
+"trigger_on_despawn" "egon_hide"
+"targetname" "egon"
+"avelocity" "0 180 0"
+"sound_replacement_filename" "cfg/maps/zoo_items_spawn_replacement.json"
+"origin" "256 0 32"
+}
+{
+"classname" "env_render"
+"spawnflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "egon_show"
+"renderamt" "255"
+"target" "egon"
+"origin" "272 -48 16"
+}
+{
+"classname" "env_render"
+"spawnflags" "0"
+"rendercolor" "0 0 255"
+"rendermode" "5"
+"renderfx" "4"
+"targetname" "egon_hide"
+"renderamt" "100"
+"target" "egon"
+"origin" "304 -48 16"
+}
+{
+"classname" "ammo_9mmbox"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "0"
+"play_pickup_sound" "0"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"ammo_amount" "0"
+"target" "give_loadout"
+"origin" "-480 -232 0.0952225"
+}
+{
+"classname" "game_player_equip"
+"spawnflags" "1"
+"targetname" "give_loadout"
+"weapon_9mmAR" "1"
+"ammo_ARgrenades" "2"
+"origin" "-480 -232 32"
+}
+{
+"classname" "env_render"
+"spawnflags" "0"
+"rendercolor" "255 0 0"
+"rendermode" "5"
+"renderfx" "19"
+"targetname" "m249_hide"
+"renderamt" "100"
+"target" "m249"
+"origin" "432 -48 16"
+}
+{
+"classname" "env_render"
+"spawnflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "m249_show"
+"renderamt" "255"
+"target" "m249"
+"origin" "400 -48 16"
+}
+{
+"classname" "weapon_m249"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "0"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "2"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"trigger_on_spawn" "m249_show"
+"trigger_on_despawn" "m249_hide"
+"targetname" "m249"
+"avelocity" "0 -720 0"
+"sound_replacement_filename" "cfg/maps/zoo_items_spawn_replacement.json"
+"origin" "416 0 32"
+}
+{
+"classname" "func_illusionary"
+"skin" "-1"
+{
+( 512 192 101 ) ( 512 192 44 ) ( 512 188 101 ) FIFTIES_DR1 [ 0 -1 0 14 ] [ 0 0 -1 -12 ] 0 1 1
+( 504 188 101 ) ( 504 188 44 ) ( 504 192 101 ) FIFTIES_DR1 [ 0 -1 0 14 ] [ 0 0 -1 -12 ] 0 1 1
+( 512 188 101 ) ( 512 188 44 ) ( 504 188 101 ) FIFTIES_DR1 [ 1 0 0 -6 ] [ 0 0 -1 -12 ] 0 1 1
+( 504 192 101 ) ( 504 192 44 ) ( 512 192 101 ) FIFTIES_DR1 [ 1 0 0 -6 ] [ 0 0 -1 -12 ] 0 1 1
+( 504 192 101 ) ( 512 192 101 ) ( 504 188 101 ) FIFTIES_DR1 [ 0 -1 0 5 ] [ -1 -0 0 29 ] 0 1 1
+( 512 192 44 ) ( 504 192 44 ) ( 512 188 44 ) FIFTIES_DR1 [ 0 -1 0 5 ] [ -1 -0 0 29 ] 0 1 1
+}
+{
+( 512 188 95 ) ( 512 188 89 ) ( 512 154 95 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ 0 0 -1 -12 ] 0 1 1
+( 508 154 95 ) ( 508 154 89 ) ( 508 188 95 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ 0 0 -1 -12 ] 0 1 1
+( 512 154 95 ) ( 512 154 89 ) ( 508 154 95 ) NULL [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 508 188 95 ) ( 508 188 89 ) ( 512 188 95 ) NULL [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 508 188 95 ) ( 512 188 95 ) ( 508 154 95 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ -1 -0 0 84 ] 0 1 1
+( 512 188 89 ) ( 508 188 89 ) ( 512 154 89 ) FIFTIES_DR1 [ 0 -1 0 15 ] [ -1 -0 0 84 ] 0 1 1
+}
+{
+( 512 154 101 ) ( 512 154 44 ) ( 512 150 101 ) FIFTIES_DR1 [ 0 -1 0 14 ] [ 0 0 -1 -12 ] 0 1 1
+( 504 150 101 ) ( 504 150 44 ) ( 504 154 101 ) FIFTIES_DR1 [ 0 -1 0 14 ] [ 0 0 -1 -12 ] 0 1 1
+( 512 150 101 ) ( 512 150 44 ) ( 504 150 101 ) FIFTIES_DR1 [ 1 0 0 -6 ] [ 0 0 -1 -12 ] 0 1 1
+( 504 154 101 ) ( 504 154 44 ) ( 512 154 101 ) FIFTIES_DR1 [ 1 0 0 -6 ] [ 0 0 -1 -12 ] 0 1 1
+( 504 154 101 ) ( 512 154 101 ) ( 504 150 101 ) FIFTIES_DR1 [ 0 -1 0 5 ] [ -1 -0 0 29 ] 0 1 1
+( 512 154 44 ) ( 504 154 44 ) ( 512 150 44 ) FIFTIES_DR1 [ 0 -1 0 5 ] [ -1 -0 0 29 ] 0 1 1
+}
+}
+{
+"classname" "weapon_shotgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "270 270 0"
+"default_ammo" "150"
+"origin" "494 174 64"
+}
+{
+"classname" "weapon_shotgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "270 270 0"
+"default_ammo" "150"
+"origin" "494 184 64"
+}
+{
+"classname" "weapon_shotgun"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "5"
+"respawn_mode" "1"
+"angles" "270 270 0"
+"default_ammo" "150"
+"origin" "494 162 64"
+}
+{
+"classname" "weaponbox"
+"Hand Grenade" "1"
+"origin" "490 265 0"
+}
+{
+"classname" "ammo_generic"
+"model" "models/w_chainammo.mdl"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"fall_mode" "1"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "1"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"ammo_amount" "1"
+"ammo_name" "9mm"
+"sound_replacement_filename" "cfg/replacements/silent_item_respawn.json"
+"origin" "-96 0 16"
+}
+{
+"classname" "ammo_all"
+"model" "models/w_isotopebox.mdl"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "1"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"ammo_amount" "1"
+"sound_replacement_filename" "cfg/replacements/silent_item_respawn.json"
+"origin" "-480 -288 0"
+}
