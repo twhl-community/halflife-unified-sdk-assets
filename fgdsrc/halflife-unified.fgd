@@ -318,8 +318,6 @@
 	custom_hull_max(string) : "Custom Hull Maximum"
 ]
 
-@BaseClass size(0 0 0, 32 32 32) color(80 0 200) base(Appearflags, Angles, CustomModel) = Ammo []
-
 @BaseClass = Targetname 
 [ 
   targetname(target_source) : "Name"
@@ -328,7 +326,62 @@
 [ 
   target(target_destination) : "Target" 
 ]
-@BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = Weapon []
+
+@BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = OtherItem []
+
+@BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = BaseItem
+[
+	respawn_mode(choices) : "Respawn Mode" : 0 =
+	[
+		0 : "Default"
+		1 : "Always"
+		2 : "Never"
+	]
+	
+	respawn_delay(string) : "Respawn delay (-1 == Use Default)" : "-1"
+	
+	stay_visible_during_respawn(choices) : "Stay Visible During Respawn" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	flash_on_respawn(choices) : "Flash On Respawn" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	play_pickup_sound(choices) : "Play Pickup Sound" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	fall_mode(choices) : "Fall Mode" : 0 =
+	[
+		0 : "Fall"
+		1 : "Float"
+	]
+	
+	trigger_on_spawn(target_destination) : "Trigger On Spawn"
+	trigger_on_despawn(target_destination) : "Trigger On Despawn"
+]
+
+@BaseClass color(80 0 200) base(BaseItem) = Ammo
+[
+	ammo_amount(integer) : "Ammo Amount To Give (-1 == Maximum)"
+]
+
+@BaseClass color(0 0 200) base(BaseItem) = Weapon
+[
+	default_ammo(integer) : "Default Ammo In Weapon (-1 == Maximum)"
+]
+
+@BaseClass color(0 0 200) base(BaseItem) = Item
+[
+]
+
 @BaseClass = Global 
 [ 
   globalname(string) : "Global Entity Name" 
@@ -766,14 +819,20 @@
 // ammo
 //
 
+@PointClass base(Targetx, RenderFields, Ammo) studio() = ammo_generic : "Generic Ammo Item"
+[
+	ammo_name(string) : "Ammo Name (Required)"
+]
 
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_9mmclip.mdl") = ammo_9mmclip : "9mm Pistol Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_9mmarclip.mdl") = ammo_9mmAR : "9mm Assault Rifle Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_chainammo.mdl") = ammo_9mmbox : "box of 200 9mm shells" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_argrenade.mdl") = ammo_ARgrenades : "Assault Grenades" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_shotbox.mdl") = ammo_buckshot : "Shotgun Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_357ammobox.mdl") = ammo_357 : "357 Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_rpgammo.mdl") = ammo_rpgclip : "RPG Ammo" 
+@PointClass base(Targetx, RenderFields, Ammo) studio() = ammo_all : "Gives all ammo types" []
+
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_9mmclip.mdl") = ammo_9mmclip : "9mm Pistol Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_9mmarclip.mdl") = ammo_9mmAR : "9mm Assault Rifle Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_chainammo.mdl") = ammo_9mmbox : "box of 200 9mm shells" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_argrenade.mdl") = ammo_ARgrenades : "Assault Grenades" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_shotbox.mdl") = ammo_buckshot : "Shotgun Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_357ammobox.mdl") = ammo_357 : "357 Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_rpgammo.mdl") = ammo_rpgclip : "RPG Ammo" 
 [
   sequence(choices) : "Placement" : 0 =
   [
@@ -781,8 +840,8 @@
     1 : "Capped"
   ]
 ]
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_gaussammo.mdl") = ammo_gaussclip : "Gauss Gun Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_crossbow_clip.mdl") = ammo_crossbow : "Crossbow Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_gaussammo.mdl") = ammo_gaussclip : "Gauss Gun Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_crossbow_clip.mdl") = ammo_crossbow : "Crossbow Ammo" []
 
 @SolidClass base(Target, Targetname, Angles, ZHLT) = button_target : "Target Button"
 [
@@ -1781,13 +1840,13 @@
 // items
 //
 
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_oxygen.mdl") = item_airtank : "Oxygen tank" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_antidote.mdl") = item_antidote : "Poison antidote" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_battery.mdl") = item_battery : "HEV battery" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_medkit.mdl") = item_healthkit : "Small Health Kit" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_longjump.mdl") = item_longjump : "Longjump Module" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_security.mdl") = item_security : "Security card" []
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx) studio("models/w_suit.mdl") = item_suit : "HEV Suit" 
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_oxygen.mdl") = item_airtank : "Oxygen tank" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_antidote.mdl") = item_antidote : "Poison antidote" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_battery.mdl") = item_battery : "HEV battery" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_medkit.mdl") = item_healthkit : "Small Health Kit" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_longjump.mdl") = item_longjump : "Longjump Module" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_security.mdl") = item_security : "Security card" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_suit.mdl") = item_suit : "HEV Suit" 
 [
   body(Choices) : "Body" : 0 =
   [
@@ -2492,12 +2551,12 @@
 // weapons
 //
 
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_9mmhandgun.mdl") = weapon_9mmhandgun : "9mm Handgun" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_357.mdl") = weapon_357 : "357 Handgun" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_9mmar.mdl") = weapon_9mmAR : "9mm Assault Rifle" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_rpg.mdl") = weapon_rpg : "RPG"
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_9mmhandgun.mdl") = weapon_9mmhandgun : "9mm Handgun" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_357.mdl") = weapon_357 : "357 Handgun" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_9mmar.mdl") = weapon_9mmAR : "9mm Assault Rifle" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_rpg.mdl") = weapon_rpg : "RPG"
 [
   sequence(choices) : "Placement" : 0 =
   [
@@ -2505,7 +2564,7 @@
     1 : "Realistic (tilted)"
   ]
 ]
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_gauss.mdl") = weapon_gauss : "Gauss Gun" 
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_gauss.mdl") = weapon_gauss : "Gauss Gun" 
 [
   sequence(choices) : "Placement" : 0 =
   [
@@ -2513,7 +2572,7 @@
     1 : "Realistic (tilted)"
   ]
 ]
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_crossbow.mdl") = weapon_crossbow : "Crossbow" 
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_crossbow.mdl") = weapon_crossbow : "Crossbow" 
 [
   sequence(choices) : "Placement" : 0 =
   [
@@ -2521,9 +2580,9 @@
     1 : "Realistic (tilted)"
   ]
 ]
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_egon.mdl") = weapon_egon : "Egon Gun" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/p_tripmine.mdl") size(-16 -16 -5, 16 16 27) = weapon_tripmine : "Tripmine Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_satchel.mdl") = weapon_satchel : "Satchel Charge Ammo" 
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_egon.mdl") = weapon_egon : "Egon Gun" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/p_tripmine.mdl") size(-16 -16 -5, 16 16 27) = weapon_tripmine : "Tripmine Ammo" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_satchel.mdl") = weapon_satchel : "Satchel Charge Ammo" 
 [
   sequence(choices) : "Placement" : 0 =
   [
@@ -2531,9 +2590,9 @@
     1 : "On back"
   ]
 ]
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_grenade.mdl") = weapon_handgrenade : "Handgrenade Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_squeak.mdl") = weapon_snark : "Squeak Grenade" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_hgun.mdl") = weapon_hornetgun : "Hornet Gun" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_grenade.mdl") = weapon_handgrenade : "Handgrenade Ammo" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_squeak.mdl") = weapon_snark : "Squeak Grenade" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_hgun.mdl") = weapon_hornetgun : "Hornet Gun" []
 @PointClass size(-16 -16 0, 16 16 64) color(0 128 0) studio("models/w_chainammo.mdl") =  weaponbox : "Weapon/Ammo Container" []
 
 //
@@ -2568,11 +2627,11 @@
 //AMMO
 //
 
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/W_saw_clip.mdl") = ammo_556 : "M249 Ammo" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_m40a1clip.mdl") = ammo_762 : "Sniper Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/W_saw_clip.mdl") = ammo_556 : "M249 Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_m40a1clip.mdl") = ammo_762 : "Sniper Ammo" []
 
 //Spore ammo orientation refers to the direction that the base of the plant faces
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/spore_ammo.mdl") = ammo_spore : "Spore" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/spore_ammo.mdl") = ammo_spore : "Spore" []
 
 
 
@@ -2667,7 +2726,7 @@
 // ITEM ENTITIES
 //
 
-@PointClass base(Weapon, Targetx) = item_generic : "Generic scenery item"
+@PointClass base(Targetx, OtherItem) = item_generic : "Generic scenery item"
 [
 	model(studio) : "Model" : "models/egg.mdl"
 	sequencename(string) : "Sequence Name" : "idle"
@@ -2681,7 +2740,7 @@
 	]
 ]
 
-@PointClass base(Weapon, Targetx) size(-16 -16 0, 16 16 36) = item_nuclearbomb : "Nuclear Bomb"
+@PointClass base(Targetx, OtherItem) size(-16 -16 0, 16 16 36) = item_nuclearbomb : "Nuclear Bomb"
 [
       initialstate(integer) : "Initial State" : 0
 	wait(integer) : "Wait" : 1
@@ -3144,16 +3203,16 @@ initammo(string) : "Initial Ammo" : "6"
 //
 //WEAPONS
 //
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_displacer.mdl") = weapon_displacer : "Displacer" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_desert_eagle.mdl") = weapon_eagle : "Desert Eagle" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_bgrap.mdl") = weapon_grapple : "Barnacle Grapple" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_knife.mdl") = weapon_knife : "Knife" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_saw.mdl") = weapon_m249 : "M249 SAW" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_penguinnest.mdl") = weapon_penguin : "Killer Penguin" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_pipe_wrench.mdl") = weapon_pipewrench : "Pipe Wrench" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_shock.mdl") = weapon_shockrifle : "Shock Roach" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_m40a1.mdl") = weapon_sniperrifle : "Sniper Rifle" []
-@PointClass base(Weapon, Targetx, RenderFields) studio("models/w_spore_launcher.mdl") = weapon_sporelauncher : "Spore Launcher" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_displacer.mdl") = weapon_displacer : "Displacer" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_desert_eagle.mdl") = weapon_eagle : "Desert Eagle" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_bgrap.mdl") = weapon_grapple : "Barnacle Grapple" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_knife.mdl") = weapon_knife : "Knife" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_saw.mdl") = weapon_m249 : "M249 SAW" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_penguinnest.mdl") = weapon_penguin : "Killer Penguin" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_pipe_wrench.mdl") = weapon_pipewrench : "Pipe Wrench" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_shock.mdl") = weapon_shockrifle : "Shock Roach" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_m40a1.mdl") = weapon_sniperrifle : "Sniper Rifle" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_spore_launcher.mdl") = weapon_sporelauncher : "Spore Launcher" []
 
 
 
@@ -3286,7 +3345,7 @@ initammo(string) : "Initial Ammo" : "6"
 	damage_delay(string) : "Damage delay" : "0"
 ]
 
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) = item_helmet : "Barney Helmet"
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, RenderFields, Item) = item_helmet : "Barney Helmet"
 [
 	sequence(choices) : "Orientation" : 0 = 
 	[
@@ -3296,7 +3355,7 @@ initammo(string) : "Initial Ammo" : "6"
     ]
 ]
 
-@PointClass size(-16 -16 0, 16 16 36) base(Weapon, Targetx, RenderFields) = item_armorvest : "Barney Vest"
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, RenderFields, Item) = item_armorvest : "Barney Vest"
 [
 	sequence(choices) : "Orientation" : 0 = 
 	[
