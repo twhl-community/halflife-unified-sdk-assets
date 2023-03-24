@@ -1842,7 +1842,11 @@
 
 @PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_oxygen.mdl") = item_airtank : "Oxygen tank" []
 @PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_antidote.mdl") = item_antidote : "Poison antidote" []
-@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_battery.mdl") = item_battery : "HEV battery" []
+@PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_battery.mdl") = item_battery : "HEV battery"
+[
+	armor_amount(string) : "Amount Of Armor To Give (-1 == Maximum)"
+]
+ 
 @PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_medkit.mdl") = item_healthkit : "Small Health Kit" []
 @PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_longjump.mdl") = item_longjump : "Longjump Module" []
 @PointClass size(-16 -16 0, 16 16 36) base(Targetx, Item) studio("models/w_security.mdl") = item_security : "Security card" []
@@ -3345,7 +3349,7 @@ initammo(string) : "Initial Ammo" : "6"
 	damage_delay(string) : "Damage delay" : "0"
 ]
 
-@PointClass size(-16 -16 0, 16 16 36) base(Targetx, RenderFields, Item) = item_helmet : "Barney Helmet"
+@PointClass size(-16 -16 0, 16 16 36) base(item_battery) studio("models/barney_helmet.mdl") = item_helmet : "Barney Helmet"
 [
 	sequence(choices) : "Orientation" : 0 = 
 	[
@@ -3355,7 +3359,7 @@ initammo(string) : "Initial Ammo" : "6"
     ]
 ]
 
-@PointClass size(-16 -16 0, 16 16 36) base(Targetx, RenderFields, Item) = item_armorvest : "Barney Vest"
+@PointClass size(-16 -16 0, 16 16 36) base(item_battery) studio("models/barney_vest.mdl") = item_armorvest : "Barney Vest"
 [
 	sequence(choices) : "Orientation" : 0 = 
 	[
