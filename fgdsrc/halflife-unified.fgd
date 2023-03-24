@@ -2304,7 +2304,32 @@
   ]
 ]
 
-@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_weaponstrip : "Strips player's weapons" []
+@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_weaponstrip : "Strips player's weapons"
+[
+	all_players(choices) : "Affect All Players" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	strip_weapons(choices) : "Strip Weapons" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	strip_suit(choices) : "Strip Suit" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	strip_longjump(choices) : "Strip Long Jump Module" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+]
 
 @PointClass base(Targetname, Targetx) size(-16 -16 0, 16 16 72) color(255 0 255) = scripted_sentence : "Scripted Sentence"
 [
