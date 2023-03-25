@@ -1304,3 +1304,35 @@
 "targetname" "strip"
 "origin" "-352 -416 64"
 }
+{
+"classname" "func_button"
+"spawnflags" "33"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "buttons/button7.wav"
+"target" "health_setter"
+{
+( -488 -360 64 ) ( -488 -360 0 ) ( -488 -344 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -472 -344 64 ) ( -472 -344 0 ) ( -472 -360 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -488 -344 64 ) ( -488 -344 0 ) ( -472 -344 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -472 -360 64 ) ( -472 -360 0 ) ( -488 -360 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -472 -360 64 ) ( -488 -360 64 ) ( -472 -344 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -488 -344 0 ) ( -488 -360 0 ) ( -472 -344 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "player_sethealth"
+"set_armor" "1"
+"set_health" "1"
+"all_players" "0"
+"health_to_set" "10"
+"armor_to_set" "0"
+"targetname" "health_setter"
+"origin" "-480 -352 72"
+}

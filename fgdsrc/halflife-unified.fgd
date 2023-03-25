@@ -2293,6 +2293,30 @@
   loadtime(string) : "Reload delay" : "0"
 ]
 
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = player_sethealth : "Set player's health and/or armor" 
+[
+	all_players(choices) : "Affect All Players" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	set_health(choices) : "Set Player's Health" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	set_armor(choices) : "Set Player's Armor" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	health_to_set(integer) : "Health Value To Set"
+	armor_to_set(integer) : "Armor Value To Set"
+]
+
 @PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_sethudcolor : "Set or reset player hud color" 
 [
   hud_color(color255) : "Hud Color (R G B)" : "0 0 0"
