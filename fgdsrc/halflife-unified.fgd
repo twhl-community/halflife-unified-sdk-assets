@@ -2328,6 +2328,21 @@
   ]
 ]
 
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = player_setsuitlighttype : "Set player's suit light type" 
+[
+	all_players(choices) : "Affect All Players" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	light_type(choices) : "Light Type" : 0 =
+	[
+		0 : "Flashlight"
+		1 : "Night Vision"
+	]
+]
+
 @PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_weaponstrip : "Strips player's weapons"
 [
 	all_players(choices) : "Affect All Players" : 0 =
