@@ -382,6 +382,26 @@
 [
 ]
 
+@BaseClass base(Global, RenderFields, ZHLT) = BaseCharger
+[
+	// TODO: move master to its own base
+	master(target_destination) : "Master"
+
+	fire_on_recharge(target_destination) : "Target To Fire On Recharge"
+	fire_on_empty(target_destination) : "Target To Fire On Empty"
+	
+	fire_on_spawn(choices) : "Fire Targets On Map Spawn" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	total_juice(integer) : "Total Juice In Charger (-1 == Unlimited)"
+	recharge_delay(integer) : "Recharge Delay"
+	charge_per_use(integer) : "Charge Per Use"
+	_minlight(string) : "Minimum light level"
+]
+
 @BaseClass = Global 
 [ 
   globalname(string) : "Global Entity Name" 
@@ -1348,11 +1368,7 @@
   ]
 ]
 
-@SolidClass base(Global, RenderFields, ZHLT) = func_healthcharger: "Wall health recharger" 
-[
-	// dmdelay(integer) : "Deathmatch recharge delay" : 0
-	_minlight(string) : "Minimum light level"
-]
+@SolidClass base(BaseCharger) = func_healthcharger: "Wall health recharger" []
 
 @SolidClass base(Targetname, RenderFields, ZHLT) = func_illusionary : "Fake Wall/Light" 
 [
@@ -1449,11 +1465,7 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@SolidClass base(Global, RenderFields, ZHLT) = func_recharge: "Battery recharger" 
-[
-	// dmdelay(integer) : "Deathmatch recharge delay" : 0
-	_minlight(string) : "Minimum light level"
-]
+@SolidClass base(BaseCharger) = func_recharge: "Battery recharger"  []
 
 @SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT) = func_rot_button : "RotatingButton" 
 [
