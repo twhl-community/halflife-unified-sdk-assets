@@ -1,0 +1,962 @@
+{
+"classname" "worldspawn"
+"defaultctf" "0"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( -512 -512 544 ) ( -512 -512 512 ) ( -512 512 544 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 544 ) ( 512 512 512 ) ( 512 -512 544 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 544 ) ( -512 512 512 ) ( 512 512 544 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 544 ) ( 512 -512 512 ) ( -512 -512 544 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 512 ) ( -512 -512 512 ) ( 512 512 512 ) CRETE3_CEIL03 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 544 ) ( -512 -512 544 ) ( 512 512 544 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -512 0 ) ( -512 -512 -32 ) ( -512 512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 0 ) ( 512 512 -32 ) ( 512 -512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 0 ) ( -512 512 -32 ) ( 512 512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( 512 -512 -32 ) ( -512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 -32 ) ( -512 -512 -32 ) ( 512 512 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 0 ) ( -512 -512 0 ) ( 512 512 0 ) OUT_PAV3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -544 256 ) ( -512 -544 0 ) ( -512 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 256 ) ( 512 -512 0 ) ( 512 -544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 0 ) ( 512 -512 256 ) OUT_WALL7F [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 256 ) ( 512 -544 0 ) ( -512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -544 256 ) ( -512 -512 256 ) ( 512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -544 0 ) ( 512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -544 512 ) ( -512 -544 256 ) ( -512 -512 512 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 512 ) ( 512 -512 256 ) ( 512 -544 512 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 512 ) ( -512 -512 256 ) ( 512 -512 512 ) OUT_W6D [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 2 2.66667
+( 512 -544 512 ) ( 512 -544 256 ) ( -512 -544 512 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -544 256 ) ( 512 -512 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -544 512 ) ( -512 -512 512 ) ( 512 -544 512 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 544 256 ) ( 512 544 -0 ) ( 512 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 256 ) ( -512 512 -0 ) ( -512 544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 -0 ) ( -512 512 256 ) OUT_WALL7F [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 256 ) ( -512 544 -0 ) ( 512 544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 0 ) ( -512 512 0 ) ( 512 544 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 256 ) ( -512 544 256 ) ( 512 512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 544 512 ) ( 512 544 256 ) ( 512 512 512 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 512 ) ( -512 512 256 ) ( -512 544 512 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 512 ) ( 512 512 256 ) ( -512 512 512 ) OUT_W6D [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 2 2.66667
+( -512 544 512 ) ( -512 544 256 ) ( 512 544 512 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 512 ) ( -512 544 512 ) ( 512 512 512 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 544 256 ) ( -512 512 256 ) ( 512 544 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 256 ) ( -512 512 -0 ) ( -512 -512 256 ) OUT_WALL7F [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 -512 256 ) ( -544 -512 -0 ) ( -544 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 -0 ) ( -544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 256 ) ( -544 512 -0 ) ( -512 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 0 ) ( -544 -512 0 ) ( -512 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 -512 256 ) ( -544 512 256 ) ( -512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -544 -512 512 ) ( -544 -512 256 ) ( -544 512 512 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 512 ) ( -512 512 256 ) ( -512 -512 512 ) OUT_W6D [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 2 2.66667
+( -544 512 512 ) ( -544 512 256 ) ( -512 512 512 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 512 ) ( -512 -512 256 ) ( -544 -512 512 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 256 ) ( -544 -512 256 ) ( -512 512 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 -512 512 ) ( -544 512 512 ) ( -512 -512 512 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 544 512 256 ) ( 544 512 -0 ) ( 544 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 256 ) ( 512 -512 -0 ) ( 512 512 256 ) OUT_WALL7F [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -512 256 ) ( 544 -512 -0 ) ( 512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 -0 ) ( 544 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 0 ) ( 512 -512 0 ) ( 544 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 256 ) ( 512 512 256 ) ( 544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 544 512 512 ) ( 544 512 256 ) ( 544 -512 512 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 512 ) ( 512 -512 256 ) ( 512 512 512 ) OUT_W6D [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 2 2.66667
+( 544 -512 512 ) ( 544 -512 256 ) ( 512 -512 512 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 512 ) ( 512 512 256 ) ( 544 512 512 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 512 ) ( 512 512 512 ) ( 544 -512 512 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 512 256 ) ( 512 -512 256 ) ( 544 512 256 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-448 0 37"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 250"
+"light" "255 255 128 200"
+"origin" "-256 256 128"
+}
+{
+"classname" "item_suit"
+"body" "0"
+"fall_mode" "0"
+"play_pickup_sound" "0"
+"flash_on_respawn" "1"
+"stay_visible_during_respawn" "0"
+"respawn_delay" "-1"
+"respawn_mode" "0"
+"angles" "0 0 0"
+"spawnflags" "0"
+"delay" "0"
+"origin" "-448 0 0.0635414"
+}
+{
+"classname" "monstermaker"
+"spawnflags" "4"
+"m_imaxlivechildren" "1"
+"delay" "1"
+"monstercount" "-1"
+"angles" "0 0 0"
+"targetname" "controller_maker"
+"monstertype" "monster_alien_controller"
+"netname" "controller"
+"#TriggerCondition" "4"
+"#TriggerTarget" "death"
+"origin" "0 0 128"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "controller_maker"
+"sounds" "vox/engage.wav"
+{
+( -296 72 64 ) ( -296 72 0 ) ( -296 88 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 88 64 ) ( -280 88 0 ) ( -280 72 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 88 64 ) ( -296 88 0 ) ( -280 88 64 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 72 64 ) ( -280 72 0 ) ( -296 72 64 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 72 64 ) ( -296 72 64 ) ( -280 88 64 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 88 0 ) ( -296 72 0 ) ( -280 88 0 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "weapon_m249"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "1"
+"stay_visible_during_respawn" "0"
+"respawn_delay" "-1"
+"respawn_mode" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"origin" "-384 32 0.182732"
+}
+{
+"classname" "ammo_556"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "0"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"ammo_amount" "-1"
+"sound_replacement_filename" "cfg/replacements/silent_item_respawn.json"
+"origin" "-320 32 0.0140152"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "controller"
+{
+( -296 104 64 ) ( -296 104 0 ) ( -296 120 64 ) +0BUTTON2 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 120 64 ) ( -280 120 0 ) ( -280 104 64 ) +0BUTTON2 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 120 64 ) ( -296 120 0 ) ( -280 120 64 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 104 64 ) ( -280 104 0 ) ( -296 104 64 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 104 64 ) ( -296 104 64 ) ( -280 120 64 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 120 0 ) ( -296 104 0 ) ( -280 120 0 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "ambient_generic"
+"spawnflags" "49"
+"cspinup" "0"
+"lfomodvol" "0"
+"lfomodpitch" "0"
+"lforate" "0"
+"lfotype" "0"
+"spindown" "0"
+"spinup" "0"
+"pitchstart" "100"
+"pitch" "100"
+"fadeout" "0"
+"fadein" "0"
+"volstart" "0"
+"preset" "0"
+"health" "10"
+"targetname" "death"
+"message" "vox/die.wav"
+"origin" "-320 0 64"
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "controller_message"
+"message" "Spawn Controller"
+"origin" "-288 96 136"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "controller_message"
+{
+( -320 64 128 ) ( -320 64 0 ) ( -320 128 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 128 128 ) ( -256 128 0 ) ( -256 64 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 128 128 ) ( -320 128 0 ) ( -256 128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 128 ) ( -256 64 0 ) ( -320 64 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 64 128 ) ( -320 64 128 ) ( -256 128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -320 128 0 ) ( -320 64 0 ) ( -256 128 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 250"
+"light" "255 255 128 200"
+"origin" "256 256 128"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 250"
+"light" "255 255 128 200"
+"origin" "256 -256 128"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 250"
+"light" "255 255 128 200"
+"origin" "-256 -256 128"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "slave_maker"
+"sounds" "vox/engage.wav"
+{
+( -296 136 64 ) ( -296 136 0 ) ( -296 152 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 152 64 ) ( -280 152 0 ) ( -280 136 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 152 64 ) ( -296 152 0 ) ( -280 152 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 136 64 ) ( -280 136 0 ) ( -296 136 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 136 64 ) ( -296 136 64 ) ( -280 152 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 152 0 ) ( -296 136 0 ) ( -280 152 0 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "slave"
+{
+( -296 168 64 ) ( -296 168 0 ) ( -296 184 64 ) +0BUTTON2 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 184 64 ) ( -280 184 0 ) ( -280 168 64 ) +0BUTTON2 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 184 64 ) ( -296 184 0 ) ( -280 184 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 168 64 ) ( -280 168 0 ) ( -296 168 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 168 64 ) ( -296 168 64 ) ( -280 184 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 184 0 ) ( -296 168 0 ) ( -280 184 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "slave_message"
+{
+( -320 128 128 ) ( -320 128 0 ) ( -320 192 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 192 128 ) ( -256 192 0 ) ( -256 128 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 192 128 ) ( -320 192 0 ) ( -256 192 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 128 128 ) ( -256 128 0 ) ( -320 128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 128 128 ) ( -320 128 128 ) ( -256 192 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -320 192 0 ) ( -320 128 0 ) ( -256 192 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "slave_message"
+"message" "Spawn Alien Slave"
+"origin" "-288 160 136"
+}
+{
+"classname" "monstermaker"
+"spawnflags" "4"
+"m_imaxlivechildren" "1"
+"delay" "1"
+"monstercount" "-1"
+"angles" "0 0 0"
+"targetname" "slave_maker"
+"monstertype" "monster_alien_slave"
+"netname" "slave"
+"#TriggerCondition" "4"
+"#TriggerTarget" "death"
+"origin" "0 0 72"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.75"
+"x" "-1"
+"targetname" "test_message"
+"message" "This map tests whether entities remove their effects\nwhen killtargeted"
+"origin" "-352 0 264"
+}
+{
+"classname" "trigger_multiple"
+"wait" "10"
+"delay" "0"
+"sounds" "0"
+"target" "test_message"
+{
+( 512 512 256 ) ( 512 512 0 ) ( 512 -512 256 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 0 ) ( -512 512 256 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 256 ) ( 512 -512 0 ) ( -512 -512 256 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 256 ) ( -512 512 0 ) ( 512 512 256 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 0 ) ( -512 -512 0 ) ( 512 512 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 256 ) ( -512 -512 256 ) ( 512 512 256 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "item_healthkit"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "0"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"delay" "0"
+"health_amount" "-1"
+"sound_replacement_filename" "cfg/replacements/silent_item_respawn.json"
+"origin" "-448 64 0"
+}
+{
+"classname" "info_node"
+"origin" "256 256 28"
+}
+{
+"classname" "info_node"
+"origin" "256 -256 28"
+}
+{
+"classname" "info_node"
+"origin" "-128 -256 28"
+}
+{
+"classname" "info_node"
+"origin" "64 -256 28"
+}
+{
+"classname" "info_node"
+"origin" "-128 0 28"
+}
+{
+"classname" "info_node"
+"origin" "64 0 28"
+}
+{
+"classname" "info_node"
+"origin" "64 256 28"
+}
+{
+"classname" "info_node"
+"origin" "-128 256 28"
+}
+{
+"classname" "info_node"
+"origin" "256 0 28"
+}
+{
+"classname" "info_target"
+"targetname" "laser_target"
+"origin" "-448 448 0"
+}
+{
+"classname" "env_laser"
+"spawnflags" "33"
+"damage" "100"
+"framestart" "0"
+"TextureScroll" "35"
+"texture" "sprites/laserbeam.spr"
+"NoiseAmplitude" "0"
+"width" "20"
+"rendercolor" "255 0 0"
+"renderamt" "100"
+"angles" "0 0 0"
+"renderfx" "0"
+"targetname" "laser"
+"LaserTarget" "laser_target"
+"EndSprite" "sprites/flare1.spr"
+"origin" "-448 448 128"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "laser_message"
+{
+( -480 352 128 ) ( -480 352 0 ) ( -480 416 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -416 416 128 ) ( -416 416 0 ) ( -416 352 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -480 416 128 ) ( -480 416 0 ) ( -416 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -416 352 128 ) ( -416 352 0 ) ( -480 352 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -416 352 128 ) ( -480 352 128 ) ( -416 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -480 416 0 ) ( -480 352 0 ) ( -416 416 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "laser_message"
+"message" "Kill env_laser & spawned env_sprite"
+"origin" "-448 384 136"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "laser"
+{
+( -440 392 64 ) ( -440 392 0 ) ( -440 376 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -456 376 64 ) ( -456 376 0 ) ( -456 392 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -440 376 64 ) ( -440 376 0 ) ( -456 376 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -456 392 64 ) ( -456 392 0 ) ( -440 392 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -456 392 0 ) ( -456 376 0 ) ( -440 392 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -440 376 64 ) ( -456 376 64 ) ( -440 392 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "env_warpball"
+"damage_delay" "0"
+"radius" "256"
+"targetname" "warpball"
+"origin" "-320 448 64"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "warpball_message"
+{
+( -384 352 128 ) ( -384 352 0 ) ( -384 416 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 416 128 ) ( -256 416 0 ) ( -256 352 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 416 128 ) ( -384 416 0 ) ( -256 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 352 128 ) ( -256 352 0 ) ( -384 352 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 352 128 ) ( -384 352 128 ) ( -256 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -384 416 0 ) ( -384 352 0 ) ( -256 416 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "warpball_message"
+"message" "Warpball effect\nSpawns an env_sprite and env_beam"
+"origin" "-320 384 136"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "2"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "warpball"
+"sounds" "vox/engage.wav"
+{
+( -296 376 64 ) ( -296 376 0 ) ( -296 392 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 392 64 ) ( -280 392 0 ) ( -280 376 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 392 64 ) ( -296 392 0 ) ( -280 392 64 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 376 64 ) ( -280 376 0 ) ( -296 376 64 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 376 64 ) ( -296 376 64 ) ( -280 392 64 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 392 0 ) ( -296 376 0 ) ( -280 392 0 ) +0BUTTON3 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "warpball"
+{
+( -344 392 64 ) ( -344 392 0 ) ( -344 376 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -360 376 64 ) ( -360 376 0 ) ( -360 392 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -344 376 64 ) ( -344 376 0 ) ( -360 376 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -360 392 64 ) ( -360 392 0 ) ( -344 392 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -360 392 0 ) ( -360 376 0 ) ( -344 392 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -344 376 64 ) ( -360 376 64 ) ( -344 392 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "garg_message"
+"message" "Spawn Gargantua"
+"origin" "-288 224 136"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "garg_message"
+{
+( -320 192 128 ) ( -320 192 0 ) ( -320 256 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 128 ) ( -256 256 0 ) ( -256 192 128 ) AAATRIGGER [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 256 128 ) ( -320 256 0 ) ( -256 256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 192 128 ) ( -256 192 0 ) ( -320 192 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 192 128 ) ( -320 192 128 ) ( -256 256 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -320 256 0 ) ( -320 192 0 ) ( -256 256 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "garg"
+{
+( -296 232 64 ) ( -296 232 0 ) ( -296 248 64 ) +0BUTTON2 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 248 64 ) ( -280 248 0 ) ( -280 232 64 ) +0BUTTON2 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 248 64 ) ( -296 248 0 ) ( -280 248 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 232 64 ) ( -280 232 0 ) ( -296 232 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 232 64 ) ( -296 232 64 ) ( -280 248 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 248 0 ) ( -296 232 0 ) ( -280 248 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "garg_maker"
+"sounds" "vox/engage.wav"
+{
+( -296 200 64 ) ( -296 200 0 ) ( -296 216 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 216 64 ) ( -280 216 0 ) ( -280 200 64 ) +0BUTTON3 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 216 64 ) ( -296 216 0 ) ( -280 216 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 200 64 ) ( -280 200 0 ) ( -296 200 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 200 64 ) ( -296 200 64 ) ( -280 216 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -296 216 0 ) ( -296 200 0 ) ( -280 216 0 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "monstermaker"
+"spawnflags" "4"
+"m_imaxlivechildren" "1"
+"delay" "1"
+"monstercount" "-1"
+"angles" "0 0 0"
+"targetname" "garg_maker"
+"monstertype" "monster_gargantua"
+"netname" "garg"
+"#TriggerCondition" "4"
+"#TriggerTarget" "death"
+"origin" "0 0 192"
+}
+{
+"classname" "weapon_egon"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "1"
+"stay_visible_during_respawn" "0"
+"respawn_delay" "-1"
+"respawn_mode" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"origin" "-384 -32 0.00729752"
+}
+{
+"classname" "ammo_gaussclip"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"respawn_delay" "0"
+"respawn_mode" "1"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sound_replacement_filename" "cfg/replacements/silent_item_respawn.json"
+"ammo_amount" "-1"
+"origin" "-320 -32 0"
+}
+{
+"classname" "monstermaker"
+"spawnflags" "4"
+"m_imaxlivechildren" "1"
+"delay" "1"
+"monstercount" "-1"
+"angles" "0 0 0"
+"targetname" "turret_maker"
+"monstertype" "monster_turret"
+"netname" "turret"
+"#TriggerCondition" "4"
+"#TriggerTarget" "death"
+"#spawnflags" "32"
+"origin" "0 0 0"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "turret_message"
+{
+( -320 -128 128 ) ( -320 -128 0 ) ( -320 -64 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -64 128 ) ( -256 -64 0 ) ( -256 -128 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 -64 128 ) ( -320 -64 0 ) ( -256 -64 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -128 128 ) ( -256 -128 0 ) ( -320 -128 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -128 128 ) ( -320 -128 128 ) ( -256 -64 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -320 -64 0 ) ( -320 -128 0 ) ( -256 -64 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "turret_message"
+"message" "Spawn Turret"
+"origin" "-288 -96 136"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "turret"
+{
+( -296 -88 64 ) ( -296 -88 0 ) ( -296 -72 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 -72 64 ) ( -280 -72 0 ) ( -280 -88 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 -72 64 ) ( -296 -72 0 ) ( -280 -72 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 -88 64 ) ( -280 -88 0 ) ( -296 -88 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 -88 64 ) ( -296 -88 64 ) ( -280 -72 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -296 -72 0 ) ( -296 -88 0 ) ( -280 -72 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "turret_maker"
+"sounds" "vox/engage.wav"
+{
+( -296 -120 64 ) ( -296 -120 0 ) ( -296 -104 64 ) +0BUTTON3 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 -104 64 ) ( -280 -104 0 ) ( -280 -120 64 ) +0BUTTON3 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -296 -104 64 ) ( -296 -104 0 ) ( -280 -104 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 -120 64 ) ( -280 -120 0 ) ( -296 -120 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -280 -120 64 ) ( -296 -120 64 ) ( -280 -104 64 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -296 -104 0 ) ( -296 -120 0 ) ( -280 -104 0 ) +0BUTTON3 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "xen_plantlight"
+"angles" "0 270 0"
+"rendercolor" "255 255 0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "xenlight"
+"renderamt" "255"
+"origin" "-224 496 2.15669"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "xenlight_message"
+{
+( -192 416 128 ) ( -192 416 0 ) ( -192 352 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 352 128 ) ( -256 352 0 ) ( -256 416 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -192 352 128 ) ( -192 352 0 ) ( -256 352 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 416 128 ) ( -256 416 0 ) ( -192 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 416 0 ) ( -256 352 0 ) ( -192 416 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -192 352 128 ) ( -256 352 128 ) ( -192 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "xenlight_message"
+"message" "Xen Light creates an env_sprite"
+"origin" "-224 384 136"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "xenlight"
+{
+( -232 376 64 ) ( -232 376 0 ) ( -232 392 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -216 392 64 ) ( -216 392 0 ) ( -216 376 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -232 392 64 ) ( -232 392 0 ) ( -216 392 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -216 376 64 ) ( -216 376 0 ) ( -232 376 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -216 376 64 ) ( -232 376 64 ) ( -216 392 64 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -232 392 0 ) ( -232 376 0 ) ( -216 392 0 ) +0BUTTON2 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "xen_tree"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "xentree"
+"origin" "-160 472 1.14757"
+}
+{
+"classname" "trigger_multiple"
+"wait" "2"
+"delay" "0"
+"sounds" "0"
+"target" "xentree_message"
+{
+( -64 416 128 ) ( -64 416 0 ) ( -64 352 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -192 352 128 ) ( -192 352 0 ) ( -192 416 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 352 128 ) ( -64 352 0 ) ( -192 352 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -192 416 128 ) ( -192 416 0 ) ( -64 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -192 416 0 ) ( -192 352 0 ) ( -64 416 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -64 352 128 ) ( -192 352 128 ) ( -64 416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "0"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "2"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "0.25"
+"x" "-1"
+"targetname" "xentree_message"
+"message" "Xen Tree creates a trigger entity\nCrashes in vanilla HL due to null entity pointer"
+"origin" "-128 384 136"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"delay" "0"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"sounds" "vox/kill.wav"
+"killtarget" "xentree"
+{
+( -136 376 64 ) ( -136 376 0 ) ( -136 392 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -120 392 64 ) ( -120 392 0 ) ( -120 376 64 ) +0BUTTON2 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -136 392 64 ) ( -136 392 0 ) ( -120 392 64 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -120 376 64 ) ( -120 376 0 ) ( -136 376 64 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -120 376 64 ) ( -136 376 64 ) ( -120 392 64 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -136 392 0 ) ( -136 376 0 ) ( -120 392 0 ) +0BUTTON2 [ 1 0 0 -16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
