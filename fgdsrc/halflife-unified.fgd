@@ -1291,10 +1291,9 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT) = func_button : "Button" 
+@SolidClass base(Targetname, Targetx, Global, RenderFields, Angles, ZHLT) = func_button : "Button" 
 [
   speed(integer) : "Speed" : 5
-  target(target_destination) : "Targetted object"
   health(integer) : "Health (shootable if > 0)"
   lip(integer) : "Lip"
   master(string) : "Master" 
@@ -1304,7 +1303,6 @@
   [
     -1: "Stays pressed"
   ]
-  delay(string) : "Delay before trigger" : "0"
   spawnflags(flags) =
   [
     1: "Don't move" : 0
