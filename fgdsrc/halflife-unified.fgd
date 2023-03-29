@@ -331,14 +331,7 @@
 
 @BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = BaseItem
 [
-	respawn_mode(choices) : "Respawn Mode" : 0 =
-	[
-		0 : "Default"
-		1 : "Always"
-		2 : "Never"
-	]
-	
-	respawn_delay(string) : "Respawn delay (-1 == Use Default)" : "-1"
+	respawn_delay(string) : "Respawn delay (-1 == Never)"
 	
 	stay_visible_during_respawn(choices) : "Stay Visible During Respawn" : 0 =
 	[
