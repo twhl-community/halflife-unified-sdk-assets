@@ -47,6 +47,11 @@
 					"Pattern": "halflife-unified.fgd"
 				},
 				{
+					"Source": "gfxsrc/shell",
+					"Destination": "gfx/shell",
+					"Pattern": "*.lst"
+				},
+				{
 					"Source": "gfxsrc/vgui",
 					"Destination": "gfx/vgui",
 					"Pattern": "*.tga"
