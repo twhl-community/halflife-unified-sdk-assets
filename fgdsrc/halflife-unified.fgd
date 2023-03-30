@@ -2507,6 +2507,13 @@
   landmark(string) : "Landmark name"
   changetarget(target_destination) : "Change Target"
   changedelay(string) : "Delay before change target" : "0"
+  
+  use_persistent_level_change(choices) : "Use Persistent Level Change" : 1 =
+  [
+	0 : "No"
+	1 : "Yes"
+  ]
+  
   spawnflags(flags) =
   [
     1: "No Intermission" : 0
