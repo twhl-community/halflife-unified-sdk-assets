@@ -327,6 +327,56 @@
   target(target_destination) : "Target" 
 ]
 
+@BaseClass = Global 
+[ 
+  globalname(string) : "Global Entity Name" 
+]
+
+@BaseClass base(Target) = Targetx 
+[
+  killtarget(target_destination) : "KillTarget"
+  delay(string) : "Delay before trigger" : "0"
+]
+
+@BaseClass = RenderFxChoices
+[
+  renderfx(choices) :"Render FX" : 0 =
+  [
+    0: "Normal"
+    1: "Slow Pulse"
+    2: "Fast Pulse"
+    3: "Slow Wide Pulse"
+    4: "Fast Wide Pulse"
+    9: "Slow Strobe"
+    10: "Fast Strobe"
+    11: "Faster Strobe"
+    12: "Slow Flicker"
+    13: "Fast Flicker"
+    5: "Slow Fade Away"
+    6: "Fast Fade Away"
+    7: "Slow Become Solid"
+    8: "Fast Become Solid"
+    14: "Constant Glow"
+    15: "Distort"
+    16: "Hologram (Distort + fade)"
+  ]
+]
+
+@BaseClass base(RenderFxChoices) = RenderFields 
+[
+  rendermode(choices) : "Render Mode" : 0 =
+  [
+    0: "Normal"
+    1: "Color"
+    2: "Texture"
+    3: "Glow"
+    4: "Solid"
+    5: "Additive"
+  ]
+  renderamt(integer) : "FX Amount (1 - 255)"
+  rendercolor(color255) : "FX Color (R G B)" : "0 0 0"
+]
+
 @BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = OtherItem []
 
 @BaseClass size(-16 -16 0, 16 16 32) color(0 0 200) base(Targetname, Appearflags, Angles, CustomModel) = BaseItem
@@ -393,56 +443,6 @@
 	recharge_delay(integer) : "Recharge Delay"
 	charge_per_use(integer) : "Charge Per Use"
 	_minlight(string) : "Minimum light level"
-]
-
-@BaseClass = Global 
-[ 
-  globalname(string) : "Global Entity Name" 
-]
-
-@BaseClass base(Target) = Targetx 
-[
-  killtarget(target_destination) : "KillTarget"
-  delay(string) : "Delay before trigger" : "0"
-]
-
-@BaseClass = RenderFxChoices
-[
-  renderfx(choices) :"Render FX" : 0 =
-  [
-    0: "Normal"
-    1: "Slow Pulse"
-    2: "Fast Pulse"
-    3: "Slow Wide Pulse"
-    4: "Fast Wide Pulse"
-    9: "Slow Strobe"
-    10: "Fast Strobe"
-    11: "Faster Strobe"
-    12: "Slow Flicker"
-    13: "Fast Flicker"
-    5: "Slow Fade Away"
-    6: "Fast Fade Away"
-    7: "Slow Become Solid"
-    8: "Fast Become Solid"
-    14: "Constant Glow"
-    15: "Distort"
-    16: "Hologram (Distort + fade)"
-  ]
-]
-
-@BaseClass base(RenderFxChoices) = RenderFields 
-[
-  rendermode(choices) : "Render Mode" : 0 =
-  [
-    0: "Normal"
-    1: "Color"
-    2: "Texture"
-    3: "Glow"
-    4: "Solid"
-    5: "Additive"
-  ]
-  renderamt(integer) : "FX Amount (1 - 255)"
-  rendercolor(color255) : "FX Color (R G B)" : "0 0 0"
 ]
 
 @BaseClass base(Appearflags, Angles) flags(Angle) size(-16 -16 -36, 16 16 36) color(0 255 0) offset(0 0 36) = PlayerClass []
