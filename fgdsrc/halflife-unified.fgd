@@ -2220,7 +2220,6 @@
   spawnflags(Flags) = 
   [
     1 : "Start ON"  : 0
-    2 : "PVS On/Off" : 0
     4 : "Cyclic" : 0
     8 : "MonsterClip" : 0
   ]
