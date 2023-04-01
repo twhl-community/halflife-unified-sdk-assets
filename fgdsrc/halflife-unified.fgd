@@ -840,9 +840,9 @@
 @PointClass base(Targetx, RenderFields, Ammo) studio() = ammo_all : "Gives all ammo types" []
 
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_9mmclip.mdl") = ammo_9mmclip : "9mm Pistol Ammo" []
-@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_9mmarclip.mdl") = ammo_9mmAR : "9mm Assault Rifle Ammo" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_9mmarclip.mdl") = ammo_9mmar : "9mm Assault Rifle Ammo" []
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_chainammo.mdl") = ammo_9mmbox : "box of 200 9mm shells" []
-@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_argrenade.mdl") = ammo_ARgrenades : "Assault Grenades" []
+@PointClass base(Targetx, RenderFields, Ammo) studio("models/w_argrenade.mdl") = ammo_argrenades : "Assault Grenades" []
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_shotbox.mdl") = ammo_buckshot : "Shotgun Ammo" []
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_357ammobox.mdl") = ammo_357 : "357 Ammo" []
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_rpgammo.mdl") = ammo_rpgclip : "RPG Ammo" 
@@ -2641,7 +2641,7 @@
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_9mmhandgun.mdl") = weapon_9mmhandgun : "9mm Handgun" []
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_357.mdl") = weapon_357 : "357 Handgun" []
-@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_9mmar.mdl") = weapon_9mmAR : "9mm Assault Rifle" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_9mmar.mdl") = weapon_9mmar : "9mm Assault Rifle" []
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_shotgun.mdl") = weapon_shotgun : "Shotgun" []
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_rpg.mdl") = weapon_rpg : "RPG"
 [
