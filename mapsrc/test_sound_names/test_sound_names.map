@@ -7,7 +7,7 @@
 "startdark" "0"
 "MaxRange" "4096"
 "mapversion" "220"
-"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad"
 "_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
 {
 ( 2048 -256 160 ) ( 2048 -256 0 ) ( 2048 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -86,7 +86,7 @@
 "rendercolor" "0 0 0"
 "rendermode" "0"
 "renderfx" "0"
-"targetname" "train"
+"targetname" "tracktrain"
 "sounds" "ambience/alien_beacon.wav"
 "target" "path1"
 {
@@ -116,7 +116,7 @@
 }
 {
 "classname" "func_traincontrols"
-"target" "train"
+"target" "tracktrain"
 {
 ( 128 -128 112 ) ( 128 -128 16 ) ( 128 -256 112 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 0 -256 112 ) ( 0 -256 16 ) ( 0 -128 112 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -417,5 +417,79 @@
 ( 68 188 68 ) ( 68 188 0 ) ( 60 188 68 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 68 188 68 ) ( 60 188 68 ) ( 68 196 68 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( 60 196 0 ) ( 60 188 0 ) ( 68 196 0 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_train"
+"volume" "0.85"
+"skin" "0"
+"dmg" "0"
+"speed" "256"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"targetname" "train"
+"_minlight" "0.01"
+"target" "train_path1"
+"movesnd" "vox/accelerating.wav"
+"stopsnd" "vox/arrest.wav"
+{
+( 192 128 32 ) ( 192 128 16 ) ( 192 256 32 ) LAB1_DOOR01 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
+( 320 256 32 ) ( 320 256 16 ) ( 320 128 32 ) LAB1_DOOR01 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
+( 192 256 32 ) ( 192 256 16 ) ( 320 256 32 ) LAB1_DOOR01 [ 1 0 0 0 ] [ 0 0 -1 8 ] 0 1 1
+( 320 128 32 ) ( 320 128 16 ) ( 192 128 32 ) LAB1_DOOR01 [ 1 0 0 0 ] [ 0 0 -1 8 ] 0 1 1
+( 320 128 32 ) ( 192 128 32 ) ( 320 256 32 ) TNNL_FLR12 [ 1 0 0 0 ] [ 0 -1 0 64 ] 0 1 1
+( 192 256 16 ) ( 192 128 16 ) ( 320 256 16 ) TNNL_FLR12 [ 1 0 0 0 ] [ 0 -1 0 64 ] 0 1 1
+}
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "256"
+"wait" "5"
+"angles" "0 0 0"
+"targetname" "train_path1"
+"target" "train_path2"
+"origin" "256 192 24"
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "1024"
+"wait" "5"
+"angles" "0 0 0"
+"targetname" "train_path2"
+"target" "train_path1"
+"origin" "1984 192 24"
+}
+{
+"classname" "func_button"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sounds" "vox/train.wav"
+"spawnflags" "33"
+"target" "train"
+{
+( 132 132 68 ) ( 132 132 0 ) ( 132 140 68 ) ORIGIN [ 0 1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( 140 140 68 ) ( 140 140 0 ) ( 140 132 68 ) ORIGIN [ 0 1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( 132 140 68 ) ( 132 140 0 ) ( 140 140 68 ) ORIGIN [ 1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( 140 132 68 ) ( 140 132 0 ) ( 132 132 68 ) ORIGIN [ 1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( 140 132 68 ) ( 132 132 68 ) ( 140 140 68 ) ORIGIN [ 1 0 0 8 ] [ 0 -1 0 -8 ] 0 1 1
+( 132 140 0 ) ( 132 132 0 ) ( 140 140 0 ) ORIGIN [ 1 0 0 8 ] [ 0 -1 0 -8 ] 0 1 1
+}
+{
+( 144 144 64 ) ( 144 144 0 ) ( 144 128 64 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( 128 128 64 ) ( 128 128 0 ) ( 128 144 64 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( 144 128 64 ) ( 144 128 0 ) ( 128 128 64 ) +0BUTTON1 [ 1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( 128 144 64 ) ( 128 144 0 ) ( 144 144 64 ) +0BUTTON1 [ 1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( 128 144 0 ) ( 128 128 0 ) ( 144 144 0 ) +0BUTTON1 [ 1 0 0 8 ] [ 0 -1 0 -16 ] 0 1 1
+( 144 128 64 ) ( 128 128 64 ) ( 144 144 64 ) +0BUTTON1 [ 1 0 0 8 ] [ 0 -1 0 -16 ] 0 1 1
 }
 }
