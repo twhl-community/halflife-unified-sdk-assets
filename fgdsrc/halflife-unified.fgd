@@ -2746,9 +2746,9 @@
 
 
 
-@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) color(0 128 255)= env_spritetrain : "Sprite Train"
+@PointClass base(Targetname, PlatSounds) size(-16 -16 -16, 16 16 16) color(0 128 255) = env_spritetrain : "Sprite Train"
 [
-  target(target_source) : "First stop target"
+  target(target_destination) : "First stop target"
   model(sprite) : "Sprite Name" : "sprites/glow01.spr"
   speed(integer) : "Speed (units per second)" : 64
   scale(string) : "Sprite Scale"      
