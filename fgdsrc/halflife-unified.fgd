@@ -338,6 +338,11 @@
   delay(string) : "Delay before trigger" : "0"
 ]
 
+@BaseClass = Master
+[
+	master(target_destination) : "Master"
+]
+
 @BaseClass = RenderFxChoices
 [
   renderfx(choices) :"Render FX" : 0 =
@@ -425,11 +430,8 @@
 [
 ]
 
-@BaseClass base(Global, RenderFields, ZHLT) = BaseCharger
+@BaseClass base(Master, Global, RenderFields, ZHLT) = BaseCharger
 [
-	// TODO: move master to its own base
-	master(target_destination) : "Master"
-
 	fire_on_recharge(target_destination) : "Target To Fire On Recharge"
 	fire_on_empty(target_destination) : "Target To Fire On Empty"
 	
@@ -584,11 +586,10 @@
   explodemagnitude(integer) : "Explode Magnitude (0=none)" : 0
 ]
 
-@BaseClass base(Appearflags, Targetname, RenderFields, Global, Angles) = Door
+@BaseClass base(Appearflags, Targetname, RenderFields, Global, Angles, Master) = Door
 [
   killtarget(target_destination) : "KillTarget"
   speed(integer) : "Speed" : 100
-  master(string) : "Master" 
   movesnd(sound) : "Move Sound"
   stopsnd(sound) : "Stop Sound"
   wait(choices) : "Delay before close" : 4 = 
@@ -619,7 +620,7 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@BaseClass base(Targetname, Target, RenderFields, Global, Angles) = BaseTank
+@BaseClass base(Targetname, Target, RenderFields, Global, Angles, Master) = BaseTank
 [
   spawnflags(flags) =
   [
@@ -627,9 +628,6 @@
     16: "Only Direct" : 0
     32: "Controllable" : 0
   ]
-
-  // Mainly for use with 1009 team settings (game_team_master)
-  master(string) : "(Team) Master" 
 
   yawrate(string) : "Yaw rate" : "30"
   yawrange(string) : "Yaw range" : "180"
@@ -693,11 +691,10 @@
   speed(integer) : "Move/Rotate speed" : 0
 ]
 
-@BaseClass base(Target, Targetname) = Trigger
+@BaseClass base(Target, Targetname, Master) = Trigger
 [
   killtarget(target_destination) : "Kill target"
   netname(target_destination) : "Target Path"
-  master(string) : "Master" 
   sounds(choices) : "Sound style" : 0 =
   [
     0 : "No Sound"
@@ -856,14 +853,13 @@
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_gaussammo.mdl") = ammo_gaussclip : "Gauss Gun Ammo" []
 @PointClass base(Targetx, RenderFields, Ammo) studio("models/w_crossbow_clip.mdl") = ammo_crossbow : "Crossbow Ammo" []
 
-@SolidClass base(Target, Targetname, Angles, ZHLT) = button_target : "Target Button"
+@SolidClass base(Target, Targetname, Angles, ZHLT, Master) = button_target : "Target Button"
 [
   spawnflags(flags) =
   [
     1: "Use Activates" : 1
     2: "Start On" : 0
   ]
-  master(string) : "Master" 
   renderfx(choices) :"Render FX" : 0 =
   [
     0: "Normal"
@@ -1284,12 +1280,11 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@SolidClass base(Targetname, Targetx, Global, RenderFields, Angles, ZHLT) = func_button : "Button" 
+@SolidClass base(Targetname, Targetx, Global, RenderFields, Angles, ZHLT, Master) = func_button : "Button" 
 [
   speed(integer) : "Speed" : 5
   health(integer) : "Health (shootable if > 0)"
   lip(integer) : "Lip"
-  master(string) : "Master" 
   sounds(sound) : "Sounds"
   
   wait(choices) : "Delay before reset" : 3 =
@@ -1458,12 +1453,11 @@
 
 @SolidClass base(BaseCharger) = func_recharge: "Battery recharger"  []
 
-@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT) = func_rot_button : "RotatingButton" 
+@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT, Master) = func_rot_button : "RotatingButton" 
 [
   target(target_destination) : "Targetted object"
   // changetarget will change the button's target's TARGET field to the button's changetarget.
   changetarget(target_destination) : "ChangeTarget Name"
-  master(string) : "Master" 
   speed(integer) : "Speed" : 50
   health(integer) : "Health (shootable if > 0)"
   sounds(sound) : "Sounds" : "buttons/level1.wav"
@@ -1624,53 +1618,48 @@
 // game entities (requires Half-Life 1.0.0.9)
 //
 
-@PointClass base(Targetname, Targetx) = game_counter : "Fires when it hits limit"
+@PointClass base(Targetname, Targetx, Master) = game_counter : "Fires when it hits limit"
 [
   spawnflags(flags) =
   [
     1: "Remove On fire" : 0
     2: "Reset On fire" : 1
   ]
-  master(string) : "Master"
   frags(integer) : "Initial Value" : 0
   health(integer) : "Limit Value" : 10
 ]
 
-@PointClass base(Targetname, Target) = game_counter_set : "Sets a game_counter"
+@PointClass base(Targetname, Target, Master) = game_counter_set : "Sets a game_counter"
 [
   spawnflags(flags) =
   [
     1: "Remove On fire" : 0
   ]
-  master(string) : "Master"
   frags(integer) : "New Value" : 10
 ]
 
-@PointClass base(Targetname) = game_end : "End this multiplayer game" 
+@PointClass base(Targetname, Master) = game_end : "End this multiplayer game" 
 [
-  master(string) : "Master" 
 ]
 
-@PointClass base(Targetname) = game_player_equip : "Initial player equipment"
+@PointClass base(Targetname, Master) = game_player_equip : "Initial player equipment"
 [
   spawnflags(flags) =
   [
     1: "Use Only" : 0
   ]
-  master(string) : "Team Master"
 ]
 
-@PointClass base(Targetname) = game_player_hurt : "Hurts player who fires"
+@PointClass base(Targetname, Master) = game_player_hurt : "Hurts player who fires"
 [
   dmg(string) : "Damage To Apply" : "999"
   spawnflags(flags) =
   [
     1: "Remove On fire" : 0
   ]
-  master(string) : "Master" 
 ]
 
-@PointClass base(Targetname) = game_player_team : "Allows player to change teams"
+@PointClass base(Targetname, Master) = game_player_team : "Allows player to change teams"
 [
   spawnflags(flags) =
   [
@@ -1679,10 +1668,9 @@
     4 : "Gib Player" : 0
   ]
   target(string) : "game_team_master to use" 
-  master(string) : "Master"
 ]
 
-@PointClass base(Targetname) = game_score : "Award/Deduct Points" 
+@PointClass base(Targetname, Master) = game_score : "Award/Deduct Points" 
 [
   spawnflags(flags) =
   [
@@ -1691,10 +1679,9 @@
   ]
 
   points(integer) : "Points to add (+/-)" : 1
-  master(string) : "Master" 
 ]
 
-@PointClass base(Targetname, Targetx) = game_team_master : "Team based master/relay"
+@PointClass base(Targetname, Targetx, Master) = game_team_master : "Team based master/relay"
 [
   spawnflags(flags) =
   [
@@ -1707,19 +1694,17 @@
     2: "Toggle"
   ]
   teamindex(integer) : "Team Index (-1 = no team)" : -1
-  master(string) : "Master" 
 ]
 
-@PointClass base(Targetname, Targetx) = game_team_set : "Sets team of team_master"
+@PointClass base(Targetname, Targetx, Master) = game_team_set : "Sets team of team_master"
 [
   spawnflags(flags) =
   [
     1: "Remove On fire" : 0
   ]
-  master(string) : "Master" 
 ]
 
-@PointClass base(Targetname, Target) = game_text : "HUD Text Message" 
+@PointClass base(Targetname, Target, Master) = game_text : "HUD Text Message" 
 [
   spawnflags(flags) =
   [
@@ -1748,7 +1733,6 @@
     3 : "Channel 3" 
     4 : "Channel 4"
   ]
-  master(string) : "Master" 
 ]
 
 @SolidClass base(Targetname) = game_zone_player : "Player Zone brush"
@@ -1799,10 +1783,9 @@
 @PointClass base(Targetname) = info_null : "info_null (spotlight target)" []
 
 @PointClass base(PlayerClass) studio("models/player.mdl") = info_player_coop : "Player cooperative start" []
-@PointClass base(PlayerClass) studio("models/player.mdl") = info_player_deathmatch : "Player deathmatch start" 
+@PointClass base(PlayerClass, Master) studio("models/player.mdl") = info_player_deathmatch : "Player deathmatch start" 
 [
   target(target_destination) : "Target"
-  master(string) : "Master"
 ]
 @PointClass base(PlayerClass) studio("models/player.mdl") = info_player_start : "Player 1 start" []
 
@@ -1893,11 +1876,10 @@
   ]
 ]
 
-@SolidClass base(RenderFields, Targetname, Angles, ZHLT) = momentary_rot_button : "Direct wheel control" 
+@SolidClass base(RenderFields, Targetname, Angles, ZHLT, Master) = momentary_rot_button : "Direct wheel control" 
 [
   target(target_destination) : "Targetted object"
   speed(integer) : "Speed" : 50
-  master(string) : "Master" 
   sounds(sound) : "Sounds"
   distance(integer) : "Distance (deg)" : 90
   returnspeed(integer) : "Auto-return speed" : 0
@@ -2444,9 +2426,8 @@
   ]
 ]
 
-@SolidClass base(Targetname) = trigger_autosave : "AutoSave Trigger"
+@SolidClass base(Targetname, Master) = trigger_autosave : "AutoSave Trigger"
 [
-  master(string) : "Master" 
 ]
 
 @PointClass base(Targetx, Targetname) iconsprite("sprites/trigger_camera.spr") = trigger_camera : "Trigger Camera" 
@@ -2495,13 +2476,12 @@
   m_iszNewTarget(string) : "New Target"
 ]
 
-@SolidClass base(Trigger, Targetname) = trigger_counter : "Trigger counter" 
+@SolidClass base(Trigger, Targetname, Master) = trigger_counter : "Trigger counter" 
 [
   spawnflags(flags) = 
   [ 
     1 : "No Message" : 0 
   ]
-  master(string) : "Master" 
   count(integer) : "Count before activation" : 2
 ]
 
@@ -2519,7 +2499,7 @@
   gravity(integer) : "Gravity (0-1)" : 1
 ]
 
-@SolidClass base(Targetname,Target) = trigger_hurt : "Trigger player hurt" 
+@SolidClass base(Targetname,Target, Master) = trigger_hurt : "Trigger player hurt" 
 [
   spawnflags(flags) = 
   [ 
@@ -2529,7 +2509,6 @@
     16:"FireClientOnly" : 0
     32:"TouchClientOnly" : 0
   ]
-  master(string) : "Master" 
   dmg(integer) : "Damage" : 10
   delay(string) : "Delay before trigger" : "0"
   damagetype(choices) : "Damage Type" : 0 =
@@ -2558,9 +2537,8 @@
   ]
 ]
 
-@SolidClass base(Angles) = trigger_monsterjump : "Trigger monster jump" 
+@SolidClass base(Angles, Master) = trigger_monsterjump : "Trigger monster jump" 
 [
-  master(string) : "Master" 
   speed(integer) : "Jump Speed" : 40
   height(integer) : "Jump Height" : 128
 ]
@@ -3240,7 +3218,7 @@ initammo(string) : "Initial Ammo" : "6"
 // TRIGGERS
 //
 
-@SolidClass base(Targetname,Target) = trigger_geneworm_hit : "Trigger GeneWorm Hit" 
+@SolidClass base(Targetname,Target, Master) = trigger_geneworm_hit : "Trigger GeneWorm Hit" 
 [
   spawnflags(flags) = 
   [ 
@@ -3250,7 +3228,6 @@ initammo(string) : "Initial Ammo" : "6"
     16:"FireClientOnly" : 0
     32:"TouchClientOnly" : 0
   ]
-  master(string) : "Master" 
   delay(string) : "Delay before trigger" : "0"
 ]
 
