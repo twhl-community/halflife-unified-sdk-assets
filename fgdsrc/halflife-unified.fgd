@@ -1868,6 +1868,12 @@
 	_light(color255) : "Brightness" : "255 255 128 200"
 ]
 
+@PointClass base(Targetname, Master) size(-8 -8 -8, 8 8 8) color(200 100 50) = logic_setcvar : "Set cvar on trigger"
+[
+	cvar_name(string) : "CVar Name"
+	cvar_value(string) : "CVar Value To Set"
+]
+
 @SolidClass base(Door, ZHLT) = momentary_door : "Momentary/Continuous door" 
 [
   spawnflags(flags) =
