@@ -1,0 +1,5 @@
+//List of commands allowed to be executed by Command sections in configuration files and logic_setcvar.
+[
+	//Allow to change gravity.
+	"sv_gravity"
+]

@@ -1,5 +1,0 @@
-//List of commands allowed to be executed by Command sections in configuration files.
-[
-	//Allow to change gravity.
-	"sv_gravity"
-]
