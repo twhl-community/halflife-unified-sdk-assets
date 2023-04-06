@@ -1,15 +1,15 @@
-Total Score: %d points
-Kills: %d kills
-CTF Score: %d points
-Offense: %d points
-Defense: %d points
-Sniper Kills: %d kills
-Barnacle Kills: %d kills
-Deaths: %d times
-Suicides: %d times
-Damage: %d damage
-Accelerator time: %d:%02d
-Backpack time: %d:%02d
-Health time: %d:%02d
-Shield time: %d:%02d
-Jump Pack time: %d:%02d
+Total Score: {} points
+Kills: {} kills
+CTF Score: {} points
+Offense: {} points
+Defense: {} points
+Sniper Kills: {} kills
+Barnacle Kills: {} kills
+Deaths: {} times
+Suicides: {} times
+Damage: {} damage
+Accelerator time: {}:{:02}
+Backpack time: {}:{:02}
+Health time: {}:{:02}
+Shield time: {}:{:02}
+Jump Pack time: {}:{:02}

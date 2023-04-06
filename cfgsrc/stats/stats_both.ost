@@ -1,15 +1,15 @@
-MVP: %s with %d points
-Most Kills: %s with %d kills
-Highest CTF Score: %s with %d points
-Most Offense: %s with %d points
-Most Defense: %s with %d points
-Most Sniper Kills: %s with %d kills
-Most Barnacle Kills: %s with %d kills
-Most Deaths: %s died %d times
-Suicide King: %s killed themself %d times
-Most Damage: %s with %d damage
-Accelerator Whore: %s carried for %d:%02d
-Most Backpack time: %s carried for %d:%02d
-Most Health time: %s carried for %d:%02d
-Most Shield time: %s carried for %d:%02d
-Most Jump Pack time: %s carried for %d:%02d
+MVP: {} with {} points
+Most Kills: {} with {} kills
+Highest CTF Score: {} with {} points
+Most Offense: {} with {} points
+Most Defense: {} with {} points
+Most Sniper Kills: {} with {} kills
+Most Barnacle Kills: {} with {} kills
+Most Deaths: {} died {} times
+Suicide King: {} killed themself {} times
+Most Damage: {} with {} damage
+Accelerator Whore: {} carried for {}:{:02}
+Most Backpack time: {} carried for {}:{:02}
+Most Health time: {} carried for {}:{:02}
+Most Shield time: {} carried for {}:{:02}
+Most Jump Pack time: {} carried for {}:{:02}
