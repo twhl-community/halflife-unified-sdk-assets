@@ -2323,3 +2323,127 @@
 "respawn_delay" "5"
 "origin" "-464 488 32"
 }
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"spawnobject" "Nothing"
+{
+( -512 -512 48 ) ( -512 -512 0 ) ( -512 -448 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -448 -448 48 ) ( -448 -448 0 ) ( -448 -512 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -448 48 ) ( -512 -448 0 ) ( -448 -448 48 ) CRATE09C [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -448 -512 48 ) ( -448 -512 0 ) ( -512 -512 48 ) CRATE09C [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -448 -512 48 ) ( -512 -512 48 ) ( -448 -448 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -448 0 ) ( -512 -512 0 ) ( -448 -448 0 ) CRATE08B [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1.33333 1.33333
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"spawnobject" "item_battery"
+{
+( -384 -448 48 ) ( -384 -448 0 ) ( -384 -512 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -448 -512 48 ) ( -448 -512 0 ) ( -448 -448 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -512 48 ) ( -384 -512 0 ) ( -448 -512 48 ) CRATE09C [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -448 -448 48 ) ( -448 -448 0 ) ( -384 -448 48 ) CRATE09C [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -448 -448 0 ) ( -448 -512 0 ) ( -384 -448 0 ) CRATE08B [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1.33333 1.33333
+( -384 -512 48 ) ( -448 -512 48 ) ( -384 -448 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"spawnobject" "ammo_9mmclip"
+{
+( -384 -512 48 ) ( -384 -512 0 ) ( -384 -448 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 -448 48 ) ( -320 -448 0 ) ( -320 -512 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -384 -448 48 ) ( -384 -448 0 ) ( -320 -448 48 ) CRATE09C [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 -512 48 ) ( -320 -512 0 ) ( -384 -512 48 ) CRATE09C [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 -512 48 ) ( -384 -512 48 ) ( -320 -448 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( -384 -448 0 ) ( -384 -512 0 ) ( -320 -448 0 ) CRATE08B [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1.33333 1.33333
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"spawnobject" "weapon_9mmhandgun"
+{
+( -320 -512 48 ) ( -320 -512 0 ) ( -320 -448 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -448 48 ) ( -256 -448 0 ) ( -256 -512 48 ) CRATE09 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 -448 48 ) ( -320 -448 0 ) ( -256 -448 48 ) CRATE09C [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 48 ) ( -256 -512 0 ) ( -320 -512 48 ) CRATE09C [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 48 ) ( -320 -512 48 ) ( -256 -448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 -0 ] 0 1 1
+( -320 -448 0 ) ( -320 -512 0 ) ( -256 -448 0 ) CRATE08B [ 1 0 0 -0 ] [ 0 -1 0 -0 ] 0 1.33333 1.33333
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.025"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.25"
+"x" "-1"
+"targetname" "breakable_message"
+"message" "Breakables set to spawn items\nFrom left to right:\nweapon_9mmhandgun\nammo_9mmclip\nitem_battery\nNothing"
+"origin" "-384 -408 8"
+}
+{
+"classname" "trigger_multiple"
+"wait" "10"
+"delay" "0"
+"sounds" "0"
+"target" "breakable_message"
+{
+( -512 -512 128 ) ( -512 -512 0 ) ( -512 -416 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -416 128 ) ( -256 -416 0 ) ( -256 -512 128 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -416 128 ) ( -512 -416 0 ) ( -256 -416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 128 ) ( -256 -512 0 ) ( -512 -512 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -512 128 ) ( -512 -512 128 ) ( -256 -416 128 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -416 0 ) ( -512 -512 0 ) ( -256 -416 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
