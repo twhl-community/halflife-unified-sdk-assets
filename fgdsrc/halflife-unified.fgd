@@ -2224,6 +2224,13 @@
 	fail_target(target_destination) : "Target To Fire On Fail"
 ]
 
+@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_hasweapon : "Fires a target based on whether the activating player has the given weapon or not" 
+[
+	pass_target(target_destination) : "Target To Fire On Pass"
+	fail_target(target_destination) : "Target To Fire On Fail"
+	weapon_name(string) : "Weapon Name"
+]
+
 @PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_loadsaved : "Load Auto-Saved game" 
 [
   duration(string) : "Fade Duration (seconds)" : "2"
