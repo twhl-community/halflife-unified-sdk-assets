@@ -1,0 +1,381 @@
+{
+"classname" "worldspawn"
+"defaultctf" "0"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 288 256 160 ) ( 288 256 0 ) ( 288 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 288 -256 0 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 256 -256 160 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 0 ) ( 256 -256 0 ) ( 288 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 256 160 ) ( -256 256 0 ) ( -256 -256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 -256 160 ) ( -288 -256 0 ) ( -288 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( -288 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 256 160 ) ( -288 256 0 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -288 -256 160 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -288 256 0 ) ( -288 -256 0 ) ( -256 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 288 160 ) ( 256 288 0 ) ( 256 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 256 0 ) ( -256 288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( -256 256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 288 160 ) ( -256 288 0 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( -256 256 160 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 288 0 ) ( -256 256 0 ) ( 256 288 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 -288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -288 160 ) ( -256 -288 0 ) ( -256 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( 256 -288 0 ) ( -256 -288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( 256 -256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( -256 -288 160 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -288 0 ) ( 256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 192 ) ( 256 256 160 ) ( 256 -256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 192 ) ( -256 -256 160 ) ( -256 256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( 256 -256 160 ) ( -256 -256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 192 ) ( -256 256 160 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( -256 -256 192 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 160 ) ( -256 -256 160 ) ( 256 256 160 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 0 ) ( 256 256 -32 ) ( 256 -256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -256 -32 ) ( -256 256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( 256 -256 -32 ) ( -256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 0 ) ( -256 256 -32 ) ( 256 256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( -256 -256 0 ) ( 256 256 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 -32 ) ( -256 -256 -32 ) ( 256 256 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 200"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "logic_isskill"
+"targetname" "showmessage"
+"skill1" "easy_message"
+"skill2" "medium_message"
+"skill3" "hard_message"
+"origin" "-128 0 8"
+}
+{
+"classname" "logic_setskill"
+"skill_level" "1"
+"targetname" "easy"
+"target" "showmessage"
+"origin" "-64 64 56"
+}
+{
+"classname" "func_button"
+"spawnflags" "33"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sounds" "buttons/button7.wav"
+"target" "medium"
+{
+( -72 -8 48 ) ( -72 -8 0 ) ( -72 8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 8 48 ) ( -56 8 0 ) ( -56 -8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -72 8 48 ) ( -72 8 0 ) ( -56 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 -8 48 ) ( -56 -8 0 ) ( -72 -8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 -8 48 ) ( -72 -8 48 ) ( -56 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -72 8 0 ) ( -72 -8 0 ) ( -56 8 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "33"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sounds" "buttons/button7.wav"
+"target" "easy"
+{
+( -72 56 48 ) ( -72 56 0 ) ( -72 72 48 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 72 48 ) ( -56 72 0 ) ( -56 56 48 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -72 72 48 ) ( -72 72 0 ) ( -56 72 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 56 48 ) ( -56 56 0 ) ( -72 56 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 56 48 ) ( -72 56 48 ) ( -56 72 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -72 72 0 ) ( -72 56 0 ) ( -56 72 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "33"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sounds" "buttons/button7.wav"
+"target" "hard"
+{
+( -72 -72 48 ) ( -72 -72 0 ) ( -72 -56 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 -56 48 ) ( -56 -56 0 ) ( -56 -72 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -72 -56 48 ) ( -72 -56 0 ) ( -56 -56 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 -72 48 ) ( -56 -72 0 ) ( -72 -72 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -56 -72 48 ) ( -72 -72 48 ) ( -56 -56 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( -72 -56 0 ) ( -72 -72 0 ) ( -56 -56 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "logic_setskill"
+"skill_level" "2"
+"targetname" "medium"
+"target" "showmessage"
+"origin" "-64 0 56"
+}
+{
+"classname" "logic_setskill"
+"skill_level" "3"
+"targetname" "hard"
+"target" "showmessage"
+"origin" "-64 -64 56"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.75"
+"x" "-1"
+"targetname" "message"
+"message" "This map tests entities used to\ncontrol the skill system\nFemale assassins become invisible\non Hard difficulty\nGod mode is recommended"
+"origin" "-248 0 8"
+}
+{
+"classname" "game_text"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.25"
+"x" "-1"
+"message" "Skill level is Easy"
+"targetname" "easy_message"
+"origin" "-216 -40 8"
+}
+{
+"classname" "game_text"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.25"
+"x" "-1"
+"message" "Skill level is Medium"
+"targetname" "medium_message"
+"origin" "-216 0 8"
+}
+{
+"classname" "game_text"
+"channel" "2"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.25"
+"x" "-1"
+"message" "Skill level is Hard"
+"targetname" "hard_message"
+"origin" "-216 32 8"
+}
+{
+"classname" "logic_setskill"
+"skill_level" "1"
+"origin" "-208 16 56"
+}
+{
+"classname" "trigger_multiple"
+"wait" "10"
+"delay" "0"
+"sounds" "0"
+"target" "message"
+{
+( 256 256 160 ) ( 256 256 0 ) ( 256 -256 160 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( -256 256 160 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 160 ) ( 256 -256 0 ) ( -256 -256 160 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 256 0 ) ( 256 256 160 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 0 ) ( -256 -256 0 ) ( 256 256 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 -256 160 ) ( -256 -256 160 ) ( 256 256 160 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "monstermaker"
+"spawnflags" "1"
+"m_imaxlivechildren" "1"
+"delay" "1"
+"monstercount" "-1"
+"angles" "0 0 0"
+"monstertype" "monster_human_assassin"
+"origin" "128 0 64"
+}
+{
+"classname" "func_button"
+"spawnflags" "33"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sounds" "buttons/button7.wav"
+"target" "highhealth"
+{
+( -200 -256 48 ) ( -200 -256 0 ) ( -200 -240 48 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -184 -240 48 ) ( -184 -240 0 ) ( -184 -256 48 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -200 -240 48 ) ( -200 -240 0 ) ( -184 -240 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -184 -256 48 ) ( -184 -256 0 ) ( -200 -256 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -184 -256 48 ) ( -200 -256 48 ) ( -184 -240 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 -0 ] 0 0.5 0.5
+( -200 -240 0 ) ( -200 -256 0 ) ( -184 -240 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 -0 ] 0 0.5 0.5
+}
+}
+{
+"classname" "logic_setskillvar"
+"targetname" "highhealth"
+"var_name" "hassassin_health"
+"var_value" "50"
+"target" "highhealth_message"
+"origin" "-192 -248 56"
+}
+{
+"classname" "func_button"
+"spawnflags" "33"
+"wait" "3"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"sounds" "buttons/button7.wav"
+"target" "lowhealth"
+{
+( -136 -256 48 ) ( -136 -256 0 ) ( -136 -240 48 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -120 -240 48 ) ( -120 -240 0 ) ( -120 -256 48 ) +0BUTTON1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -136 -240 48 ) ( -136 -240 0 ) ( -120 -240 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -120 -256 48 ) ( -120 -256 0 ) ( -136 -256 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 0.5
+( -120 -256 48 ) ( -136 -256 48 ) ( -120 -240 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 -0 ] 0 0.5 0.5
+( -136 -240 0 ) ( -136 -256 0 ) ( -120 -240 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 -0 ] 0 0.5 0.5
+}
+}
+{
+"classname" "logic_setskillvar"
+"targetname" "lowhealth"
+"var_name" "hassassin_health"
+"var_value" "10"
+"target" "lowhealth_message"
+"origin" "-128 -248 56"
+}
+{
+"classname" "game_text"
+"channel" "3"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.5"
+"x" "-1"
+"message" "Set newly spawned Assassin health to 10"
+"targetname" "lowhealth_message"
+"origin" "-128 -232 8"
+}
+{
+"classname" "game_text"
+"channel" "3"
+"fxtime" "0.25"
+"holdtime" "10"
+"fadeout" "0.5"
+"fadein" "0.05"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "2"
+"y" "0.5"
+"x" "-1"
+"message" "Set newly spawned Assassin health to 50"
+"targetname" "highhealth_message"
+"origin" "-192 -232 8"
+}
+{
+"classname" "item_suit"
+"body" "0"
+"fall_mode" "0"
+"play_pickup_sound" "0"
+"flash_on_respawn" "1"
+"stay_visible_during_respawn" "0"
+"angles" "0 0 0"
+"spawnflags" "0"
+"delay" "0"
+"origin" "-192 0 0.0635414"
+}
+{
+"classname" "weapon_crowbar"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "1"
+"stay_visible_during_respawn" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"origin" "-160 4.76837e-007 0"
+}

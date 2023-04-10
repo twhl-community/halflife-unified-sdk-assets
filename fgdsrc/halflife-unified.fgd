@@ -1850,6 +1850,29 @@
 	cvar_value(string) : "CVar Value To Set"
 ]
 
+@PointClass base(Targetname, Master) size(-8 -8 -8, 8 8 8) color(200 100 50) = logic_isskill : "Fires a target based on the current skill level"
+[
+	skill1(target_destination) : "Target to fire for Easy"
+	skill2(target_destination) : "Target to fire for Medium"
+	skill3(target_destination) : "Target to fire for Hard"
+]
+
+@PointClass base(Targetname, Target, Master) size(-8 -8 -8, 8 8 8) color(200 100 50) = logic_setskill : "Set skill level to specified value\nSome variables require a map change to take effect"
+[
+	skill_level(choices) : "Skill level to set" : 1 =
+	[
+		1 : "Easy"
+		2 : "Medium"
+		3 : "Hard"
+	]
+]
+
+@PointClass base(Targetname, Target, Master) size(-8 -8 -8, 8 8 8) color(200 100 50) = logic_setskillvar : "Set skill variables to a provided value"
+[
+	var_name(string) : "Variable name"
+	var_value(string) : "Value (number)"
+]
+
 @SolidClass base(Door, ZHLT) = momentary_door : "Momentary/Continuous door" 
 [
   spawnflags(flags) =
