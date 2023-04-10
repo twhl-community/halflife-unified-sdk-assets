@@ -1,0 +1,19 @@
+// Multiplayer-only skill values
+{
+	"suitcharger": 30,
+			
+	"plr_crowbar": 25,
+	"plr_9mm_bullet": 12,
+	"plr_357_bullet": 40,
+	"plr_9mmAR_bullet": 12,
+	"plr_9mmAR_grenade": 100,
+	"plr_buckshot": 20, // fewer pellets in deathmatch
+	"plr_xbow_bolt_client": 20,
+	"plr_rpg": 120,
+	"plr_egon_wide": 20,
+	"plr_egon_narrow": 10,
+	"plr_hand_grenade": 100,
+	"plr_satchel": 120,
+	"plr_tripmine": 150,
+	"plr_hornet_dmg": 10
+}

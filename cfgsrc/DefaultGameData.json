@@ -14,6 +14,14 @@
 				"FileNames": ["cfg/skill.json"]
 			}
 		}
+	},
+	{
+		"Condition": "Multiplayer",
+		"Sections": {
+			"Skill": {
+				"FileNames": ["cfg/skill_multiplayer.json"]
+			}
+		}
 	}
 	]
 }
