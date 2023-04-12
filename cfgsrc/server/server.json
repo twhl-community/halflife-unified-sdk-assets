@@ -22,9 +22,6 @@
 // teamplay
 
 {
-	"Includes": [
-		"cfg/DefaultGameData.json"
-	],
 	"SectionGroups": [
 	{
 		"Condition": "Singleplayer",
