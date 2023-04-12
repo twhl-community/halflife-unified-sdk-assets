@@ -15,5 +15,26 @@
 	"plr_hand_grenade": 100,
 	"plr_satchel": 120,
 	"plr_tripmine": 150,
-	"plr_hornet_dmg": 10
+	"plr_hornet_dmg": 10,
+	"plr_grapple": 50,
+	
+	"crowbar_full_damage": 1,
+	"revolver_laser_sight": 1,
+	"smg_wide_spread": 1,
+	"shotgun_single_tight_spread": 1,
+	"shotgun_double_wide_spread": 1,
+	"crossbow_sniper_bolt": 1,
+	"crossbow_explosive_bolt": 1,
+	"gauss_charge_time": 1.5,
+	"gauss_fast_ammo_use": 1,
+	"gauss_vertical_force": 1,
+	"gauss_damage_radius": 1.75,
+	"egon_narrow_ammo_per_second": 10,
+	"egon_wide_ammo_per_second": 6,
+	"egon_wide_radius_damage": 1,
+	"pipewrench_full_damage": 1,
+	"knife_allow_backstab": 1,
+	"grapple_fast": 1,
+	"m249_wide_spread": 1,
+	"shockrifle_fast": 1
 }

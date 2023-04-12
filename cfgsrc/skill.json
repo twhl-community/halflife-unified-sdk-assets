@@ -514,5 +514,26 @@
 	"player_chest": 1,
 	"player_stomach": 1,
 	"player_arm": 1,
-	"player_leg": 1
+	"player_leg": 1,
+	
+	// Multiplayer weapon configuration
+	"crowbar_full_damage": 0,
+	"revolver_laser_sight": 0,
+	"smg_wide_spread": 0,
+	"shotgun_single_tight_spread": 0,
+	"shotgun_double_wide_spread": 0,
+	"crossbow_sniper_bolt": 0,
+	"crossbow_explosive_bolt": 0,
+	"gauss_charge_time": 4,
+	"gauss_fast_ammo_use": 0,
+	"gauss_vertical_force": 0,
+	"gauss_damage_radius": 2.5,
+	"egon_narrow_ammo_per_second": 6,
+	"egon_wide_ammo_per_second": 10,
+	"egon_wide_radius_damage": 0,
+	"pipewrench_full_damage": 0,
+	"knife_allow_backstab": 0,
+	"grapple_fast": 0,
+	"m249_wide_spread": 0,
+	"shockrifle_fast": 0
 }
