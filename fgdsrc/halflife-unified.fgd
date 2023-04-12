@@ -2572,7 +2572,7 @@
   speed(integer) : "Speed of push" : 40
 ]
 
-@PointClass base(Targetx, Targetname) iconsprite("sprites/trigger_relay.spr") = trigger_relay : "Trigger Relay"
+@PointClass base(Targetname, Targetx, Master) iconsprite("sprites/trigger_relay.spr") = trigger_relay : "Trigger Relay"
 [
   spawnflags(flags) =
   [
