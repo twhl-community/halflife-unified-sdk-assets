@@ -251,11 +251,6 @@
     0 : "Fewest Players"
     1 : "First Team"
   ]
-  defaultctf(choices) : "Default CTF" : 0 =
-  [
-    0 : "Not CTF map"
-    1 : "CTF map"
-  ]
 ]
 
 //

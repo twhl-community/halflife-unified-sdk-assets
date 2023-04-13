@@ -94,10 +94,18 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0.000000" }
 	}
 
-	"mp_teamplay"
+	"mp_createserver_gamemode"
 	{
-		"#Valve_Teamplay"
-		{ BOOL }
+		"#Valve_GameMode"
+		{
+			LIST
+			// Note: see GameModeIndexToString in CGameRules.cpp
+			"Autodetect" "0"
+			"Deathmatch" "1"
+			"Teamplay" "2"
+			"Capture The Flag" "3"
+			"Co-op" "4"
+		}
 		{ "0" }
 	}
 
