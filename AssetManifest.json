@@ -24,6 +24,11 @@
 				{
 					"Source": "cfgsrc",
 					"Destination": "",
+					"Pattern": "mapcycle.txt"
+				},
+				{
+					"Source": "cfgsrc",
+					"Destination": "",
 					"Pattern": "titles.txt"
 				},
 				{

@@ -1,0 +1,1 @@
+// This file is intentionally empty. Use cfg/server/mapcycle.json instead.
