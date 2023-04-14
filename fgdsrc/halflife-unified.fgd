@@ -942,10 +942,6 @@
 	rendercolor(color255) : "FX Color (R G B)" : "0 0 0"
 ]
 
-@PointClass base(Monster) size(-16 -16 -16, 16 16 16) flags(Angle) = cycler_weapon : "Weapon Cycler" 
-[
-]
-
 //
 // Environmental effects
 //
