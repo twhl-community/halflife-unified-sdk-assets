@@ -1,0 +1,39 @@
+{
+    "SectionGroups": [
+		{
+            "Condition": "Multiplayer",
+            "Sections": {
+                "SpawnInventory": {
+                    "HasSuit": true,
+                    "Weapons": {
+                        "weapon_crowbar": {},
+                        "weapon_9mmhandgun": {}
+                    },
+                    "Ammo": {
+                        "9mm": 68
+                    },
+                    "WeaponToSelect": "weapon_9mmhandgun"
+                }
+            }
+        },
+		{
+			// Override default multiplayer inventory for CTF.
+            "Condition": "Multiplayer && GameMode == \"ctf\"",
+            "Sections": {
+                "SpawnInventory": {
+                    "Reset": true,
+                    "HasSuit": true,
+                    "Weapons": {
+                        "weapon_pipewrench": {},
+                        "weapon_eagle": {},
+                        "weapon_grapple": {}
+                    },
+                    "Ammo": {
+                        "357": 21
+                    },
+                    "WeaponToSelect": "weapon_grapple"
+                }
+            }
+        }
+    ]
+}

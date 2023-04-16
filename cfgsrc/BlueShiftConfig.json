@@ -1,4 +1,7 @@
 {
+	"Includes": [
+		"cfg/BaseGameConfig.json"
+	],
     "SectionGroups": [
 		{
             "Sections": {

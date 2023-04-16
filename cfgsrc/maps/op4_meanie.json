@@ -1,5 +1,16 @@
 {
 	"Includes": [
 		"cfg/OpposingForceConfig.json"
+	],
+	"SectionGroups": [
+		{
+			"Condition": "Multiplayer",
+			"Sections": {
+				"SpawnInventory": {/*This map uses game_player_equip to set player inventory*/
+					"Reset": true,
+					"HasSuit": true
+				}
+			}
+		}
 	]
 }
