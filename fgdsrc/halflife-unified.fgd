@@ -2467,6 +2467,12 @@
 	1 : "Yes"
   ]
   
+  use_persistent_inventory(choices) : "Use Persistent Inventory (Co-op only)" : 1 =
+  [
+	0 : "No"
+	1 : "Yes"
+  ]
+  
   spawnflags(flags) =
   [
     1: "No Intermission" : 0
