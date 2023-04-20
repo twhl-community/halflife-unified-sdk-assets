@@ -1,5 +1,14 @@
 {
 	"Includes": [
 		"cfg/BlueShiftConfig.json"
+	],
+	"SectionGroups": [
+		{
+			"Sections": {
+				"SpawnInventory": {/*Give the player the HEV suit so they can see the HUD*/
+					"HasSuit": true
+				}
+			}
+		}
 	]
 }
