@@ -538,5 +538,29 @@
 	"shockrifle_fast": 0,
 	
 	// If set to 1, players can +USE entities while their current weapon is busy
-	"allow_use_while_busy": 0
+	"allow_use_while_busy": 0,
+	
+	"allow_flashlight" : 1,
+	
+	"allow_monsters": 1,
+	
+	// 0 == fixed damage
+	// 1 == progressive, longer falls deal more damage
+	"falldamagemode": 1,
+	
+	// -1 == never recharge
+	// 0 == recharge immediately
+	// > 0 == recharge after given amount of time has passed
+	"healthcharger_recharge_time": -1,
+	"hevcharger_recharge_time": -1,
+	
+	// -1 == never respawn
+	// 0 == respawn immediately
+	// > 0 == respawn after given amount of time has passed
+	"weapon_respawn_time": -1,
+	"ammo_respawn_time": -1,
+	"pickupitem_respawn_time": -1,
+	
+	// If set to 1, weapons not flagged to be limited in world will respawn immediately
+	"weapon_instant_respawn": 0
 }

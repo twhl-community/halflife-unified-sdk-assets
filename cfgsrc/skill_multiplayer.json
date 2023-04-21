@@ -36,5 +36,20 @@
 	"knife_allow_backstab": 1,
 	"grapple_fast": 1,
 	"m249_wide_spread": 1,
-	"shockrifle_fast": 1
+	"shockrifle_fast": 1,
+	
+	"allow_flashlight" : 0,
+	
+	"allow_monsters": 0,
+	
+	"falldamagemode": 0,
+	
+	"healthcharger_recharge_time": 60,
+	"hevcharger_recharge_time": 30,
+	
+	"weapon_respawn_time": 20,
+	"ammo_respawn_time": 20,
+	"pickupitem_respawn_time": 30,
+	
+	"weapon_instant_respawn": 0
 }

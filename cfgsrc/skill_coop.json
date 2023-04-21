@@ -1,0 +1,12 @@
+// Skill values for the Co-op gamemode
+{
+	"allow_monsters": 1,
+	"falldamagemode": 1,
+	"healthcharger_recharge_time": -1,
+	"hevcharger_recharge_time": -1,
+	"weapon_respawn_time": -1,
+	"ammo_respawn_time": -1,
+	"pickupitem_respawn_time": -1,
+	
+	"weapon_instant_respawn": 0
+}
