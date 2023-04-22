@@ -83,17 +83,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0.000000" }
 	}
 
-	"mp_falldamage"
-	{
-		"#Valve_Falling_Damage"
-		{
-			LIST
-			"#Valve_Normal" "0"
-			"#Valve_Realistic" "1"
-		}
-		{ "0.000000" }
-	}
-
 	"mp_createserver_gamemode"
 	{
 		"#Valve_GameMode"
@@ -116,13 +105,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 
-	"mp_weaponstay"
-	{
-		"#Valve_Weapons_Stay"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"mp_forcerespawn"
 	{
 		"#Valve_Force_Respawn"
@@ -135,13 +117,6 @@ DESCRIPTION SERVER_OPTIONS
 		"#Valve_Footsteps"
 		{ BOOL }
 		{ "1" }
-	}
-
-	"mp_flashlight"
-	{
-		"#Valve_Flashlight"
-		{ BOOL }
-		{ "0" }
 	}
 
 	"mp_autocrosshair"
