@@ -3,5 +3,5 @@
 		"cfg/OpposingForceConfig.json"
 	],
 	"GameMode": "ctf",
-	"AllowGameModeOverride": false
+	"LockGameMode": true
 }
