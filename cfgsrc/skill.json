@@ -562,5 +562,7 @@
 	"pickupitem_respawn_time": -1,
 	
 	// If set to 1, weapons not flagged to be limited in world will respawn immediately
-	"weapon_instant_respawn": 0
+	"weapon_instant_respawn": 0,
+	
+	"allow_weapon_dropping": 0
 }

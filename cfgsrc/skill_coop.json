@@ -8,5 +8,7 @@
 	"ammo_respawn_time": -1,
 	"pickupitem_respawn_time": -1,
 	
-	"weapon_instant_respawn": 0
+	"weapon_instant_respawn": 0,
+	
+	"allow_weapon_dropping": 1
 }
