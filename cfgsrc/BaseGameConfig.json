@@ -13,6 +13,10 @@
 						"9mm": 68
 					},
 					"WeaponToSelect": "weapon_9mmhandgun"
+				},
+				"EntityTemplates": {
+					"ammo_rpgclip": "cfg/entitytemplates/multiplayer/ammo_rpgclip.json",
+					"weapon_rpg": "cfg/entitytemplates/multiplayer/weapon_rpg.json"
 				}
 			}
 		},
