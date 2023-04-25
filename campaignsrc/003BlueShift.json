@@ -1,0 +1,6 @@
+{
+	"Label": "Half-Life: Blue Shift",
+	"Description": "The Half-Life: Blue Shift campaign.\n\nRelease date: 2001.\nRequires Blue Shift to be installed.",
+	"CampaignMap": "ba_tram1",
+	"TrainingMap": "ba_hazard1"
+}

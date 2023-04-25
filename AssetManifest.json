@@ -6,6 +6,11 @@
 			"Path": "%ModDirectory%",
 			"Filters": [
 				{
+					"Source": "campaignsrc",
+					"Destination": "campaigns",
+					"Pattern": "*.json"
+				},
+				{
 					"Source": "cfgsrc",
 					"Destination": "",
 					"Pattern": "server.cfg"
