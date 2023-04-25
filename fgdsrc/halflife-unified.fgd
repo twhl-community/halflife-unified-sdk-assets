@@ -1835,6 +1835,10 @@
 	_light(color255) : "Brightness" : "255 255 128 200"
 ]
 
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) color(255 255 0) = logic_campaignselect : "Shows the campaign select menu on trigger (hlu_campaignselect map only)"
+[
+]
+
 @PointClass base(Targetname, Master) size(-8 -8 -8, 8 8 8) color(200 100 50) = logic_setcvar : "Set cvar on trigger"
 [
 	cvar_name(string) : "CVar Name"

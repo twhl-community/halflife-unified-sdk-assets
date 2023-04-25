@@ -2075,6 +2075,50 @@ CTFMenu_SaveStats
 Save Stats
 }
 
+CampaignSelect_Title
+{
+Start Campaign
+}
+
+CampaignSelect_Mission
+{
+Mission:
+}
+
+CampaignSelect_Campaign
+{
+Campaign
+}
+
+CampaignSelect_Training
+{
+Training
+}
+
+CampaignSelect_Difficulty
+{
+Difficulty:
+}
+
+CampaignSelect_Easy
+{
+Easy
+}
+
+CampaignSelect_Medium
+{
+Medium
+}
+
+CampaignSelect_Hard
+{
+Hard
+}
+
+CampaignSelect_Start
+{
+Play
+}
 
 //
 // Blue Shift
