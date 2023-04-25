@@ -85,6 +85,12 @@
 				{
 					"Source": "resourcesrc",
 					"Destination": "resource",
+					"Pattern": "*.res",
+					"Recursive": true
+				},
+				{
+					"Source": "resourcesrc",
+					"Destination": "resource",
 					"Pattern": "*.txt",
 					"Recursive": true
 				},
