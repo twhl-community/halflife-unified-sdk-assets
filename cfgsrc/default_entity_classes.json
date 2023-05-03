@@ -1,0 +1,191 @@
+{
+	// Class none is always added and should only have relationship "none" (default) to all classes.
+	"none": {},
+	"machine": {
+		"Relationships": {
+			"player": "dislike",
+			"human_passive": "dislike",
+			"human_military": "none",
+			"alien_military": "dislike",
+			"alien_passive": "dislike",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"player_ally": "dislike",
+			"player_bioweapon": "dislike",
+			"alien_bioweapon": "dislike",
+			"human_military_ally": "dislike",
+			"race_x": "dislike"
+		}
+	},
+	"player": {
+		"Relationships": {
+			"machine": "dislike",
+			"human_military": "dislike",
+			"alien_military": "dislike",
+			"alien_passive": "dislike",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"player_bioweapon": "dislike",
+			"alien_bioweapon": "dislike",
+			"race_x": "dislike"
+		}
+	},
+	"human_passive": {
+		"Relationships": {
+			"player": "ally",
+			"human_passive": "ally",
+			"human_military": "hate",
+			"alien_military": "hate",
+			"alien_monster": "hate",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"player_ally": "ally",
+			"human_military_ally": "dislike",
+			"race_x": "hate"
+		}
+	},
+	"human_military": {
+		"Relationships": {
+			"player": "hate",
+			"human_passive": "dislike",
+			"alien_military": "hate",
+			"alien_passive": "dislike",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"player_ally": "hate",
+			"human_military_ally": "hate",
+			"race_x": "hate"
+		}
+	},
+	"alien_military": {
+		"Relationships": {
+			"machine": "dislike",
+			"player": "hate",
+			"human_passive": "dislike",
+			"human_military": "hate",
+			"player_ally": "dislike",
+			"human_military_ally": "dislike"
+		}
+	},
+	"alien_passive": {},
+	"alien_monster": {
+		"Relationships": {
+			"machine": "dislike",
+			"player": "dislike",
+			"human_passive": "dislike",
+			"human_military": "dislike",
+			"player_ally": "dislike",
+			"human_military_ally": "dislike"
+		}
+	},
+	"alien_prey": {
+		"Relationships": {
+			"player": "dislike",
+			"human_passive": "dislike",
+			"human_military": "dislike",
+			"alien_predator": "fear",
+			"player_ally": "dislike",
+			"human_military_ally": "dislike"
+		}
+	},
+	"alien_predator": {
+		"Relationships": {
+			"player": "dislike",
+			"human_passive": "dislike",
+			"human_military": "dislike",
+			"alien_prey": "hate",
+			"alien_predator": "dislike",
+			"player_ally": "dislike",
+			"human_military_ally": "dislike"
+		}
+	},
+	"insect": {
+		"DefaultRelationshipToTarget": "fear",
+		"Relationships": {
+			"alien_military": "none",
+			"insect": "none",
+			"player_bioweapon": "none",
+			"alien_bioweapon": "none",
+			"race_x": "none"
+		}
+	},
+	"player_ally": {
+		"Relationships": {
+			"machine": "dislike",
+			"player": "ally",
+			"human_passive": "ally",
+			"human_military": "dislike",
+			"alien_military": "dislike",
+			"alien_passive": "dislike",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"human_military_ally": "dislike",
+			"race_x": "dislike"
+		}
+	},
+	// hornets and snarks.launched by players
+	"player_bioweapon": {
+		"Relationships": {
+			"player": "dislike",
+			"human_passive": "dislike",
+			"human_military": "dislike",
+			"alien_military": "dislike",
+			"alien_passive": "dislike",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"player_ally": "dislike",
+			"alien_bioweapon": "dislike",
+			"human_military_ally": "dislike",
+			"race_x": "dislike"
+		}
+	},
+	// hornets and snarks.launched by the alien menace
+	"alien_bioweapon": {
+		"Relationships": {
+			"player": "dislike",
+			"human_passive": "dislike",
+			"human_military": "dislike",
+			"alien_military": "ally",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"player_ally": "dislike",
+			"player_bioweapon": "dislike",
+			"human_military_ally": "dislike",
+			"race_x": "dislike"
+		}
+	},
+	"human_military_ally": {
+		"Relationships": {
+			"machine": "dislike",
+			"player": "ally",
+			"human_passive": "hate",
+			"human_military": "dislike",
+			"alien_military": "dislike",
+			"alien_passive": "dislike",
+			"alien_monster": "dislike",
+			"alien_prey": "dislike",
+			"alien_predator": "dislike",
+			"player_ally": "dislike",
+			"human_military_ally": "ally",
+			"race_x": "dislike"
+		}
+	},
+	"race_x": {
+		"Relationships": {
+			"machine": "dislike",
+			"player": "hate",
+			"human_passive": "dislike",
+			"human_military": "hate",
+			"player_ally": "dislike",
+			"alien_bioweapon": "dislike",
+			"human_military_ally": "dislike"
+		}
+	},
+	// special because no one pays attention to it.
+	"alien_flora": {}
+}
