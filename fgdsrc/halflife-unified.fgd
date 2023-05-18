@@ -642,6 +642,16 @@
     1: "Ally"
     2: "Random"
   ]
+  
+	enable_target_laser(choices) : "Enable Target Laser" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	target_laser_sprite(sprite) : "Target Laser Beam Sprite" : "sprites/laserbeam.spr"
+	target_laser_width(integer) : "Target Laser Beam Width" : 1
+	target_laser_color(color255) : "Target Laser Beam Color" : "255 0 0"
 ]
 
 @BaseClass = PlatSounds 
