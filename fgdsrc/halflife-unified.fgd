@@ -2041,12 +2041,19 @@
   ]
 ]
 @PointClass base(Monster, Sequence) size(-192 -192 0, 192 192 384) studio("models/nihilanth.mdl") = monster_nihilanth : "Nihilanth"  []
-@PointClass base(Monster, Sequence) size(-480 -480 -112, 480 480 24) studio("models/osprey.mdl") = monster_osprey : "Osprey"
+
+@BaseClass = BaseOsprey
 [
-  spawnflags(Flags) = 
-  [
-    64 : "Start Inactive" : 0
-  ]
+	spawnflags(Flags) = 
+	[
+		64 : "Start Inactive" : 0
+	]
+	
+	initial_capacity(integer) : "Initial NPC Capacity (0 == autodetect)" : 0
+]
+
+@PointClass base(Monster, Sequence, BaseOsprey) size(-480 -480 -112, 480 480 24) studio("models/osprey.mdl") = monster_osprey : "Osprey"
+[
 ]
 @PointClass base(Monster, Sequence) size(-6 -6 0, 6 6 6) studio("models/bigrat.mdl") = monster_rat : "Rat (no ai?)" []
 @PointClass base(Weapon,Targetx,RenderFields, Sequence) studio("models/w_satchel.mdl") = monster_satchel : "Live Satchel Charge" []
@@ -2850,12 +2857,8 @@
   ]
 ]
 
-@PointClass base(Monster, Sequence) studio("models/blkop_osprey.mdl") = monster_blkop_osprey : "Black Ops Osprey"
+@PointClass base(Monster, Sequence, BaseOsprey) studio("models/blkop_osprey.mdl") = monster_blkop_osprey : "Black Ops Osprey"
 [
-  spawnflags(Flags) = 
-  [
-    64 : "Start Inactive" : 0
-  ]
 ]
 
 
