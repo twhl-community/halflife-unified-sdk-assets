@@ -1,0 +1,15 @@
+{
+	"Includes": [
+		"cfg/HalfLifeConfig.json"
+	],
+	"SectionGroups": [
+	{
+		"Sections": {
+			"SpawnInventory": {
+				"Reset": true,
+				"HasSuit": true
+			}
+		}
+	}
+	]
+}
