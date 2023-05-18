@@ -2589,11 +2589,19 @@
   ]
 ]
 
-@SolidClass base(Trigger) = trigger_teleport : "Trigger teleport"
+@BaseClass = TeleportBase
 [
-  telesound(string) : "Teleport Sound"
+	fire_on_teleport(target_destination) : "Target To Fire On Teleport"
 ]
 
+@SolidClass base(Trigger, TeleportBase) = trigger_teleport : "Trigger teleport"
+[
+]
+
+@PointClass base(Targetname, Master, Angles, TeleportBase) flags(Angle) color(0 255 0) = point_teleport : "Teleport target to this entity on trigger"
+[
+	target(target_destination) : "Target to teleport"
+]
 
 @SolidClass base(Targetname) = trigger_transition : "Trigger: Select Transition Area" []
 
