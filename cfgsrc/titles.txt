@@ -1025,6 +1025,75 @@ Valve_Show_Score
 Show Scores
 }
 
+//DEMO INTRO TEXT
+
+
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 0 200 50
+$fadein 0.005
+$fxtime 0.5
+$holdtime 3.5
+$fadeout 2.5
+
+//FROM INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.02
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+DEMOTXT1
+{
+SUBJECT:
+GORDON FREEMAN, Ph.D.
+}
+
+DEMOTXT2
+{
+CURRENT LOCATION:
+LAMBDA REACTOR COMPLEX
+BLACK MESA RESEARCH FACILITY
+}
+
+DEMOTXT3
+{
+TIME:
+CONTAINMENT FAILURE + 48.00 HRS
+}
+
+DEMOTXT4
+{
+STATUS:
+EVALUATION IN PROGRESS
+}
+
+
+$holdtime 7.5
+
+DEMOTXT6
+{
+CURRENT EVALUATION:
+UPLINK COMPLETED.
+}
+
+DEMOTXT7
+{
+REQUIRE FURTHER DATA.
+}
+
 //
 // Opposing Force
 //

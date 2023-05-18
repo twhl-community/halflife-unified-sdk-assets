@@ -2732,3 +2732,17 @@ INTRO_FG4_L2 fgrunt/intro_FG19
 INTRO_DR_L1 drill/intro01
 INTRO_DR_L2 drill/intro02
 INTRO_DR_L3 drill/intro03
+
+//DEMO NEWAUDIO
+
+BA_1SAT barney/c3a1_ba_1sat
+SCI_2SAT scientist/c3a1_sci_2sat
+BA_3SAT barney/c3a1_ba_3sat
+SCI_4SAT scientist/c3a1_sci_4sat
+BA_5SAT barney/c3a1_ba_5sat
+SCI_6SAT scientist/c3a1_sci_6sat
+
+BA_6SAT barney/c1a4_ba_octo4
+BA_7SAT barney/c1a4_ba_octo3
+SCI_7SAT scientist/scream07
+SCI_8SAT scientist/scream04
