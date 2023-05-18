@@ -449,6 +449,12 @@
   health(integer) : "Custom health (leave undefined to use default)"
   
   classification(string) : "Classification Override"
+  is_player_ally(choices) : "Is Player Ally" = 
+  [
+	0 : "Default"
+	1 : "No"
+	2 : "Yes"
+  ]
 
   TriggerTarget(String) : "TriggerTarget"
   TriggerCondition(Choices) : "Trigger Condition" : 0 =
