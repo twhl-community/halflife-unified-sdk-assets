@@ -1093,6 +1093,18 @@
 	rendercolor(color255) : "Fade Color (R G B)" : "0 0 0"
 ]
 
+@PointClass = env_fog : "Global Fog Controller" 
+[
+	spawnflags(flags) =
+	[
+		1: "Fog Affects Skybox" : 0
+	]
+	density(string) : "Density (0.0-1.0)" : 0.5
+	fogStartDistance(integer) : "Start Distance" : 1500
+	fogStopDistance(integer) : "Stop Distance" : 2000
+	rendercolor(color255) : "Color (R G B)" : "255 255 255"
+]
+
 @PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = env_funnel : "Large Portal Funnel" 
 [
   spawnflags(flags) =
