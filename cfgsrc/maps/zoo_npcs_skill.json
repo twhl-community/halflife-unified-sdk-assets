@@ -1,0 +1,4 @@
+{
+	// Disable this so NPCs don't drop ludicrous amounts of weapons
+	"allow_npc_item_dropping": 0
+}

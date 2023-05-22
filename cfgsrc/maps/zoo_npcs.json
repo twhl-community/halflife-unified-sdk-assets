@@ -8,6 +8,11 @@
 			"SpawnInventory": {
 				"Reset": true,
 				"HasSuit": true
+			},
+			"Skill": {
+				"FileNames": [
+					"cfg/maps/zoo_npcs_skill.json"
+				]
 			}
 		}
 	}
