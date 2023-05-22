@@ -564,5 +564,6 @@
 	// If set to 1, weapons not flagged to be limited in world will respawn immediately
 	"weapon_instant_respawn": 0,
 	
-	"allow_weapon_dropping": 0
+	"allow_npc_item_dropping": 1,
+	"allow_player_weapon_dropping": 0
 }

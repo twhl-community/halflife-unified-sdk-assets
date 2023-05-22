@@ -53,5 +53,5 @@
 	
 	"weapon_instant_respawn": 0,
 	
-	"allow_weapon_dropping": 1
+	"allow_player_weapon_dropping": 1
 }
