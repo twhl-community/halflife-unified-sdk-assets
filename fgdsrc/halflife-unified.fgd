@@ -1570,7 +1570,14 @@
   target(target_destination) : "First stop target"
   speed(integer) : "Speed (units per second)" : 64
   dmg(integer) : "Damage on crush" : 0
-  skin(integer) : "Contents" : 0
+  skin(choices) : "Contents" : 0 =
+  [
+	0 : "Solid"
+	-1 : "Empty"
+	-3 : "Water"
+	-4 : "Slime"
+	-5 : "Lava"
+  ]
   spawnflags(flags) =
   [
     8 : "Not solid" : 0

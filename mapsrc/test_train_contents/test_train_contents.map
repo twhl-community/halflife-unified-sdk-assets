@@ -1,0 +1,292 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\decals.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\ravelin.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc.WAD;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc2.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\class_signs.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 512 -512 256 ) ( 512 -512 0 ) ( 512 512 256 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 512 256 ) ( 544 512 0 ) ( 544 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 0 ) ( 544 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -512 256 ) ( 544 -512 0 ) ( 512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 0 ) ( 512 -512 0 ) ( 544 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 544 -512 256 ) ( 512 -512 256 ) ( 544 512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 256 ) ( -512 512 0 ) ( -512 -512 256 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 -512 256 ) ( -544 -512 0 ) ( -544 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 0 ) ( -544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 256 ) ( -544 512 0 ) ( -512 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -544 -512 256 ) ( -512 512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 512 0 ) ( -544 -512 0 ) ( -512 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 256 ) ( -512 512 0 ) ( -512 544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 544 256 ) ( 512 544 0 ) ( 512 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 256 ) ( -512 544 0 ) ( 512 544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 0 ) ( -512 512 256 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 0 ) ( -512 512 0 ) ( 512 544 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 512 256 ) ( -512 512 256 ) ( 512 544 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 -512 256 ) ( 512 -512 0 ) ( 512 -544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -544 256 ) ( -512 -544 0 ) ( -512 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 256 ) ( 512 -544 0 ) ( -512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 0 ) ( 512 -512 256 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 256 ) ( -512 -544 256 ) ( 512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -544 0 ) ( 512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -512 288 ) ( -512 -512 256 ) ( -512 512 288 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 288 ) ( 512 512 256 ) ( 512 -512 288 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 288 ) ( -512 512 256 ) ( 512 512 288 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 288 ) ( 512 -512 256 ) ( -512 -512 288 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 256 ) ( -512 -512 256 ) ( 512 512 256 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 288 ) ( -512 -512 288 ) ( 512 512 288 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 512 0 ) ( 512 512 -32 ) ( 512 -512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -512 -32 ) ( -512 512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( 512 -512 -32 ) ( -512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 0 ) ( -512 512 -32 ) ( 512 512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( -512 -512 0 ) ( 512 512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 -32 ) ( -512 -512 -32 ) ( 512 512 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 600"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "func_train"
+"spawnflags" "8"
+"skin" "-1"
+"dmg" "0"
+"speed" "64"
+"volume" "0.85"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "2"
+"renderfx" "0"
+"renderamt" "100"
+"target" "path_empty"
+{
+( 64 64 48 ) ( 64 64 0 ) ( 64 0 48 ) GLASSBLUE1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 48 ) ( 0 0 0 ) ( 0 64 48 ) GLASSBLUE1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 0 48 ) ( 64 0 0 ) ( 0 0 48 ) GLASSBLUE1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 64 48 ) ( 0 64 0 ) ( 64 64 48 ) GLASSBLUE1 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 64 0 ) ( 0 0 0 ) ( 64 64 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( 64 0 48 ) ( 0 0 48 ) ( 64 64 48 ) GLASSBLUE1 [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+{
+( 24 24 32 ) ( 24 24 16 ) ( 24 40 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 40 32 ) ( 40 40 16 ) ( 40 24 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 24 40 32 ) ( 24 40 16 ) ( 40 40 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 24 32 ) ( 40 24 16 ) ( 24 24 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 24 32 ) ( 24 24 32 ) ( 40 40 32 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 24 40 16 ) ( 24 24 16 ) ( 40 40 16 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_train"
+"spawnflags" "0"
+"skin" "0"
+"dmg" "0"
+"speed" "64"
+"volume" "0.85"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"target" "path_solid"
+{
+( 64 192 48 ) ( 64 192 0 ) ( 64 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 128 48 ) ( 0 128 0 ) ( 0 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 48 ) ( 64 128 0 ) ( 0 128 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 192 48 ) ( 0 192 0 ) ( 64 192 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 192 0 ) ( 0 128 0 ) ( 64 192 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 128 48 ) ( 0 128 48 ) ( 64 192 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 24 152 32 ) ( 24 152 16 ) ( 24 168 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 168 32 ) ( 40 168 16 ) ( 40 152 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 24 168 32 ) ( 24 168 16 ) ( 40 168 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 152 32 ) ( 40 152 16 ) ( 24 152 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 152 32 ) ( 24 152 32 ) ( 40 168 32 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 24 168 16 ) ( 24 152 16 ) ( 40 168 16 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_train"
+"spawnflags" "8"
+"skin" "-3"
+"dmg" "0"
+"speed" "64"
+"volume" "0.85"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "2"
+"renderfx" "0"
+"renderamt" "100"
+"target" "path_water"
+{
+( 64 -64 48 ) ( 64 -64 0 ) ( 64 -128 48 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -128 48 ) ( 0 -128 0 ) ( 0 -64 48 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 -128 48 ) ( 64 -128 0 ) ( 0 -128 48 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -64 48 ) ( 0 -64 0 ) ( 64 -64 48 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -64 0 ) ( 0 -128 0 ) ( 64 -64 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 -128 48 ) ( 0 -128 48 ) ( 64 -64 48 ) !C2A5 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 24 -104 32 ) ( 24 -104 16 ) ( 24 -88 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -88 32 ) ( 40 -88 16 ) ( 40 -104 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 24 -88 32 ) ( 24 -88 16 ) ( 40 -88 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -104 32 ) ( 40 -104 16 ) ( 24 -104 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -104 32 ) ( 24 -104 32 ) ( 40 -88 32 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 24 -88 16 ) ( 24 -104 16 ) ( 40 -88 16 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_train"
+"spawnflags" "8"
+"skin" "-4"
+"dmg" "0"
+"speed" "64"
+"volume" "0.85"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "2"
+"renderfx" "0"
+"renderamt" "100"
+"target" "path_slime"
+{
+( 64 -192 48 ) ( 64 -192 0 ) ( 64 -256 48 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -256 48 ) ( 0 -256 0 ) ( 0 -192 48 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 -256 48 ) ( 64 -256 0 ) ( 0 -256 48 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -192 48 ) ( 0 -192 0 ) ( 64 -192 48 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -192 0 ) ( 0 -256 0 ) ( 64 -192 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( 64 -256 48 ) ( 0 -256 48 ) ( 64 -192 48 ) !TOXICGRN [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+{
+( 24 -232 32 ) ( 24 -232 16 ) ( 24 -216 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -216 32 ) ( 40 -216 16 ) ( 40 -232 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 24 -216 32 ) ( 24 -216 16 ) ( 40 -216 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -232 32 ) ( 40 -232 16 ) ( 24 -232 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -232 32 ) ( 24 -232 32 ) ( 40 -216 32 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 24 -216 16 ) ( 24 -232 16 ) ( 40 -216 16 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_train"
+"spawnflags" "8"
+"skin" "-5"
+"dmg" "0"
+"speed" "64"
+"volume" "0.85"
+"zhlt_lightflags" "0"
+"rendercolor" "0 0 0"
+"rendermode" "2"
+"renderfx" "0"
+"renderamt" "100"
+"target" "path_lava"
+{
+( 64 -320 48 ) ( 64 -320 0 ) ( 64 -384 48 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -384 48 ) ( 0 -384 0 ) ( 0 -320 48 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 -384 48 ) ( 64 -384 0 ) ( 0 -384 48 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -320 48 ) ( 0 -320 0 ) ( 64 -320 48 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 -320 0 ) ( 0 -384 0 ) ( 64 -320 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+( 64 -384 48 ) ( 0 -384 48 ) ( 64 -320 48 ) !FLUID2B [ 1 0 0 0 ] [ 0 -1 0 -0 ] 0 1 1
+}
+{
+( 24 -360 32 ) ( 24 -360 16 ) ( 24 -344 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -344 32 ) ( 40 -344 16 ) ( 40 -360 32 ) ORIGIN [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 24 -344 32 ) ( 24 -344 16 ) ( 40 -344 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -360 32 ) ( 40 -360 16 ) ( 24 -360 32 ) ORIGIN [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -360 32 ) ( 24 -360 32 ) ( 40 -344 32 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 24 -344 16 ) ( 24 -360 16 ) ( 40 -344 16 ) ORIGIN [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "path_solid"
+"origin" "32 160 24"
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "path_empty"
+"origin" "32 32 24"
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "path_water"
+"origin" "32 -96 24"
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "path_slime"
+"origin" "32 -224 24"
+}
+{
+"classname" "path_corner"
+"yaw_speed" "0"
+"speed" "0"
+"wait" "0"
+"angles" "0 0 0"
+"targetname" "path_lava"
+"origin" "32 -352 24"
+}
+{
+"classname" "item_suit"
+"body" "0"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "1"
+"stay_visible_during_respawn" "0"
+"angles" "0 0 0"
+"spawnflags" "0"
+"delay" "0"
+"origin" "-192 0 0.0635414"
+}
+{
+"classname" "item_battery"
+"fall_mode" "0"
+"play_pickup_sound" "1"
+"flash_on_respawn" "0"
+"stay_visible_during_respawn" "1"
+"angles" "0 0 0"
+"delay" "0"
+"respawn_delay" "0"
+"sound_replacement_filename" "cfg/replacements/silent_item_respawn.json"
+"armor_amount" "-1"
+"origin" "-192 0 0.00329494"
+}
