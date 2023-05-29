@@ -425,7 +425,7 @@
 [
 ]
 
-@BaseClass base(Master, Global, RenderFields, ZHLT) = BaseCharger
+@BaseClass base(Master, Global, RenderFields, ZHLT, ReplacementFiles) = BaseCharger
 [
 	fire_on_recharge(target_destination) : "Target To Fire On Recharge"
 	fire_on_empty(target_destination) : "Target To Fire On Empty"
@@ -538,7 +538,7 @@
   pattern(string) : "Custom Appearance"
 ]
 
-@BaseClass base(Targetname,Global) = Breakable
+@BaseClass base(Targetname, Global, ReplacementFiles) = Breakable
 [
   target(target_destination) : "Target on break"
   health(integer) : "Strength" : 1
@@ -565,7 +565,7 @@
   explodemagnitude(integer) : "Explode Magnitude (0=none)" : 0
 ]
 
-@BaseClass base(Appearflags, Targetname, Targetx, RenderFields, Global, Angles, Master) = Door
+@BaseClass base(Appearflags, Targetname, Targetx, RenderFields, Global, Angles, Master, ReplacementFiles) = Door
 [
   speed(integer) : "Speed" : 100
   movesnd(sound) : "Move Sound"
@@ -596,7 +596,7 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@BaseClass base(Targetname, Target, RenderFields, Global, Angles, Master) = BaseTank
+@BaseClass base(Targetname, Target, RenderFields, Global, Angles, Master, ReplacementFiles) = BaseTank
 [
   spawnflags(flags) =
   [
@@ -651,7 +651,7 @@
 	target_laser_color(color255) : "Target Laser Beam Color" : "255 0 0"
 ]
 
-@BaseClass = PlatSounds 
+@BaseClass base(ReplacementFiles) = PlatSounds
 [
   movesnd(sound) : "Move Sound"
   stopsnd(sound) : "Stop Sound"
@@ -1184,7 +1184,7 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@SolidClass base(Targetname, Targetx, Global, RenderFields, Angles, ZHLT, Master) = func_button : "Button" 
+@SolidClass base(Targetname, Targetx, Global, RenderFields, Angles, ZHLT, Master, ReplacementFiles) = func_button : "Button" 
 [
   speed(integer) : "Speed" : 5
   health(integer) : "Health (shootable if > 0)"
@@ -1203,11 +1203,8 @@
     256:"Touch Activates": 0
   ]
   locked_sound(sound) : "Locked Sound"
-  
   unlocked_sound(sound) : "Unlocked Sound"
-  
   locked_sentence(string) : "Locked Sentence"
-  
   unlocked_sentence(string) : "Unlocked Sentence"
 
   _minlight(string) : "Minimum light level"
@@ -1355,7 +1352,7 @@
 
 @SolidClass base(BaseCharger) = func_recharge: "Battery recharger"  []
 
-@SolidClass base(Targetname, Target, Global, RenderFields, Angles, ZHLT, Master) = func_rot_button : "RotatingButton" 
+@SolidClass base(Targetname, Target, Global, RenderFields, Angles, ZHLT, Master, ReplacementFiles) = func_rot_button : "RotatingButton" 
 [
   // changetarget will change the button's target's TARGET field to the button's changetarget.
   changetarget(target_destination) : "ChangeTarget Name"
@@ -1381,7 +1378,7 @@
   _minlight(integer) : "_minlight"
 ]
 
-@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT) = func_rotating : "Rotating Object"
+@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT, ReplacementFiles) = func_rotating : "Rotating Object"
 [
   speed(integer)  : "Rotation Speed" : 0
   volume(integer) : "Volume (10 = loudest)" : 10
@@ -1448,7 +1445,7 @@
   _minlight(string) : "Minimum light level"
 ]
 
-@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT) = func_tracktrain : "Track Train" 
+@SolidClass base(Targetname, Global, RenderFields, Angles, ZHLT, ReplacementFiles) = func_tracktrain : "Track Train" 
 [
   spawnflags(flags) =
   [
@@ -1798,7 +1795,7 @@
   ]
 ]
 
-@SolidClass base(RenderFields, Targetname, Target, Angles, ZHLT, Master) = momentary_rot_button : "Direct wheel control" 
+@SolidClass base(RenderFields, Targetname, Target, Angles, ZHLT, Master, ReplacementFiles) = momentary_rot_button : "Direct wheel control" 
 [
   speed(integer) : "Speed" : 50
   sounds(sound) : "Sounds"
