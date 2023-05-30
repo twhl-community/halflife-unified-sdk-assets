@@ -1758,6 +1758,26 @@
 [
 ]
 
+@PointClass base(Targetname) = logic_random : "Random Trigger"
+[
+    target1(target_destination) : "Target 1"
+    target2(target_destination) : "Target 2"
+    target3(target_destination) : "Target 3"
+    target4(target_destination) : "Target 4"
+    target5(target_destination) : "Target 5"
+    target6(target_destination) : "Target 6"
+    target7(target_destination) : "Target 7"
+    target8(target_destination) : "Target 8"
+    target9(target_destination) : "Target 9"
+    target10(target_destination) : "Target 10"
+    target11(target_destination) : "Target 11"
+    target12(target_destination) : "Target 12"
+    target13(target_destination) : "Target 13"
+    target14(target_destination) : "Target 14"
+    target15(target_destination) : "Target 15"
+    target16(target_destination) : "Target 16"
+]
+
 @PointClass base(Targetname, Master) size(-8 -8 -8, 8 8 8) color(200 100 50) = logic_setcvar : "Set cvar on trigger"
 [
 	cvar_name(string) : "CVar Name"

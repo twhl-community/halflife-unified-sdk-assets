@@ -1,0 +1,291 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\decals.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\ravelin.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc.WAD;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc2.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\class_signs.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 288 256 160 ) ( 288 256 0 ) ( 288 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 288 -256 0 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 256 -256 160 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 0 ) ( 256 -256 0 ) ( 288 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 256 160 ) ( -256 256 0 ) ( -256 -256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 -256 160 ) ( -288 -256 0 ) ( -288 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( -288 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 256 160 ) ( -288 256 0 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -288 -256 160 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -288 256 0 ) ( -288 -256 0 ) ( -256 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 288 160 ) ( 256 288 0 ) ( 256 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 256 0 ) ( -256 288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( -256 256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 288 160 ) ( -256 288 0 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( -256 256 160 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 288 0 ) ( -256 256 0 ) ( 256 288 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 -288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -288 160 ) ( -256 -288 0 ) ( -256 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( 256 -288 0 ) ( -256 -288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( 256 -256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( -256 -288 160 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -288 0 ) ( 256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 192 ) ( 256 256 160 ) ( 256 -256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 192 ) ( -256 -256 160 ) ( -256 256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( 256 -256 160 ) ( -256 -256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 192 ) ( -256 256 160 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( -256 -256 192 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 160 ) ( -256 -256 160 ) ( 256 256 160 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 0 ) ( 256 256 -32 ) ( 256 -256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -256 -32 ) ( -256 256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( 256 -256 -32 ) ( -256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 0 ) ( -256 256 -32 ) ( 256 256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( -256 -256 0 ) ( 256 256 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 -32 ) ( -256 -256 -32 ) ( 256 256 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "0 4.76837e-007 40"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 200"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "logic_random"
+"targetname" "random_text"
+"target1" "text1"
+"target2" "text2"
+"target3" "text3"
+"target4" "text4"
+"target8" "text8"
+"target16" "text16"
+"origin" "128 0 56"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"wait" "1"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"target" "random_text"
+"sounds" "buttons/button9.wav"
+{
+( 120 -8 48 ) ( 120 -8 0 ) ( 120 8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 136 8 48 ) ( 136 8 0 ) ( 136 -8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 120 8 48 ) ( 120 8 0 ) ( 136 8 48 ) +0BUTTON1 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 136 -8 48 ) ( 136 -8 0 ) ( 120 -8 48 ) +0BUTTON1 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 136 -8 48 ) ( 120 -8 48 ) ( 136 8 48 ) +0BUTTON1 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( 120 8 0 ) ( 120 -8 0 ) ( 136 8 0 ) +0BUTTON1 [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "text1"
+"message" "Target 1"
+"origin" "184 56 8"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "text2"
+"message" "Target 2"
+"origin" "184 40 8"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "text3"
+"message" "Target 3"
+"origin" "184 24 8"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "text4"
+"message" "Target 4"
+"origin" "184 8 8"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "text8"
+"message" "Target 5 (skipped 3 empty targets)"
+"origin" "184 -56 8"
+}
+{
+"classname" "game_text"
+"spawnflags" "1"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "6"
+"fadeout" "0"
+"fadein" "0"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "text16"
+"message" "Target 16 (skipped 7 empty targets)"
+"origin" "184 -184 8"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport1"
+"target" "!activator"
+"origin" "-192 192 40"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport3"
+"target" "!activator"
+"origin" "-192 128 40"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport5"
+"target" "!activator"
+"origin" "-192 64 40"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport7"
+"target" "!activator"
+"origin" "-192 0 40"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport9"
+"target" "!activator"
+"origin" "-192 -64 40"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport11"
+"target" "!activator"
+"origin" "-192 -128 40"
+}
+{
+"classname" "point_teleport"
+"angles" "0 0 0"
+"targetname" "teleport13"
+"target" "!activator"
+"origin" "-192 -192 40"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"wait" "1"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"target" "random_teleport"
+"sounds" "buttons/button9.wav"
+{
+( -136 -8 48 ) ( -136 -8 0 ) ( -136 8 48 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -120 8 48 ) ( -120 8 0 ) ( -120 -8 48 ) +0BUTTON1 [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -136 8 48 ) ( -136 8 0 ) ( -120 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -120 -8 48 ) ( -120 -8 0 ) ( -136 -8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -120 -8 48 ) ( -136 -8 48 ) ( -120 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -136 8 0 ) ( -136 -8 0 ) ( -120 8 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "logic_random"
+"targetname" "random_teleport"
+"target1" "teleport1"
+"target3" "teleport3"
+"target5" "teleport5"
+"target7" "teleport7"
+"target9" "teleport9"
+"target11" "teleport11"
+"target13" "teleport13"
+"origin" "-128 0 56"
+}
