@@ -1,0 +1,2 @@
+# Allow executables in this directory only
+!*.exe

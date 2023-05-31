@@ -20,6 +20,7 @@ Directory structure:
 * eventsrc
 * fgdsrc
 * gfxsrc
+* guides
 * iconsrc
 * installersrc
 * mapsrc
@@ -37,3 +38,5 @@ Assets consisting of multiple files should be stored in a subdirectory under the
 For example a map called `cs_office` should have all of its files stored under `mapsrc/cs_office`.
 
 Scripts used in the assets repository itself are located in the `scripts` directory.
+
+Guides covering how to compile assets are located in the `guides` directory.
