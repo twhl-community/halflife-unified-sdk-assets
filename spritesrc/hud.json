@@ -57,21 +57,21 @@
 	},
 	"bucket8": {
 		"SpriteName": "hud3",
-		"Left": 170,
+		"Left": 230,
 		"Top": 140,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket9": {
 		"SpriteName": "hud3",
-		"Left": 190,
+		"Left": 170,
 		"Top": 160,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket0": {
 		"SpriteName": "hud3",
-		"Left": 210,
+		"Left": 190,
 		"Top": 160,
 		"Width": 20,
 		"Height": 20
