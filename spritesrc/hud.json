@@ -343,7 +343,7 @@
 		"Width": 32,
 		"Height": 16
 	},
-	"d_9mmAR": {
+	"d_9mmar": {
 		"SpriteName": "hud1",
 		"Left": 192,
 		"Top": 48,
@@ -357,7 +357,7 @@
 		"Width": 48,
 		"Height": 16
 	},
-	"d_bolt": {
+	"d_crossbow_bolt": {
 		"SpriteName": "hud1",
 		"Left": 192,
 		"Top": 80,
