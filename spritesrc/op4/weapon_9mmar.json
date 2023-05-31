@@ -1,35 +1,43 @@
+// mp5
 {
 	"weapon": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 0,
-		"Top": 45,
+		"Top": 135,
 		"Width": 170,
 		"Height": 45
 	},
 	"weapon_s": {
-		"SpriteName": "hud4",
+		"SpriteName": "op4/hud4",
 		"Left": 0,
-		"Top": 45,
+		"Top": 135,
 		"Width": 170,
 		"Height": 45
 	},
 	"ammo": {
-		"SpriteName": "hud3",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 170,
+		"Top": 0,
+		"Width": 24,
+		"Height": 24
+	},
+	"ammo2": {
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 218,
 		"Top": 0,
 		"Width": 24,
 		"Height": 24
 	},
 	"crosshair": {
 		"SpriteName": "crosshairs",
-		"Left": 24,
-		"Top": 0,
+		"Left": 0,
+		"Top": 48,
 		"Width": 24,
 		"Height": 24
 	},
 	"autoaim": {
 		"SpriteName": "crosshairs",
-		"Left": 0,
+		"Left": 48,
 		"Top": 72,
 		"Width": 24,
 		"Height": 24

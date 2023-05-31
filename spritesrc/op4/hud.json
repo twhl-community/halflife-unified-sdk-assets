@@ -1,78 +1,78 @@
 {
 	"selection": {
-		"SpriteName": "hud3",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 0,
 		"Top": 180,
 		"Width": 170,
 		"Height": 45
 	},
 	"bucket1": {
-		"SpriteName": "hud3",
-		"Left": 170,
-		"Top": 120,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 210,
+		"Top": 160,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket2": {
-		"SpriteName": "hud3",
-		"Left": 190,
-		"Top": 120,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 230,
+		"Top": 160,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket3": {
-		"SpriteName": "hud3",
-		"Left": 210,
-		"Top": 120,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 170,
+		"Top": 180,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket4": {
-		"SpriteName": "hud3",
-		"Left": 230,
-		"Top": 120,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 190,
+		"Top": 180,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket5": {
-		"SpriteName": "hud3",
-		"Left": 170,
-		"Top": 140,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 210,
+		"Top": 180,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket6": {
-		"SpriteName": "hud3",
-		"Left": 190,
-		"Top": 140,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 230,
+		"Top": 180,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket7": {
-		"SpriteName": "hud3",
-		"Left": 210,
-		"Top": 140,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 170,
+		"Top": 200,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket8": {
-		"SpriteName": "hud3",
-		"Left": 170,
-		"Top": 140,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 190,
+		"Top": 200,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket9": {
-		"SpriteName": "hud3",
-		"Left": 190,
-		"Top": 160,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 210,
+		"Top": 200,
 		"Width": 20,
 		"Height": 20
 	},
 	"bucket0": {
-		"SpriteName": "hud3",
-		"Left": 210,
-		"Top": 160,
+		"SpriteName": "op4/hud3_scanline",
+		"Left": 230,
+		"Top": 200,
 		"Width": 20,
 		"Height": 20
 	},
@@ -80,194 +80,194 @@
 	"dmg_bio": {
 		"SpriteName": "hud_hazard",
 		"Left": 128,
-		"Top": 0,
+		"Top": 128,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_poison": {
 		"SpriteName": "hud_hazard",
 		"Left": 128,
-		"Top": 0,
+		"Top": 128,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_chem": {
 		"SpriteName": "hud_hazard",
 		"Left": 0,
-		"Top": 0,
+		"Top": 128,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_cold": {
 		"SpriteName": "hud_hazard",
 		"Left": 64,
-		"Top": 64,
+		"Top": 192,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_drown": {
 		"SpriteName": "hud_hazard",
 		"Left": 64,
-		"Top": 0,
+		"Top": 128,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_heat": {
 		"SpriteName": "hud_hazard",
 		"Left": 128,
-		"Top": 64,
+		"Top": 192,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_gas": {
 		"SpriteName": "hud_hazard",
 		"Left": 0,
-		"Top": 64,
+		"Top": 192,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_rad": {
 		"SpriteName": "hud_hazard",
 		"Left": 192,
-		"Top": 64,
+		"Top": 192,
 		"Width": 64,
 		"Height": 64
 	},
 	"dmg_shock": {
 		"SpriteName": "hud_hazard",
 		"Left": 192,
-		"Top": 0,
+		"Top": 128,
 		"Width": 64,
 		"Height": 64
 	},
 	"number_0": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 0,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_1": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 20,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_2": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 40,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_3": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 60,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_4": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 80,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_5": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 100,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_6": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 120,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_7": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 140,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_8": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 160,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_9": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 180,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"divider": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 246,
 		"Top": 160,
 		"Width": 2,
 		"Height": 40
 	},
 	"cross": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 214,
-		"Top": 160,
+		"Top": 192,
 		"Width": 32,
 		"Height": 32
 	},
 	"suit_full": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 214,
-		"Top": 0,
+		"Top": 80,
 		"Width": 40,
 		"Height": 40
 	},
 	"suit_empty": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 214,
-		"Top": 40,
+		"Top": 120,
 		"Width": 40,
 		"Height": 40
 	},
 	"flash_full": {
-		"SpriteName": "hud6",
+		"SpriteName": "op4/hud6_scanline",
 		"Left": 170,
 		"Top": 144,
 		"Width": 32,
 		"Height": 32
 	},
 	"flash_empty": {
-		"SpriteName": "hud6",
+		"SpriteName": "op4/hud6_scanline",
 		"Left": 202,
 		"Top": 144,
 		"Width": 32,
 		"Height": 32
 	},
 	"flash_beam": {
-		"SpriteName": "hud6",
+		"SpriteName": "op4/hud6_scanline",
 		"Left": 234,
 		"Top": 144,
 		"Width": 16,
 		"Height": 32
 	},
 	"nvg_full": {
-		"SpriteName": "hud6",
+		"SpriteName": "op4/hud6_scanline",
 		"Left": 170,
 		"Top": 176,
 		"Width": 32,
 		"Height": 32
 	},
 	"nvg_empty": {
-		"SpriteName": "hud6",
+		"SpriteName": "op4/hud6_scanline",
 		"Left": 202,
 		"Top": 176,
 		"Width": 32,
@@ -323,224 +323,224 @@
 		"Height": 30
 	},
 	"d_crowbar": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 0,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_9mmhandgun": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 16,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_357": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 32,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_9mmAR": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 48,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_shotgun": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 64,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_bolt": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 80,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_crossbow": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 80,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_rpg_rocket": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 96,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_gauss": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 112,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_egon": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 128,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_hornet": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 144,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_grenade": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 160,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_satchel": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 176,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_tripmine": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 192,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_snark": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 208,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_skull": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 224,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_tracktrain": {
-		"SpriteName": "hud1",
+		"SpriteName": "op4/hud1",
 		"Left": 192,
 		"Top": 240,
 		"Width": 32,
 		"Height": 16
 	},
 	"d_pipewrench": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 0,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_grapple": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 16,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_eagle": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 32,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_displacer_ball": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 48,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_spore": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 64,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_shock_beam": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 80,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_m249": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 96,
 		"Width": 52,
 		"Height": 16
 	},
 	"d_knife": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 112,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_sniperrifle": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 128,
 		"Width": 48,
 		"Height": 16
 	},
 	"d_penguin": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof01",
 		"Left": 192,
 		"Top": 144,
 		"Width": 48,
 		"Height": 16
 	},
 	"item_battery": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 170,
 		"Top": 0,
 		"Width": 44,
 		"Height": 44
 	},
 	"item_helmet": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 170,
 		"Top": 132,
 		"Width": 44,
 		"Height": 44
 	},
 	"item_armorvest": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 170,
 		"Top": 176,
 		"Width": 44,
 		"Height": 44
 	},
 	"item_healthkit": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 170,
 		"Top": 44,
 		"Width": 44,
 		"Height": 44
 	},
 	"item_longjump": {
-		"SpriteName": "hud2",
+		"SpriteName": "op4/hud2_scanline",
 		"Left": 170,
 		"Top": 88,
 		"Width": 44,
@@ -666,7 +666,7 @@
 		"Height": 48
 	},
 	"grenade": {
-		"SpriteName": "hud3",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 218,
 		"Top": 48,
 		"Width": 24,

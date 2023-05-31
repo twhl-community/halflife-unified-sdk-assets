@@ -118,7 +118,8 @@
 				{
 					"Source": "spritesrc",
 					"Destination": "sprites",
-					"Pattern": "*.json"
+					"Pattern": "*.json",
+					"Recursive": true
 				}
 			]
 		},

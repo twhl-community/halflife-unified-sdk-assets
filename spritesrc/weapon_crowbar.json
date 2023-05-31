@@ -1,13 +1,13 @@
 {
 	"weapon": {
-		"SpriteName": "640hud1",
+		"SpriteName": "hud1",
 		"Left": 0,
 		"Top": 0,
 		"Width": 170,
 		"Height": 45
 	},
 	"weapon_s": {
-		"SpriteName": "640hud4",
+		"SpriteName": "hud4",
 		"Left": 0,
 		"Top": 0,
 		"Width": 170,

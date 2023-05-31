@@ -14,6 +14,36 @@
                 "GlobalSoundReplacement": {
                     "FileNames": ["cfg/Op4SoundReplacement.json"]
                 },
+				"HudReplacement": {
+					"HudReplacementFile": "sprites/op4/hud.json",
+					"Weapons": {
+						"weapon_9mmar": "sprites/op4/weapon_9mmar.json",
+						"weapon_9mmhandgun": "sprites/op4/weapon_9mmhandgun.json",
+						"weapon_357": "sprites/op4/weapon_357.json",
+						"weapon_crossbow": "sprites/op4/weapon_crossbow.json",
+						"weapon_crowbar": "sprites/op4/weapon_crowbar.json",
+						"weapon_displacer": "sprites/op4/weapon_displacer.json",
+						"weapon_eagle": "sprites/op4/weapon_eagle.json",
+						"weapon_egon": "sprites/op4/weapon_egon.json",
+						"weapon_gauss": "sprites/op4/weapon_gauss.json",
+						"weapon_grapple": "sprites/op4/weapon_grapple.json",
+						"weapon_handgrenade": "sprites/op4/weapon_handgrenade.json",
+						"weapon_hornetgun": "sprites/op4/weapon_hornetgun.json",
+						"weapon_knife": "sprites/op4/weapon_knife.json",
+						"weapon_m249": "sprites/op4/weapon_m249.json",
+						"weapon_penguin": "sprites/op4/weapon_penguin.json",
+						"weapon_pipewrench": "sprites/op4/weapon_pipewrench.json",
+						"weapon_question": "sprites/op4/weapon_question.json",
+						"weapon_rpg": "sprites/op4/weapon_rpg.json",
+						"weapon_satchel": "sprites/op4/weapon_satchel.json",
+						"weapon_shockrifle": "sprites/op4/weapon_shockrifle.json",
+						"weapon_shotgun": "sprites/op4/weapon_shotgun.json",
+						"weapon_snark": "sprites/op4/weapon_snark.json",
+						"weapon_sniperrifle": "sprites/op4/weapon_sniperrifle.json",
+						"weapon_sporelauncher": "sprites/op4/weapon_sporelauncher.json",
+						"weapon_tripmine": "sprites/op4/weapon_tripmine.json"
+					}
+				},
 				"EntityTemplates": {
 					"weapon_9mmar": "cfg/entitytemplates/op4/weapon_9mmar.json"
 				},

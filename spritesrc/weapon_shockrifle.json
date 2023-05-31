@@ -1,15 +1,15 @@
 {
 	"ammo": {
-		"SpriteName": "640hud7",
-		"Left": 224,
-		"Top": 48,
+		"SpriteName": "hud3",
+		"Left": 194,
+		"Top": 96,
 		"Width": 24,
 		"Height": 24
 	},
 	"crosshair": {
-		"SpriteName": "ofch1",
-		"Left": 0,
-		"Top": 24,
+		"SpriteName": "crosshairs",
+		"Left": 96,
+		"Top": 48,
 		"Width": 24,
 		"Height": 24
 	},
@@ -21,14 +21,14 @@
 		"Height": 24
 	},
 	"weapon": {
-		"SpriteName": "640hudof03",
+		"SpriteName": "hudof03",
 		"Left": 0,
 		"Top": 45,
 		"Width": 170,
 		"Height": 45
 	},
 	"weapon_s": {
-		"SpriteName": "640hudof04",
+		"SpriteName": "hudof04",
 		"Left": 0,
 		"Top": 45,
 		"Width": 170,

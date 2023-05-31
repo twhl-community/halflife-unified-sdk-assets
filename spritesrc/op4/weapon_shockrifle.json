@@ -1,15 +1,15 @@
 {
 	"ammo": {
-		"SpriteName": "hud3",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 194,
-		"Top": 0,
+		"Top": 96,
 		"Width": 24,
 		"Height": 24
 	},
 	"crosshair": {
 		"SpriteName": "crosshairs",
 		"Left": 96,
-		"Top": 24,
+		"Top": 48,
 		"Width": 24,
 		"Height": 24
 	},
@@ -21,16 +21,16 @@
 		"Height": 24
 	},
 	"weapon": {
-		"SpriteName": "hudof01",
+		"SpriteName": "op4/hudof03",
 		"Left": 0,
-		"Top": 135,
+		"Top": 45,
 		"Width": 170,
 		"Height": 45
 	},
 	"weapon_s": {
-		"SpriteName": "hudof02",
+		"SpriteName": "op4/hudof04",
 		"Left": 0,
-		"Top": 135,
+		"Top": 45,
 		"Width": 170,
 		"Height": 45
 	}

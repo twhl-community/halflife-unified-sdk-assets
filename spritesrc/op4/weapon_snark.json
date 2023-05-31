@@ -1,20 +1,20 @@
 {
 	"weapon": {
-		"SpriteName": "hud3",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 0,
 		"Top": 135,
 		"Width": 170,
 		"Height": 45
 	},
 	"weapon_s": {
-		"SpriteName": "hud6",
+		"SpriteName": "op4/hud6_scanline",
 		"Left": 0,
 		"Top": 135,
 		"Width": 170,
 		"Height": 45
 	},
 	"ammo": {
-		"SpriteName": "hud3",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 194,
 		"Top": 72,
 		"Width": 24,

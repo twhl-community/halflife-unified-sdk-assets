@@ -1,22 +1,22 @@
 {
 	"weapon": {
-		"SpriteName": "640hud2",
+		"SpriteName": "hud2",
 		"Left": 0,
 		"Top": 180,
 		"Width": 170,
 		"Height": 45
 	},
 	"weapon_s": {
-		"SpriteName": "640hud5",
+		"SpriteName": "hud5",
 		"Left": 0,
 		"Top": 180,
 		"Width": 170,
 		"Height": 45
 	},
 	"ammo": {
-		"SpriteName": "640hud7",
-		"Left": 24,
-		"Top": 96,
+		"SpriteName": "hud3",
+		"Left": 194,
+		"Top": 48,
 		"Width": 24,
 		"Height": 24
 	},
