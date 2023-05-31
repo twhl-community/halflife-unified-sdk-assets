@@ -1,0 +1,1613 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\decals.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\ravelin.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc.WAD;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc2.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\class_signs.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 512 512 288 ) ( 512 512 256 ) ( 512 -512 288 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 288 ) ( -512 -512 256 ) ( -512 512 288 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 288 ) ( 512 -512 256 ) ( -512 -512 288 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 288 ) ( -512 512 256 ) ( 512 512 288 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 288 ) ( -512 -512 288 ) ( 512 512 288 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 256 ) ( -512 -512 256 ) ( 512 512 256 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 512 0 ) ( 512 512 -32 ) ( 512 -512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -512 -32 ) ( -512 512 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( 512 -512 -32 ) ( -512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 0 ) ( -512 512 -32 ) ( 512 512 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 0 ) ( -512 -512 0 ) ( 512 512 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 -32 ) ( -512 -512 -32 ) ( 512 512 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -544 128 ) ( -512 -544 0 ) ( -512 -512 128 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 128 ) ( 512 -512 0 ) ( 512 -544 128 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 128 ) ( -512 -512 0 ) ( 512 -512 128 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 128 ) ( 512 -544 0 ) ( -512 -544 128 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -544 128 ) ( -512 -512 128 ) ( 512 -544 128 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -512 0 ) ( -512 -544 0 ) ( 512 -512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -544 256 ) ( -512 -544 128 ) ( -512 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 256 ) ( 512 -512 128 ) ( 512 -544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 128 ) ( 512 -512 256 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -544 256 ) ( 512 -544 128 ) ( -512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 128 ) ( -512 -544 128 ) ( 512 -512 128 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -544 256 ) ( -512 -512 256 ) ( 512 -544 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 128 ) ( -512 512 -0 ) ( -512 544 128 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 544 128 ) ( 512 544 -0 ) ( 512 512 128 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 128 ) ( -512 544 -0 ) ( 512 544 128 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 128 ) ( 512 512 -0 ) ( -512 512 128 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 128 ) ( -512 544 128 ) ( 512 512 128 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 544 0 ) ( -512 512 0 ) ( 512 544 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 512 256 ) ( -512 512 128 ) ( -512 544 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 544 256 ) ( 512 544 128 ) ( 512 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 256 ) ( -512 544 128 ) ( 512 544 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 128 ) ( -512 512 256 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 544 128 ) ( -512 512 128 ) ( 512 544 128 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 512 256 ) ( -512 544 256 ) ( 512 512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -544 -512 128 ) ( -544 -512 -0 ) ( -544 512 128 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 128 ) ( -512 512 -0 ) ( -512 -512 128 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 128 ) ( -544 512 -0 ) ( -512 512 128 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 128 ) ( -512 -512 -0 ) ( -544 -512 128 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 -512 128 ) ( -544 512 128 ) ( -512 -512 128 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 512 0 ) ( -544 -512 0 ) ( -512 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -544 -512 256 ) ( -544 -512 128 ) ( -544 512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 512 256 ) ( -512 512 128 ) ( -512 -512 256 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 256 ) ( -544 512 128 ) ( -512 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -512 256 ) ( -512 -512 128 ) ( -544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -544 512 128 ) ( -544 -512 128 ) ( -512 512 128 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -544 -512 256 ) ( -544 512 256 ) ( -512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 -512 128 ) ( 512 -512 -0 ) ( 512 512 128 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 512 128 ) ( 544 512 -0 ) ( 544 -512 128 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 128 ) ( 512 512 -0 ) ( 544 512 128 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -512 128 ) ( 544 -512 -0 ) ( 512 -512 128 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 -512 128 ) ( 512 512 128 ) ( 544 -512 128 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 512 0 ) ( 512 -512 0 ) ( 544 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 512 -512 256 ) ( 512 -512 128 ) ( 512 512 256 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 512 256 ) ( 544 512 128 ) ( 544 -512 256 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 256 ) ( 512 512 128 ) ( 544 512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 544 -512 256 ) ( 544 -512 128 ) ( 512 -512 256 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 512 128 ) ( 512 -512 128 ) ( 544 512 128 ) NULL [ -1 -0 -0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 -512 256 ) ( 512 512 256 ) ( 544 -512 256 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-384 0 37"
+}
+{
+"classname" "light_environment"
+"_light" "255 255 128 200"
+"pitch" "-60"
+"_falloff" "0"
+"_fade" "1.0"
+"angles" "0 60 0"
+"light" "255 255 128 200"
+"origin" "0 0 204.8"
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 64 64 48 ) ( 64 64 0 ) ( 64 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 0 48 ) ( 0 0 0 ) ( 0 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 0 48 ) ( 64 0 0 ) ( 0 0 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 64 48 ) ( 0 64 0 ) ( 64 64 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 64 0 ) ( 0 0 0 ) ( 64 64 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 0 48 ) ( 0 0 48 ) ( 64 64 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 64 48 ) ( 0 64 0 ) ( 0 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 48 ) ( 64 128 0 ) ( 64 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 128 48 ) ( 0 128 0 ) ( 64 128 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 48 ) ( 64 64 0 ) ( 0 64 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 48 ) ( 0 64 48 ) ( 64 128 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 128 0 ) ( 0 64 0 ) ( 64 128 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 128 48 ) ( 0 128 0 ) ( 0 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 192 48 ) ( 64 192 0 ) ( 64 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 192 48 ) ( 0 192 0 ) ( 64 192 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 48 ) ( 64 128 0 ) ( 0 128 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 48 ) ( 0 128 48 ) ( 64 192 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 192 0 ) ( 0 128 0 ) ( 64 192 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 192 48 ) ( 0 192 0 ) ( 0 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 256 48 ) ( 64 256 0 ) ( 64 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 256 48 ) ( 0 256 0 ) ( 64 256 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 192 48 ) ( 64 192 0 ) ( 0 192 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 192 48 ) ( 0 192 48 ) ( 64 256 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 256 0 ) ( 0 192 0 ) ( 64 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 256 48 ) ( 0 256 0 ) ( 0 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 320 48 ) ( 64 320 0 ) ( 64 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 320 48 ) ( 0 320 0 ) ( 64 320 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 256 48 ) ( 64 256 0 ) ( 0 256 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 256 48 ) ( 0 256 48 ) ( 64 320 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 320 0 ) ( 0 256 0 ) ( 64 320 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 320 48 ) ( 0 320 0 ) ( 0 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 384 48 ) ( 64 384 0 ) ( 64 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 384 48 ) ( 0 384 0 ) ( 64 384 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 320 48 ) ( 64 320 0 ) ( 0 320 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 320 48 ) ( 0 320 48 ) ( 64 384 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 384 0 ) ( 0 320 0 ) ( 64 384 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 384 48 ) ( 0 384 0 ) ( 0 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 448 48 ) ( 64 448 0 ) ( 64 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 448 48 ) ( 0 448 0 ) ( 64 448 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 384 48 ) ( 64 384 0 ) ( 0 384 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 384 48 ) ( 0 384 48 ) ( 64 448 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 448 0 ) ( 0 384 0 ) ( 64 448 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break1"
+{
+( 0 448 48 ) ( 0 448 0 ) ( 0 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 512 48 ) ( 64 512 0 ) ( 64 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 512 48 ) ( 0 512 0 ) ( 64 512 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 448 48 ) ( 64 448 0 ) ( 0 448 48 ) CRATE09 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 448 48 ) ( 0 448 48 ) ( 64 512 48 ) CRATE09B [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 512 0 ) ( 0 448 0 ) ( 64 512 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 128 48 ) ( 128 128 0 ) ( 128 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 48 ) ( 64 64 0 ) ( 64 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 64 48 ) ( 128 64 0 ) ( 64 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 48 ) ( 64 128 0 ) ( 128 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 0 ) ( 64 64 0 ) ( 128 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 64 48 ) ( 64 64 48 ) ( 128 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 192 48 ) ( 128 192 0 ) ( 128 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 128 48 ) ( 64 128 0 ) ( 64 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 128 48 ) ( 128 128 0 ) ( 64 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 192 48 ) ( 64 192 0 ) ( 128 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 192 0 ) ( 64 128 0 ) ( 128 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 128 48 ) ( 64 128 48 ) ( 128 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 256 48 ) ( 128 256 0 ) ( 128 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 192 48 ) ( 64 192 0 ) ( 64 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 192 48 ) ( 128 192 0 ) ( 64 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 256 48 ) ( 64 256 0 ) ( 128 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 256 0 ) ( 64 192 0 ) ( 128 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 192 48 ) ( 64 192 48 ) ( 128 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 320 48 ) ( 128 320 0 ) ( 128 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 256 48 ) ( 64 256 0 ) ( 64 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 256 48 ) ( 128 256 0 ) ( 64 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 320 48 ) ( 64 320 0 ) ( 128 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 320 0 ) ( 64 256 0 ) ( 128 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 256 48 ) ( 64 256 48 ) ( 128 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 384 48 ) ( 128 384 0 ) ( 128 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 320 48 ) ( 64 320 0 ) ( 64 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 320 48 ) ( 128 320 0 ) ( 64 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 384 48 ) ( 64 384 0 ) ( 128 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 384 0 ) ( 64 320 0 ) ( 128 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 320 48 ) ( 64 320 48 ) ( 128 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 448 48 ) ( 128 448 0 ) ( 128 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 384 48 ) ( 64 384 0 ) ( 64 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 384 48 ) ( 128 384 0 ) ( 64 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 448 48 ) ( 64 448 0 ) ( 128 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 448 0 ) ( 64 384 0 ) ( 128 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 384 48 ) ( 64 384 48 ) ( 128 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 128 512 48 ) ( 128 512 0 ) ( 128 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 448 48 ) ( 64 448 0 ) ( 64 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 448 48 ) ( 128 448 0 ) ( 64 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 512 48 ) ( 64 512 0 ) ( 128 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 512 0 ) ( 64 448 0 ) ( 128 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 448 48 ) ( 64 448 48 ) ( 128 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break2"
+{
+( 64 0 48 ) ( 64 0 0 ) ( 64 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 64 48 ) ( 128 64 0 ) ( 128 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 64 64 48 ) ( 64 64 0 ) ( 128 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 0 48 ) ( 128 0 0 ) ( 64 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 0 48 ) ( 64 0 48 ) ( 128 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 0 ) ( 64 0 0 ) ( 128 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 128 48 ) ( 192 128 0 ) ( 192 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 64 48 ) ( 128 64 0 ) ( 128 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 64 48 ) ( 192 64 0 ) ( 128 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 128 48 ) ( 128 128 0 ) ( 192 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 128 0 ) ( 128 64 0 ) ( 192 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 64 48 ) ( 128 64 48 ) ( 192 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 192 48 ) ( 192 192 0 ) ( 192 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 128 48 ) ( 128 128 0 ) ( 128 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 128 48 ) ( 192 128 0 ) ( 128 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 192 48 ) ( 128 192 0 ) ( 192 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 192 0 ) ( 128 128 0 ) ( 192 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 128 48 ) ( 128 128 48 ) ( 192 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 256 48 ) ( 192 256 0 ) ( 192 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 192 48 ) ( 128 192 0 ) ( 128 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 192 48 ) ( 192 192 0 ) ( 128 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 256 48 ) ( 128 256 0 ) ( 192 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 256 0 ) ( 128 192 0 ) ( 192 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 192 48 ) ( 128 192 48 ) ( 192 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 320 48 ) ( 192 320 0 ) ( 192 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 256 48 ) ( 128 256 0 ) ( 128 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 256 48 ) ( 192 256 0 ) ( 128 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 320 48 ) ( 128 320 0 ) ( 192 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 320 0 ) ( 128 256 0 ) ( 192 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 256 48 ) ( 128 256 48 ) ( 192 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 384 48 ) ( 192 384 0 ) ( 192 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 320 48 ) ( 128 320 0 ) ( 128 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 320 48 ) ( 192 320 0 ) ( 128 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 384 48 ) ( 128 384 0 ) ( 192 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 384 0 ) ( 128 320 0 ) ( 192 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 320 48 ) ( 128 320 48 ) ( 192 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 448 48 ) ( 192 448 0 ) ( 192 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 384 48 ) ( 128 384 0 ) ( 128 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 384 48 ) ( 192 384 0 ) ( 128 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 448 48 ) ( 128 448 0 ) ( 192 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 448 0 ) ( 128 384 0 ) ( 192 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 384 48 ) ( 128 384 48 ) ( 192 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 192 512 48 ) ( 192 512 0 ) ( 192 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 448 48 ) ( 128 448 0 ) ( 128 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 448 48 ) ( 192 448 0 ) ( 128 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 512 48 ) ( 128 512 0 ) ( 192 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 512 0 ) ( 128 448 0 ) ( 192 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 448 48 ) ( 128 448 48 ) ( 192 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break3"
+{
+( 128 0 48 ) ( 128 0 0 ) ( 128 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 64 48 ) ( 192 64 0 ) ( 192 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 64 48 ) ( 128 64 0 ) ( 192 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 0 48 ) ( 192 0 0 ) ( 128 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 0 48 ) ( 128 0 48 ) ( 192 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 64 0 ) ( 128 0 0 ) ( 192 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 128 48 ) ( 256 128 0 ) ( 256 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 64 48 ) ( 192 64 0 ) ( 192 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 64 48 ) ( 256 64 0 ) ( 192 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 128 48 ) ( 192 128 0 ) ( 256 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 128 0 ) ( 192 64 0 ) ( 256 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 64 48 ) ( 192 64 48 ) ( 256 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 192 48 ) ( 256 192 0 ) ( 256 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 128 48 ) ( 192 128 0 ) ( 192 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 128 48 ) ( 256 128 0 ) ( 192 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 192 48 ) ( 192 192 0 ) ( 256 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 192 0 ) ( 192 128 0 ) ( 256 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 128 48 ) ( 192 128 48 ) ( 256 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 256 48 ) ( 256 256 0 ) ( 256 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 192 48 ) ( 192 192 0 ) ( 192 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 192 48 ) ( 256 192 0 ) ( 192 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 256 48 ) ( 192 256 0 ) ( 256 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 256 0 ) ( 192 192 0 ) ( 256 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 192 48 ) ( 192 192 48 ) ( 256 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 320 48 ) ( 256 320 0 ) ( 256 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 256 48 ) ( 192 256 0 ) ( 192 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 48 ) ( 256 256 0 ) ( 192 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 320 48 ) ( 192 320 0 ) ( 256 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 320 0 ) ( 192 256 0 ) ( 256 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 48 ) ( 192 256 48 ) ( 256 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 384 48 ) ( 256 384 0 ) ( 256 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 320 48 ) ( 192 320 0 ) ( 192 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 320 48 ) ( 256 320 0 ) ( 192 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 384 48 ) ( 192 384 0 ) ( 256 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 384 0 ) ( 192 320 0 ) ( 256 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 320 48 ) ( 192 320 48 ) ( 256 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 448 48 ) ( 256 448 0 ) ( 256 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 384 48 ) ( 192 384 0 ) ( 192 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 384 48 ) ( 256 384 0 ) ( 192 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 448 48 ) ( 192 448 0 ) ( 256 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 448 0 ) ( 192 384 0 ) ( 256 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 384 48 ) ( 192 384 48 ) ( 256 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 256 512 48 ) ( 256 512 0 ) ( 256 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 448 48 ) ( 192 448 0 ) ( 192 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 448 48 ) ( 256 448 0 ) ( 192 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 512 48 ) ( 192 512 0 ) ( 256 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 512 0 ) ( 192 448 0 ) ( 256 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 448 48 ) ( 192 448 48 ) ( 256 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break4"
+{
+( 192 0 48 ) ( 192 0 0 ) ( 192 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 64 48 ) ( 256 64 0 ) ( 256 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 64 48 ) ( 192 64 0 ) ( 256 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 48 ) ( 256 0 0 ) ( 192 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 0 48 ) ( 192 0 48 ) ( 256 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 192 64 0 ) ( 192 0 0 ) ( 256 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 128 48 ) ( 320 128 0 ) ( 320 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 64 48 ) ( 256 64 0 ) ( 256 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 64 48 ) ( 320 64 0 ) ( 256 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 128 48 ) ( 256 128 0 ) ( 320 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 128 0 ) ( 256 64 0 ) ( 320 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 64 48 ) ( 256 64 48 ) ( 320 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 192 48 ) ( 320 192 0 ) ( 320 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 128 48 ) ( 256 128 0 ) ( 256 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 128 48 ) ( 320 128 0 ) ( 256 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 192 48 ) ( 256 192 0 ) ( 320 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 192 0 ) ( 256 128 0 ) ( 320 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 128 48 ) ( 256 128 48 ) ( 320 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 256 48 ) ( 320 256 0 ) ( 320 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 192 48 ) ( 256 192 0 ) ( 256 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 192 48 ) ( 320 192 0 ) ( 256 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 48 ) ( 256 256 0 ) ( 320 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 0 ) ( 256 192 0 ) ( 320 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 192 48 ) ( 256 192 48 ) ( 320 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 320 48 ) ( 320 320 0 ) ( 320 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 48 ) ( 256 256 0 ) ( 256 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 256 48 ) ( 320 256 0 ) ( 256 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 320 48 ) ( 256 320 0 ) ( 320 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 320 0 ) ( 256 256 0 ) ( 320 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 256 48 ) ( 256 256 48 ) ( 320 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 384 48 ) ( 320 384 0 ) ( 320 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 320 48 ) ( 256 320 0 ) ( 256 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 320 48 ) ( 320 320 0 ) ( 256 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 384 48 ) ( 256 384 0 ) ( 320 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 384 0 ) ( 256 320 0 ) ( 320 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 320 48 ) ( 256 320 48 ) ( 320 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 448 48 ) ( 320 448 0 ) ( 320 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 384 48 ) ( 256 384 0 ) ( 256 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 384 48 ) ( 320 384 0 ) ( 256 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 448 48 ) ( 256 448 0 ) ( 320 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 448 0 ) ( 256 384 0 ) ( 320 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 384 48 ) ( 256 384 48 ) ( 320 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 320 512 48 ) ( 320 512 0 ) ( 320 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 448 48 ) ( 256 448 0 ) ( 256 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 448 48 ) ( 320 448 0 ) ( 256 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 512 48 ) ( 256 512 0 ) ( 320 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 512 0 ) ( 256 448 0 ) ( 320 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 448 48 ) ( 256 448 48 ) ( 320 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break5"
+{
+( 256 0 48 ) ( 256 0 0 ) ( 256 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 64 48 ) ( 320 64 0 ) ( 320 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 64 48 ) ( 256 64 0 ) ( 320 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 0 48 ) ( 320 0 0 ) ( 256 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 0 48 ) ( 256 0 48 ) ( 320 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 64 0 ) ( 256 0 0 ) ( 320 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 128 48 ) ( 384 128 0 ) ( 384 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 64 48 ) ( 320 64 0 ) ( 320 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 64 48 ) ( 384 64 0 ) ( 320 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 128 48 ) ( 320 128 0 ) ( 384 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 128 0 ) ( 320 64 0 ) ( 384 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 64 48 ) ( 320 64 48 ) ( 384 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 192 48 ) ( 384 192 0 ) ( 384 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 128 48 ) ( 320 128 0 ) ( 320 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 128 48 ) ( 384 128 0 ) ( 320 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 192 48 ) ( 320 192 0 ) ( 384 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 192 0 ) ( 320 128 0 ) ( 384 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 128 48 ) ( 320 128 48 ) ( 384 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 256 48 ) ( 384 256 0 ) ( 384 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 192 48 ) ( 320 192 0 ) ( 320 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 192 48 ) ( 384 192 0 ) ( 320 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 256 48 ) ( 320 256 0 ) ( 384 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 256 0 ) ( 320 192 0 ) ( 384 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 192 48 ) ( 320 192 48 ) ( 384 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 320 48 ) ( 384 320 0 ) ( 384 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 256 48 ) ( 320 256 0 ) ( 320 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 256 48 ) ( 384 256 0 ) ( 320 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 320 48 ) ( 320 320 0 ) ( 384 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 320 0 ) ( 320 256 0 ) ( 384 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 256 48 ) ( 320 256 48 ) ( 384 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 384 48 ) ( 384 384 0 ) ( 384 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 320 48 ) ( 320 320 0 ) ( 320 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 320 48 ) ( 384 320 0 ) ( 320 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 384 48 ) ( 320 384 0 ) ( 384 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 384 0 ) ( 320 320 0 ) ( 384 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 320 48 ) ( 320 320 48 ) ( 384 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 448 48 ) ( 384 448 0 ) ( 384 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 384 48 ) ( 320 384 0 ) ( 320 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 384 48 ) ( 384 384 0 ) ( 320 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 448 48 ) ( 320 448 0 ) ( 384 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 448 0 ) ( 320 384 0 ) ( 384 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 384 48 ) ( 320 384 48 ) ( 384 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 384 512 48 ) ( 384 512 0 ) ( 384 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 448 48 ) ( 320 448 0 ) ( 320 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 448 48 ) ( 384 448 0 ) ( 320 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 512 48 ) ( 320 512 0 ) ( 384 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 512 0 ) ( 320 448 0 ) ( 384 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 448 48 ) ( 320 448 48 ) ( 384 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break6"
+{
+( 320 0 48 ) ( 320 0 0 ) ( 320 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 64 48 ) ( 384 64 0 ) ( 384 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 320 64 48 ) ( 320 64 0 ) ( 384 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 0 48 ) ( 384 0 0 ) ( 320 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 0 48 ) ( 320 0 48 ) ( 384 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 320 64 0 ) ( 320 0 0 ) ( 384 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 128 48 ) ( 448 128 0 ) ( 448 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 64 48 ) ( 384 64 0 ) ( 384 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 64 48 ) ( 448 64 0 ) ( 384 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 128 48 ) ( 384 128 0 ) ( 448 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 128 0 ) ( 384 64 0 ) ( 448 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 64 48 ) ( 384 64 48 ) ( 448 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 192 48 ) ( 448 192 0 ) ( 448 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 128 48 ) ( 384 128 0 ) ( 384 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 128 48 ) ( 448 128 0 ) ( 384 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 192 48 ) ( 384 192 0 ) ( 448 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 192 0 ) ( 384 128 0 ) ( 448 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 128 48 ) ( 384 128 48 ) ( 448 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 256 48 ) ( 448 256 0 ) ( 448 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 192 48 ) ( 384 192 0 ) ( 384 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 192 48 ) ( 448 192 0 ) ( 384 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 256 48 ) ( 384 256 0 ) ( 448 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 256 0 ) ( 384 192 0 ) ( 448 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 192 48 ) ( 384 192 48 ) ( 448 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 320 48 ) ( 448 320 0 ) ( 448 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 256 48 ) ( 384 256 0 ) ( 384 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 256 48 ) ( 448 256 0 ) ( 384 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 320 48 ) ( 384 320 0 ) ( 448 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 320 0 ) ( 384 256 0 ) ( 448 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 256 48 ) ( 384 256 48 ) ( 448 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 384 48 ) ( 448 384 0 ) ( 448 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 320 48 ) ( 384 320 0 ) ( 384 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 320 48 ) ( 448 320 0 ) ( 384 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 384 48 ) ( 384 384 0 ) ( 448 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 384 0 ) ( 384 320 0 ) ( 448 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 320 48 ) ( 384 320 48 ) ( 448 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 448 48 ) ( 448 448 0 ) ( 448 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 384 48 ) ( 384 384 0 ) ( 384 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 384 48 ) ( 448 384 0 ) ( 384 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 448 48 ) ( 384 448 0 ) ( 448 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 448 0 ) ( 384 384 0 ) ( 448 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 384 48 ) ( 384 384 48 ) ( 448 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 448 512 48 ) ( 448 512 0 ) ( 448 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 448 48 ) ( 384 448 0 ) ( 384 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 448 48 ) ( 448 448 0 ) ( 384 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 512 48 ) ( 384 512 0 ) ( 448 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 512 0 ) ( 384 448 0 ) ( 448 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 448 48 ) ( 384 448 48 ) ( 448 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break7"
+{
+( 384 0 48 ) ( 384 0 0 ) ( 384 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 64 48 ) ( 448 64 0 ) ( 448 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 64 48 ) ( 384 64 0 ) ( 448 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 0 48 ) ( 448 0 0 ) ( 384 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 0 48 ) ( 384 0 48 ) ( 448 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 64 0 ) ( 384 0 0 ) ( 448 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 128 48 ) ( 512 128 0 ) ( 512 64 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 64 48 ) ( 448 64 0 ) ( 448 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 64 48 ) ( 512 64 0 ) ( 448 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 128 48 ) ( 448 128 0 ) ( 512 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 128 0 ) ( 448 64 0 ) ( 512 128 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 64 48 ) ( 448 64 48 ) ( 512 128 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 192 48 ) ( 512 192 0 ) ( 512 128 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 128 48 ) ( 448 128 0 ) ( 448 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 128 48 ) ( 512 128 0 ) ( 448 128 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 192 48 ) ( 448 192 0 ) ( 512 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 192 0 ) ( 448 128 0 ) ( 512 192 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 128 48 ) ( 448 128 48 ) ( 512 192 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 256 48 ) ( 512 256 0 ) ( 512 192 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 192 48 ) ( 448 192 0 ) ( 448 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 192 48 ) ( 512 192 0 ) ( 448 192 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 256 48 ) ( 448 256 0 ) ( 512 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 256 0 ) ( 448 192 0 ) ( 512 256 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 192 48 ) ( 448 192 48 ) ( 512 256 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 320 48 ) ( 512 320 0 ) ( 512 256 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 256 48 ) ( 448 256 0 ) ( 448 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 256 48 ) ( 512 256 0 ) ( 448 256 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 320 48 ) ( 448 320 0 ) ( 512 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 320 0 ) ( 448 256 0 ) ( 512 320 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 256 48 ) ( 448 256 48 ) ( 512 320 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 384 48 ) ( 512 384 0 ) ( 512 320 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 320 48 ) ( 448 320 0 ) ( 448 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 320 48 ) ( 512 320 0 ) ( 448 320 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 384 48 ) ( 448 384 0 ) ( 512 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 384 0 ) ( 448 320 0 ) ( 512 384 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 320 48 ) ( 448 320 48 ) ( 512 384 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 448 48 ) ( 512 448 0 ) ( 512 384 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 384 48 ) ( 448 384 0 ) ( 448 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 384 48 ) ( 512 384 0 ) ( 448 384 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 448 48 ) ( 448 448 0 ) ( 512 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 448 0 ) ( 448 384 0 ) ( 512 448 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 384 48 ) ( 448 384 48 ) ( 512 448 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 512 512 48 ) ( 512 512 0 ) ( 512 448 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 448 48 ) ( 448 448 0 ) ( 448 512 48 ) CRATE09C [ 0 1 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 448 48 ) ( 512 448 0 ) ( 448 448 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 512 48 ) ( 448 512 0 ) ( 512 512 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 512 0 ) ( 448 448 0 ) ( 512 512 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 512 448 48 ) ( 448 448 48 ) ( 512 512 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_breakable"
+"spawnflags" "256"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"explodemagnitude" "0"
+"delay" "0"
+"explosion" "0"
+"material" "1"
+"health" "1"
+"targetname" "break8"
+{
+( 448 0 48 ) ( 448 0 0 ) ( 448 64 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 64 48 ) ( 512 64 0 ) ( 512 0 48 ) CRATE09C [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 448 64 48 ) ( 448 64 0 ) ( 512 64 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 0 48 ) ( 512 0 0 ) ( 448 0 48 ) CRATE09 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 1 1
+( 512 0 48 ) ( 448 0 48 ) ( 512 64 48 ) CRATE09B [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+( 448 64 0 ) ( 448 0 0 ) ( 512 64 0 ) NULL [ 1 0 0 -0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"wait" "-1"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"target" "break"
+"sounds" "buttons/button1.wav"
+{
+( -120 8 48 ) ( -120 8 0 ) ( -120 -8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -136 -8 48 ) ( -136 -8 0 ) ( -136 8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -120 -8 48 ) ( -120 -8 0 ) ( -136 -8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -136 8 48 ) ( -136 8 0 ) ( -120 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -136 8 0 ) ( -136 -8 0 ) ( -120 8 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( -120 -8 48 ) ( -136 -8 48 ) ( -120 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "multi_manager"
+"targetname" "break"
+"break1" "0"
+"break2" "0.5"
+"break3" "1"
+"break4" "1.5"
+"break5" "2"
+"break6" "2.5"
+"break7" "3"
+"break8" "3.5"
+"origin" "-128 0 56"
+}
