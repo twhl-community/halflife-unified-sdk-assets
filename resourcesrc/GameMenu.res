@@ -87,14 +87,14 @@
 		"command" ""
 		"notsingle" "1"
 	}
-	"15"
-	{
-		"label" "#GameUI_GameMenu_ChangeGame"
-		"command" "OpenChangeGameDialog"
-		"notsteam" "1"
-		"notsingle" "1"
-		"notmulti" "1"
-	}
+	//"15"
+	//{
+	//	"label" "#GameUI_GameMenu_ChangeGame"
+	//	"command" "OpenChangeGameDialog"
+	//	"notsteam" "1"
+	//	"notsingle" "1"
+	//	"notmulti" "1"
+	//}
 	"16"
 	{
 		"label" "#GameUI_GameMenu_Options"
