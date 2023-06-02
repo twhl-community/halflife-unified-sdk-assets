@@ -14,8 +14,8 @@
 		"Height": 45
 	},
 	"ammo": {
-		"SpriteName": "op4/hud3_scanline",
-		"Left": 200,
+		"SpriteName": "op4/hud2_scanline",
+		"Left": 201,
 		"Top": 232,
 		"Width": 24,
 		"Height": 24

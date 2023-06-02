@@ -14,8 +14,8 @@
 		"Height": 45
 	},
 	"ammo": {
-		"SpriteName": "hud3",
-		"Left": 200,
+		"SpriteName": "hud2",
+		"Left": 201,
 		"Top": 232,
 		"Width": 24,
 		"Height": 24
