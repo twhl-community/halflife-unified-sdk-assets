@@ -273,6 +273,14 @@
 		"Width": 32,
 		"Height": 32
 	},
+	// Dimensions are ignored, this just tells the HUD which file to use.
+	"train_controls": {
+		"SpriteName": "hud_train",
+		"Left": 0,
+		"Top": 0,
+		"Width": 96,
+		"Height": 96
+	},
 	"autoaim_c": {
 		"SpriteName": "crosshairs",
 		"Left": 96,
