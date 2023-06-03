@@ -281,6 +281,14 @@
 		"Width": 96,
 		"Height": 96
 	},
+	// Dimensions are ignored, this just tells the HUD which file to use.
+	"pain_directions": {
+		"SpriteName": "op4/hud_pain",
+		"Left": 0,
+		"Top": 0,
+		"Width": 128,
+		"Height": 128
+	},
 	"autoaim_c": {
 		"SpriteName": "crosshairs",
 		"Left": 96,
