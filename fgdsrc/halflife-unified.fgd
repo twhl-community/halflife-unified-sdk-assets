@@ -486,13 +486,19 @@
 		0 : "No"
 		1 : "Yes"
 	]
+	
+	allow_follow(choices) : "Allow scientists to follow players" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	UseSentence(String) : "Use Sentence"
+	UnUseSentence(String) : "Un-Use Sentence"
 ]
 
 @BaseClass = TalkMonster
 [
-	UseSentence(String) : "Use Sentence"
-	UnUseSentence(String) : "Un-Use Sentence"
-	
 	suspicious(choices) : "Suspicious" : 0 =
 	[
 		0 : "No"
@@ -2010,12 +2016,6 @@
 		0 : "None"
 		1 : "Clipboard"
 		2 : "Stick"
-	]
-	
-	allow_follow(choices) : "Allow scientists to follow players" : 1 =
-	[
-		0 : "No"
-		1 : "Yes"
 	]
 ]
 @PointClass base(Targetname,Appearflags,RenderFields, Angles, Sequence) size(-16 -16 0, 16 16 72) studio("models/scientist.mdl") = monster_scientist_dead : "Dead Scientist" 
