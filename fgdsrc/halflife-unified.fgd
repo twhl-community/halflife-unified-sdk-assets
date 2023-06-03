@@ -490,8 +490,14 @@
 
 @BaseClass = TalkMonster
 [
-  UseSentence(String) : "Use Sentence"
-  UnUseSentence(String) : "Un-Use Sentence"
+	UseSentence(String) : "Use Sentence"
+	UnUseSentence(String) : "Un-Use Sentence"
+	
+	suspicious(choices) : "Suspicious" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
 ]
 
 @BaseClass base(Targetname, Angles) size(-16 -16 -16, 16 16 16) = gibshooterbase
@@ -1866,11 +1872,6 @@
 @PointClass base(RenderFields, Sequence) size(-16 -16 -36, 16 16 0) studio("models/barnacle.mdl") = monster_barnacle : "Barnacle Monster" []
 @PointClass base(Monster,TalkMonster, Sequence) size(-16 -16 0, 16 16 72) studio("models/barney.mdl") = monster_barney : "Barney"
 [
-	suspicious(choices) : "Suspicious" : 0 =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
 ]
 @PointClass base(Targetname,RenderFields,Appearflags, Angles, Sequence) size(-16 -16 0, 16 16 72) studio("models/barney.mdl") = monster_barney_dead : "Dead Barney" 
 [
@@ -1995,7 +1996,7 @@
 @PointClass base(Weapon,Targetx,RenderFields, Sequence) studio("models/w_satchel.mdl") = monster_satchel : "Live Satchel Charge" []
 @PointClass base(Monster, TalkMonster, Sequence) size(-16 -16 0, 16 16 72) studio("models/scientist.mdl") = monster_scientist : "Scared Scientist" 
 [
-      body(Choices) : "Body" : -1 =
+	body(Choices) : "Body" : -1 =
 	[
 		-1 : "Random"
 		0 : "Glasses"
@@ -2012,12 +2013,6 @@
 	]
 	
 	allow_follow(choices) : "Allow scientists to follow players" : 1 =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-	
-	suspicious(choices) : "Suspicious" : 0 =
 	[
 		0 : "No"
 		1 : "Yes"
@@ -3060,12 +3055,6 @@
 		0 : "None"
 		1 : "Clipboard"
 		2 : "Donut"
-	]
-	
-	suspicious(choices) : "Suspicious" : 0 =
-	[
-		0 : "No"
-		1 : "Yes"
 	]
 ]
 
