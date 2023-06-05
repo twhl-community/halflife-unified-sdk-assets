@@ -516,6 +516,9 @@
 	"player_arm": 1,
 	"player_leg": 1,
 	
+	// Enables the buggy melee weapon behavior that allows for chainsaw-like effects.
+	"chainsaw_melee": 0,
+	
 	// Multiplayer weapon configuration
 	"crowbar_full_damage": 0,
 	"revolver_laser_sight": 0,
