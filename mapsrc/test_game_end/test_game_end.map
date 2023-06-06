@@ -1,0 +1,132 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"mapteams" "grunt;scientist"
+"newunit" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\decals.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\ravelin.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc.WAD;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc2.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\class_signs.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 288 256 160 ) ( 288 256 0 ) ( 288 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 288 -256 0 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 256 -256 160 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 0 ) ( 256 -256 0 ) ( 288 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 256 160 ) ( -256 256 0 ) ( -256 -256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 -256 160 ) ( -288 -256 0 ) ( -288 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( -288 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 256 160 ) ( -288 256 0 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -288 -256 160 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -288 256 0 ) ( -288 -256 0 ) ( -256 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 288 160 ) ( 256 288 0 ) ( 256 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 256 0 ) ( -256 288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( -256 256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 288 160 ) ( -256 288 0 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( -256 256 160 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 288 0 ) ( -256 256 0 ) ( 256 288 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 -288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -288 160 ) ( -256 -288 0 ) ( -256 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( 256 -288 0 ) ( -256 -288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( 256 -256 160 ) C1A0_WX [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( -256 -288 160 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -288 0 ) ( 256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 192 ) ( 256 256 160 ) ( 256 -256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 192 ) ( -256 -256 160 ) ( -256 256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( 256 -256 160 ) ( -256 -256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 192 ) ( -256 256 160 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( -256 -256 192 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 160 ) ( -256 -256 160 ) ( 256 256 160 ) C2A4E_W1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 0 ) ( 256 256 -32 ) ( 256 -256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -256 -32 ) ( -256 256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( 256 -256 -32 ) ( -256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 0 ) ( -256 256 -32 ) ( 256 256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( -256 -256 0 ) ( 256 256 0 ) C1A0_LABFLRC [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 -32 ) ( -256 -256 -32 ) ( 256 256 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 200"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "env_global"
+"initialstate" "0"
+"triggermode" "1"
+"targetname" "global"
+"globalstate" "foo"
+"origin" "0 0 56"
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"wait" "-1"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"target" "global"
+"sounds" "buttons/button7.wav"
+{
+( 8 8 48 ) ( 8 8 0 ) ( 8 -8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -8 -8 48 ) ( -8 -8 0 ) ( -8 8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 8 -8 48 ) ( 8 -8 0 ) ( -8 -8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -8 8 48 ) ( -8 8 0 ) ( 8 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( -8 8 0 ) ( -8 -8 0 ) ( 8 8 0 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+( 8 -8 48 ) ( -8 -8 48 ) ( 8 8 48 ) +0BUTTON1 [ 1 0 0 16 ] [ 0 -1 0 16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "func_button"
+"spawnflags" "1"
+"wait" "-1"
+"speed" "5"
+"zhlt_lightflags" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"delay" "0"
+"target" "end"
+"sounds" "buttons/button7.wav"
+{
+( 256 8 48 ) ( 256 8 0 ) ( 256 -8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 240 -8 48 ) ( 240 -8 0 ) ( 240 8 48 ) +0BUTTON1 [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 256 -8 48 ) ( 256 -8 0 ) ( 240 -8 48 ) +0BUTTON1 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 240 8 48 ) ( 240 8 0 ) ( 256 8 48 ) +0BUTTON1 [ 1 0 0 -0 ] [ 0 0 -1 0 ] 0 0.5 1.5
+( 240 8 0 ) ( 240 -8 0 ) ( 256 8 0 ) +0BUTTON1 [ 1 0 0 -0 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+( 256 -8 48 ) ( 240 -8 48 ) ( 256 8 48 ) +0BUTTON1 [ 1 0 0 -0 ] [ 0 -1 0 -16 ] 0 0.5 0.5
+}
+}
+{
+"classname" "game_end"
+"triggermode" "1"
+"targetname" "end"
+"globalstate" "foo"
+"origin" "248 0 56"
+}
