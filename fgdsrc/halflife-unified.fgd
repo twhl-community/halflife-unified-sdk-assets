@@ -497,6 +497,11 @@
 	UnUseSentence(String) : "Un-Use Sentence"
 ]
 
+@BaseClass = MonsterWithChildren
+[
+	child_classification(string) : "Child classification"
+]
+
 @BaseClass = TalkMonster
 [
 	suspicious(choices) : "Suspicious" : 0 =
@@ -1888,7 +1893,7 @@
     2 : "On stomach"
   ]
 ]
-@PointClass base(Monster, Sequence) size(-95 -95 0, 95 95 190) studio("models/big_mom.mdl") = monster_bigmomma : "Big Mamma" 
+@PointClass base(Monster, Sequence, MonsterWithChildren) size(-95 -95 0, 95 95 190) studio("models/big_mom.mdl") = monster_bigmomma : "Big Mamma" 
 [
   netname(string) : "First node" : ""
 ]
@@ -1985,7 +1990,7 @@
 ]
 @PointClass base(Monster, Sequence) size(-192 -192 0, 192 192 384) studio("models/nihilanth.mdl") = monster_nihilanth : "Nihilanth"  []
 
-@BaseClass = BaseOsprey
+@BaseClass base(MonsterWithChildren) = BaseOsprey
 [
 	spawnflags(Flags) = 
 	[
