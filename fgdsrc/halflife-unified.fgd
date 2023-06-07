@@ -444,7 +444,17 @@
 
 @BaseClass base(Appearflags, Angles) flags(Angle) size(-16 -16 -36, 16 16 36) color(0 255 0) offset(0 0 36) = PlayerClass []
 
-@BaseClass base(Target, Targetname, RenderFields, Angles, CustomModel) flags(Angle) color(0 200 200) = Monster 
+@BaseClass = Unkillable
+[
+	// Note: not all NPCs support this.
+	unkillable(choices) : "Is Unkillable" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+]
+
+@BaseClass base(Target, Targetname, RenderFields, Angles, CustomModel, Unkillable) flags(Angle) color(0 200 200) = Monster 
 [
   health(integer) : "Custom health (leave undefined to use default)"
   
