@@ -43,7 +43,7 @@ $sequence "idle5" "animations/idle5" fps 15 loop ACT_IDLE 1
 $sequence "idle6" "animations/idle6" fps 15 loop ACT_IDLE 1 
 $sequence "idle7" "animations/idle7" fps 15 loop ACT_IDLE 20 
 $sequence "walk2" "animations/walk2" LX fps 15 loop ACT_WALK 1 
-$sequence "jump" "animations/jump" fps 15 loop 
+$sequence "jump" "animations/jump" fps 15 
 $sequence "eat" "animations/eat" fps 15 loop ACT_EAT 1 
 $sequence "die1" "animations/die1" fps 15 loop ACT_DIESIMPLE 1 
 
