@@ -18,7 +18,6 @@ $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_9mmar/ld"
 $cdtexture "../../textures/player/gordon"
 $scale 1.0
-$cliptotextures
 
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
