@@ -16,10 +16,6 @@
 		"HG_GREN5 hgrunt/clik no! clik",
 		"HG_GREN6 hgrunt/clik move! clik(p120)",
 	
-		// Opposing Force version
-		"OFHG_GREN0 hgrunt/clik(p120) grenade! clik",
-		"OFHG_GREN1 hgrunt/(t30) clik take!(e75) cover!(s5) clik",
-	
 		// Player Alert
 		"HG_ALERT0 hgrunt/(t30) squad!, we!(e80) got!(e80) freeman!(t20 p105), clik(p110)",
 		"HG_ALERT1 hgrunt/clik(p110) target! clik",
@@ -29,27 +25,11 @@
 		"HG_ALERT5 hgrunt/(t20) clik squad!, neutralize!(e90) freeman! clik",
 		"HG_ALERT6 hgrunt/(t30) clik clik move!(e75) in! clik(p120)",
 	
-		// Opposing Force version
-		"OFHG_ALERT0 hgrunt/clik(p110) target! clik",
-		"OFHG_ALERT1 hgrunt/clik movement! clik",
-	
-		// Blue Shift version
-		"BSHG_ALERT0 hgrunt/(t30) squad!, we!(e80) got!(e80) hostiles!(t20 p105), clik(p110)",
-		"BSHG_ALERT1 hgrunt/clik(p110) target! clik",
-		"BSHG_ALERT2 hgrunt/clik movement! clik",
-		"BSHG_ALERT3 hgrunt/(t40) shit!(t20), (t50) we! got! hostiles!(p120 t0) clik",
-		"BSHG_ALERT4 hgrunt/(t20) clik squad!, neutralize!(e90) hostiles! clik",
-		"BSHG_ALERT5 hgrunt/(t30) clik clik move!(e75) in! clik(p120)",
-	
 		// Monster Alert
 		"HG_MONST0 hgrunt/clik(p110) (t50) bogies!(t0), my! sector!(t0) clik",
 		"HG_MONST1 hgrunt/clik(p110) (t40) clik(p120) we!(e75) got! bogies! clik",
 		"HG_MONST2 hgrunt/clik clik (t30) alien!(e85) alert! clik",
 		"HG_MONST3 hgrunt/clik clik (t30) alien!(e85) movement!(t0) clik(p120)",
-	
-		// Opposing Force version
-		"OFHG_MONST0 hgrunt/clik(p110) (t50) bogies!(t0), my! sector!(t0) clik",
-		"OFHG_MONST1 hgrunt/clik(p110) (t40) clik(p120) we!(e75) got! bogies! clik",
 	
 		// Take cover
 		"HG_COVER0 hgrunt/clik (t30) take! cover!(t0) clik",
@@ -61,19 +41,11 @@
 		"HG_COVER6 hgrunt/clik (t40) god! damn! clik",
 		"HG_COVER7 hgrunt/clik (t40) cover!(e75) fire! clik",
 	
-		// Opposing Force version
-		"OFHG_COVER0 hgrunt/clik (t30) take! cover!(t0) clik",
-		"OFHG_COVER1 hgrunt/clik (t45) (e75) I!(e80) need!(e80) suppressing!(t20) fire!(t10) clik",
-	
 		// Throw grenade
 		"HG_THROW0 hgrunt/clik(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) clik",
 		"HG_THROW1 hgrunt/clik (t30) take!(e75) this!(e100 t0) clik",
 		"HG_THROW2 hgrunt/clik (t35) fire in the(e50) hole clik(p120)",
 		"HG_THROW3 hgrunt/clik(p110) (t35 e80) squad, stay down clik",
-	
-		// Opposing Force version
-		"OFHG_THROW0 hgrunt/clik(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) clik",
-		"OFHG_THROW1 hgrunt/clik (t30) take!(e75) this!(e100 t0) clik",
 	
 		// Taunt
 		"HG_TAUNT0 hgrunt/clik (t30 e75) uhh, we got heavy fire here clik",
@@ -83,28 +55,17 @@
 		"HG_TAUNT4 hgrunt/clik(p120) (t40) you got nothing clik",
 		"HG_TAUNT5 hgrunt/clik(p110) (t40) request! backup! clik(p120) clik",
 	
-		// Opposing Force version
-		"OFHG_TAUNT0 hgrunt/clik (t30 e75) uhh, we got heavy fire here clik",
-		"OFHG_TAUNT1 hgrunt/clik(p120) (t40) roger, hold position clik",
-	
 		// Charge
 		"HG_CHARGE0 hgrunt/clik (t40) go! recon! clik(p120)",
 		"HG_CHARGE1 hgrunt/clik(p110) (t40) move!(e75) in! clik",
 		"HG_CHARGE2 hgrunt/clik go! clik(p120)",
 		"HG_CHARGE3 hgrunt/clik lets! go! clik(p120)",
 	
-		// Opposing Force version
-		"OFHG_CHARGE0 hgrunt/clik (t40) go! recon! clik(p120)",
-		"OFHG_CHARGE1 hgrunt/clik(p110) (t40) move!(e75) in! clik",
-	
 		// Idle
 		"HG_IDLE0 hgrunt/gr_idle1",
 		"HG_IDLE1 hgrunt/gr_idle2",
 		"HG_IDLE2 hgrunt/gr_idle3",
 	
-		// Opposing Force version
-		"OFHG_IDLE0 hgrunt/gr_idle1",
-		"OFHG_IDLE1 hgrunt/gr_idle2",
 		"HG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)",
 		"HG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120)",
 		"HG_QUEST2 hgrunt/clik (t20) maintain lookout clik(p120)",
@@ -118,23 +79,6 @@
 		"HG_QUEST10 hgrunt/clik (t30) ok(e75) mission, zero(e75) niner clik",
 		"HG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four freeman, over clik",
 	
-		// Opposing Force version
-		"OFHG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)",
-		"OFHG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120)",
-	
-		// Blue Shift version
-		"BSHG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)",
-		"BSHG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120)",
-		"BSHG_QUEST2 hgrunt/clik (t20) maintain lookout clik(p120)",
-		"BSHG_QUEST3 hgrunt/clik(p110) (t30) squad, quiet(e75) down clik(p120)",
-		"BSHG_QUEST4 hgrunt/clik(p120) (t30) hold position, clik",
-		"BSHG_QUEST5 hgrunt/clik(p120) (t30) sweep(e80) that sector, clik(p120) clik(p120)",
-		"BSHG_QUEST6 hgrunt/clik(p120) (t30) uhh, go tango sweep formation clik(p120) clik(p120)",
-		"BSHG_QUEST7 hgrunt/clik(p120) (t30) echo(e75) mission is go clik(p120) clik(p120)",
-		"BSHG_QUEST8 hgrunt/clik(p110) (t30) fire(e75) team, weapons(e75) check ok clik(p120) clik",
-		"BSHG_QUEST9 hgrunt/clik(p110) (t30) fire(e75) team, objective foxtrot niner clik(p120)",
-		"BSHG_QUEST10 hgrunt/clik (t30) ok(e75) mission, zero(e75) niner clik",
-		"BSHG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four hostiles, over clik",
 		"HG_ANSWER0 hgrunt/clik(p110) (t20) uhh roger(e75) that, clik(p120) clik",
 		"HG_ANSWER1 hgrunt/clik(p120) (t10) yessir clik",
 		"HG_ANSWER2 hgrunt/clik(p120) (t30) affirmative, sir clik",
@@ -143,9 +87,6 @@
 		"HG_ANSWER5 hgrunt/clik(p105) (t30) ok control clik",
 		"HG_ANSWER6 hgrunt/clik(p105) (t30) that(e75) is, uhh, affirmative clik",
 	
-		// Opposing Force version
-		"OFHG_ANSWER0 hgrunt/clik(p110) (t20) uhh roger(e75) that, clik(p120) clik",
-		"OFHG_ANSWER1 hgrunt/clik(p120) (t10) yessir clik",
 		"HG_CLEAR0 hgrunt/clik(p130) (t30) all(e75) clear sir, clik",
 		"HG_CLEAR1 hgrunt/clik (t30) bravo(e75) post, clear clik(p120)",
 		"HG_CLEAR2 hgrunt/clik(p110) (t30) delta(e75) team, clear clik(p120)",
@@ -160,9 +101,6 @@
 		"HG_CLEAR11 hgrunt/clik(p120) (t30) sir, uhh, zero movement, over clik",
 		"HG_CLEAR12 hgrunt/clik (t30) area secure sir, over clik(p120)",
 	
-		// Opposing Force version
-		"OFHG_CLEAR0 hgrunt/clik(p130) (t30) all(e75) clear sir, clik",
-		"OFHG_CLEAR1 hgrunt/clik (t30) bravo(e75) post, clear clik(p120)",
 		"HG_CHECK0 hgrunt/clik (t30) ok, check(e75) in clik",
 		"HG_CHECK1 hgrunt/clik(p110) (t30) squad, are(e80) hostiles clear clik(p120)",
 		"HG_CHECK2 hgrunt/clik (t30) check(e80) in people clik",
@@ -171,10 +109,6 @@
 		"HG_CHECK5 hgrunt/clik(p130) (t30) movement check, over clik",
 		"HG_CHECK6 hgrunt/clik (t30) check your zone, over, clik",
 		"HG_CHECK7 hgrunt/clik (t30) everything(e85) ok(e75) there, clik(p130)",
-	
-		// Opposing Force version
-		"OFHG_CHECK0 hgrunt/clik (t30) ok, check(e75) in clik",
-		"OFHG_CHECK1 hgrunt/clik(p110) (t30) squad, are(e80) hostiles clear clik(p120)",
 	
 		//narrative
 		"HG_SNOOP1A hgrunt/c2a2_hg_chat1a",
@@ -224,17 +158,6 @@
 		"C1A0_20 dadeda (e95) doctor victor, report to(e70) supercooled(e100) laser lab please(e100)",
 		"C1A0_21 dadeda (e95 p104) sargeant guthrie, report to(e70) topside motorpool immediately(e100)",
 		"C1A0_22 deeoo (e95 p98) uranium shipment inspection team, to(e100) sector d(e100)",
-	
-		// Opposing Force version
-		"OFC1A0_0 bloop (e95) immediate medical attention required in(e70) sector twenty(e95) seven(e100)",
-		"OFC1A0_1 doop (e95) operations personnel report to(e70) emergency control zone for contamination cleanup, alpha seven access required(e100)",
-		"OFC1A0_2 attention, supply team required in(e70) lower maintenance chamber sub sector b(e100)",
-		"OFC1A0_3 doop (e95) security breach detected in(e70) silo thirty two(e100)",
-		"OFC1A0_4 warning, extreme radiation leak detected in(e70) reactor core eight, time to(e70) reach minimum safe distance, fourteen minutes(e100)",
-		"OFC1A0_5 dadeda (e95) doctor guthrie report to(e70) inspection lab six immediately(e100)",
-		"OFC1A0_6 attention, doctor Freeman report to(e70) research administration center for questioning(e100)",
-		"OFC1A0_7 deeoo (e95 p98) remaining science personnel report to medical lab six for radiation exposure inspection(e100)",
-		"OFC1A0_8 warning, severe damage detected in ventillation systems under research lab two, evacuate area immediately(e100)",
 	
 		// C1A1 intercom anomalous materials test lab sector c, coolant resevoir facility sector b
 		"C1A1_0 bizwarn bizwarn bizwarn warning, high energy detonation detected in materials lab",
@@ -317,7 +240,6 @@
 		"C2A2_launch (p50) deeoo deeoo deeoo (p100) satellite launch system activated. five deeoo(p50) four deeoo(p51) three deeoo(p52) two deeoo(p53) one deeoo(p54) launch is go",
 	
 		// C2A3 observation tank1, 2. cryogenic system
-	
 		// silent
 	
 		// C2A4 intercom bio waste processing plant. advanced biological research lab
@@ -783,22 +705,6 @@
 		"BA_HELLO5 barney/heybuddy",
 		"BA_HELLO6 barney/heyfella",
 	
-		// Opposing Force version
-		"OFBA_HELLO0 barney/hellonicesuit",
-		"OFBA_HELLO1 barney/howyoudoing",
-		"OFBA_HELLO2 barney/hayfella",
-		"OFBA_HELLO3 barney/armedforces",
-		"OFBA_HELLO4 barney/soldier",
-		"OFBA_HELLO4 barney/sir",
-	
-		// Blue Shift version
-		"BSBA_HELLO0 barney/hellonicesuit",
-		"BSBA_HELLO1 barney/ba_hello1",
-		"BSBA_HELLO2 barney/ba_hello2",
-		"BSBA_HELLO3 barney/ba_hello3",
-		"BSBA_HELLO4 barney/ba_hello4",
-		"BSBA_HELLO5 barney/ba_hello5",
-		"BSBA_HELLO6 barney/heyfella",
 		"BA_QUESTION0 barney/beertopside",
 		"BA_QUESTION1 barney/wayout",
 		"BA_QUESTION2 barney/getanyworse",
@@ -815,17 +721,6 @@
 		"BA_QUESTION13 barney/thinking",
 		"BA_QUESTION14 barney/missingleg",
 	
-		// Opposing Force version
-		"OFBA_QUESTION0 barney/beertopside",
-		"OFBA_QUESTION1 barney/getanyworse",
-		"OFBA_QUESTION2 barney/workingonstuff",
-		"OFBA_QUESTION3 barney/whatsgoingon",
-		"OFBA_QUESTION4 barney/aintscared",
-		"OFBA_QUESTION5 barney/nodrill",
-		"OFBA_QUESTION6 barney/crewdied",
-		"OFBA_QUESTION7 barney/somethingmoves",
-		"OFBA_QUESTION8 barney/thinking",
-		"OFBA_QUESTION9 barney/missingleg",
 		"BA_ANSWER0 barney/noway",
 		"BA_ANSWER1 barney/ireckon",
 		"BA_ANSWER2 barney/soundsright",
@@ -854,6 +749,7 @@
 		"BA_STARE1 barney/yessir",
 		"BA_STARE2 barney/howyoudoing",
 		"BA_STARE3 barney/heyfella",
+		
 		"BA_IDLE0 barney/whatisthat",
 		"BA_IDLE1 barney/coldone",
 		"BA_IDLE2 barney/guyresponsible",
@@ -865,6 +761,7 @@
 		"BA_IDLE8 barney/ambush",
 		"BA_IDLE9 barney/survive",
 		"BA_IDLE10 barney/stophere",
+		
 		"BA_ATTACK0 barney/openfire(e50)",
 		"BA_ATTACK1 barney/openfire(s50)",
 		"BA_ATTACK2 barney/standback",
@@ -872,32 +769,24 @@
 		"BA_ATTACK4 barney/diebloodsucker",
 		"BA_ATTACK5 barney/aimforhead",
 	
-		// Opposing Force version
-		"OFBA_ATTACK0 barney/standback",
-		"OFBA_ATTACK1 barney/whatisthat",
-		"OFBA_ATTACK2 barney/diebloodsucker",
-		"OFBA_ATTACK3 barney/aimforhead",
-	
-		// Blue Shift version
-		"BSBA_ATTACK0 barney/ba_openfire(e50)",
-		"BSBA_ATTACK1 barney/ba_openfire(s50)",
-		"BSBA_ATTACK2 barney/standback",
-		"BSBA_ATTACK3 barney/whatisthat",
-		"BSBA_ATTACK4 barney/diebloodsucker",
-		"BSBA_ATTACK5 barney/aimforhead",
 		"BA_HEAR0 barney/hearsomething",
 		"BA_HEAR1 barney/icanhear",
 		"BA_HEAR2 barney/soundsbad",
+		
 		"BA_SMELL0 barney/somethingdied",
 		"BA_SMELL1 barney/somethingstinky",
 		"BA_SMELL2 barney/stench",
+		
 		"BA_CUREA barney/checkwounds",
 		"BA_CUREB barney/youneedmedic",
 		"BA_CUREC barney/realbadwound",
+		
 		"BA_SCARED0 barney/donthurtem",
 		"BA_SCARED1 barney/leavealone",
+		
 		"BA_WOUND0 barney/imhit",
 		"BA_WOUND1 barney/hitbad",
+		
 		"BA_MORTAL0 barney/imdead",
 	
 		//If you shoot Barney:
@@ -908,23 +797,7 @@
 		"BA_SHOT4 barney/ba_friends",
 		"BA_SHOT5 barney/ba_pissme",
 	
-		// Opposing Force version
-	
-		// NOTE: bugged. Should start with 0, so the game will essentially play nothing 1/4th of the time and never plays SHOT4.
-		"OFBA_SHOT1 barney/ba_dotoyou",
-		"OFBA_SHOT2 barney/ba_watchit",
-		"OFBA_SHOT3 barney/ba_whatyou",
-		"OFBA_SHOT4 barney/ba_friends",
-	
-		// Blue Shift version
-		"BSBA_SHOT0 barney/ba_shot1",
-		"BSBA_SHOT1 barney/ba_shot2",
-		"BSBA_SHOT2 barney/ba_shot3",
-		"BSBA_SHOT3 barney/ba_shot4",
-		"BSBA_SHOT4 barney/ba_shot5",
-		"BSBA_SHOT5 barney/ba_whatyou",
-	
-		//When Barney�s really pissed at you:
+		//When Barney's really pissed at you:
 		"BA_MAD0 barney/ba_stepoff",
 		"BA_MAD1 barney/ba_iwish",
 		"BA_MAD2 barney/ba_uwish",
@@ -933,17 +806,7 @@
 		"BA_MAD5 barney/ba_dontmake",
 		"BA_MAD6 barney/ba_tomb",
 	
-		// Opposing Force version
-		"OFBA_MAD0 barney/ba_stepoff",
-		"OFBA_MAD1 barney/ba_iwish",
-		"OFBA_MAD2 barney/ba_uwish",
-		"OFBA_MAD3 barney/ba_somuch",
-		"OFBA_MAD4 barney/ba_endline",
-		"OFBA_MAD5 barney/ba_dontmake",
-		"OFBA_MAD6 barney/ba_tomb",
-		"OFBA_MAD7 barney/easily",
-	
-		//When Barney�s killed something
+		//When Barney's killed something
 		"BA_KILL0 barney/ba_gotone",
 		"BA_KILL1 barney/ba_another",
 		"BA_KILL2 barney/ba_buttugly",
@@ -967,21 +830,10 @@
 		"BA_POK2 barney/ba_raincheck",
 		"BA_POK3 barney/ba_later",
 	
-		// Blue Shift version
-		"BSBA_POK0 barney/ba_pok0",
-		"BSBA_POK0 barney/ba_pok1",
-		"BSBA_POK1 barney/ba_pok2",
-		"BSBA_POK2 barney/ba_pok3",
-		"BSBA_POK3 barney/ba_later",
-	
 		// if barney can't follow you
 		"BA_STOP0 barney/stop1",
 		"BA_STOP1 barney/stop2",
 		"BA_STOP2 barney/stop3",
-	
-		// Opposing Force version
-		"OFBA_STOP0 barney/stop1",
-		"OFBA_STOP1 barney/stop2",
 	
 		//scripted_sentences
 	
@@ -1092,28 +944,7 @@
 		"SC_OK6 scientist/yesletsgo",
 		"SC_OK7 scientist/yes3",
 		"SC_OK8 scientist/alright",
-	
-		// Opposing Force version
-		"OFSC_OK0 scientist/excellentteam",
-		"OFSC_OK1 scientist/alright",
-		"OFSC_OK2 scientist/fine",
-		"OFSC_OK3 scientist/hopeyouknow",
-		"OFSC_OK4 scientist/leadtheway",
-		"OFSC_OK5 scientist/letsgo",
-		"OFSC_OK6 scientist/yesletsgo",
-		"OFSC_OK7 scientist/yes3",
-	
-		// Blue Shift version
-		"BSSC_OK0 scientist/sc_ok0",
-		"BSSC_OK1 scientist/sc_ok1",
-		"BSSC_OK2 scientist/sc_ok2",
-		"BSSC_OK3 scientist/sc_ok3",
-		"BSSC_OK4 scientist/excellentteam",
-		"BSSC_OK5 scientist/fine",
-		"BSSC_OK6 scientist/hopeyouknow",
-		"BSSC_OK7 scientist/leadtheway",
-		"BSSC_OK8 scientist/letsgo",
-		"BSSC_OK9 scientist/yesletsgo",
+		
 		"SC_WAIT0 scientist/beenaburden",
 		"SC_WAIT1 scientist/slowingyou",
 		"SC_WAIT2 scientist/reconsider",
@@ -1127,17 +958,6 @@
 		"SC_STOP1 scientist/stop2",
 		"SC_STOP2 scientist/stop3",
 		"SC_STOP3 scientist/stop4",
-	
-		// Opposing Force version
-		"OFSC_STOP0 scientist/stop1",
-		"OFSC_STOP1 scientist/stop2",
-		"OFSC_STOP2 scientist/stop4",
-	
-		// Blue Shift version
-		"BSSC_STOP0 scientist/stop1",
-		"BSSC_STOP1 scientist/stop2",
-		"BSSC_STOP2 scientist/stop4",
-		"BSSC_STOP3 scientist/sc_stop3",
 	
 		// player is staring at scientist
 		"SC_STARE0 scientist/yees",
@@ -1153,19 +973,6 @@
 		"SC_HELLO7 scientist/hellofromlab",
 		"SC_HELLO8 scientist/inmesstoo",
 	
-		// Opposing Force version
-		"OFSC_HELLO0 scientist/hellothere",
-		"OFSC_HELLO1 scientist/greetings2",
-		"OFSC_HELLO2 scientist/hello",
-		"OFSC_HELLO3 scientist/goodtoseeyou",
-	
-		// Blue Shift version
-		"BSSC_HELLO0 scientist/sc_hello0",
-		"BSSC_HELLO1 scientist/sc_hello1",
-		"BSSC_HELLO2 scientist/sc_hello2",
-		"BSSC_HELLO3 scientist/sc_hello3",
-		"BSSC_HELLO4 scientist/sc_hello4",
-		"BSSC_HELLO5 scientist/sc_hello5",
 		"SC_ANSWER0 scientist/notsure",
 		"SC_ANSWER1 scientist/notcertain",
 		"SC_ANSWER2 scientist/perhaps",
@@ -1196,6 +1003,7 @@
 		"SC_ANSWER27 scientist/stopasking",
 		"SC_ANSWER28 scientist/justasked",
 		"SC_ANSWER29 scientist/repeat",
+		
 		"SC_QUESTION0 scientist/everseen",
 		"SC_QUESTION1 scientist/needsleep",
 		"SC_QUESTION2 scientist/areyouthink",
@@ -1223,6 +1031,7 @@
 		"SC_QUESTION24 scientist/smellburn",
 		"SC_QUESTION25 scientist/noidea",
 		"SC_QUESTION26 scientist/whatnext",
+		
 		"SC_IDLE0 scientist/ipredictedthis",
 		"SC_IDLE1 scientist/containfail",
 		"SC_IDLE2 scientist/chaostheory",
@@ -1237,23 +1046,31 @@
 		"SC_IDLE11 scientist/organicmatter",
 		"SC_IDLE12 scientist/lambdalab",
 		"SC_IDLE13 scientist/ihearsomething",
+		
 		"SC_NOGO scientist/dontgothere",
+		
 		"SC_MONST0 scientist/seeheadcrab",
 		"SC_MONST1 scientist/importantspecies",
+		
 		"SC_HEAR0 scientist/ihearsomething",
 		"SC_HEAR1 scientist/didyouhear",
 		"SC_HEAR2 scientist/whatissound",
+		
 		"SC_SMELL0 scientist/somethingfoul",
 		"SC_SMELL1 scientist/odorfromyou",
 		"SC_SMELL2 scientist/peculiarodor",
 		"SC_SMELL3 scientist/stench",
+		
 		"SC_WOUND0 scientist/iwounded",
 		"SC_WOUND1 scientist/iwounded2",
+		
 		"SC_MORTAL0 scientist/iwoundedbad",
 		"SC_MORTAL1 scientist/iwounded2",
+		
 		"SC_CUREA scientist/youlookbad",
 		"SC_CUREB scientist/youwounded",
 		"SC_CUREC scientist/youneedmedic",
+		
 		"SC_HEAL0 scientist/heal1",
 		"SC_HEAL1 scientist/heal2",
 		"SC_HEAL2 scientist/youneedmedic, letstrythis",
@@ -1262,12 +1079,14 @@
 		"SC_HEAL5 scientist/heal3",
 		"SC_HEAL6 scientist/heal4",
 		"SC_HEAL7 scientist/heal5",
+		
 		"SC_PLFEAR0 scientist/whatyoudoing",
 		"SC_PLFEAR1 scientist/canttakemore",
 		"SC_PLFEAR2 scientist/madness",
 		"SC_PLFEAR3 scientist/noplease",
 		"SC_PLFEAR4 scientist/getoutofhere",
 		"SC_PLFEAR5 scientist/sorryimleaving",
+		
 		"SC_FEAR0 scientist/nooo",
 		"SC_FEAR1 scientist/startle2",
 		"SC_FEAR2 scientist/startle1 nooo",
@@ -1281,6 +1100,7 @@
 		"SC_FEAR10 scientist/startle8",
 		"SC_FEAR11 scientist/startle9",
 		"SC_FEAR12 scientist/startle1",
+		
 		"SC_SCREAM0 scientist/sci_fear1",
 		"SC_SCREAM1 scientist/sci_fear2",
 		"SC_SCREAM2 scientist/sci_fear3",
@@ -1296,6 +1116,7 @@
 		"SC_SCREAM12 scientist/sci_fear13",
 		"SC_SCREAM13 scientist/sci_fear14",
 		"SC_SCREAM14 scientist/sci_fear15",
+		
 		"SC_SCARED0 scientist/whatyoudoing",
 		"SC_SCARED1 scientist/stopattacking",
 		"SC_SCARED2 scientist/youinsane",
@@ -1309,10 +1130,6 @@
 		"SC_PHELLO5 scientist/hellothere",
 		"SC_PHELLO6 scientist/freeman",
 	
-		// Blue Shift version
-		"BSSC_PHELLO0 scientist/greetings2",
-		"BSSC_PHELLO1 scientist/hello",
-		"BSSC_PHELLO2 scientist/hellothere",
 		"SC_PQUEST0 scientist/beverage",
 		"SC_PQUEST1 scientist/statusreport",
 		"SC_PQUEST2 scientist/tunnelcalc",
@@ -1331,6 +1148,7 @@
 		"SC_PQUEST15 scientist/hungryyet",
 		"SC_PQUEST16 scientist/recalculate",
 		"SC_PQUEST17 scientist/checkatten",
+		
 		"SC_PIDLE0 scientist/hideglasses",
 		"SC_PIDLE1 scientist/weartie",
 		"SC_PIDLE2 scientist/runtest",
@@ -1362,18 +1180,9 @@
 		"SC_POK3 scientist/sci_aftertest",
 		"SC_POK4 scientist/sci_somewhere",
 	
-		// Blue Shift version
-		"BSSC_POK0 scientist/sc_pok0",
-		"BSSC_POK1 scientist/sc_pok1",
-		"BSSC_POK2 scientist/sc_pok2",
-		"BSSC_POK3 scientist/sc_pok3",
-		"BSSC_POK4 scientist/sc_pok4",
-		"BSSC_POK5 scientist/sc_pok5",
-		"BSSC_POK6 scientist/sc_pok6",
-		"BSSC_POK7 scientist/sci_bother",
-	
 		//narrative audio
 		"SC_1MUMBLE scientist/c1a0_sci_mumble",
+		
 		"SC_DISA scientist/c1a0_sci_disa",
 		"SC_DIS1A scientist/c1a0_sci_dis1a",
 		"SC_DIS1B scientist/c1a0_sci_dis1b",
@@ -1395,11 +1204,13 @@
 		"SC_DIS15A scientist/c1a0_sci_dis15a",
 		"SC_DIS16A scientist/c1a0_sci_dis16a",
 		"SC_DIS17A scientist/c1a0_sci_dis17a",
+		
 		"SC_GETAWAY scientist/c1a0_sci_getaway",
 		"SC_GMORN scientist/c1a0_sci_gm",
 		"SC_BIGDAY scientist/c1a0_sci_bigday",
 		"SC_SAMPLE scientist/c1a0_sci_samp",
 		"SC_NOTTHAT scientist/c1a0_sci_desk",
+		
 		"SC_LOCK1A scientist/c1a0_sci_lock1a",
 		"SC_LOCK2A scientist/c1a0_sci_lock2a",
 		"SC_LOCK3A scientist/c1a0_sci_lock3a",
@@ -1409,6 +1220,7 @@
 		"SC_LOCK7A scientist/c1a0_sci_lock7a",
 		"SC_LOCK8A scientist/c1a0_sci_lock8a",
 		"SC_LOCK9A scientist/c1a0_sci_lock9a",
+		
 		"SC_CRIT1A scientist/c1a0_sci_crit1a",
 		"SC_CRIT2A scientist/c1a0_sci_crit2a",
 		"SC_CRIT3A scientist/c1a0_sci_crit3a",
@@ -1416,11 +1228,13 @@
 		"SC_CTRL2A scientist/c1a0_sci_ctrl2a",
 		"SC_CTRL3A scientist/c1a0_sci_ctrl3a",
 		"SC_CTRL4A scientist/c1a0_sci_ctrl4a",
+		
 		"SC_CONSOLE1A scientist/c1a1_sci_1scan",
 		"SC_CONSOLE2A scientist/c1a1_sci_2scan",
 		"SC_CONSOLE3A scientist/c1a1_sci_3scan",
 		"SC_CONSOLE4A scientist/c1a1_sci_4scan",
 		"SC_CONSOLE5A scientist/c1a1_sci_5scan",
+		
 		"SC_CONSOLERPT scientist/c1a1_sci_scanrpt",
 	
 		//c1a2scripts
@@ -2527,10 +2341,6 @@
 			"HG_GREN5",
 			"HG_GREN6"
 		],
-		"OFHG_GREN": [
-			"OFHG_GREN0",
-			"OFHG_GREN1"
-		],
 		"HG_ALERT": [
 			"HG_ALERT0",
 			"HG_ALERT1",
@@ -2540,27 +2350,11 @@
 			"HG_ALERT5",
 			"HG_ALERT6"
 		],
-		"OFHG_ALERT": [
-			"OFHG_ALERT0",
-			"OFHG_ALERT1"
-		],
-		"BSHG_ALERT": [
-			"BSHG_ALERT0",
-			"BSHG_ALERT1",
-			"BSHG_ALERT2",
-			"BSHG_ALERT3",
-			"BSHG_ALERT4",
-			"BSHG_ALERT5"
-		],
 		"HG_MONST": [
 			"HG_MONST0",
 			"HG_MONST1",
 			"HG_MONST2",
 			"HG_MONST3"
-		],
-		"OFHG_MONST": [
-			"OFHG_MONST0",
-			"OFHG_MONST1"
 		],
 		"HG_COVER": [
 			"HG_COVER0",
@@ -2572,19 +2366,11 @@
 			"HG_COVER6",
 			"HG_COVER7"
 		],
-		"OFHG_COVER": [
-			"OFHG_COVER0",
-			"OFHG_COVER1"
-		],
 		"HG_THROW": [
 			"HG_THROW0",
 			"HG_THROW1",
 			"HG_THROW2",
 			"HG_THROW3"
-		],
-		"OFHG_THROW": [
-			"OFHG_THROW0",
-			"OFHG_THROW1"
 		],
 		"HG_TAUNT": [
 			"HG_TAUNT0",
@@ -2594,28 +2380,16 @@
 			"HG_TAUNT4",
 			"HG_TAUNT5"
 		],
-		"OFHG_TAUNT": [
-			"OFHG_TAUNT0",
-			"OFHG_TAUNT1"
-		],
 		"HG_CHARGE": [
 			"HG_CHARGE0",
 			"HG_CHARGE1",
 			"HG_CHARGE2",
 			"HG_CHARGE3"
 		],
-		"OFHG_CHARGE": [
-			"OFHG_CHARGE0",
-			"OFHG_CHARGE1"
-		],
 		"HG_IDLE": [
 			"HG_IDLE0",
 			"HG_IDLE1",
 			"HG_IDLE2"
-		],
-		"OFHG_IDLE": [
-			"OFHG_IDLE0",
-			"OFHG_IDLE1"
 		],
 		"HG_QUEST": [
 			"HG_QUEST0",
@@ -2631,24 +2405,6 @@
 			"HG_QUEST10",
 			"HG_QUEST11"
 		],
-		"OFHG_QUEST": [
-			"OFHG_QUEST0",
-			"OFHG_QUEST1"
-		],
-		"BSHG_QUEST": [
-			"BSHG_QUEST0",
-			"BSHG_QUEST1",
-			"BSHG_QUEST2",
-			"BSHG_QUEST3",
-			"BSHG_QUEST4",
-			"BSHG_QUEST5",
-			"BSHG_QUEST6",
-			"BSHG_QUEST7",
-			"BSHG_QUEST8",
-			"BSHG_QUEST9",
-			"BSHG_QUEST10",
-			"BSHG_QUEST11"
-		],
 		"HG_ANSWER": [
 			"HG_ANSWER0",
 			"HG_ANSWER1",
@@ -2657,10 +2413,6 @@
 			"HG_ANSWER4",
 			"HG_ANSWER5",
 			"HG_ANSWER6"
-		],
-		"OFHG_ANSWER": [
-			"OFHG_ANSWER0",
-			"OFHG_ANSWER1"
 		],
 		"HG_CLEAR": [
 			"HG_CLEAR0",
@@ -2677,10 +2429,6 @@
 			"HG_CLEAR11",
 			"HG_CLEAR12"
 		],
-		"OFHG_CLEAR": [
-			"OFHG_CLEAR0",
-			"OFHG_CLEAR1"
-		],
 		"HG_CHECK": [
 			"HG_CHECK0",
 			"HG_CHECK1",
@@ -2690,10 +2438,6 @@
 			"HG_CHECK5",
 			"HG_CHECK6",
 			"HG_CHECK7"
-		],
-		"OFHG_CHECK": [
-			"OFHG_CHECK0",
-			"OFHG_CHECK1"
 		],
 		"C1A0_": [
 			"C1A0_0",
@@ -2719,17 +2463,6 @@
 			"C1A0_20",
 			"C1A0_21",
 			"C1A0_22"
-		],
-		"OFC1A0_": [
-			"OFC1A0_0",
-			"OFC1A0_1",
-			"OFC1A0_2",
-			"OFC1A0_3",
-			"OFC1A0_4",
-			"OFC1A0_5",
-			"OFC1A0_6",
-			"OFC1A0_7",
-			"OFC1A0_8"
 		],
 		"C1A1_": [
 			"C1A1_0",
@@ -3157,22 +2890,6 @@
 			"BA_HELLO5",
 			"BA_HELLO6"
 		],
-		"OFBA_HELLO": [
-			"OFBA_HELLO0",
-			"OFBA_HELLO1",
-			"OFBA_HELLO2",
-			"OFBA_HELLO3",
-			"OFBA_HELLO4"
-		],
-		"BSBA_HELLO": [
-			"BSBA_HELLO0",
-			"BSBA_HELLO1",
-			"BSBA_HELLO2",
-			"BSBA_HELLO3",
-			"BSBA_HELLO4",
-			"BSBA_HELLO5",
-			"BSBA_HELLO6"
-		],
 		"BA_QUESTION": [
 			"BA_QUESTION0",
 			"BA_QUESTION1",
@@ -3189,18 +2906,6 @@
 			"BA_QUESTION12",
 			"BA_QUESTION13",
 			"BA_QUESTION14"
-		],
-		"OFBA_QUESTION": [
-			"OFBA_QUESTION0",
-			"OFBA_QUESTION1",
-			"OFBA_QUESTION2",
-			"OFBA_QUESTION3",
-			"OFBA_QUESTION4",
-			"OFBA_QUESTION5",
-			"OFBA_QUESTION6",
-			"OFBA_QUESTION7",
-			"OFBA_QUESTION8",
-			"OFBA_QUESTION9"
 		],
 		"BA_ANSWER": [
 			"BA_ANSWER0",
@@ -3253,20 +2958,6 @@
 			"BA_ATTACK4",
 			"BA_ATTACK5"
 		],
-		"OFBA_ATTACK": [
-			"OFBA_ATTACK0",
-			"OFBA_ATTACK1",
-			"OFBA_ATTACK2",
-			"OFBA_ATTACK3"
-		],
-		"BSBA_ATTACK": [
-			"BSBA_ATTACK0",
-			"BSBA_ATTACK1",
-			"BSBA_ATTACK2",
-			"BSBA_ATTACK3",
-			"BSBA_ATTACK4",
-			"BSBA_ATTACK5"
-		],
 		"BA_HEAR": [
 			"BA_HEAR0",
 			"BA_HEAR1",
@@ -3296,20 +2987,6 @@
 			"BA_SHOT4",
 			"BA_SHOT5"
 		],
-		"OFBA_SHOT": [
-			"OFBA_SHOT1",
-			"OFBA_SHOT2",
-			"OFBA_SHOT3",
-			"OFBA_SHOT4"
-		],
-		"BSBA_SHOT": [
-			"BSBA_SHOT0",
-			"BSBA_SHOT1",
-			"BSBA_SHOT2",
-			"BSBA_SHOT3",
-			"BSBA_SHOT4",
-			"BSBA_SHOT5"
-		],
 		"BA_MAD": [
 			"BA_MAD0",
 			"BA_MAD1",
@@ -3318,16 +2995,6 @@
 			"BA_MAD4",
 			"BA_MAD5",
 			"BA_MAD6"
-		],
-		"OFBA_MAD": [
-			"OFBA_MAD0",
-			"OFBA_MAD1",
-			"OFBA_MAD2",
-			"OFBA_MAD3",
-			"OFBA_MAD4",
-			"OFBA_MAD5",
-			"OFBA_MAD6",
-			"OFBA_MAD7"
 		],
 		"BA_KILL": [
 			"BA_KILL0",
@@ -3350,20 +3017,10 @@
 			"BA_POK2",
 			"BA_POK3"
 		],
-		"BSBA_POK": [
-			"BSBA_POK0",
-			"BSBA_POK1",
-			"BSBA_POK2",
-			"BSBA_POK3"
-		],
 		"BA_STOP": [
 			"BA_STOP0",
 			"BA_STOP1",
 			"BA_STOP2"
-		],
-		"OFBA_STOP": [
-			"OFBA_STOP0",
-			"OFBA_STOP1"
 		],
 		"SC_OK": [
 			"SC_OK0",
@@ -3375,28 +3032,6 @@
 			"SC_OK6",
 			"SC_OK7",
 			"SC_OK8"
-		],
-		"OFSC_OK": [
-			"OFSC_OK0",
-			"OFSC_OK1",
-			"OFSC_OK2",
-			"OFSC_OK3",
-			"OFSC_OK4",
-			"OFSC_OK5",
-			"OFSC_OK6",
-			"OFSC_OK7"
-		],
-		"BSSC_OK": [
-			"BSSC_OK0",
-			"BSSC_OK1",
-			"BSSC_OK2",
-			"BSSC_OK3",
-			"BSSC_OK4",
-			"BSSC_OK5",
-			"BSSC_OK6",
-			"BSSC_OK7",
-			"BSSC_OK8",
-			"BSSC_OK9"
 		],
 		"SC_WAIT": [
 			"SC_WAIT0",
@@ -3413,17 +3048,6 @@
 			"SC_STOP2",
 			"SC_STOP3"
 		],
-		"OFSC_STOP": [
-			"OFSC_STOP0",
-			"OFSC_STOP1",
-			"OFSC_STOP2"
-		],
-		"BSSC_STOP": [
-			"BSSC_STOP0",
-			"BSSC_STOP1",
-			"BSSC_STOP2",
-			"BSSC_STOP3"
-		],
 		"SC_STARE": [
 			"SC_STARE0",
 			"SC_STARE1",
@@ -3439,20 +3063,6 @@
 			"SC_HELLO6",
 			"SC_HELLO7",
 			"SC_HELLO8"
-		],
-		"OFSC_HELLO": [
-			"OFSC_HELLO0",
-			"OFSC_HELLO1",
-			"OFSC_HELLO2",
-			"OFSC_HELLO3"
-		],
-		"BSSC_HELLO": [
-			"BSSC_HELLO0",
-			"BSSC_HELLO1",
-			"BSSC_HELLO2",
-			"BSSC_HELLO3",
-			"BSSC_HELLO4",
-			"BSSC_HELLO5"
 		],
 		"SC_ANSWER": [
 			"SC_ANSWER0",
@@ -3619,11 +3229,6 @@
 			"SC_PHELLO5",
 			"SC_PHELLO6"
 		],
-		"BSSC_PHELLO": [
-			"BSSC_PHELLO0",
-			"BSSC_PHELLO1",
-			"BSSC_PHELLO2"
-		],
 		"SC_PQUEST": [
 			"SC_PQUEST0",
 			"SC_PQUEST1",
@@ -3669,16 +3274,6 @@
 			"SC_POK2",
 			"SC_POK3",
 			"SC_POK4"
-		],
-		"BSSC_POK": [
-			"BSSC_POK0",
-			"BSSC_POK1",
-			"BSSC_POK2",
-			"BSSC_POK3",
-			"BSSC_POK4",
-			"BSSC_POK5",
-			"BSSC_POK6",
-			"BSSC_POK7"
 		],
 		"RO_OK": [
 			"RO_OK0",

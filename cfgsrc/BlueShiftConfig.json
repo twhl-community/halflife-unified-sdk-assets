@@ -5,6 +5,9 @@
     "SectionGroups": [
 		{
             "Sections": {
+				"Sentences": {
+					"FileNames": ["sound/bs_sentences.json"]
+				},
                 "GlobalModelReplacement": {
                     "FileNames": ["cfg/BlueShiftModelReplacement.json"]
                 },

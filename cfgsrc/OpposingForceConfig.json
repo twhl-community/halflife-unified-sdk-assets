@@ -5,6 +5,9 @@
     "SectionGroups": [
 		{
             "Sections": {
+				"Sentences": {
+					"FileNames": ["sound/op4_sentences.json"]
+				},
                 "GlobalModelReplacement": {
                     "FileNames": ["cfg/Op4ModelReplacement.json"]
                 },

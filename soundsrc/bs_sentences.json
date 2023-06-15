@@ -1,0 +1,194 @@
+// HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 65535 sentences.
+// Blue Shift-specific sentences that override defaults. See sentences.json for shared sentences.
+{
+	"Sentences": [
+		// HUMAN GRUNTS
+		// Player Alert
+		"HG_ALERT0 hgrunt/(t30) squad!, we!(e80) got!(e80) hostiles!(t20 p105), clik(p110)",
+		"HG_ALERT1 hgrunt/clik(p110) target! clik",
+		"HG_ALERT2 hgrunt/clik movement! clik",
+		"HG_ALERT3 hgrunt/(t40) shit!(t20), (t50) we! got! hostiles!(p120 t0) clik",
+		"HG_ALERT4 hgrunt/(t20) clik squad!, neutralize!(e90) hostiles! clik",
+		"HG_ALERT5 hgrunt/(t30) clik clik move!(e75) in! clik(p120)",
+
+		"HG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)",
+		"HG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120)",
+		"HG_QUEST2 hgrunt/clik (t20) maintain lookout clik(p120)",
+		"HG_QUEST3 hgrunt/clik(p110) (t30) squad, quiet(e75) down clik(p120)",
+		"HG_QUEST4 hgrunt/clik(p120) (t30) hold position, clik",
+		"HG_QUEST5 hgrunt/clik(p120) (t30) sweep(e80) that sector, clik(p120) clik(p120)",
+		"HG_QUEST6 hgrunt/clik(p120) (t30) uhh, go tango sweep formation clik(p120) clik(p120)",
+		"HG_QUEST7 hgrunt/clik(p120) (t30) echo(e75) mission is go clik(p120) clik(p120)",
+		"HG_QUEST8 hgrunt/clik(p110) (t30) fire(e75) team, weapons(e75) check ok clik(p120) clik",
+		"HG_QUEST9 hgrunt/clik(p110) (t30) fire(e75) team, objective foxtrot niner clik(p120)",
+		"HG_QUEST10 hgrunt/clik (t30) ok(e75) mission, zero(e75) niner clik",
+		"HG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four hostiles, over clik",
+	
+		// BARNEY
+		"BA_HELLO0 barney/hellonicesuit",
+		"BA_HELLO1 barney/ba_hello1",
+		"BA_HELLO2 barney/ba_hello2",
+		"BA_HELLO3 barney/ba_hello3",
+		"BA_HELLO4 barney/ba_hello4",
+		"BA_HELLO5 barney/ba_hello5",
+		"BA_HELLO6 barney/heyfella",
+
+		"BA_ATTACK0 barney/ba_openfire(e50)",
+		"BA_ATTACK1 barney/ba_openfire(s50)",
+		"BA_ATTACK2 barney/standback",
+		"BA_ATTACK3 barney/whatisthat",
+		"BA_ATTACK4 barney/diebloodsucker",
+		"BA_ATTACK5 barney/aimforhead",
+	
+		//If you shoot Barney:
+		"BA_SHOT0 barney/ba_shot1",
+		"BA_SHOT1 barney/ba_shot2",
+		"BA_SHOT2 barney/ba_shot3",
+		"BA_SHOT3 barney/ba_shot4",
+		"BA_SHOT4 barney/ba_shot5",
+		"BA_SHOT5 barney/ba_whatyou",
+	
+		//If you use Barney before the disaster
+		"BA_POK0 barney/ba_pok0",
+		"BA_POK0 barney/ba_pok1",
+		"BA_POK1 barney/ba_pok2",
+		"BA_POK2 barney/ba_pok3",
+		"BA_POK3 barney/ba_later",
+	
+		// SCIENTIST
+		"SC_OK0 scientist/sc_ok0",
+		"SC_OK1 scientist/sc_ok1",
+		"SC_OK2 scientist/sc_ok2",
+		"SC_OK3 scientist/sc_ok3",
+		"SC_OK4 scientist/excellentteam",
+		"SC_OK5 scientist/fine",
+		"SC_OK6 scientist/hopeyouknow",
+		"SC_OK7 scientist/leadtheway",
+		"SC_OK8 scientist/letsgo",
+		"SC_OK9 scientist/yesletsgo",
+	
+		// fail to follow player any more
+		"SC_STOP0 scientist/stop1",
+		"SC_STOP1 scientist/stop2",
+		"SC_STOP2 scientist/stop4",
+		"SC_STOP3 scientist/sc_stop3",
+	
+		"SC_HELLO0 scientist/sc_hello0",
+		"SC_HELLO1 scientist/sc_hello1",
+		"SC_HELLO2 scientist/sc_hello2",
+		"SC_HELLO3 scientist/sc_hello3",
+		"SC_HELLO4 scientist/sc_hello4",
+		"SC_HELLO5 scientist/sc_hello5",
+	
+		// predisaster scientist
+		"SC_PHELLO0 scientist/greetings2",
+		"SC_PHELLO1 scientist/hello",
+		"SC_PHELLO2 scientist/hellothere",
+		
+		//If you use Scientists before the disaster
+		"SC_POK0 scientist/sc_pok0",
+		"SC_POK1 scientist/sc_pok1",
+		"SC_POK2 scientist/sc_pok2",
+		"SC_POK3 scientist/sc_pok3",
+		"SC_POK4 scientist/sc_pok4",
+		"SC_POK5 scientist/sc_pok5",
+		"SC_POK6 scientist/sc_pok6",
+		"SC_POK7 scientist/sci_bother"
+	],
+	"Groups": {
+		"HG_ALERT": [
+			"HG_ALERT0",
+			"HG_ALERT1",
+			"HG_ALERT2",
+			"HG_ALERT3",
+			"HG_ALERT4",
+			"HG_ALERT5"
+		],
+		"HG_QUEST": [
+			"HG_QUEST0",
+			"HG_QUEST1",
+			"HG_QUEST2",
+			"HG_QUEST3",
+			"HG_QUEST4",
+			"HG_QUEST5",
+			"HG_QUEST6",
+			"HG_QUEST7",
+			"HG_QUEST8",
+			"HG_QUEST9",
+			"HG_QUEST10",
+			"HG_QUEST11"
+		],
+		"BA_HELLO": [
+			"BA_HELLO0",
+			"BA_HELLO1",
+			"BA_HELLO2",
+			"BA_HELLO3",
+			"BA_HELLO4",
+			"BA_HELLO5",
+			"BA_HELLO6"
+		],
+		"BA_ATTACK": [
+			"BA_ATTACK0",
+			"BA_ATTACK1",
+			"BA_ATTACK2",
+			"BA_ATTACK3",
+			"BA_ATTACK4",
+			"BA_ATTACK5"
+		],
+		"BA_SHOT": [
+			"BA_SHOT0",
+			"BA_SHOT1",
+			"BA_SHOT2",
+			"BA_SHOT3",
+			"BA_SHOT4",
+			"BA_SHOT5"
+		],
+		"BA_POK": [
+			"BA_POK0",
+			"BA_POK1",
+			"BA_POK2",
+			"BA_POK3"
+		],
+		"SC_OK": [
+			"SC_OK0",
+			"SC_OK1",
+			"SC_OK2",
+			"SC_OK3",
+			"SC_OK4",
+			"SC_OK5",
+			"SC_OK6",
+			"SC_OK7",
+			"SC_OK8",
+			"SC_OK9"
+		],
+		"SC_STOP": [
+			"SC_STOP0",
+			"SC_STOP1",
+			"SC_STOP2",
+			"SC_STOP3"
+		],
+		"SC_HELLO": [
+			"SC_HELLO0",
+			"SC_HELLO1",
+			"SC_HELLO2",
+			"SC_HELLO3",
+			"SC_HELLO4",
+			"SC_HELLO5"
+		],
+		"SC_PHELLO": [
+			"SC_PHELLO0",
+			"SC_PHELLO1",
+			"SC_PHELLO2"
+		],
+		"SC_POK": [
+			"SC_POK0",
+			"SC_POK1",
+			"SC_POK2",
+			"SC_POK3",
+			"SC_POK4",
+			"SC_POK5",
+			"SC_POK6",
+			"SC_POK7"
+		]
+	}
+}

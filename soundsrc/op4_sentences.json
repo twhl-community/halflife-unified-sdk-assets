@@ -1,0 +1,256 @@
+// HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 65535 sentences.
+// Opposing Force-specific sentences that override defaults. See sentences.json for shared sentences.
+{
+	"Sentences": [
+		// HUMAN GRUNTS
+	
+		// Grenade Warning
+		"HG_GREN0 hgrunt/clik(p120) grenade! clik",
+		"HG_GREN1 hgrunt/(t30) clik take!(e75) cover!(s5) clik",
+	
+		// Player Alert
+		"HG_ALERT0 hgrunt/clik(p110) target! clik",
+		"HG_ALERT1 hgrunt/clik movement! clik",
+	
+		// Monster Alert
+		"HG_MONST0 hgrunt/clik(p110) (t50) bogies!(t0), my! sector!(t0) clik",
+		"HG_MONST1 hgrunt/clik(p110) (t40) clik(p120) we!(e75) got! bogies! clik",
+	
+		// Take cover
+		"HG_COVER0 hgrunt/clik (t30) take! cover!(t0) clik",
+		"HG_COVER1 hgrunt/clik (t45) (e75) I!(e80) need!(e80) suppressing!(t20) fire!(t10) clik",
+	
+		// Throw grenade
+		"HG_THROW0 hgrunt/clik(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) clik",
+		"HG_THROW1 hgrunt/clik (t30) take!(e75) this!(e100 t0) clik",
+	
+		// Taunt
+		"HG_TAUNT0 hgrunt/clik (t30 e75) uhh, we got heavy fire here clik",
+		"HG_TAUNT1 hgrunt/clik(p120) (t40) roger, hold position clik",
+	
+		// Charge
+		"HG_CHARGE0 hgrunt/clik (t40) go! recon! clik(p120)",
+		"HG_CHARGE1 hgrunt/clik(p110) (t40) move!(e75) in! clik",
+	
+		// Idle
+		"HG_IDLE0 hgrunt/gr_idle1",
+		"HG_IDLE1 hgrunt/gr_idle2",
+
+		"HG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)",
+		"HG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120)",
+	
+		"HG_ANSWER0 hgrunt/clik(p110) (t20) uhh roger(e75) that, clik(p120) clik",
+		"HG_ANSWER1 hgrunt/clik(p120) (t10) yessir clik",
+		
+		"HG_CLEAR0 hgrunt/clik(p130) (t30) all(e75) clear sir, clik",
+		"HG_CLEAR1 hgrunt/clik (t30) bravo(e75) post, clear clik(p120)",
+
+		"HG_CHECK0 hgrunt/clik (t30) ok, check(e75) in clik",
+		"HG_CHECK1 hgrunt/clik(p110) (t30) squad, are(e80) hostiles clear clik(p120)",
+
+		// BASE COMPUTER
+	
+		// C1A0 intercom\
+		"C1A0_0 bloop (e95) immediate medical attention required in(e70) sector twenty(e95) seven(e100)",
+		"C1A0_1 doop (e95) operations personnel report to(e70) emergency control zone for contamination cleanup, alpha seven access required(e100)",
+		"C1A0_2 attention, supply team required in(e70) lower maintenance chamber sub sector b(e100)",
+		"C1A0_3 doop (e95) security breach detected in(e70) silo thirty two(e100)",
+		"C1A0_4 warning, extreme radiation leak detected in(e70) reactor core eight, time to(e70) reach minimum safe distance, fourteen minutes(e100)",
+		"C1A0_5 dadeda (e95) doctor guthrie report to(e70) inspection lab six immediately(e100)",
+		"C1A0_6 attention, doctor Freeman report to(e70) research administration center for questioning(e100)",
+		"C1A0_7 deeoo (e95 p98) remaining science personnel report to medical lab six for radiation exposure inspection(e100)",
+		"C1A0_8 warning, severe damage detected in ventillation systems under research lab two, evacuate area immediately(e100)",
+		
+		// BARNEY	
+		"BA_HELLO0 barney/hellonicesuit",
+		"BA_HELLO1 barney/howyoudoing",
+		"BA_HELLO2 barney/hayfella",
+		"BA_HELLO3 barney/armedforces",
+		"BA_HELLO4 barney/soldier",
+		"BA_HELLO4 barney/sir",
+		
+		"BA_QUESTION0 barney/beertopside",
+		"BA_QUESTION1 barney/getanyworse",
+		"BA_QUESTION2 barney/workingonstuff",
+		"BA_QUESTION3 barney/whatsgoingon",
+		"BA_QUESTION4 barney/aintscared",
+		"BA_QUESTION5 barney/nodrill",
+		"BA_QUESTION6 barney/crewdied",
+		"BA_QUESTION7 barney/somethingmoves",
+		"BA_QUESTION8 barney/thinking",
+		"BA_QUESTION9 barney/missingleg",
+	
+		"BA_ATTACK0 barney/standback",
+		"BA_ATTACK1 barney/whatisthat",
+		"BA_ATTACK2 barney/diebloodsucker",
+		"BA_ATTACK3 barney/aimforhead",
+	
+		//If you shoot Barney:
+		// NOTE: bugged. Should start with 0, so the game will essentially play nothing 1/4th of the time and never plays SHOT4.
+		"BA_SHOT1 barney/ba_dotoyou",
+		"BA_SHOT2 barney/ba_watchit",
+		"BA_SHOT3 barney/ba_whatyou",
+		"BA_SHOT4 barney/ba_friends",
+	
+		//When Barney's really pissed at you:
+		"BA_MAD0 barney/ba_stepoff",
+		"BA_MAD1 barney/ba_iwish",
+		"BA_MAD2 barney/ba_uwish",
+		"BA_MAD3 barney/ba_somuch",
+		"BA_MAD4 barney/ba_endline",
+		"BA_MAD5 barney/ba_dontmake",
+		"BA_MAD6 barney/ba_tomb",
+		"BA_MAD7 barney/easily",
+	
+		// if barney can't follow you
+		"BA_STOP0 barney/stop1",
+		"BA_STOP1 barney/stop2",
+	
+		// SCIENTIST
+		"SC_OK0 scientist/excellentteam",
+		"SC_OK1 scientist/alright",
+		"SC_OK2 scientist/fine",
+		"SC_OK3 scientist/hopeyouknow",
+		"SC_OK4 scientist/leadtheway",
+		"SC_OK5 scientist/letsgo",
+		"SC_OK6 scientist/yesletsgo",
+		"SC_OK7 scientist/yes3",
+	
+		// fail to follow player any more
+		"SC_STOP0 scientist/stop1",
+		"SC_STOP1 scientist/stop2",
+		"SC_STOP2 scientist/stop4",
+	
+		"SC_HELLO0 scientist/hellothere",
+		"SC_HELLO1 scientist/greetings2",
+		"SC_HELLO2 scientist/hello",
+		"SC_HELLO3 scientist/goodtoseeyou"
+	],
+	"Groups": {
+		"HG_GREN": [
+			"HG_GREN0",
+			"HG_GREN1"
+		],
+		"HG_ALERT": [
+			"HG_ALERT0",
+			"HG_ALERT1"
+		],
+		"HG_MONST": [
+			"HG_MONST0",
+			"HG_MONST1"
+		],
+		"HG_COVER": [
+			"HG_COVER0",
+			"HG_COVER1"
+		],
+		"HG_THROW": [
+			"HG_THROW0",
+			"HG_THROW1"
+		],
+		"HG_TAUNT": [
+			"HG_TAUNT0",
+			"HG_TAUNT1"
+		],
+		"HG_CHARGE": [
+			"HG_CHARGE0",
+			"HG_CHARGE1"
+		],
+		"HG_IDLE": [
+			"HG_IDLE0",
+			"HG_IDLE1"
+		],
+		"HG_QUEST": [
+			"HG_QUEST0",
+			"HG_QUEST1"
+		],
+		"HG_ANSWER": [
+			"HG_ANSWER0",
+			"HG_ANSWER1"
+		],
+		"HG_CLEAR": [
+			"HG_CLEAR0",
+			"HG_CLEAR1"
+		],
+		"HG_CHECK": [
+			"HG_CHECK0",
+			"HG_CHECK1"
+		],
+		"C1A0_": [
+			"C1A0_0",
+			"C1A0_1",
+			"C1A0_2",
+			"C1A0_3",
+			"C1A0_4",
+			"C1A0_5",
+			"C1A0_6",
+			"C1A0_7",
+			"C1A0_8"
+		],
+		"BA_HELLO": [
+			"BA_HELLO0",
+			"BA_HELLO1",
+			"BA_HELLO2",
+			"BA_HELLO3",
+			"BA_HELLO4"
+		],
+		"BA_QUESTION": [
+			"BA_QUESTION0",
+			"BA_QUESTION1",
+			"BA_QUESTION2",
+			"BA_QUESTION3",
+			"BA_QUESTION4",
+			"BA_QUESTION5",
+			"BA_QUESTION6",
+			"BA_QUESTION7",
+			"BA_QUESTION8",
+			"BA_QUESTION9"
+		],
+		"BA_ATTACK": [
+			"BA_ATTACK0",
+			"BA_ATTACK1",
+			"BA_ATTACK2",
+			"BA_ATTACK3"
+		],
+		"BA_SHOT": [
+			"BA_SHOT1",
+			"BA_SHOT2",
+			"BA_SHOT3",
+			"BA_SHOT4"
+		],
+		"BA_MAD": [
+			"BA_MAD0",
+			"BA_MAD1",
+			"BA_MAD2",
+			"BA_MAD3",
+			"BA_MAD4",
+			"BA_MAD5",
+			"BA_MAD6",
+			"BA_MAD7"
+		],
+		"BA_STOP": [
+			"BA_STOP0",
+			"BA_STOP1"
+		],
+		"SC_OK": [
+			"SC_OK0",
+			"SC_OK1",
+			"SC_OK2",
+			"SC_OK3",
+			"SC_OK4",
+			"SC_OK5",
+			"SC_OK6",
+			"SC_OK7"
+		],
+		"SC_STOP": [
+			"SC_STOP0",
+			"SC_STOP1",
+			"SC_STOP2"
+		],
+		"SC_HELLO": [
+			"SC_HELLO0",
+			"SC_HELLO1",
+			"SC_HELLO2",
+			"SC_HELLO3"
+		]
+	}
+}

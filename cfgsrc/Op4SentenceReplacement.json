@@ -1,21 +1,4 @@
-{
-	// Human Grunt dialogue. Not used in Op4 since it uses different NPCs with unfiltered dialogue, but custom maps could use this.
-	"HG_GREN": "OFHG_GREN",
-	"HG_ALERT": "OFHG_ALERT",
-	"HG_MONST": "OFHG_MONST",
-	"HG_COVER": "OFHG_COVER",
-	"HG_THROW": "OFHG_THROW",
-	"HG_TAUNT": "OFHG_TAUNT",
-	"HG_CHARGE": "OFHG_CHARGE",
-	"HG_IDLE": "OFHG_IDLE",
-	"HG_QUEST": "OFHG_QUEST",
-	"HG_ANSWER": "OFHG_ANSWER",
-	"HG_CLEAR": "OFHG_CLEAR",
-	"HG_CHECK": "OFHG_CHECK",
-	
-	// Base computer dialogue. Used in of1a1, can probably just modify the map to use a custom sentence group.
-	"C1A0_": "OFC1A0_",
-	
+{	
 	// HEV suit. Replaced with PCV sounds. Most of these use the same replacement so they could be merged to cut down on the number of sentences and groups.
 	"HEV_AAx": "PCV_AAx",
 	"HEV_A": "PCV_A",
@@ -118,18 +101,5 @@
 	"HEV_DET2": "PCV_DET2",
 	"HEV_DET3": "PCV_DET3",
 	"HEV_DET4": "PCV_DET4",
-	"HEV_DET5": "PCV_DET5",
-	
-	// Barney dialogue.
-	"BA_HELLO": "OFBA_HELLO",
-	"BA_QUESTION": "OFBA_QUESTION",
-	"BA_ATTACK": "OFBA_ATTACK",
-	"BA_SHOT": "OFBA_SHOT",
-	"BA_MAD": "OFBA_MAD",
-	"BA_STOP": "OFBA_STOP",
-	
-	// Scientist dialogue.
-	"SC_OK": "OFSC_OK",
-	"SC_STOP": "OFSC_STOP",
-	"SC_HELLO": "OFSC_HELLO"
+	"HEV_DET5": "PCV_DET5"
 }
