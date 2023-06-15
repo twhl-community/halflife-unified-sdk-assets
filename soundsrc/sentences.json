@@ -2695,11 +2695,6 @@
 			"OFHG_CHECK0",
 			"OFHG_CHECK1"
 		],
-		"HG_CANAL": [
-			"HG_CANAL1",
-			"HG_CANAL2",
-			"HG_CANAL3"
-		],
 		"C1A0_": [
 			"C1A0_0",
 			"C1A0_1",
@@ -3001,10 +2996,6 @@
 			"DB1",
 			"DB2",
 			"DB3"
-		],
-		"VOX_ELEV": [
-			"VOX_ELEV1",
-			"VOX_ELEV2"
 		],
 		"HEV_A": [
 			"HEV_A0",
@@ -3374,46 +3365,6 @@
 			"OFBA_STOP0",
 			"OFBA_STOP1"
 		],
-		"BA_ZOMBIE": [
-			"BA_ZOMBIE2",
-			"BA_ZOMBIE4"
-		],
-		"OF1A5_BARN": [
-			"OF1A5_BARN1",
-			"OF1A5_BARN2"
-		],
-		"BA_SEC1_D": [
-			"BA_SEC1_D1",
-			"BA_SEC1_D2",
-			"BA_SEC1_D3"
-		],
-		"BA_SEC2_DESK": [
-			"BA_SEC2_DESK1",
-			"BA_SEC2_DESK2"
-		],
-		"BA_SEC2_RANGE": [
-			"BA_SEC2_RANGE1",
-			"BA_SEC2_RANGE2"
-		],
-		"BA_CANAL_WOUND": [
-			"BA_CANAL_WOUND2"
-		],
-		"BA_CANAL_DEATH": [
-			"BA_CANAL_DEATH1"
-		],
-		"BA_POWER": [
-			"BA_POWER1",
-			"BA_POWER2",
-			"BA_POWER3",
-			"BA_POWER4"
-		],
-		"BA_POWER_WOUND": [
-			"BA_POWER_WOUND1",
-			"BA_POWER_WOUND2"
-		],
-		"BA_DIE": [
-			"BA_DIE1"
-		],
 		"SC_OK": [
 			"SC_OK0",
 			"SC_OK1",
@@ -3729,71 +3680,6 @@
 			"BSSC_POK6",
 			"BSSC_POK7"
 		],
-		"SC_COUNTING": [
-			"SC_COUNTING1",
-			"SC_COUNTING2"
-		],
-		"SC_SEC2_ADMIN": [
-			"SC_SEC2_ADMIN1",
-			"SC_SEC2_ADMIN2"
-		],
-		"SC_M": [
-			"SC_M1",
-			"SC_M2",
-			"SC_M3",
-			"SC_M4",
-			"SC_M5"
-		],
-		"SC_ACCIDENT": [
-			"SC_ACCIDENT1",
-			"SC_ACCIDENT2",
-			"SC_ACCIDENT3"
-		],
-		"SC_RUNAWAY": [
-			"SC_RUNAWAY2"
-		],
-		"SC_ACC_SCREAM": [
-			"SC_ACC_SCREAM1",
-			"SC_ACC_SCREAM2"
-		],
-		"SC_CANALS": [
-			"SC_CANALS1",
-			"SC_CANALS2",
-			"SC_CANALS3",
-			"SC_CANALS4"
-		],
-		"SC_YARD_WOUND": [
-			"SC_YARD_WOUND1",
-			"SC_YARD_WOUND2"
-		],
-		"HA_SCREAM": [
-			"HA_SCREAM1"
-		],
-		"SC_YARD_BOX": [
-			"SC_YARD_BOX1",
-			"SC_YARD_BOX2",
-			"SC_YARD_BOX3",
-			"SC_YARD_BOX4"
-		],
-		"SC_TELE_WORK": [
-			"SC_TELE_WORK1",
-			"SC_TELE_WORK2"
-		],
-		"SC_TELE_XEN": [
-			"SC_TELE_XEN1"
-		],
-		"SC_POWER": [
-			"SC_POWER1",
-			"SC_POWER2"
-		],
-		"SC_POWER_ALT": [
-			"SC_POWER_ALT1",
-			"SC_POWER_ALT2"
-		],
-		"SC_POWER_WOUND": [
-			"SC_POWER_WOUND1",
-			"SC_POWER_WOUND2"
-		],
 		"RO_OK": [
 			"RO_OK0",
 			"RO_OK1",
@@ -4020,93 +3906,6 @@
 			"RO_POK6",
 			"RO_POK7"
 		],
-		"RO_YARD_ROSE": [
-			"RO_YARD_ROSE1",
-			"RO_YARD_ROSE2",
-			"RO_YARD_ROSE3",
-			"RO_YARD_ROSE4"
-		],
-		"RO_YARD_ALMOST": [
-			"RO_YARD_ALMOST2",
-			"RO_YARD_ALMOST3"
-		],
-		"RO_YARD_FOLLOW": [
-			"RO_YARD_FOLLOW1",
-			"RO_YARD_FOLLOW2"
-		],
-		"RO_YARD_HURRY": [
-			"RO_YARD_HURRY02"
-		],
-		"RO_YARD_NOTIME": [
-			"RO_YARD_NOTIME1"
-		],
-		"RO_YARD_ACCESS": [
-			"RO_YARD_ACCESS1",
-			"RO_YARD_ACCESS2"
-		],
-		"RO_TELE_ALMOST": [
-			"RO_TELE_ALMOST1",
-			"RO_TELE_ALMOST2"
-		],
-		"RO_TELE_FINAL": [
-			"RO_TELE_FINAL01",
-			"RO_TELE_FINAL02",
-			"RO_TELE_FINAL03",
-			"RO_TELE_FINAL04",
-			"RO_TELE_FINAL05",
-			"RO_TELE_FINAL06",
-			"RO_TELE_FINAL07",
-			"RO_TELE_FINAL08",
-			"RO_TELE_FINAL09",
-			"RO_TELE_FINAL10",
-			"RO_TELE_FINAL11",
-			"RO_TELE_FINAL12",
-			"RO_TELE_FINAL13",
-			"RO_TELE_FINAL14",
-			"RO_TELE_FINAL15",
-			"RO_TELE_FINAL16",
-			"RO_TELE_FINAL17",
-			"RO_TELE_FINAL18",
-			"RO_TELE_FINAL19",
-			"RO_TELE_FINAL20",
-			"RO_TELE_FINAL21",
-			"RO_TELE_FINAL22",
-			"RO_TELE_FINAL23",
-			"RO_TELE_FINAL24",
-			"RO_TELE_FINAL25",
-			"RO_TELE_FINAL26",
-			"RO_TELE_FINAL27",
-			"RO_TELE_FINAL28"
-		],
-		"RO_TELE_XEN": [
-			"RO_TELE_XEN01",
-			"RO_TELE_XEN02",
-			"RO_TELE_XEN04",
-			"RO_TELE_XEN05",
-			"RO_TELE_XEN06",
-			"RO_TELE_XEN07",
-			"RO_TELE_XEN08",
-			"RO_TELE_XEN09",
-			"RO_TELE_XEN10",
-			"RO_TELE_XEN11",
-			"RO_TELE_XEN12"
-		],
-		"RO_XEN_CALL": [
-			"RO_XEN_CALL1",
-			"RO_XEN_CALL2",
-			"RO_XEN_CALL3"
-		],
-		"RO_TELE_POWER": [
-			"RO_TELE_POWER1",
-			"RO_TELE_POWER2",
-			"RO_TELE_POWER3",
-			"RO_TELE_POWER4",
-			"RO_TELE_POWER5"
-		],
-		"RO_OUTRO": [
-			"RO_OUTRO1",
-			"RO_OUTRO2"
-		],
 		"WILD": [
 			"WILD0",
 			"WILD1",
@@ -4303,17 +4102,6 @@
 		"OT_MISC": [
 			"OT_MISC0",
 			"OT_MISC1"
-		],
-		"OT_CHAT": [
-			"OT_CHAT1"
-		],
-		"BA_CHAT": [
-			"BA_CHAT1"
-		],
-		"OT_": [
-			"OT_1",
-			"OT_2",
-			"OT_3"
 		],
 		"FG_QUESTION": [
 			"FG_QUESTION0",
@@ -4541,153 +4329,6 @@
 		"ST_CHECK": [
 			"ST_CHECK0"
 		],
-		"OF7A0_GM": [
-			"OF7A0_GM01",
-			"OF7A0_GM02",
-			"OF7A0_GM03",
-			"OF7A0_GM04"
-		],
-		"DR_ADD": [
-			"DR_ADD01",
-			"DR_ADD02",
-			"DR_ADD03",
-			"DR_ADD04",
-			"DR_ADD05",
-			"DR_ADD06",
-			"DR_ADD07",
-			"DR_ADD08",
-			"DR_ADD09",
-			"DR_ADD10",
-			"DR_ADD11",
-			"DR_ADD12",
-			"DR_ADD13",
-			"DR_ADD14",
-			"DR_ADD15",
-			"DR_ADD16",
-			"DR_ADD17",
-			"DR_ADD18",
-			"DR_ADD19"
-		],
-		"DR_BARRACKS": [
-			"DR_BARRACKS01",
-			"DR_BARRACKS02",
-			"DR_BARRACKS03",
-			"DR_BARRACKS04",
-			"DR_BARRACKS05",
-			"DR_BARRACKS06",
-			"DR_BARRACKS07",
-			"DR_BARRACKS08"
-		],
-		"DR_DR2_ADD": [
-			"DR_DR2_ADD01",
-			"DR_DR2_ADD02",
-			"DR_DR2_ADD03",
-			"DR_DR2_ADD04",
-			"DR_DR2_ADD05",
-			"DR_DR2_ADD06",
-			"DR_DR2_ADD07",
-			"DR_DR2_ADD08",
-			"DR_DR2_ADD09",
-			"DR_DR2_ADD10",
-			"DR_DR2_ADD11",
-			"DR_DR2_ADD12",
-			"DR_DR2_ADD13",
-			"DR_DR2_ADD14",
-			"DR_DR2_ADD15",
-			"DR_DR2_ADD16",
-			"DR_DR2_ADD17",
-			"DR_DR2_ADD18",
-			"DR_DR2_ADD19"
-		],
-		"DR_FIFTHROOM": [
-			"DR_FIFTHROOM01"
-		],
-		"DR_FIRSTROOM": [
-			"DR_FIRSTROOM01"
-		],
-		"DR_FOURTHROOM": [
-			"DR_FOURTHROOM01",
-			"DR_FOURTHROOM02"
-		],
-		"DR_INTRO": [
-			"DR_INTRO01",
-			"DR_INTRO02"
-		],
-		"DR_LIVEFIRE": [
-			"DR_LIVEFIRE01",
-			"DR_LIVEFIRE02",
-			"DR_LIVEFIRE03",
-			"DR_LIVEFIRE04",
-			"DR_LIVEFIRE05",
-			"DR_LIVEFIRE06",
-			"DR_LIVEFIRE07",
-			"DR_LIVEFIRE08",
-			"DR_LIVEFIRE09",
-			"DR_LIVEFIRE10",
-			"DR_LIVEFIRE11"
-		],
-		"DR_OC": [
-			"DR_OC101",
-			"DR_OC102",
-			"DR_OC103",
-			"DR_OC104",
-			"DR_OC105",
-			"DR_OC106",
-			"DR_OC107",
-			"DR_OC108",
-			"DR_OC109"
-		],
-		"DR_PISTOL": [
-			"DR_PISTOL01",
-			"DR_PISTOL02",
-			"DR_PISTOL03"
-		],
-		"DR_RIFLE": [
-			"DR_RIFLE01",
-			"DR_RIFLE02",
-			"DR_RIFLE03",
-			"DR_RIFLE04",
-			"DR_RIFLE05",
-			"DR_RIFLE06",
-			"DR_RIFLE07",
-			"DR_RIFLE08",
-			"DR_RIFLE09"
-		],
-		"DR_ROPE": [
-			"DR_ROPE01",
-			"DR_ROPE02",
-			"DR_ROPE03",
-			"DR_ROPE04",
-			"DR_ROPE05",
-			"DR_ROPE06",
-			"DR_ROPE07"
-		],
-		"DR_SECONDROOM": [
-			"DR_SECONDROOM01",
-			"DR_SECONDROOM02"
-		],
-		"DR_SEVENROOM": [
-			"DR_SEVENROOM01"
-		],
-		"DR_SIXTHROOM": [
-			"DR_SIXTHROOM01"
-		],
-		"DR_SOUND": [
-			"DR_SOUND4"
-		],
-		"DR_SQUAD": [
-			"DR_SQUAD01",
-			"DR_SQUAD02",
-			"DR_SQUAD03",
-			"DR_SQUAD04",
-			"DR_SQUAD05",
-			"DR_SQUAD06",
-			"DR_SQUAD07"
-		],
-		"DR_THIRDROOM": [
-			"DR_THIRDROOM01",
-			"DR_THIRDROOM02"
-		],
 		"DR_POK": [
 			"DR_POK0",
 			"DR_POK1",
@@ -4695,41 +4336,6 @@
 			"DR_POK3",
 			"DR_POK4",
 			"DR_POK5"
-		],
-		"MP_PISTOL": [
-			"MP_PISTOL01"
-		],
-		"INTRO_FG1_L": [
-			"INTRO_FG1_L1",
-			"INTRO_FG1_L2",
-			"INTRO_FG1_L3",
-			"INTRO_FG1_L4",
-			"INTRO_FG1_L5",
-			"INTRO_FG1_L6",
-			"INTRO_FG1_L7",
-			"INTRO_FG1_L8"
-		],
-		"INTRO_FG2_L": [
-			"INTRO_FG2_L1",
-			"INTRO_FG2_L2",
-			"INTRO_FG2_L3",
-			"INTRO_FG2_L4",
-			"INTRO_FG2_L5",
-			"INTRO_FG2_L6",
-			"INTRO_FG2_L7"
-		],
-		"INTRO_FG3_L": [
-			"INTRO_FG3_L1",
-			"INTRO_FG3_L2"
-		],
-		"INTRO_FG4_L": [
-			"INTRO_FG4_L1",
-			"INTRO_FG4_L2"
-		],
-		"INTRO_DR_L": [
-			"INTRO_DR_L1",
-			"INTRO_DR_L2",
-			"INTRO_DR_L3"
 		]
 	}
 }
