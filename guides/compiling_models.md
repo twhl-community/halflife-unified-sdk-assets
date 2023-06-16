@@ -2,7 +2,7 @@ To compile studio models, open a command prompt window and enter the following c
 
 ```cmd
 cd path/to/scripts
-set STUDIOMDL="absolute/path/to/scripts/studiomdl.exe"
+set STUDIOMDL="absolute/path/to/tools/studiomdl.exe"
 compile_all.bat
 ```
 
