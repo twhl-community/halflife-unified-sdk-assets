@@ -1962,34 +1962,45 @@
 		"FG_QUESTION3 fgrunt/chicken",
 		"FG_QUESTION4 fgrunt/charge",
 		"FG_QUESTION5 fgrunt/bfeeling",
+		
 		"FG_QUEST0 fgrunt/bfeeling",
 		"FG_QUEST1 fgrunt/current",
+		
 		"FG_ANSWER0 fgrunt/roger",
 		"FG_ANSWER1 fgrunt/quiet",
+		
 		"FG_GREN0 fgrunt/incoming",
 		"FG_GREN1 fgrunt/grenade",
+		
 		"FG_ALERT0 fgrunt/alert",
 		"FG_ALERT1 fgrunt/down",
 		"FG_ALERT2 fgrunt/bogies",
 		"FG_ALERT3 fgrunt/hostiles",
+		
 		"FG_MONSTER0 fgrunt/alert",
 		"FG_MONSTER1 fgrunt/alien",
+		
 		"FG_COVER0 fgrunt/clear",
 		"FG_COVER1 fgrunt/cover",
 		"FG_COVER2 fgrunt/staydown",
+		
 		"FG_CLEAR0 fgrunt/clear",
 		"FG_CLEAR1 fgrunt/area",
+		
 		"FG_THROW0 fgrunt/fire",
 		"FG_THROW1 fgrunt/grenade",
+		
 		"FG_CHARGE0 fgrunt/go",
 		"FG_CHARGE1 fgrunt/getsome",
 		"FG_CHARGE2 fgrunt/move",
+		
 		"FG_TAUNT0 fgrunt/mister",
 		"FG_TAUNT1 fgrunt/nothing",
 		"FG_TAUNT2 fgrunt/oneshot",
 		"FG_TAUNT3 fgrunt/getsome",
 		"FG_TAUNT4 fgrunt/corners",
 		"FG_TAUNT5 fgrunt/backup",
+		
 		"FG_OK0 fgrunt/damage",
 		"FG_OK1 fgrunt/six",
 		"FG_OK2 fgrunt/moving",
@@ -2000,16 +2011,20 @@
 		"FG_OK7 fgrunt/command",
 		"FG_OK8 fgrunt/notfail",
 		"FG_OK9 fgrunt/yes",
+		
 		"FG_SCARED0 fgrunt/hearsome",
 		"FG_SCARED1 fgrunt/hear",
+		
 		"FG_WAIT0 fgrunt/secure",
 		"FG_WAIT1 fgrunt/orders",
 		"FG_WAIT2 fgrunt/scout",
 		"FG_WAIT3 fgrunt/guardduty",
+		
 		"FG_STOP0 fgrunt/sorry",
 		"FG_STOP1 fgrunt/post",
 		"FG_STOP2 fgrunt/stay",
 		"FG_STOP3 fgrunt/leave",
+		
 		"FG_KILL0 fgrunt/oneshot",
 		"FG_KILL1 fgrunt/killer",
 		"FG_KILL2 fgrunt/sniper",
@@ -2018,16 +2033,19 @@
 		"FG_KILL5 fgrunt/talking",
 		"FG_KILL6 fgrunt/take",
 		"FG_KILL7 fgrunt/sniper",
-		"FG_KILL8 fgrunt/checkin",
+		"FG_KILL8 fgrunt/check",
 		"FG_KILL9 fgrunt/area",
+		
 		"FG_SHOT0 fgrunt/check",
 		"FG_SHOT1 fgrunt/wantsome",
 		"FG_SHOT2 fgrunt/zone",
 		"FG_SHOT3 fgrunt/watchit",
 		"FG_SHOT4 fgrunt/watchfire",
 		"FG_SHOT5 fgrunt/friendly",
+		
 		"FG_CHECK0 fgrunt/check",
 		"FG_CHECK1 fgrunt/zone",
+		
 		"FG_IDLE0 fgrunt/guard",
 		"FG_IDLE1 fgrunt/mission",
 		"FG_IDLE2 fgrunt/babysitting",
@@ -2041,6 +2059,7 @@
 		"FG_IDLE10 fgrunt/dogs",
 		"FG_IDLE11 fgrunt/disney",
 		"FG_IDLE12 fgrunt/checkrecon",
+		
 		"FG_ATTACK0 fgrunt/flank",
 		"FG_ATTACK1 fgrunt/wantsome",
 		"FG_ATTACK2 fgrunt/freaks",
@@ -2053,21 +2072,27 @@
 		"FG_ATTACK9 fgrunt/go",
 		"FG_ATTACK10 fgrunt/covering",
 		"FG_ATTACK11 fgrunt/ass",
+		
 		"FG_MAD0 fgrunt/ass",
 		"FG_MAD1 fgrunt/shephard",
+		
 		"FG_HELLO0 fgrunt/sore",
 		"FG_HELLO1 fgrunt/tosee",
 		"FG_HELLO2 fgrunt/hellosir",
+		
 		"FG_WOUND0 fgrunt/imhit",
 		"FG_WOUND1 fgrunt/fwound",
 		"FG_WOUND2 fgrunt/makeit",
+		
 		"FG_MORTAL0 fgrunt/hitbad",
 		"FG_MORTAL1 fgrunt/critical",
 		"FG_MORTAL2 fgrunt/sdamage",
+		
 		"FG_CURE1 fgrunt/needmedic",
 		"FG_CURE2 fgrunt/hurt",
 		"FG_CURE3 fgrunt/hell",
 		"FG_CURE4 fgrunt/feel",
+		
 		"FG_MAKEIT fgrunt/makeit",
 	
 		// TORCH GRUNT
