@@ -198,6 +198,7 @@ $sequence "rampwalk" "animations/rampwalk" AX AY AZR fps 15 {
  }
 
 // Opposing Force sequences
+// Sequences that play ambience/turretrot1.wav must stop this looping sound by playing common/null.wav at the end of the sequence.
 $sequence "45_left" "animations/45_left" LX fps 35 ACT_TURN_LEFT 1 { event 1004 1 "ambience/loader_hydra1.wav" } { event 1004 18 "ambience/loader_step1.wav" } 
 $sequence "park" "animations/park" fps 24 {
   { event 1000 1 } 
@@ -216,13 +217,22 @@ $sequence "blocked" "animations/blocked" fps 30 loop {
   { event 1008 39 "ambience/wood2.wav" } 
   { event 1008 42 "ambience/warn2.wav" } 
   { event 1008 60 "ambience/turretrot1.wav" } 
+  { event 1008 95 "common/null.wav" }
  }
-$sequence "freed" "animations/freed" fps 25 { event 1004 1 "ambience/turretrot1.wav" } { event 1004 30 "ambience/turretrot1.wav" } 
+$sequence "freed" "animations/freed" fps 25 {
+  { event 1004 1 "ambience/turretrot1.wav" }
+  { event 1004 30 "ambience/turretrot1.wav" }
+  { event 1004 60 "common/null.wav" }
+ }
 $sequence "dropbox" "animations/dropbox" fps 30 {
   { event 1004 1 "ambience/turretrot1.wav" } 
   { event 1004 30 "ambience/turretrot1.wav" } 
   { event 1004 93 "common/splash_large.wav" } 
  }
-$sequence "pivotback" "animations/pivotback" fps 30 { event 1004 1 "ambience/turretrot1.wav" } { event 1004 30 "ambience/turretrot1.wav" } 
+$sequence "pivotback" "animations/pivotback" fps 30 {
+  { event 1004 1 "ambience/turretrot1.wav" }
+  { event 1004 30 "ambience/turretrot1.wav" }
+  { event 1004 60 "common/null.wav" }
+ }
 
 // End of QC script.
