@@ -29,11 +29,11 @@ $body "studio" "meshes/zombie_soldier_reference"
 
 // 27 hit box(es)
 $hbox 0 "Bip01 Pelvis" -4.710000 -5.850000 -5.300000 1.477798 3.540000 5.310000
-$hbox 0 "Bip01 L Leg" 0.000000 -6.460000 -5.930000 18.410000 3.980000 2.820000
-$hbox 0 "Bip01 L Leg1" 0.000000 -6.260000 -4.960000 20.000000 3.660000 3.780000
+$hbox 0 "Bip01 L Thigh" 0.000000 -6.460000 -5.930000 18.410000 3.980000 2.820000
+$hbox 0 "Bip01 L Calf" 0.000000 -6.260000 -4.960000 20.000000 3.660000 3.780000
 $hbox 0 "Bip01 L Foot" 0.000000 -2.940000 -3.820000 4.270000 11.510000 1.960000
-$hbox 0 "Bip01 R Leg" 0.000000 -6.630000 -3.000000 18.299999 3.980000 6.040000
-$hbox 0 "Bip01 R Leg1" 0.000000 -6.450000 -3.480000 19.969999 3.550000 4.600000
+$hbox 0 "Bip01 R Thigh" 0.000000 -6.630000 -3.000000 18.299999 3.980000 6.040000
+$hbox 0 "Bip01 R Calf" 0.000000 -6.450000 -3.480000 19.969999 3.550000 4.600000
 $hbox 0 "Bip01 R Foot" 0.000000 -2.750000 -2.300000 4.270000 11.150000 3.270000
 $hbox 0 "Bip01 Spine" 0.000000 -4.470000 -10.000000 12.567778 6.660000 10.010000
 $hbox 0 "Bip01 Spine1" -7.850000 -14.150000 -10.060000 4.515007 6.300000 10.080000
@@ -41,14 +41,14 @@ $hbox 0 "Bip01 Spine2" 0.000000 -14.590000 -7.930000 9.910000 5.200000 8.130000
 $hbox 0 "Bip01 Spine3" 0.000000 -0.001380 -4.910000 5.508079 6.550000 3.780000
 $hbox 0 "Bip01 Neck" 0.000000 -8.800000 -6.860000 4.120000 6.120000 6.760000
 $hbox 0 "Bip01 Head" -2.520000 -6.170000 -6.480000 9.870000 7.590000 6.560000
-$hbox 0 "Bip01 L Arm" 0.000000 -2.140000 -1.810000 7.890000 5.490000 2.360000
-$hbox 0 "Bip01 L Arm1" -1.710000 -2.080000 -3.330000 16.799999 4.430000 3.270000
-$hbox 0 "Bip01 L Arm2" 0.000000 -0.820000 -2.170000 14.450000 2.130000 1.820000
+$hbox 0 "Bip01 L Clavicle" 0.000000 -2.140000 -1.810000 7.890000 5.490000 2.360000
+$hbox 0 "Bip01 L UpperArm" -1.710000 -2.080000 -3.330000 16.799999 4.430000 3.270000
+$hbox 0 "Bip01 L Forearm" 0.000000 -0.820000 -2.170000 14.450000 2.130000 1.820000
 $hbox 0 "Bip01 L Hand" 0.000000 -0.670000 -2.550000 6.060000 1.640000 1.640000
 $hbox 0 "Bip01 L Finger1" 0.000000 -0.060000 -0.410000 5.210000 1.030000 0.750000
-$hbox 0 "Bip01 R Arm" 0.000000 -2.130000 -2.440000 8.500000 5.400000 1.620000
-$hbox 0 "Bip01 R Arm1" -1.740000 -2.070000 -2.830000 16.830000 4.250000 3.720000
-$hbox 0 "Bip01 R Arm2" 0.000000 -0.610000 -1.430000 14.826971 1.990000 2.720000
+$hbox 0 "Bip01 R Clavicle" 0.000000 -2.130000 -2.440000 8.500000 5.400000 1.620000
+$hbox 0 "Bip01 R UpperArm" -1.740000 -2.070000 -2.830000 16.830000 4.250000 3.720000
+$hbox 0 "Bip01 R Forearm" 0.000000 -0.610000 -1.430000 14.826971 1.990000 2.720000
 $hbox 0 "Bip01 R Hand" 0.000000 -0.780000 -1.531838 5.400000 0.860000 3.260000
 $hbox 0 "Bip01 R Finger1" 0.000000 -0.300000 -0.540000 7.020000 0.780000 0.680000
 $hbox 0 "Bip01 R Finger3" 0.000000 -0.000001 -0.000002 4.690000 1.310000 1.500000
@@ -84,46 +84,46 @@ $sequence "dieheadshot2" "animations/dieheadshot2" fps 22 ACT_DIE_GUTSHOT 1 { ev
 $sequence "diesimple" "animations/diesimple" X fps 20 ACT_DIESIMPLE 1 { event 2001 13 } 
 $sequence "diebackward" "animations/diebackward" fps 18 ACT_DIEBACKWARD 1 { event 2001 10 } 
 $sequence "dieforward" "animations/dieforward" X fps 18 ACT_DIEFORWARD 1 { event 2001 21 } 
-$sequence "pause" "../shared/animations/zombies/pause" fps 15 
-$sequence "busting_through_wall" "../shared/animations/zombies/busting_through_wall" fps 20 
-$sequence "kick_punch_wall" "../shared/animations/zombies/kick_punch_wall" fps 14 
-$sequence "bust_window" "../shared/animations/zombies/bust_window" fps 26 
-$sequence "soda" "../shared/animations/zombies/soda" fps 26 { event 1004 63 "*buttons/latchunlocked1.wav" } 
-$sequence "slideidle" "../shared/animations/zombies/slideidle" fps 16 loop 
-$sequence "slidewall" "../shared/animations/zombies/slidewall" fps 18 { event 1000 1 } 
-$sequence "ventclimbidle" "../shared/animations/zombies/ventclimbidle" fps 15 loop 
-$sequence "ventclimb" "../shared/animations/zombies/ventclimb" fps 20 
-$sequence "deadidle" "../shared/animations/zombies/deadidle" fps 14 loop 
-$sequence "deadwall" "../shared/animations/zombies/deadwall" fps 16 
-$sequence "freakdie" "../shared/animations/zombies/freakdie" fps 12 { event 1000 0 } 
-$sequence "freak" "../shared/animations/zombies/freak" fps 16 loop { event 1003 2 "freak" } 
-$sequence "eatbodytable" "../shared/animations/zombies/eatbodytable" fps 20 loop 
-$sequence "eatbody" "../shared/animations/zombies/eatbody" fps 15 loop 
-$sequence "eatbodystand" "../shared/animations/zombies/eatbodystand" fps 30 
-$sequence "ripdoor" "../shared/animations/zombies/ripdoor" fps 20 { event 1008 1 "*debris/bustcrate1.wav" } 
-$sequence "zombie_pull_scientist" "../shared/animations/zombies/zombie_pull_scientist" fps 17 
-$sequence "zombie_eating" "../shared/animations/zombies/zombie_eating" AX AY AZR fps 15 loop 
-$sequence "eat_to_stand" "../shared/animations/zombies/eat_to_stand" AX AY AZR fps 15 
-$sequence "vent_zidle" "../shared/animations/zombies/vent_zidle" fps 18 
-$sequence "vent_c1a3" "../shared/animations/zombies/vent_c1a3" AX AY AZR fps 18 { event 1000 1 } 
-$sequence "haulzombie" "../shared/animations/zombies/haulzombie" AX AY AZR fps 18 
-$sequence "c2a3_snack_getup" "../shared/animations/zombies/c2a3_snack_getup" AX AY AZR fps 12 
+$sequence "pause" "animations/pause" fps 15 
+$sequence "busting_through_wall" "animations/busting_through_wall" fps 20 
+$sequence "kick_punch_wall" "animations/kick_punch_wall" fps 14 
+$sequence "bust_window" "animations/bust_window" fps 26 
+$sequence "soda" "animations/soda" fps 26 { event 1004 63 "*buttons/latchunlocked1.wav" } 
+$sequence "slideidle" "animations/slideidle" fps 16 loop 
+$sequence "slidewall" "animations/slidewall" fps 18 { event 1000 1 } 
+$sequence "ventclimbidle" "animations/ventclimbidle" fps 15 loop 
+$sequence "ventclimb" "animations/ventclimb" fps 20 
+$sequence "deadidle" "animations/deadidle" fps 14 loop 
+$sequence "deadwall" "animations/deadwall" fps 16 
+$sequence "freakdie" "animations/freakdie" fps 12 { event 1000 0 } 
+$sequence "freak" "animations/freak" fps 16 loop { event 1003 2 "freak" } 
+$sequence "eatbodytable" "animations/eatbodytable" fps 20 loop 
+$sequence "eatbody" "animations/eatbody" fps 15 loop 
+$sequence "eatbodystand" "animations/eatbodystand" fps 30 
+$sequence "ripdoor" "animations/ripdoor" fps 20 { event 1008 1 "*debris/bustcrate1.wav" } 
+$sequence "zombie_pull_scientist" "animations/zombie_pull_scientist" fps 17 
+$sequence "zombie_eating" "animations/zombie_eating" AX AY AZR fps 15 loop 
+$sequence "eat_to_stand" "animations/eat_to_stand" AX AY AZR fps 15 
+$sequence "vent_zidle" "animations/vent_zidle" fps 18 
+$sequence "vent_c1a3" "animations/vent_c1a3" AX AY AZR fps 18 { event 1000 1 } 
+$sequence "haulzombie" "animations/haulzombie" AX AY AZR fps 18 
+$sequence "c2a3_snack_getup" "animations/c2a3_snack_getup" AX AY AZR fps 12 
 
 // Opposing Force sequences
-$sequence "dead_on_back" "../shared/animations/zombies/dead_on_back" fps 30 
-$sequence "dead_on_stomach" "../shared/animations/zombies/dead_on_stomach" fps 30 
-$sequence "throw_scientist" "../shared/animations/zombies/throw_scientist" fps 25 {
+$sequence "dead_on_back" "animations/dead_on_back" fps 30 
+$sequence "dead_on_stomach" "animations/dead_on_stomach" fps 30 
+$sequence "throw_scientist" "animations/throw_scientist" fps 25 {
   { event 1004 33 "zombie/claw_strike3.wav" } 
   { event 1004 36 "zombie/claw_strike3.wav" } 
   { event 1004 60 "zombie/zo_attack1.wav" } 
  }
-$sequence "get_off_table" "../shared/animations/zombies/get_off_table" fps 25 
-$sequence "table_breathe" "../shared/animations/zombies/table_breathe" fps 30 loop 
+$sequence "get_off_table" "animations/get_off_table" fps 25 
+$sequence "table_breathe" "animations/table_breathe" fps 30 loop 
 
 // Blue Shift sequences
-$sequence "left_tug" "../shared/animations/zombies/left_tug" fps 18 
-$sequence "left_tug_idle" "../shared/animations/zombies/left_tug_idle" fps 18 
-$sequence "right_tug" "../shared/animations/zombies/right_tug" fps 18 
-$sequence "right_tug_idle" "../shared/animations/zombies/right_tug_idle" fps 18 
+$sequence "left_tug" "animations/left_tug" fps 18 
+$sequence "left_tug_idle" "animations/left_tug_idle" fps 18 
+$sequence "right_tug" "animations/right_tug" fps 18 
+$sequence "right_tug_idle" "animations/right_tug_idle" fps 18 
 
 // End of QC script.
