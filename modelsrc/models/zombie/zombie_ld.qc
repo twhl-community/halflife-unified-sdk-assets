@@ -78,30 +78,30 @@ $sequence "dieheadshot2" "animations/dieheadshot2" fps 22 ACT_DIE_GUTSHOT 1 { ev
 $sequence "diesimple" "animations/diesimple" X fps 20 ACT_DIESIMPLE 1 { event 2001 13 } 
 $sequence "diebackward" "animations/diebackward" fps 18 ACT_DIEBACKWARD 1 { event 2001 10 } 
 $sequence "dieforward" "animations/dieforward" X fps 18 ACT_DIEFORWARD 1 { event 2001 21 } 
-$sequence "pause" "../shared/animations/zombies/pause" fps 15 
-$sequence "busting_through_wall" "../shared/animations/zombies/busting_through_wall" fps 20 
-$sequence "kick_punch_wall" "../shared/animations/zombies/kick_punch_wall" fps 14 
-$sequence "bust_window" "../shared/animations/zombies/bust_window" fps 26 
-$sequence "soda" "../shared/animations/zombies/soda" fps 26 { event 1004 63 "*buttons/latchunlocked1.wav" } 
-$sequence "slideidle" "../shared/animations/zombies/slideidle" fps 16 loop 
-$sequence "slidewall" "../shared/animations/zombies/slidewall" fps 18 { event 1000 1 } 
-$sequence "ventclimbidle" "../shared/animations/zombies/ventclimbidle" fps 15 loop 
-$sequence "ventclimb" "../shared/animations/zombies/ventclimb" fps 20 
-$sequence "deadidle" "../shared/animations/zombies/deadidle" fps 14 loop 
-$sequence "deadwall" "../shared/animations/zombies/deadwall" fps 16 
-$sequence "freakdie" "../shared/animations/zombies/freakdie" fps 12 { event 1000 0 } 
-$sequence "freak" "../shared/animations/zombies/freak" fps 16 loop { event 1003 2 "freak" } 
-$sequence "eatbodytable" "../shared/animations/zombies/eatbodytable" fps 20 loop 
-$sequence "eatbody" "../shared/animations/zombies/eatbody" fps 15 loop 
-$sequence "eatbodystand" "../shared/animations/zombies/eatbodystand" fps 30 
-$sequence "ripdoor" "../shared/animations/zombies/ripdoor" fps 20 { event 1008 1 "*debris/bustcrate1.wav" } 
-$sequence "zombie_pull_scientist" "../shared/animations/zombies/zombie_pull_scientist" fps 17 
-$sequence "zombie_eating" "../shared/animations/zombies/zombie_eating" AX AY AZR fps 15 loop 
-$sequence "eat_to_stand" "../shared/animations/zombies/eat_to_stand" AX AY AZR fps 15 
-$sequence "vent_zidle" "../shared/animations/zombies/vent_zidle" fps 18 
-$sequence "vent_c1a3" "../shared/animations/zombies/vent_c1a3" AX AY AZR fps 18 { event 1000 1 } 
-$sequence "haulzombie" "../shared/animations/zombies/haulzombie" AX AY AZR fps 18 
-$sequence "c2a3_snack_getup" "../shared/animations/zombies/c2a3_snack_getup" AX AY AZR fps 12 
+$sequence "pause" "animations/pause" fps 15 
+$sequence "busting_through_wall" "animations/busting_through_wall" fps 20 
+$sequence "kick_punch_wall" "animations/kick_punch_wall" fps 14 
+$sequence "bust_window" "animations/bust_window" fps 26 
+$sequence "soda" "animations/soda" fps 26 { event 1004 63 "*buttons/latchunlocked1.wav" } 
+$sequence "slideidle" "animations/slideidle" fps 16 loop 
+$sequence "slidewall" "animations/slidewall" fps 18 { event 1000 1 } 
+$sequence "ventclimbidle" "animations/ventclimbidle" fps 15 loop 
+$sequence "ventclimb" "animations/ventclimb" fps 20 
+$sequence "deadidle" "animations/deadidle" fps 14 loop 
+$sequence "deadwall" "animations/deadwall" fps 16 
+$sequence "freakdie" "animations/freakdie" fps 12 { event 1000 0 } 
+$sequence "freak" "animations/freak" fps 16 loop { event 1003 2 "freak" } 
+$sequence "eatbodytable" "animations/eatbodytable" fps 20 loop 
+$sequence "eatbody" "animations/eatbody" fps 15 loop 
+$sequence "eatbodystand" "animations/eatbodystand" fps 30 
+$sequence "ripdoor" "animations/ripdoor" fps 20 { event 1008 1 "*debris/bustcrate1.wav" } 
+$sequence "zombie_pull_scientist" "animations/zombie_pull_scientist" fps 17 
+$sequence "zombie_eating" "animations/zombie_eating" AX AY AZR fps 15 loop 
+$sequence "eat_to_stand" "animations/eat_to_stand" AX AY AZR fps 15 
+$sequence "vent_zidle" "animations/vent_zidle" fps 18 
+$sequence "vent_c1a3" "animations/vent_c1a3" AX AY AZR fps 18 { event 1000 1 } 
+$sequence "haulzombie" "animations/haulzombie" AX AY AZR fps 18 
+$sequence "c2a3_snack_getup" "animations/c2a3_snack_getup" AX AY AZR fps 12 
 
 // Opposing Force sequences
 $sequence "dead_on_back" "../shared/animations/zombies/dead_on_back" fps 30 
