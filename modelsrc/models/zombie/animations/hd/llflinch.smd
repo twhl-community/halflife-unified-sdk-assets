@@ -2,11 +2,11 @@ version 1
 nodes
   0 "Bip01" -1
   1 "Bip01 Pelvis" 0
-  2 "Bip01 L Leg" 1
-  3 "Bip01 L Leg1" 2
+  2 "Bip01 L Thigh" 1
+  3 "Bip01 L Calf" 2
   4 "Bip01 L Foot" 3
-  5 "Bip01 R Leg" 1
-  6 "Bip01 R Leg1" 5
+  5 "Bip01 R Thigh" 1
+  6 "Bip01 R Calf" 5
   7 "Bip01 R Foot" 6
   8 "Bip01 Spine" 1
   9 "Bip01 Spine1" 8
@@ -18,9 +18,9 @@ nodes
  15 "Bone10" 14
  16 "Bone12" 13
  17 "Bone13" 16
- 18 "Bip01 L Arm" 12
- 19 "Bip01 L Arm1" 18
- 20 "Bip01 L Arm2" 19
+ 18 "Bip01 L Clavicle" 12
+ 19 "Bip01 L UpperArm" 18
+ 20 "Bip01 L Forearm" 19
  21 "Bip01 L Hand" 20
  22 "Bip01 L Finger0" 21
  23 "Bip01 L Finger01" 22
@@ -34,9 +34,9 @@ nodes
  31 "Bip01 L Finger3" 21
  32 "Bip01 L Finger31" 31
  33 "Bip01 L Finger32" 32
- 34 "Bip01 R Arm" 12
- 35 "Bip01 R Arm1" 34
- 36 "Bip01 R Arm2" 35
+ 34 "Bip01 R Clavicle" 12
+ 35 "Bip01 R UpperArm" 34
+ 36 "Bip01 R Forearm" 35
  37 "Bip01 R Hand" 36
  38 "Bip01 R Finger0" 37
  39 "Bip01 R Finger01" 38
