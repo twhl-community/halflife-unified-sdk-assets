@@ -7,13 +7,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.0] - 2023-07-18
+
+### Added
+
+- Valid sequences to replace empty sequences in HD HL1 zombie
+
+### Changed
+
+- Added polygons under bigrat paws
+- Reworked previously converted LD zombies sequences
+
+### Fixed
+
+- Spore launcher spore flying off screen in reload animation
+
+## [0.6.0] - 2023-06-11
+
+### Added
+
+- Bigrat model
+
+### Changed
+
+- Revert Bullsquid hitgroups
+- Revert Gman hitgroups
+- Revert Holograms hitgroups
+- Revert Houndeye hitgroups
+- Change Osprey gear hitgroups to 0
+- Revert Loader hitgroups
+- Revert Skeleton hitgroups
+- Revert intro medic hitgroups
+- Revert intro commander hitgroups
+- Revert intro regular hitgroups
+- Revert intro saw hitgroups
+- Revert intro torch hitgroups
+- Revert Voltigore hitgroups
+- Revert intro barney hitgroups
+
+### Fixed
+
+- Sleeve vertices in LD 9mmAR
+
+## [0.5.0] - 2023-02-28
+
 ### Added
 
 - Hologram pushcart model
 
+### Changed
+
+- Removed unnecessary polygons from v_shock
+
 ### Removed
 
 - Sequence pushcart in default Hologram model
+
+### Fixed
+
+- HD grunt stretcher sequence
 
 ## [0.4.0] - 2022-09-10
 
