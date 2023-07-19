@@ -13,6 +13,11 @@
 				{
 					"Source": "cfgsrc",
 					"Destination": "",
+					"Pattern": "default_config.cfg",
+				},
+				{
+					"Source": "cfgsrc",
+					"Destination": "",
 					"Pattern": "server.cfg"
 				},
 				{
