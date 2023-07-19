@@ -1932,7 +1932,7 @@
 @PointClass base(Monster, Sequence) size(-16 -16 0, 16 16 72) studio("models/hgrunt.mdl") = monster_grunt_repel : "Human Grunt (Repel)" []
 @PointClass base(Weapon, Targetx, RenderFields, Sequence) studio("models/w_grenade.mdl") = monster_handgrenade : "Live Handgrenade" []
 @PointClass base(Monster, Sequence) size(-16 -16 0, 16 16 36) studio("models/headcrab.mdl") = monster_headcrab : "Head Crab" []
-@PointClass base(Targetname,Appearflags,RenderFields, Angles, Sequence) size(-16 -16 0, 16 16 72) = monster_hevsuit_dead : "Dead HEV Suit" 
+@PointClass base(Targetname,Appearflags,RenderFields, Angles, Sequence) size(-16 -16 0, 16 16 72) studio("models/deadhaz.mdl") = monster_hevsuit_dead : "Dead HEV Suit" 
 [
       pose(Choices) : "Pose" : 0 =
   [
@@ -2721,7 +2721,7 @@
 // ITEM ENTITIES
 //
 
-@PointClass base(Targetx, OtherItem) = item_generic : "Generic scenery item"
+@PointClass base(Targetx, OtherItem) studio() = item_generic : "Generic scenery item"
 [
 	model(studio) : "Model" : "models/egg.mdl"
 	sequencename(string) : "Sequence Name" : "idle"
@@ -3110,7 +3110,7 @@ initammo(string) : "Initial Ammo" : "6"
 
 @PointClass base(Monster,TalkMonster, Sequence) studio("models/recruit.mdl") = monster_recruit : "Recruit" []
 
-@PointClass base(Targetname,Appearflags,RenderFields, Sequence) size(-16 -16 0, 16 16 72) = monster_skeleton_dead : "Dead Skeleton" 
+@PointClass base(Targetname,Appearflags,RenderFields, Sequence) size(-16 -16 0, 16 16 72) studio("models/skeleton.mdl") = monster_skeleton_dead : "Dead Skeleton" 
 [
       pose(Choices) : "Pose" : 0 =
 	[
