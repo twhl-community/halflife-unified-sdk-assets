@@ -7,7 +7,7 @@
 "startdark" "0"
 "MaxRange" "4096"
 "mapversion" "220"
-"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\barney.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\opfor.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\op4ctf.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\decals.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\ravelin.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc.WAD;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\tfc2.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\hlu\class_signs.wad;\Users\Sam\Documents\Half-Life\Vluzacn_ZHLT_v34\tools\zhlt.wad"
 "_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
 {
 ( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -82,10 +82,6 @@
 {
 "classname" "func_button"
 "spawnflags" "33"
-"unlocked_sentence" "0"
-"locked_sentence" "0"
-"unlocked_sound" "0"
-"locked_sound" "0"
 "delay" "0"
 "wait" "3"
 "sounds" "buttons/button9.wav"
@@ -104,4 +100,19 @@
 ( 8 -8 64 ) ( -8 -8 64 ) ( 8 8 64 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -8 8 0 ) ( -8 -8 0 ) ( 8 8 0 ) +0BUTTON1 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 }
+}
+{
+"classname" "monster_scientist"
+"item" "0"
+"body" "-1"
+"suspicious" "0"
+"allow_follow" "1"
+"allow_item_dropping" "1"
+"TriggerCondition" "0"
+"unkillable" "0"
+"angles" "0 0 0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "192 0 0.176716"
 }
