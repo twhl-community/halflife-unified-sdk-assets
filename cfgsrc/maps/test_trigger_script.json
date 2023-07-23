@@ -1,0 +1,17 @@
+{
+	"Includes": [
+		"cfg/HalfLifeConfig.json"
+	],
+	"SectionGroups": [
+		{
+			"Sections": {
+				"Scripts": {
+					"Scripts": [
+						"maps/test.as",
+						"maps/duplicate.as"
+					]
+				}
+			}
+		}
+	]
+}

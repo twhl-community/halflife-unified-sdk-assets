@@ -1,0 +1,4 @@
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) color(255 255 0) = trigger_script : "Executes a function in a map script when triggered"
+[
+	trigger_function(string) : "Name of the function to execute"
+]

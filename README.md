@@ -9,6 +9,7 @@ This repository contains source files for Half-Life Unified SDK assets. This cov
 * Installer files (.json)
 * Maps (.rmf, .map, .rad, .jmf, .ent, .res)
 * Models (.qc, .smd, .bmp, .max)
+* Plugin and map scripts (.as)
 * Resource files (.txt)
 * Scripts (.bat, .sh, .ps1, .csx, and related files)
 * Sprites (.qc, .bmp, .txt)
@@ -25,6 +26,7 @@ Directory structure:
 * installersrc
 * mapsrc
 * modelsrc
+* pluginsrc
 * resourcesrc
 * scripts
 * scriptsrc

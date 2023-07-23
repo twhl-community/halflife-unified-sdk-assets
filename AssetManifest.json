@@ -93,6 +93,17 @@
 					"Recursive": true
 				},
 				{
+					"Source": "pluginsrc/cfg",
+					"Destination": "",
+					"Pattern": "default_plugins.json"
+				},
+				{
+					"Source": "pluginsrc/scripts",
+					"Destination": "scripts",
+					"Pattern": "*.as",
+					"Recursive": true
+				},
+				{
 					"Source": "resourcesrc",
 					"Destination": "resource",
 					"Pattern": "*.res",

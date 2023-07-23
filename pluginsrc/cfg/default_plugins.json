@@ -1,0 +1,12 @@
+// Default Angelscript plugin configuration file.
+// Note: the scripting system is a prototype and is not ready for use. This is not functional in public releases!
+[
+{
+	"Name": "TestPlugin",
+	"Scripts": [
+		"maps/test.as",
+		"maps/another.as",
+		"plugins/plugin.as"
+	]
+}
+]
