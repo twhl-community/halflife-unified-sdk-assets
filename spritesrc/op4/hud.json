@@ -141,70 +141,70 @@
 		"Height": 64
 	},
 	"number_0": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 0,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_1": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 20,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_2": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 40,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_3": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 60,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_4": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 80,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_5": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 100,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_6": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 120,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_7": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 140,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_8": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 160,
 		"Top": 232,
 		"Width": 20,
 		"Height": 24
 	},
 	"number_9": {
-		"SpriteName": "op4/hud2_scanline",
+		"SpriteName": "op4/hud3_scanline",
 		"Left": 180,
 		"Top": 232,
 		"Width": 20,
