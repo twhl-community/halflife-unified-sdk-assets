@@ -102,6 +102,12 @@ Table of contents:
 * Removed helmet hitboxes
 * Uses sequences `idle1`, `idle3`, `idle4` from default Barney model
 
+#### Dead hazard suit
+
+* Removed head mesh from body mesh
+* Removed Gordon glasses mesh from model
+* Renamed main bodygroup `studio` to `body`
+
 #### Gman
 
 * Added Op4 specific sequences
@@ -501,6 +507,10 @@ Table of contents:
 * Use LD HL1 animations for all LD variants
 * Changed event 5001 option 41 to 31 in HD `shoot` sequence for consistency with LD sequences
 * Removed duplicate event 5001 in HD sequence `shoot_big`
+
+##### Snark
+
+* Fixed Snark hand animation [#131](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/131) (Thanks [Ronin4862](https://github.com/Ronin4862))
 
 ##### Spore launcher
 
