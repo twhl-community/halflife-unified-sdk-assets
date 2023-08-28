@@ -13,4 +13,8 @@ rem Copy Gordon player model
 
 if exist %basename%_gordon.mdl xcopy /F /Y %basename%_gordon.mdl %~dp0..\..\mdl\ld\%basename%.mdl*
 
+rem Copy Dead hazard suit model
+set basename=deadhaz
+if exist %basename%.mdl xcopy /F /Y %basename%.mdl %~dp0..\..\mdl\ld\%basename%.mdl*
+
 endlocal
