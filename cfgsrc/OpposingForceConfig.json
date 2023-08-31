@@ -51,6 +51,7 @@
 					"weapon_9mmar": "cfg/entitytemplates/op4/weapon_9mmar.json"
 				},
                 "HudColor": "0 160 0",
+				"CrosshairColor": "0 160 0",
                 "SuitLightType": "nightvision"
             }
         }

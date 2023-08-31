@@ -15,6 +15,7 @@
                     "FileNames": ["cfg/BlueShiftSentenceReplacement.json"]
                 },
                 "HudColor": "95 95 255",
+				"CrosshairColor": "255 160 0",
                 "SuitLightType": "flashlight"
             }
         }

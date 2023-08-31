@@ -2250,6 +2250,17 @@
   ]
 ]
 
+@PointClass base(Targetname) size(-16 -16 -16, 16 16 16) = player_setcrosshaircolor : "Set or reset player crosshair color" 
+[
+  crosshair_color(color255) : "Crosshair Color (R G B)" : "0 0 0"
+  
+  action(Choices) : "Action To Take" : 0 =
+  [
+    0 : "Set color"
+    1 : "Reset color"
+  ]
+]
+
 @PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = player_setsuitlighttype : "Set player's suit light type" 
 [
 	all_players(choices) : "Affect All Players" : 0 =
