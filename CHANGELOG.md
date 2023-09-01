@@ -521,6 +521,7 @@ Table of contents:
 
 * Use LD HL1 sequence `fidget` for LD Blue Shift sequence `fidget`
 * Removed loop option on HD sequence `arm1`
+* Moved LD/HD world tripmine to separate models
 
 #### World models
 
@@ -581,6 +582,12 @@ Table of contents:
 ##### Shotgun world model
 
 * Uses Op4 model mesh as a base
+
+##### Tripmine world model
+
+* Removed unneeded frames in world and ground sequences
+* Fixed tripmine clipping through floor in ground sequences
+* Added missing polygons to LD variant
 
 ## Sprites
 
