@@ -446,11 +446,9 @@ Table of contents:
 
 * Use HD Blue Shift animation `reload_noshot` for all HD variants
 * Removed unneeded hitboxes
-* Tweaked muzzle attachment offset in LD/HD variants
+* Tweaked muzzle attachment offset in HD variants
 * Added silencer bodygroup to HD variants
-* Added backfaces to clip in LD/HD variants
-* Fixed glitchy vertices in LD Op4/Blue Shift glock mesh
-* Reworked LD Op4/Blue Shift hands mesh rig to allow sharing animations
+* Added backfaces to clip in HD variants
 
 ##### Hand grenade
 
