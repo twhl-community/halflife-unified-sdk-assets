@@ -457,7 +457,6 @@ Table of contents:
 
 * Use HD Op4 grenade texture for HD variants
 * Removed unneeded hitboxes
-* Use LD HL1 animations for LD Op4/Blue Shift variants for consistency
 
 ##### Knife
 
