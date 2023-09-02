@@ -480,7 +480,6 @@ Table of contents:
 * Use Op4 missile mesh for LD variants
 * Added missing sequences `fidget2`, `holster2` to Op4/Blue Shift LD variants
 * Added missing sequence `fidget2` to HD variants
-* Use Op4 reload animation in LD variants
 
 ##### Satchel
 
