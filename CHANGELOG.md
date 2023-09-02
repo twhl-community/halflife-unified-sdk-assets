@@ -497,8 +497,6 @@ Table of contents:
 
 ##### Shotgun
 
-* Rigged Blue Shift hand mesh on top of HL1 skeleton
-* Use LD HL1 animations for all LD variants
 * Changed event 5001 option 41 to 31 in HD `shoot` sequence for consistency with LD sequences
 * Removed duplicate event 5001 in HD sequence `shoot_big`
 
