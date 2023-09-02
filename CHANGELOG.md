@@ -518,7 +518,6 @@ Table of contents:
 
 ##### Tripmine
 
-* Use LD HL1 sequence `fidget` for LD Blue Shift sequence `fidget`
 * Removed loop option on HD sequence `arm1`
 
 #### World models
