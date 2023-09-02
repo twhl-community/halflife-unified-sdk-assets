@@ -435,7 +435,6 @@ Table of contents:
 ##### Egon
 
 * Removed right arm mesh in HD variant
-* Replaced unfinished LD sequences `fire1`, `fire2` with those from Op4
 * Removed loop option on HD sequences `altfireon`, `altfireoff`
 
 ##### Gauss
