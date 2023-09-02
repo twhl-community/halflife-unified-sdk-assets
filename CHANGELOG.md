@@ -494,7 +494,6 @@ Table of contents:
 * Removed unneeded hitboxes
 * Removed left arm in HD variants
 * Fixed glitchy hand vertices in LD/HD Op4 variants
-* Use LD HL1 animations for LD Blue Shift variant
 
 ##### Shock rifle
 
