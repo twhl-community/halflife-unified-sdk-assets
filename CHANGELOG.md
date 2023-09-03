@@ -92,6 +92,10 @@ Table of contents:
 * Added shared scientist items bodygroup with clipboard and stick
 * Added shared scientist sequences
 
+#### Cower scientist
+
+* Removed unneeded frame in LD/HD `cower_die` sequence
+
 #### Dead Barney
 
 * Removed unneeded frames in various sequences
