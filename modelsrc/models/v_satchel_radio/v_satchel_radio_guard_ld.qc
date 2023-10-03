@@ -38,10 +38,10 @@ $hbox 0 "Bip01 R Finger0" 0.000000 -0.880000 -0.920000 2.480000 0.340000 0.45000
 $hbox 0 "Dummy22" -1.920000 -0.760000 -2.010000 1.720000 0.900000 9.860000
 
 // 5 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "fire" "animations/ld/fire" fps 30 
-$sequence "holster" "animations/ld/holster" fps 30 
+$sequence "idle1" "animations/ld/bshift/idle1" fps 30 loop 
+$sequence "fidget1" "animations/ld/bshift/fidget1" fps 30 
+$sequence "draw" "animations/ld/bshift/draw" fps 30 
+$sequence "fire" "animations/ld/bshift/fire" fps 30 
+$sequence "holster" "animations/ld/bshift/holster" fps 30 
 
 // End of QC script.

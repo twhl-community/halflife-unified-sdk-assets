@@ -45,7 +45,7 @@ $hbox 0 "Bip01 L Finger31" 0.000000 -0.700000 -0.480000 1.136840 0.450000 0.5300
 
 // 10 animation sequence(s)
 $sequence "sm_idle" "animations/ld/sm_idle" fps 9 loop 
-$sequence "shoot" "animations/ld/shoot" fps 20 { event 5001 0 "31" } 
+$sequence "shoot" "animations/ld/op4/shoot" fps 20 { event 5001 0 "31" } 
 $sequence "shoot_big" "animations/ld/shoot_big" fps 13 { event 5001 0 "41" } 
 $sequence "reload" "animations/ld/reload" fps 16 
 $sequence "pump" "animations/ld/pump" fps 13 

@@ -45,8 +45,8 @@ $sequence "fidget1" "animations/ld/fidget1" fps 30
 $sequence "altfireon" "animations/ld/altfireon" fps 30 
 $sequence "altfirecycle" "animations/ld/altfirecycle" fps 30 loop 
 $sequence "altfireoff" "animations/ld/altfireoff" fps 30 
-$sequence "fire1" "animations/ld/fire1" fps 30 loop 
-$sequence "fire2" "animations/ld/fire2" fps 30 loop 
+$sequence "fire1" "animations/ld/op4/fire1" fps 30 loop 
+$sequence "fire2" "animations/ld/op4/fire2" fps 30 loop 
 $sequence "fire3" "animations/ld/fire3" fps 30 loop 
 $sequence "fire4" "animations/ld/fire4" fps 30 loop 
 $sequence "draw" "animations/ld/draw" fps 30 

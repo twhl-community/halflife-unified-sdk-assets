@@ -49,7 +49,7 @@ $sequence "idle1" "animations/ld/idle1" fps 30 loop
 $sequence "idle2" "animations/ld/idle2" fps 30 loop 
 $sequence "arm1" "animations/ld/arm1" fps 60 
 $sequence "place" "animations/ld/place" fps 30 
-$sequence "fidget" "animations/ld/fidget" fps 30 loop 
+$sequence "fidget" "animations/ld/idle1" fps 30 loop 
 $sequence "holster" "animations/ld/holster" fps 30 
 $sequence "draw" "animations/ld/draw" fps 30 
 

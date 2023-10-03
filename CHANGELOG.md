@@ -439,7 +439,6 @@ Table of contents:
 ##### Egon
 
 * Removed right arm mesh in HD variant
-* Replaced unfinished LD sequences `fire1`, `fire2` with those from Op4
 * Removed loop option on HD sequences `altfireon`, `altfireoff`
 
 ##### Gauss
@@ -451,17 +450,14 @@ Table of contents:
 
 * Use HD Blue Shift animation `reload_noshot` for all HD variants
 * Removed unneeded hitboxes
-* Tweaked muzzle attachment offset in LD/HD variants
+* Tweaked muzzle attachment offset in HD variants
 * Added silencer bodygroup to HD variants
-* Added backfaces to clip in LD/HD variants
-* Fixed glitchy vertices in LD Op4/Blue Shift glock mesh
-* Reworked LD Op4/Blue Shift hands mesh rig to allow sharing animations
+* Added backfaces to clip in HD variants
 
 ##### Hand grenade
 
 * Use HD Op4 grenade texture for HD variants
 * Removed unneeded hitboxes
-* Use LD HL1 animations for LD Op4/Blue Shift variants for consistency
 
 ##### Knife
 
@@ -484,7 +480,6 @@ Table of contents:
 * Use Op4 missile mesh for LD variants
 * Added missing sequences `fidget2`, `holster2` to Op4/Blue Shift LD variants
 * Added missing sequence `fidget2` to HD variants
-* Use Op4 reload animation in LD variants
 
 ##### Satchel
 
@@ -499,7 +494,6 @@ Table of contents:
 * Removed unneeded hitboxes
 * Removed left arm in HD variants
 * Fixed glitchy hand vertices in LD/HD Op4 variants
-* Use LD HL1 animations for LD Blue Shift variant
 
 ##### Shock rifle
 
@@ -507,8 +501,6 @@ Table of contents:
 
 ##### Shotgun
 
-* Rigged Blue Shift hand mesh on top of HL1 skeleton
-* Use LD HL1 animations for all LD variants
 * Changed event 5001 option 41 to 31 in HD `shoot` sequence for consistency with LD sequences
 * Removed duplicate event 5001 in HD sequence `shoot_big`
 
@@ -523,7 +515,6 @@ Table of contents:
 
 ##### Tripmine
 
-* Use LD HL1 sequence `fidget` for LD Blue Shift sequence `fidget`
 * Removed loop option on HD sequence `arm1`
 * Moved LD/HD world tripmine to separate models
 

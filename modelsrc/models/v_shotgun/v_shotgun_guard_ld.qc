@@ -25,7 +25,7 @@ $eyeposition 0.000000 0.000000 0.000000
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/v_shotgun_reference"
+$body "studio" "meshes/ld/bshift/v_shotgun_reference"
 
 $body "studio" "meshes/ld/shell"
 
@@ -43,15 +43,15 @@ $hbox 0 "Bip01 L Hand" -2.100000 -2.530000 -1.760000 3.940000 1.230000 1.790000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.810000 -0.630000 2.480000 0.380000 0.740000
 
 // 10 animation sequence(s)
-$sequence "sm_idle" "animations/ld/sm_idle" fps 9 loop 
-$sequence "shoot" "animations/ld/shoot" fps 20 { event 5001 0 "31" } 
-$sequence "shoot_big" "animations/ld/shoot_big" fps 13 { event 5001 0 "41" } 
-$sequence "reload" "animations/ld/reload" fps 16 
-$sequence "pump" "animations/ld/pump" fps 13 
-$sequence "start_reload" "animations/ld/start_reload" fps 12 
-$sequence "draw" "animations/ld/draw" fps 24 
-$sequence "reholster" "animations/ld/reholster" fps 30 
-$sequence "idle4" "animations/ld/idle4" fps 9 loop 
-$sequence "deepidle" "animations/ld/deepidle" fps 12 loop 
+$sequence "sm_idle" "animations/ld/bshift/sm_idle" fps 9 loop 
+$sequence "shoot" "animations/ld/bshift/shoot" fps 20 { event 5001 0 "31" } 
+$sequence "shoot_big" "animations/ld/bshift/shoot_big" fps 13 { event 5001 0 "41" } 
+$sequence "reload" "animations/ld/bshift/reload" fps 16 
+$sequence "pump" "animations/ld/bshift/pump" fps 13 
+$sequence "start_reload" "animations/ld/bshift/start_reload" fps 12 
+$sequence "draw" "animations/ld/bshift/draw" fps 24 
+$sequence "reholster" "animations/ld/bshift/reholster" fps 30 
+$sequence "idle4" "animations/ld/bshift/idle4" fps 9 loop 
+$sequence "deepidle" "animations/ld/bshift/deepidle" fps 12 loop 
 
 // End of QC script.
