@@ -15,7 +15,7 @@ Original internal name:
 $modelname "v_tripmine_guard_ld.mdl"
 $cd "./"
 $cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_tripmine"
+$cdtexture "../../textures/w_tripmine"
 $scale 1.0
 
 
@@ -28,13 +28,11 @@ $eyeposition 0.000000 0.000000 0.000000
 $bodygroup "hands"
 {
 studio "meshes/ld/v_barney_hands_reference"
-blank
 }
 
 $bodygroup "mine"
 {
 studio "meshes/ld/tripmine_mine"
-studio "meshes/ld/tripmine_boned_world"
 }
 
 
@@ -45,7 +43,6 @@ $hbox 0 "Bip01 L Finger0" 0.000000 -0.900000 -0.460000 2.480000 0.330000 0.91000
 $hbox 0 "Bip01 R Arm2" -0.690000 -2.150000 -2.460000 11.368418 2.820000 1.950000
 $hbox 0 "Bip01 R Hand" -0.560000 -1.560000 -2.450000 3.910000 1.200000 1.880000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.890000 -0.930000 2.480000 0.330000 0.440000
-$hbox 0 "Dummy22" -11.440000 -3.910000 -4.220000 11.460000 7.320000 5.430000
 
 // 9 animation sequence(s)
 $sequence "idle1" "animations/ld/idle1" fps 30 loop 
@@ -55,7 +52,5 @@ $sequence "place" "animations/ld/place" fps 30
 $sequence "fidget" "animations/ld/fidget" fps 30 loop 
 $sequence "holster" "animations/ld/holster" fps 30 
 $sequence "draw" "animations/ld/draw" fps 30 
-$sequence "world" "animations/ld/world" fps 30 loop 
-$sequence "ground" "animations/ld/ground" fps 30 loop 
 
 // End of QC script.
