@@ -2098,7 +2098,7 @@
   height2(integer) : "Height for level 1" : 448
   height3(integer) : "Height for level 3" : 640
 ]
-@PointClass base(Monster, Sequence) studio("models/p_tripmine.mdl") = monster_tripmine : "Active Tripmine" 
+@PointClass base(Monster, Sequence) studio("models/w_tripmine.mdl") = monster_tripmine : "Active Tripmine" 
 [
   spawnflags(Flags) =
   [
@@ -2588,7 +2588,7 @@
   ]
 ]
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_egon.mdl") = weapon_egon : "Egon Gun" []
-@PointClass base(Targetx, RenderFields, Weapon) studio("models/p_tripmine.mdl") size(-16 -16 -5, 16 16 27) = weapon_tripmine : "Tripmine Ammo" []
+@PointClass base(Targetx, RenderFields, Weapon) studio("models/w_tripmine.mdl") size(-16 -16 -5, 16 16 27) = weapon_tripmine : "Tripmine Ammo" []
 @PointClass base(Targetx, RenderFields, Weapon) studio("models/w_satchel.mdl") = weapon_satchel : "Satchel Charge Ammo" 
 [
   sequence(choices) : "Placement" : 0 =
