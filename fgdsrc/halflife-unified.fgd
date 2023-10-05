@@ -3361,6 +3361,6 @@ initammo(string) : "Initial Ammo" : "6"
 	]
 ]
 
-@PointClass base(Monster, TalkMonster) size(-16 -16 0, 16 16 72) = monster_rosenberg : "Dr. Rosenberg" 
+@PointClass base(Monster, TalkMonster) size(-16 -16 0, 16 16 72) studio("models/rosenberg.mdl") = monster_rosenberg : "Dr. Rosenberg" 
 [
 ]
