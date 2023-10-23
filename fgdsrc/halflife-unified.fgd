@@ -1891,17 +1891,32 @@
 ]
 @PointClass base(Monster, Sequence) size(-16 -16 0, 16 16 36) studio("models/baby_headcrab.mdl") = monster_babycrab : "Baby Headcrab" []
 @PointClass base(RenderFields, Sequence) size(-16 -16 -36, 16 16 0) studio("models/barnacle.mdl") = monster_barnacle : "Barnacle Monster" []
+
 @PointClass base(Monster,TalkMonster, Sequence) size(-16 -16 0, 16 16 72) studio("models/barney.mdl") = monster_barney : "Barney"
 [
+	bodystate(Choices) : "bodystate" : 1 =
+	[
+		0 : "Blank"
+		1 : "Gun Holstered"
+		2 : "Gun Drawn"
+	]
 ]
+
 @PointClass base(Targetname,RenderFields,Appearflags, Angles, Sequence) size(-16 -16 0, 16 16 72) studio("models/barney.mdl") = monster_barney_dead : "Dead Barney" 
 [
-      pose(Choices) : "Pose" : 0 =
-  [
-    0 : "On back"
-    1 : "On side"
-    2 : "On stomach"
-  ]
+	bodystate(Choices) : "bodystate" : 1 =
+	[
+		0 : "Blank"
+		1 : "Gun Holstered"
+		2 : "Gun Drawn"
+	]
+
+	pose(Choices) : "Pose" : 0 =
+	[
+		0 : "On back"
+		1 : "On side"
+		2 : "On stomach"
+	]
 ]
 @PointClass base(Monster, Sequence, MonsterWithChildren) size(-95 -95 0, 95 95 190) studio("models/big_mom.mdl") = monster_bigmomma : "Big Mamma" 
 [
@@ -3055,10 +3070,11 @@
 
 @PointClass base(Monster,TalkMonster, Sequence) studio("models/otis.mdl") = monster_otis : "Otis"
 [
-	bodystate(Choices) : "bodystate" : 0 =
+	bodystate(Choices) : "bodystate" : 1 =
 	[
-		0 : "Gun Holstered"
-		1 : "Gun Drawn"
+		0 : "Blank"
+		1 : "Gun Holstered"
+		2 : "Gun Drawn"
 	]
 	
 	skin(Choices) : "head" : -1 =
@@ -3091,9 +3107,30 @@
         0 : "On back"
         1 : "On side"
         2 : "On stomach"
-	  3 : "Stuffed in Vent"
-	  4 : "Dead Sitting"
+		3 : "Stuffed in Vent"
+		4 : "Dead Sitting"
     ]
+	
+	bodystate(Choices) : "bodystate" : 1 =
+	[
+		0 : "Blank"
+		1 : "Gun Holstered"
+		2 : "Gun Drawn"
+	]
+	
+	sleeves(Choices) : "sleeves" : -1 =
+	[
+		-1 : "Random"
+		0 : "Long"
+		1 : "Short"
+	]
+	
+	item(Choices) : "item" : 0 =
+	[
+		0 : "None"
+		1 : "Clipboard"
+		2 : "Donut"
+	]
 ]
 
 
