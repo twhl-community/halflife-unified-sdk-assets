@@ -52,6 +52,11 @@
 					"Pattern": "*.txt"
 				},
 				{
+					"Source": "textsrc",
+					"Destination": "",
+					"Pattern": "README.txt"
+				},
+				{
 					"Source": "eventsrc",
 					"Destination": "events",
 					"Pattern": "*.sc"
