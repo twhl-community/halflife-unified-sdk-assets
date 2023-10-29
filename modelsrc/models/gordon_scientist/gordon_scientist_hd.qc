@@ -256,15 +256,15 @@ $sequence "onguard" "../shared/animations/scientists/hd/onguard" fps 6 loop
 $sequence "seeya" "../shared/animations/scientists/hd/seeya" AX AY AZR fps 17 { event 1003 81 "putdown" } 
 $sequence "rocketcrawl" "../shared/animations/scientists/hd/rocketcrawl" fps 10 loop 
 $sequence "portal" "../shared/animations/scientists/hd/portal" fps 20 loop {
-  { event 1008 19 "*buttons/blip1.wav" } 
-  { event 1008 22 "*buttons/blip1.wav" } 
-  { event 1008 25 "*buttons/blip2.wav" } 
-  { event 1008 32 "*buttons/blip2.wav" } 
-  { event 1008 47 "*buttons/blip1.wav" } 
-  { event 1008 98 "*buttons/blip2.wav" } 
-  { event 1008 102 "*buttons/blip1.wav" } 
-  { event 1008 110 "*buttons/blip2.wav" } 
-  { event 1008 119 "*buttons/blip1.wav" } 
+  { event 1004 19 "*buttons/blip1.wav" } 
+  { event 1004 22 "*buttons/blip1.wav" } 
+  { event 1004 25 "*buttons/blip2.wav" } 
+  { event 1004 32 "*buttons/blip2.wav" } 
+  { event 1004 47 "*buttons/blip1.wav" } 
+  { event 1004 98 "*buttons/blip2.wav" } 
+  { event 1004 102 "*buttons/blip1.wav" } 
+  { event 1004 110 "*buttons/blip2.wav" } 
+  { event 1004 119 "*buttons/blip1.wav" } 
  }
 $sequence "gluonshow" "../shared/animations/scientists/hd/gluonshow" fps 18 frame 0 25 
 $sequence "crouch" "../shared/animations/scientists/hd/crouch" fps 25 
