@@ -137,6 +137,12 @@
 					"Pattern": "*.json"
 				},
 				{
+					"Source": "soundsrc",
+					"Destination": "sound",
+					"Pattern": "*.wav",
+					"Recursive": true
+				},
+				{
 					"Source": "spritesrc",
 					"Destination": "sprites",
 					"Pattern": "*.json",
