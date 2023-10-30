@@ -281,6 +281,9 @@ Table of contents:
 * Reworked hitboxes
 * Added Op4 green crate as 2nd skin
 * Fixed Op4 green crate stretched texture
+* Added missing polygons along accordion spine
+* Fixed sharp edges on spine polygons
+* Fixed rear-left spine vertex weight (Weighted to Neck3 instead of Neck4)
 
 #### Male BlackOps
 
