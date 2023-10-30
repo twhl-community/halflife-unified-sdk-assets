@@ -9,6 +9,7 @@ This changelog lists all assets changes meant to be used with Half-Life Unified 
 Table of contents:
 * [FGD](#fgd)
 * [Models](#models)
+* [Sounds](#sounds)
 * [Sprites](#sprites)
 
 ## FGD
@@ -586,6 +587,12 @@ Table of contents:
 * Removed unneeded frames in world and ground sequences
 * Fixed tripmine clipping through floor in ground sequences
 * Added missing polygons to LD variant
+
+## Sounds
+
+### General
+
+* Added `buttons/bell1_alt.wav`
 
 ## Sprites
 
