@@ -35,18 +35,8 @@ studio "meshes/hd/dc_sci_(head_LUTHER)"
 studio "meshes/hd/dc_sci_(head_SLICK)"
 }
 
-$bodygroup "needle"
-{
-blank
-studio "../shared/meshes/scientists/ld/SCI2_Template_Biped(Needle_Hand)1"
-}
-
-$bodygroup "items"
-{
-blank
-studio "../shared/meshes/scientists/ld/SCI_clipboard"
-studio "../shared/meshes/scientists/ld/SCI_stick"
-}
+$include "../shared/includes/bodygroups/scientists/ld/needle.qci"
+$include "../shared/includes/bodygroups/scientists/ld/items.qci"
 
 // 2 bone controller(s)
 $controller 0 "Bip02 Head" XR -60.000000 60.000000

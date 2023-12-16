@@ -25,28 +25,10 @@ $eyeposition 0.000000 0.000000 60.000000
 
 
 //reference mesh(es)
-$body "studio" "../shared/meshes/civ_scientists/hd/dc_sci_(CIV_headless_body)"
-
-$bodygroup "heads"
-{
-studio "../shared/meshes/scientists/hd/dc_sci_(head_NERD)"
-studio "../shared/meshes/scientists/hd/dc_sci_(head_EINSTEIN)"
-studio "../shared/meshes/scientists/hd/dc_sci_(head_LUTHER)"
-studio "../shared/meshes/scientists/hd/dc_sci_(head_SLICK)"
-}
-
-$bodygroup "needle"
-{
-blank
-studio "../shared/meshes/scientists/hd/scientist_needle"
-}
-
-$bodygroup "items"
-{
-blank
-studio "../shared/meshes/scientists/hd/SCI_clipboard"
-studio "../shared/meshes/scientists/hd/SCI_stick"
-}
+$include "../shared/includes/bodygroups/civ_scientists/hd/body.qci"
+$include "../shared/includes/bodygroups/scientists/hd/heads.qci"
+$include "../shared/includes/bodygroups/scientists/hd/needle.qci"
+$include "../shared/includes/bodygroups/scientists/hd/items.qci"
 
 // 2 skin families
 $texturegroup skinfamilies 

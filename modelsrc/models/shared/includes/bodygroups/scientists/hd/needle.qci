@@ -1,0 +1,5 @@
+$bodygroup "needle"
+{
+blank
+studio "../shared/meshes/scientists/hd/scientist_needle"
+}
