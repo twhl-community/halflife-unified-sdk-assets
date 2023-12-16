@@ -35,10 +35,7 @@ studio "meshes/ld/dc_sci_(head_ROSENBERG)"
 $include "../shared/includes/bodygroups/scientists/ld/needle.qci"
 $include "../shared/includes/bodygroups/scientists/ld/items.qci"
 
-// 2 bone controller(s)
-$controller 0 "Bip02 Head" XR -60.000000 60.000000
-$controller 1 "Bip02 Head" ZR -50.000000 30.000000
-$controller 4 "Bone01" ZR 0.000000 20.000000
+$include "../shared/includes/bonecontrollers/scientists/ld/bonecontrollers.qci"
 
 $include "../shared/includes/hitboxes/scientists/ld/hitboxes.qci"
 
