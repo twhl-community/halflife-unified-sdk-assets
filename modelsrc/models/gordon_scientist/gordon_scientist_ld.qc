@@ -14,8 +14,7 @@ Original internal name:
 
 $modelname "gordon_scientist_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/player/gordon"
-$cdtexture "../../textures/gordon_scientist"
+$include "includes/common/ld/common.qci"
 $include "../shared/includes/common/scientists/ld/common.qci"
 
 
