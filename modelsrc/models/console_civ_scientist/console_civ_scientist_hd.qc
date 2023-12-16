@@ -84,8 +84,6 @@ $hbox 1 "Bip02 Neck" -2.200000 -1.400000 -2.400000 2.500000 4.000000 2.500000
 
 // console_civ_scientist.mdl sequences
 $sequence "console_idle1" "../shared/animations/civ_scientists/hd/console_idle1" fps 25 loop ACT_IDLE 50 
-$sequence "console_work" "../shared/animations/civ_scientists/hd/console_work" fps 25 loop 
-$sequence "console_shocked" "../shared/animations/civ_scientists/hd/console_shocked" fps 19 
-$sequence "console_sneeze" "../shared/animations/civ_scientists/hd/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" } 
+$include "../shared/includes/animations/scientists/hd/console_sequences.qci"
 
 // End of QC script.

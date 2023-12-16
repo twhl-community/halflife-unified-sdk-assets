@@ -81,6 +81,6 @@ $hbox 1 "Bip02 Neck" -2.200000 -1.400000 -2.400000 2.500000 4.000000 2.500000
 // 1 animation sequence(s)
 
 // scientist_cower.mdl sequences
-$sequence "cower_die" "../shared/animations/scientists/hd/cower_die" fps 25 loop { event 1000 0 } 
+$include "../shared/includes/animations/scientists/hd/cower_die.qci"
 
 // End of QC script.
