@@ -25,7 +25,7 @@ $eyeposition 0.000000 0.000000 60.000000
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/SCI3_Template_Biped1(Headless_Body)"
+$include "includes/bodygroups/ld/body.qci"
 
 $bodygroup "heads"
 {
