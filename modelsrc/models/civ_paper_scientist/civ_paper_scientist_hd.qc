@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "civ_paper_scientist_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/civ_scientist"
+$include "../shared/includes/common/civ_scientists/ld/common.qci"
 $include "../shared/includes/common/scientists/ld/common.qci"
 
 
