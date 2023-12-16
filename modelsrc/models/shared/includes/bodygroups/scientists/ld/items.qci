@@ -1,0 +1,6 @@
+$bodygroup "items"
+{
+blank
+studio "../shared/meshes/scientists/ld/SCI_clipboard"
+studio "../shared/meshes/scientists/ld/SCI_stick"
+}

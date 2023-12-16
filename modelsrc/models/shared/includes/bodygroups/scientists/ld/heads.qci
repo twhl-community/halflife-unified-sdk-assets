@@ -1,0 +1,7 @@
+$bodygroup "heads"
+{
+studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(NerdHead)"
+studio "../shared/meshes/scientists/ld/SCI2_Template_Biped1(EinstienHead)"
+studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(LutherHead)"
+studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(SlickHead)"
+}

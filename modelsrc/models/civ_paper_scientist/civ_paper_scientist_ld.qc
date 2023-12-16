@@ -25,15 +25,8 @@ $eyeposition 0.000000 0.000000 60.000000
 
 
 //reference mesh(es)
-$body "studio" "../shared/meshes/scientists/ld/SCI3_Template_Biped1(Headless_Body)"
-
-$bodygroup "heads"
-{
-studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(NerdHead)"
-studio "../shared/meshes/scientists/ld/SCI2_Template_Biped1(EinstienHead)"
-studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(LutherHead)"
-studio "../shared/meshes/scientists/ld/SCI3_Template_Biped1(SlickHead)"
-}
+$include "../shared/includes/bodygroups/scientists/ld/body.qci"
+$include "../shared/includes/bodygroups/scientists/ld/heads.qci"
 
 $body "newspaper" "../shared/meshes/civ_scientists/ld/SCI_newspaper"
 

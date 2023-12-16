@@ -26,25 +26,15 @@ $eyeposition 0.000000 0.000000 60.000000
 
 
 //reference mesh(es)
-$body "studio" "../shared/meshes/scientists/ld/SCI3_Template_Biped1(Headless_Body)"
+$include "../shared/includes/bodygroups/scientists/ld/body.qci"
 
 $bodygroup "heads"
 {
 studio "meshes/ld/dc_sci_(head_GORDON)"
 }
 
-$bodygroup "needle"
-{
-blank
-studio "../shared/meshes/scientists/ld/SCI2_Template_Biped(Needle_Hand)1"
-}
-
-$bodygroup "items"
-{
-blank
-studio "../shared/meshes/scientists/ld/SCI_clipboard"
-studio "../shared/meshes/scientists/ld/SCI_stick"
-}
+$include "../shared/includes/bodygroups/scientists/ld/needle.qci"
+$include "../shared/includes/bodygroups/scientists/ld/items.qci"
 
 // 2 bone controller(s)
 $controller 0 "Bip02 Head" XR -60.000000 60.000000
