@@ -1,0 +1,5 @@
+$texturegroup skinfamilies 
+{
+{ "Sci2_Hand1.bmp"  "Sci2_Knuckles.bmp" }
+{ "Sci2_Hand(Black)1.bmp"  "Sci2_Knuckles(Blk).bmp" }
+}
