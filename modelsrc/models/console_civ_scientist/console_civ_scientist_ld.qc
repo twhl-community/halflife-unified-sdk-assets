@@ -35,6 +35,7 @@ $texturegroup skinfamilies
 }
 
 $include "../shared/includes/bonecontrollers/scientists/ld/bonecontrollers.qci"
+$include "../shared/includes/bonecontrollers/scientists/ld/mouth.qci"
 
 $include "../shared/includes/hitboxes/scientists/ld/hitboxes.qci"
 

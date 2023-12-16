@@ -37,6 +37,7 @@ $include "../shared/includes/bodygroups/scientists/ld/needle.qci"
 $include "../shared/includes/bodygroups/scientists/ld/items.qci"
 
 $include "../shared/includes/bonecontrollers/scientists/ld/bonecontrollers.qci"
+$include "../shared/includes/bonecontrollers/scientists/ld/mouth.qci"
 
 $include "../shared/includes/hitboxes/scientists/ld/hitboxes.qci"
 
