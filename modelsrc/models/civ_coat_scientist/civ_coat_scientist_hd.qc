@@ -30,12 +30,7 @@ $include "../shared/includes/bodygroups/scientists/hd/heads.qci"
 
 $body "coat" "../shared/meshes/civ_scientists/hd/SCI_coat"
 
-// 2 skin families
-$texturegroup skinfamilies 
-{
-{ "DC_sci_hands.BMP" }
-{ "DC_sci_hands_black.bmp" }
-}
+$include "../shared/includes/texturegroups/scientists/hd/texturegroups.qci"
 
 $include "../shared/includes/bonecontrollers/scientists/ld/bonecontrollers.qci"
 $include "../shared/includes/bonecontrollers/scientists/hd/mouth.qci"

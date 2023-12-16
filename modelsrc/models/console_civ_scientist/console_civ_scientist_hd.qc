@@ -28,12 +28,7 @@ $eyeposition 0.000000 0.000000 60.000000
 $include "../shared/includes/bodygroups/civ_scientists/hd/body.qci"
 $include "../shared/includes/bodygroups/scientists/hd/heads.qci"
 
-// 2 skin families
-$texturegroup skinfamilies 
-{
-{ "DC_sci_hands.BMP" }
-{ "DC_sci_hands_black.bmp" }
-}
+$include "../shared/includes/texturegroups/scientists/hd/texturegroups.qci"
 
 $include "../shared/includes/bonecontrollers/scientists/ld/bonecontrollers.qci"
 $include "../shared/includes/bonecontrollers/scientists/hd/mouth.qci"
