@@ -15,13 +15,7 @@ Original internal name:
 $modelname "console_civ_scientist_hd.mdl"
 $cd "./"
 $cdtexture "../../textures/civ_scientist"
-$cdtexture "../../textures/scientist"
-$scale 1.0
-
-
-$bbox -16.000000 -16.000000 0.000000 16.000000 16.000000 72.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 60.000000
+$include "../shared/includes/common/scientists/ld/common.qci"
 
 
 //reference mesh(es)
