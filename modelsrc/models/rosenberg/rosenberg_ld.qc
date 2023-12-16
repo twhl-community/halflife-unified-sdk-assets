@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "rosenberg_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/rosenberg"
+$include "includes/common/ld/common.qci"
 $include "../shared/includes/common/scientists/ld/common.qci"
 
 
