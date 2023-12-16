@@ -68,8 +68,7 @@ $hbox 5 "Bip02 R Hand" 0.000000 -1.850000 -1.770000 3.930000 1.590000 2.080000
 $hbox 1 "Bip02 Head" 0.000000 -3.960000 -3.860000 10.020000 6.230000 4.070000
 
 
-// 2 animation sequence(s)
-$sequence "walk" "../shared/animations/scientists/ld/walk" LX fps 20 loop ACT_WALK 1 { event 1004 0 "common/npc_step1.wav" } { event 1004 8 "common/npc_step3.wav" } 
-$sequence "idle1" "../shared/animations/scientists/ld/idle1" fps 18 loop ACT_IDLE 50 
+$include "../shared/includes/animations/scientists/ld/walk.qci"
+$include "../shared/includes/animations/scientists/ld/idle1.qci"
 
 // End of QC script.

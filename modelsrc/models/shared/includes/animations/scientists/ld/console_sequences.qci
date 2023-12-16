@@ -1,0 +1,3 @@
+$sequence "console_work" "../shared/animations/civ_scientists/ld/console_work" fps 25 loop
+$sequence "console_shocked" "../shared/animations/civ_scientists/ld/console_shocked" fps 19
+$sequence "console_sneeze" "../shared/animations/civ_scientists/ld/console_sneeze" fps 28 loop { event 1008 6 "*scientist/sneeze.wav" }

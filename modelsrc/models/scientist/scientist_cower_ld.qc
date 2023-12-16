@@ -70,6 +70,6 @@ $hbox 1 "Bip02 Head" 0.000000 -3.960000 -3.860000 10.020000 6.230000 4.070000
 // 1 animation sequence(s)
 
 // scientist_cower.mdl sequences
-$sequence "cower_die" "../shared/animations/scientists/ld/cower_die" fps 25 loop { event 1000 0 } 
+$include "../shared/includes/animations/scientists/ld/cower_die.qci"
 
 // End of QC script.
