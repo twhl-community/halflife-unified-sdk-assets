@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "cleansuit_scientist_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/cleansuit_scientist"
+$include "includes/common/ld/common.qci"
 $include "../shared/includes/common/scientists/ld/common.qci"
 
 
