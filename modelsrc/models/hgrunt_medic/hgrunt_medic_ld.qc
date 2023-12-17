@@ -36,11 +36,7 @@ studio "meshes/ld/glock_gunholster_reference"
 studio "meshes/ld/glock_reference"
 }
 
-$bodygroup "needle"
-{
-blank
-studio "meshes/ld/hypodermic_reference"
-}
+$include "includes/bodygroups/ld/needle.qci"
 
 $include "includes/texturegroups/ld/texturegroups.qci"
 

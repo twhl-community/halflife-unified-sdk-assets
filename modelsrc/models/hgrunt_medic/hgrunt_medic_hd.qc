@@ -36,11 +36,7 @@ studio "meshes/hd/beretta_gunholster_reference"
 studio "meshes/hd/beretta_reference"
 }
 
-$bodygroup "needle"
-{
-blank
-studio "meshes/ld/hypodermic_reference"
-}
+$include "includes/bodygroups/ld/needle.qci"
 
 // 2 skin families
 $texturegroup skinfamilies 
