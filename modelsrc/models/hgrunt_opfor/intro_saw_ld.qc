@@ -24,8 +24,7 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 //reference mesh(es)
 $include "../shared/includes/bodygroups/hgrunt_opfor/ld/body.qci"
-
-$body "heads" "meshes/ld/grunt_head_saw_blk_reference"
+$include "includes/bodygroups/ld/head_saw_blk.qci"
 
 $body "torso" "meshes/ld/grunt_saw_gunner_torso_reference"
 

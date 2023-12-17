@@ -24,10 +24,8 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 //reference mesh(es)
 $include "../shared/includes/bodygroups/hgrunt_opfor/hd/body.qci"
-
-$body "heads" "meshes/ld/grunt_head_commander_reference"
-
-$body "torso" "meshes/hd/torso_regular_reference"
+$include "includes/bodygroups/ld/head_commander.qci"
+$include "includes/bodygroups/hd/torso_regular.qci"
 
 
 // 2 attachment(s)
