@@ -23,7 +23,7 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "../shared/meshes/hgrunt_opfor/ld/grunt_fatigues_reference"
+$include "../shared/includes/bodygroups/hgrunt_opfor/ld/body.qci"
 
 $body "heads" "meshes/ld/grunt_head_saw_blk_reference"
 
