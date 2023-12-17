@@ -84,21 +84,14 @@ $hbox 1 "Bip01 Neck" -1.000000 -4.100000 -3.500000 2.000000 3.500000 3.800000
 
 
 // 82 animation sequence(s)
-$sequence "walk1" "../shared/animations/hgrunt/ld/walk1" LX fps 30 loop ACT_WALK 1 
-$sequence "run" "../shared/animations/hgrunt/ld/run" LX fps 30 loop ACT_RUN 1 
-$sequence "victorydance" "../shared/animations/hgrunt/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 
-$sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
-$sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
-$sequence "leftlegsmflinch" "../shared/animations/hgrunt/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LEFTLEG 1 
-$sequence "rightlegsmflinch" "../shared/animations/hgrunt/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
-$sequence "rightarmflinch" "../shared/animations/hgrunt/ld/rightarmflinch" fps 22 ACT_FLINCH_RIGHTARM 1 
-$sequence "leftarmflinch" "../shared/animations/hgrunt/ld/leftarmflinch" fps 22 ACT_FLINCH_LEFTARM 1 
-$sequence "launchgrenade" "../shared/animations/hgrunt/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 
-$sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
-$sequence "idle1" "../shared/animations/hgrunt/ld/idle1" fps 30 loop ACT_IDLE 1 
+$include "../shared/includes/animations/hgrunt/ld/ai_sequences_1.qci"
+$include "../shared/includes/animations/hgrunt/ld/ai_sequences_2.qci"
+$include "../shared/includes/animations/hgrunt/ld/launchgrenade.qci"
+$include "../shared/includes/animations/hgrunt/ld/throwgrenade.qci"
+$include "../shared/includes/animations/hgrunt/ld/idle1.qci"
 $sequence "idle2" "animations/ld/idle2" fps 10 loop ACT_IDLE 1 
 $sequence "combatidle" "animations/ld/combatidle" fps 30 loop ACT_IDLE_ANGRY 1 
-$sequence "frontkick" "../shared/animations/hgrunt/ld/frontkick" fps 35 ACT_MELEE_ATTACK1 1 { event 3 14 } { event 2010 14 } 
+$include "../shared/includes/animations/hgrunt/ld/frontkick.qci"
 $sequence "crouching_idle" "animations/ld/crouching_idle" fps 30 loop 
 $sequence "crouching_wait" "animations/ld/crouching_wait" fps 30 ACT_CROUCH 0 
 $sequence "crouching_mp5" "../shared/animations/hgrunt/ld/crouching_mp5_blend1" "../shared/animations/hgrunt/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {

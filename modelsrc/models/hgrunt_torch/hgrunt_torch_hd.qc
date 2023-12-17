@@ -42,18 +42,13 @@ $include "../shared/includes/hitboxes/hgrunt_opfor/ld/hitboxes_2.qci"
 // 52 animation sequence(s)
 $sequence "walk1" "animations/ld/walk1" LX fps 30 loop ACT_WALK 1 
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_1.qci"
-$sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
-$sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
-$sequence "leftlegsmflinch" "../shared/animations/hgrunt/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LEFTLEG 1 
-$sequence "rightlegsmflinch" "../shared/animations/hgrunt/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
-$sequence "rightarmflinch" "../shared/animations/hgrunt/ld/rightarmflinch" fps 22 ACT_FLINCH_RIGHTARM 1 
-$sequence "leftarmflinch" "../shared/animations/hgrunt/ld/leftarmflinch" fps 22 ACT_FLINCH_LEFTARM 1 
-$sequence "throwgrenade" "../shared/animations/hgrunt/ld/throwgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 7 36 } 
+$include "../shared/includes/animations/hgrunt/ld/ai_sequences_2.qci"
+$include "../shared/includes/animations/hgrunt/ld/throwgrenade.qci"
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_2.qci"
 $sequence "idle2" "../shared/animations/hgrunt_medic/ld/idle2" fps 20 loop ACT_IDLE 2 
 $sequence "idle3" "animations/ld/idle3" fps 10 loop ACT_IDLE 1 
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_3.qci"
-$sequence "frontkick" "../shared/animations/hgrunt/ld/frontkick" fps 35 ACT_MELEE_ATTACK1 1 { event 3 14 } { event 2010 14 } 
+$include "../shared/includes/animations/hgrunt/ld/frontkick.qci"
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_4.qci"
 $sequence "drop_grenade" "../shared/animations/hgrunt/ld/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 22 } 
 $sequence "limpingwalk" "../shared/animations/hgrunt/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT 1 

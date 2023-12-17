@@ -1,0 +1,6 @@
+$sequence "cower" "../shared/animations/hgrunt/ld/cower" fps 28 ACT_COWER 1 
+$sequence "smflinch" "../shared/animations/hgrunt/ld/smflinch" fps 20 ACT_SMALL_FLINCH 5 
+$sequence "leftlegsmflinch" "../shared/animations/hgrunt/ld/leftlegsmflinch" fps 22 ACT_FLINCH_LEFTLEG 1 
+$sequence "rightlegsmflinch" "../shared/animations/hgrunt/ld/rightlegsmflinch" fps 22 ACT_FLINCH_RIGHTLEG 1 
+$sequence "rightarmflinch" "../shared/animations/hgrunt/ld/rightarmflinch" fps 22 ACT_FLINCH_RIGHTARM 1 
+$sequence "leftarmflinch" "../shared/animations/hgrunt/ld/leftarmflinch" fps 22 ACT_FLINCH_LEFTARM 1 
