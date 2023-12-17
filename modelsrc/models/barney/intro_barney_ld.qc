@@ -34,8 +34,7 @@ studio "meshes/BARNEY-X_Template_Biped(Gun)1"
 }
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 15.000000 3.500000 5.000000
+$include "../shared/includes/attachments/barney/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
 $include "../shared/includes/bonecontrollers/barney/ld/mouth.qci"
