@@ -51,8 +51,7 @@ $attachment 0 "Bip01 R Hand" 35.000000 2.500000 8.500000
 $attachment 1 "Bip01 R Hand" 0.000000 0.000000 0.000000
 $attachment 2 "Bip01 Head" 0.000000 0.000000 0.000000
 
-// 1 bone controller(s)
-$controller 0 "Bip01 Head" XR -70.000000 70.000000
+$include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"
 
 // 18 hit box(es)
 $hbox 3 "Bip01 Pelvis" -3.640000 -5.800000 -8.500000 4.380000 6.300000 9.000000
