@@ -27,12 +27,7 @@ $include "../shared/includes/bodygroups/hgrunt_opfor/hd/body.qci"
 $include "includes/bodygroups/ld/heads.qci"
 $include "includes/bodygroups/hd/torso.qci"
 $include "includes/bodygroups/ld/weapons.qci"
-
-$bodygroup "torch"
-{
-blank
-studio "meshes/ld/engineer_torch_reference"
-}
+$include "includes/bodygroups/ld/torch.qci"
 
 // 4 attachment(s)
 $attachment 0 "Bip01 R Hand" 13.000000 0.000000 5.000000
