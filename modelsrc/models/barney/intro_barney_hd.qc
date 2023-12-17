@@ -24,14 +24,8 @@ $eyeposition 0.000000 0.000000 63.000000
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/BARNEY-X_Template_Biped1"
-
-$bodygroup "gun"
-{
-blank
-studio "meshes/hd/BARNEY-X_Template_Biped(Gun-Hlstr)1"
-studio "meshes/hd/BARNEY-X_Template_Biped(Gun)1"
-}
+$include "includes/bodygroups/hd/body.qci"
+$include "includes/bodygroups/hd/gun.qci"
 
 
 $include "../shared/includes/attachments/barney/ld/attachments.qci"
