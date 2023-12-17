@@ -1,0 +1,2 @@
+$sequence "working" "../shared/animations/hgrunt/hd/working" fps 30 loop
+$sequence "standing" "../shared/animations/hgrunt/hd/standing" fps 20 loop

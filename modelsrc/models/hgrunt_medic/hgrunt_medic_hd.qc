@@ -253,7 +253,6 @@ $include "../shared/includes/animations/intro_saw/hd/intro_sitting_cower1.qci"
 $include "../shared/includes/animations/intro_torch/ld/intro_sitting_cower2.qci"
 
 // Male assassin sequences
-$sequence "working" "../shared/animations/hgrunt/hd/working" fps 30 loop 
-$sequence "standing" "../shared/animations/hgrunt/hd/standing" fps 20 loop 
+$include "../shared/includes/animations/hgrunt/hd/male_assassin_sequences.qci"
 
 // End of QC script.
