@@ -1,0 +1,2 @@
+$sequence "otis_dumped" "../shared/animations/otis/hd/otis_dumped" fps 28 { event 1000 1 }
+$sequence "otis_dumped_idle" "../shared/animations/otis/hd/otis_dumped_idle" fps 28 loop

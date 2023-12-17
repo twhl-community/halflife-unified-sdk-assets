@@ -1,0 +1,10 @@
+$sequence "otis_fence" "../shared/animations/otis/hd/fence" AX AY AZR fps 24 {
+  { event 1000 49 }
+  { event 1003 49 "lightning" }
+  { event 1001 49 }
+  { event 1004 51 "weapons/electro4.wav" }
+  { event 1008 85 "barney/ba_pain2.wav" }
+ }
+$sequence "dead_sitting" "../shared/animations/otis/hd/dead_sitting" fps 1
+$sequence "otis_wave" "../shared/animations/otis/hd/wave" fps 24
+$sequence "cowering" "../shared/animations/otis/hd/cowering" fps 15 loop
