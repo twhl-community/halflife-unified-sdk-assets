@@ -1,0 +1,1 @@
+$sequence "walk" "../shared/animations/barney/ld/walk" LX fps 30 loop ACT_WALK 1 { event 1004 3 "common/npc_step1.wav" } { event 1004 18 "common/npc_step3.wav" }

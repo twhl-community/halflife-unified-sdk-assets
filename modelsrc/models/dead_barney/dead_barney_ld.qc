@@ -59,11 +59,11 @@ $hbox 1 "Bip01 Neck" -2.000000 -1.400000 -3.100000 2.500000 4.200000 2.500000
 
 
 // 11 animation sequence(s)
-$sequence "idle1" "../shared/animations/barney/ld/idle1" fps 15 loop ACT_IDLE 50 
-$sequence "idle3" "../shared/animations/barney/ld/idle3" fps 15 ACT_IDLE 1 
-$sequence "idle4" "../shared/animations/barney/ld/idle4" fps 12 ACT_IDLE 10 
+$include "../shared/includes/animations/barney/ld/idle1.qci"
+$include "../shared/includes/animations/barney/ld/idle3.qci"
+$include "../shared/includes/animations/barney/ld/idle4.qci"
 $sequence "wait" "animations/ld/wait" fps 17 
-$sequence "walk" "../barney/animations/walk" LX fps 30 loop ACT_WALK 1 { event 1004 3 "common/npc_step1.wav" } { event 1004 18 "common/npc_step3.wav" } 
+$include "../shared/includes/animations/barney/ld/walk.qci"
 $sequence "jog" "animations/ld/jog" LX fps 23 loop ACT_RUN 1 { event 1004 5 "common/npc_step2.wav" } { event 1004 13 "common/npc_step4.wav" } 
 $sequence "tram" "animations/ld/tram" fps 29 loop { event 1004 122 "common/npc_step1.wav" } { event 1004 137 "common/npc_step3.wav" } 
 $sequence "lying_on_back" "animations/ld/lying_on_back" fps 1 { event 1000 0 } 

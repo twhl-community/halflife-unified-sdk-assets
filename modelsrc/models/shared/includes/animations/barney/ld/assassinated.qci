@@ -1,0 +1,5 @@
+$sequence "assassinated" "../shared/animations/barney/ld/assassinated" X fps 18 {
+  { event 1000 1 }
+  { event 1003 1 "blood1" }
+  { event 1003 2 "blood2" }
+ }
