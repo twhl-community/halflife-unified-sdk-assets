@@ -15,13 +15,8 @@ Original internal name:
 $modelname "dead_barney_ld.mdl"
 $cd "./"
 $cdtexture "../../textures/dead_barney"
-$cdtexture "../../textures/barney"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 63.000000
+$include "../shared/includes/common/barney/ld/texturepath.qci"
+$include "../shared/includes/common/barney/ld/common.qci"
 
 
 //reference mesh(es)
