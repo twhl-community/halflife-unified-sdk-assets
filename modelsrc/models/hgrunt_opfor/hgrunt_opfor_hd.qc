@@ -20,12 +20,7 @@ $cdtexture "../../textures/hgrunt_opfor/ld"
 $cdtexture "../../textures/hgrunt_medic/hd"
 $cdtexture "../../textures/w_9mmar"
 $cdtexture "../../textures/w_shotgun"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 73.000000
+$include "../shared/includes/common/hgrunt/ld/common.qci"
 
 
 //reference mesh(es)
