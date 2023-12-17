@@ -30,9 +30,8 @@ $body "studio" "meshes/hd/dead_barney_ref"
 // 1 attachment(s)
 $attachment 0 "Bip01 R Hand" 15.000000 3.500000 5.000000
 
-// 2 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
-$controller 4 "Bone05" ZR 0.000000 25.000000
+$include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
+$include "../shared/includes/bonecontrollers/barney/hd/mouth.qci"
 
 $include "../shared/includes/hitboxes/barney/hd/hitboxes.qci"
 $hbox 1 "Bip01 Head" -0.500000 -3.450000 -3.200000 9.300000 6.300000 3.100000
