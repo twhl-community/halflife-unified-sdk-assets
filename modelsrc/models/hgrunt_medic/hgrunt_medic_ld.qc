@@ -59,12 +59,9 @@ $sequence "idle2" "../shared/animations/hgrunt_medic/ld/idle2" fps 20 loop ACT_I
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_3.qci"
 $include "../shared/includes/animations/hgrunt/ld/frontkick.qci"
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_4.qci"
-$sequence "drop_grenade" "../shared/animations/hgrunt/ld/drop_grenade" fps 40 ACT_SPECIAL_ATTACK1 1 { event 9 22 } 
-$sequence "limpingwalk" "../shared/animations/hgrunt/ld/limpingwalk" LX fps 30 loop ACT_WALK_HURT 1 
-$sequence "limpingrun" "../shared/animations/hgrunt/ld/limpingrun" LX fps 30 loop ACT_RUN_HURT 1 
+$include "../shared/includes/animations/hgrunt/ld/ai_sequences_4.qci"
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_5.qci"
-$sequence "strafeleft" "../shared/animations/hgrunt/ld/strafeleft" LX LY fps 30 loop ACT_STRAFE_LEFT 1 
-$sequence "straferight" "../shared/animations/hgrunt/ld/straferight" LX LY fps 30 loop ACT_STRAFE_RIGHT 1 
+$include "../shared/includes/animations/hgrunt/ld/ai_sequences_6.qci"
 $sequence "dieback1" "../shared/animations/hgrunt_opfor/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
   { event 11 5 } 
   { event 2001 17 } 
