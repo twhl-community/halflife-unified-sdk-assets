@@ -1,0 +1,1 @@
+$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/hd/cower" fps 30 { event 1000 1 } { event 1001 1 }

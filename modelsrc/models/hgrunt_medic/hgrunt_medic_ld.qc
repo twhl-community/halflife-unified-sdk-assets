@@ -230,9 +230,7 @@ $sequence "heal_crouch" "animations/ld/heal_crouch" fps 15 {
 $sequence "intro_stand_idle1" "../shared/animations/intro_commander/ld/intro_stand_idle1" fps 15 loop
 $sequence "intro_stand_idle2" "../shared/animations/intro_commander/ld/intro_stand_idle2" fps 17 loop
 $sequence "intro_stand_idle3" "../shared/animations/intro_commander/ld/intro_stand_idle3" fps 17 loop
-$sequence "intro_stand_fallout" "../shared/animations/intro_commander/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 } 
-$sequence "intro_stand_react" "../shared/animations/intro_commander/ld/stand_react" fps 30 
-$sequence "intro_stand_bark" "../shared/animations/intro_commander/ld/bark" fps 30 
+$include "../shared/includes/animations/intro_commander/ld/intro_stand_sequences.qci"
 
 // intro_medic sequences
 $sequence "intro_sitting_holster1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop 
@@ -244,10 +242,10 @@ $sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6
 $sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop 
 
 // intro_saw sequences
-$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+$include "../shared/includes/animations/intro_saw/ld/intro_sitting_cower1.qci"
 
 // intro_torch sequences
-$sequence "intro_sitting_cower2" "../shared/animations/intro_torch/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+$include "../shared/includes/animations/intro_torch/ld/intro_sitting_cower2.qci"
 
 // Male assassin sequences
 $sequence "working" "../shared/animations/hgrunt/ld/working" fps 30 loop 

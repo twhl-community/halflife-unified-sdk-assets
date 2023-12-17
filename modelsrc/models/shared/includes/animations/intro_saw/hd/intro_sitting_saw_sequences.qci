@@ -1,3 +1,3 @@
 $sequence "intro_sitting_stiff" "../shared/animations/intro_saw/hd/stiff" fps 30
 $sequence "intro_sitting_react" "../shared/animations/intro_saw/hd/sit_React" fps 30
-$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/hd/cower" fps 30 { event 1000 1 } { event 1001 1 }
+$include "../shared/includes/animations/intro_saw/hd/intro_sitting_cower1.qci"
