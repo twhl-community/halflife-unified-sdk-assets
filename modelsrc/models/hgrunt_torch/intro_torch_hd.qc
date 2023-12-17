@@ -29,9 +29,7 @@ $include "includes/bodygroups/hd/torso.qci"
 $include "includes/bodygroups/ld/gunholster.qci"
 
 
-// 2 attachment(s)
-$attachment 0 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 1 "Bip01 Head" 0.000000 0.000000 0.000000
+$include "../shared/includes/attachments/intro_regular/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/hgrunt_opfor/ld/mouth.qci"
 $include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"

@@ -46,10 +46,8 @@ $texturegroup skinfamilies
 { "newarm(dark).bmp"  "handback(dark).bmp"  "helmet(dark).bmp" }
 }
 
-// 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 25.000000 0.000000 5.000000
-$attachment 1 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 2 "Bip01 Head" 0.000000 0.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"
 

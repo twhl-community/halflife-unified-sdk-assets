@@ -46,10 +46,8 @@ $texturegroup skinfamilies
 { "dc_soldier_skin_blk.bmp" }
 }
 
-// 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 35.000000 2.500000 8.500000
-$attachment 1 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 2 "Bip01 Head" 0.000000 0.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"
 

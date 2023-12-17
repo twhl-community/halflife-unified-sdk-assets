@@ -40,10 +40,7 @@ $include "includes/bodygroups/ld/needle.qci"
 
 $include "includes/texturegroups/ld/texturegroups.qci"
 
-// 3 attachment(s)
-$attachment 0 "Bip01 R Hand" 13.000000 0.000000 5.000000
-$attachment 1 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 2 "Bip01 Head" 0.000000 0.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/hgrunt_opfor/ld/mouth.qci"
 $include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"

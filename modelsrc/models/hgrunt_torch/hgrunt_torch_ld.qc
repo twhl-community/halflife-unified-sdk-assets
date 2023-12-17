@@ -28,11 +28,7 @@ $include "includes/bodygroups/ld/torso.qci"
 $include "includes/bodygroups/ld/weapons.qci"
 $include "includes/bodygroups/ld/torch.qci"
 
-// 4 attachment(s)
-$attachment 0 "Bip01 R Hand" 13.000000 0.000000 5.000000
-$attachment 1 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 2 "Bip01 R Hand" 6.000000 0.000000 13.500000
-$attachment 3 "Bip01 R Hand" 10.000000 0.000000 16.500000
+$include "includes/attachments/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/hgrunt_opfor/ld/mouth.qci"
 $include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"
