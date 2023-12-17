@@ -103,21 +103,6 @@ $sequence "vent_c1a3" "animations/vent_c1a3" AX AY AZR fps 18 { event 1000 1 }
 $sequence "haulzombie" "animations/haulzombie" AX AY AZR fps 18 
 $sequence "c2a3_snack_getup" "animations/c2a3_snack_getup" AX AY AZR fps 12 
 
-// Opposing Force sequences
-$sequence "dead_on_back" "../shared/animations/zombies/dead_on_back" fps 30 
-$sequence "dead_on_stomach" "../shared/animations/zombies/dead_on_stomach" fps 30 
-$sequence "throw_scientist" "../shared/animations/zombies/throw_scientist" fps 25 {
-  { event 1004 33 "zombie/claw_strike3.wav" } 
-  { event 1004 36 "zombie/claw_strike3.wav" } 
-  { event 1004 60 "zombie/zo_attack1.wav" } 
- }
-$sequence "get_off_table" "../shared/animations/zombies/get_off_table" fps 25 
-$sequence "table_breathe" "../shared/animations/zombies/table_breathe" fps 30 loop 
-
-// Blue Shift sequences
-$sequence "left_tug" "../shared/animations/zombies/left_tug" fps 18 
-$sequence "left_tug_idle" "../shared/animations/zombies/left_tug_idle" fps 18 
-$sequence "right_tug" "../shared/animations/zombies/right_tug" fps 18 
-$sequence "right_tug_idle" "../shared/animations/zombies/right_tug_idle" fps 18 
+$include "../shared/includes/animations/zombies/ld/animations.qci"
 
 // End of QC script.
