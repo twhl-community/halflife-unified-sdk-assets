@@ -25,13 +25,8 @@ $eyeposition 0.000000 0.000000 73.000000
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/Massn_reference"
-
-$bodygroup "heads"
-{
-blank
-studio "meshes/ld/Massn_NVHead_reference"
-}
+$include "includes/bodygroups/ld/body.qci"
+$include "includes/bodygroups/ld/heads.qci"
 
 $bodygroup "weapons"
 {
