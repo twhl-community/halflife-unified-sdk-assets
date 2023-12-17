@@ -40,12 +40,7 @@ studio "meshes/hd/DC_soldier_M4_reference"
 studio "meshes/ld/Massn_M40A1_reference"
 }
 
-// 2 skin families
-$texturegroup skinfamilies 
-{
-{ "Massn_head_wht.BMP" }
-{ "Massn_head.BMP" }
-}
+$include "includes/texturegroups/ld/texturegroups.qci"
 
 // 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 32.799999 -0.900000 11.800000

@@ -40,12 +40,7 @@ studio "meshes/ld/Massn_MP5_reference"
 studio "meshes/ld/Massn_M40A1_reference"
 }
 
-// 2 skin families
-$texturegroup skinfamilies 
-{
-{ "Massn_head_wht.BMP" }
-{ "Massn_head.BMP" }
-}
+$include "includes/texturegroups/ld/texturegroups.qci"
 
 // 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 21.500000 -0.700000 10.800000
