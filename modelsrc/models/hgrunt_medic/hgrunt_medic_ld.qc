@@ -50,12 +50,7 @@ blank
 studio "meshes/ld/hypodermic_reference"
 }
 
-// 2 skin families
-$texturegroup skinfamilies 
-{
-{ "medic_head.BMP" }
-{ "medic_head_blk.bmp" }
-}
+$include "includes/texturegroups/ld/texturegroups.qci"
 
 // 3 attachment(s)
 $attachment 0 "Bip01 R Hand" 13.000000 0.000000 5.000000
