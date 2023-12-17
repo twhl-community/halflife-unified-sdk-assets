@@ -52,42 +52,7 @@ $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_4.qci"
 $include "../shared/includes/animations/hgrunt/ld/ai_sequences_4.qci"
 $include "../shared/includes/animations/hgrunt_medic/ld/ai_sequences_5.qci"
 $include "../shared/includes/animations/hgrunt/ld/ai_sequences_6.qci"
-$sequence "dieback1" "../shared/animations/hgrunt_opfor/ld/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
-  { event 11 5 } 
-  { event 2001 17 } 
-  { event 1000 26 } 
-  { event 1001 26 } 
- }
-$sequence "dieforward" "../shared/animations/hgrunt_opfor/ld/dieforward" X fps 26 ACT_DIEFORWARD 1 {
-  { event 11 3 } 
-  { event 2001 10 } 
-  { event 1000 40 } 
-  { event 1001 40 } 
- }
-$sequence "diesimple" "../shared/animations/hgrunt_opfor/ld/diesimple" X fps 15 ACT_DIESIMPLE 1 {
-  { event 11 3 } 
-  { event 2001 10 } 
-  { event 1000 14 } 
-  { event 1001 14 } 
- }
-$sequence "diebackwards" "../shared/animations/hgrunt_opfor/ld/diebackwards" X fps 30 ACT_DIEBACKWARD 1 {
-  { event 11 6 } 
-  { event 2001 12 } 
-  { event 1000 53 } 
-  { event 1001 53 } 
- }
-$sequence "dieheadshot" "../shared/animations/hgrunt_opfor/ld/dieheadshot" X fps 30 ACT_DIE_HEADSHOT 1 {
-  { event 11 1 } 
-  { event 2001 20 } 
-  { event 1000 32 } 
-  { event 1001 32 } 
- }
-$sequence "diegutshot" "../shared/animations/hgrunt_opfor/ld/diegutshot" X fps 30 ACT_DIE_GUTSHOT 1 {
-  { event 11 0 } 
-  { event 2001 29 } 
-  { event 1000 68 } 
-  { event 1001 68 } 
- }
+$include "../shared/includes/animations/hgrunt_opfor/ld/death_sequences.qci"
 $sequence "barnacled1" "../shared/animations/hgrunt/ld/barnacled1" fps 18 ACT_BARNACLE_HIT 1 
 $sequence "barnacled2" "../shared/animations/hgrunt/ld/barnacled2" fps 30 loop ACT_BARNACLE_PULL 1 
 $sequence "barnacled3" "../shared/animations/hgrunt/ld/barnacled3" fps 18 ACT_BARNACLE_CHOMP 1 
