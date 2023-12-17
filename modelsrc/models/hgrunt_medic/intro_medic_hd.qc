@@ -40,13 +40,6 @@ $include "../shared/includes/hitboxes/intro_regular/ld/spine2.qci"
 $include "includes/hitboxes/ld/head_intro.qci"
 $include "../shared/includes/hitboxes/intro_regular/ld/hitboxes_2.qci"
 
-// 7 animation sequence(s)
-$sequence "intro_sitting_holster1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop ACT_IDLE 1 
-$sequence "intro_sitting_holster2" "../shared/animations/intro_medic/ld/sitting2" fps 16 loop ACT_IDLE 1 
-$sequence "intro_sitting_holster3" "../shared/animations/intro_medic/ld/sitting3" fps 15 loop ACT_IDLE 1 
-$sequence "intro_sitting_holster4" "../shared/animations/intro_medic/ld/sitting4" fps 18 loop ACT_IDLE 1 
-$sequence "intro_sitting_holster5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop ACT_IDLE 1 
-$sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop ACT_IDLE 1 
-$sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop ACT_IDLE 1 
+$include "../shared/includes/animations/intro_medic/ld/intro_sitting_holster_sequences.qci"
 
 // End of QC script.

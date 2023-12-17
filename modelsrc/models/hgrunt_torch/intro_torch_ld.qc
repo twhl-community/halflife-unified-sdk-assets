@@ -46,6 +46,6 @@ $sequence "intro_sitting_holster3" "../shared/animations/intro_medic/ld/sitting3
 $sequence "intro_sitting_holster5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop ACT_IDLE 1 
 $sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop ACT_IDLE 1 
 $sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop ACT_IDLE 1 
-$sequence "intro_sitting_cower2" "../shared/animations/intro_torch/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+$include "../shared/includes/animations/intro_torch/ld/intro_sitting_cower2.qci"
 
 // End of QC script.
