@@ -221,15 +221,7 @@ $sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps
 $sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop 
 
 // Friendly grunt medic sequences
-$sequence "pull_needle" "animations/ld/pull_needle" fps 30 ACT_ARM 1 { event 15 20 } { event 16 50 } 
-$sequence "store_needle" "animations/ld/store_needle" fps 30 ACT_DISARM 1 { event 17 15 } { event 18 36 } 
-$sequence "give_shot" "animations/ld/give_shot" fps 30 loop ACT_MELEE_ATTACK2 1 
-$sequence "heal_crouch" "animations/ld/heal_crouch" fps 15 {
-  { event 15 10 } 
-  { event 16 27 } 
-  { event 17 100 } 
-  { event 18 110 } 
- }
+$include "includes/animations/ld/animations.qci"
 
 // intro_commander sequences
 $sequence "intro_stand_idle1" "../shared/animations/intro_commander/ld/intro_stand_idle1" fps 15 loop 
