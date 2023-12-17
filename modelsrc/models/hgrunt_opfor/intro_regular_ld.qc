@@ -26,8 +26,7 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 $include "../shared/includes/bodygroups/hgrunt_opfor/ld/body.qci"
 $include "includes/bodygroups/ld/head_saw_wht.qci"
 $include "includes/bodygroups/ld/torso_regular.qci"
-
-$body "weapons" "../shared/meshes/hgrunt/ld/gunreference"
+$include "../shared/includes/bodygroups/hgrunt/ld/weapon_mp5.qci"
 
 
 // 2 attachment(s)

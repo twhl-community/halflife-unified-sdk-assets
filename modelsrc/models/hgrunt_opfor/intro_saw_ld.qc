@@ -28,7 +28,7 @@ $include "includes/bodygroups/ld/head_saw_blk.qci"
 
 $body "torso" "meshes/ld/grunt_saw_gunner_torso_reference"
 
-$body "weapons" "../shared/meshes/hgrunt/ld/gunreference"
+$include "../shared/includes/bodygroups/hgrunt/ld/weapon_mp5.qci"
 
 
 // 2 attachment(s)
