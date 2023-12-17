@@ -27,8 +27,7 @@ $eyeposition 0.000000 0.000000 63.000000
 $body "studio" "meshes/hd/dead_barney_ref"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 15.000000 3.500000 5.000000
+$include "../shared/includes/attachments/barney/ld/attachments.qci"
 
 $include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
 $include "../shared/includes/bonecontrollers/barney/hd/mouth.qci"
