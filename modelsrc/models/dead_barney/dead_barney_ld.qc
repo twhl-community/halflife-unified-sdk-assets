@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "dead_barney_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/dead_barney"
+$include "includes/common/ld/common.qci"
 $include "../shared/includes/common/barney/ld/texturepath.qci"
 $include "../shared/includes/common/barney/ld/common.qci"
 
