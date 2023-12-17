@@ -25,10 +25,8 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 //reference mesh(es)
 $include "../shared/includes/bodygroups/hgrunt_opfor/ld/body.qci"
-
-$body "heads" "meshes/ld/grunt_medic_head_reference"
-
-$body "torso" "meshes/ld/grunt_medic_torso_reference"
+$include "includes/bodygroups/ld/heads.qci"
+$include "includes/bodygroups/ld/torso.qci"
 
 $bodygroup "deagle"
 {
