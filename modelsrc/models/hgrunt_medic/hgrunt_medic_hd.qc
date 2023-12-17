@@ -186,17 +186,7 @@ $sequence "pipetoss" "../shared/animations/hgrunt/ld/pipetoss" fps 30
 $sequence "plunger" "../shared/animations/hgrunt/ld/plunger" fps 22 
 
 // Blue Shift sequences
-$sequence "soldier_dump" "../shared/animations/hgrunt/ld/soldier_dump" fps 28 
-$sequence "soldier_dump_idle" "../shared/animations/hgrunt/ld/soldier_dump_idle" fps 28 loop 
-$sequence "soldier_shoot_ahead" "../shared/animations/hgrunt/ld/soldier_shoot_ahead" fps 32 loop {
-  { event 4 1 } 
-  { event 5 6 } 
-  { event 6 12 } 
-  { event 5001 1 "50" } 
-  { event 5001 6 "50" } 
-  { event 5001 12 "50" } 
- }
-$sequence "soldier_kick" "../shared/animations/hgrunt/ld/soldier_kick" fps 35 { event 1003 13 "00xy_frontkick" } 
+$include "../shared/includes/animations/hgrunt/ld/bshift_sequences.qci"
 
 // Friendly grunts sequences
 $include "../shared/includes/animations/hgrunt_opfor/ld/fgrunt_sequences_1.qci"
