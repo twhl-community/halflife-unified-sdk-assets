@@ -1,0 +1,33 @@
+$sequence "crouching_saw" "animations/ld/crouching_saw_blend1" "animations/ld/crouching_saw_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
+  { event 4 3 }
+  { event 5001 3 "50" }
+  { event 5 6 }
+  { event 5001 6 "50" }
+  { event 5 9 }
+  { event 5001 9 "50" }
+  { event 5 12 }
+  { event 5001 12 "50" }
+  { event 5 13 }
+  { event 5001 13 "50" }
+  { event 5 16 }
+  { event 5001 16 "50" }
+  { event 6 19 }
+  { event 5001 19 "50" }
+ }
+$sequence "standing_saw" "animations/ld/standing_saw_blend1" "animations/ld/standing_saw_blend2" blend XR -45 45 fps 20 loop {
+  { event 4 3 }
+  { event 5001 3 "50" }
+  { event 5 6 }
+  { event 5001 6 "50" }
+  { event 5 9 }
+  { event 5001 9 "50" }
+  { event 5 12 }
+  { event 5001 12 "50" }
+  { event 5 13 }
+  { event 5001 13 "50" }
+  { event 5 16 }
+  { event 5001 16 "50" }
+  { event 6 19 }
+  { event 5001 19 "50" }
+ }
+$sequence "reload_saw" "animations/ld/reload_saw" fps 40 ACT_RELOAD 1 { event 2 47 }
