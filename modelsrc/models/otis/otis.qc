@@ -57,9 +57,8 @@ $texturegroup skinfamilies
 // 1 attachment(s)
 $attachment 0 "Bip01 R Hand" 15.000000 3.500000 1.000000
 
-// 2 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
-$controller 4 "Bone05" ZR 0.000000 45.000000
+$include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
+$include "../shared/includes/bonecontrollers/barney/ld/mouth.qci"
 
 // 21 hit box(es)
 $hbox 3 "Bip01 Pelvis" -7.890000 -5.660000 -8.600000 2.940000 6.520000 8.600000
