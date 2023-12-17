@@ -1,0 +1,1 @@
+$sequence "combatidle" "../shared/animations/hgrunt_medic/ld/combatidle" fps 30 loop ACT_IDLE_ANGRY 1

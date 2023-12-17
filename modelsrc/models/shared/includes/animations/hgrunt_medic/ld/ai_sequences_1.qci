@@ -1,0 +1,2 @@
+$sequence "run" "../shared/animations/hgrunt_medic/ld/run" LX fps 30 loop ACT_RUN 1
+$sequence "victorydance" "../shared/animations/hgrunt_medic/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1
