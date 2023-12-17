@@ -39,11 +39,6 @@ $include "../shared/includes/hitboxes/intro_regular/ld/spine2.qci"
 $include "includes/hitboxes/ld/head_intro_regular.qci"
 $include "../shared/includes/hitboxes/intro_regular/ld/hitboxes_2.qci"
 
-// 5 animation sequence(s)
-$sequence "intro_sitting_mp5_1" "../shared/animations/intro_regular/ld/sitting1" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_2" "../shared/animations/intro_regular/ld/sitting2" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_3" "../shared/animations/intro_regular/ld/sitting3" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_4" "../shared/animations/intro_regular/ld/sitting4" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_5" "../shared/animations/intro_regular/ld/sitting5" fps 10 loop ACT_IDLE 1 
+$include "../shared/includes/animations/intro_regular/ld/intro_sitting_mp5_sequences.qci"
 
 // End of QC script.

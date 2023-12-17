@@ -41,14 +41,7 @@ $include "../shared/includes/hitboxes/intro_regular/ld/spine2.qci"
 $include "includes/hitboxes/ld/head_intro_regular.qci"
 $include "../shared/includes/hitboxes/intro_regular/ld/hitboxes_2.qci"
 
-// 8 animation sequence(s)
-$sequence "intro_sitting_mp5_1" "../shared/animations/intro_regular/hd/sitting1" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_2" "../shared/animations/intro_regular/hd/sitting2" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_3" "../shared/animations/intro_regular/hd/sitting3" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_4" "../shared/animations/intro_regular/hd/sitting4" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_mp5_5" "../shared/animations/intro_regular/hd/sitting5" fps 10 loop ACT_IDLE 1 
-$sequence "intro_sitting_stiff" "../shared/animations/intro_saw/hd/stiff" fps 30 
-$sequence "intro_sitting_react" "../shared/animations/intro_saw/hd/sit_React" fps 30 
-$sequence "intro_sitting_cower1" "../shared/animations/intro_saw/hd/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+$include "../shared/includes/animations/intro_regular/hd/intro_sitting_mp5_sequences.qci"
+$include "../shared/includes/animations/intro_saw/hd/intro_sitting_saw_sequences.qci"
 
 // End of QC script.
