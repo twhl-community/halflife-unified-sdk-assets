@@ -25,8 +25,7 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 $include "../shared/includes/bodygroups/hgrunt_opfor/ld/body.qci"
 $include "includes/bodygroups/ld/heads.qci"
 $include "includes/bodygroups/ld/torso.qci"
-
-$body "weapons" "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
+$include "includes/bodygroups/ld/gunholster.qci"
 
 
 // 2 attachment(s)

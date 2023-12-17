@@ -25,13 +25,7 @@ $include "../shared/includes/common/hgrunt/ld/common.qci"
 $include "../shared/includes/bodygroups/hgrunt_opfor/ld/body.qci"
 $include "includes/bodygroups/ld/heads.qci"
 $include "includes/bodygroups/ld/torso.qci"
-
-$bodygroup "weapons"
-{
-blank
-studio "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
-studio "../shared/meshes/hgrunt_opfor/ld/Desert_Eagle_reference"
-}
+$include "includes/bodygroups/ld/weapons.qci"
 
 $bodygroup "torch"
 {
