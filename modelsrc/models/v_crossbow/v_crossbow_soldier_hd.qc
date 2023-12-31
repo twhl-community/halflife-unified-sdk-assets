@@ -17,7 +17,7 @@ $cd "./"
 $cdtexture "meshes/hd"
 $cdtexture "../../textures/viewmodel/hands/soldier"
 $cdtexture "../../textures/viewmodel/v_crossbow/hd"
-$cdtexture "../../textures/w_crossbow"
+$include "../shared/includes/common/w_crossbow/ld/texturepath.qci"
 $scale 1.0
 
 

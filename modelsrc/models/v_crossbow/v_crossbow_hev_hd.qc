@@ -16,7 +16,7 @@ $modelname "v_crossbow_hev_hd.mdl"
 $cd "./"
 $cdtexture "../../textures/viewmodel/hands/hev"
 $cdtexture "../../textures/viewmodel/v_crossbow/hd"
-$cdtexture "../../textures/w_crossbow"
+$include "../shared/includes/common/w_crossbow/ld/texturepath.qci"
 $scale 1.0
 
 
