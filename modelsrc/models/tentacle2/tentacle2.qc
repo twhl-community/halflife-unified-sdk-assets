@@ -18,7 +18,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/TENT2_Template_Biped1"
+$include "includes/bodygroups/ld/body.qci"
 
 
 // 1 attachment(s)
