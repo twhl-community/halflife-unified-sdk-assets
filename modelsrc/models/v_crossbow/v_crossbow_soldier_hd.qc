@@ -16,14 +16,9 @@ $modelname "v_crossbow_soldier_hd.mdl"
 $cd "./"
 $cdtexture "meshes/hd"
 $include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_crossbow/hd"
+$include "../shared/includes/common/viewmodel/v_crossbow/hd/texturepath.qci"
 $include "../shared/includes/common/w_crossbow/ld/texturepath.qci"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
