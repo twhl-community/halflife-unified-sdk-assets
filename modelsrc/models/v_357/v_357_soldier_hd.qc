@@ -16,13 +16,8 @@ $modelname "v_357_soldier_hd.mdl"
 $cd "./"
 $cdtexture "meshes/hd"
 $include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_357/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/v_357/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
