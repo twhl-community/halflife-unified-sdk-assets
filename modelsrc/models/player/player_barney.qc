@@ -25,12 +25,8 @@ $body "body" "player_template_biped_barney"
 
 $include "includes/attachments/ld/attachments.qci"
 
-// 5 bone controller(s)
-$controller 4 "Bone02" ZR 0.000000 30.000000
-$controller 0 "Bip01 Spine" XR -30.000000 30.000000
-$controller 1 "Bip01 Spine1" XR -30.000000 30.000000
-$controller 2 "Bip01 Spine2" XR -30.000000 30.000000
-$controller 3 "Bip01 Spine3" XR -30.000000 30.000000
+$include "includes/bonecontrollers/ld/mouth.qci"
+$include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
 // 20 hit box(es)
 $hbox 3 "Bip01 Pelvis" -4.690000 -4.440000 -6.750000 4.000000 5.560000 6.750000
