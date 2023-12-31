@@ -19,13 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "player_template_biped(No_Head)1"
-
-$bodygroup "head"
-{
-studio "player_template_biped(Gordon_Head)1"
-studio "player_template_biped(Helmet)1"
-}
+$include "includes/bodygroups/ld/gordon/bodygroups.qci"
 
 
 // 1 bone controller(s)
