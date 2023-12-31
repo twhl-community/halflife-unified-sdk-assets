@@ -14,13 +14,7 @@ Original internal name:
 
 $modelname "agibs_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/agibs"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
