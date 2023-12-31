@@ -52,10 +52,6 @@ $hbox 0 "Bip01 R Arm2" 0.000000 -1.980000 -2.350000 10.590000 2.720000 2.240000
 $hbox 0 "Bip01 R Hand" 0.000000 -0.820000 -1.400000 3.240000 0.710000 2.360000
 $hbox 0 "Bip01 R Finger1" 0.000000 -0.330000 -1.600000 1.438886 0.750000 1.530000
 
-// 4 animation sequence(s)
-$sequence "deadback" "deadback" fps 10 
-$sequence "deadsitting" "deadsitting" fps 10 
-$sequence "deadstomach" "deadstomach" fps 10 
-$sequence "deadtable" "deadtable" fps 10 
+$include "includes/animations/ld/dead_sequences.qci"
 
 // End of QC script.
