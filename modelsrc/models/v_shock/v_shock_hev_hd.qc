@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_shock_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_shock"
 $scale 1.0
 

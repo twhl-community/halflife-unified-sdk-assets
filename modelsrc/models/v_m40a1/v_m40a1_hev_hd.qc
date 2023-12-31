@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_m40a1_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_m40a1"
 $scale 1.0
 

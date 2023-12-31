@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_shotgun_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_shotgun"
 $scale 1.0
 

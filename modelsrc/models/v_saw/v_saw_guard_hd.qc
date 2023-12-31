@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_saw_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_saw"
 $scale 1.0
 

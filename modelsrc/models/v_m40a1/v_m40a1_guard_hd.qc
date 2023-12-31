@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_m40a1_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_m40a1"
 $scale 1.0
 

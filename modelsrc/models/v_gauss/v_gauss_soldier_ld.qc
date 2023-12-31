@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_gauss_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_gauss/ld"
 $scale 1.0
 

@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_egon_hev_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_egon"
 $scale 1.0
 

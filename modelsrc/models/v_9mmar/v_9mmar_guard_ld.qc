@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_9mmar_guard_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_9mmar/ld"
 $scale 1.0
 

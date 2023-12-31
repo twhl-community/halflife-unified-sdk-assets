@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_displacer_guard_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_displacer"
 $scale 1.0
 

@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_9mmhandgun_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_9mmhandgun/hd"
 $cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
 $scale 1.0

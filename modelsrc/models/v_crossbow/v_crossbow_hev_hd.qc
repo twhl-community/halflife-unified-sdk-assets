@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_crossbow_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_crossbow/hd"
 $include "../shared/includes/common/w_crossbow/ld/texturepath.qci"
 $scale 1.0

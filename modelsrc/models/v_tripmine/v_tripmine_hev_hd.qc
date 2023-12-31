@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_tripmine_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
 $include "../shared/includes/common/w_tripmine/ld/texturepath.qci"
 $scale 1.0
 

@@ -15,7 +15,7 @@ Original internal name:
 $modelname "v_saw_soldier_hd.mdl"
 $cd "./"
 $cdtexture "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_saw"
 $scale 1.0
 

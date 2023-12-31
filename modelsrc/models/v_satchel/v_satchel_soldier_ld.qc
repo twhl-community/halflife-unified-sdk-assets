@@ -14,9 +14,9 @@ Original internal name:
 
 $modelname "v_satchel_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_satchel/ld"
-$cdtexture "../../textures/viewmodel/hands/hev"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
 $scale 1.0
 
 

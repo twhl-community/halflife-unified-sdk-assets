@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "v_knife_soldier_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_knife"
 $scale 1.0
 
