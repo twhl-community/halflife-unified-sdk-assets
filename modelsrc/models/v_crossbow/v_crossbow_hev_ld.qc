@@ -33,18 +33,6 @@ $hbox 0 "Slide" -1.640000 -3.389289 -3.600000 4.050000 1.690000 0.440000
 $hbox 0 "Xbow biped L Arm2" 0.000000 -1.790000 -1.210000 11.680000 3.020000 4.000000
 $hbox 0 "Xbow biped L Hand" 0.000000 -0.870000 -1.940000 3.890000 1.030000 1.790000
 
-// 12 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "idle2" "animations/ld/idle2" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "fidget2" "animations/ld/fidget2" fps 30 
-$sequence "fire1" "animations/ld/fire1" fps 60 
-$sequence "fire2" "animations/ld/fire2" fps 30 
-$sequence "fire3" "animations/ld/fire3" fps 30 
-$sequence "reload" "animations/ld/reload" fps 30 
-$sequence "draw1" "animations/ld/draw1" fps 30 
-$sequence "draw2" "animations/ld/draw2" fps 30 
-$sequence "holster1" "animations/ld/holster1" fps 30 
-$sequence "holster2" "animations/ld/holster2" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
