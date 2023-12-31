@@ -18,7 +18,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hologram"
+$include "includes/bodygroups/ld/body.qci"
 
 
 // 1 bone controller(s)
