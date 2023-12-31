@@ -37,14 +37,6 @@ $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -1.710000 3.920000 0.870000 1.820000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.940000 -1.000000 2.450000 0.390000 0.540000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 8 animation sequence(s)
-$sequence "longidle" "animations/hd/longidle" fps 8 
-$sequence "idle1" "animations/hd/idle1" fps 35 
-$sequence "grenade" "animations/hd/grenade" fps 30 
-$sequence "reload" "animations/hd/reload" fps 30 { event 5004 5 "items/cliprelease1.wav" } { event 5004 24 "items/clipinsert1.wav" } 
-$sequence "deploy" "animations/hd/deploy" fps 30 
-$sequence "shoot" "animations/hd/shoot_1" fps 10 { event 5001 0 "40" } 
-$sequence "shoot" "animations/hd/shoot_2" fps 10 { event 5001 0 "40" } 
-$sequence "shoot" "animations/hd/shoot_3" fps 10 { event 5001 0 "40" } 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.
