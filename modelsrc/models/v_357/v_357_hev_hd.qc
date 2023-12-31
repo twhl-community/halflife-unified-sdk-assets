@@ -27,8 +27,7 @@ $body "hands" "meshes/hd/v_gordon_hands_reference"
 $include "includes/bodygroups/hd/scope.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "python" 0.000000 -10.900000 1.300000
+$include "includes/attachments/hd/attachments.qci"
 
 // 10 hit box(es)
 $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -1.710000 5.941133 1.084807 3.855314

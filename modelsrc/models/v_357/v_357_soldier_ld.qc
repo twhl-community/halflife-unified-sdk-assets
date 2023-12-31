@@ -27,8 +27,7 @@ $body "hands" "meshes/ld/v_soldier_hands_reference"
 $include "includes/bodygroups/ld/scope.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "python_master" 0.000000 -14.000000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 12 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.290000 -2.040000 -1.980000 11.550000 2.690000 1.160000

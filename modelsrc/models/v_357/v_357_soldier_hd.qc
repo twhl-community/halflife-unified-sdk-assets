@@ -28,8 +28,7 @@ $body "hands" "meshes/hd/v_soldier_hands_reference"
 $include "includes/bodygroups/hd/scope.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "python" 0.000000 -10.900000 1.300000
+$include "includes/attachments/hd/attachments.qci"
 
 // 14 hit box(es)
 $hbox 0 "Bip01 R Forearm" -0.390000 -2.080000 -2.020000 11.368421 2.630000 1.120000
