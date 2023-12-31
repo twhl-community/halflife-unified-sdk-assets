@@ -21,9 +21,7 @@ $include "includes/common/ld/common.qci"
 $include "includes/bodygroups/ld/body.qci"
 
 
-// 1 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
-$controller 4 "Bone02" ZR 0.000000 16.000000
+$include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
 // 25 hit box(es)
 $hbox 0 "Bip01 Pelvis" -4.700000 -4.290000 -6.713255 1.293670 5.600000 5.713255
