@@ -1,0 +1,3 @@
+$body "gun" "meshes/ld/python_gun"
+$body "bullets" "meshes/ld/python_bullets"
+$body "speedload" "meshes/ld/python_speedload"

@@ -20,19 +20,11 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "gun" "meshes/ld/python_gun"
-
-$body "bullets" "meshes/ld/python_bullets"
-
-$body "speedload" "meshes/ld/python_speedload"
+$include "includes/bodygroups/ld/base.qci"
 
 $body "hands" "meshes/ld/v_soldier_hands_reference"
 
-$bodygroup "scope"
-{
-blank
-studio "meshes/ld/python_lasersight"
-}
+$include "includes/bodygroups/ld/scope.qci"
 
 
 // 1 attachment(s)
