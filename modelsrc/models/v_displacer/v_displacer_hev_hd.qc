@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "displacer_reference"
+$include "includes/bodygroups/ld/displacer.qci"
 
 $body "body" "displacer_hands_reference_hev_hd"
 
