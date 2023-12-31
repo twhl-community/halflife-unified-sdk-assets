@@ -41,14 +41,6 @@ $hbox 0 "L_wristbone" -1.840000 -2.510000 -3.310000 2.570000 2.480000 9.180000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.870000 -0.920000 2.373624 0.360000 0.450000
 $hbox 0 "sight_master" -1.050000 -1.570000 -0.760000 1.140000 1.910000 4.720000
 
-// 8 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "fire1" "animations/ld/fire1" fps 30 { event 5001 0 "31" } 
-$sequence "reload" "animations/ld/reload" fps 36 { event 5004 70 "weapons/357_reload1.wav" } 
-$sequence "holster" "animations/ld/holster" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "idle2" "animations/ld/idle2" fps 30 loop 
-$sequence "idle3" "animations/ld/idle3" fps 30 loop 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
