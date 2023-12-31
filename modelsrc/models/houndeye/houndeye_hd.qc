@@ -66,7 +66,7 @@ $sequence "whimper" "animations/hd/whimper" fps 35 loop
 $sequence "jumpwindow" "animations/hd/jumpwindow" fps 28 
 
 // Opposing Force sequences
-$sequence "dead" "animations/hd/dead" fps 30 
+$include "includes/animations/hd/dead.qci"
 
 // Blue Shift sequences
 $sequence "eat_barney" "animations/hd/eat_barney" fps 17 { event 1000 1 } 

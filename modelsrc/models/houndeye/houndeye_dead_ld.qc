@@ -25,7 +25,6 @@ $include "includes/texturegroups/ld/texturegroups.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 1 animation sequence(s)
-$sequence "dead" "animations/ld/dead" fps 30 
+$include "includes/animations/ld/dead.qci"
 
 // End of QC script.
