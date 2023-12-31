@@ -25,14 +25,13 @@ $include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 27 animation sequence(s)
 $sequence "walk" "animations/walk" LX fps 26 loop ACT_WALK 1 
 $sequence "longjump" "animations/longjump" fps 30 
-$sequence "troom_talkidle_1" "animations/troom_talkidle_1" fps 14 loop ACT_IDLE 1 
+$include "includes/animations/ld/troom_talkidle_1.qci"
 $sequence "troom_quadjump" "animations/troom_quadjump" AX AY AZR fps 42 { event 1001 1 } 
 $sequence "troom_intro" "animations/troom_intro" AX AY AZR fps 20 { event 1008 1 "*holo/holointro.wav" } 
 $sequence "quadtalk" "animations/quadtalk" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn2.wav" } 
-$sequence "troom_talkidle_2" "animations/troom_talkidle_2" fps 14 loop ACT_IDLE 1 
+$include "includes/animations/ld/troom_talkidle_2.qci"
 $sequence "cjump_hole" "animations/cjump_hole" AX AY AZR fps 18 { event 1001 1 } 
 $sequence "scharge" "animations/scharge" AX AY AZR fps 14 { event 1008 1 "*holo/holostn1.wav" } 
 $sequence "crouch_hole" "animations/crouch_hole" AX AY AZR fps 14 loop { event 1008 1 "*holo/holostn3.wav" } 

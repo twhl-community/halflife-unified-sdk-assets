@@ -25,9 +25,8 @@ $include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 27 animation sequence(s)
-$sequence "troom_talkidle_1" "animations/troom_talkidle_1" fps 14 loop ACT_IDLE 1 
-$sequence "troom_talkidle_2" "animations/troom_talkidle_2" fps 14 loop ACT_IDLE 1 
+$include "includes/animations/ld/troom_talkidle_1.qci"
+$include "includes/animations/ld/troom_talkidle_2.qci"
 
 // Blue Shift sequences
 $sequence "pushcart" "animations/pushcart" LX fps 23 loop ACT_WALK 1 
