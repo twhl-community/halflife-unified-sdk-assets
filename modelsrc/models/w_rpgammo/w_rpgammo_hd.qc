@@ -26,8 +26,6 @@ $body "rocket" "meshes/hd/rocket"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 2 animation sequence(s)
-$sequence "idle" "animations/idle" fps 30 
-$sequence "capped" "animations/capped" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
