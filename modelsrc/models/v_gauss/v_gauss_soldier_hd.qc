@@ -26,15 +26,6 @@ $include "includes/attachments/hd/attachments.qci"
 
 $include "includes/hitboxes/hd/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 15 loop 
-$sequence "idle2" "animations/hd/idle2" fps 15 loop 
-$sequence "fidget" "animations/hd/fidget" fps 30 
-$sequence "spinup" "animations/hd/spinup" fps 30 loop 
-$sequence "spin" "animations/hd/spin" fps 30 loop 
-$sequence "fire" "animations/hd/fire" fps 30 
-$sequence "fire2" "animations/hd/fire2" fps 30 
-$sequence "holster" "animations/hd/holster" fps 45 
-$sequence "draw" "animations/hd/draw" fps 60 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.
