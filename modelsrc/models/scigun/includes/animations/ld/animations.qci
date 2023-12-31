@@ -1,0 +1,3 @@
+$sequence "idle" "animations/idle" fps 30
+$sequence "onguard" "animations/onguard" fps 12 loop
+$sequence "seeya" "animations/seeya" AX AY AZR fps 33
