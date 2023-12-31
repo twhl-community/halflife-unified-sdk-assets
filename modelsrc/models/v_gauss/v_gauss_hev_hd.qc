@@ -24,10 +24,7 @@ $include "includes/bodygroups/hd/gauss.qci"
 
 $include "includes/attachments/hd/attachments.qci"
 
-// 3 hit box(es)
-$hbox 0 "Bip01 R Hand" 0.000000 0.000000 0.000000 1.135289 1.147308 4.113231
-$hbox 0 "GaussMesh" -4.080000 -15.460000 -3.800000 4.080000 4.090000 6.180000
-$hbox 0 "Object02" -2.480000 -1.130000 -1.710000 2.480000 1.140000 2.600000
+$include "includes/hitboxes/hd/hitboxes.qci"
 
 // 9 animation sequence(s)
 $sequence "idle" "animations/hd/idle" fps 15 loop 
