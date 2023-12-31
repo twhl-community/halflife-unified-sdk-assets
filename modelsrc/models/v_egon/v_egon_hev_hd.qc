@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/hd/v_egon_reference"
+$include "includes/bodygroups/hd/egon.qci"
 
 $body "body" "meshes/hd/v_gordon_hands_reference"
 
