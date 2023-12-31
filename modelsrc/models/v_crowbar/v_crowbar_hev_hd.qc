@@ -20,7 +20,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/v_crowbar_reference"
+$include "includes/bodygroups/hd/crowbar.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
