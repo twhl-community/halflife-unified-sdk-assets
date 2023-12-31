@@ -15,7 +15,7 @@ Original internal name:
 $modelname "v_tripmine_guard_hd.mdl"
 $cd "./"
 $cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/w_tripmine"
+$include "../shared/includes/common/w_tripmine/ld/texturepath.qci"
 $scale 1.0
 
 

@@ -16,7 +16,7 @@ $modelname "v_tripmine_hev_ld.mdl"
 $cd "./"
 $cdtexture "meshes/ld"
 $cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/w_tripmine"
+$include "../shared/includes/common/w_tripmine/ld/texturepath.qci"
 $scale 1.0
 
 
