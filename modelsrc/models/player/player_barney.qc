@@ -23,10 +23,7 @@ $include "includes/common/ld/common.qci"
 $body "body" "player_template_biped_barney"
 
 
-// 3 attachment(s)
-$attachment 0 "Bip01 R Hand" 20.000000 2.000000 5.000000
-$attachment 1 "Bip01 R Hand" 15.000000 1.500000 3.750000
-$attachment 2 "Bip01 R Hand" 30.000000 3.000000 7.500000
+$include "includes/attachments/ld/attachments.qci"
 
 // 5 bone controller(s)
 $controller 4 "Bone02" ZR 0.000000 30.000000
