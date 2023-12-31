@@ -20,7 +20,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/new_v_mp5_reference"
+$include "includes/bodygroups/ld/mp5.qci"
 
 $body "studio" "meshes/ld/v_soldier_hands_reference"
 
