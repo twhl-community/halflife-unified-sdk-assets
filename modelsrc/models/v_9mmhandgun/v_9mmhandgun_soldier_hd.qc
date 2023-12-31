@@ -21,17 +21,12 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/v_beretta_reference"
+$include "includes/bodygroups/hd/beretta.qci"
 
 $body "studio" "meshes/hd/v_soldier_hands_reference"
 
-$body "studio" "meshes/hd/clip_reference"
-
-$bodygroup "silencer"
-{
-blank
-studio "meshes/hd/v_beretta_silencer_reference"
-}
+$include "includes/bodygroups/hd/clip.qci"
+$include "includes/bodygroups/hd/silencer.qci"
 
 // 1 attachment(s)
 $attachment 0 "Bip01 R Hand" 12.000000 2.000000 5.000000

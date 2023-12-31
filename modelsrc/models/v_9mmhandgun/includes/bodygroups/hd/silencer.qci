@@ -1,0 +1,5 @@
+$bodygroup "silencer"
+{
+blank
+studio "meshes/hd/v_beretta_silencer_reference"
+}
