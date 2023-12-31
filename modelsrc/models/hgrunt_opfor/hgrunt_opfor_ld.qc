@@ -19,7 +19,7 @@ $cdtexture "../../textures/hgrunt_medic/ld"
 $cdtexture "../../textures/hgrunt/hd"
 $cdtexture "../../textures/hgrunt/ld"
 $cdtexture "../../textures/w_9mmar"
-$cdtexture "../../textures/w_shotgun"
+$include "../shared/includes/common/w_shotgun/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 

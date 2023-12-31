@@ -1,4 +1,4 @@
-$cdtexture "../../textures/w_shotgun"
+$include "../shared/includes/common/w_shotgun/ld/texturepath.qci"
 $scale 1.0
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000

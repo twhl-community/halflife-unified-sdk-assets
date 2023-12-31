@@ -16,7 +16,7 @@ $modelname "hgrunt_hd.mdl"
 $cd "./"
 $cdtexture "../../textures/hgrunt/hd"
 $cdtexture "../../textures/w_9mmar"
-$cdtexture "../../textures/w_shotgun"
+$include "../shared/includes/common/w_shotgun/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 
