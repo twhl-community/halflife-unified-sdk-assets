@@ -26,8 +26,7 @@ $body "studio" "v_desert_eagle_hands_reference_soldier_ld"
 $include "includes/bodygroups/ld/clip.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 13.000000 1.600000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 12 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.390000 -2.110000 -2.020000 11.430000 2.590000 1.120000
