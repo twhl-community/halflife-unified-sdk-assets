@@ -18,7 +18,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/reference4"
+$include "includes/bodygroups/ld/body.qci"
 
 
 // 3 skin families

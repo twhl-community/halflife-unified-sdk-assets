@@ -18,7 +18,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "Studio" "meshes/hd/ps2_houndeye_lod0"
+$include "includes/bodygroups/hd/body.qci"
 
 
 // 3 skin families
