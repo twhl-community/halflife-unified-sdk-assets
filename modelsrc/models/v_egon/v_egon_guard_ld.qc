@@ -32,17 +32,8 @@ $hbox 0 "Bip01 L Arm2" -0.690000 -2.160000 -1.970000 11.890000 2.800000 2.440000
 $hbox 0 "Bip01 L Hand" -0.560000 -1.150000 -1.870000 3.910000 0.820000 1.690000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.890000 -0.460000 2.500000 0.340000 0.910000
 
-// 11 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "altfireon" "animations/ld/altfireon" fps 30 
-$sequence "altfirecycle" "animations/ld/altfirecycle" fps 30 loop 
-$sequence "altfireoff" "animations/ld/altfireoff" fps 30 
-$sequence "fire1" "animations/ld/op4/fire1" fps 30 loop 
-$sequence "fire2" "animations/ld/op4/fire2" fps 30 loop 
-$sequence "fire3" "animations/ld/fire3" fps 30 loop 
-$sequence "fire4" "animations/ld/fire4" fps 30 loop 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "holster" "animations/ld/holster" fps 30 
+$include "includes/animations/ld/animations_1.qci"
+$include "includes/animations/ld/op4_fire_sequences.qci"
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.

@@ -1,0 +1,4 @@
+$sequence "fire3" "animations/ld/fire3" fps 30 loop
+$sequence "fire4" "animations/ld/fire4" fps 30 loop
+$sequence "draw" "animations/ld/draw" fps 30
+$sequence "holster" "animations/ld/holster" fps 30
