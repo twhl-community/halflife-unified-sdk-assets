@@ -24,8 +24,7 @@ $include "includes/bodygroups/hd/egon.qci"
 $body "body" "meshes/hd/v_barney_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "egon" 0.000000 0.000000 17.000000
+$include "includes/attachments/hd/attachments.qci"
 
 // 7 hit box(es)
 $hbox 0 "egon" -6.210000 -2.410000 0.000000 9.750000 3.400000 16.980000

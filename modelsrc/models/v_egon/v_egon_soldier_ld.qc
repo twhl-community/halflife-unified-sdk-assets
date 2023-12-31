@@ -24,8 +24,7 @@ $include "includes/bodygroups/ld/egon.qci"
 $body "body" "meshes/ld/v_soldier_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Gauss" -10.000000 2.500000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 6 hit box(es)
 $hbox 0 "Gauss" -13.720000 -1.260000 -6.190000 2.150000 3.630000 9.780000
