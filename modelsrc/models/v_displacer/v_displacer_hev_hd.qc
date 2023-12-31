@@ -15,13 +15,7 @@ Original internal name:
 $modelname "v_displacer_hev_hd.mdl"
 $cd "./"
 $include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_displacer"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
