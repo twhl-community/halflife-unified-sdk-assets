@@ -15,7 +15,7 @@ Original internal name:
 $modelname "v_satchel_guard_hd.mdl"
 $cd "./"
 $include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_satchel/hd"
+$include "../shared/includes/common/viewmodel/v_satchel/hd/texturepath.qci"
 $scale 1.0
 
 

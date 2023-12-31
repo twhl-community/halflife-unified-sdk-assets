@@ -16,7 +16,7 @@ $modelname "v_satchel_soldier_hd.mdl"
 $cd "./"
 $cdtexture "meshes/hd"
 $include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_satchel/hd"
+$include "../shared/includes/common/viewmodel/v_satchel/hd/texturepath.qci"
 $scale 1.0
 
 
