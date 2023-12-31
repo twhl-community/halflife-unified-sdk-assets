@@ -24,9 +24,7 @@ $include "includes/bodygroups/ld/container.qci"
 $body "rocket" "meshes/hd/rocket"
 
 
-// 2 hit box(es)
-$hbox 0 "Cylinder01" -4.160000 -3.600000 0.000000 4.160000 3.600000 29.610001
-$hbox 0 "Cylinder03" -4.160000 -3.600000 -2.310000 4.160000 3.600000 2.310000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
 // 2 animation sequence(s)
 $sequence "idle" "animations/idle" fps 30 
