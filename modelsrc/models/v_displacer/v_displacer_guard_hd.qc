@@ -28,13 +28,6 @@ $include "includes/attachments/ld/attachments.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 7 animation sequence(s)
-$sequence "idle1" "idle1" fps 30 loop 
-$sequence "idle2" "idle2" fps 30 loop 
-$sequence "spinup" "spinup" fps 30 loop 
-$sequence "spin" "spin" fps 30 loop 
-$sequence "fire" "fire" fps 30 
-$sequence "draw" "draw" fps 15 
-$sequence "holster1" "holster1" fps 15 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
