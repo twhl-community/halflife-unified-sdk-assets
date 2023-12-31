@@ -22,8 +22,7 @@ $include "includes/common/ld/common.qci"
 $include "includes/bodygroups/hd/gauss.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "GaussMesh" -1.500000 -17.000000 0.000000
+$include "includes/attachments/hd/attachments.qci"
 
 // 3 hit box(es)
 $hbox 0 "Bip01 R Hand" 0.000000 0.000000 0.000000 1.135289 1.147308 4.113231
