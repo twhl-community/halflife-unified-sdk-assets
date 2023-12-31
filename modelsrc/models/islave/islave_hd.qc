@@ -23,8 +23,7 @@ $body "studio" "meshes/hd/ps2_slave_reference"
 
 $include "includes/attachments/ld/attachments.qci"
 
-// 1 bone controller(s)
-$controller 0 "Bip01 Neck1" YR 60.000000 -60.000000
+$include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
 // 39 hit box(es)
 $hbox 6 "Bip01 L Leg" -0.330000 -5.560000 -2.910000 21.709999 4.190000 2.620000
