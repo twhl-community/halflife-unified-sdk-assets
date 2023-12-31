@@ -15,7 +15,7 @@ Original internal name:
 $modelname "v_desert_eagle_soldier_ld.mdl"
 $cd "./"
 $include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_desert_eagle"
+$include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
 $cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
 $scale 1.0
 

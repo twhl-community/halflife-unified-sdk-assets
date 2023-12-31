@@ -15,7 +15,7 @@ Original internal name:
 $modelname "otis.mdl"
 $cd "./"
 $cdtexture "../../textures/otis"
-$cdtexture "../../textures/viewmodel/v_desert_eagle"
+$include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
 $include "../shared/includes/common/barney/ld/common.qci"
 
 
