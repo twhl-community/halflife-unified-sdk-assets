@@ -1,0 +1,11 @@
+$sequence "idle1" "idle1" fps 30 loop 
+$sequence "idle2" "idle2" fps 24 loop 
+$sequence "idle3" "idle3" fps 30 loop 
+$sequence "idle4" "idle4" fps 30 loop 
+$sequence "idle5" "idle5" fps 30 loop 
+$sequence "shoot" "shoot" fps 30 { event 5001 0 "11" } 
+$sequence "shoot_empty" "shoot_empty" fps 27 { event 5001 0 "11" } 
+$sequence "reload" "reload" fps 25 { event 5004 1 "weapons/desert_eagle_reload.wav" } 
+$sequence "reload_noshot" "reload_noshot" fps 25 { event 5004 1 "weapons/desert_eagle_reload.wav" } 
+$sequence "draw" "draw" fps 18 
+$sequence "holster" "holster" fps 22 
