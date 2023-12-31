@@ -21,8 +21,7 @@ $include "includes/common/ld/common.qci"
 $include "includes/bodygroups/ld/body.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Bone09" -110.160004 178.500000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 19 hit box(es)
 $hbox 1 "Bone01" -51.119999 -1.590000 -30.000000 40.630001 121.070000 30.000000
