@@ -21,13 +21,7 @@ $include "includes/common/ld/common.qci"
 $include "includes/bodygroups/hd/body.qci"
 
 
-// 3 skin families
-$texturegroup skinfamilies 
-{
-{ "eye_hd.bmp" }
-{ "eye1_hd.bmp" }
-{ "eye2_hd.bmp" }
-}
+$include "includes/texturegroups/hd/texturegroups.qci"
 
 // 14 hit box(es)
 $hbox 0 "Bip01 Pelvis" -0.000005 -2.940000 -5.500000 4.270000 4.012748 4.950000
