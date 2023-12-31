@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/container"
+$include "includes/bodygroups/ld/container.qci"
 $body "rocket" "meshes/ld/rocket"
 
 
