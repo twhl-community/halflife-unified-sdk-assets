@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "gun" "meshes/hd/v_gauss_reference"
+$include "includes/bodygroups/hd/gauss.qci"
 
 
 // 1 attachment(s)
