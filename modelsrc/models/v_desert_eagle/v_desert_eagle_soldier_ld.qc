@@ -19,11 +19,11 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "v_desert_eagle_reference"
+$include "includes/bodygroups/ld/desert_eagle.qci"
 
 $body "studio" "v_desert_eagle_hands_reference_soldier_ld"
 
-$body "studio" "../v_9mmhandgun/meshes/ld/clip_reference"
+$include "includes/bodygroups/ld/clip.qci"
 
 
 // 1 attachment(s)
