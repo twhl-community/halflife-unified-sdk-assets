@@ -25,42 +25,7 @@ $include "includes/attachments/ld/attachments.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 53 animation sequence(s)
-$sequence "Pit_Idle" "animations/Pit_Idle" fps 15 loop node 9 
-$sequence "rise_to_Temp1" "animations/rise_to_Temp1" fps 15 rtransition 9 1 {
-  { event 6 23 } 
-  { event 5002 23 "4" } 
-  { event 6 30 } 
-  { event 5002 30 "4" } 
- }
-$sequence "Temp1_to_Floor" "animations/Temp1_to_Floor" fps 30 transition 1 4 { event 2 26 } { event 5002 26 "4" } 
-$sequence "Floor_Idle" "animations/Floor_Idle" fps 10 loop ACT_1010 5 node 4 { event 6 0 } { event 5002 0 "2" } 
-$sequence "Floor_Fidget_Pissed" "animations/Floor_Fidget_Pissed" fps 10 loop ACT_1010 1 node 4 {
-  { event 6 0 } 
-  { event 5002 0 "2" } 
-  { event 7 5 } 
- }
-$sequence "Floor_Fidget_SmallRise" "animations/Floor_Fidget_SmallRise" fps 10 loop ACT_1010 1 node 4 { event 6 0 } { event 5002 0 "2" } 
-$sequence "Floor_Fidget_Wave" "animations/Floor_Fidget_Wave" fps 10 loop ACT_1010 1 node 4 { event 6 0 } { event 5002 0 "2" } 
-$sequence "Floor_Strike" "animations/Floor_Strike" fps 15 ACT_1030 1 node 4 {
-  { event 5002 0 "2" } 
-  { event 3 6 } 
-  { event 1 8 } 
-  { event 5002 8 "8" } 
-  { event 4 12 } 
- }
-$sequence "Floor_Tap" "animations/Floor_Tap_blend1" "animations/Floor_Tap_blend2" blend X 86 366 fps 15 loop ACT_1020 1 node 4 {
-  { event 6 7 } 
-  { event 5002 7 "4" } 
-  { event 6 13 } 
-  { event 5002 13 "4" } 
-  { event 6 20 } 
-  { event 5002 20 "4" } 
- }
-$sequence "Floor_Rotate" "animations/Floor_Rotate" fps 25 rtransition 4 12 
-$sequence "Floor_Rear" "animations/Floor_Rear" fps 30 rtransition 12 13 
-$sequence "Floor_Rear_Idle" "animations/Floor_Rear_Idle" fps 15 loop ACT_1040 1 node 13 
-$sequence "Floor_to_Lev1" "animations/Floor_to_Lev1" fps 30 transition 4 1 
+$include "includes/animations/ld/animations_1.qci"
 $sequence "Lev1_Idle" "animations/op4/Lev1_Idle" fps 10 loop ACT_1011 5 node 1 
 $sequence "Lev1_Fidget_Claw" "animations/op4/Lev1_Fidget_Claw" fps 10 loop ACT_1011 1 node 1 {
   { event 7 11 } 
@@ -135,16 +100,6 @@ $sequence "Lev3_Tap" "animations/op4/Lev3_Tap_blend1" "animations/op4/Lev3_Tap_b
 $sequence "Lev3_Rotate" "animations/op4/Lev3_Rotate" fps 25 rtransition 3 10 
 $sequence "Lev3_Rear" "animations/op4/Lev3_Rear" fps 30 rtransition 10 11 
 $sequence "Lev3_Rear_Idle" "animations/op4/Lev3_Rear_Idle" fps 15 loop ACT_1043 1 node 11 
-$sequence "Lev1_Door_reach" "animations/Lev1_Door_reach" fps 15 
-$sequence "Lev3_to_Engine" "animations/Lev3_to_Engine" fps 30 rtransition 11 14 
-$sequence "Engine_Idle" "animations/Engine_Idle" fps 15 loop ACT_1044 1 node 14 
-$sequence "Engine_Sway" "animations/Engine_Sway" fps 15 loop ACT_1044 1 node 14 
-$sequence "Engine_Swat" "animations/Engine_Swat" fps 15 loop ACT_1044 1 node 14 { event 1 8 } { event 5002 8 "12" } 
-$sequence "Engine_Bob" "animations/Engine_Bob" fps 15 loop ACT_1044 1 node 14 
-$sequence "Engine_death1" "animations/Engine_death1" fps 15 node 14 
-$sequence "Engine_death2" "animations/Engine_death2" fps 15 node 14 
-$sequence "Engine_death3" "animations/Engine_death3" fps 15 node 14 
-$sequence "tentacle_grab_idle" "animations/tentacle_grab_idle" fps 1 loop 
-$sequence "tentacle_grab" "animations/tentacle_grab" fps 15 
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.
