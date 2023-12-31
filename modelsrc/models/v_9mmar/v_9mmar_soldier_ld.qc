@@ -25,8 +25,7 @@ $include "includes/bodygroups/ld/mp5.qci"
 $body "studio" "meshes/ld/v_soldier_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 17.800000 -0.900000 6.300000
+$include "includes/attachments/ld/attachments.qci"
 
 // 10 hit box(es)
 $hbox 0 "Bip01 R Arm2" -0.440000 -2.130000 -1.990000 11.390000 2.580000 1.140000

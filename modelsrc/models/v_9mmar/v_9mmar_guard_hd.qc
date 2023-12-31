@@ -25,8 +25,7 @@ $include "includes/bodygroups/hd/m4.qci"
 $body "studio" "meshes/hd/v_barney_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "carbine" 0.500000 -27.000000 2.000000
+$include "includes/attachments/hd/attachments.qci"
 
 // 8 hit box(es)
 $hbox 0 "carbine" -0.390000 -26.900000 -4.740000 1.880000 6.960000 6.030000
