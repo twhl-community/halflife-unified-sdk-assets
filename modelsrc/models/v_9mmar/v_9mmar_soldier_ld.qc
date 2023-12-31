@@ -15,13 +15,8 @@ Original internal name:
 $modelname "v_9mmar_soldier_ld.mdl"
 $cd "./"
 $include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_9mmar/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/v_9mmar/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
