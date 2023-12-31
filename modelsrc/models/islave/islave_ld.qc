@@ -21,9 +21,7 @@ $include "includes/common/ld/common.qci"
 $body "studio" "meshes/ld/ISLAVE_Template_Model-1"
 
 
-// 2 attachment(s)
-$attachment 0 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 1 "Bip01 L Hand" 0.000000 0.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 1 bone controller(s)
 $controller 0 "Bip01 Neck1" YR 60.000000 -60.000000
