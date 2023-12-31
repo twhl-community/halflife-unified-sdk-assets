@@ -24,11 +24,7 @@ $include "includes/bodygroups/ld/displacer.qci"
 $body "body" "displacer_hands_reference_soldier_hd"
 
 
-// 4 attachment(s)
-$attachment 0 "spinner" 20.000000 0.000000 0.000000
-$attachment 1 "reflector01" 0.000000 -2.000000 0.000000
-$attachment 2 "reflector02" 0.000000 -2.000000 0.000000
-$attachment 3 "reflector03" 0.000000 -2.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 12 hit box(es)
 $hbox 0 "Bip01 L Forearm" -0.530000 -1.520000 -3.110000 11.368421 2.090000 1.560000
