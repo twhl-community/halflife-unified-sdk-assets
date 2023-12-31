@@ -22,7 +22,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/hd/v_crossbow_reference"
+$include "includes/bodygroups/hd/base.qci"
 
 $body "body" "meshes/hd/v_soldier_hands_Reference"
 
