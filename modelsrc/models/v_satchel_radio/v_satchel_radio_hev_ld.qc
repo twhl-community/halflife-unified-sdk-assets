@@ -30,11 +30,6 @@ $hbox 0 "Bip01 R Arm2" 0.000000 -1.810000 -2.520000 11.368423 3.360000 2.090000
 $hbox 0 "Bip01 R Hand" -0.190000 -0.930000 -1.750000 3.890000 2.409614 1.940000
 $hbox 0 "Dummy22" -1.910000 -0.760000 -2.020000 1.710000 0.900000 9.850000
 
-// 5 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "fire" "animations/ld/fire" fps 30 
-$sequence "holster" "animations/ld/holster" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
