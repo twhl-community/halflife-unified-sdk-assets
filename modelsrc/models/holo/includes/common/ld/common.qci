@@ -1,4 +1,4 @@
-$cdtexture "../../textures/holo"
+$include "../shared/includes/common/holo/ld/texturepath.qci"
 $include "../shared/includes/common/player/ld/gordon/texturepath.qci"
 $scale 1.0
 
