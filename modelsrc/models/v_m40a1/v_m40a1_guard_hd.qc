@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "m40a1_ref"
+$include "includes/bodygroups/ld/m40a1.qci"
 
 $body "studio" "v_hands_reference_guard_hd"
 
