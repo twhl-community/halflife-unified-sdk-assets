@@ -29,11 +29,6 @@ $include "includes/attachments/ld/attachments.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 5 animation sequence(s)
-$sequence "idle1" "idle1" fps 30 loop 
-$sequence "fire" "fire" fps 30 
-$sequence "draw" "draw" fps 30 { event 5004 1 "weapons/shock_draw.wav" } 
-$sequence "holster" "holster" fps 30 
-$sequence "idle3" "idle3" fps 15 loop 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
