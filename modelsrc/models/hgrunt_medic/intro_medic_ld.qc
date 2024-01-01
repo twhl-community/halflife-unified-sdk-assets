@@ -17,7 +17,7 @@ $cd "./"
 $cdtexture "../../textures/hgrunt_medic/ld"
 $cdtexture "../../textures/hgrunt_torch/ld/fatigues"
 $cdtexture "../../textures/hgrunt_opfor/ld"
-$cdtexture "../../textures/hgrunt/hd"
+$include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/common.qci"
 

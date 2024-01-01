@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "hgrunt_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/hgrunt/hd"
+$include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $include "../shared/includes/common/w_9mmar/ld/texturepath.qci"
 $include "../shared/includes/common/w_shotgun/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/common.qci"

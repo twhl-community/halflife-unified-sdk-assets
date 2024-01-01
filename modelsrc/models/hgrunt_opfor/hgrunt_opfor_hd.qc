@@ -15,7 +15,7 @@ Original internal name:
 $modelname "hgrunt_opfor_hd.mdl"
 $cd "./"
 $cdtexture "../../textures/hgrunt_opfor/hd"
-$cdtexture "../../textures/hgrunt/hd"
+$include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $cdtexture "../../textures/hgrunt_opfor/ld"
 $cdtexture "../../textures/hgrunt_medic/hd"
 $include "../shared/includes/common/w_9mmar/ld/texturepath.qci"
