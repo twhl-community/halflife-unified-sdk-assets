@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "intro_saw_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/intro_saw"
+$include "../shared/includes/common/intro_saw/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt_opfor/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/texturepath.qci"
