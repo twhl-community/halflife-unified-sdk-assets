@@ -35,13 +35,6 @@ $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -1.710000 3.920000 0.870000 1.820000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.940000 -1.000000 2.450000 0.390000 0.540000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 9 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 15 loop 
-$sequence "idle2" "animations/hd/idle2" fps 15 loop 
-$sequence "arm1" "animations/hd/arm1" fps 15 
-$sequence "place" "animations/hd/place" fps 30 
-$sequence "fidget" "animations/hd/fidget" fps 30 loop 
-$sequence "holster" "animations/hd/holster" fps 30 
-$sequence "draw" "animations/hd/draw" fps 30 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

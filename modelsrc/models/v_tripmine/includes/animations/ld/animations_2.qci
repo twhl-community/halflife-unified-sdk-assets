@@ -1,0 +1,2 @@
+$sequence "holster" "animations/ld/holster" fps 30
+$sequence "draw" "animations/ld/draw" fps 30
