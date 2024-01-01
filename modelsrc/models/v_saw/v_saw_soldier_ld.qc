@@ -19,22 +19,11 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "v_saw"
+$include "includes/bodygroups/ld/saw.qci"
 
 $body "studio" "v_saw_hands_reference_soldier_ld"
 
-$bodygroup "rounds"
-{
-studio "tfc_sniper_8rounds"
-studio "tfc_sniper_7rounds"
-studio "tfc_sniper_6rounds"
-studio "tfc_sniper_5rounds"
-studio "tfc_sniper_4rounds"
-studio "tfc_sniper_3rounds"
-studio "tfc_sniper_2rounds"
-studio "tfc_sniper_1round"
-studio "tfc_sniper_0rounds"
-}
+$include "includes/bodygroups/ld/rounds.qci"
 
 
 // 1 attachment(s)
