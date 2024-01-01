@@ -30,15 +30,6 @@ $include "includes/attachments/ld/attachments.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "slowidle" "slowidle" fps 20 loop 
-$sequence "idle2" "idle2" fps 25 loop 
-$sequence "reload1_1" "reload1_1" fps 40 { event 5004 1 "weapons/saw_reload.wav" } 
-$sequence "reload1_2" "reload1_2" fps 45 { event 5004 0 "weapons/saw_reload2.wav" } 
-$sequence "holster" "holster" fps 30 
-$sequence "draw" "draw" fps 30 
-$sequence "shoot_1" "shoot_1" fps 30 { event 5001 0 "20" } 
-$sequence "shoot_2" "shoot_2" fps 30 { event 5001 0 "20" } 
-$sequence "shoot_3" "shoot_3" fps 30 { event 5001 0 "20" } 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
