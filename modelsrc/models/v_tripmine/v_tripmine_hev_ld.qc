@@ -16,13 +16,7 @@ $modelname "v_tripmine_hev_ld.mdl"
 $cd "./"
 $cdtexture "meshes/ld"
 $include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
-$include "../shared/includes/common/w_tripmine/ld/texturepath.qci"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
