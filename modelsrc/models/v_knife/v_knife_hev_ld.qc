@@ -23,11 +23,7 @@ $include "includes/bodygroups/ld/knife.qci"
 
 $body "studio" "v_knife_hands_reference_hev_ld"
 
-// 4 hit box(es)
-$hbox 0 "Bip01 R Forearm" -7.690000 -3.650000 -3.590000 11.368423 3.170000 3.810000
-$hbox 0 "Bip01 R Hand" -1.840000 -1.710000 -1.860000 3.789474 2.800000 2.180000
-$hbox 0 "Bip01 R Finger31" 0.000000 -0.750000 -0.550000 1.136844 0.400000 0.460000
-$hbox 0 "Knife" -0.690000 -1.820000 -3.590000 0.690000 1.820000 13.200000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
 // 13 animation sequence(s)
 $sequence "idle1" "idle1" fps 13 
