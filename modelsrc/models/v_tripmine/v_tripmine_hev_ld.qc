@@ -25,10 +25,7 @@ $bodygroup "hands"
 studio "meshes/ld/v_gordon_hands_reference"
 }
 
-$bodygroup "mine"
-{
-studio "meshes/ld/tripmine_mine"
-}
+$include "includes/bodygroups/ld/tripmine.qci"
 
 
 // 5 hit box(es)
