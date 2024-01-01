@@ -15,7 +15,7 @@ Original internal name:
 $modelname "w_crossbow_hd.mdl"
 $cd "./"
 $include "../shared/includes/common/w_crossbow/ld/texturepath.qci"
-$cdtexture "../../textures/w_crossbow_clip"
+$include "../shared/includes/common/w_crossbow_clip/ld/texturepath.qci"
 $scale 1.0
 
 
