@@ -32,16 +32,8 @@ $hbox 0 "Dummy22" -3.070000 -10.940000 -5.990000 5.370000 10.850000 2.290000
 $hbox 0 "Bip01 L Arm2" 0.000000 -2.030000 -1.390000 11.320000 2.410000 2.980000
 $hbox 0 "Bip01 L Hand" 0.000000 -0.930000 -1.850000 4.180000 1.040000 1.780000
 
-// 10 animation sequence(s)
-$sequence "idle" "animations/ld/idle" fps 15 loop 
-$sequence "fidget" "animations/ld/fidget" fps 15 loop 
+$include "includes/animations/ld/animations_1.qci"
 $sequence "reload" "animations/ld/reload" fps 30 
-$sequence "fire" "animations/ld/fire" fps 30 
-$sequence "holster1" "animations/ld/holster1" fps 30 
-$sequence "draw1" "animations/ld/draw1" fps 30 
-$sequence "holster2" "animations/ld/holster2" fps 30 
-$sequence "draw2" "animations/ld/draw2" fps 30 
-$sequence "idle2" "animations/ld/idle2" fps 15 loop 
-$sequence "fidget2" "animations/ld/fidget2" fps 15 loop 
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.
