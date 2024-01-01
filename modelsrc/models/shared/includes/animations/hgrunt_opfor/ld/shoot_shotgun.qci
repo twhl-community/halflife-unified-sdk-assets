@@ -1,0 +1,5 @@
+$sequence "shoot_shotgun" "../shared/animations/hgrunt_opfor/ld/shoot_shotgun" fps 25 {
+  { event 4 12 }
+  { event 5001 12 "51" }
+  { event 2 28 }
+ }

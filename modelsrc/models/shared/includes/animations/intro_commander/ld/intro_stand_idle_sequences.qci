@@ -1,0 +1,3 @@
+$sequence "intro_stand_idle1" "../shared/animations/intro_commander/ld/intro_stand_idle1" fps 15 loop ACT_IDLE 4
+$sequence "intro_stand_idle2" "../shared/animations/intro_commander/ld/intro_stand_idle2" fps 17 loop ACT_IDLE 4
+$sequence "intro_stand_idle3" "../shared/animations/intro_commander/ld/intro_stand_idle3" fps 17 loop ACT_IDLE 4

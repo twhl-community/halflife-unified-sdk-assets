@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "shotgunshell_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/shotgunshell"
+$include "../shared/includes/common/shotgunshell/ld/texturepath.qci"
 $scale 1.0
 
 

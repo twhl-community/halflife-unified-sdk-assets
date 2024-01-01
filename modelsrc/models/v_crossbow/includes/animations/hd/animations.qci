@@ -1,0 +1,12 @@
+$sequence "idle1" "animations/hd/idle1" fps 30 loop
+$sequence "idle2" "animations/hd/idle2" fps 90 loop
+$sequence "fidget1" "animations/hd/fidget1" fps 30
+$sequence "fidget2" "animations/hd/fidget2" fps 30
+$sequence "fire1" "animations/hd/fire1" fps 60
+$sequence "fire2" "animations/hd/fire2" fps 30
+$sequence "fire3" "animations/hd/fire3" fps 30
+$sequence "reload" "animations/hd/reload" fps 30
+$sequence "draw1" "animations/hd/draw1" fps 30
+$sequence "draw2" "animations/hd/draw2" fps 30
+$sequence "holster1" "animations/hd/holster1" fps 30
+$sequence "holster2" "animations/hd/holster2" fps 30

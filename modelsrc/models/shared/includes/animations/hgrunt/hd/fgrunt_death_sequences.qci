@@ -1,0 +1,36 @@
+$sequence "dieback1" "../shared/animations/hgrunt/hd/dieback1" X fps 25 ACT_DIEBACKWARD 1 {
+  { event 11 5 } 
+  { event 2001 17 } 
+  { event 1000 25 } 
+  { event 1001 25 } 
+ }
+$sequence "dieforward" "../shared/animations/hgrunt/hd/dieforward" X fps 30 ACT_DIEFORWARD 1 {
+  { event 11 12 } 
+  { event 2001 19 } 
+  { event 1000 39 } 
+  { event 1001 39 } 
+ }
+$sequence "diesimple" "../shared/animations/hgrunt/hd/diesimple" X fps 15 ACT_DIESIMPLE 1 {
+  { event 11 3 } 
+  { event 2001 10 } 
+  { event 1000 14 } 
+  { event 1001 14 } 
+ }
+$sequence "diebackwards" "../shared/animations/hgrunt/hd/diebackwards" X fps 30 ACT_DIEBACKWARD 1 {
+  { event 11 6 } 
+  { event 2001 12 } 
+  { event 1000 33 } 
+  { event 1001 33 } 
+ }
+$sequence "dieheadshot" "../shared/animations/hgrunt/hd/dieheadshot" X fps 32 ACT_DIE_HEADSHOT 1 {
+  { event 11 1 } 
+  { event 2001 20 } 
+  { event 1000 32 } 
+  { event 1001 32 } 
+ }
+$sequence "diegutshot" "../shared/animations/hgrunt/hd/diegutshot" X fps 31 ACT_DIE_GUTSHOT 1 {
+  { event 11 0 } 
+  { event 2001 29 } 
+  { event 1000 68 } 
+  { event 1001 68 } 
+ }

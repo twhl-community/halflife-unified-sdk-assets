@@ -1,0 +1,35 @@
+$sequence "Pit_Idle" "animations/Pit_Idle" fps 15 loop node 9
+$sequence "rise_to_Temp1" "animations/rise_to_Temp1" fps 15 rtransition 9 1 {
+  { event 6 23 }
+  { event 5002 23 "4" }
+  { event 6 30 }
+  { event 5002 30 "4" }
+ }
+$sequence "Temp1_to_Floor" "animations/Temp1_to_Floor" fps 30 transition 1 4 { event 2 26 } { event 5002 26 "4" }
+$sequence "Floor_Idle" "animations/Floor_Idle" fps 10 loop ACT_1010 5 node 4 { event 6 0 } { event 5002 0 "2" }
+$sequence "Floor_Fidget_Pissed" "animations/Floor_Fidget_Pissed" fps 10 loop ACT_1010 1 node 4 {
+  { event 6 0 }
+  { event 5002 0 "2" }
+  { event 7 5 }
+ }
+$sequence "Floor_Fidget_SmallRise" "animations/Floor_Fidget_SmallRise" fps 10 loop ACT_1010 1 node 4 { event 6 0 } { event 5002 0 "2" }
+$sequence "Floor_Fidget_Wave" "animations/Floor_Fidget_Wave" fps 10 loop ACT_1010 1 node 4 { event 6 0 } { event 5002 0 "2" }
+$sequence "Floor_Strike" "animations/Floor_Strike" fps 15 ACT_1030 1 node 4 {
+  { event 5002 0 "2" }
+  { event 3 6 }
+  { event 1 8 }
+  { event 5002 8 "8" }
+  { event 4 12 }
+ }
+$sequence "Floor_Tap" "animations/Floor_Tap_blend1" "animations/Floor_Tap_blend2" blend X 86 366 fps 15 loop ACT_1020 1 node 4 {
+  { event 6 7 }
+  { event 5002 7 "4" }
+  { event 6 13 }
+  { event 5002 13 "4" }
+  { event 6 20 }
+  { event 5002 20 "4" }
+ }
+$sequence "Floor_Rotate" "animations/Floor_Rotate" fps 25 rtransition 4 12
+$sequence "Floor_Rear" "animations/Floor_Rear" fps 30 rtransition 12 13
+$sequence "Floor_Rear_Idle" "animations/Floor_Rear_Idle" fps 15 loop ACT_1040 1 node 13
+$sequence "Floor_to_Lev1" "animations/Floor_to_Lev1" fps 30 transition 4 1

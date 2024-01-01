@@ -14,20 +14,13 @@ Original internal name:
 
 $modelname "v_rpg_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_rpg/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_rpg/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/rpg_rocket"
-
-$body "body" "meshes/ld/blowpipe"
+$include "includes/bodygroups/ld/base.qci"
 
 $body "studio" "meshes/ld/v_soldier_hands_reference"
 
@@ -41,16 +34,8 @@ $hbox 0 "Bip01 L Hand" 0.000000 -0.890000 -2.330000 4.130000 1.020000 1.650000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.690000 -0.370000 2.440000 0.570000 1.140000
 $hbox 0 "Bip01 L Finger31" 0.000000 -0.600000 -0.690000 1.604878 0.550000 0.330000
 
-// 8 animation sequence(s)
-$sequence "idle" "animations/ld/idle" fps 15 loop 
-$sequence "fidget" "animations/ld/fidget" fps 15 loop 
-$sequence "reload" "animations/ld/op4/reload" fps 30 
-$sequence "fire" "animations/ld/fire" fps 30 
-$sequence "holster1" "animations/ld/holster1" fps 30 
-$sequence "draw1" "animations/ld/draw1" fps 30 
-$sequence "holster2" "animations/ld/holster2" fps 30 
-$sequence "draw2" "animations/ld/draw2" fps 30 
-$sequence "idle2" "animations/ld/idle2" fps 15 loop 
-$sequence "fidget2" "animations/ld/fidget2" fps 15 loop 
+$include "includes/animations/ld/animations_1.qci"
+$include "includes/animations/ld/op4_reload.qci"
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.

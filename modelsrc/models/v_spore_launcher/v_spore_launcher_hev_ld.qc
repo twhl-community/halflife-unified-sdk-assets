@@ -14,54 +14,20 @@ Original internal name:
 
 $modelname "v_spore_launcher_hev_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_spore_launcher"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "spore_launcher_reference"
+$include "includes/bodygroups/ld/sporelauncher.qci"
 
 $body "studio" "spore_launcher_hands_reference_hev_ld"
 
-$body "studio" "spore_reference"
+$include "includes/bodygroups/ld/spore.qci"
 
 
-// 19 hit box(es)
-$hbox 0 "master" 0.000000 0.000000 0.000000 3.538465 8.080100 2.752056
-$hbox 0 "Bone05" -2.330000 -8.030000 -4.490000 3.420000 0.120000 2.880000
-$hbox 0 "Bone06" -2.300000 -3.100000 -5.680000 2.650000 0.000000 1.600000
-$hbox 0 "Bone48" -1.710000 -0.390000 0.000000 0.000000 1.140000 2.270000
-$hbox 0 "Bone57" 0.000000 -2.180000 -6.450000 2.670000 0.000000 1.440000
-$hbox 0 "Bone58" -2.330000 -2.630000 -6.820000 3.660000 0.000000 0.970000
-$hbox 0 "Bone07" -2.350000 -7.840000 -7.790000 3.950000 0.070000 1.420000
-$hbox 0 "Bone08" -2.160000 -5.600000 -5.911171 3.020000 0.000000 0.000000
-$hbox 0 "Bone10" -2.360000 -2.760000 -1.820000 2.570000 0.000000 0.000000
-$hbox 0 "Bone41" 0.000000 -0.686420 -2.686653 2.008746 0.428835 0.000000
-$hbox 0 "Bone40" 0.000000 0.000000 -1.940000 1.910000 1.800000 0.000000
-$hbox 0 "Bone43" 0.000000 -0.440000 -1.310000 1.770000 0.900000 0.220000
-$hbox 0 "Bone01" -1.270000 -0.640000 -3.410000 2.060000 2.910000 0.000000
-$hbox 0 "Bone02" -0.360000 -3.580000 -3.750000 1.970000 0.230000 0.000000
-$hbox 0 "Bip01 L Forearm" -0.490000 -2.040000 -2.010000 11.370000 2.590000 2.110000
-$hbox 0 "Bip01 L Hand" -30.685781 -1.050000 -2.210000 3.789475 3.444947 1.835839
-$hbox 0 "Bip01 L Finger0" 0.000000 -0.940000 -0.500000 2.510000 0.360000 1.000000
-$hbox 0 "Bip01 L Finger31" 0.000000 -0.650000 -0.560000 1.136841 0.500000 0.460000
-$hbox 0 "Sphere01" -1.920000 -2.530000 -1.930000 1.920000 2.510000 1.920000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "idle" "idle" fps 30 loop 
-$sequence "fidget" "fidget" fps 30 loop 
-$sequence "reload_reach" "reload_reach" fps 30 
-$sequence "reload_load" "reload_load" fps 30 
-$sequence "reload_aim" "reload_aim" fps 30 
-$sequence "fire" "fire" fps 30 
-$sequence "holster1" "holster1" fps 30 
-$sequence "draw1" "draw1" fps 30 
-$sequence "idle2" "idle2" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

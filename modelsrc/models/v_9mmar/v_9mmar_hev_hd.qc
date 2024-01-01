@@ -14,24 +14,18 @@ Original internal name:
 
 $modelname "v_9mmar_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_9mmar/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_9mmar/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/m4_view_reference"
+$include "includes/bodygroups/hd/m4.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "carbine" 0.500000 -27.000000 2.000000
+$include "includes/attachments/hd/attachments.qci"
 
 // 8 hit box(es)
 $hbox 0 "carbine" -0.390000 -26.900000 -4.740000 1.880000 5.480000 6.030000
@@ -43,14 +37,6 @@ $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -1.710000 3.920000 0.870000 1.820000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.940000 -1.000000 2.450000 0.390000 0.540000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 8 animation sequence(s)
-$sequence "longidle" "animations/hd/longidle" fps 8 
-$sequence "idle1" "animations/hd/idle1" fps 35 
-$sequence "grenade" "animations/hd/grenade" fps 30 
-$sequence "reload" "animations/hd/reload" fps 30 { event 5004 5 "items/cliprelease1.wav" } { event 5004 24 "items/clipinsert1.wav" } 
-$sequence "deploy" "animations/hd/deploy" fps 30 
-$sequence "shoot" "animations/hd/shoot_1" fps 10 { event 5001 0 "40" } 
-$sequence "shoot" "animations/hd/shoot_2" fps 10 { event 5001 0 "40" } 
-$sequence "shoot" "animations/hd/shoot_3" fps 10 { event 5001 0 "40" } 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

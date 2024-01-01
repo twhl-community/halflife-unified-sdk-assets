@@ -14,48 +14,20 @@ Original internal name:
 
 $modelname "v_m40a1_guard_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_m40a1"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "m40a1_ref"
+$include "includes/bodygroups/ld/m40a1.qci"
 
 $body "studio" "v_hands_reference_guard_ld"
 
 
-// 1 attachment(s)
-$attachment 0 "m40a1_stock" 19.000000 -1.250000 16.750000
+$include "includes/attachments/ld/attachments.qci"
 
-// 12 hit box(es)
-$hbox 0 "Bip01 Spine2" 0.000000 -0.003923 -5.893199 7.032466 11.163653 0.000000
-$hbox 0 "m40a1_stock" -25.629999 -1.340000 -4.410000 2.610000 1.310000 4.220000
-$hbox 0 "m40a1_bolt" -1.110000 0.000000 -0.550000 1.970000 2.750000 0.650000
-$hbox 0 "Bone05" -0.500000 0.000000 -6.740000 0.890000 1.440000 0.000000
-$hbox 0 "Bip01 L Forearm" -0.320000 -1.640000 -1.540000 11.410000 1.940000 2.590000
-$hbox 0 "Bip01 L Hand" 0.000000 -1.050000 -2.120000 4.680000 0.880000 1.870000
-$hbox 0 "Bip01 L Finger0" 0.000000 -0.840000 -0.550000 2.540000 0.460000 0.950000
-$hbox 0 "Bip01 L Finger31" 0.000000 -0.700000 -0.460000 1.136840 0.450000 0.550000
-$hbox 0 "Bip01 R Forearm" -0.390000 -2.110000 -2.020000 11.430000 2.590000 1.120000
-$hbox 0 "Bip01 R Hand" 0.000000 -1.140000 -1.880000 3.800000 0.780000 2.120000
-$hbox 0 "Bip01 R Finger0" 0.000000 -0.810000 -1.110000 2.530000 0.490000 0.460000
-$hbox 0 "Bip01 R Finger31" 0.000000 -0.800000 -0.560000 1.136842 0.360000 0.460000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "draw" "draw" fps 30 
-$sequence "slowidle" "slowidle" fps 23 loop 
-$sequence "fire" "fire" fps 38 { event 5004 32 "weapons/sniper_bolt1.wav" } 
-$sequence "firelastround" "firelastround" fps 38 { event 5004 32 "weapons/sniper_bolt2.wav" } 
-$sequence "reload1" "reload1" fps 34 { event 5004 1 "weapons/sniper_reload_first_seq.wav" } 
-$sequence "reload2" "reload2" fps 27 { event 5004 1 "weapons/sniper_reload_second_seq.wav" } 
-$sequence "reload3" "reload3" fps 34 { event 5004 1 "weapons/sniper_reload_first_seq.wav" } 
-$sequence "slowidle2" "slowidle2" fps 23 loop 
-$sequence "holster" "holster" fps 20 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

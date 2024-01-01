@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "voltigore.mdl"
 $cd "./"
-$cdtexture "../../textures/voltigore"
+$include "../shared/includes/common/voltigore/ld/texturepath.qci"
 $scale 1.0
 
 

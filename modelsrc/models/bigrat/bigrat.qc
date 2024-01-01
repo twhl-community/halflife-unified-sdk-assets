@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "bigrat.mdl"
 $cd "./"
-$cdtexture "../../textures/bigrat"
+$include "../shared/includes/common/bigrat/ld/texturepath.qci"
 $scale 1.0
 
 

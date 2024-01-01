@@ -14,26 +14,19 @@ Original internal name:
 
 $modelname "v_shotgun_guard_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_shotgun"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "studio" "meshes/ld/bshift/v_shotgun_reference"
 
-$body "studio" "meshes/ld/shell"
+$include "includes/bodygroups/ld/shell.qci"
 
 $body "studio" "meshes/ld/v_barney_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 30.000000 1.000000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 5 hit box(es)
 $hbox 0 "Bip01 R Hand" 0.000000 -0.620000 0.000000 26.420000 1.530000 6.260000

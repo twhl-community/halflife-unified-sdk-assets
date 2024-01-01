@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "gonome.mdl"
 $cd "./"
-$cdtexture "../../textures/gonome"
+$include "../shared/includes/common/gonome/ld/texturepath.qci"
 $scale 1.0
 
 

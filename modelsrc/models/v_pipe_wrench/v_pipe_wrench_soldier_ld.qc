@@ -14,40 +14,17 @@ Original internal name:
 
 $modelname "v_pipe_wrench_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_pipe_wrench"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "v_pipe_wrench_reference"
+$include "includes/bodygroups/ld/pipewrench.qci"
 
 $body "studio" "v_pipe_wrench_hands_reference_soldier_ld"
 
-// 2 hit box(es)
-$hbox 0 "Bip01 R Arm2" -0.510000 -2.160000 -2.020000 11.368422 2.550000 1.120000
-$hbox 0 "Bip01 R Hand" -1.310000 -1.230000 -5.220000 5.090000 2.800000 19.870001
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 15 animation sequence(s)
-$sequence "idle1" "idle1" fps 30 
-$sequence "idle2" "idle2" fps 30 loop 
-$sequence "idle3" "idle3" fps 30 loop 
-$sequence "draw" "draw" fps 30 
-$sequence "holster" "holster" fps 30 
-$sequence "attack1hit" "attack1hit" fps 30 
-$sequence "attack1miss" "attack1miss" fps 30 
-$sequence "attack2hit" "attack2hit" fps 30 
-$sequence "attack2miss" "attack2miss" fps 30 
-$sequence "attack3hit" "attack3hit" fps 30 
-$sequence "attack3miss" "attack3miss" fps 30 
-$sequence "attackbigwind" "attackbigwind" fps 30 
-$sequence "attackbighit" "attackbighit" fps 30 
-$sequence "attackbigmiss" "attackbigmiss" fps 30 
-$sequence "attackbigloop" "attackbigloop" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

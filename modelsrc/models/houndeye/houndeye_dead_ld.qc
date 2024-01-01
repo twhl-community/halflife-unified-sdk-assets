@@ -14,43 +14,17 @@ Original internal name:
 
 $modelname "houndeye_dead_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/houndeye"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 27.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/reference4"
+$include "includes/bodygroups/ld/body.qci"
 
 
-// 3 skin families
-$texturegroup skinfamilies 
-{
-{ "eye.bmp" }
-{ "eye1.bmp" }
-{ "eye2.bmp" }
-}
+$include "includes/texturegroups/ld/texturegroups.qci"
 
-// 14 hit box(es)
-$hbox 0 "Bip01 Pelvis" -0.000005 0.000000 -0.130056 1.268482 4.012748 3.533233
-$hbox 0 "Bip01 L Leg" -0.410000 -6.870000 -1.650000 14.191054 4.060000 9.190000
-$hbox 0 "Bip01 L Leg1" 0.000000 -1.500000 2.000000 9.483088 2.130000 5.500000
-$hbox 0 "Bip01 L Foot" -0.270000 0.000000 2.000000 2.210000 4.560000 5.500000
-$hbox 0 "Bip01 Spine" -0.390000 -9.080000 -7.340000 7.116810 6.280000 7.200000
-$hbox 0 "Bip01 Spine1" -3.280000 -10.910000 -8.910000 7.115734 6.890000 8.770000
-$hbox 0 "Bip01 Spine2" -2.780000 -13.740000 -9.230000 7.115577 10.100000 9.080000
-$hbox 0 "Bip01 Spine3" -2.760000 -15.470000 -12.530000 8.510000 12.560000 12.390000
-$hbox 0 "Bip01 Head" -10.530000 -1.130000 -11.930000 15.970000 9.480000 11.780000
-$hbox 0 "Bip01 L Arm1" -0.430000 -4.020000 -1.660000 19.256119 7.830000 5.320000
-$hbox 0 "Bip01 L Arm2" 0.000000 -1.810000 -1.270000 9.940000 2.800000 2.690000
-$hbox 0 "Bip01 R Arm1" 0.000000 -4.020000 -5.580000 19.256117 7.940000 1.530000
-$hbox 0 "Bip01 R Arm2" 0.000000 -1.660000 -2.810000 9.920000 2.790000 1.150000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 1 animation sequence(s)
-$sequence "dead" "animations/ld/dead" fps 30 
+$include "includes/animations/ld/dead.qci"
 
 // End of QC script.

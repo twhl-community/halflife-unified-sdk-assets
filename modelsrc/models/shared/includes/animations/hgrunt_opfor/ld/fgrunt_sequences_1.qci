@@ -1,0 +1,7 @@
+$sequence "dead_on_back" "../shared/animations/hgrunt_opfor/ld/dead_on_back" fps 1
+$sequence "dead_headcrabed" "../shared/animations/hgrunt_opfor/ld/dead_headcrabed" fps 1
+$sequence "hgrunt_dead_stomach" "../shared/animations/hgrunt_opfor/ld/hgrunt_dead_stomach" fps 1
+$sequence "dead_canyon" "../shared/animations/hgrunt_opfor/ld/dead_canyon" fps 1
+$sequence "sitting2" "../shared/animations/hgrunt_opfor/ld/sitting2" fps 8 loop
+$sequence "sitting3" "../shared/animations/hgrunt_opfor/ld/sitting3" fps 6 loop
+$sequence "open_floor_grate" "../shared/animations/hgrunt_opfor/ld/open_floor_grate" fps 25

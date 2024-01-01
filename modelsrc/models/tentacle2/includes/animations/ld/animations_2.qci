@@ -1,0 +1,11 @@
+$sequence "Lev1_Door_reach" "animations/Lev1_Door_reach" fps 15
+$sequence "Lev3_to_Engine" "animations/Lev3_to_Engine" fps 30 rtransition 11 14
+$sequence "Engine_Idle" "animations/Engine_Idle" fps 15 loop ACT_1044 1 node 14
+$sequence "Engine_Sway" "animations/Engine_Sway" fps 15 loop ACT_1044 1 node 14
+$sequence "Engine_Swat" "animations/Engine_Swat" fps 15 loop ACT_1044 1 node 14 { event 1 8 } { event 5002 8 "12" }
+$sequence "Engine_Bob" "animations/Engine_Bob" fps 15 loop ACT_1044 1 node 14
+$sequence "Engine_death1" "animations/Engine_death1" fps 15 node 14
+$sequence "Engine_death2" "animations/Engine_death2" fps 15 node 14
+$sequence "Engine_death3" "animations/Engine_death3" fps 15 node 14
+$sequence "tentacle_grab_idle" "animations/tentacle_grab_idle" fps 1 loop
+$sequence "tentacle_grab" "animations/tentacle_grab" fps 15

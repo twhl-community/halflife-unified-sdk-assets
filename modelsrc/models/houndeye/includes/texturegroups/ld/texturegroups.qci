@@ -1,0 +1,6 @@
+$texturegroup skinfamilies
+{
+{ "eye.bmp" }
+{ "eye1.bmp" }
+{ "eye2.bmp" }
+}

@@ -1,0 +1,4 @@
+$sequence "dead_on_stomach" "../shared/animations/hgrunt/ld/dead_on_stomach" fps 1 
+$sequence "deadstomach" "../shared/animations/hgrunt/ld/deadstomach" fps 1 
+$sequence "deadside" "../shared/animations/hgrunt/ld/deadside" fps 1 
+$sequence "deadsitting" "../shared/animations/hgrunt/ld/deadsitting" fps 1 

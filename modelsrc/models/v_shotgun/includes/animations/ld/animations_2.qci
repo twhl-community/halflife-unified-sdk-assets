@@ -1,0 +1,8 @@
+$sequence "shoot_big" "animations/ld/shoot_big" fps 13 { event 5001 0 "41" }
+$sequence "reload" "animations/ld/reload" fps 16
+$sequence "pump" "animations/ld/pump" fps 13
+$sequence "start_reload" "animations/ld/start_reload" fps 12
+$sequence "draw" "animations/ld/draw" fps 24
+$sequence "reholster" "animations/ld/reholster" fps 30
+$sequence "idle4" "animations/ld/idle4" fps 9 loop
+$sequence "deepidle" "animations/ld/deepidle" fps 12 loop

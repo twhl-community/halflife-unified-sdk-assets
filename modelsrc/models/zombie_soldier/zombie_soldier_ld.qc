@@ -14,13 +14,8 @@ Original internal name:
 
 $modelname "zombie_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/zombie_soldier"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 55.000000
+$include "../shared/includes/common/zombie_soldier/ld/texturepath.qci"
+$include "../shared/includes/common/zombies/ld/common.qci"
 
 
 //reference mesh(es)

@@ -14,53 +14,22 @@ Original internal name:
 
 $modelname "v_desert_eagle_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_desert_eagle"
-$cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "v_desert_eagle_reference"
+$include "includes/bodygroups/ld/desert_eagle.qci"
 
 $body "studio" "v_desert_eagle_hands_reference_hev_hd"
 
-$body "studio" "../v_9mmhandgun/meshes/ld/clip_reference"
+$include "includes/bodygroups/ld/clip.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 13.000000 1.600000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
-// 12 hit box(es)
-$hbox 0 "Bip01 R Arm2" -0.390000 -2.110000 -2.020000 11.430000 2.590000 1.120000
-$hbox 0 "Bip01 R Hand" 0.000000 -1.140000 -1.880000 12.480000 3.060000 6.660000
-$hbox 0 "Bone02" 0.000000 -8.060000 -0.880000 4.430000 0.900000 1.580000
-$hbox 0 "Bip01 L Arm2" -0.400000 -2.110000 -1.220000 11.420000 2.590000 1.920000
-$hbox 0 "Bip01 L Hand" 0.000000 -1.050000 -2.120000 3.790000 0.880000 1.870000
-$hbox 0 "Bip01 L Finger0" 0.000000 -0.840000 -0.550000 2.540000 0.460000 0.950000
-$hbox 0 "Bip01 L Finger1" 0.000000 -0.700000 -0.890000 1.140000 0.370000 0.290000
-$hbox 0 "Bip01 L Finger11" 0.000000 -0.700000 -1.020000 1.136841 0.350000 0.000000
-$hbox 0 "Bip01 L Finger31" 0.000000 -0.700000 -0.460000 1.136840 0.450000 0.550000
-$hbox 0 "Bip01 R Finger0" 0.000000 -0.810000 -1.110000 2.540000 0.490000 0.460000
-$hbox 0 "Bip01 R Finger11" 0.000000 -0.800000 0.000000 1.136840 0.250000 1.010000
-$hbox 0 "Bip01 R Finger31" 0.000000 -0.800000 -0.560000 1.230000 0.360000 0.580000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 11 animation sequence(s)
-$sequence "idle1" "idle1" fps 30 loop 
-$sequence "idle2" "idle2" fps 24 loop 
-$sequence "idle3" "idle3" fps 30 loop 
-$sequence "idle4" "idle4" fps 30 loop 
-$sequence "idle5" "idle5" fps 30 loop 
-$sequence "shoot" "shoot" fps 30 { event 5001 0 "11" } 
-$sequence "shoot_empty" "shoot_empty" fps 27 { event 5001 0 "11" } 
-$sequence "reload" "reload" fps 25 { event 5004 1 "weapons/desert_eagle_reload.wav" } 
-$sequence "reload_noshot" "reload_noshot" fps 25 { event 5004 1 "weapons/desert_eagle_reload.wav" } 
-$sequence "draw" "draw" fps 18 
-$sequence "holster" "holster" fps 22 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

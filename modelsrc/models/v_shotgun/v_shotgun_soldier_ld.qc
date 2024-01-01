@@ -14,26 +14,18 @@ Original internal name:
 
 $modelname "v_shotgun_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_shotgun"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/v_shotgun_reference"
-
-$body "studio" "meshes/ld/shell"
+$include "includes/bodygroups/ld/shotgun.qci"
+$include "includes/bodygroups/ld/shell.qci"
 
 $body "studio" "meshes/ld/v_soldier_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 30.000000 1.000000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 6 hit box(es)
 $hbox 0 "Bip01 R Hand" 0.000000 -0.620000 0.000000 26.420000 1.530000 6.270000
@@ -43,16 +35,8 @@ $hbox 0 "Bip01 L Hand" 0.000000 -1.040000 -2.140000 3.790000 0.880000 1.860000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.920000 -0.580000 3.730000 0.450000 0.790000
 $hbox 0 "Bip01 L Finger31" 0.000000 -0.700000 -0.480000 1.136840 0.450000 0.530000
 
-// 10 animation sequence(s)
-$sequence "sm_idle" "animations/ld/sm_idle" fps 9 loop 
+$include "includes/animations/ld/animations_1.qci"
 $sequence "shoot" "animations/ld/op4/shoot" fps 20 { event 5001 0 "31" } 
-$sequence "shoot_big" "animations/ld/shoot_big" fps 13 { event 5001 0 "41" } 
-$sequence "reload" "animations/ld/reload" fps 16 
-$sequence "pump" "animations/ld/pump" fps 13 
-$sequence "start_reload" "animations/ld/start_reload" fps 12 
-$sequence "draw" "animations/ld/draw" fps 24 
-$sequence "reholster" "animations/ld/reholster" fps 30 
-$sequence "idle4" "animations/ld/idle4" fps 9 loop 
-$sequence "deepidle" "animations/ld/deepidle" fps 12 loop 
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.

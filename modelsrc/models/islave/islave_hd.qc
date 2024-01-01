@@ -14,25 +14,16 @@ Original internal name:
 
 $modelname "islave_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/islave"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 43.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "studio" "meshes/hd/ps2_slave_reference"
 
 
-// 2 attachment(s)
-$attachment 0 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 1 "Bip01 L Hand" 0.000000 0.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
-// 1 bone controller(s)
-$controller 0 "Bip01 Neck1" YR 60.000000 -60.000000
+$include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
 // 39 hit box(es)
 $hbox 6 "Bip01 L Leg" -0.330000 -5.560000 -2.910000 21.709999 4.190000 2.620000

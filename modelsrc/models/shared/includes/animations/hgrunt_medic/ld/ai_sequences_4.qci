@@ -1,0 +1,8 @@
+$sequence "crouching_idle" "../shared/animations/hgrunt_medic/ld/crouching_idle" fps 30 loop
+$sequence "crouching_wait" "../shared/animations/hgrunt_medic/ld/crouching_wait" fps 30 ACT_CROUCH 0
+$sequence "crouching_mp5" "../shared/animations/hgrunt_medic/ld/crouching_mp5_blend1" "../shared/animations/hgrunt_medic/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "50" }
+$sequence "standing_mp5" "../shared/animations/hgrunt_medic/ld/standing_mp5_blend1" "../shared/animations/hgrunt_medic/ld/standing_mp5_blend2" blend XR -45 45 fps 20 loop { event 4 0 } { event 5001 0 "50" }
+$sequence "reload_mp5" "../shared/animations/hgrunt_medic/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 47 }
+$sequence "advance_signal" "../shared/animations/hgrunt_medic/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 }
+$sequence "flank_signal" "../shared/animations/hgrunt_medic/ld/flank_signal" fps 40 ACT_SIGNAL2 1
+$sequence "retreat_signal" "../shared/animations/hgrunt_medic/ld/retreat_signal" fps 30 ACT_SIGNAL3 1

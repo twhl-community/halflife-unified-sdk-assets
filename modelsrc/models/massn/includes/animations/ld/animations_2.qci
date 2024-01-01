@@ -1,0 +1,20 @@
+$sequence "crawling" "animations/ld/crawling" fps 17 { event 1001 120 }
+$sequence "of2a2_speech_idle" "animations/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 }
+$sequence "of2a2_death_speech" "animations/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 }
+$sequence "of1a6_get_on" "animations/ld/of1a6_get_on" fps 10 loop
+$sequence "cpr" "animations/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 }
+$sequence "mic_idle1" "animations/ld/mic_idle1" fps 30
+$sequence "mic_idle2" "animations/ld/mic_idle2" fps 30
+$sequence "mic_idle3" "animations/ld/mic_idle3" fps 30
+$sequence "mic_idle4" "animations/ld/mic_idle4" fps 30
+$sequence "mic_stand" "animations/ld/mic_stand" fps 30
+$sequence "interogation" "animations/ld/interogation" fps 30
+$sequence "interogation_idle" "animations/ld/interogation_idle" fps 30 loop
+
+// intro_commander sequences
+$sequence "intro_stand_idle1" "animations/ld/intro_stand_idle1" fps 15 loop
+$sequence "intro_stand_idle2" "animations/ld/intro_stand_idle2" fps 17 loop
+$sequence "intro_stand_idle3" "animations/ld/intro_stand_idle3" fps 17 loop
+$sequence "intro_stand_fallout" "animations/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 }
+$sequence "intro_stand_react" "animations/ld/stand_react" fps 30
+$sequence "intro_stand_bark" "animations/ld/bark" fps 30

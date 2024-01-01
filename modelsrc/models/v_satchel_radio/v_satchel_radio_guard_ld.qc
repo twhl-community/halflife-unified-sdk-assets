@@ -14,21 +14,16 @@ Original internal name:
 
 $modelname "v_satchel_radio_guard_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_satchel_radio/ld"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_satchel_radio/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "body" "meshes/ld/v_barney_hands_reference"
 
-$body "body" "meshes/ld/satchel_radio_detonator"
+$include "includes/bodygroups/ld/detonator.qci"
 
 
 // 4 hit box(es)

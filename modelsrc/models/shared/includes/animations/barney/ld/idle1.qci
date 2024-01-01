@@ -1,0 +1,1 @@
+$sequence "idle1" "../shared/animations/barney/ld/idle1" fps 15 loop ACT_IDLE 50

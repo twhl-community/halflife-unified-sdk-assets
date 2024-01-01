@@ -1,0 +1,68 @@
+// Opposing Force Barney sequences
+$sequence "turn_lever" "../shared/animations/barney/ld/turn_lever" fps 30
+$sequence "draw_shoot" "../shared/animations/barney/ld/draw_shoot" fps 30 {
+  { event 2 16 }
+  { event 5001 33 "21" }
+  { event 3 33 }
+  { event 5001 63 "21" }
+  { event 3 63 }
+  { event 5001 93 "21" }
+  { event 3 93 }
+  { event 5001 123 "21" }
+  { event 3 123 }
+ }
+
+// Blue Shift Barney sequences
+$sequence "range_fire" "../shared/animations/barney/ld/range_fire" fps 15 {
+  { event 2 1 }
+  { event 5001 9 "21" }
+  { event 3 9 }
+  { event 5001 31 "21" }
+  { event 3 31 }
+  { event 5001 53 "21" }
+  { event 3 53 }
+  { event 5001 75 "21" }
+  { event 3 75 }
+  { event 5001 97 "21" }
+  { event 3 97 }
+  { event 5001 119 "21" }
+  { event 3 119 }
+  { event 1003 150 "end_range_fire" }
+ }
+$sequence "range_pushbutton" "../shared/animations/barney/ld/range_pushbutton" fps 30 {
+  { event 2 1 }
+  { event 1003 20 "rangebutton" }
+  { event 1003 43 "end_range_pushbutton" }
+ }
+$sequence "range_reload" "../shared/animations/barney/ld/range_reload" fps 15 { event 2 1 } { event 1003 41 "end_range_reload" }
+$sequence "adjust_armor" "../shared/animations/barney/ld/adjust_armor" fps 15
+$sequence "wash_hands" "../shared/animations/barney/ld/wash_hands" fps 12 { event 1003 12 "faucet_on" } { event 1003 67 "faucet_off" }
+$sequence "dry_hands" "../shared/animations/barney/ld/dry_hands" fps 12 { event 1003 12 "blower_on" }
+$sequence "eaten" "../shared/animations/barney/ld/eaten" fps 21 { event 1000 1 }
+$sequence "eaten_loop" "../shared/animations/barney/ld/eaten_loop" fps 25 loop
+$sequence "tugged" "../shared/animations/barney/ld/tugged" fps 18 { event 1000 1 }
+$sequence "tugged_idle" "../shared/animations/barney/ld/tugged_idle" fps 18 { event 1000 0 }
+$sequence "block_gate" "../shared/animations/barney/ld/block_gate" fps 15 {
+  { event 1000 315 }
+  { event 1003 315 "cage_door_master_relay" }
+  { event 1003 292 "barney_dies_seq_relay_ct" }
+  { event 1008 315 "common/bodydrop3.WAV" }
+ }
+$sequence "block_gate_idle" "../shared/animations/barney/ld/block_gate_idle" fps 15 loop
+$sequence "gatedie" "../shared/animations/barney/ld/gatedie" fps 34 ACT_DIESIMPLE 2 {
+  { event 2001 5 }
+  { event 1000 0 }
+  { event 1003 1 "cage_door_master_relay" }
+ }
+$sequence "tram_dive" "../shared/animations/barney/ld/tram_dive" fps 27 { event 1000 1 }
+$sequence "tram_slouch" "../shared/animations/barney/ld/tram_slouch" fps 30 loop
+$sequence "tram_slouch_fly" "../shared/animations/barney/ld/tram_slouch_fly" fps 30 { event 1000 1 }
+$sequence "playgame1" "../shared/animations/barney/ld/playgame1" fps 25 loop
+$sequence "playgame2" "../shared/animations/barney/ld/playgame2" fps 25 { event 1000 1 }
+$sequence "raise_flag" "../shared/animations/barney/ld/raise_flag" fps 20 loop
+$sequence "eating" "../shared/animations/barney/ld/eating" fps 13 loop
+$sequence "console_sitting" "../shared/animations/barney/ld/console_sitting" fps 25 loop
+$sequence "console_stand" "../shared/animations/barney/ld/console_stand" LX fps 27
+$sequence "adjust_idle" "../shared/animations/barney/ld/adjust_idle" fps 27 loop
+$sequence "diecrump2" "../shared/animations/barney/ld/diecrump2" X fps 18 ACT_DIESIMPLE 2 { event 2001 13 } { event 1000 0 }
+$sequence "dieviolent2" "../shared/animations/barney/ld/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 }

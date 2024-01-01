@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "v_grenade_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_grenade/hd"
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_grenade/hd/texturepath.qci"
 $scale 1.0
 
 

@@ -14,18 +14,13 @@ Original internal name:
 
 $modelname "v_rpg_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_rpg/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_rpg/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/hd/v_rpg_reference"
+$include "includes/bodygroups/hd/base.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
@@ -41,16 +36,6 @@ $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -1.710000 3.920000 0.870000 1.820000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.940000 -1.000000 2.450000 0.390000 0.540000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 9 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 15 loop 
-$sequence "fidget" "animations/hd/fidget" fps 15 loop 
-$sequence "reload" "animations/hd/reload" fps 30 
-$sequence "fire" "animations/hd/fire" fps 30 
-$sequence "holster1" "animations/hd/holster1" fps 30 
-$sequence "draw1" "animations/hd/draw1" fps 30 
-$sequence "holster2" "animations/hd/holster2" fps 30 
-$sequence "draw2" "animations/hd/draw2" fps 30 
-$sequence "idle2" "animations/hd/idle2" fps 15 loop 
-$sequence "fidget2" "animations/hd/fidget2" fps 15 loop 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

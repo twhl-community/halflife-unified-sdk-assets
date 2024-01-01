@@ -1,0 +1,5 @@
+$sequence "idle1" "animations/hd/idle1" fps 30 loop
+$sequence "fidget1" "animations/hd/fidget1" fps 40
+$sequence "draw" "animations/hd/draw" fps 30
+$sequence "fire" "animations/hd/fire" fps 50
+$sequence "holster" "animations/hd/holster" fps 30

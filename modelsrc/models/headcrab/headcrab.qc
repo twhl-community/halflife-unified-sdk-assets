@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "headcrab.mdl"
 $cd "./"
-$cdtexture "../../textures/headcrab"
+$include "../shared/includes/common/headcrab/ld/texturepath.qci"
 $scale 1.0
 
 

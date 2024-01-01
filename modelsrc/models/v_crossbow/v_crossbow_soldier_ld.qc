@@ -14,19 +14,14 @@ Original internal name:
 
 $modelname "v_crossbow_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_crossbow/ld"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_crossbow/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/compound_scope"
+$include "includes/bodygroups/ld/base.qci"
 
 $body "body" "meshes/ld/v_soldier_hands_reference"
 
@@ -41,18 +36,6 @@ $hbox 0 "Xbow biped L Hand" 0.000000 -1.050000 -2.120000 3.790000 0.880000 1.870
 $hbox 0 "Xbow biped L Finger0" 0.000000 -0.840000 -0.530000 2.530000 0.350000 0.950000
 $hbox 0 "Xbow biped L Finger31" 0.000000 -0.700000 -0.460000 1.136840 0.450000 0.550000
 
-// 12 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "idle2" "animations/ld/idle2" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "fidget2" "animations/ld/fidget2" fps 30 
-$sequence "fire1" "animations/ld/fire1" fps 60 
-$sequence "fire2" "animations/ld/fire2" fps 30 
-$sequence "fire3" "animations/ld/fire3" fps 30 
-$sequence "reload" "animations/ld/reload" fps 30 
-$sequence "draw1" "animations/ld/draw1" fps 30 
-$sequence "draw2" "animations/ld/draw2" fps 30 
-$sequence "holster1" "animations/ld/holster1" fps 30 
-$sequence "holster2" "animations/ld/holster2" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

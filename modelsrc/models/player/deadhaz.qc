@@ -14,27 +14,15 @@ Original internal name:
 
 $modelname "deadhaz.mdl"
 $cd "./"
-$cdtexture "../../textures/player/gordon"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/player/ld/gordon/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "player_template_biped(No_Head)1"
-
-$bodygroup "head"
-{
-studio "player_template_biped(Gordon_Head)1"
-studio "player_template_biped(Helmet)1"
-}
+$include "includes/bodygroups/ld/gordon/bodygroups.qci"
 
 
-// 1 bone controller(s)
-$controller 4 "Bone02" ZR 0.000000 30.000000
+$include "includes/bonecontrollers/ld/mouth.qci"
 
 // 26 hit box(es)
 $hbox 0 "Bip01 Pelvis" -4.700000 -4.440000 -6.760000 3.050000 5.580000 6.450000
@@ -64,10 +52,6 @@ $hbox 0 "Bip01 R Arm2" 0.000000 -1.980000 -2.350000 10.590000 2.720000 2.240000
 $hbox 0 "Bip01 R Hand" 0.000000 -0.820000 -1.400000 3.240000 0.710000 2.360000
 $hbox 0 "Bip01 R Finger1" 0.000000 -0.330000 -1.600000 1.438886 0.750000 1.530000
 
-// 4 animation sequence(s)
-$sequence "deadback" "deadback" fps 10 
-$sequence "deadsitting" "deadsitting" fps 10 
-$sequence "deadstomach" "deadstomach" fps 10 
-$sequence "deadtable" "deadtable" fps 10 
+$include "includes/animations/ld/dead_sequences.qci"
 
 // End of QC script.

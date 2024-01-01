@@ -1,0 +1,2 @@
+$sequence "strafeleft" "../shared/animations/hgrunt/ld/strafeleft" LX LY fps 30 loop ACT_STRAFE_LEFT 1 
+$sequence "straferight" "../shared/animations/hgrunt/ld/straferight" LX LY fps 30 loop ACT_STRAFE_RIGHT 1 

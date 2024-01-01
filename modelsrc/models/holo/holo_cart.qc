@@ -14,61 +14,19 @@ Original internal name:
 
 $modelname "holo_cart.mdl"
 $cd "./"
-$cdtexture "../../textures/holo"
-$cdtexture "../../textures/player/gordon"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hologram"
+$include "includes/bodygroups/ld/body.qci"
 
 
-// 1 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
-$controller 4 "Bone02" ZR 0.000000 16.000000
+$include "includes/bonecontrollers/ld/bonecontrollers.qci"
 
-// 25 hit box(es)
-$hbox 0 "Bip01 Pelvis" -4.700000 -4.290000 -6.713255 1.293670 5.600000 5.713255
-$hbox 0 "Bip01 L Leg" 0.000000 -3.590000 -3.050000 20.680000 5.000000 3.070000
-$hbox 0 "Bip01 L Leg1" 0.000000 -3.400000 -2.850000 17.597597 3.380000 2.730000
-$hbox 0 "Bip01 L Foot" 0.000000 -1.790000 -2.170000 3.810000 6.407221 2.050000
-$hbox 0 "Bip01 L Toe0" 0.000000 0.000000 -2.170000 1.600000 2.000000 2.050000
-$hbox 0 "Bip01 R Leg" 0.000000 -3.590000 -2.470000 20.680000 5.000000 3.650000
-$hbox 0 "Bip01 R Leg1" 0.000000 -3.400000 -2.300000 17.597597 3.380000 3.450000
-$hbox 0 "Bip01 R Foot" 0.000000 -1.790000 -1.500000 3.810000 6.407221 2.400000
-$hbox 0 "Bip01 R Toe0" 0.000000 0.000000 -1.500000 1.600000 2.000000 2.400000
-$hbox 0 "Bip01 Spine" -2.000000 -4.310000 -6.030000 5.309684 4.910000 5.400000
-$hbox 0 "Bip01 Spine1" -1.000000 -3.200000 -4.260000 4.826788 3.800000 3.770000
-$hbox 0 "Bip01 Spine2" -1.030000 -3.910000 -5.980000 5.792766 6.520000 5.450000
-$hbox 0 "Bip01 Spine3" -1.000000 -5.260000 -5.470000 7.980000 0.250000 5.130000
-$hbox 0 "Bip01 Spine3" -1.000000 0.250000 -5.470000 3.980000 5.400000 5.130000
-$hbox 0 "Bip01 Neck" -2.000000 -1.300000 -2.200000 2.300000 3.000000 1.700000
-$hbox 0 "Bip01 Head" -1.750000 -4.590000 -3.380000 8.080000 4.190000 2.740000
-$hbox 0 "Bip01 L Arm" 0.000000 -2.590000 -6.350000 4.827231 4.000000 3.210000
-$hbox 0 "Bip01 L Arm1" -0.250000 -2.160000 -3.100000 12.000000 2.990000 1.540000
-$hbox 0 "Bip01 L Arm2" 0.000000 -1.690000 -1.700000 10.710000 2.410000 1.600000
-$hbox 0 "Bip01 L Hand" 0.000000 -0.570000 -1.400000 2.975835 0.880000 1.530000
-$hbox 0 "Bip01 L Finger0" 0.000000 -0.100000 0.050000 1.000000 0.700000 0.800000
-$hbox 0 "Bip01 L Finger01" -0.200000 -0.100000 0.050000 1.100000 0.700000 0.800000
-$hbox 0 "Bip01 L Finger1" -0.200000 -0.220000 -1.170000 1.400000 0.880000 1.300000
-$hbox 0 "Bip01 L Finger11" -0.200000 0.100000 -1.020000 2.100000 1.200000 1.000000
-$hbox 0 "Bip01 R Arm" 0.000000 -2.550000 -3.360000 4.972047 4.000000 6.330000
-$hbox 0 "Bip01 R Arm1" 0.000000 -2.270000 -1.660000 12.500000 2.880000 2.600000
-$hbox 0 "Bip01 R Arm2" 0.000000 -1.830000 -1.760000 10.600000 2.280000 1.350000
-$hbox 0 "Bip01 R Hand" 0.000000 -0.900000 -1.400000 2.750000 0.570000 1.530000
-$hbox 0 "Bip01 R Finger0" 0.000000 -0.300000 -0.800000 1.000000 0.500000 -0.050000
-$hbox 0 "Bip01 R Finger01" -0.200000 -0.300000 -0.800000 1.400000 0.500000 -0.050000
-$hbox 0 "Bip01 R Finger1" -0.200000 -0.500000 -1.170000 1.400000 0.580000 1.300000
-$hbox 0 "Bip01 R Finger11" -0.300000 -0.300000 -0.900000 2.400000 0.750000 1.200000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 27 animation sequence(s)
-$sequence "troom_talkidle_1" "animations/troom_talkidle_1" fps 14 loop ACT_IDLE 1 
-$sequence "troom_talkidle_2" "animations/troom_talkidle_2" fps 14 loop ACT_IDLE 1 
+$include "includes/animations/ld/troom_talkidle_1.qci"
+$include "includes/animations/ld/troom_talkidle_2.qci"
 
 // Blue Shift sequences
 $sequence "pushcart" "animations/pushcart" LX fps 23 loop ACT_WALK 1 

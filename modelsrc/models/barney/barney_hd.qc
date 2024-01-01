@@ -14,70 +14,23 @@ Original internal name:
 
 $modelname "barney_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/barney"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 63.000000
+$include "../shared/includes/common/barney/ld/texturepath.qci"
+$include "../shared/includes/common/barney/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/BARNEY-X_Template_Biped1"
-
-$bodygroup "gun"
-{
-blank
-studio "meshes/hd/BARNEY-X_Template_Biped(Gun-Hlstr)1"
-studio "meshes/hd/BARNEY-X_Template_Biped(Gun)1"
-}
+$include "includes/bodygroups/hd/body.qci"
+$include "includes/bodygroups/hd/gun.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 15.000000 3.500000 5.000000
+$include "../shared/includes/attachments/barney/ld/attachments.qci"
 
-// 2 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
-$controller 4 "Bone05" ZR 0.000000 25.000000
+$include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
+$include "../shared/includes/bonecontrollers/barney/hd/mouth.qci"
 
-// 20 hit box(es)
-$hbox 3 "Bip01 Pelvis" -4.890000 -5.660000 -6.600000 2.940000 6.520000 7.600000
-$hbox 6 "Bip01 L Leg" 0.000000 -4.700000 -3.100000 19.370001 3.780000 3.730000
-$hbox 6 "Bip01 L Leg1" 0.000000 -4.690000 -3.500000 16.830000 3.070000 3.100000
-$hbox 6 "Bip01 L Foot" 0.000000 -2.600000 -3.000000 6.100000 9.100000 2.400000
-$hbox 7 "Bip01 R Leg" 0.000000 -4.700000 -3.870000 19.270000 3.750000 3.100000
-$hbox 7 "Bip01 R Leg1" -0.330000 -4.730000 -3.400000 16.830000 3.400000 3.190000
-$hbox 7 "Bip01 R Foot" 0.000000 -2.600000 -2.400000 6.100000 9.100000 3.000000
-$hbox 3 "Bip01 Spine" 0.000000 -5.890000 -6.970000 9.500000 6.600000 6.730000
-$hbox 2 "Bip01 Spine1" -1.000000 -6.000000 -7.300000 8.110000 7.000000 7.300000
-$hbox 2 "Bip01 Spine1" 7.000000 -5.000000 -3.220000 11.960000 5.000000 3.480000
-$hbox 4 "Bip01 L Arm" -0.400000 -4.180000 -2.000000 7.000000 4.750000 2.300000
-$hbox 4 "Bip01 L Arm1" -1.690000 -3.300000 -3.920000 12.500000 3.000000 2.300000
-$hbox 4 "Bip01 L Arm2" 0.000000 -2.500000 -2.500000 10.000000 2.800000 1.750000
-$hbox 4 "Bip01 L Hand" 0.000000 -1.000000 -1.800000 4.660000 1.200000 1.800000
-$hbox 4 "Bip01 L Finger01" -0.200000 -0.200000 -0.600000 1.500000 0.900000 0.600000
-$hbox 4 "Bip01 L Finger02" -0.200000 -0.200000 -0.500000 1.450000 0.700000 0.500000
-$hbox 4 "Bip01 L Finger1" -0.200000 -0.450000 -0.400000 1.500000 0.800000 0.400000
-$hbox 4 "Bip01 L Finger11" -0.200000 -0.350000 -0.400000 1.500000 0.550000 0.400000
-$hbox 4 "Bip01 L Finger12" -0.200000 -0.300000 -0.350000 1.250000 0.400000 0.350000
-$hbox 4 "Bip01 L Finger2" -0.200000 -0.450000 -0.550000 1.700000 0.850000 2.200000
-$hbox 4 "Bip01 L Finger21" -0.200000 -0.350000 -0.550000 1.700000 0.600000 2.000000
-$hbox 4 "Bip01 L Finger22" -0.200000 -0.250000 -0.550000 1.300000 0.500000 1.800000
-$hbox 5 "Bip01 R Arm" 0.000000 -4.150000 -2.300000 7.000000 4.180000 2.000000
-$hbox 5 "Bip01 R Arm1" -1.690000 -3.300000 -2.300000 12.500000 3.000000 3.920000
-$hbox 5 "Bip01 R Arm2" 0.000000 -2.500000 -1.750000 10.000000 2.800000 2.500000
-$hbox 5 "Bip01 R Hand" 0.000000 -1.000000 -1.800000 4.660000 1.200000 1.800000
-$hbox 5 "Bip01 R Finger01" -0.200000 -0.200000 -0.600000 1.500000 0.900000 0.600000
-$hbox 5 "Bip01 R Finger02" -0.200000 -0.200000 -0.500000 1.450000 0.700000 0.500000
-$hbox 5 "Bip01 R Finger1" -0.200000 -0.450000 -0.400000 1.500000 0.800000 0.400000
-$hbox 5 "Bip01 R Finger11" -0.200000 -0.350000 -0.400000 1.500000 0.550000 0.400000
-$hbox 5 "Bip01 R Finger12" -0.200000 -0.300000 -0.350000 1.250000 0.400000 0.350000
-$hbox 5 "Bip01 R Finger2" -0.200000 -0.450000 -2.200000 1.700000 0.850000 0.550000
-$hbox 5 "Bip01 R Finger21" -0.200000 -0.350000 -2.000000 1.700000 0.600000 0.550000
-$hbox 5 "Bip01 R Finger22" -0.200000 -0.250000 -1.800000 1.300000 0.500000 0.550000
+$include "../shared/includes/hitboxes/barney/hd/hitboxes.qci"
 $hbox 1 "Bip01 Head" -0.500000 1.250000 -3.500000 6.000000 6.300000 3.500000
-$hbox 1 "Bip01 Neck" -2.000000 -1.800000 -2.800000 2.500000 4.200000 2.700000
+$include "../shared/includes/hitboxes/barney/hd/neck.qci"
 $hbox 10 "Bip01 Head" -0.400000 -5.000000 -4.600000 6.000000 1.250000 4.600000
 $hbox 10 "Bip01 Head" 6.000000 -5.000000 -4.000000 10.700000 6.700000 4.000000
 
@@ -246,16 +199,7 @@ $sequence "diecrump2" "animations/hd/diecrump2" X fps 18 ACT_DIESIMPLE 2 { event
 $sequence "dieviolent2" "animations/hd/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 } 
 
 // Opposing Force Otis sequences
-$sequence "otis_fence" "../shared/animations/otis/hd/fence" AX AY AZR fps 24 {
-  { event 1000 49 } 
-  { event 1003 49 "lightning" } 
-  { event 1001 49 } 
-  { event 1004 51 "weapons/electro4.wav" } 
-  { event 1008 85 "barney/ba_pain2.wav" } 
- }
-$sequence "dead_sitting" "../shared/animations/otis/hd/dead_sitting" fps 1 
-$sequence "otis_wave" "../shared/animations/otis/hd/wave" fps 24 
-$sequence "cowering" "../shared/animations/otis/hd/cowering" fps 15 loop 
+$include "../shared/includes/animations/otis/hd/animations_1.qci"
 
 // Blue Shift Otis sequences
 $sequence "otis_range_fire" "../shared/animations/otis/hd/range_fire" fps 28 loop {
@@ -264,7 +208,6 @@ $sequence "otis_range_fire" "../shared/animations/otis/hd/range_fire" fps 28 loo
   { event 1008 47 "barney/ba_attack2.wav" } 
   { event 1003 47 "barn_miss" } 
  }
-$sequence "otis_dumped" "../shared/animations/otis/hd/otis_dumped" fps 28 { event 1000 1 } 
-$sequence "otis_dumped_idle" "../shared/animations/otis/hd/otis_dumped_idle" fps 28 loop 
+$include "../shared/includes/animations/otis/hd/animations_2.qci"
 
 // End of QC script.

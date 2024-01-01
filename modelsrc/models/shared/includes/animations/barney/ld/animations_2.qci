@@ -1,0 +1,22 @@
+$sequence "fence" "../shared/animations/barney/ld/fence" AX AY AZR fps 24 {
+  { event 1000 70 }
+  { event 1003 70 "lightning" }
+  { event 1001 70 }
+  { event 1004 72 "weapons/electro4.wav" }
+  { event 1008 100 "barney/ba_pain2.wav" }
+ }
+$sequence "sit1" "../shared/animations/barney/ld/sit1" fps 20 loop { event 1003 50 "introchair" } { event 1003 102 "introchair" }
+$sequence "almostidle" "../shared/animations/barney/ld/almostidle" fps 16 loop
+$sequence "almost" "../shared/animations/barney/ld/almost" fps 26 { event 1000 1 }
+$sequence "laseridle" "../shared/animations/barney/ld/laseridle" fps 6
+$sequence "laser_top" "../shared/animations/barney/ld/laser_top" fps 6 { event 1000 0 }
+$sequence "laser_bottom" "../shared/animations/barney/ld/laser_bottom" fps 6 { event 1000 0 }
+$sequence "barneyfallidle" "../shared/animations/barney/ld/barneyfallidle" fps 33 loop
+$sequence "barneyfall" "../shared/animations/barney/ld/barneyfall" fps 32 {
+  { event 1000 1 }
+  { event 1008 2 "barney/ba_pain1.wav" }
+  { event 1008 24 "barney/ba_pain2.wav" }
+  { event 1003 55 "bsplat" }
+  { event 1008 55 "debris/bustflesh1.wav" }
+ }
+$sequence "c3a2_draw" "../shared/animations/barney/ld/c3a2_draw" fps 16 { event 2 13 }

@@ -1,0 +1,23 @@
+$sequence "crouching_mp5" "../shared/animations/hgrunt/ld/crouching_mp5_blend1" "../shared/animations/hgrunt/ld/crouching_mp5_blend2" blend XR -45 45 fps 20 loop ACT_RANGE_ATTACK1 1 {
+  { event 4 0 } 
+  { event 5 2 } 
+  { event 6 4 } 
+  { event 5001 0 "50" } 
+  { event 5001 2 "50" } 
+  { event 5001 4 "50" } 
+ }
+$sequence "standing_mp5" "../shared/animations/hgrunt/ld/standing_mp5_blend1" "../shared/animations/hgrunt/ld/standing_mp5_blend2" blend XR -45 45 fps 20 loop {
+  { event 4 0 } 
+  { event 5 2 } 
+  { event 6 4 } 
+  { event 5001 0 "50" } 
+  { event 5001 2 "50" } 
+  { event 5001 4 "50" } 
+ }
+$sequence "reload_mp5" "../shared/animations/hgrunt/ld/reload_mp5" fps 40 ACT_RELOAD 1 { event 2 47 } 
+$sequence "crouching_shotgun" "../shared/animations/hgrunt/ld/crouching_shotgun_blend1" "../shared/animations/hgrunt/ld/crouching_shotgun_blend2" blend XR -45 45 fps 20 ACT_RANGE_ATTACK1 1 { event 4 0 } { event 5001 0 "51" } 
+$sequence "standing_shotgun" "../shared/animations/hgrunt/ld/standing_shotgun_blend1" "../shared/animations/hgrunt/ld/standing_shotgun_blend2" blend XR -45 45 fps 20 { event 4 0 } { event 5001 0 "51" } 
+$sequence "reload_shotgun" "../shared/animations/hgrunt/ld/reload_shotgun" fps 40 { event 2 47 } 
+$sequence "advance_signal" "../shared/animations/hgrunt/ld/advance_signal" fps 30 ACT_SIGNAL1 1 { event 10 1 } 
+$sequence "flank_signal" "../shared/animations/hgrunt/ld/flank_signal" fps 40 ACT_SIGNAL2 1 
+$sequence "retreat_signal" "../shared/animations/hgrunt/ld/retreat_signal" fps 30 ACT_SIGNAL3 1 

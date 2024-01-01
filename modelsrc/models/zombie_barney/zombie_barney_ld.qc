@@ -14,40 +14,15 @@ Original internal name:
 
 $modelname "zombie_barney_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/zombie_barney"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 55.000000
+$include "../shared/includes/common/zombie_barney/ld/texturepath.qci"
+$include "../shared/includes/common/zombies/ld/common.qci"
 
 
 //reference mesh(es)
 $body "studio" "meshes/zombie_barney_reference"
 
 
-// 20 hit box(es)
-$hbox 6 "Bip01 L Leg" 0.000000 -7.370000 -3.070000 18.330000 3.790000 3.920000
-$hbox 6 "Bip01 L Leg1" 0.000000 -5.410000 -3.290000 18.330000 1.660000 2.830000
-$hbox 6 "Bip01 L Foot" -1.240000 -2.870000 -2.870000 2.170000 8.130000 1.150000
-$hbox 7 "Bip01 R Leg" 0.000000 -7.610000 -4.480000 18.330000 3.830000 2.850000
-$hbox 7 "Bip01 R Leg1" 0.000000 -5.710000 -3.290000 18.330000 1.670000 2.740000
-$hbox 7 "Bip01 R Foot" -1.250000 -2.870000 -2.070000 2.160000 8.160000 1.750000
-$hbox 3 "Bip01 Pelvis" -8.580000 -4.740000 -7.000000 1.560000 5.330000 6.820000
-$hbox 3 "Bip01 Spine" -0.420000 -3.390000 -6.360000 4.960000 7.360000 6.420000
-$hbox 3 "Bip01 Spine1" 0.000000 -3.410000 -8.130000 4.770000 4.990000 8.370000
-$hbox 2 "Bip01 Spine2" 0.000000 -1.150000 -9.320000 6.380000 7.040000 6.300000
-$hbox 2 "Bip01 Spine3" -1.830000 -7.110000 -9.670000 11.870000 7.400000 8.880000
-$hbox 1 "Bip01 Head" -3.240000 -6.890000 -5.100000 8.770000 8.960000 7.940000
-$hbox 4 "Bip01 L Arm" 0.000000 -4.150000 -0.950000 5.770000 4.010000 2.810000
-$hbox 4 "Bip01 L Arm1" -3.040000 -3.420000 -2.510000 18.570000 2.910000 2.960000
-$hbox 4 "Bip01 L Arm2" 0.000000 -2.900000 -2.330000 14.800000 1.950000 2.060000
-$hbox 4 "Bip01 L Hand" -0.590000 -1.470000 -1.680000 5.320000 0.570000 2.810000
-$hbox 5 "Bip01 R Arm" 0.000000 -4.640000 -5.640000 5.860000 1.560000 0.000000
-$hbox 5 "Bip01 R Arm1" -3.880000 -4.380000 -3.370000 18.780001 2.620000 2.200000
-$hbox 5 "Bip01 R Arm2" 0.000000 -1.400000 -1.610000 15.650000 1.530000 2.760000
-$hbox 5 "Bip01 R Hand" -0.590000 -1.470000 -1.680000 5.320000 0.570000 2.810000
+$include "../shared/includes/hitboxes/zombies/ld/hitboxes.qci"
 
 
 // 44 animation sequence(s)
@@ -103,21 +78,6 @@ $sequence "vent_c1a3" "animations/vent_c1a3" AX AY AZR fps 18 { event 1000 1 }
 $sequence "haulzombie" "animations/haulzombie" AX AY AZR fps 18 
 $sequence "c2a3_snack_getup" "animations/c2a3_snack_getup" AX AY AZR fps 12 
 
-// Opposing Force sequences
-$sequence "dead_on_back" "../shared/animations/zombies/dead_on_back" fps 30 
-$sequence "dead_on_stomach" "../shared/animations/zombies/dead_on_stomach" fps 30 
-$sequence "throw_scientist" "../shared/animations/zombies/throw_scientist" fps 25 {
-  { event 1004 33 "zombie/claw_strike3.wav" } 
-  { event 1004 36 "zombie/claw_strike3.wav" } 
-  { event 1004 60 "zombie/zo_attack1.wav" } 
- }
-$sequence "get_off_table" "../shared/animations/zombies/get_off_table" fps 25 
-$sequence "table_breathe" "../shared/animations/zombies/table_breathe" fps 30 loop 
-
-// Blue Shift sequences
-$sequence "left_tug" "../shared/animations/zombies/left_tug" fps 18 
-$sequence "left_tug_idle" "../shared/animations/zombies/left_tug_idle" fps 18 
-$sequence "right_tug" "../shared/animations/zombies/right_tug" fps 18 
-$sequence "right_tug_idle" "../shared/animations/zombies/right_tug_idle" fps 18 
+$include "../shared/includes/animations/zombies/ld/animations.qci"
 
 // End of QC script.

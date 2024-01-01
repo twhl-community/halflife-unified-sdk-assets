@@ -14,34 +14,20 @@ Original internal name:
 
 $modelname "v_357_hev_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_357/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_357/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "gun" "meshes/ld/python_gun"
-
-$body "bullets" "meshes/ld/python_bullets"
-
-$body "speedload" "meshes/ld/python_speedload"
+$include "includes/bodygroups/ld/base.qci"
 
 $body "hands" "meshes/ld/v_gordon_hands_reference"
 
-$bodygroup "scope"
-{
-blank
-studio "meshes/ld/python_lasersight"
-}
+$include "includes/bodygroups/ld/scope.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "python_master" 0.000000 -14.000000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 8 hit box(es)
 $hbox 0 "Bip01 R Arm2" 0.000000 -2.800000 -4.000000 11.368423 3.020000 1.730000
@@ -53,14 +39,6 @@ $hbox 0 "Bip01 L Arm2" 0.000000 -2.800000 -1.730000 11.680000 3.020000 4.000000
 $hbox 0 "Bip01 L Hand" 0.000000 -0.870000 -1.940000 3.890000 1.030000 1.790000
 $hbox 0 "sight_master" -1.050000 -1.580000 -0.770000 1.140000 1.900000 4.710000
 
-// 8 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "fire1" "animations/ld/fire1" fps 30 { event 5001 0 "31" } 
-$sequence "reload" "animations/ld/reload" fps 36 { event 5004 70 "weapons/357_reload1.wav" } 
-$sequence "holster" "animations/ld/holster" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "idle2" "animations/ld/idle2" fps 30 loop 
-$sequence "idle3" "animations/ld/idle3" fps 30 loop 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

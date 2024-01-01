@@ -1,0 +1,48 @@
+$sequence "cut_floor_grate" "animations/ld/cut_floor_grate" fps 25 {
+  { event 18 15 }
+  { event 1004 15 "fgrunt/torch_light.wav" }
+  { event 1004 24 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 99 "fgrunt/torch_light.wav" }
+ }
+$sequence "wounded" "animations/ld/wounded" fps 15 loop { event 19 1 }
+$sequence "get_up" "animations/ld/get_up" fps 15 { event 19 1 } { event 18 45 }
+$sequence "pull_torch_wgun" "animations/ld/pull_torch_wgun" fps 30 {
+  { event 19 20 }
+  { event 18 50 }
+  { event 20 85 }
+  { event 1004 85 "fgrunt/torch_light.wav" }
+ }
+$sequence "store_torch" "animations/ld/store_torch" fps 30 {
+  { event 18 1 }
+  { event 21 36 }
+  { event 19 65 }
+  { event 17 78 }
+ }
+$sequence "pull_torch_nogun" "animations/ld/pull_torch_nogun" fps 30 {
+  { event 18 1 }
+  { event 20 22 }
+  { event 1004 22 "fgrunt/torch_light.wav" }
+ }
+$sequence "cut_door_wgun" "animations/ld/cut_door_wgun" fps 9 {
+  { event 1004 8 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 35 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 62 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 89 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 116 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 143 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 170 "fgrunt/torch_cut_loop.wav" }
+  { event 21 170 }
+  { event 1004 170 "fgrunt/torch_light.wav" }
+  { event 19 189 }
+  { event 17 193 }
+ }
+$sequence "cut_door_nogun" "animations/ld/cut_door_nogun" fps 9 {
+  { event 1004 8 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 35 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 62 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 89 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 116 "fgrunt/torch_cut_loop.wav" }
+  { event 1004 143 "fgrunt/torch_cut_loop.wav" }
+  { event 21 165 }
+  { event 1004 165 "fgrunt/torch_light.wav" }
+ }

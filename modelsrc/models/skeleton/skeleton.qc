@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "skeleton.mdl"
 $cd "./"
-$cdtexture "../../textures/skeleton"
+$include "../shared/includes/common/skeleton/ld/texturepath.qci"
 $scale 1.0
 
 

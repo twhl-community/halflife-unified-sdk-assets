@@ -1,0 +1,6 @@
+$sequence "idle1" "animations/ld/idle1" fps 16 loop
+$sequence "fidgetfit" "animations/ld/fidgetfit" fps 16
+$sequence "fidgetnip" "animations/ld/fidgetnip" fps 16
+$sequence "down" "animations/ld/down" fps 16
+$sequence "up" "animations/ld/up" fps 30
+$sequence "throw" "animations/ld/throw" fps 24

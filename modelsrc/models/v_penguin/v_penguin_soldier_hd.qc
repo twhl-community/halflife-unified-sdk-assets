@@ -15,45 +15,18 @@ Original internal name:
 $modelname "v_penguin_soldier_hd.mdl"
 $cd "./"
 $cdtexture "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_penguin"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "body" "v_hands_reference_soldier_hd"
 
-$body "body" "v_penguin_reference"
+$include "includes/bodygroups/ld/penguin.qci"
 
 
-// 15 hit box(es)
-$hbox 0 "Bip01 L Forearm" -0.400000 -2.110000 -1.220000 11.420000 2.590000 1.920000
-$hbox 0 "Bip01 L Hand" 0.000000 -1.050000 -2.120000 3.790000 0.880000 1.870000
-$hbox 0 "Bip01 L Finger0" 0.000000 -0.840000 -0.550000 2.540000 0.460000 0.950000
-$hbox 0 "Bip01 L Finger31" 0.000000 -0.700000 -0.460000 1.136840 0.450000 0.550000
-$hbox 0 "Bip01 R Forearm" -0.390000 -2.110000 -2.020000 11.430000 2.590000 1.120000
-$hbox 0 "Bip01 R Hand" 0.000000 -1.140000 -1.880000 3.800000 2.206085 2.120000
-$hbox 0 "Bip01 R Finger0" 0.000000 -0.810000 -1.110000 2.530000 0.490000 0.460000
-$hbox 0 "Bip01 R Finger31" 0.000000 -0.800000 -0.560000 1.230000 0.360000 0.580000
-$hbox 0 "Root" -2.700000 -2.410000 -2.310000 2.680000 2.620000 2.749566
-$hbox 0 "Bone19" -2.390000 -2.450000 0.000000 2.410000 1.780000 3.547147
-$hbox 0 "Bone20" -2.229263 -1.860000 -1.243142 2.229265 1.985012 0.760000
-$hbox 0 "Bone21" -1.060000 -2.010000 0.000000 1.070000 0.440000 2.320000
-$hbox 0 "Bone24" -1.280000 -0.640000 -4.340000 1.340000 2.800000 0.840000
-$hbox 0 "Bone28" 0.000000 -0.880000 -4.800000 1.150000 1.130000 0.000000
-$hbox 0 "Bone30" -1.150000 -0.880000 -4.800000 0.000000 1.130000 0.000000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 6 animation sequence(s)
-$sequence "idle1" "idle1" fps 16 loop 
-$sequence "fidgetfit" "fidgetfit" fps 16 
-$sequence "fidgetnip" "fidgetnip" fps 16 
-$sequence "down" "down" fps 16 
-$sequence "up" "up" fps 30 
-$sequence "throw" "throw" fps 24 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

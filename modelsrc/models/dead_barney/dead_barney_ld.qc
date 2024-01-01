@@ -14,56 +14,31 @@ Original internal name:
 
 $modelname "dead_barney_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/dead_barney"
-$cdtexture "../../textures/barney"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 63.000000
+$include "includes/common/ld/common.qci"
+$include "../shared/includes/common/barney/ld/texturepath.qci"
+$include "../shared/includes/common/barney/ld/common.qci"
 
 
 //reference mesh(es)
 $body "studio" "meshes/ld/dead_barney_ref_pc"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 15.000000 3.500000 5.000000
+$include "../shared/includes/attachments/barney/ld/attachments.qci"
 
-// 2 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
+$include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
 $controller 4 "Bone05" ZR 0.000000 25.000000
 
-// 20 hit box(es)
-$hbox 3 "Bip01 Pelvis" -7.890000 -5.660000 -6.600000 2.940000 6.520000 7.600000
-$hbox 6 "Bip01 L Leg" 0.000000 -5.920000 -4.000000 19.370001 3.780000 3.730000
-$hbox 6 "Bip01 L Leg1" 0.000000 -5.690000 -3.620000 18.830000 3.070000 2.940000
-$hbox 6 "Bip01 L Foot" 0.000000 -3.000000 -4.000000 6.420000 8.680000 1.610000
-$hbox 7 "Bip01 R Leg" 0.000000 -5.930000 -3.870000 19.270000 3.750000 3.790000
-$hbox 7 "Bip01 R Leg1" -0.330000 -5.730000 -2.980000 18.950001 2.960000 3.190000
-$hbox 7 "Bip01 R Foot" 0.000000 -3.400000 -2.320000 6.210000 8.400000 3.300000
-$hbox 3 "Bip01 Spine" 0.000000 -5.890000 -6.970000 8.370000 6.500000 6.730000
-$hbox 2 "Bip01 Spine2" -1.000000 -6.000000 -8.320000 6.110000 6.200000 7.530000
-$hbox 2 "Bip01 Spine3" -1.000000 -6.000000 -3.220000 5.960000 5.500000 3.480000
-$hbox 4 "Bip01 L Arm" -0.400000 -4.180000 -1.000000 7.000000 4.750000 4.200000
-$hbox 4 "Bip01 L Arm1" -1.690000 -4.000000 -3.920000 9.860000 2.500000 3.000000
-$hbox 4 "Bip01 L Arm2" 0.000000 -2.730000 -2.080000 10.900000 3.140000 2.750000
-$hbox 4 "Bip01 L Hand" 0.000000 -1.320000 -2.300000 4.660000 2.600000 1.800000
-$hbox 5 "Bip01 R Arm" 0.000000 -4.150000 -4.190000 7.000000 4.180000 1.240000
-$hbox 5 "Bip01 R Arm1" -1.690000 -4.000000 -3.000000 9.860000 2.500000 3.760000
-$hbox 5 "Bip01 R Arm2" 0.000000 -2.730000 -2.560000 10.500000 3.140000 2.190000
-$hbox 5 "Bip01 R Hand" 0.000000 -1.320000 -2.300000 5.000000 2.600000 1.800000
+$include "../shared/includes/hitboxes/barney/ld/hitboxes.qci"
 $hbox 1 "Bip01 Head" -0.660000 -2.750000 -3.500000 9.400000 7.570000 2.900000
-$hbox 1 "Bip01 Neck" -2.000000 -1.400000 -3.100000 2.500000 4.200000 2.500000
+$include "../shared/includes/hitboxes/barney/ld/neck.qci"
 
 
 // 11 animation sequence(s)
-$sequence "idle1" "../shared/animations/barney/ld/idle1" fps 15 loop ACT_IDLE 50 
-$sequence "idle3" "../shared/animations/barney/ld/idle3" fps 15 ACT_IDLE 1 
-$sequence "idle4" "../shared/animations/barney/ld/idle4" fps 12 ACT_IDLE 10 
+$include "../shared/includes/animations/barney/ld/idle1.qci"
+$include "../shared/includes/animations/barney/ld/idle3.qci"
+$include "../shared/includes/animations/barney/ld/idle4.qci"
 $sequence "wait" "animations/ld/wait" fps 17 
-$sequence "walk" "../barney/animations/walk" LX fps 30 loop ACT_WALK 1 { event 1004 3 "common/npc_step1.wav" } { event 1004 18 "common/npc_step3.wav" } 
+$include "../shared/includes/animations/barney/ld/walk.qci"
 $sequence "jog" "animations/ld/jog" LX fps 23 loop ACT_RUN 1 { event 1004 5 "common/npc_step2.wav" } { event 1004 13 "common/npc_step4.wav" } 
 $sequence "tram" "animations/ld/tram" fps 29 loop { event 1004 122 "common/npc_step1.wav" } { event 1004 137 "common/npc_step3.wav" } 
 $sequence "lying_on_back" "animations/ld/lying_on_back" fps 1 { event 1000 0 } 

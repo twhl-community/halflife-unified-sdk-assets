@@ -1,0 +1,5 @@
+$bodygroup "heads"
+{
+blank
+studio "meshes/ld/Massn_NVHead_reference"
+}

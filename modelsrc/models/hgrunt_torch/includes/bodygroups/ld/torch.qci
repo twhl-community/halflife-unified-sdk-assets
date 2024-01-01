@@ -1,0 +1,5 @@
+$bodygroup "torch"
+{
+blank
+studio "meshes/ld/engineer_torch_reference"
+}

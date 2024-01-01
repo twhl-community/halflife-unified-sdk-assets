@@ -1,0 +1,2 @@
+$sequence "idle" "animations/idle" fps 30
+$sequence "capped" "animations/capped" fps 30

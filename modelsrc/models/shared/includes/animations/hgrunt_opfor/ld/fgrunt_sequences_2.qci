@@ -1,0 +1,12 @@
+$sequence "crawling" "../shared/animations/hgrunt_opfor/ld/crawling" fps 17 { event 1001 120 }
+$sequence "of2a2_speech_idle" "../shared/animations/hgrunt_opfor/ld/of2a2_speech_idle" fps 30 loop { event 1000 30 } { event 1001 30 }
+$sequence "of2a2_death_speech" "../shared/animations/hgrunt_opfor/ld/of2a2_death_speech" fps 17 { event 1000 120 } { event 1001 120 }
+$sequence "of1a6_get_on" "../shared/animations/hgrunt_opfor/ld/of1a6_get_on" fps 10 loop
+$sequence "cpr" "../shared/animations/hgrunt_opfor/ld/cpr" fps 30 { event 1000 120 } { event 1001 120 }
+$sequence "mic_idle1" "../shared/animations/hgrunt_opfor/ld/mic_idle1" fps 30
+$sequence "mic_idle2" "../shared/animations/hgrunt_opfor/ld/mic_idle2" fps 30
+$sequence "mic_idle3" "../shared/animations/hgrunt_opfor/ld/mic_idle3" fps 30
+$sequence "mic_idle4" "../shared/animations/hgrunt_opfor/ld/mic_idle4" fps 30
+$sequence "mic_stand" "../shared/animations/hgrunt_opfor/ld/mic_stand" fps 30
+$sequence "interogation" "../shared/animations/hgrunt_opfor/ld/interogation" fps 30
+$sequence "interogation_idle" "../shared/animations/hgrunt_opfor/ld/interogation_idle" fps 30 loop

@@ -1,0 +1,12 @@
+$bodygroup "rounds"
+{
+studio "tfc_sniper_8rounds"
+studio "tfc_sniper_7rounds"
+studio "tfc_sniper_6rounds"
+studio "tfc_sniper_5rounds"
+studio "tfc_sniper_4rounds"
+studio "tfc_sniper_3rounds"
+studio "tfc_sniper_2rounds"
+studio "tfc_sniper_1round"
+studio "tfc_sniper_0rounds"
+}

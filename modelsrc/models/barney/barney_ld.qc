@@ -14,64 +14,33 @@ Original internal name:
 
 $modelname "barney_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/barney"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 63.000000
+$include "../shared/includes/common/barney/ld/texturepath.qci"
+$include "../shared/includes/common/barney/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/BARNEY-X_Template_Biped1"
-
-$bodygroup "gun"
-{
-blank
-studio "meshes/BARNEY-X_Template_Biped(Gun-Hlstr)1"
-studio "meshes/BARNEY-X_Template_Biped(Gun)1"
-}
+$include "includes/bodygroups/ld/body.qci"
+$include "includes/bodygroups/ld/gun.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 15.000000 3.500000 5.000000
+$include "../shared/includes/attachments/barney/ld/attachments.qci"
 
-// 2 bone controller(s)
-$controller 0 "Bip01 Head" XR -60.000000 60.000000
-$controller 4 "Bone05" ZR 0.000000 45.000000
+$include "../shared/includes/bonecontrollers/barney/ld/bonecontrollers.qci"
+$include "../shared/includes/bonecontrollers/barney/ld/mouth.qci"
 
-// 21 hit box(es)
-$hbox 3 "Bip01 Pelvis" -7.890000 -5.660000 -6.600000 2.940000 6.520000 7.600000
-$hbox 6 "Bip01 L Leg" 0.000000 -5.920000 -4.000000 19.370001 3.780000 3.730000
-$hbox 6 "Bip01 L Leg1" 0.000000 -5.690000 -3.620000 18.830000 3.070000 2.940000
-$hbox 6 "Bip01 L Foot" 0.000000 -3.000000 -4.000000 6.420000 8.680000 1.610000
-$hbox 7 "Bip01 R Leg" 0.000000 -5.930000 -3.870000 19.270000 3.750000 3.790000
-$hbox 7 "Bip01 R Leg1" -0.330000 -5.730000 -2.980000 18.950001 2.960000 3.190000
-$hbox 7 "Bip01 R Foot" 0.000000 -3.400000 -2.320000 6.210000 8.400000 3.300000
-$hbox 3 "Bip01 Spine" 0.000000 -5.890000 -6.970000 8.370000 6.500000 6.730000
-$hbox 2 "Bip01 Spine2" -1.000000 -6.000000 -8.320000 6.110000 6.200000 7.530000
-$hbox 2 "Bip01 Spine3" -1.000000 -6.000000 -3.220000 5.960000 5.500000 3.480000
-$hbox 4 "Bip01 L Arm" -0.400000 -4.180000 -1.000000 7.000000 4.750000 4.200000
-$hbox 4 "Bip01 L Arm1" -1.690000 -4.000000 -3.920000 9.860000 2.500000 3.000000
-$hbox 4 "Bip01 L Arm2" 0.000000 -2.730000 -2.080000 10.900000 3.140000 2.750000
-$hbox 4 "Bip01 L Hand" 0.000000 -1.320000 -2.300000 4.660000 2.600000 1.800000
-$hbox 5 "Bip01 R Arm" 0.000000 -4.150000 -4.190000 7.000000 4.180000 1.240000
-$hbox 5 "Bip01 R Arm1" -1.690000 -4.000000 -3.000000 9.860000 2.500000 3.760000
-$hbox 5 "Bip01 R Arm2" 0.000000 -2.730000 -2.560000 10.500000 3.140000 2.190000
-$hbox 5 "Bip01 R Hand" 0.000000 -1.320000 -2.300000 5.000000 2.600000 1.800000
+$include "../shared/includes/hitboxes/barney/ld/hitboxes.qci"
 $hbox 1 "Bip01 Head" -0.660000 2.250000 -3.500000 6.000000 7.570000 2.900000
-$hbox 1 "Bip01 Neck" -2.000000 -1.400000 -3.100000 2.500000 4.200000 2.500000
+$include "../shared/includes/hitboxes/barney/ld/neck.qci"
 $hbox 10 "Bip01 Head" -0.660000 -4.250000 -5.240000 6.000000 2.250000 4.630000
 $hbox 10 "Bip01 Head" 6.000000 -4.250000 -5.240000 11.190000 7.970000 4.630000
 
 
 // 71 animation sequence(s)
-$sequence "idle1" "../shared/animations/barney/ld/idle1" fps 15 loop ACT_IDLE 50 
+$include "../shared/includes/animations/barney/ld/idle1.qci"
 $sequence "idle2" "animations/idle2" fps 15 ACT_IDLE 1 
-$sequence "idle3" "../shared/animations/barney/ld/idle3" fps 15 ACT_IDLE 1 
-$sequence "idle4" "../shared/animations/barney/ld/idle4" fps 12 ACT_IDLE 10 
-$sequence "walk" "animations/walk" LX fps 30 loop ACT_WALK 1 { event 1004 3 "common/npc_step1.wav" } { event 1004 18 "common/npc_step3.wav" } 
+$include "../shared/includes/animations/barney/ld/idle3.qci"
+$include "../shared/includes/animations/barney/ld/idle4.qci"
+$include "../shared/includes/animations/barney/ld/walk.qci"
 $sequence "run" "animations/run" LX fps 25 loop ACT_RUN 1 { event 1004 5 "common/npc_step2.wav" } { event 1004 13 "common/npc_step4.wav" } 
 $sequence "shootgun" "animations/shootgun_blend1" "animations/shootgun_blend2" blend XR -50 50 fps 25 ACT_RANGE_ATTACK1 1 { event 5001 0 "21" } { event 3 0 } 
 $sequence "shootgun2" "animations/shootgun2_blend1" "animations/shootgun2_blend2" blend XR -50 50 fps 40 ACT_RANGE_ATTACK1 2 { event 5001 0 "21" } { event 3 0 } 
@@ -115,131 +84,27 @@ $sequence "dying_barneyidle" "animations/dying_barneyidle" fps 12 loop
 $sequence "dying_friend" "animations/dying_friend" fps 18 
 $sequence "dying_friendidle" "animations/dying_friendidle" fps 12 loop 
 $sequence "c1a3_bidle" "animations/c1a3_bidle" AX AY AZR fps 3 
-$sequence "c1a3_ventb" "../shared/animations/barney/ld/c1a3_ventb" AX AY AZR fps 18 { event 1000 1 } 
-$sequence "c1a3_emergeidle" "../shared/animations/barney/ld/c1a3_emergeidle" AX AY AZR fps 16 loop 
-$sequence "c1a3_emerge" "../shared/animations/barney/ld/c1a3_emerge" AX AY AZR fps 16 { event 1000 1 } 
-$sequence "haulbarney" "../shared/animations/barney/ld/haulbarney" AX AY AZR fps 18 { event 1000 1 } 
+$include "../shared/includes/animations/barney/ld/animations_1.qci"
 $sequence "intropush" "animations/intropush" fps 16 {
   { event 1004 15 "*buttons/blip1.wav" } 
   { event 1004 24 "*buttons/blip1.wav" } 
   { event 1004 34 "*buttons/blip1.wav" } 
   { event 1004 44 "*buttons/blip1.wav" } 
  }
-$sequence "fence" "../shared/animations/barney/ld/fence" AX AY AZR fps 24 {
-  { event 1000 70 } 
-  { event 1003 70 "lightning" } 
-  { event 1001 70 } 
-  { event 1004 72 "weapons/electro4.wav" } 
-  { event 1008 100 "barney/ba_pain2.wav" } 
- }
-$sequence "sit1" "../shared/animations/barney/ld/sit1" fps 20 loop { event 1003 50 "introchair" } { event 1003 102 "introchair" } 
-$sequence "almostidle" "../shared/animations/barney/ld/almostidle" fps 16 loop 
-$sequence "almost" "../shared/animations/barney/ld/almost" fps 26 { event 1000 1 } 
-$sequence "laseridle" "../shared/animations/barney/ld/laseridle" fps 6 
-$sequence "laser_top" "../shared/animations/barney/ld/laser_top" fps 6 { event 1000 0 } 
-$sequence "laser_bottom" "../shared/animations/barney/ld/laser_bottom" fps 6 { event 1000 0 } 
-$sequence "barneyfallidle" "../shared/animations/barney/ld/barneyfallidle" fps 33 loop 
-$sequence "barneyfall" "../shared/animations/barney/ld/barneyfall" fps 32 {
-  { event 1000 1 } 
-  { event 1008 2 "barney/ba_pain1.wav" } 
-  { event 1008 24 "barney/ba_pain2.wav" } 
-  { event 1003 55 "bsplat" } 
-  { event 1008 55 "debris/bustflesh1.wav" } 
- }
-$sequence "c3a2_draw" "../shared/animations/barney/ld/c3a2_draw" fps 16 { event 2 13 } 
+$include "../shared/includes/animations/barney/ld/animations_2.qci"
 $sequence "unlatch" "animations/unlatch" fps 12 { event 1003 7 "barney_door_lock" } 
 $sequence "retina" "animations/retina" fps 20 
 $sequence "relaxstand" "animations/relaxstand" fps 10 loop 
-$sequence "assassinated" "../shared/animations/barney/ld/assassinated" X fps 18 {
-  { event 1000 1 } 
-  { event 1003 1 "blood1" } 
-  { event 1003 2 "blood2" } 
- }
+$include "../shared/includes/animations/barney/ld/assassinated.qci"
 $sequence "trackswitch" "animations/trackswitch" fps 22 { event 1003 14 "trainarmswitch" } 
 $sequence "pepsiswing" "animations/pepsiswing" fps 25 { event 1003 1 "die" } { event 1003 8 "swing" } 
 $sequence "pepsipush" "animations/pepsipush" fps 18 { event 1003 51 "topple" } { event 1003 90 "horror" } 
 $sequence "buttonpush" "animations/buttonpush" fps 20 { event 1003 7 "button" } 
 
-// Opposing Force Barney sequences
-$sequence "turn_lever" "../shared/animations/barney/ld/turn_lever" fps 30 
-$sequence "draw_shoot" "../shared/animations/barney/ld/draw_shoot" fps 30 {
-  { event 2 16 } 
-  { event 5001 33 "21" } 
-  { event 3 33 } 
-  { event 5001 63 "21" } 
-  { event 3 63 } 
-  { event 5001 93 "21" } 
-  { event 3 93 } 
-  { event 5001 123 "21" } 
-  { event 3 123 } 
- }
-
-// Blue Shift Barney sequences
-$sequence "range_fire" "../shared/animations/barney/ld/range_fire" fps 15 {
-  { event 2 1 } 
-  { event 5001 9 "21" } 
-  { event 3 9 } 
-  { event 5001 31 "21" } 
-  { event 3 31 } 
-  { event 5001 53 "21" } 
-  { event 3 53 } 
-  { event 5001 75 "21" } 
-  { event 3 75 } 
-  { event 5001 97 "21" } 
-  { event 3 97 } 
-  { event 5001 119 "21" } 
-  { event 3 119 } 
-  { event 1003 150 "end_range_fire" } 
- }
-$sequence "range_pushbutton" "../shared/animations/barney/ld/range_pushbutton" fps 30 {
-  { event 2 1 } 
-  { event 1003 20 "rangebutton" } 
-  { event 1003 43 "end_range_pushbutton" } 
- }
-$sequence "range_reload" "../shared/animations/barney/ld/range_reload" fps 15 { event 2 1 } { event 1003 41 "end_range_reload" } 
-$sequence "adjust_armor" "../shared/animations/barney/ld/adjust_armor" fps 15 
-$sequence "wash_hands" "../shared/animations/barney/ld/wash_hands" fps 12 { event 1003 12 "faucet_on" } { event 1003 67 "faucet_off" } 
-$sequence "dry_hands" "../shared/animations/barney/ld/dry_hands" fps 12 { event 1003 12 "blower_on" } 
-$sequence "eaten" "../shared/animations/barney/ld/eaten" fps 21 { event 1000 1 } 
-$sequence "eaten_loop" "../shared/animations/barney/ld/eaten_loop" fps 25 loop 
-$sequence "tugged" "../shared/animations/barney/ld/tugged" fps 18 { event 1000 1 } 
-$sequence "tugged_idle" "../shared/animations/barney/ld/tugged_idle" fps 18 { event 1000 0 } 
-$sequence "block_gate" "../shared/animations/barney/ld/block_gate" fps 15 {
-  { event 1000 315 } 
-  { event 1003 315 "cage_door_master_relay" } 
-  { event 1003 292 "barney_dies_seq_relay_ct" } 
-  { event 1008 315 "common/bodydrop3.WAV" } 
- }
-$sequence "block_gate_idle" "../shared/animations/barney/ld/block_gate_idle" fps 15 loop 
-$sequence "gatedie" "../shared/animations/barney/ld/gatedie" fps 34 ACT_DIESIMPLE 2 {
-  { event 2001 5 } 
-  { event 1000 0 } 
-  { event 1003 1 "cage_door_master_relay" } 
- }
-$sequence "tram_dive" "../shared/animations/barney/ld/tram_dive" fps 27 { event 1000 1 } 
-$sequence "tram_slouch" "../shared/animations/barney/ld/tram_slouch" fps 30 loop 
-$sequence "tram_slouch_fly" "../shared/animations/barney/ld/tram_slouch_fly" fps 30 { event 1000 1 } 
-$sequence "playgame1" "../shared/animations/barney/ld/playgame1" fps 25 loop 
-$sequence "playgame2" "../shared/animations/barney/ld/playgame2" fps 25 { event 1000 1 } 
-$sequence "raise_flag" "../shared/animations/barney/ld/raise_flag" fps 20 loop 
-$sequence "eating" "../shared/animations/barney/ld/eating" fps 13 loop 
-$sequence "console_sitting" "../shared/animations/barney/ld/console_sitting" fps 25 loop 
-$sequence "console_stand" "../shared/animations/barney/ld/console_stand" LX fps 27 
-$sequence "adjust_idle" "../shared/animations/barney/ld/adjust_idle" fps 27 loop 
-$sequence "diecrump2" "../shared/animations/barney/ld/diecrump2" X fps 18 ACT_DIESIMPLE 2 { event 2001 13 } { event 1000 0 } 
-$sequence "dieviolent2" "../shared/animations/barney/ld/dieviolent2" X fps 20 ACT_DIE_HEADSHOT 1 { event 2001 10 } { event 1000 0 } 
+$include "../shared/includes/animations/barney/ld/animations_3.qci"
 
 // Opposing Force Otis sequences
-$sequence "otis_fence" "../shared/animations/otis/ld/fence" AX AY AZR fps 24 {
-  { event 1000 49 } 
-  { event 1003 49 "lightning" } 
-  { event 1001 49 } 
-  { event 1004 51 "weapons/electro4.wav" } 
-  { event 1008 85 "barney/ba_pain2.wav" } 
- }
-$sequence "dead_sitting" "../shared/animations/otis/ld/dead_sitting" fps 1 
-$sequence "otis_wave" "../shared/animations/otis/ld/wave" fps 24 
-$sequence "cowering" "../shared/animations/otis/ld/cowering" fps 15 loop 
+$include "../shared/includes/animations/otis/ld/animations_1.qci"
 
 // Blue Shift Otis sequences
 $sequence "otis_range_fire" "../shared/animations/otis/ld/range_fire" fps 28 loop {
@@ -248,7 +113,6 @@ $sequence "otis_range_fire" "../shared/animations/otis/ld/range_fire" fps 28 loo
   { event 1008 47 "barney/ba_attack2.wav" } 
   { event 1003 47 "barn_miss" } 
  }
-$sequence "otis_dumped" "../shared/animations/otis/ld/otis_dumped" fps 28 { event 1000 1 } 
-$sequence "otis_dumped_idle" "../shared/animations/otis/ld/otis_dumped_idle" fps 28 loop 
+$include "../shared/includes/animations/otis/ld/animations_2.qci"
 
 // End of QC script.

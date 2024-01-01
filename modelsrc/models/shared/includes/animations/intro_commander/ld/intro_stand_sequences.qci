@@ -1,0 +1,3 @@
+$sequence "intro_stand_fallout" "../shared/animations/intro_commander/ld/fall_out" fps 30 { event 1000 1 } { event 1001 1 }
+$sequence "intro_stand_react" "../shared/animations/intro_commander/ld/stand_react" fps 30
+$sequence "intro_stand_bark" "../shared/animations/intro_commander/ld/bark" fps 30

@@ -1,0 +1,1 @@
+$sequence "launchgrenade" "../shared/animations/hgrunt/ld/launchgrenade" fps 30 ACT_RANGE_ATTACK2 1 { event 8 16 } 

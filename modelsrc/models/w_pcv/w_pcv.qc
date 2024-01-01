@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_pcv.mdl"
 $cd "./"
-$cdtexture "../../textures/w_pcv"
+$include "../shared/includes/common/w_pcv/ld/texturepath.qci"
 $scale 1.0
 
 

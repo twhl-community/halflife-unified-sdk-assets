@@ -1,0 +1,4 @@
+$sequence "c1a3_ventb" "../shared/animations/barney/ld/c1a3_ventb" AX AY AZR fps 18 { event 1000 1 }
+$sequence "c1a3_emergeidle" "../shared/animations/barney/ld/c1a3_emergeidle" AX AY AZR fps 16 loop
+$sequence "c1a3_emerge" "../shared/animations/barney/ld/c1a3_emerge" AX AY AZR fps 16 { event 1000 1 }
+$sequence "haulbarney" "../shared/animations/barney/ld/haulbarney" AX AY AZR fps 18 { event 1000 1 }
