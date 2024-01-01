@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/v_spas12_reference_test"
+$include "includes/bodygroups/hd/shotgun.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 

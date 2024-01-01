@@ -19,9 +19,8 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/ld/v_shotgun_reference"
-
-$body "studio" "meshes/ld/shell"
+$include "includes/bodygroups/ld/shotgun.qci"
+$include "includes/bodygroups/ld/shell.qci"
 
 $body "studio" "meshes/ld/v_gordon_hands_reference"
 
