@@ -23,9 +23,7 @@ $include "includes/bodygroups/ld/pipewrench.qci"
 
 $body "studio" "v_pipe_wrench_hands_reference_hev_ld"
 
-// 2 hit box(es)
-$hbox 0 "Bip01 R Arm2" -0.510000 -2.160000 -2.020000 11.368422 2.550000 1.120000
-$hbox 0 "Bip01 R Hand" -1.310000 -1.230000 -5.220000 5.090000 2.800000 19.870001
+$include "includes/hitboxes/ld/hitboxes.qci"
 
 // 15 animation sequence(s)
 $sequence "idle1" "idle1" fps 30 
