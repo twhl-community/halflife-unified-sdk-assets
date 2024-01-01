@@ -44,16 +44,6 @@ $hbox 0 "Bip01 R Finger0" 0.000000 -0.830000 -1.260000 2.540000 0.460000 0.45000
 $hbox 0 "Bip01 R Finger31" 0.000000 -0.800000 -0.520000 1.136842 0.350000 0.490000
 $hbox 0 "R_Arm_bone" -1.450000 -1.610000 -2.760000 1.010000 1.600000 0.000000
 
-// 10 animation sequence(s)
-$sequence "sm_idle" "animations/hd/sm_idle" fps 9 loop 
-$sequence "shoot" "animations/hd/shoot" fps 30 { event 5001 0 "31" } 
-$sequence "shoot_big" "animations/hd/shoot_big" fps 30 { event 5001 0 "41" } 
-$sequence "reload" "animations/hd/reload" fps 16 
-$sequence "pump" "animations/hd/pump" fps 30 
-$sequence "start_reload" "animations/hd/start_reload" fps 12 
-$sequence "draw" "animations/hd/draw" fps 24 
-$sequence "reholster" "animations/hd/reholster" fps 30 
-$sequence "idle4" "animations/hd/idle4" fps 9 loop 
-$sequence "deepidle" "animations/hd/deepidle" fps 12 loop 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.
