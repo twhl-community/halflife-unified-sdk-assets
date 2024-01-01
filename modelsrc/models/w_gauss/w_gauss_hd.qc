@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_gauss_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/w_gauss"
+$include "../shared/includes/common/w_gauss/ld/texturepath.qci"
 $include "../shared/includes/common/viewmodel/v_gauss/ld/texturepath.qci"
 $scale 1.0
 
