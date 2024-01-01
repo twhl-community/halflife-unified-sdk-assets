@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "v_pipe_wrench_reference"
+$include "includes/bodygroups/ld/pipewrench.qci"
 
 $body "studio" "v_pipe_wrench_hands_reference_guard_ld"
 
