@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "zombie_barney_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/zombie_barney"
+$include "../shared/includes/common/zombie_barney/ld/texturepath.qci"
 $include "../shared/includes/common/zombies/ld/common.qci"
 
 
