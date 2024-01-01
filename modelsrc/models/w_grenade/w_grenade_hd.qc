@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_grenade_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/v_grenade/hd"
+$include "../shared/includes/common/viewmodel/v_grenade/hd/texturepath.qci"
 $scale 1.0
 
 

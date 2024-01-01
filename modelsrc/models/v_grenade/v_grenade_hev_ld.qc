@@ -15,7 +15,7 @@ Original internal name:
 $modelname "v_grenade_hev_ld.mdl"
 $cd "./"
 $include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_grenade/ld"
+$include "../shared/includes/common/viewmodel/v_grenade/ld/texturepath.qci"
 $scale 1.0
 
 
