@@ -15,7 +15,7 @@ Original internal name:
 $modelname "player_barney.mdl"
 $cd "./"
 $include "../shared/includes/common/barney/ld/texturepath.qci"
-$cdtexture "../../textures/player/barney"
+$include "../shared/includes/common/player/ld/barney/texturepath.qci"
 $include "includes/common/ld/common.qci"
 
 
