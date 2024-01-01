@@ -1,1 +1,1 @@
-$cdtexture "../../textures/cleansuit_scientist"
+$include "../shared/includes/common/cleansuit_scientist/ld/texturepath.qci"
