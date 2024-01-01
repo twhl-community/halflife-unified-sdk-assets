@@ -19,7 +19,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "v_knife_reference"
+$include "includes/bodygroups/ld/knife.qci"
 
 $body "studio" "v_knife_hands_reference_hev_ld"
 
