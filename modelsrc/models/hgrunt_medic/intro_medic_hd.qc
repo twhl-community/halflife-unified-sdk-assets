@@ -14,8 +14,8 @@ Original internal name:
 
 $modelname "intro_medic_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/hgrunt_medic/hd"
-$cdtexture "../../textures/hgrunt_medic/ld"
+$include "../shared/includes/common/hgrunt_medic/hd/texturepath.qci"
+$include "../shared/includes/common/hgrunt_medic/ld/texturepath.qci"
 $cdtexture "../../textures/hgrunt_torch/ld/fatigues"
 $include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"

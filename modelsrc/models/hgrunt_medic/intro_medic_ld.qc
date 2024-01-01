@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "intro_medic_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/hgrunt_medic/ld"
+$include "../shared/includes/common/hgrunt_medic/ld/texturepath.qci"
 $cdtexture "../../textures/hgrunt_torch/ld/fatigues"
 $cdtexture "../../textures/hgrunt_opfor/ld"
 $include "../shared/includes/common/hgrunt/hd/texturepath.qci"
