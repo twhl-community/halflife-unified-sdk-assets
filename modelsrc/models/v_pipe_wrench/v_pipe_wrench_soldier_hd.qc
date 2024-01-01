@@ -25,21 +25,6 @@ $body "studio" "v_pipe_wrench_hands_reference_soldier_hd"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 15 animation sequence(s)
-$sequence "idle1" "idle1" fps 30 
-$sequence "idle2" "idle2" fps 30 loop 
-$sequence "idle3" "idle3" fps 30 loop 
-$sequence "draw" "draw" fps 30 
-$sequence "holster" "holster" fps 30 
-$sequence "attack1hit" "attack1hit" fps 30 
-$sequence "attack1miss" "attack1miss" fps 30 
-$sequence "attack2hit" "attack2hit" fps 30 
-$sequence "attack2miss" "attack2miss" fps 30 
-$sequence "attack3hit" "attack3hit" fps 30 
-$sequence "attack3miss" "attack3miss" fps 30 
-$sequence "attackbigwind" "attackbigwind" fps 30 
-$sequence "attackbighit" "attackbighit" fps 30 
-$sequence "attackbigmiss" "attackbigmiss" fps 30 
-$sequence "attackbigloop" "attackbigloop" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
