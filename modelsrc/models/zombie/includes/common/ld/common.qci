@@ -1,1 +1,1 @@
-$cdtexture "../../textures/zombie"
+$include "../shared/includes/common/zombies/ld/texturepath.qci"
