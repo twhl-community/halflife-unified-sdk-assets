@@ -18,7 +18,7 @@ $cdtexture "../../textures/intro_saw"
 $cdtexture "../../textures/hgrunt_opfor/hd"
 $cdtexture "../../textures/hgrunt/hd"
 $cdtexture "../../textures/hgrunt_opfor/ld"
-$cdtexture "../../textures/w_9mmar"
+$include "../shared/includes/common/w_9mmar/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/common.qci"
 
 
