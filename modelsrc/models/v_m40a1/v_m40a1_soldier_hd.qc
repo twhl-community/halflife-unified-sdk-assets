@@ -25,8 +25,7 @@ $include "includes/bodygroups/ld/m40a1.qci"
 $body "studio" "v_hands_reference_soldier_hd"
 
 
-// 1 attachment(s)
-$attachment 0 "m40a1_stock" 19.000000 -1.250000 16.750000
+$include "includes/attachments/ld/attachments.qci"
 
 // 12 hit box(es)
 $hbox 0 "Bip01 Spine2" 0.000000 -0.003923 -5.893199 7.032466 11.163653 0.000000
