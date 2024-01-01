@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "intro_regular_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/intro_regular"
+$include "../shared/includes/common/intro_regular/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt_opfor/hd/texturepath.qci"
 $include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $include "../shared/includes/common/hgrunt_opfor/ld/texturepath.qci"
