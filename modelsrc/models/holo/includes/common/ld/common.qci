@@ -1,5 +1,5 @@
 $cdtexture "../../textures/holo"
-$cdtexture "../../textures/player/gordon"
+$include "../shared/includes/common/player/ld/gordon/texturepath.qci"
 $scale 1.0
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
