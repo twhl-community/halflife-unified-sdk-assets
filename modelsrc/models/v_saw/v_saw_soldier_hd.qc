@@ -27,8 +27,7 @@ $body "studio" "v_saw_hands_reference_soldier_hd"
 $include "includes/bodygroups/ld/rounds.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Hands biped R Hand" 12.000000 1.250000 13.750000
+$include "includes/attachments/ld/attachments.qci"
 
 // 8 hit box(es)
 $hbox 0 "box_04" -3.970000 -32.090000 -0.423038 2.380000 2.910000 11.250000
