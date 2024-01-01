@@ -28,15 +28,6 @@ $include "includes/bodygroups/ld/spore.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "idle" "idle" fps 30 loop 
-$sequence "fidget" "fidget" fps 30 loop 
-$sequence "reload_reach" "reload_reach" fps 30 
-$sequence "reload_load" "reload_load" fps 30 
-$sequence "reload_aim" "reload_aim" fps 30 
-$sequence "fire" "fire" fps 30 
-$sequence "holster1" "holster1" fps 30 
-$sequence "draw1" "draw1" fps 30 
-$sequence "idle2" "idle2" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
