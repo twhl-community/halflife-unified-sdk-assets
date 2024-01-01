@@ -20,7 +20,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "shock_ref"
+$include "includes/bodygroups/ld/shock.qci"
 
 $body "studio" "v_shock_hands_reference_soldier_hd"
 
