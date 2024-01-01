@@ -24,11 +24,7 @@ $include "includes/bodygroups/ld/shock.qci"
 $body "studio" "v_shock_hands_reference_guard_hd"
 
 
-// 4 attachment(s)
-$attachment 0 "shock_rifle_rods" 1.000000 -2.000000 1.000000
-$attachment 1 "damn02" 0.000000 0.000000 0.000000
-$attachment 2 "damn01" 0.000000 0.000000 0.000000
-$attachment 3 "damn" 0.000000 0.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 23 hit box(es)
 $hbox 0 "shock_rifle_body" -11.630000 -14.297440 -2.910000 13.110000 2.980000 11.270000
