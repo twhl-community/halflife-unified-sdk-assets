@@ -22,7 +22,7 @@ $include "includes/common/ld/common.qci"
 //reference mesh(es)
 $body "body" "v_hands_reference_soldier_hd"
 
-$body "body" "v_penguin_reference"
+$include "includes/bodygroups/ld/penguin.qci"
 
 
 // 15 hit box(es)
