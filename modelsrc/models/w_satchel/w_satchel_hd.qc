@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_satchel_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/w_satchel"
+$include "../shared/includes/common/w_satchel/ld/texturepath.qci"
 $include "../shared/includes/common/viewmodel/v_satchel/hd/texturepath.qci"
 $scale 1.0
 
