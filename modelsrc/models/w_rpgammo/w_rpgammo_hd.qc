@@ -15,7 +15,7 @@ Original internal name:
 $modelname "w_rpgammo_hd.mdl"
 $cd "./"
 $include "includes/common/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_rpg/hd"
+$include "../shared/includes/common/viewmodel/v_rpg/hd/texturepath.qci"
 $include "includes/common/ld/common.qci"
 
 
