@@ -20,9 +20,7 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/rpg_rocket"
-
-$body "body" "meshes/ld/blowpipe"
+$include "includes/bodygroups/ld/base.qci"
 
 $body "studio" "meshes/ld/v_barney_hands_reference"
 
