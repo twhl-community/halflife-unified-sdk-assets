@@ -24,8 +24,7 @@ $include "includes/bodygroups/hd/shotgun.qci"
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 30.000000 1.000000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 11 hit box(es)
 $hbox 0 "Bip01 L Hand" 0.000000 -0.960000 -1.820000 3.910000 0.900000 1.710000
