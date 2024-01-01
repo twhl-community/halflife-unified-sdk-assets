@@ -23,7 +23,7 @@ $include "includes/common/ld/common.qci"
 //reference mesh(es)
 $body "studio" "meshes/ld/v_barney_hands_reference"
 
-$body "studio" "meshes/ld/satchel_charge"
+$include "includes/bodygroups/ld/satchel.qci"
 
 
 // 5 hit box(es)
