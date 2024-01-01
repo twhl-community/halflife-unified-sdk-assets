@@ -26,12 +26,6 @@ $include "includes/bodygroups/ld/penguin.qci"
 
 $include "includes/hitboxes/ld/hitboxes.qci"
 
-// 6 animation sequence(s)
-$sequence "idle1" "idle1" fps 16 loop 
-$sequence "fidgetfit" "fidgetfit" fps 16 
-$sequence "fidgetnip" "fidgetnip" fps 16 
-$sequence "down" "down" fps 16 
-$sequence "up" "up" fps 30 
-$sequence "throw" "throw" fps 24 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
