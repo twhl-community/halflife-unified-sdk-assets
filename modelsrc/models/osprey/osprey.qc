@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "osprey.mdl"
 $cd "./"
-$cdtexture "../../textures/osprey"
+$include "../shared/includes/common/osprey/ld/texturepath.qci"
 $scale 1.0
 
 $flags 768
