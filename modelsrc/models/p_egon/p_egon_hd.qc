@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "p_egon_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/w_egon"
+$include "../shared/includes/common/w_egon/ld/texturepath.qci"
 $scale 1.0
 
 
