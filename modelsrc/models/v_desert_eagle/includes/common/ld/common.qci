@@ -1,5 +1,5 @@
 $include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
-$cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
+$include "../shared/includes/common/viewmodel/v_9mmhandgun/ld/texturepath.qci"
 $scale 1.0
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
