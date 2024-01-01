@@ -19,11 +19,11 @@ $include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "spore_launcher_reference"
+$include "includes/bodygroups/ld/sporelauncher.qci"
 
 $body "studio" "spore_launcher_hands_reference_soldier_hd"
 
-$body "studio" "spore_reference"
+$include "includes/bodygroups/ld/spore.qci"
 
 
 // 19 hit box(es)
