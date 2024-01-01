@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "zombie_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/zombie_soldier"
+$include "../shared/includes/common/zombie_soldier/ld/texturepath.qci"
 $include "../shared/includes/common/zombies/ld/common.qci"
 
 
