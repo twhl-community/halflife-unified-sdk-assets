@@ -23,7 +23,7 @@ $include "includes/common/ld/common.qci"
 //reference mesh(es)
 $body "body" "meshes/ld/v_soldier_hands_reference"
 
-$body "body" "meshes/ld/satchel_radio_detonator"
+$include "includes/bodygroups/ld/detonator.qci"
 
 
 // 6 hit box(es)
