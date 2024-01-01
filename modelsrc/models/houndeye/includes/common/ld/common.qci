@@ -1,4 +1,4 @@
-$cdtexture "../../textures/houndeye"
+$include "../shared/includes/common/houndeye/ld/texturepath.qci"
 $scale 1.0
 
 $bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
