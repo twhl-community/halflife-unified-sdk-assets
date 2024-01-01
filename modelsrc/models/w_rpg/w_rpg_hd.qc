@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "w_rpg_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/w_rpg"
+$include "../shared/includes/common/w_rpg/ld/texturepath.qci"
 $scale 1.0
 
 
