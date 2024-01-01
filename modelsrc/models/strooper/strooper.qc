@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "strooper.mdl"
 $cd "./"
-$cdtexture "../../textures/strooper"
+$include "../shared/includes/common/strooper/ld/texturepath.qci"
 $scale 1.0
 
 
