@@ -38,12 +38,6 @@ $hbox 0 "Bip02 R Arm2" -0.190000 -0.500000 -0.460000 3.220000 0.520000 0.630000
 $hbox 0 "Bip02 Neck1" 0.000000 -0.840000 -1.260000 1.420000 1.410000 1.460000
 $hbox 0 "Bip02 Head" 0.000000 -0.730000 -0.450000 1.440000 0.620000 0.690000
 
-// 6 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 16 loop 
-$sequence "fidgetfit" "animations/ld/fidgetfit" fps 16 
-$sequence "fidgetnip" "animations/ld/fidgetnip" fps 16 
-$sequence "down" "animations/ld/down" fps 16 
-$sequence "up" "animations/ld/up" fps 30 
-$sequence "throw" "animations/ld/throw" fps 24 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.
