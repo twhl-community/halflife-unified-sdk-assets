@@ -22,7 +22,7 @@ $include "includes/common/ld/common.qci"
 //reference mesh(es)
 $body "body" "meshes/ld/v_barney_hands_reference"
 
-$body "body" "meshes/ld/SQUEAK_Template_Biped(Weapon)1"
+$include "includes/bodygroups/ld/squeak.qci"
 
 
 // 11 hit box(es)

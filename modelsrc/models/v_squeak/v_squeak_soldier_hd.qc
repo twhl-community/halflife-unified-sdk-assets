@@ -23,7 +23,7 @@ $include "includes/common/ld/common.qci"
 //reference mesh(es)
 $body "body" "meshes/hd/v_soldier_hands_reference"
 
-$body "body" "meshes/hd/v_snark_reference"
+$include "includes/bodygroups/hd/squeak.qci"
 
 
 // 18 hit box(es)
