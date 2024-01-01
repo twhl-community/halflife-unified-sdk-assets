@@ -15,7 +15,7 @@ Original internal name:
 $modelname "hgrunt_medic_ld.mdl"
 $cd "./"
 $include "../shared/includes/common/hgrunt_medic/ld/texturepath.qci"
-$cdtexture "../../textures/hgrunt_torch/ld/fatigues"
+$include "../shared/includes/common/hgrunt_torch/ld/fatigues/texturepath.qci"
 $include "../shared/includes/common/hgrunt_opfor/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/hd/texturepath.qci"
 $include "../shared/includes/common/barney/ld/texturepath.qci"
