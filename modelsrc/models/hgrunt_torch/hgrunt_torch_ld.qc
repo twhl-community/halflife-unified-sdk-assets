@@ -16,7 +16,7 @@ $modelname "hgrunt_torch_ld.mdl"
 $cd "./"
 $cdtexture "../../textures/hgrunt_torch/ld"
 $cdtexture "../../textures/hgrunt_torch/ld/fatigues"
-$cdtexture "../../textures/hgrunt_opfor/ld"
+$include "../shared/includes/common/hgrunt_opfor/ld/texturepath.qci"
 $include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
 $include "../shared/includes/common/hgrunt/ld/common.qci"
 
