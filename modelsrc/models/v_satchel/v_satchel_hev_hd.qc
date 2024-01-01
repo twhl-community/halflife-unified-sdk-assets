@@ -32,10 +32,6 @@ $hbox 0 "Bone01" -0.836786 -0.240000 -2.177715 0.450000 1.124343 0.040000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.950000 -0.570000 2.450000 0.380000 0.970000
 $hbox 0 "L_Arm_bone" -1.920000 -2.640000 -2.300000 2.760000 2.490000 7.980000
 
-// 4 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 20 loop 
-$sequence "fidget1" "animations/hd/fidget1" fps 30 
-$sequence "draw" "animations/hd/draw" fps 30 
-$sequence "drop" "animations/hd/drop" fps 30 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.
