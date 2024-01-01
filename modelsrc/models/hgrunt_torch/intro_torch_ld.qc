@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "intro_torch_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/hgrunt_torch/ld"
+$include "../shared/includes/common/hgrunt_torch/ld/texturepath.qci"
 $cdtexture "../../textures/hgrunt_torch/ld/fatigues"
 $include "../shared/includes/common/hgrunt_opfor/ld/texturepath.qci"
 $include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
