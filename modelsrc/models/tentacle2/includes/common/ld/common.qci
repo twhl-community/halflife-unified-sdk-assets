@@ -1,4 +1,4 @@
-$cdtexture "../../textures/tentacle"
+$include "../shared/includes/common/tentacle/ld/texturepath.qci"
 $scale 1.0
 
 $flags 512
