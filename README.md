@@ -46,3 +46,17 @@ For example a map called `cs_office` should have all of its files stored under `
 Scripts used in the assets repository itself are located in the `scripts` directory.
 
 Guides covering how to compile assets are located in the `guides` directory.
+
+## License
+
+The contents of this repository are licensed under the [MIT license](LICENSE), with the exception of assets that were originally made by Valve which are covered by the [Half-Life SDK license](HALFLIFE_SDK_LICENSE).
+
+The following directories fall under the Half-Life SDK license:
+* fgdsrc
+* gfxsrc
+* modelsrc
+* resourcesrc
+* soundsrc
+* spritesrc
+* textsrc
+* tools
