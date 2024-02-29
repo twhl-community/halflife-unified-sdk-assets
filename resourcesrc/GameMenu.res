@@ -49,6 +49,7 @@
 		"label" "#GameUI_GameMenu_LoadGame"
 		"command" "OpenLoadGameDialog"
 		"notmulti" "1"
+		"HelpText" "#GameUI_MainMenu_Hint_LoadGame"
 	}
 	"9"
 	{
@@ -68,12 +69,14 @@
 		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 		"notsingle" "1"
+		"HelpText" "#GameUI_MainMenu_Hint_FindServer"
 	}
 	"12"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"notsingle" "1"
+		"HelpText" "#GameUI_MainMenu_Hint_CreateServer"
 	}
 //	"13"
 //	{
@@ -99,10 +102,12 @@
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
+		"HelpText" "#GameUI_MainMenu_Hint_Configuration"
 	}
 	"17"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
+		"HelpText" "#GameUI_MainMenu_Hint_QuitGame"
 	}
 }
