@@ -16,10 +16,10 @@ Table of contents:
 
 ### General
 
-* Added RPG placement mode [#1](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/1)
-* Added Gauss placement mode [#2](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/2)
-* Added Satchel placement mode [#3](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/3)
-* Added RPG ammo placement mode [#4](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/4)
+* Added RPG placement mode [#1](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/1)
+* Added Gauss placement mode [#2](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/2)
+* Added Satchel placement mode [#3](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/3)
+* Added RPG ammo placement mode [#4](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/4)
 
 ## Models
 
@@ -55,8 +55,8 @@ Table of contents:
 #### Barney
 
 * HD uses Op4 HD mesh as a base
-* Added Op4 and Blue Shift specific sequences [#98](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/98)
-* Added Otis sequences to Barney LD/HD models [#82](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/82)
+* Added Op4 and Blue Shift specific sequences [#98](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/98)
+* Added Otis sequences to Barney LD/HD models [#82](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/82)
 * Changed `otis_range_fire` to use `barney/ba_attack2.wav` instead of `weapons/de_shot1.wav`
 * Reworked finger animations in `otis_range_fire`
 * Removed duplicate gun holster polygons in LD variant
@@ -68,11 +68,11 @@ Table of contents:
 
 #### Big rat
 
-* Removed loop option on sequences `die1` and `jump` [#119](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/119)
-* Removed last frame identical to first one in sequences `die1` and `jump` [#119](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/119)
-* Added polygons under paws [#126](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/126)
-* Reworked sharp edges around paws [#126](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/126)
-* Made forward right paw symmetrical with respect to the others [#126](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/126)
+* Removed loop option on sequences `die1` and `jump` [#119](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/119)
+* Removed last frame identical to first one in sequences `die1` and `jump` [#119](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/119)
+* Added polygons under paws [#126](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/126)
+* Reworked sharp edges around paws [#126](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/126)
+* Made forward right paw symmetrical with respect to the others [#126](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/126)
 
 #### Bullsquid
 
@@ -157,7 +157,7 @@ Table of contents:
 
 #### Human grunt
 
-* Update Human grunt weapon meshes [#86](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/62)
+* Update Human grunt weapon meshes [#86](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/62)
 * Added Blue Shift specific sequences
 * Fixed LD `dragleft` and `dragright` sequences swapped
 * Fixed arm bone lengths in Blue Shift sequences
@@ -340,7 +340,7 @@ Table of contents:
 
 #### Scientist
 
-* Improved HD scientists hitboxes [#81](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/81)
+* Improved HD scientists hitboxes [#81](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/81)
 * Added bodypart items and added clipboard and stick as submodels
 * Added Op4 and Blue Shift specific sequences
 * Added Cleansuit scientist specific sequences
@@ -394,7 +394,7 @@ Table of contents:
 #### Zombies
 
 * Added sequences exclusive to specific zombie models to all zombie model variants
-* Added valid sequences for dummy HD sequences [#26](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/26)
+* Added valid sequences for dummy HD sequences [#26](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/26)
 
 #### Player weapons models
 
@@ -438,7 +438,7 @@ Table of contents:
 
 ##### Displacer
 
-* Reworked fire animation to make the hand correctly follow the handle [#111](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/111)
+* Reworked fire animation to make the hand correctly follow the handle [#111](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/111)
 
 ##### Egon
 
@@ -465,14 +465,14 @@ Table of contents:
 
 ##### Knife
 
-* Lengthen knife LD/HD HEV and guard arms mesh to ensure the viewmodel's end is not seen [#110](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/110)
+* Lengthen knife LD/HD HEV and guard arms mesh to ensure the viewmodel's end is not seen [#110](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/110)
 
 ##### MP5
 
 * Reworked LD Op4/Blue Shift LD MP5 mesh sharp edges
 * Fixed gun attachments in Op4/Blue Shift LD variants
 * Removed unfinished sequence `deploy_2` in Op4/Blue Shift LD variants
-* Fixed LD HEV left arm vertices [#122](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/122)
+* Fixed LD HEV left arm vertices [#122](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/122)
 
 ##### Python
 
@@ -501,7 +501,7 @@ Table of contents:
 
 ##### Shock rifle
 
-* Removed unnecessary polygons [#13](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/13)
+* Removed unnecessary polygons [#13](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/13)
 
 ##### Shotgun
 
@@ -510,12 +510,12 @@ Table of contents:
 
 ##### Snark
 
-* Fixed Snark hand animation [#131](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/131) (Thanks [Ronin4862](https://github.com/Ronin4862))
+* Fixed Snark hand animation [#131](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/131) (Thanks [Ronin4862](https://github.com/Ronin4862))
 
 ##### Spore launcher
 
-* Reworked fire animation to make the hand correctly follow the handle [#104](https://github.com/SamVanheer/halflife-unified-sdk-assets/issues/104)
-* Fixed spore flying off screen in reload animation [#129](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/129)
+* Reworked fire animation to make the hand correctly follow the handle [#104](https://github.com/twhl-community/halflife-unified-sdk-assets/issues/104)
+* Fixed spore flying off screen in reload animation [#129](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/129)
 
 ##### Tripmine
 
@@ -598,9 +598,9 @@ Table of contents:
 
 ### General
 
-* Added custom HUD sprites [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
+* Added custom HUD sprites [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
 * Reworked HUD sprites to reduce the number of sprites used
-* Fixed background pixels that weren't exactly black [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
+* Fixed background pixels that weren't exactly black [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
 * Added variant of Op4 weapons HUD sprites without scanline
 * Added variant of HL1 HUD sprites with scanline
 * Added variant of Blue Shift HUD sprites with scanline
@@ -610,17 +610,17 @@ Table of contents:
 
 #### Crosshairs
 
-* Added missing Op4 crosshairs from `ofch1.spr` [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
+* Added missing Op4 crosshairs from `ofch1.spr` [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
 
 #### CTF
 
-* Replaced third row of `ctf_hud1.spr` with sprites from `ctf_hud2.spr`. [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
+* Replaced third row of `ctf_hud1.spr` with sprites from `ctf_hud2.spr`. [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
 
 #### Nightvision
 
-* Fixed NVG flash empty image width [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
-* Fixed NVG flash full image width [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
+* Fixed NVG flash empty image width [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
+* Fixed NVG flash full image width [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
 
 #### Tripmine
 
-* Fixed `640hud6.spr` tripmine image offset [#114](https://github.com/SamVanheer/halflife-unified-sdk-assets/pull/114)
+* Fixed `640hud6.spr` tripmine image offset [#114](https://github.com/twhl-community/halflife-unified-sdk-assets/pull/114)
