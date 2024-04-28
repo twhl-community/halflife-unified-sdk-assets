@@ -14,80 +14,18 @@ Original internal name:
 
 $modelname "tentacle2.mdl"
 $cd "./"
-$cdtexture "../../textures/tentacle"
-$scale 1.0
-
-$flags 512
-
-$bbox -400.000000 -400.000000 0.000000 400.000000 400.000000 850.000000
-$cbox -400.000000 -400.000000 0.000000 400.000000 400.000000 850.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/TENT2_Template_Biped1"
+$include "includes/bodygroups/ld/body.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Bone09" -110.160004 178.500000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
-// 19 hit box(es)
-$hbox 1 "Bone01" -51.119999 -1.590000 -30.000000 40.630001 121.070000 30.000000
-$hbox 1 "Bone02" -39.840000 0.000000 -25.000000 31.320000 108.889999 25.000000
-$hbox 1 "Bone03" -43.970001 0.000000 -20.000000 21.180000 103.019997 20.000000
-$hbox 1 "Bone04" -34.240002 0.000000 -20.000000 16.820000 79.989998 20.000000
-$hbox 1 "Bone05" -30.000000 -6.420000 -20.000000 16.690001 73.930000 20.000000
-$hbox 1 "Bone06" -28.650000 -4.720000 -20.000000 13.120000 77.570000 20.000000
-$hbox 1 "Bone07" -26.860001 -4.930000 -15.000000 17.809999 68.660004 15.000000
-$hbox 1 "Bone08" -21.139999 0.000000 -13.930000 20.219999 75.000000 12.240000
-$hbox 1 "Bone09" -25.000000 5.000000 -17.700001 20.000000 30.000000 17.030001
-$hbox 2 "Bone09" -50.000000 30.000000 -17.700001 15.000000 105.000000 17.030001
-$hbox 2 "Bone11" 3.280000 -1.390000 -6.040000 16.719999 11.620000 3.690000
-$hbox 2 "Bone12" -0.180000 -0.500000 -0.620000 12.020000 7.470000 14.280000
-$hbox 2 "Bone13" -3.580000 -4.480000 0.860000 -0.370000 0.250000 11.590000
-$hbox 2 "Bone15" -13.860000 -2.110000 -6.210000 0.790000 10.910000 3.530000
-$hbox 2 "Bone16" -9.320000 -0.800000 -0.790000 2.880000 7.160000 12.860000
-$hbox 2 "Bone17" 0.380000 -3.600000 2.110000 3.600000 1.130000 12.840000
-$hbox 3 "Bone09" -60.000000 105.000000 -10.000000 -10.000000 145.000000 10.000000
-$hbox 3 "Bone09" -85.000000 145.000000 -10.000000 -25.000000 165.000000 10.000000
-$hbox 3 "Bone09" -110.160004 165.000000 -10.000000 -65.000000 178.500000 10.000000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 53 animation sequence(s)
-$sequence "Pit_Idle" "animations/Pit_Idle" fps 15 loop node 9 
-$sequence "rise_to_Temp1" "animations/rise_to_Temp1" fps 15 rtransition 9 1 {
-  { event 6 23 } 
-  { event 5002 23 "4" } 
-  { event 6 30 } 
-  { event 5002 30 "4" } 
- }
-$sequence "Temp1_to_Floor" "animations/Temp1_to_Floor" fps 30 transition 1 4 { event 2 26 } { event 5002 26 "4" } 
-$sequence "Floor_Idle" "animations/Floor_Idle" fps 10 loop ACT_1010 5 node 4 { event 6 0 } { event 5002 0 "2" } 
-$sequence "Floor_Fidget_Pissed" "animations/Floor_Fidget_Pissed" fps 10 loop ACT_1010 1 node 4 {
-  { event 6 0 } 
-  { event 5002 0 "2" } 
-  { event 7 5 } 
- }
-$sequence "Floor_Fidget_SmallRise" "animations/Floor_Fidget_SmallRise" fps 10 loop ACT_1010 1 node 4 { event 6 0 } { event 5002 0 "2" } 
-$sequence "Floor_Fidget_Wave" "animations/Floor_Fidget_Wave" fps 10 loop ACT_1010 1 node 4 { event 6 0 } { event 5002 0 "2" } 
-$sequence "Floor_Strike" "animations/Floor_Strike" fps 15 ACT_1030 1 node 4 {
-  { event 5002 0 "2" } 
-  { event 3 6 } 
-  { event 1 8 } 
-  { event 5002 8 "8" } 
-  { event 4 12 } 
- }
-$sequence "Floor_Tap" "animations/Floor_Tap_blend1" "animations/Floor_Tap_blend2" blend X 86 366 fps 15 loop ACT_1020 1 node 4 {
-  { event 6 7 } 
-  { event 5002 7 "4" } 
-  { event 6 13 } 
-  { event 5002 13 "4" } 
-  { event 6 20 } 
-  { event 5002 20 "4" } 
- }
-$sequence "Floor_Rotate" "animations/Floor_Rotate" fps 25 rtransition 4 12 
-$sequence "Floor_Rear" "animations/Floor_Rear" fps 30 rtransition 12 13 
-$sequence "Floor_Rear_Idle" "animations/Floor_Rear_Idle" fps 15 loop ACT_1040 1 node 13 
-$sequence "Floor_to_Lev1" "animations/Floor_to_Lev1" fps 30 transition 4 1 
+$include "includes/animations/ld/animations_1.qci"
 $sequence "Lev1_Idle" "animations/Lev1_Idle" fps 10 loop ACT_1011 5 node 1 
 $sequence "Lev1_Fidget_Claw" "animations/Lev1_Fidget_Claw" fps 10 loop ACT_1011 1 node 1 {
   { event 7 11 } 
@@ -162,16 +100,6 @@ $sequence "Lev3_Tap" "animations/Lev3_Tap_blend1" "animations/Lev3_Tap_blend2" b
 $sequence "Lev3_Rotate" "animations/Lev3_Rotate" fps 25 rtransition 3 10 
 $sequence "Lev3_Rear" "animations/Lev3_Rear" fps 30 rtransition 10 11 
 $sequence "Lev3_Rear_Idle" "animations/Lev3_Rear_Idle" fps 15 loop ACT_1043 1 node 11 
-$sequence "Lev1_Door_reach" "animations/Lev1_Door_reach" fps 15 
-$sequence "Lev3_to_Engine" "animations/Lev3_to_Engine" fps 30 rtransition 11 14 
-$sequence "Engine_Idle" "animations/Engine_Idle" fps 15 loop ACT_1044 1 node 14 
-$sequence "Engine_Sway" "animations/Engine_Sway" fps 15 loop ACT_1044 1 node 14 
-$sequence "Engine_Swat" "animations/Engine_Swat" fps 15 loop ACT_1044 1 node 14 { event 1 8 } { event 5002 8 "12" } 
-$sequence "Engine_Bob" "animations/Engine_Bob" fps 15 loop ACT_1044 1 node 14 
-$sequence "Engine_death1" "animations/Engine_death1" fps 15 node 14 
-$sequence "Engine_death2" "animations/Engine_death2" fps 15 node 14 
-$sequence "Engine_death3" "animations/Engine_death3" fps 15 node 14 
-$sequence "tentacle_grab_idle" "animations/tentacle_grab_idle" fps 1 loop 
-$sequence "tentacle_grab" "animations/tentacle_grab" fps 15 
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.

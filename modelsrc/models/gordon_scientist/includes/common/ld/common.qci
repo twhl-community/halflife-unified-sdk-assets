@@ -1,0 +1,2 @@
+$include "../shared/includes/common/player/ld/gordon/texturepath.qci"
+$include "../shared/includes/common/gordon_scientist/ld/texturepath.qci"

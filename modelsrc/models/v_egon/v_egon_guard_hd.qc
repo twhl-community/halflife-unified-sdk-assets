@@ -14,24 +14,17 @@ Original internal name:
 
 $modelname "v_egon_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_egon"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/hd/v_egon_reference"
+$include "includes/bodygroups/hd/egon.qci"
 
 $body "body" "meshes/hd/v_barney_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "egon" 0.000000 0.000000 17.000000
+$include "includes/attachments/hd/attachments.qci"
 
 // 7 hit box(es)
 $hbox 0 "egon" -6.210000 -2.410000 0.000000 9.750000 3.400000 16.980000
@@ -39,17 +32,6 @@ $hbox 0 "Bip01 L Hand" 0.000000 -1.040000 -1.850000 3.900000 0.820000 1.710000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.870000 -0.470000 2.373625 0.360000 0.900000
 $hbox 0 "L_Arm_bone" -1.850000 -2.510000 -3.310000 2.570000 2.480000 9.180000
 
-// 11 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 30 loop 
-$sequence "fidget1" "animations/hd/fidget1" fps 30 
-$sequence "altfireon" "animations/hd/altfireon" fps 30 
-$sequence "altfirecycle" "animations/hd/altfirecycle" fps 30 loop 
-$sequence "altfireoff" "animations/hd/altfireoff" fps 30 
-$sequence "fire1" "animations/hd/fire1" fps 30 loop 
-$sequence "fire2" "animations/hd/fire2" fps 30 loop 
-$sequence "fire3" "animations/hd/fire3" fps 30 loop 
-$sequence "fire4" "animations/hd/fire4" fps 30 loop 
-$sequence "draw" "animations/hd/draw" fps 30 
-$sequence "holster" "animations/hd/holster" fps 30 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

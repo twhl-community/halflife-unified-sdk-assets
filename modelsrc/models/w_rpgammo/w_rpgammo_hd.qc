@@ -14,27 +14,18 @@ Original internal name:
 
 $modelname "w_rpgammo_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/w_rpgammo"
-$cdtexture "../../textures/viewmodel/v_rpg/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_rpg/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/container"
+$include "includes/bodygroups/ld/container.qci"
 $body "rocket" "meshes/hd/rocket"
 
 
-// 2 hit box(es)
-$hbox 0 "Cylinder01" -4.160000 -3.600000 0.000000 4.160000 3.600000 29.610001
-$hbox 0 "Cylinder03" -4.160000 -3.600000 -2.310000 4.160000 3.600000 2.310000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 2 animation sequence(s)
-$sequence "idle" "animations/idle" fps 30 
-$sequence "capped" "animations/capped" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

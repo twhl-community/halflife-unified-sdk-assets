@@ -14,18 +14,13 @@ Original internal name:
 
 $modelname "v_crowbar_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_crowbar/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_crowbar/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/v_crowbar_reference"
+$include "includes/bodygroups/hd/crowbar.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
@@ -34,17 +29,6 @@ $body "studio" "meshes/hd/v_gordon_hands_reference"
 $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -6.110000 8.290000 2.880000 20.160000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 11 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 13 
-$sequence "draw" "animations/hd/draw" fps 24 
-$sequence "holster" "animations/hd/holster" fps 24 
-$sequence "attack1" "animations/hd/attack1" fps 22 
-$sequence "attack1miss" "animations/hd/attack1miss" fps 22 
-$sequence "attack2" "animations/hd/attack2" fps 22 
-$sequence "attack2hit" "animations/hd/attack2hit" fps 22 
-$sequence "attack3" "animations/hd/attack3" fps 24 
-$sequence "attack3hit" "animations/hd/attack3hit" fps 24 
-$sequence "idle2" "animations/hd/idle2" fps 15 loop 
-$sequence "idle3" "animations/hd/idle3" fps 15 loop 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

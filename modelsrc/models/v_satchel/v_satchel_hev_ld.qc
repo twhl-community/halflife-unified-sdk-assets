@@ -14,14 +14,9 @@ Original internal name:
 
 $modelname "v_satchel_hev_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_satchel/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_satchel/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
@@ -37,10 +32,6 @@ $hbox 0 "Bip01 L Finger0" 0.000000 -0.450000 -0.620000 2.090000 0.740000 0.58000
 $hbox 0 "Dummy22" -0.464522 -3.607854 0.000000 2.239859 2.210740 3.768721
 $hbox 0 "Bone03" -7.400000 -1.640000 -4.610000 2.840000 11.610000 5.320000
 
-// 4 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 20 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "drop" "animations/ld/drop" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

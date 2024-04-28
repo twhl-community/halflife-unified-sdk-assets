@@ -1,0 +1,5 @@
+$texturegroup skinfamilies 
+{
+{ "DC_sci_hands.BMP" }
+{ "DC_sci_hands_black.bmp" }
+}

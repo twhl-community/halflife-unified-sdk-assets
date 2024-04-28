@@ -14,55 +14,31 @@ Original internal name:
 
 $modelname "intro_torch_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/hgrunt_torch/hd"
-$cdtexture "../../textures/hgrunt_torch/ld"
-$cdtexture "../../textures/hgrunt_torch/ld/fatigues"
-$cdtexture "../../textures/hgrunt/hd"
-$cdtexture "../../textures/viewmodel/v_desert_eagle"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 73.000000
+$include "../shared/includes/common/hgrunt_torch/hd/texturepath.qci"
+$include "../shared/includes/common/hgrunt_torch/ld/texturepath.qci"
+$include "../shared/includes/common/hgrunt_torch/ld/fatigues/texturepath.qci"
+$include "../shared/includes/common/hgrunt/hd/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_desert_eagle/ld/texturepath.qci"
+$include "../shared/includes/common/hgrunt/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "../shared/meshes/hgrunt_opfor/hd/grunt_fatigues_reference"
-
-$body "heads" "meshes/ld/engineer_head_reference"
-
-$body "torso" "meshes/hd/engineer_torso_reference"
-
-$body "weapons" "../shared/meshes/hgrunt_opfor/ld/grunt_gunholster_reference"
+$include "../shared/includes/bodygroups/hgrunt_opfor/hd/body.qci"
+$include "includes/bodygroups/ld/heads.qci"
+$include "includes/bodygroups/hd/torso.qci"
+$include "includes/bodygroups/ld/gunholster.qci"
 
 
-// 2 attachment(s)
-$attachment 0 "Bip01 R Hand" 0.000000 0.000000 0.000000
-$attachment 1 "Bip01 Head" 0.000000 0.000000 0.000000
+$include "../shared/includes/attachments/intro_regular/ld/attachments.qci"
 
-// 2 bone controller(s)
-$controller 4 "Bone05" ZR 0.000000 45.000000
-$controller 0 "Bip01 Head" XR -70.000000 70.000000
+$include "../shared/includes/bonecontrollers/hgrunt_opfor/ld/mouth.qci"
+$include "../shared/includes/bonecontrollers/hgrunt/ld/head.qci"
 
-// 21 hit box(es)
-$hbox 0 "Bip01 Pelvis" -3.640000 -6.050000 -8.070000 6.340000 8.410000 8.300000
-$hbox 0 "Bip01 L Leg" 0.000000 -6.350000 -6.050000 16.309999 5.570000 3.840000
-$hbox 0 "Bip01 L Leg1" 0.000000 -5.190000 -4.440000 22.150000 5.680000 4.780000
-$hbox 0 "Bip01 L Foot" -1.080000 -1.900000 -3.240000 3.230000 11.210000 2.860000
-$hbox 0 "Bip01 R Leg" 0.000000 -6.350000 -4.060000 16.309999 5.570000 5.820000
-$hbox 0 "Bip01 R Leg1" 0.000000 -5.190000 -5.010000 22.150000 5.680000 4.220000
-$hbox 0 "Bip01 R Foot" -1.080000 -1.900000 -3.720000 3.230000 11.210000 2.390000
-$hbox 0 "Bip01 Spine1" -4.570000 -9.990000 -10.520000 11.490000 8.420000 10.750000
-$hbox 0 "Bip01 Spine1" -3.570000 -14.990000 -7.520000 19.490000 -6.420000 0.000000
-$hbox 0 "Bip01 Spine2" 0.000000 -10.510000 -11.440000 14.050000 9.260000 12.420000
-$hbox 0 "Bip01 Head" 0.000000 -5.430000 -6.130000 14.660000 9.400000 6.110000
-$hbox 0 "Bip01 L Arm1" -2.810000 -1.990000 -4.740000 12.060000 4.780000 3.500000
-$hbox 0 "Bip01 L Arm2" 0.000000 -1.430000 -2.150000 10.210000 4.010000 2.980000
-$hbox 0 "Bip01 L Hand" -0.270000 -2.650000 -2.750000 7.580000 1.890000 1.800000
-$hbox 0 "Bip01 R Arm1" -2.830000 -1.990000 -3.460000 12.030000 4.780000 4.780000
-$hbox 0 "Bip01 R Arm2" 0.000000 -1.430000 -2.940000 10.190000 4.000000 2.180000
-$hbox 0 "Bip01 R Hand" -0.160000 -2.040000 -1.790000 7.500000 2.400000 2.760000
+$include "../shared/includes/hitboxes/intro_regular/ld/hitboxes_1.qci"
+$include "includes/hitboxes/ld/propanetank_intro.qci"
+$include "../shared/includes/hitboxes/intro_regular/ld/spine2.qci"
+$include "includes/hitboxes/ld/head_intro.qci"
+$include "../shared/includes/hitboxes/intro_regular/ld/hitboxes_2.qci"
 
 // 7 animation sequence(s)
 $sequence "intro_sitting_holster1" "../shared/animations/intro_medic/ld/sitting1" fps 15 loop ACT_IDLE 1 
@@ -71,6 +47,6 @@ $sequence "intro_sitting_holster3" "../shared/animations/intro_medic/ld/sitting3
 $sequence "intro_sitting_holster5" "../shared/animations/intro_medic/ld/sitting5" fps 16 loop ACT_IDLE 1 
 $sequence "intro_sitting_holster6" "../shared/animations/intro_medic/ld/sitting6" fps 16 loop ACT_IDLE 1 
 $sequence "intro_sitting_holster7" "../shared/animations/intro_medic/ld/sitting7" fps 16 loop ACT_IDLE 1 
-$sequence "intro_sitting_cower2" "../shared/animations/intro_torch/ld/cower" fps 30 { event 1000 1 } { event 1001 1 } 
+$include "../shared/includes/animations/intro_torch/ld/intro_sitting_cower2.qci"
 
 // End of QC script.

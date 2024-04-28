@@ -14,57 +14,22 @@ Original internal name:
 
 $modelname "v_saw_hev_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_saw"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "v_saw"
+$include "includes/bodygroups/ld/saw.qci"
 
 $body "studio" "v_saw_hands_reference_hev_ld"
 
-$bodygroup "rounds"
-{
-studio "tfc_sniper_8rounds"
-studio "tfc_sniper_7rounds"
-studio "tfc_sniper_6rounds"
-studio "tfc_sniper_5rounds"
-studio "tfc_sniper_4rounds"
-studio "tfc_sniper_3rounds"
-studio "tfc_sniper_2rounds"
-studio "tfc_sniper_1round"
-studio "tfc_sniper_0rounds"
-}
+$include "includes/bodygroups/ld/rounds.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "Hands biped R Hand" 12.000000 1.250000 13.750000
+$include "includes/attachments/ld/attachments.qci"
 
-// 8 hit box(es)
-$hbox 0 "box_04" -3.970000 -32.090000 -0.423038 2.380000 2.910000 11.250000
-$hbox 0 "Object02" -1.120000 0.000000 -1.110000 1.210000 9.710000 0.890000
-$hbox 0 "saw_clipbox" -4.110000 -1.740000 -3.360000 4.110000 1.750000 3.370000
-$hbox 0 "Hands biped L Forearm" -0.420000 -2.220000 -1.280000 11.990000 2.720000 2.020000
-$hbox 0 "Hands biped L Hand" 0.000000 -1.100000 -2.230000 3.980000 0.920000 1.970000
-$hbox 0 "Hands biped L Finger0" 0.000000 -0.880000 -0.580000 2.660000 0.490000 1.000000
-$hbox 0 "Hands biped L Finger1" 0.000000 -0.730000 -0.710000 1.250000 0.390000 0.300000
-$hbox 0 "Hands biped L Finger31" 0.000000 -0.730000 -0.480000 1.193682 0.480000 0.580000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "slowidle" "slowidle" fps 20 loop 
-$sequence "idle2" "idle2" fps 25 loop 
-$sequence "reload1_1" "reload1_1" fps 40 { event 5004 1 "weapons/saw_reload.wav" } 
-$sequence "reload1_2" "reload1_2" fps 45 { event 5004 0 "weapons/saw_reload2.wav" } 
-$sequence "holster" "holster" fps 30 
-$sequence "draw" "draw" fps 30 
-$sequence "shoot_1" "shoot_1" fps 30 { event 5001 0 "20" } 
-$sequence "shoot_2" "shoot_2" fps 30 { event 5001 0 "20" } 
-$sequence "shoot_3" "shoot_3" fps 30 { event 5001 0 "20" } 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

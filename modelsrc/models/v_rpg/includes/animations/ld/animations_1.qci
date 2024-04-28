@@ -1,0 +1,2 @@
+$sequence "idle" "animations/ld/idle" fps 15 loop
+$sequence "fidget" "animations/ld/fidget" fps 15 loop

@@ -1,0 +1,7 @@
+$body "body" "player_template_biped(No_Head)1"
+
+$bodygroup "head"
+{
+studio "player_template_biped(Gordon_Head)1"
+studio "player_template_biped(Helmet)1"
+}

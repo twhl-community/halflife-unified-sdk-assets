@@ -14,49 +14,20 @@ Original internal name:
 
 $modelname "v_displacer_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_displacer"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "displacer_reference"
+$include "includes/bodygroups/ld/displacer.qci"
 
 $body "body" "displacer_hands_reference_hev_hd"
 
 
-// 4 attachment(s)
-$attachment 0 "spinner" 20.000000 0.000000 0.000000
-$attachment 1 "reflector01" 0.000000 -2.000000 0.000000
-$attachment 2 "reflector02" 0.000000 -2.000000 0.000000
-$attachment 3 "reflector03" 0.000000 -2.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
-// 12 hit box(es)
-$hbox 0 "Bip01 L Forearm" -0.530000 -1.520000 -3.110000 11.368421 2.090000 1.560000
-$hbox 0 "Bip01 L Hand" 0.000000 -1.150000 -2.140000 3.789475 0.770000 1.850000
-$hbox 0 "Bip01 L Finger0" 0.000000 -0.870000 -0.510000 2.440000 0.440000 0.990000
-$hbox 0 "Bip01 L Finger21" 0.000000 -0.640000 -0.710000 1.326317 0.460000 0.390000
-$hbox 0 "Bip01 L Finger31" 0.000000 -0.650000 -0.460000 1.136843 0.510000 0.550000
-$hbox 0 "Bone01" -6.130000 -18.070000 -3.160000 9.950000 4.580000 7.440000
-$hbox 0 "Bone10" -2.385619 -8.638719 -2.637438 2.306428 0.000000 0.000000
-$hbox 0 "blast_emitter" -5.000000 0.000000 -0.860000 5.020000 1.770000 3.770000
-$hbox 0 "spinner" -3.520000 -3.290000 -3.510000 3.520000 0.060000 3.530000
-$hbox 0 "Bone07" -0.060000 -1.550000 -0.030000 1.040000 0.000000 1.070000
-$hbox 0 "Bone08" 0.000000 -1.410000 -0.010000 1.370000 0.000000 1.150000
-$hbox 0 "Bone09" 0.000000 -1.090000 -0.170000 1.550000 0.000000 1.040000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 7 animation sequence(s)
-$sequence "idle1" "idle1" fps 30 loop 
-$sequence "idle2" "idle2" fps 30 loop 
-$sequence "spinup" "spinup" fps 30 loop 
-$sequence "spin" "spin" fps 30 loop 
-$sequence "fire" "fire" fps 30 
-$sequence "draw" "draw" fps 15 
-$sequence "holster1" "holster1" fps 15 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

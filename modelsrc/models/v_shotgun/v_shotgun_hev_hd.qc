@@ -14,24 +14,17 @@ Original internal name:
 
 $modelname "v_shotgun_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_shotgun"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/v_spas12_reference_test"
+$include "includes/bodygroups/hd/shotgun.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 30.000000 1.000000 6.000000
+$include "includes/attachments/ld/attachments.qci"
 
 // 11 hit box(es)
 $hbox 0 "Bip01 L Hand" 0.000000 -0.960000 -1.820000 3.910000 0.900000 1.710000
@@ -46,16 +39,6 @@ $hbox 0 "Bip01 R Hand" 0.000000 -0.990000 -1.710000 3.920000 0.870000 1.820000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.940000 -1.000000 2.450000 0.390000 0.540000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 10 animation sequence(s)
-$sequence "sm_idle" "animations/hd/sm_idle" fps 9 loop 
-$sequence "shoot" "animations/hd/shoot" fps 30 { event 5001 0 "31" } 
-$sequence "shoot_big" "animations/hd/shoot_big" fps 30 { event 5001 0 "41" } 
-$sequence "reload" "animations/hd/reload" fps 16 
-$sequence "pump" "animations/hd/pump" fps 30 
-$sequence "start_reload" "animations/hd/start_reload" fps 12 
-$sequence "draw" "animations/hd/draw" fps 24 
-$sequence "reholster" "animations/hd/reholster" fps 30 
-$sequence "idle4" "animations/hd/idle4" fps 9 loop 
-$sequence "deepidle" "animations/hd/deepidle" fps 12 loop 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

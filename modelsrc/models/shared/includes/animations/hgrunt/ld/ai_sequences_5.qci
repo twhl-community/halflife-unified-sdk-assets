@@ -1,0 +1,2 @@
+$sequence "180L" "../shared/animations/hgrunt/ld/180L" fps 12 ACT_TURN_LEFT 1 
+$sequence "180R" "../shared/animations/hgrunt/ld/180R" fps 12 ACT_TURN_RIGHT 1 

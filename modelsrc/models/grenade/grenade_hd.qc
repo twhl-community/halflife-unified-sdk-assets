@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "grenade_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/grenade"
+$include "../shared/includes/common/grenade/ld/texturepath.qci"
 $scale 1.0
 
 

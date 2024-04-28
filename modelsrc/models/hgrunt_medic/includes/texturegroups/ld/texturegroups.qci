@@ -1,0 +1,5 @@
+$texturegroup skinfamilies
+{
+{ "medic_head.BMP" }
+{ "medic_head_blk.bmp" }
+}

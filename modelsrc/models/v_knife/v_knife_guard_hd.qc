@@ -14,40 +14,17 @@ Original internal name:
 
 $modelname "v_knife_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_knife"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "v_knife_reference"
+$include "includes/bodygroups/ld/knife.qci"
 
 $body "studio" "v_knife_hands_reference_guard_hd"
 
-// 4 hit box(es)
-$hbox 0 "Bip01 R Forearm" -7.690000 -3.650000 -3.590000 11.368423 3.170000 3.810000
-$hbox 0 "Bip01 R Hand" -1.840000 -1.710000 -1.860000 3.789474 2.800000 2.180000
-$hbox 0 "Bip01 R Finger31" 0.000000 -0.750000 -0.550000 1.136844 0.400000 0.460000
-$hbox 0 "Knife" -0.690000 -1.820000 -3.590000 0.690000 1.820000 13.200000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 13 animation sequence(s)
-$sequence "idle1" "idle1" fps 13 
-$sequence "draw" "draw" fps 24 
-$sequence "holster" "holster" fps 24 
-$sequence "attack1" "attack1" fps 22 
-$sequence "attack1miss" "attack1miss" fps 22 { event 1004 1 "weapons/knife1" } 
-$sequence "attack2" "attack2" fps 22 { event 1004 1 "weapons/knife2" } 
-$sequence "attack2hit" "attack2hit" fps 22 
-$sequence "attack3" "attack3" fps 24 { event 1004 1 "weapons/knife3" } 
-$sequence "attack3hit" "attack3hit" fps 24 
-$sequence "idle2" "idle2" fps 15 loop 
-$sequence "idle3" "idle3" fps 15 loop 
-$sequence "charge" "charge" fps 30 
-$sequence "stab" "stab" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

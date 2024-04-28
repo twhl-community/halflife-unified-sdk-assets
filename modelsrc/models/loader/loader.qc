@@ -14,7 +14,7 @@ Original internal name:
 
 $modelname "loader.mdl"
 $cd "./"
-$cdtexture "../../textures/loader"
+$include "../shared/includes/common/loader/ld/texturepath.qci"
 $scale 1.0
 
 

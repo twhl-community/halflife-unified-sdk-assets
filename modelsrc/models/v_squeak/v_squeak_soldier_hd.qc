@@ -15,20 +15,15 @@ Original internal name:
 $modelname "v_squeak_soldier_hd.mdl"
 $cd "./"
 $cdtexture "meshes/hd"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_squeak/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_squeak/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "body" "meshes/hd/v_soldier_hands_reference"
 
-$body "body" "meshes/hd/v_snark_reference"
+$include "includes/bodygroups/hd/squeak.qci"
 
 
 // 18 hit box(es)
@@ -51,12 +46,6 @@ $hbox 0 "Bip02 R UpperArm" 0.000000 -0.590000 -0.410000 1.860000 0.490000 0.6200
 $hbox 0 "Bip02 Neck1" 0.000000 -0.840000 -1.260000 1.740000 1.410000 1.450000
 $hbox 0 "Bip02 Head" -0.153153 -0.580000 -0.450000 1.410000 0.620000 0.640000
 
-// 6 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 16 loop 
-$sequence "fidgetfit" "animations/hd/fidgetfit" fps 16 
-$sequence "fidgetnip" "animations/hd/fidgetnip" fps 16 
-$sequence "down" "animations/hd/down" fps 16 
-$sequence "up" "animations/hd/up" fps 30 
-$sequence "throw" "animations/hd/throw" fps 24 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

@@ -14,21 +14,16 @@ Original internal name:
 
 $modelname "v_satchel_guard_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/guard"
-$cdtexture "../../textures/viewmodel/v_satchel/ld"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/guard/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_satchel/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "studio" "meshes/ld/v_barney_hands_reference"
 
-$body "studio" "meshes/ld/satchel_charge"
+$include "includes/bodygroups/ld/satchel.qci"
 
 
 // 5 hit box(es)
@@ -38,10 +33,6 @@ $hbox 0 "Bip01 L Finger0" 0.000000 -0.870000 -0.470000 2.480000 0.350000 0.90000
 $hbox 0 "Dummy22" -0.464522 -3.607854 0.000000 2.239860 2.210740 3.768721
 $hbox 0 "Bone03" -7.400000 -1.640000 -4.610000 2.840000 11.610000 5.320000
 
-// 4 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 20 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "drop" "animations/ld/drop" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

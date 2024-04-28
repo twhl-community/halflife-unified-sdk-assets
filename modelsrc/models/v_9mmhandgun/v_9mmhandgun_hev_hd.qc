@@ -14,32 +14,21 @@ Original internal name:
 
 $modelname "v_9mmhandgun_hev_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$cdtexture "../../textures/viewmodel/v_9mmhandgun/hd"
-$cdtexture "../../textures/viewmodel/v_9mmhandgun/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_9mmhandgun/hd/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_9mmhandgun/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "studio" "meshes/hd/v_beretta_reference"
+$include "includes/bodygroups/hd/beretta.qci"
 
 $body "studio" "meshes/hd/v_gordon_hands_reference"
 
-$body "studio" "meshes/hd/clip_reference"
+$include "includes/bodygroups/hd/clip.qci"
+$include "includes/bodygroups/hd/silencer.qci"
 
-$bodygroup "silencer"
-{
-blank
-studio "meshes/hd/v_beretta_silencer_reference"
-}
-
-// 1 attachment(s)
-$attachment 0 "Bip01 R Hand" 12.000000 2.000000 5.000000
+$include "includes/attachments/hd/attachments.qci"
 
 // 8 hit box(es)
 $hbox 0 "Hands mesh" -0.880000 -6.500000 -6.790000 1.240000 3.550000 2.760000
@@ -47,15 +36,6 @@ $hbox 0 "Bip01 L Hand" 0.000000 -0.960000 -2.060000 3.910000 0.900000 1.710000
 $hbox 0 "L_Arm_bone" -1.920000 -2.640000 -2.300000 2.760000 2.490000 7.980000
 $hbox 0 "R_Arm_bone" -2.620000 -2.640000 -2.290000 2.060000 2.490000 7.990000
 
-// 9 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 16 loop 
-$sequence "idle2" "animations/hd/idle2" fps 16 loop 
-$sequence "idle3" "animations/hd/idle3" fps 14 loop 
-$sequence "shoot" "animations/hd/shoot" fps 28 { event 5001 0 "11" } 
-$sequence "shoot_empty" "animations/hd/shoot_empty" fps 28 { event 5001 0 "11" } 
-$sequence "reload" "animations/hd/reload" fps 25 { event 5004 4 "items/9mmclip2.wav" } { event 5004 23 "items/9mmclip1.wav" } 
-$sequence "reload_noshot" "animations/hd/reload_noshot" fps 25 { event 5004 4 "items/9mmclip2.wav" } { event 5004 23 "items/9mmclip1.wav" } 
-$sequence "draw" "animations/hd/draw" fps 20 
-$sequence "holster" "animations/hd/holster" fps 20 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

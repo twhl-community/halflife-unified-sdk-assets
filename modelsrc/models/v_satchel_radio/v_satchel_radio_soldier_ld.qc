@@ -14,21 +14,16 @@ Original internal name:
 
 $modelname "v_satchel_radio_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_satchel_radio/ld"
-$cdtexture "../../textures/viewmodel/hands/hev"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_satchel_radio/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/hands/hev/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "body" "meshes/ld/v_soldier_hands_reference"
 
-$body "body" "meshes/ld/satchel_radio_detonator"
+$include "includes/bodygroups/ld/detonator.qci"
 
 
 // 6 hit box(es)
@@ -37,11 +32,6 @@ $hbox 0 "Bip01 R Hand" -1.630000 -1.150000 -1.840000 3.800000 2.409613 2.140000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.840000 -1.120000 2.373624 0.350000 0.430000
 $hbox 0 "Dummy22" -1.920000 -0.760000 -2.010000 1.720000 0.900000 9.860000
 
-// 5 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "fidget1" "animations/ld/fidget1" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
-$sequence "fire" "animations/ld/fire" fps 30 
-$sequence "holster" "animations/ld/holster" fps 30 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

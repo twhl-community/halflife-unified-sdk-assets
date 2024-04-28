@@ -1,0 +1,5 @@
+$bodygroup "scope"
+{
+blank
+studio "meshes/ld/python_lasersight"
+}

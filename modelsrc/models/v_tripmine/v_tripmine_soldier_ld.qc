@@ -14,14 +14,8 @@ Original internal name:
 
 $modelname "v_tripmine_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/w_tripmine"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
@@ -30,10 +24,7 @@ $bodygroup "hands"
 studio "meshes/ld/v_soldier_hands_reference"
 }
 
-$bodygroup "mine"
-{
-studio "meshes/ld/tripmine_mine"
-}
+$include "includes/bodygroups/ld/tripmine.qci"
 
 
 // 9 hit box(es)
@@ -46,13 +37,8 @@ $hbox 0 "Bip01 R Hand" 0.000000 -1.100000 -1.760000 3.830000 0.820000 2.230000
 $hbox 0 "Bip01 R Finger0" 0.000000 -0.810000 -1.220000 2.600000 0.490000 0.340000
 $hbox 0 "Bip01 R Finger31" 0.000000 -0.820000 -0.450000 1.260000 0.320000 0.680000
 
-// 9 animation sequence(s)
-$sequence "idle1" "animations/ld/idle1" fps 30 loop 
-$sequence "idle2" "animations/ld/idle2" fps 30 loop 
-$sequence "arm1" "animations/ld/arm1" fps 60 
-$sequence "place" "animations/ld/place" fps 30 
-$sequence "fidget" "animations/ld/fidget" fps 30 loop 
-$sequence "holster" "animations/ld/holster" fps 30 
-$sequence "draw" "animations/ld/draw" fps 30 
+$include "includes/animations/ld/animations_1.qci"
+$include "includes/animations/ld/fidget.qci"
+$include "includes/animations/ld/animations_2.qci"
 
 // End of QC script.

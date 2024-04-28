@@ -14,40 +14,20 @@ Original internal name:
 
 $modelname "v_gauss_soldier_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_gauss/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "body" "meshes/ld/gauss_gun"
+$include "includes/bodygroups/ld/gauss.qci"
 
 $body "body" "meshes/ld/v_soldier_hands_reference"
 
 
-// 1 attachment(s)
-$attachment 0 "Gauss Master" 17.000000 -1.000000 0.000000
+$include "includes/attachments/ld/attachments.qci"
 
-// 4 hit box(es)
-$hbox 0 "Gauss Master" -7.870000 -5.000000 -5.450000 16.980000 3.700000 2.680000
-$hbox 0 "Spinner" -3.020000 -1.750000 -2.480000 0.000000 2.550000 2.480000
-$hbox 0 "Bip01 L Arm2" 0.000000 -2.800000 -1.730000 11.680000 3.020000 4.000000
-$hbox 0 "Bip01 L Hand" 0.000000 -0.870000 -1.940000 3.890000 1.030000 1.790000
+$include "includes/hitboxes/ld/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "idle" "animations/ld/idle" fps 15 loop 
-$sequence "idle2" "animations/ld/idle2" fps 15 loop 
-$sequence "fidget" "animations/ld/fidget" fps 30 
-$sequence "spinup" "animations/ld/spinup" fps 30 loop 
-$sequence "spin" "animations/ld/spin" fps 30 loop 
-$sequence "fire" "animations/ld/fire" fps 30 
-$sequence "fire2" "animations/ld/fire2" fps 30 
-$sequence "holster" "animations/ld/holster" fps 45 
-$sequence "draw" "animations/ld/draw" fps 60 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

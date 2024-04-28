@@ -15,20 +15,15 @@ Original internal name:
 $modelname "v_satchel_soldier_hd.mdl"
 $cd "./"
 $cdtexture "meshes/hd"
-$cdtexture "../../textures/viewmodel/hands/soldier"
-$cdtexture "../../textures/viewmodel/v_satchel/hd"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/hands/soldier/ld/texturepath.qci"
+$include "../shared/includes/common/viewmodel/v_satchel/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
 $body "body" "meshes/hd/v_soldier_hands_reference"
 
-$body "body" "meshes/hd/satchel_charge"
+$include "includes/bodygroups/hd/satchel.qci"
 
 
 // 12 hit box(es)
@@ -39,10 +34,6 @@ $hbox 0 "Bone01" -0.836786 -0.240000 -2.177715 0.450000 1.124343 0.040000
 $hbox 0 "Bip01 L Finger0" 0.000000 -0.840000 -0.550000 2.540000 0.460000 1.160000
 $hbox 0 "L_Arm_bone" -0.930000 -1.610000 -2.880000 1.520000 1.600000 0.000000
 
-// 4 animation sequence(s)
-$sequence "idle1" "animations/hd/idle1" fps 20 loop 
-$sequence "fidget1" "animations/hd/fidget1" fps 30 
-$sequence "draw" "animations/hd/draw" fps 30 
-$sequence "drop" "animations/hd/drop" fps 30 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

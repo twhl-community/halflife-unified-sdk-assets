@@ -1,0 +1,1 @@
+$sequence "cower_die" "../shared/animations/scientists/ld/cower_die" fps 25 loop { event 1000 0 }

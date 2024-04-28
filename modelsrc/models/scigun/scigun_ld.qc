@@ -14,13 +14,7 @@ Original internal name:
 
 $modelname "scigun_ld.mdl"
 $cd "./"
-$cdtexture "../../textures/w_shotgun"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
@@ -30,9 +24,6 @@ $body "studio" "meshes/scigun"
 // 1 hit box(es)
 $hbox 0 "Dummy01" -2.430000 -1.620000 -1.350000 4.350000 19.090000 1.300000
 
-// 3 animation sequence(s)
-$sequence "idle" "animations/idle" fps 30 
-$sequence "onguard" "animations/onguard" fps 12 loop 
-$sequence "seeya" "animations/seeya" AX AY AZR fps 33 
+$include "includes/animations/ld/animations.qci"
 
 // End of QC script.

@@ -1,0 +1,3 @@
+$sequence "walk1" "../shared/animations/hgrunt/ld/walk1" LX fps 30 loop ACT_WALK 1 
+$sequence "run" "../shared/animations/hgrunt/ld/run" LX fps 30 loop ACT_RUN 1 
+$sequence "victorydance" "../shared/animations/hgrunt/ld/victorydance" fps 21 ACT_VICTORY_DANCE 1 

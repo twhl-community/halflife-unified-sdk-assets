@@ -14,37 +14,18 @@ Original internal name:
 
 $modelname "v_gauss_guard_hd.mdl"
 $cd "./"
-$cdtexture "../../textures/viewmodel/v_gauss/hd"
-$cdtexture "../../textures/viewmodel/v_gauss/ld"
-$scale 1.0
-
-
-$bbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$cbox 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$eyeposition 0.000000 0.000000 0.000000
+$include "../shared/includes/common/viewmodel/v_gauss/hd/texturepath.qci"
+$include "includes/common/ld/common.qci"
 
 
 //reference mesh(es)
-$body "gun" "meshes/hd/v_gauss_reference"
+$include "includes/bodygroups/hd/gauss.qci"
 
 
-// 1 attachment(s)
-$attachment 0 "GaussMesh" -1.500000 -17.000000 0.000000
+$include "includes/attachments/hd/attachments.qci"
 
-// 3 hit box(es)
-$hbox 0 "Bip01 R Hand" 0.000000 0.000000 0.000000 1.135289 1.147308 4.113231
-$hbox 0 "GaussMesh" -4.080000 -15.460000 -3.800000 4.080000 4.090000 6.180000
-$hbox 0 "Object02" -2.480000 -1.130000 -1.710000 2.480000 1.140000 2.600000
+$include "includes/hitboxes/hd/hitboxes.qci"
 
-// 9 animation sequence(s)
-$sequence "idle" "animations/hd/idle" fps 15 loop 
-$sequence "idle2" "animations/hd/idle2" fps 15 loop 
-$sequence "fidget" "animations/hd/fidget" fps 30 
-$sequence "spinup" "animations/hd/spinup" fps 30 loop 
-$sequence "spin" "animations/hd/spin" fps 30 loop 
-$sequence "fire" "animations/hd/fire" fps 30 
-$sequence "fire2" "animations/hd/fire2" fps 30 
-$sequence "holster" "animations/hd/holster" fps 45 
-$sequence "draw" "animations/hd/draw" fps 60 
+$include "includes/animations/hd/animations.qci"
 
 // End of QC script.

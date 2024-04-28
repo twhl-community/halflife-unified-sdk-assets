@@ -1,0 +1,5 @@
+$bodygroup "needle"
+{
+blank
+studio "../shared/meshes/scientists/ld/SCI2_Template_Biped(Needle_Hand)1"
+}
